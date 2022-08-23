@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 23/08/2022 18:34:40",
+    "name": "Canales Acestream 23/08/2022 18:36:01",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -230,26 +230,6 @@
                     "embed": "false"
                 },
                 {
-                    "name": "# Vamos",
-                    "url": "acestream://ca86f83140bb8a399e637a385722a02834bfb753",
-                    "embed": "false"
-                },
-                {
-                    "name": "# Vamos 1080",
-                    "url": "acestream://069431a1199eb2545a14c0a724095e57bdc58e9c",
-                    "embed": "false"
-                },
-                {
-                    "name": "# Vamos HD",
-                    "url": "acestream://63ff4cc7d4a49fa600534f941ca490a0fb03d48b",
-                    "embed": "false"
-                },
-                {
-                    "name": "#VAMOS",
-                    "url": "acestream://01933dd05dd583ab7bb0b56dcd8b225ca20d5df6",
-                    "embed": "false"
-                },
-                {
                     "name": "Barça HD",
                     "url": "acestream://65c141632af256d70da66c767ba74360042b4396",
                     "embed": "false"
@@ -355,11 +335,6 @@
                     "embed": "false"
                 },
                 {
-                    "name": "Vamos",
-                    "url": "acestream://4a92829d3999190dcc11118c5388132b19ac5175",
-                    "embed": "false"
-                },
-                {
                     "name": "beIN SPORTS ñ 1080",
                     "url": "acestream://52d37ff3be2cbbaba92fb0da2abf7c9c4c4568ca",
                     "embed": "false"
@@ -372,6 +347,37 @@
                 {
                     "name": "tdp 1080  (TeleDeporte)",
                     "url": "acestream://a537d162cb8c5cfa72c09be09ecac69e2f2cc535",
+                    "embed": "false"
+                }
+            ]
+        },
+        {
+            "name": "Vamos",
+            "image": "https://i.ibb.co/dgqH0nP/Vamos.jpg",
+            "stations": [
+                {
+                    "name": "# Vamos",
+                    "url": "acestream://ca86f83140bb8a399e637a385722a02834bfb753",
+                    "embed": "false"
+                },
+                {
+                    "name": "# Vamos 1080",
+                    "url": "acestream://069431a1199eb2545a14c0a724095e57bdc58e9c",
+                    "embed": "false"
+                },
+                {
+                    "name": "# Vamos HD",
+                    "url": "acestream://63ff4cc7d4a49fa600534f941ca490a0fb03d48b",
+                    "embed": "false"
+                },
+                {
+                    "name": "#VAMOS",
+                    "url": "acestream://01933dd05dd583ab7bb0b56dcd8b225ca20d5df6",
+                    "embed": "false"
+                },
+                {
+                    "name": "Vamos",
+                    "url": "acestream://4a92829d3999190dcc11118c5388132b19ac5175",
                     "embed": "false"
                 }
             ]

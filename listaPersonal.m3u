@@ -28,15 +28,15 @@ acestream://a0465ef421f30d0c68ff706654147762ec7b6c03
 acestream://c372020ed2744033f56548b6beb11a9f3e740f37
 #EXTINF:-1 group-title="DAZN" tvg-id="DAZN F1 720 (Fórmula 1)", DAZN F1 720 (Fórmula 1)
 acestream://12e7fb26141ec4a6d99588e0e870a1a441b37f83
-#EXTINF:-1 group-title="DAZN" tvg-id="DAZN LaLiga HD", DAZN LaLiga HD
-acestream://2c74c51c7847acfe2b8fe4ade0677afeb156afd4
 #EXTINF:-1 group-title="DAZN" tvg-id="DAZN1_720", DAZN1_720
 acestream://dfe2be8e254ceb5b2bd990b9d9877ebcc01e51da
-#EXTINF:-1 group-title="DAZN" tvg-id="Dazn La Liga", Dazn La Liga
+#EXTINF:-1 group-title="DAZN LaLiga" tvg-id="DAZN LaLiga HD", DAZN LaLiga HD
+acestream://2c74c51c7847acfe2b8fe4ade0677afeb156afd4
+#EXTINF:-1 group-title="DAZN LaLiga" tvg-id="Dazn La Liga", Dazn La Liga
 acestream://0e0fa349701524bf0cb7418dd12ed36fbd8ab29a
-#EXTINF:-1 group-title="DAZN" tvg-id="Dazn Liga 1080 MultiAudio", Dazn Liga 1080 MultiAudio
+#EXTINF:-1 group-title="DAZN LaLiga" tvg-id="Dazn Liga 1080 MultiAudio", Dazn Liga 1080 MultiAudio
 acestream://df98650743f24a245c44cdf2851e57078f4c487a
-#EXTINF:-1 group-title="DAZN" tvg-id="Dazn Liga 720", Dazn Liga 720
+#EXTINF:-1 group-title="DAZN LaLiga" tvg-id="Dazn Liga 720", Dazn Liga 720
 acestream://c35d2207792128fc0ae49c40e885c463f664dbce
 #EXTINF:-1 group-title="M. Deportes" tvg-id="M. Deportes 1080", M. Deportes 1080
 acestream://49acacbbbcf33be6e843958ceedc7da8dd4f1486

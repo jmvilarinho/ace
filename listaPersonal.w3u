@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 23/08/2022 18:26:54",
+    "name": "Canales Acestream 23/08/2022 18:27:52",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -91,13 +91,19 @@
                     "embed": "false"
                 },
                 {
-                    "name": "DAZN LaLiga HD",
-                    "url": "acestream://2c74c51c7847acfe2b8fe4ade0677afeb156afd4",
-                    "embed": "false"
-                },
-                {
                     "name": "DAZN1_720",
                     "url": "acestream://dfe2be8e254ceb5b2bd990b9d9877ebcc01e51da",
+                    "embed": "false"
+                }
+            ]
+        },
+        {
+            "name": "DAZN LaLiga",
+            "image": "https://i.ibb.co/d541mDr/DAZN-La-Liga.jpg",
+            "stations": [
+                {
+                    "name": "DAZN LaLiga HD",
+                    "url": "acestream://2c74c51c7847acfe2b8fe4ade0677afeb156afd4",
                     "embed": "false"
                 },
                 {
@@ -116,11 +122,6 @@
                     "embed": "false"
                 }
             ]
-        },
-        {
-            "name": "DAZN LaLiga",
-            "image": "https://i.ibb.co/d541mDr/DAZN-La-Liga.jpg",
-            "stations": []
         },
         {
             "name": "M. Deportes",

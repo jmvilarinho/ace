@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 23/08/2022 19:10:39",
+    "name": "Canales Acestream 23/08/2022 19:14:53",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -166,17 +166,6 @@
                 {
                     "name": "M. Deportes 8 SD",
                     "url": "acestream://b779e6056975e3682a804d47cbd5cc806217f64d",
-                    "embed": "false"
-                }
-            ]
-        },
-        {
-            "name": "enlaces",
-            "image": "https://dropwww.com/img/links.png",
-            "stations": [
-                {
-                    "name": "Antonieta.ga",
-                    "url": "acestream://https://antionieta.ga",
                     "embed": "false"
                 }
             ]

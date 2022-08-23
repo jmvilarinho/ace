@@ -54,8 +54,6 @@ acestream://478833f6390f04e95c6d94180a784b78ad540d2f
 acestream://5da3c25c14d111cb9c33cf6e0b45b7cab88fe741
 #EXTINF:-1 group-title="M. Deportes" tvg-id="M. Deportes 8 SD", M. Deportes 8 SD
 acestream://b779e6056975e3682a804d47cbd5cc806217f64d
-#EXTINF:-1 group-title="enlaces" tvg-id="Antonieta.ga", Antonieta.ga
-acestream://https://antionieta.ga
 #EXTINF:-1 group-title="ESPN" tvg-id="ESPN 2 720", ESPN 2 720
 acestream://5ae9afd963961cd07e8f690e44a6596a2bb4e51e
 #EXTINF:-1 group-title="M. La Liga" tvg-id="LaLiga Tv Bar 1080", LaLiga Tv Bar 1080

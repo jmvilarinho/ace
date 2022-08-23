@@ -1,13 +1,13 @@
 {
-    "name": "Canales Acestream 23/08/2022 18:14:03",
+    "name": "Canales Acestream 23/08/2022 18:23:06",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://dlpure.com/wp-content/uploads/2020/11/1604916446-300x300.png",
     "groups": [
         {
-            "name": "campeones",
-            "image": "https://todonexus.com/wp-content/uploads/Como-ordenar-los-canales-en-Movistar-tv.jpg",
+            "name": "M.L. Campeones",
+            "image": "https://i.ibb.co/5KjsjJW/Campeones.jpg",
             "stations": [
                 {
                     "name": "M.L. Campeones 1080",
@@ -47,8 +47,8 @@
             ]
         },
         {
-            "name": "dazn",
-            "image": "https://todonexus.com/wp-content/uploads/Como-ordenar-los-canales-en-Movistar-tv.jpg",
+            "name": "DAZN",
+            "image": "https://i.ibb.co/NZjMkfL/DAZN1.jpg",
             "stations": [
                 {
                     "name": "DAZN 1 1080",
@@ -118,8 +118,13 @@
             ]
         },
         {
-            "name": "deportes",
-            "image": "https://todonexus.com/wp-content/uploads/Como-ordenar-los-canales-en-Movistar-tv.jpg",
+            "name": "DAZN LaLiga",
+            "image": "https://i.ibb.co/d541mDr/DAZN-La-Liga.jpg",
+            "stations": []
+        },
+        {
+            "name": "M. Deportes",
+            "image": "https://i.ibb.co/pQDH7Xz/Deportes.jpg",
             "stations": [
                 {
                     "name": "M. Deportes 1080",
@@ -159,8 +164,8 @@
             ]
         },
         {
-            "name": "laliga",
-            "image": "https://todonexus.com/wp-content/uploads/Como-ordenar-los-canales-en-Movistar-tv.jpg",
+            "name": "M. La Liga",
+            "image": "https://i.ibb.co/cybDs0J/La-Liga-Smart-Bank.jpg",
             "stations": [
                 {
                     "name": "LaLiga Tv Bar 1080",
@@ -215,8 +220,8 @@
             ]
         },
         {
-            "name": "otros",
-            "image": "https://todonexus.com/wp-content/uploads/Como-ordenar-los-canales-en-Movistar-tv.jpg",
+            "name": "Otros",
+            "image": "http://otxarkoaga.es/wp-content/uploads/logo_tdt.gif",
             "stations": [
                 {
                     "name": "# 0",

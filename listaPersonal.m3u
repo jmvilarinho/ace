@@ -52,6 +52,8 @@ acestream://478833f6390f04e95c6d94180a784b78ad540d2f
 acestream://5da3c25c14d111cb9c33cf6e0b45b7cab88fe741
 #EXTINF:-1 group-title="M. Deportes" tvg-id="M. Deportes 8 SD", M. Deportes 8 SD
 acestream://b779e6056975e3682a804d47cbd5cc806217f64d
+#EXTINF:-1 group-title="ESPN" tvg-id="ESPN 2 720", ESPN 2 720
+acestream://5ae9afd963961cd07e8f690e44a6596a2bb4e51e
 #EXTINF:-1 group-title="M. La Liga" tvg-id="LaLiga Tv Bar 1080", LaLiga Tv Bar 1080
 acestream://01b333b9369c662775902638ef8cffac346a0f61
 #EXTINF:-1 group-title="M. La Liga" tvg-id="LaLiga Tv Bar 720", LaLiga Tv Bar 720
@@ -86,8 +88,6 @@ acestream://bbd20072e7123a3ac6dd156c5e67789d8ed1bcfa
 acestream://8bc9696c5b07b723186ac224f5269f02db6dde8e
 #EXTINF:-1 group-title="Otros" tvg-id="Canal La Liga", Canal La Liga
 acestream://c7cc72281e59c94bccbb84dba6ae5bbab554ad3b
-#EXTINF:-1 group-title="Otros" tvg-id="ESPN 2 720", ESPN 2 720
-acestream://5ae9afd963961cd07e8f690e44a6596a2bb4e51e
 #EXTINF:-1 group-title="Otros" tvg-id="EuroSport 1 1080", EuroSport 1 1080
 acestream://40da37534656efcc6179c1b7693335d5e8212e43
 #EXTINF:-1 group-title="Otros" tvg-id="EuroSport 2 1080", EuroSport 2 1080
@@ -106,10 +106,6 @@ acestream://29e2e33e0bee34dd96f1966cfcc0b433f9987fd2
 acestream://693eaac59852e51d467dc88a890be2456230935d
 #EXTINF:-1 group-title="Otros" tvg-id="National Geographic", National Geographic
 acestream://887d91ccc27fd4f3097d6df09448ea7bac8910f4
-#EXTINF:-1 group-title="Otros" tvg-id="Smartbank 1080 MultiAudio", Smartbank 1080 MultiAudio
-acestream://d4fa689e575f7626c8b136c9ad8685b945d3cccf
-#EXTINF:-1 group-title="Otros" tvg-id="Smartbank 720", Smartbank 720
-acestream://24b85e8cdd5031e6752a8da2d1c8bbee19b0b3b3
 #EXTINF:-1 group-title="Otros" tvg-id="Sport Tv 1 1080", Sport Tv 1 1080
 acestream://56bb17b376ec52b5e58679d87ed2bd9e70be2175
 #EXTINF:-1 group-title="Otros" tvg-id="Sport Tv 2 1080", Sport Tv 2 1080
@@ -118,10 +114,14 @@ acestream://b402a5fc3d93860c7f4a9c46463ff5469b6436f6
 acestream://3c81c395fc9385c650e0fba8c286935c594f7e1a
 #EXTINF:-1 group-title="Otros" tvg-id="beIN SPORTS ñ 1080", beIN SPORTS ñ 1080
 acestream://52d37ff3be2cbbaba92fb0da2abf7c9c4c4568ca
-#EXTINF:-1 group-title="Otros" tvg-id="smartbank 2 1080", smartbank 2 1080
-acestream://d475208e72b5a343080afa0724c7b7c42264b9a0
 #EXTINF:-1 group-title="Otros" tvg-id="tdp 1080  (TeleDeporte)", tdp 1080  (TeleDeporte)
 acestream://a537d162cb8c5cfa72c09be09ecac69e2f2cc535
+#EXTINF:-1 group-title="L. Smart Bank" tvg-id="Smartbank 1080 MultiAudio", Smartbank 1080 MultiAudio
+acestream://d4fa689e575f7626c8b136c9ad8685b945d3cccf
+#EXTINF:-1 group-title="L. Smart Bank" tvg-id="Smartbank 720", Smartbank 720
+acestream://24b85e8cdd5031e6752a8da2d1c8bbee19b0b3b3
+#EXTINF:-1 group-title="L. Smart Bank" tvg-id="smartbank 2 1080", smartbank 2 1080
+acestream://d475208e72b5a343080afa0724c7b7c42264b9a0
 #EXTINF:-1 group-title="Vamos" tvg-id="# Vamos", # Vamos
 acestream://ca86f83140bb8a399e637a385722a02834bfb753
 #EXTINF:-1 group-title="Vamos" tvg-id="# Vamos 1080", # Vamos 1080

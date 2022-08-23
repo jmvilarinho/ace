@@ -1,5 +1,9 @@
 {
-    "name": "Canales by Vila, 23/08/2022 17:29:12",
+    "name": "Canales Acestream 23/08/2022 17:35:43",
+    "author": "Vila",
+    "info": "Canales extraidos de Telegram",
+    "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
+    "image": "http://otxarkoaga.es/wp-content/uploads/logo_tdt.gif",
     "stations": [
         {
             "name": "# 0",

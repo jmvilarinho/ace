@@ -56,10 +56,6 @@ acestream://5da3c25c14d111cb9c33cf6e0b45b7cab88fe741
 acestream://b779e6056975e3682a804d47cbd5cc806217f64d
 #EXTINF:-1 group-title="ESPN" tvg-id="ESPN 2 720", ESPN 2 720
 acestream://5ae9afd963961cd07e8f690e44a6596a2bb4e51e
-#EXTINF:-1 group-title="M. La Liga" tvg-id="LaLiga Tv Bar 1080", LaLiga Tv Bar 1080
-acestream://01b333b9369c662775902638ef8cffac346a0f61
-#EXTINF:-1 group-title="M. La Liga" tvg-id="LaLiga Tv Bar 720", LaLiga Tv Bar 720
-acestream://fce88ddb0aca4a0869ecd23bdf0bddc288d95260
 #EXTINF:-1 group-title="M. La Liga" tvg-id="LaLiga_720", LaLiga_720
 acestream://d8512e64f34a117afb656f5c66cf8d88023c9570
 #EXTINF:-1 group-title="M. La Liga" tvg-id="M. LaLiga", M. LaLiga
@@ -76,6 +72,10 @@ acestream://df139bbcd7ae6825b46d5955c52d639f1215346a
 acestream://894752653acf2be34d9c8ae3b42f3894f58d1a74
 #EXTINF:-1 group-title="M. La Liga" tvg-id="M. LaLiga_720", M. LaLiga_720
 acestream://d8512e64f34a117afb656f5c66cf8d88023c9570
+#EXTINF:-1 group-title="L.L. TV Bar" tvg-id="LaLiga Tv Bar 1080", LaLiga Tv Bar 1080
+acestream://01b333b9369c662775902638ef8cffac346a0f61
+#EXTINF:-1 group-title="L.L. TV Bar" tvg-id="LaLiga Tv Bar 720", LaLiga Tv Bar 720
+acestream://fce88ddb0aca4a0869ecd23bdf0bddc288d95260
 #EXTINF:-1 group-title="Otros" tvg-id="# 0", # 0
 acestream://864fc1be34bdedc4bc2c7bb92098c61df8e9c7c2
 #EXTINF:-1 group-title="Otros" tvg-id="Barça HD", Barça HD

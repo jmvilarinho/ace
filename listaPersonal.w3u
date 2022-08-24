@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 24/08/2022 11:24:58",
+    "name": "Canales Acestream 24/08/2022 11:38:49",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -186,16 +186,6 @@
             "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-movistar-laliga.png",
             "stations": [
                 {
-                    "name": "LaLiga Tv Bar 1080",
-                    "url": "acestream://01b333b9369c662775902638ef8cffac346a0f61",
-                    "embed": "false"
-                },
-                {
-                    "name": "LaLiga Tv Bar 720",
-                    "url": "acestream://fce88ddb0aca4a0869ecd23bdf0bddc288d95260",
-                    "embed": "false"
-                },
-                {
                     "name": "LaLiga_720",
                     "url": "acestream://d8512e64f34a117afb656f5c66cf8d88023c9570",
                     "embed": "false"
@@ -233,6 +223,22 @@
                 {
                     "name": "M. LaLiga_720",
                     "url": "acestream://d8512e64f34a117afb656f5c66cf8d88023c9570",
+                    "embed": "false"
+                }
+            ]
+        },
+        {
+            "name": "L.L. TV Bar",
+            "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-la-liga-tv-bar.png",
+            "stations": [
+                {
+                    "name": "LaLiga Tv Bar 1080",
+                    "url": "acestream://01b333b9369c662775902638ef8cffac346a0f61",
+                    "embed": "false"
+                },
+                {
+                    "name": "LaLiga Tv Bar 720",
+                    "url": "acestream://fce88ddb0aca4a0869ecd23bdf0bddc288d95260",
                     "embed": "false"
                 }
             ]

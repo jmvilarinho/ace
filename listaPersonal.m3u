@@ -114,6 +114,10 @@ acestream://56bb17b376ec52b5e58679d87ed2bd9e70be2175
 acestream://b402a5fc3d93860c7f4a9c46463ff5469b6436f6
 #EXTINF:-1 group-title="Outros" tvg-id="Sport Tv 3", Sport Tv 3
 acestream://3c81c395fc9385c650e0fba8c286935c594f7e1a
+#EXTINF:-1 group-title="Outros" tvg-id="Telecinco", Telecinco
+acestream://3441c0e7a316b4e19b818f546aaa480cfa90bd83
+#EXTINF:-1 group-title="Outros" tvg-id="Teledporte", Teledporte
+acestream://7be891a4f76e8736827cae4113444bac419405d3
 #EXTINF:-1 group-title="Outros" tvg-id="beIN SPORTS ñ 1080", beIN SPORTS ñ 1080
 acestream://52d37ff3be2cbbaba92fb0da2abf7c9c4c4568ca
 #EXTINF:-1 group-title="Outros" tvg-id="tdp 1080  (TeleDeporte)", tdp 1080  (TeleDeporte)

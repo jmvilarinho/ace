@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 24/08/2022 13:06:47",
+    "name": "Canales Acestream 24/08/2022 21:24:00",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -403,6 +403,18 @@
                 {
                     "name": "Sport Tv 3",
                     "url": "acestream://3c81c395fc9385c650e0fba8c286935c594f7e1a",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Telecinco",
+                    "url": "acestream://3441c0e7a316b4e19b818f546aaa480cfa90bd83",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Teledporte",
+                    "url": "acestream://7be891a4f76e8736827cae4113444bac419405d3",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
                     "embed": "false"
                 },

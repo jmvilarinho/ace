@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 24/08/2022 11:38:49",
+    "name": "Canales Acestream 24/08/2022 11:41:21",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -87,6 +87,17 @@
                     "embed": "false"
                 },
                 {
+                    "name": "DAZN1_720",
+                    "url": "acestream://dfe2be8e254ceb5b2bd990b9d9877ebcc01e51da",
+                    "embed": "false"
+                }
+            ]
+        },
+        {
+            "name": "DAZN F1",
+            "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-dazn-formula-1.png",
+            "stations": [
+                {
                     "name": "DAZN F1 1080 (Fórmula 1)",
                     "url": "acestream://c372020ed2744033f56548b6beb11a9f3e740f37",
                     "embed": "false"
@@ -94,11 +105,6 @@
                 {
                     "name": "DAZN F1 720 (Fórmula 1)",
                     "url": "acestream://12e7fb26141ec4a6d99588e0e870a1a441b37f83",
-                    "embed": "false"
-                },
-                {
-                    "name": "DAZN1_720",
-                    "url": "acestream://dfe2be8e254ceb5b2bd990b9d9877ebcc01e51da",
                     "embed": "false"
                 }
             ]

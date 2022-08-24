@@ -72,9 +72,9 @@ acestream://df139bbcd7ae6825b46d5955c52d639f1215346a
 acestream://894752653acf2be34d9c8ae3b42f3894f58d1a74
 #EXTINF:-1 group-title="M. La Liga" tvg-id="M. LaLiga_720", M. LaLiga_720
 acestream://d8512e64f34a117afb656f5c66cf8d88023c9570
-#EXTINF:-1 group-title="L.L. TV Bar" tvg-id="LaLiga Tv Bar 1080", LaLiga Tv Bar 1080
+#EXTINF:-1 group-title="L. TV Bar" tvg-id="LaLiga Tv Bar 1080", LaLiga Tv Bar 1080
 acestream://01b333b9369c662775902638ef8cffac346a0f61
-#EXTINF:-1 group-title="L.L. TV Bar" tvg-id="LaLiga Tv Bar 720", LaLiga Tv Bar 720
+#EXTINF:-1 group-title="L. TV Bar" tvg-id="LaLiga Tv Bar 720", LaLiga Tv Bar 720
 acestream://fce88ddb0aca4a0869ecd23bdf0bddc288d95260
 #EXTINF:-1 group-title="Outros" tvg-id="# 0", # 0
 acestream://864fc1be34bdedc4bc2c7bb92098c61df8e9c7c2
@@ -118,11 +118,11 @@ acestream://3c81c395fc9385c650e0fba8c286935c594f7e1a
 acestream://52d37ff3be2cbbaba92fb0da2abf7c9c4c4568ca
 #EXTINF:-1 group-title="Outros" tvg-id="tdp 1080  (TeleDeporte)", tdp 1080  (TeleDeporte)
 acestream://a537d162cb8c5cfa72c09be09ecac69e2f2cc535
-#EXTINF:-1 group-title="L. Smart Bank" tvg-id="Smartbank 1080 MultiAudio", Smartbank 1080 MultiAudio
+#EXTINF:-1 group-title="L. SmartBank" tvg-id="Smartbank 1080 MultiAudio", Smartbank 1080 MultiAudio
 acestream://d4fa689e575f7626c8b136c9ad8685b945d3cccf
-#EXTINF:-1 group-title="L. Smart Bank" tvg-id="Smartbank 720", Smartbank 720
+#EXTINF:-1 group-title="L. SmartBank" tvg-id="Smartbank 720", Smartbank 720
 acestream://24b85e8cdd5031e6752a8da2d1c8bbee19b0b3b3
-#EXTINF:-1 group-title="L. Smart Bank" tvg-id="smartbank 2 1080", smartbank 2 1080
+#EXTINF:-1 group-title="L. SmartBank" tvg-id="smartbank 2 1080", smartbank 2 1080
 acestream://d475208e72b5a343080afa0724c7b7c42264b9a0
 #EXTINF:-1 group-title="Vamos" tvg-id="# Vamos", # Vamos
 acestream://ca86f83140bb8a399e637a385722a02834bfb753

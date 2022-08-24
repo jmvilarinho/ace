@@ -1,14 +1,14 @@
 {
-    "name": "Canales Acestream 23/08/2022 22:17:58",
+    "name": "Canales Acestream 24/08/2022 11:24:58",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
-    "image": "https://dlpure.com/wp-content/uploads/2020/11/1604916446-300x300.png",
-    "telegram": "Ids para Acestream",
+    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
+    "telegram": "@raxo007",
     "groups": [
         {
             "name": "M.L. Campeones",
-            "image": "https://img.sport-tv-guide.live/images/tv-station-moviestar-liga-de-campeones-1459.png",
+            "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-moviestar-liga-de-campeones.png",
             "stations": [
                 {
                     "name": "M.L. Campeones",
@@ -54,7 +54,7 @@
         },
         {
             "name": "DAZN",
-            "image": "https://img.sport-tv-guide.live/images/tv-station-dazn-espana-1686.png",
+            "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-dazn-espana.png",
             "stations": [
                 {
                     "name": "DAZN 1 1080",
@@ -105,7 +105,7 @@
         },
         {
             "name": "DAZN LaLiga",
-            "image": "https://i.ibb.co/d541mDr/DAZN-La-Liga.jpg",
+            "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-dazn-laliga.png",
             "stations": [
                 {
                     "name": "DAZN LaLiga HD",
@@ -131,7 +131,7 @@
         },
         {
             "name": "M. Deportes",
-            "image": "https://i.ibb.co/pQDH7Xz/Deportes.jpg",
+            "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-movistar-deportes.png",
             "stations": [
                 {
                     "name": "M. Deportes 1080",
@@ -172,7 +172,7 @@
         },
         {
             "name": "ESPN",
-            "image": "https://i.ibb.co/48fKHMB/ESPN.jpg",
+            "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-us-espn.png",
             "stations": [
                 {
                     "name": "ESPN 2 720",
@@ -183,7 +183,7 @@
         },
         {
             "name": "M. La Liga",
-            "image": "https://img.sport-tv-guide.live/images/tv-station-movistar-laliga-1841.png",
+            "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-movistar-laliga.png",
             "stations": [
                 {
                     "name": "LaLiga Tv Bar 1080",
@@ -239,7 +239,7 @@
         },
         {
             "name": "Otros",
-            "image": "http://otxarkoaga.es/wp-content/uploads/logo_tdt.gif",
+            "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
             "stations": [
                 {
                     "name": "# 0",
@@ -350,7 +350,7 @@
         },
         {
             "name": "L. Smart Bank",
-            "image": "https://i.ibb.co/cybDs0J/La-Liga-Smart-Bank.jpg",
+            "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-laliga-smartbank.png",
             "stations": [
                 {
                     "name": "Smartbank 1080 MultiAudio",
@@ -371,7 +371,7 @@
         },
         {
             "name": "Vamos",
-            "image": "https://i.ibb.co/dgqH0nP/Vamos.jpg",
+            "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-vamos.png",
             "stations": [
                 {
                     "name": "# Vamos",

@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 29/08/2022 10:04:38",
+    "name": "Canales Acestream 29/08/2022 10:07:56",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -469,14 +469,9 @@
             ]
         },
         {
-            "name": "Outra lista",
+            "name": "Lista Ramses",
             "url": "https://tinyurl.com/26dk9byu",
             "embed": "true"
-        },
-        {
-            "name": "Outra lista 2",
-            "url": "https://tinyurl.com/26dk9byu",
-            "embed": "false"
         }
     ]
 }

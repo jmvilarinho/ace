@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 29/08/2022 23:54:58",
+    "name": "Canales Acestream 30/08/2022 23:10:11",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -343,12 +343,6 @@
                 {
                     "name": "LA 1 1080",
                     "url": "acestream://b41d52a733be6f4709db3bdf33e260de2b67d27a",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "Liga",
-                    "url": "acestream://018db6ce82cde11284073c72a523868bfd91a0e1",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
                     "embed": "false"
                 },

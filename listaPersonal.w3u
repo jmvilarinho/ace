@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 31/08/2022 11:32:51",
+    "name": "Canales Acestream 31/08/2022 14:18:45",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -468,14 +468,9 @@
             "embed": "true"
         },
         {
-            "name": "photocall",
-            "url": "https://photocall.tv/",
-            "embed": "false"
-        },
-        {
-            "name": "NBA",
-            "url": "http://live.tv247.club/tv247/nba.m3u8",
-            "embed": "false"
+            "name": "NBA TV",
+            "url": "http://51.161.84.67/LB2022_NBA_TV/index.m3u8",
+            "embed": "true"
         }
     ]
 }

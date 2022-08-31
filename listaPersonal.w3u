@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 31/08/2022 22:48:39",
+    "name": "Canales Acestream 31/08/2022 23:21:06",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -264,12 +264,6 @@
             "stations": [
                 {
                     "name": "NBA TV",
-                    "url": "acestream://9a310e80ea389df040a350587f1619d620cfe8a8",
-                    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/1200px-NBA_TV.svg.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "NBA TV 2",
                     "url": "acestream://e72d03fb9694164317260f684470be9ab781ed95",
                     "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/1200px-NBA_TV.svg.png",
                     "embed": "false"

@@ -1176,7 +1176,9 @@ https://moiptvhls-i.akamaihd.net/hls/live/652042/secure/master.m3u8
 https://moiptvhls-i.akamaihd.net/hls/live/652312/secure/master.m3u8
 #EXTINF:-1 tvg-id="NBA.TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/1200px-NBA_TV.svg.png" group-title="Deportivos Int." tvg-name="NBA TV",NBA TV
 http://51.161.84.67/LB2022_NBA_TV/index.m3u8
-#EXTINF:-1 tvg-id="NBATVHD.us", tvg-logo="https://i.imgur.com/MpMtUlK.png" group-title="Deportivos Int.", NBA TV
+#EXTINF:-1 tvg-id="NBA.TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/1200px-NBA_TV.svg.png" group-title="Deportivos Int." tvg-name="NBA TV 2",NBA TV 2
+http://live.tv247.club/tv247/nba.m3u8
+#EXTINF:-1 tvg-id="NBATVHD.us", tvg-logo="https://i.imgur.com/MpMtUlK.png" group-title="Deportivos Int.", NBA TV 3
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey

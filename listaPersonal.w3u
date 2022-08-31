@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 31/08/2022 22:19:58",
+    "name": "Canales Acestream 31/08/2022 22:48:39",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -259,6 +259,30 @@
             ]
         },
         {
+            "name": "NBA",
+            "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/1200px-NBA_TV.svg.png",
+            "stations": [
+                {
+                    "name": "NBA TV",
+                    "url": "acestream://9a310e80ea389df040a350587f1619d620cfe8a8",
+                    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/1200px-NBA_TV.svg.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "NBA TV 2",
+                    "url": "acestream://e72d03fb9694164317260f684470be9ab781ed95",
+                    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/1200px-NBA_TV.svg.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "NBA TV HD",
+                    "url": "acestream://b3be1797428861d8f01f89809b6b4ac9295965b5",
+                    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/1200px-NBA_TV.svg.png",
+                    "embed": "false"
+                }
+            ]
+        },
+        {
             "name": "Outros",
             "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
             "stations": [
@@ -325,24 +349,6 @@
                 {
                     "name": "NAT GEO HD",
                     "url": "acestream://887d91ccc27fd4f3097d6df09448ea7bac8910f4",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "NBA TV",
-                    "url": "acestream://9a310e80ea389df040a350587f1619d620cfe8a8",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "NBA TV 2",
-                    "url": "acestream://e72d03fb9694164317260f684470be9ab781ed95",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "NBA TV HD",
-                    "url": "acestream://b3be1797428861d8f01f89809b6b4ac9295965b5",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -429,11 +435,6 @@
         {
             "name": "Lista Ramses",
             "url": "https://tinyurl.com/26dk9byu",
-            "embed": "true"
-        },
-        {
-            "name": "NBA TV",
-            "url": "http://51.161.84.67/LB2022_NBA_TV/index.m3u8",
             "embed": "true"
         }
     ]

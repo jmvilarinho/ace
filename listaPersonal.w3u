@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 31/08/2022 08:12:44",
+    "name": "Canales Acestream 31/08/2022 08:19:07",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -466,16 +466,6 @@
             "name": "Lista Ramses",
             "url": "https://tinyurl.com/26dk9byu",
             "embed": "true"
-        },
-        {
-            "name": "NBA TV",
-            "url": "http://51.161.84.67/LB2022_NBA_TV/tracks-v1a1/mono.m3u8",
-            "embed": "true"
-        },
-        {
-            "name": "NBA TV 2",
-            "url": "http://51.161.84.67/LB2022_NBA_TV/index.m3u8",
-            "userAgent": "VLC/3.0.0-git LibVLC/3.0.0-git"
         }
     ]
 }

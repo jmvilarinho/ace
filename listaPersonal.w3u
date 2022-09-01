@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 01/09/2022 20:22:23",
+    "name": "Canales Acestream 01/09/2022 21:40:20",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -197,8 +197,26 @@
             "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-us-espn.png",
             "stations": [
                 {
+                    "name": "ESPN",
+                    "url": "acestream://2492f8aa7cd7c4800e7b22c4ecba05e34c18be00",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-us-espn.png",
+                    "embed": "false"
+                },
+                {
                     "name": "ESPN 2 720",
                     "url": "acestream://5ae9afd963961cd07e8f690e44a6596a2bb4e51e",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-us-espn.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "ESPN2",
+                    "url": "acestream://e40b29774fdfd953751a71f5695f647726623b9d",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-us-espn.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "ESPN3",
+                    "url": "acestream://b97f5975dbd067655432512d4693b417bc85a714",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-us-espn.png",
                     "embed": "false"
                 }
@@ -262,12 +280,6 @@
             "name": "NBA",
             "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-us-nba-tv.png",
             "stations": [
-                {
-                    "name": "NBA TV",
-                    "url": "acestream://e72d03fb9694164317260f684470be9ab781ed95",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-us-nba-tv.png",
-                    "embed": "false"
-                },
                 {
                     "name": "NBA TV 2",
                     "url": "acestream://E72D03FB9694164317260F684470BE9AB781ED95",

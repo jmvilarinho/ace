@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 02/09/2022 09:10:26",
+    "name": "Canales Acestream 02/09/2022 09:11:49",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -279,7 +279,14 @@
         {
             "name": "NBA",
             "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-us-nba-tv.png",
-            "stations": []
+            "stations": [
+                {
+                    "name": "NBA TV",
+                    "url": "acestream://e72d03fb9694164317260f684470be9ab781ed95",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-us-nba-tv.png",
+                    "embed": "false"
+                }
+            ]
         },
         {
             "name": "Outros",

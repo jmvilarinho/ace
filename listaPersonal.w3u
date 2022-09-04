@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 04/09/2022 22:07:36",
+    "name": "Canales Acestream 04/09/2022 22:08:32",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -91,6 +91,12 @@
                 {
                     "name": "Dazn 1 HD",
                     "url": "acestream://26fde3b656ab412ce1bea40f20bb45d67c519013",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-dazn-espana.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Dazn1 720",
+                    "url": "acestream://`9f27ea73230f9c65034601636dbfe39de43a8212`",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-dazn-espana.png",
                     "embed": "false"
                 }
@@ -227,6 +233,12 @@
                     "embed": "false"
                 },
                 {
+                    "name": "ESPN URUGUAY",
+                    "url": "acestream://`2492f8aa7cd7c4800e7b22c4ecba05e34c18be00`",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-us-espn.png",
+                    "embed": "false"
+                },
+                {
                     "name": "ESPN Uruguay",
                     "url": "acestream://2492f8aa7cd7c4800e7b22c4ecba05e34c18be00",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-us-espn.png",
@@ -239,8 +251,26 @@
                     "embed": "false"
                 },
                 {
+                    "name": "ESPN2 URUGUAY",
+                    "url": "acestream://`e40b29774fdfd953751a71f5695f647726623b9d`",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-us-espn.png",
+                    "embed": "false"
+                },
+                {
                     "name": "ESPN3",
                     "url": "acestream://b97f5975dbd067655432512d4693b417bc85a714",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-us-espn.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "ESPN3 URUGUAY",
+                    "url": "acestream://`b97f5975dbd067655432512d4693b417bc85a714`",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-us-espn.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "espn argentina",
+                    "url": "acestream://`8d065adeb9603cb93a080930a45eb5bd457483c6`",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-us-espn.png",
                     "embed": "false"
                 }
@@ -343,6 +373,12 @@
                 {
                     "name": "DirecTv Ecuador",
                     "url": "acestream://f3f14b89eb62839f97153593432370b5bd61a5df",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Directv ECUADOR",
+                    "url": "acestream://`f3f14b89eb62839f97153593432370b5bd61a5df`",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
                     "embed": "false"
                 },

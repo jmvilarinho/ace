@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 04/09/2022 00:12:23",
+    "name": "Canales Acestream 04/09/2022 21:47:30",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -415,12 +415,6 @@
                 {
                     "name": "beIN SPORTS ñ 1080",
                     "url": "acestream://52d37ff3be2cbbaba92fb0da2abf7c9c4c4568ca",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "tdp 1080  (TeleDeporte)",
-                    "url": "acestream://a537d162cb8c5cfa72c09be09ecac69e2f2cc535",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
                     "embed": "false"
                 },

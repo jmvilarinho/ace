@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 05/09/2022 08:28:36",
+    "name": "Canales Acestream 05/09/2022 08:32:50",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -139,12 +139,6 @@
                 {
                     "name": "Dazn Liga 720",
                     "url": "acestream://c35d2207792128fc0ae49c40e885c463f664dbce",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-dazn-laliga.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "b          <article id=_tl_editor class=tl_article_content><h1>El diario<br></h1><address><br></address><p>Se informa que el medio mas r\\xc3\\xa1pido y fiable va ser este. Se actualiza de forma peri\\xc3\\xb3dica.</p><p>03/09/2022</p><p>espn argentina\\xc2\\xa0</p><p>`8d065adeb9603cb93a080930a45eb5bd457483c6`</p><p>02/09/2022</p><p>Directv ECUADOR</p><p>`f3f14b89eb62839f97153593432370b5bd61a5df`</p><p>01/09/2022</p><p>Dazn1 720</p><p>`9f27ea73230f9c65034601636dbfe39de43a8212`</p><p>ESPN URUGUAY</p><p>`2492f8aa7cd7c4800e7b22c4ecba05e34c18be00`</p><p>ESPN2 URUGUAY</p><p>`e40b29774fdfd953751a71f5695f647726623b9d`</p><p>ESPN3 URUGUAY</p><p>`b97f5975dbd067655432512d4693b417bc85a714`<br class=inline></p><p><br></p><p>Grupo ACEStream_Spanish</p><p>Lista</p><p>Dazn Liga 1080 MultiAudio</p><p>`df98650743f24a245c44cdf2851e57078f4c487a`</p><p>Dazn Liga 720\\xc2\\xa0</p><p>`c35d2207792128fc0ae49c40e885c463f664dbce`</p><p>LaLiga Tv Bar 1080</p><p>`01b333b9369c662775902638ef8cffac346a0f61`</p><p>LaLiga Tv Bar 720</p><p>`fce88ddb0aca4a0869ecd23bdf0bddc288d95260`</p><p>M. LaLiga 1080 MultiAudio</p><p>`167e3b44a520cd76d4372f6d30fe6d7ccd524175`</p><p>M. LaLiga 1080</p><p>`c22bfcc2a70b2a3f447d9b30c52e617946b03888`</p><p>M. LaLiga 720</p><p>`df139bbcd7ae6825b46d5955c52d639f1215346a`</p><p>M. LaLiga 1 1080</p><p>`4229d640fecf3c0897674241bcf851b67f4310e3`</p><p>Smartbank 1080 MultiAudio</p><p>`d4fa689e575f7626c8b136c9ad8685b945d3cccf`</p><p>Smartbank 720</p><p>`24b85e8cdd5031e6752a8da2d1c8bbee19b0b3b3`</p><p># Vamos 1080</p><p>`069431a1199eb2545a14c0a724095e57bdc58e9c`</p><p>M. Deportes 1080</p><p>`49acacbbbcf33be6e843958ceedc7da8dd4f1486`</p><p>M. Deportes 21080</p><p>`c47f756750190e4b2a9eefe8afdac48a2203b8d6`</p><p>M. Deportes 3 1080</p><p>`85bd65161dfd8c4033194da3c978c0450c9111db`</p><p>M. Deportes 4 1080</p><p>`0c8935087510ee1c5117243a6cc46f9d6d795faf`</p><p>M. Deportes 5 1080</p><p>`478833f6390f04e95c6d94180a784b78ad540d2f`</p><p>M. Deportes 7 1080</p><p>`5da3c25c14d111cb9c33cf6e0b45b7cab88fe741`</p><p>M. Deportes 8 SD</p><p>`b779e6056975e3682a804d47cbd5cc806217f64d`</p><p>M.L. Campeones 1080</p><p>`aedf221240a0f8513d90b555bf1b6e5306ac1e76`</p><p>M.L. Campeones 720</p><p>`f8d89bf80b813631e6eb85fc8c185b00fe9ab88d`</p><p>M.L. Campeones 2 1080</p><p>`9b76d0739f87555ccd3f42fc8e548762a0b94c28`</p><p>M.L. Campeones 3 1080</p><p>`f2b785193cfa99c581287be39e2fb5a73827957b`</p><p>M.L. Campeones 4 SD</p><p>`a5d22610cb7bd5608c14249e3984bacb54dfe487`</p><p>M.L. Campeones 5 SD</p><p>`8446f55486c0d8c39c7dda19f8dfb071ddca4c94`</p><p>M. Golf 1080</p><p>`4f945b0ba4206fa2676b61e9eaa465ac3dcc8122`</p><p>DAZN 1 1080</p><p>`d4d4200a1e52fc23940b2dde915600af7e9a6b05`</p><p>DAZN 1 720</p><p>`9f27ea73230f9c65034601636dbfe39de43a8212`</p><p>DAZN 2 1080</p><p>`42fea4e172bf3debe0e004260bdd077fe0b4f58e`</p><p>DAZN 2 720</p><p>`6709a124e9ec6c95d35496cfa59d8ba24ff2cfaf`</p><p>DAZN 3 1080</p><p>`bfbcda5a0999256360ce560caf2a6473aafc3f11`</p><p>DAZN 4 1080</p><p>`a0465ef421f30d0c68ff706654147762ec7b6c03`</p><p>DAZN F1 1080 (F\\xc3\\xb3rmula 1)</p><p>`c372020ed2744033f56548b6beb11a9f3e740f37`</p><p>DAZN F1 1080 (F\\xc3\\xb3rmula 1)</p><p>`5c2c4c9d12d5ae042d41f886edfd2bfd3cec18a2`</p><p>DAZN F1 720 (F\\xc3\\xb3rmula 1)</p><p>`5853ff69c8588fe23ff5555261d4a43e6ad2f1ae`</p><p>GOL TV 1080</p><p>`49c35606668ebf7a895434ec4c9243a163d87718`</p><p>EuroSport 1 1080</p><p>`40da37534656efcc6179c1b7693335d5e8212e43`</p><p>EuroSport 2 1080</p><p>`1954779c721fc7d87eb6d7df7ab11bf751cebb3b`</p><p>tdp 1080\\xc2\\xa0(TeleDeporte)\\xc2\\xa0</p><p>`a537d162cb8c5cfa72c09be09ecac69e2f2cc535`</p><p>LA 1 1080</p><p>`b41d52a733be6f4709db3bdf33e260de2b67d27a`</p><p>CUATRO 1080</p><p>`e8eec35f4662be1af96963245bfa88fb7d0242c4`</p><p># 0</p><p>`864fc1be34bdedc4bc2c7bb92098c61df8e9c7c2`</p><p>Sport Tv 1 1080</p><p>`56bb17b376ec52b5e58679d87ed2bd9e70be2175`</p><p>Sport Tv 2 1080</p><p>`b402a5fc3d93860c7f4a9c46463ff5469b6436f6`</p><p>Sport Tv 3\\xc2\\xa0</p><p>`3c81c395fc9385c650e0fba8c286935c594f7e1a`</p><p>beIN SPORTS \\xc3\\xb1 1080</p><p>`52d37ff3be2cbbaba92fb0da2abf7c9c4c4568ca`<br class=inline><br class=inline></p><p>Bar\\xc3\\xa7a HD</p><p>`65c141632af256d70da66c767ba74360042b4396`</p><p>ESPN</p><p>`2492f8aa7cd7c4800e7b22c4ecba05e34c18be00`</p><p>ESPN2</p><p>`e40b29774fdfd953751a71f5695f647726623b9d`</p><p>ESPN3</p><p>`b97f5975dbd067655432512d4693b417bc85a714`</p><p>Directv</p><p>`f3f14b89eb62839f97153593432370b5bd61a5df`</p><p>ESPN argentina\\xc2\\xa0</p><p>`",
-                    "url": "acestream://8d065adeb9603cb93a080930a45eb5bd457483c6",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-dazn-laliga.png",
                     "embed": "false"
                 }
@@ -415,12 +409,6 @@
                 {
                     "name": "Sport Tv 3",
                     "url": "acestream://3c81c395fc9385c650e0fba8c286935c594f7e1a",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "b`",
-                    "url": "acestream://8d065adeb9603cb93a080930a45eb5bd457483c6",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
                     "embed": "false"
                 },

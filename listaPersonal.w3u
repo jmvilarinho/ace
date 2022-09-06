@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 06/09/2022 17:25:59",
+    "name": "Canales Acestream 06/09/2022 20:30:51",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -10,6 +10,12 @@
             "name": "M.L. Campeones",
             "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-moviestar-liga-de-campeones.png",
             "stations": [
+                {
+                    "name": "Campeones 1080 extra",
+                    "url": "acestream://539fcb64c4e3f1fd1d06dd8a80e4e00116d1c01b",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-moviestar-liga-de-campeones.png",
+                    "embed": "false"
+                },
                 {
                     "name": "Campeones2 720",
                     "url": "acestream://04b36c831975b5514b63d6aaa97962bc2a495dd3",

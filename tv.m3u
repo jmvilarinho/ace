@@ -1177,5 +1177,5 @@ https://moiptvhls-i.akamaihd.net/hls/live/652312/secure/master.m3u8
 #EXTINF:-1 tvg-id="NBA.TV" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-us-nba-tv.png" group-title="Deportivos Int." tvg-name="NBA TV",NBA TV
 http://51.161.84.67/LB2022_NBA_TV/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/ykCff9y/La-Liga-Bar.jpg" group-title="By @Lucas_m_o_o_m" tvg-id="LALIGATV BAR", LaLiga Tv Bar 108
-01b333b9369c662775902638ef8cffac346a0f61
+http://127.0.0.1:8621/ace/getstream?id=01b333b9369c662775902638ef8cffac346a0f61
 

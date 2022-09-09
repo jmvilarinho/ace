@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 08/09/2022 14:26:06",
+    "name": "Canales Acestream 09/09/2022 12:45:46",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -10,6 +10,24 @@
             "name": "M.L. Campeones",
             "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-moviestar-liga-de-campeones.png",
             "stations": [
+                {
+                    "name": "Campeones10",
+                    "url": "acestream://df67afe5c5f5e82a3ae629d126727b006b65e676",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-moviestar-liga-de-campeones.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Campeones11",
+                    "url": "acestream://57e284a3c13100baeff7a88dc50949585c9f1277",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-moviestar-liga-de-campeones.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Campeones12",
+                    "url": "acestream://33369549c635dabdb78b95c478c21fcc9e4ee854",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-moviestar-liga-de-campeones.png",
+                    "embed": "false"
+                },
                 {
                     "name": "Campeones2 720",
                     "url": "acestream://04b36c831975b5514b63d6aaa97962bc2a495dd3",
@@ -37,6 +55,18 @@
                 {
                     "name": "Campeones7",
                     "url": "acestream://8ab70e161ad1d9a3ed76db91b84b2ae55e16103f",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-moviestar-liga-de-campeones.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Campeones8",
+                    "url": "acestream://fdd9e3660059051660dbd7857443c2b807f258d0",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-moviestar-liga-de-campeones.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Campeones9",
+                    "url": "acestream://69c95dc47b35dde559a6ef025c1b91c89646a17f",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-moviestar-liga-de-campeones.png",
                     "embed": "false"
                 },

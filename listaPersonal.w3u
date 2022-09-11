@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 09/09/2022 12:45:46",
+    "name": "Canales Acestream 11/09/2022 09:45:45",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -227,6 +227,12 @@
                     "embed": "false"
                 },
                 {
+                    "name": "DAZN laliga 1080 Multi Test",
+                    "url": "acestream://c72263175266c90d376dcb8607c28e02939c1873",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-dazn-laliga.png",
+                    "embed": "false"
+                },
+                {
                     "name": "Dazn Liga 1080 MultiAudio",
                     "url": "acestream://df98650743f24a245c44cdf2851e57078f4c487a",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-dazn-laliga.png",
@@ -235,6 +241,12 @@
                 {
                     "name": "Dazn Liga 720",
                     "url": "acestream://c35d2207792128fc0ae49c40e885c463f664dbce",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-dazn-laliga.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Dazn Liga test 1080 Multi",
+                    "url": "acestream://c72263175266c90d376dcb8607c28e02939c1873",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-dazn-laliga.png",
                     "embed": "false"
                 }
@@ -553,6 +565,12 @@
                 {
                     "name": "NAT GEO HD",
                     "url": "acestream://887d91ccc27fd4f3097d6df09448ea7bac8910f4",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "SmartBanck 720",
+                    "url": "acestream://24b85e8cdd5031e6752a8da2d1c8bbee19b0b3b3",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
                     "embed": "false"
                 },

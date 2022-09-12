@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 12/09/2022 07:23:06",
+    "name": "Canales Acestream 12/09/2022 11:31:09",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -71,12 +71,6 @@
                     "embed": "false"
                 },
                 {
-                    "name": "M.L. Campeones 1080",
-                    "url": "acestream://539fcb64c4e3f1fd1d06dd8a80e4e00116d1c01b",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-moviestar-liga-de-campeones.png",
-                    "embed": "false"
-                },
-                {
                     "name": "M.L. Campeones 1080 MultiAudio",
                     "url": "acestream://aedf221240a0f8513d90b555bf1b6e5306ac1e76",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-moviestar-liga-de-campeones.png",
@@ -95,12 +89,6 @@
                     "embed": "false"
                 },
                 {
-                    "name": "M.L. Campeones 2 720",
-                    "url": "acestream://04b36c831975b5514b63d6aaa97962bc2a495dd3",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-moviestar-liga-de-campeones.png",
-                    "embed": "false"
-                },
-                {
                     "name": "M.L. Campeones 3 1080",
                     "url": "acestream://f2b785193cfa99c581287be39e2fb5a73827957b",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-moviestar-liga-de-campeones.png",
@@ -108,25 +96,13 @@
                 },
                 {
                     "name": "M.L. Campeones 4 SD",
-                    "url": "acestream://8a9018cccaa36014ab0f050e5132d5ee264f7737",
+                    "url": "acestream://a5d22610cb7bd5608c14249e3984bacb54dfe487",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-moviestar-liga-de-campeones.png",
                     "embed": "false"
                 },
                 {
                     "name": "M.L. Campeones 5 SD",
-                    "url": "acestream://662cceb5a2b23f2150172df24247fa220d8d95d4",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-moviestar-liga-de-campeones.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "M.L. Campeones 6 SD",
-                    "url": "acestream://a2e878fbab5dff0e2cda01e74a88c7b32eb67913",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-moviestar-liga-de-campeones.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "M.L. Campeones 7 SD",
-                    "url": "acestream://8ab70e161ad1d9a3ed76db91b84b2ae55e16103f",
+                    "url": "acestream://8446f55486c0d8c39c7dda19f8dfb071ddca4c94",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-moviestar-liga-de-campeones.png",
                     "embed": "false"
                 },
@@ -150,7 +126,7 @@
                 },
                 {
                     "name": "DAZN 1 720",
-                    "url": "acestream://9f27ea73230f9c65034601636dbfe39de43a8212",
+                    "url": "acestream://84af46abab9de02bdd22818747738cfa5438132e",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-dazn-espana.png",
                     "embed": "false"
                 },
@@ -243,12 +219,6 @@
                     "url": "acestream://c35d2207792128fc0ae49c40e885c463f664dbce",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-dazn-laliga.png",
                     "embed": "false"
-                },
-                {
-                    "name": "Dazn Liga test 1080 Multi",
-                    "url": "acestream://c72263175266c90d376dcb8607c28e02939c1873",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-dazn-laliga.png",
-                    "embed": "false"
                 }
             ]
         },
@@ -305,26 +275,8 @@
             "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-us-espn.png",
             "stations": [
                 {
-                    "name": "ESPN",
-                    "url": "acestream://2492f8aa7cd7c4800e7b22c4ecba05e34c18be00",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-us-espn.png",
-                    "embed": "false"
-                },
-                {
                     "name": "ESPN 2 720",
                     "url": "acestream://5ae9afd963961cd07e8f690e44a6596a2bb4e51e",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-us-espn.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "ESPN Argentina",
-                    "url": "acestream://8d065adeb9603cb93a080930a45eb5bd457483c6",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-us-espn.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "ESPN EXTRA Uruguay",
-                    "url": "acestream://9c3feb380cd9bcf9dcb7a9454ca8eb7962201612",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-us-espn.png",
                     "embed": "false"
                 },
@@ -341,49 +293,13 @@
                     "embed": "false"
                 },
                 {
-                    "name": "ESPN Uruguay",
-                    "url": "acestream://2492f8aa7cd7c4800e7b22c4ecba05e34c18be00",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-us-espn.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "ESPN2",
-                    "url": "acestream://e40b29774fdfd953751a71f5695f647726623b9d",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-us-espn.png",
-                    "embed": "false"
-                },
-                {
                     "name": "ESPN2 URUGUAY",
                     "url": "acestream://e40b29774fdfd953751a71f5695f647726623b9d",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-us-espn.png",
                     "embed": "false"
                 },
                 {
-                    "name": "ESPN2 Uruguay",
-                    "url": "acestream://e40b29774fdfd953751a71f5695f647726623b9d",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-us-espn.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "ESPN3",
-                    "url": "acestream://b97f5975dbd067655432512d4693b417bc85a714",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-us-espn.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "ESPN3 Argentina",
-                    "url": "acestream://b9fdac2069dae003e7a2ea94bc3a069b28fb7e1e",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-us-espn.png",
-                    "embed": "false"
-                },
-                {
                     "name": "ESPN3 URUGUAY",
-                    "url": "acestream://b97f5975dbd067655432512d4693b417bc85a714",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-us-espn.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "ESPN3 Uruguay",
                     "url": "acestream://b97f5975dbd067655432512d4693b417bc85a714",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-us-espn.png",
                     "embed": "false"
@@ -503,12 +419,6 @@
                     "embed": "false"
                 },
                 {
-                    "name": "Directv Ecuador",
-                    "url": "acestream://f3f14b89eb62839f97153593432370b5bd61a5df",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
                     "name": "Ellas # V",
                     "url": "acestream://475f2c6ddf64b8f165a55046e8bc03b49cfe25cd",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
@@ -529,12 +439,6 @@
                 {
                     "name": "Evento del momento",
                     "url": "acestream://738e1db1791e44c62e87b8b1d8a3623bc7579c1c",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "FOX 3 Argentina",
-                    "url": "acestream://9a8c5485a38e9399e81b3eed23e588946946039f",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -599,12 +503,6 @@
                     "embed": "false"
                 },
                 {
-                    "name": "tdp 1080 (TeleDeporte)",
-                    "url": "acestream://a537d162cb8c5cfa72c09be09ecac69e2f2cc535",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
                     "name": "tdp 1080 (TeleDeporte)",
                     "url": "acestream://a537d162cb8c5cfa72c09be09ecac69e2f2cc535",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
@@ -625,12 +523,6 @@
                 {
                     "name": "Smartbank 1080 MultiAudio",
                     "url": "acestream://d4fa689e575f7626c8b136c9ad8685b945d3cccf",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-laliga-smartbank.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "Smartbank 720",
-                    "url": "acestream://24b85e8cdd5031e6752a8da2d1c8bbee19b0b3b3",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-laliga-smartbank.png",
                     "embed": "false"
                 },

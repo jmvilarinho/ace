@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 12/09/2022 11:50:42",
+    "name": "Canales Acestream 12/09/2022 11:53:59",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -479,12 +479,6 @@
                     "embed": "false"
                 },
                 {
-                    "name": "SmartBanck 720",
-                    "url": "acestream://24b85e8cdd5031e6752a8da2d1c8bbee19b0b3b3",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
                     "name": "beIN SPORTS ñ 1080",
                     "url": "acestream://52d37ff3be2cbbaba92fb0da2abf7c9c4c4568ca",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
@@ -505,6 +499,12 @@
                 {
                     "name": "Liga Smartbank HD",
                     "url": "acestream://68b79de12b9b370bdfa74de65f0696a9b61503ed",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-laliga-smartbank.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "SmartBanck 720",
+                    "url": "acestream://24b85e8cdd5031e6752a8da2d1c8bbee19b0b3b3",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-laliga-smartbank.png",
                     "embed": "false"
                 },

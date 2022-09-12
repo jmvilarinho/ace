@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 12/09/2022 11:46:15",
+    "name": "Canales Acestream 12/09/2022 11:50:42",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -319,6 +319,24 @@
             ]
         },
         {
+            "name": "Eurosport",
+            "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-eurosport.png",
+            "stations": [
+                {
+                    "name": "EuroSport 1 1080",
+                    "url": "acestream://40da37534656efcc6179c1b7693335d5e8212e43",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-eurosport.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "EuroSport 2 1080",
+                    "url": "acestream://1954779c721fc7d87eb6d7df7ab11bf751cebb3b",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-eurosport.png",
+                    "embed": "false"
+                }
+            ]
+        },
+        {
             "name": "M. La Liga",
             "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-movistar-laliga.png",
             "stations": [
@@ -421,18 +439,6 @@
                 {
                     "name": "Ellas # V",
                     "url": "acestream://475f2c6ddf64b8f165a55046e8bc03b49cfe25cd",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "EuroSport 1 1080",
-                    "url": "acestream://40da37534656efcc6179c1b7693335d5e8212e43",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "EuroSport 2 1080",
-                    "url": "acestream://1954779c721fc7d87eb6d7df7ab11bf751cebb3b",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
                     "embed": "false"
                 },

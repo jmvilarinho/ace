@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 12/09/2022 11:35:59",
+    "name": "Canales Acestream 12/09/2022 11:46:15",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -479,24 +479,6 @@
                     "embed": "false"
                 },
                 {
-                    "name": "Sport Tv 1 1080",
-                    "url": "acestream://56bb17b376ec52b5e58679d87ed2bd9e70be2175",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "Sport Tv 2 1080",
-                    "url": "acestream://b402a5fc3d93860c7f4a9c46463ff5469b6436f6",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "Sport Tv 3",
-                    "url": "acestream://3c81c395fc9385c650e0fba8c286935c594f7e1a",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
                     "name": "beIN SPORTS ñ 1080",
                     "url": "acestream://52d37ff3be2cbbaba92fb0da2abf7c9c4c4568ca",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
@@ -530,6 +512,30 @@
                     "name": "smartbank 2 1080",
                     "url": "acestream://d475208e72b5a343080afa0724c7b7c42264b9a0",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-laliga-smartbank.png",
+                    "embed": "false"
+                }
+            ]
+        },
+        {
+            "name": "Sport TV",
+            "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-pt-sport-tv.png",
+            "stations": [
+                {
+                    "name": "Sport Tv 1 1080",
+                    "url": "acestream://56bb17b376ec52b5e58679d87ed2bd9e70be2175",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-pt-sport-tv.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Sport Tv 2 1080",
+                    "url": "acestream://b402a5fc3d93860c7f4a9c46463ff5469b6436f6",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-pt-sport-tv.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Sport Tv 3",
+                    "url": "acestream://3c81c395fc9385c650e0fba8c286935c594f7e1a",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-pt-sport-tv.png",
                     "embed": "false"
                 }
             ]

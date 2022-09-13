@@ -1,7 +1,7 @@
-#EXTINF:-1 tvg-id="NBA.TV" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-us-nba-tv.png" group-title="Deportivos Int." tvg-name="NBA TV",NBA TV
-http://51.161.84.67/LB2022_NBA_TV/index.m3u8
 #EXTM3U @Vila https://raw.githubusercontent.com/jmvilarinho/ace/main/tv.m3u
 #EXTM3U url-tvg="https://raw.githubusercontent.com/jmvilarinho/ace/main/tv.xml.gz"
+#EXTINF:-1 tvg-id="NBA.TV" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-us-nba-tv.png" group-title="Deportivos Int." tvg-name="NBA TV",NBA TV
+http://51.161.84.67/LB2022_NBA_TV/index.m3u8
 #EXTINF:-1 tvg-id="DAZN 1" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-dazn-espana.png" group-title="DAZN" tvg-name="DAZN 1 1080",DAZN 1 1080
 http://127.0.0.1:6878/ace/getstream?id=d4d4200a1e52fc23940b2dde915600af7e9a6b05&.mp4
 #EXTINF:-1 tvg-id="DAZN 1" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-dazn-espana.png" group-title="DAZN" tvg-name="DAZN 1 720",DAZN 1 720

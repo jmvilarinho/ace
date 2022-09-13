@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 14/09/2022 00:08:20",
+    "name": "Canales Acestream 14/09/2022 00:21:44",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -43,13 +43,13 @@
                 {
                     "name": "M.L. Campeones 1080",
                     "url": "acestream://539fcb64c4e3f1fd1d06dd8a80e4e00116d1c01b",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-plus-1475.png",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-moviestar-liga-de-campeones-1459.png",
                     "embed": "false"
                 },
                 {
                     "name": "M.L. Campeones 1080 MultiAudio",
                     "url": "acestream://aedf221240a0f8513d90b555bf1b6e5306ac1e76",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-plus-1475.png",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-moviestar-liga-de-campeones-1459.png",
                     "embed": "false"
                 },
                 {
@@ -97,7 +97,7 @@
                 {
                     "name": "M.L. Campeones 720",
                     "url": "acestream://f8d89bf80b813631e6eb85fc8c185b00fe9ab88d",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-plus-1475.png",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-moviestar-liga-de-campeones-1459.png",
                     "embed": "false"
                 },
                 {
@@ -223,7 +223,7 @@
                 {
                     "name": "M. Deportes 21080",
                     "url": "acestream://c47f756750190e4b2a9eefe8afdac48a2203b8d6",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes.png",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-2-365.png",
                     "embed": "false"
                 },
                 {

@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 14/09/2022 00:21:44",
+    "name": "Canales Acestream 14/09/2022 00:27:03",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -217,7 +217,7 @@
                 {
                     "name": "M. Deportes 1080",
                     "url": "acestream://49acacbbbcf33be6e843958ceedc7da8dd4f1486",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes.png",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-364.png",
                     "embed": "false"
                 },
                 {

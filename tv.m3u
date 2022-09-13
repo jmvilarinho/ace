@@ -1250,9 +1250,9 @@ http://127.0.0.1:6878/ace/getstream?id=01b333b9369c662775902638ef8cffac346a0f61&
 http://127.0.0.1:6878/ace/getstream?id=fce88ddb0aca4a0869ecd23bdf0bddc288d95260&.mp4
 #EXTINF:-1 tvg-id="none" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-movistar-deportes.png" group-title="M. Deportes" tvg-name="M. Deportes 1080",M. Deportes 1080
 http://127.0.0.1:6878/ace/getstream?id=49acacbbbcf33be6e843958ceedc7da8dd4f1486&.mp4
-#EXTINF:-1 tvg-id="none" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-movistar-deportes.png" group-title="M. Deportes" tvg-name="M. Deportes 21080",M. Deportes 21080
+#EXTINF:-1 tvg-id="M+DEPORTES2HD" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-movistar-deportes.png" group-title="M. Deportes" tvg-name="M. Deportes 21080",M. Deportes 21080
 http://127.0.0.1:6878/ace/getstream?id=c47f756750190e4b2a9eefe8afdac48a2203b8d6&.mp4
-#EXTINF:-1 tvg-id="none" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-movistar-deportes.png" group-title="M. Deportes" tvg-name="M. Deportes 3 1080",M. Deportes 3 1080
+#EXTINF:-1 tvg-id="M+DEPORTES3" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-movistar-deportes.png" group-title="M. Deportes" tvg-name="M. Deportes 3 1080",M. Deportes 3 1080
 http://127.0.0.1:6878/ace/getstream?id=85bd65161dfd8c4033194da3c978c0450c9111db&.mp4
 #EXTINF:-1 tvg-id="none" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-movistar-deportes.png" group-title="M. Deportes" tvg-name="M. Deportes 4 1080",M. Deportes 4 1080
 http://127.0.0.1:6878/ace/getstream?id=0c8935087510ee1c5117243a6cc46f9d6d795faf&.mp4

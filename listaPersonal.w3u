@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 14/09/2022 00:32:37",
+    "name": "Canales Acestream 14/09/2022 07:19:26",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -331,31 +331,31 @@
                 {
                     "name": "M. LaLiga 1 1080",
                     "url": "acestream://4229d640fecf3c0897674241bcf851b67f4310e3",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-2784.png",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga.png",
                     "embed": "false"
                 },
                 {
                     "name": "M. LaLiga 1080",
                     "url": "acestream://c22bfcc2a70b2a3f447d9b30c52e617946b03888",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-2784.png",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga.png",
                     "embed": "false"
                 },
                 {
                     "name": "M. LaLiga 1080 MultiAudio",
                     "url": "acestream://167e3b44a520cd76d4372f6d30fe6d7ccd524175",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-2784.png",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga.png",
                     "embed": "false"
                 },
                 {
                     "name": "M. LaLiga 720",
                     "url": "acestream://df139bbcd7ae6825b46d5955c52d639f1215346a",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-2784.png",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga.png",
                     "embed": "false"
                 },
                 {
                     "name": "M. LaLiga HD",
                     "url": "acestream://c81fb4bec54fed86737544c5609bb863b4acb292",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-2784.png",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga.png",
                     "embed": "false"
                 }
             ]

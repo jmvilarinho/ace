@@ -30,15 +30,15 @@ http://127.0.0.1:6878/ace/getstream?id=bfbcda5a0999256360ce560caf2a6473aafc3f11&
 http://127.0.0.1:6878/ace/getstream?id=a0465ef421f30d0c68ff706654147762ec7b6c03&.mp4
 #EXTINF:-1 tvg-id="DAZN 1" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-1-es-2510.png" group-title="DAZN" tvg-name="Dazn 1 HD",Dazn 1 HD
 http://127.0.0.1:6878/ace/getstream?id=26fde3b656ab412ce1bea40f20bb45d67c519013&.mp4
-#EXTINF:-1 tvg-id="M+ LaLiga HD" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-2784.png" group-title="M. La Liga" tvg-name="M. LaLiga 1080 MultiAudio",M. LaLiga 1080 MultiAudio
+#EXTINF:-1 tvg-id="M+ LaLiga HD" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga.png" group-title="M. La Liga" tvg-name="M. LaLiga 1080 MultiAudio",M. LaLiga 1080 MultiAudio
 http://127.0.0.1:6878/ace/getstream?id=167e3b44a520cd76d4372f6d30fe6d7ccd524175&.mp4
-#EXTINF:-1 tvg-id="M+ LaLiga HD" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-2784.png" group-title="M. La Liga" tvg-name="M. LaLiga 1080",M. LaLiga 1080
+#EXTINF:-1 tvg-id="M+ LaLiga HD" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga.png" group-title="M. La Liga" tvg-name="M. LaLiga 1080",M. LaLiga 1080
 http://127.0.0.1:6878/ace/getstream?id=c22bfcc2a70b2a3f447d9b30c52e617946b03888&.mp4
-#EXTINF:-1 tvg-id="M+ LaLiga HD" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-2784.png" group-title="M. La Liga" tvg-name="M. LaLiga 720",M. LaLiga 720
+#EXTINF:-1 tvg-id="M+ LaLiga HD" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga.png" group-title="M. La Liga" tvg-name="M. LaLiga 720",M. LaLiga 720
 http://127.0.0.1:6878/ace/getstream?id=df139bbcd7ae6825b46d5955c52d639f1215346a&.mp4
-#EXTINF:-1 tvg-id="M+ LaLiga HD" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-2784.png" group-title="M. La Liga" tvg-name="M. LaLiga 1 1080",M. LaLiga 1 1080
+#EXTINF:-1 tvg-id="M+ LaLiga HD" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga.png" group-title="M. La Liga" tvg-name="M. LaLiga 1 1080",M. LaLiga 1 1080
 http://127.0.0.1:6878/ace/getstream?id=4229d640fecf3c0897674241bcf851b67f4310e3&.mp4
-#EXTINF:-1 tvg-id="M+ LaLiga HD" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-2784.png" group-title="M. La Liga" tvg-name="M. LaLiga HD",M. LaLiga HD
+#EXTINF:-1 tvg-id="M+ LaLiga HD" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga.png" group-title="M. La Liga" tvg-name="M. LaLiga HD",M. LaLiga HD
 http://127.0.0.1:6878/ace/getstream?id=c81fb4bec54fed86737544c5609bb863b4acb292&.mp4
 #EXTINF:-1 tvg-id="LALIGATV BAR" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laligatv-bar-2505.png" group-title="L. TV Bar" tvg-name="LaLiga Tv Bar 1080",LaLiga Tv Bar 1080
 http://127.0.0.1:6878/ace/getstream?id=01b333b9369c662775902638ef8cffac346a0f61&.mp4

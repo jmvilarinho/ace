@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 15/09/2022 09:29:34",
+    "name": "Canales Acestream 15/09/2022 09:42:56",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -235,13 +235,13 @@
                 {
                     "name": "M. Deportes 4 1080",
                     "url": "acestream://0c8935087510ee1c5117243a6cc46f9d6d795faf",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-movistar-deportes.png",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-4.png",
                     "embed": "false"
                 },
                 {
                     "name": "M. Deportes 5 1080",
                     "url": "acestream://478833f6390f04e95c6d94180a784b78ad540d2f",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-movistar-deportes.png",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-5.png",
                     "embed": "false"
                 },
                 {

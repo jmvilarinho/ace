@@ -1,6 +1,6 @@
 #EXTM3U @Vila https://raw.githubusercontent.com/jmvilarinho/ace/main/tv.m3u
 #EXTM3U url-tvg="https://raw.githubusercontent.com/jmvilarinho/ace/main/all.xml.gz"
-#EXTINF:-1 tvg-id="NBA.TV" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-us-nba-tv.png" group-title="Deportivos Int." tvg-name="NBA TV web",NBA TV web
+#EXTINF:-1 tvg-id="NBA.TV" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-us-nba-tv.png" group-title="Deportivos Int." tvg-name="NBA TV",NBA TV
 http://51.161.84.67/LB2022_NBA_TV/index.m3u8
 #EXTINF:-1 tvg-id="DAZN LaLigaHD" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-2784.png" group-title="DAZN LaLiga" tvg-name="Dazn Liga 1080 MultiAudio",Dazn Liga 1080 MultiAudio
 http://127.0.0.1:6878/ace/getstream?id=df98650743f24a245c44cdf2851e57078f4c487a&.mp4

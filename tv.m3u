@@ -38,7 +38,7 @@ http://127.0.0.1:6878/ace/getstream?id=f2b785193cfa99c581287be39e2fb5a73827957b&
 http://127.0.0.1:6878/ace/getstream?id=8a9018cccaa36014ab0f050e5132d5ee264f7737&.mp4
 #EXTINF:-1 tvg-id="M+LCAMPEON5" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-5-1550.png" group-title="M.L. Campeones" tvg-name="M.L. Campeones 5 SD",M.L. Campeones 5 SD
 http://127.0.0.1:6878/ace/getstream?id=662cceb5a2b23f2150172df24247fa220d8d95d4&.mp4
-#EXTINF:-1 tvg-id="TELEDEPORTE" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-teledeporte-612" group-title="Outros" tvg-name="tdp 1080 (TeleDeporte)",tdp 1080 (TeleDeporte)
+#EXTINF:-1 tvg-id="TELEDEPORTE" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-teledeporte-612.png" group-title="Outros" tvg-name="tdp 1080 (TeleDeporte)",tdp 1080 (TeleDeporte)
 http://127.0.0.1:6878/ace/getstream?id=a537d162cb8c5cfa72c09be09ecac69e2f2cc535&.mp4
 #EXTINF:-1 tvg-id="M+ #0 HD" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-cero.png" group-title="Outros" tvg-name="# 0",# 0
 http://127.0.0.1:6878/ace/getstream?id=864fc1be34bdedc4bc2c7bb92098c61df8e9c7c2&.mp4

@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 15/09/2022 09:42:56",
+    "name": "Canales Acestream 15/09/2022 09:44:13",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -407,7 +407,7 @@
                     "embed": "false"
                 },
                 {
-                    "name": "CANAL HISTORIA HD",
+                    "name": "CANAL HISTORIA",
                     "url": "acestream://8bc9696c5b07b723186ac224f5269f02db6dde8e",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
                     "embed": "false"
@@ -461,7 +461,7 @@
                     "embed": "false"
                 },
                 {
-                    "name": "NAT GEO HD",
+                    "name": "NATIONAL GEOGRAPHIC",
                     "url": "acestream://887d91ccc27fd4f3097d6df09448ea7bac8910f4",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
                     "embed": "false"

@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 15/09/2022 10:27:31",
+    "name": "Canales Acestream 15/09/2022 10:30:35",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -487,7 +487,7 @@
                 {
                     "name": "tdp 1080 (TeleDeporte)",
                     "url": "acestream://a537d162cb8c5cfa72c09be09ecac69e2f2cc535",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-teledeporte-612",
                     "embed": "false"
                 }
             ]

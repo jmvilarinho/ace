@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 15/09/2022 10:19:49",
+    "name": "Canales Acestream 15/09/2022 10:27:31",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -361,7 +361,7 @@
             ]
         },
         {
-            "name": "L. TV Bar",
+            "name": "L.L. TVBar",
             "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-la-liga-tv-bar.png",
             "stations": [
                 {
@@ -493,7 +493,7 @@
             ]
         },
         {
-            "name": "L. SmartBank",
+            "name": "L.L. SmartBank",
             "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-laliga-smartbank.png",
             "stations": [
                 {

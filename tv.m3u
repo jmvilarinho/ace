@@ -16,7 +16,7 @@ http://127.0.0.1:6878/ace/getstream?id=bfbcda5a0999256360ce560caf2a6473aafc3f11&
 http://127.0.0.1:6878/ace/getstream?id=a0465ef421f30d0c68ff706654147762ec7b6c03&.mp4
 #EXTINF:-1 tvg-id="M+ LaLiga HD" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga.png" group-title="M. La Liga" tvg-name="M. LaLiga 1080 MultiAudio",M. LaLiga 1080 MultiAudio
 http://127.0.0.1:6878/ace/getstream?id=167e3b44a520cd76d4372f6d30fe6d7ccd524175&.mp4
-#EXTINF:-1 tvg-id="LALIGATV BAR" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laligatv-bar-2505.png" group-title="L. TV Bar" tvg-name="LaLiga Tv Bar 1080",LaLiga Tv Bar 1080
+#EXTINF:-1 tvg-id="LALIGATV BAR" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laligatv-bar-2505.png" group-title="L.L. TVBar" tvg-name="LaLiga Tv Bar 1080",LaLiga Tv Bar 1080
 http://127.0.0.1:6878/ace/getstream?id=01b333b9369c662775902638ef8cffac346a0f61&.mp4
 #EXTINF:-1 tvg-id="M+DEPORTESHD" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-364.png" group-title="M. Deportes" tvg-name="M. Deportes 1080",M. Deportes 1080
 http://127.0.0.1:6878/ace/getstream?id=49acacbbbcf33be6e843958ceedc7da8dd4f1486&.mp4

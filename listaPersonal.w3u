@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 16/09/2022 09:16:21",
+    "name": "Canales Acestream 16/09/2022 09:20:04",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -103,7 +103,7 @@
                 {
                     "name": "campeones 3",
                     "url": "acestream://f588f41735c0c8ec0c412ef25ca5e5ac3b3626b9",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-moviestar-liga-de-campeones.png",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-3-1548.png",
                     "embed": "false"
                 }
             ]

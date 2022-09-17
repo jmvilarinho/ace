@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 16/09/2022 17:15:24",
+    "name": "Canales Acestream 17/09/2022 22:09:38",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -475,6 +475,12 @@
                 {
                     "name": "NATIONAL GEOGRAPHIC",
                     "url": "acestream://d0c5c350d8c62f7b7aa2516646a7e6f42b6155d1",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "TeleCirco 1080",
+                    "url": "acestream://cbf281d5e481697aa4184fe1de5e069928c95057",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
                     "embed": "false"
                 },

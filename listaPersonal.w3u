@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 23/09/2022 14:41:00",
+    "name": "Canales Acestream 26/09/2022 07:47:31",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -214,6 +214,12 @@
             "name": "M. Deportes",
             "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-movistar-deportes.png",
             "stations": [
+                {
+                    "name": "Deportes 720",
+                    "url": "acestream://e5fa927d9a017f4523fdb62774a0aec457985bfa",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-movistar-deportes.png",
+                    "embed": "false"
+                },
                 {
                     "name": "M. Deportes 1080",
                     "url": "acestream://49acacbbbcf33be6e843958ceedc7da8dd4f1486",
@@ -565,6 +571,12 @@
                 {
                     "name": "# Vamos 1080",
                     "url": "acestream://069431a1199eb2545a14c0a724095e57bdc58e9c",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-vamos.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Vamos 720",
+                    "url": "acestream://0e18315b703248bb01eab6b9d3f0cb2cd893601f",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-vamos.png",
                     "embed": "false"
                 }

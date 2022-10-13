@@ -6,8 +6,8 @@ http://51.161.84.67/LB2022_NBA_TV/index.m3u8
 http://127.0.0.1:6878/ace/getstream?id=df98650743f24a245c44cdf2851e57078f4c487a&.mp4
 #EXTINF:-1 tvg-id="DAZN F1 HD" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-formula-1-366.png" group-title="DAZN F1" tvg-name="DAZN F1 1080 (Fórmula 1)",DAZN F1 1080 (Fórmula 1)
 http://127.0.0.1:6878/ace/getstream?id=c372020ed2744033f56548b6beb11a9f3e740f37&.mp4
-#EXTINF:-1 tvg-id="DAZN 1" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-1-es-2510.png" group-title="DAZN" tvg-name="DAZN 1 1080",DAZN 1 1080
-http://127.0.0.1:6878/ace/getstream?id=d4d4200a1e52fc23940b2dde915600af7e9a6b05&.mp4
+#EXTINF:-1 tvg-id="DAZN 1" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-1-es-2510.png" group-title="DAZN" tvg-name="dazn 1 720",dazn 1 720
+http://127.0.0.1:6878/ace/getstream?id=84af46abab9de02bdd22818747738cfa5438132e&.mp4
 #EXTINF:-1 tvg-id="DAZN 2" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-2-es-2511.png" group-title="DAZN" tvg-name="DAZN 2 1080",DAZN 2 1080
 http://127.0.0.1:6878/ace/getstream?id=42fea4e172bf3debe0e004260bdd077fe0b4f58e&.mp4
 #EXTINF:-1 tvg-id="DAZN 3" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-3-es-2524.png" group-title="DAZN" tvg-name="DAZN 3 1080",DAZN 3 1080
@@ -65,7 +65,7 @@ https://d2gjhy8g9ziabr.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae0
 #EXTINF:-1 tvg-id="ESAJ3800005C5" tvg-chno="4006" tvg-logo="https://tvpmlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/70/ESAJ3800005C5_20221012T021002.png" group-title="Samsung TV",Comedia Made in Spain
 http://service-stitcher-ipv4.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f5a0a0109d930000711e610/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=%7BUS_PRIVACY%7D&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&embedPartner=samsung-tvplus&gdprConsent=%7BTC_STRING%7D&gdpr=1
 #EXTINF:-1 tvg-id="ESBC1400001L8" tvg-chno="4007" tvg-logo="https://tvpmlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/70/01/96/ESBC1400001L8_20220426T161624.png" group-title="Samsung TV",El Confidencial
-https://daqnsnf5phf17.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-sde7fypd1420w-prod/fast-channel-elconfidencial/fast-channel-elconfidencial.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.consent=%7BTC_STRING%7D
+https://daqnsnf5phf17.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-sde7fypd1420w-prod/fast-channel-elconfidencial/fast-channel-elconfidencial.m3u8?stoken=samsung.zhqJK9905&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.consent=%7BTC_STRING%7D
 #EXTINF:-1 tvg-id="ESAJ3800003LX" tvg-chno="4110" tvg-logo="https://tvpmlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/70/01/91/ESAJ3800003LX_20220810T012720.png" group-title="Samsung TV",MTV Catfish
 http://service-stitcher-ipv4.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f59f661f68f9200078870d4/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=%7BUS_PRIVACY%7D&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&embedPartner=samsung-tvplus&gdprConsent=%7BTC_STRING%7D&gdpr=1
 #EXTINF:-1 tvg-id="ESAJ3800006TT" tvg-chno="4113" tvg-logo="https://tvpmlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/70/01/93/ESAJ3800006TT_20220323T081652.png" group-title="Samsung TV",MTV Cribs

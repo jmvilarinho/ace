@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 13/10/2022 07:00:02",
+    "name": "Canales Acestream 13/10/2022 22:20:51",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -125,12 +125,6 @@
                     "embed": "false"
                 },
                 {
-                    "name": "DAZN 1 720",
-                    "url": "acestream://9f27ea73230f9c65034601636dbfe39de43a8212",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-1-es-2510.png",
-                    "embed": "false"
-                },
-                {
                     "name": "DAZN 2 1080",
                     "url": "acestream://42fea4e172bf3debe0e004260bdd077fe0b4f58e",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-2-es-2511.png",
@@ -157,6 +151,12 @@
                 {
                     "name": "Dazn 1 HD",
                     "url": "acestream://26fde3b656ab412ce1bea40f20bb45d67c519013",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-1-es-2510.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "dazn 1 720",
+                    "url": "acestream://84af46abab9de02bdd22818747738cfa5438132e",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-1-es-2510.png",
                     "embed": "false"
                 }

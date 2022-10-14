@@ -195,8 +195,17 @@ acestream://91dce080463a5c6ee931fc5489a75ab54a5cb071
 acestream://
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/d541mDr/DAZN-La-Liga.jpg" group-title="By @Jonatan_1987" tvg-id="DAZN LaLigaHD", At Madrid VS brujas 18:45
-acestream://aedf221240a0f8513d90b555bf1b6e5306ac1e76
+#EXTINF:-1 group-title="By @Jonatan" tvg-id="Baskonia VS partizan 20:30", Baskonia VS partizan 20:30
+acestream://42fea4e172bf3debe0e004260bdd077fe0b4f58e
+#EXTINF:-1 group-title="By @Jonatan" tvg-id="Valencia VS Lyon 21:00", Valencia VS Lyon 21:00
+acestream://d4d4200a1e52fc23940b2dde915600af7e9a6b05
+#EXTINF:-1 tvg-logo="https://i.ibb.co/dgqH0nP/Vamos.jpg" group-title="By @Jonatan" tvg-id="M+ #VAMOS", #Vamos HD
+acestream://5c19b80926aa6dd5ff6ff2ba086bf6caa39c56fa
+#EXTINF:-1 tvg-logo="https://i.ibb.co/dgqH0nP/Vamos.jpg" group-title="By @Jonatan" tvg-id="M+ #VAMOSHD", #Vamos HD
+acestream://172a0843a8f136659ab139af2d247bcfac602d05
+#EXTINF:-1 group-title="By @Jonatan" tvg-id="Rayo vallecano VS Getafe en 2k", Rayo vallecano VS Getafe en 2k
+acestream://d4d4200a1e52fc23940b2dde915600af7e9a6b05
+
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/jVMhMQQ/Liga-Santander.jpg" group-title="By @paradoxus" tvg-id="M+ LaLiga HD", M. LaLiga HD

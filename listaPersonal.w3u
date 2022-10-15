@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 14/10/2022 21:10:27",
+    "name": "Canales Acestream 15/10/2022 06:56:24",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -203,14 +203,14 @@
                     "embed": "false"
                 },
                 {
-                    "name": "Dazn Liga 720",
-                    "url": "acestream://c35d2207792128fc0ae49c40e885c463f664dbce",
+                    "name": "Dazn Liga 1080 MultiAudio",
+                    "url": "acestream://fee5612d57824b6e8db780f210ec54093056dc3a",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-2784.png",
                     "embed": "false"
                 },
                 {
-                    "name": "Dazn Liga test 1080 Multi",
-                    "url": "acestream://c72263175266c90d376dcb8607c28e02939c1873",
+                    "name": "Dazn Liga 720",
+                    "url": "acestream://c35d2207792128fc0ae49c40e885c463f664dbce",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-2784.png",
                     "embed": "false"
                 }

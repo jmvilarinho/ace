@@ -33,6 +33,8 @@ acestream://8021cba61d1e0891a41a6c3334f947360000dc8e
 acestream://1c0bb99925a0d18e075c2fe2cd7cb50946554ab1
 #EXTINF:-1 tvg-logo="https://i.ibb.co/d541mDr/DAZN-La-Liga.jpg" group-title="By @Lucas_m_o_o_m" tvg-id="DAZN LaLigaHD", DAZN LaLiga 1080
 acestream://df98650743f24a245c44cdf2851e57078f4c487a
+#EXTINF:-1 tvg-logo="https://i.ibb.co/d541mDr/DAZN-La-Liga.jpg" group-title="By @Lucas_m_o_o_m" tvg-id="DAZN LaLigaHD ", DAZN LaLiga 1080 multiaudio
+acestream://fee5612d57824b6e8db780f210ec54093056dc3a
 #EXTINF:-1 tvg-logo="https://i.ibb.co/d541mDr/DAZN-La-Liga.jpg" group-title="By @Lucas_m_o_o_m" tvg-id="DAZN LaLigaHD", DAZN LaLiga 720
 acestream://c35d2207792128fc0ae49c40e885c463f664dbce
 #EXTINF:-1 tvg-logo="https://i.ibb.co/d541mDr/DAZN-La-Liga.jpg" group-title="By @Lucas_m_o_o_m" tvg-id="DAZN LaLiga2 HD", DAZN LaLiga 2
@@ -204,7 +206,7 @@ acestream://5c19b80926aa6dd5ff6ff2ba086bf6caa39c56fa
 #EXTINF:-1 tvg-logo="https://i.ibb.co/dgqH0nP/Vamos.jpg" group-title="By @Jonatan" tvg-id="M+ #VAMOSHD", #Vamos HD
 acestream://172a0843a8f136659ab139af2d247bcfac602d05
 #EXTINF:-1 group-title="By @Jonatan" tvg-id="Rayo vallecano VS Getafe en 2k", Rayo vallecano VS Getafe en 2k
-acestream://d4d4200a1e52fc23940b2dde915600af7e9a6b05
+acestream://6ad6b77d7a5279d81b75f3b7ba02ab55b17aa7d3
 
 
 

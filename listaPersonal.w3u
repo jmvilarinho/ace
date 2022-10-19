@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 18/10/2022 06:56:18",
+    "name": "Canales Acestream 19/10/2022 06:56:19",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -198,7 +198,7 @@
                 },
                 {
                     "name": "Dazn Liga 1080 MultiAudio",
-                    "url": "acestream://df98650743f24a245c44cdf2851e57078f4c487a",
+                    "url": "acestream://1124d4366348b76a755710c8d0d5728e39d0095c",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-2784.png",
                     "embed": "false"
                 },

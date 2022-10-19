@@ -2,8 +2,8 @@
 #EXTM3U url-tvg="https://raw.githubusercontent.com/jmvilarinho/ace/main/all.xml.gz"
 #EXTINF:-1 tvg-id="I156.32281.schedulesdirect.org" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-us-nba-tv.png" group-title="Deportivos Int." tvg-name="NBA TV",NBA TV
 http://51.161.84.67/LB2022_NBA_TV/index.m3u8
-#EXTINF:-1 tvg-id="DAZN LaLigaHD" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-2784.png" group-title="DAZN LaLiga" tvg-name="Dazn Liga 1080 MultiAudio",Dazn Liga 1080 MultiAudio
-http://127.0.0.1:6878/ace/getstream?id=fee5612d57824b6e8db780f210ec54093056dc3a&.mp4
+#EXTINF:-1 tvg-id="DAZN LaLigaHD" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-2784.png" group-title="DAZN LaLiga" tvg-name="Dazn Liga 1080 MultiAudio",Dazn Liga 1080 MultiAudio
+http://127.0.0.1:6878/ace/getstream?id=1124d4366348b76a755710c8d0d5728e39d0095c&.mp4
 #EXTINF:-1 tvg-id="DAZN F1 HD" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-formula-1-366.png" group-title="DAZN F1" tvg-name="DAZN F1 1080 (Fórmula 1)",DAZN F1 1080 (Fórmula 1)
 http://127.0.0.1:6878/ace/getstream?id=c372020ed2744033f56548b6beb11a9f3e740f37&.mp4
 #EXTINF:-1 tvg-id="DAZN 1" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-1-es-2510.png" group-title="DAZN" tvg-name="dazn 1 720",dazn 1 720
@@ -110,8 +110,6 @@ https://bbfb189d0b5442118b9541714950d36c.mediatailor.us-east-1.amazonaws.com/v1/
 https://amg00861-terninternation-insighttvlatam-samsungspain-octet.amagi.tv/playlist/amg00861-terninternation-insighttvlatam-samsungspain/playlist.m3u8?ads.did=%7BPSID%7D&ads.dnt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.tc_string=%7BTC_STRING%7D&ads.coppa=0
 #EXTINF:-1 tvg-id="ESBC170000388" tvg-chno="4256" tvg-logo="https://tvpmlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/70/04/69/ESBC170000388_20220713T010423.png" group-title="Samsung TV",WaterBear
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01415-waterbearnetwor-waterbeares-samsungspain/playlist.m3u8?ads.did=%7BPSID%7D&ads.dnt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.tc_string=%7BTC_STRING%7D&ads.coppa=0
-#EXTINF:-1 tvg-id="ESBA22000102A" tvg-chno="4260" tvg-logo="https://tvpmlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/70/ESBA22000102A_20220914T041126.png" group-title="Samsung TV",Nature Time
-https://amg00090-blueantmedia-lnrcastilian-samsungspain-02f0x.amagi.tv/playlist/amg00090-blueantmedia-lnrcastilian-samsungspain/playlist.m3u8?ads.did=%7BPSID%7D&ads.dnt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.tc_string=%7BTC_STRING%7D&ads.coppa=0
 #EXTINF:-1 tvg-id="ESBA330004121" tvg-chno="4263" tvg-logo="https://tvpmlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/70/09/12/ESBA330004121_20220727T012625.png" group-title="Samsung TV",WildEarth
 https://amg01290-wildearthmediap-wildearth-samsungspain-mc5mc.amagi.tv/playlist/amg01290-wildearthmediap-wildearth-samsungspain/playlist.m3u8?ads.did=%7BPSID%7D&ads.dnt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.tc_string=%7BTC_STRING%7D&ads.coppa=0
 #EXTINF:-1 tvg-id="ESBC39000033J" tvg-chno="4310" tvg-logo="https://tvpmlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/70/ESBC39000033J_20221012T021022.png" group-title="Samsung TV",El País

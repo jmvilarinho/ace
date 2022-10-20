@@ -37,7 +37,8 @@ acestream://df98650743f24a245c44cdf2851e57078f4c487a
 acestream://fee5612d57824b6e8db780f210ec54093056dc3a
 #EXTINF:-1 tvg-logo="https://i.ibb.co/d541mDr/DAZN-La-Liga.jpg" group-title="By @Lucas_m_o_o_m" tvg-id="DAZN LaLigaHD", DAZN LaLiga 720
 acestream://c35d2207792128fc0ae49c40e885c463f664dbce
-#EXTINF:-1 tvg-logo="https://i.ibb.co/d541mDr/DAZN-La-Liga.jpg" group-title="By @Lucas_m_o_o_m" tvg-id="DAZN LaLiga2 HD", DAZN LaLiga 2
+#EXTINF:-1 tvg-logo="https://i.ibb.co/d541mDr/DAZN-La-Liga.jpg" group-title="By @Lucas_m_o_o_m" tvg-id="DAZN LaLiga2 HD", DAZN LaLiga 2 720
+acestream://1124d4366348b76a755710c8d0d5728e39d0095c
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/cybDs0J/La-Liga-Smart-Bank.jpg" group-title="By @Lucas_m_o_o_m" tvg-id="LaLiga SmartbankTV", LaLiga SmartBank 1080 MultiAudio
@@ -197,16 +198,20 @@ acestream://91dce080463a5c6ee931fc5489a75ab54a5cb071
 acestream://
 
 
-#EXTINF:-1 group-title="By @Jonatan" tvg-id="Baskonia VS partizan 20:30", Baskonia VS partizan 20:30
-acestream://42fea4e172bf3debe0e004260bdd077fe0b4f58e
-#EXTINF:-1 group-title="By @Jonatan" tvg-id="Valencia VS Lyon 21:00", Valencia VS Lyon 21:00
-acestream://d4d4200a1e52fc23940b2dde915600af7e9a6b05
-#EXTINF:-1 tvg-logo="https://i.ibb.co/dgqH0nP/Vamos.jpg" group-title="By @Jonatan" tvg-id="M+ #VAMOS", #Vamos HD
-acestream://5c19b80926aa6dd5ff6ff2ba086bf6caa39c56fa
-#EXTINF:-1 tvg-logo="https://i.ibb.co/dgqH0nP/Vamos.jpg" group-title="By @Jonatan" tvg-id="M+ #VAMOSHD", #Vamos HD
-acestream://172a0843a8f136659ab139af2d247bcfac602d05
-#EXTINF:-1 group-title="By @Jonatan" tvg-id="Rayo vallecano VS Getafe en 2k", Rayo vallecano VS Getafe en 2k
-acestream://6ad6b77d7a5279d81b75f3b7ba02ab55b17aa7d3
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/d541mDr/DAZN-La-Liga.jpg" group-title="By @Jonatan" tvg-id="Sevilla VS Valencia 720 19:00", Sevilla VS Valencia 720 19:00
+acestream://313c3c992dc7017e2a80310bb6b75ff30b410280
+#EXTINF:-1 tvg-logo="https://i.ibb.co/d541mDr/DAZN-La-Liga.jpg" group-title="By @Jonatan" tvg-id="At Madrid VS rayo vallecano 2K 21:00", At Madrid VS rayo vallecano 2K 21:00
+acestream://6b7cdac10ea811b0ce1f8a660eb93da8784aa073
+#EXTINF:-1 tvg-logo="https://i.ibb.co/d541mDr/DAZN-La-Liga.jpg" group-title="By @Jonatan" tvg-id="SEVILLA VS VALENCIA 1080", SEVILLA VS VALENCIA 1080
+acestream://1020ab853036c45eb44ff75c314715474e994f2d
+#EXTINF:-1 tvg-logo="https://i.ibb.co/d541mDr/DAZN-La-Liga.jpg" group-title="By @Jonatan" tvg-id="GETAFE VS ATHLETIC 1080", GETAFE VS ATHLETIC 1080
+acestream://68d44340c4ae916ccb9ef0dcdc0ac6370ca2ea28
+#EXTINF:-1 tvg-logo="https://i.ibb.co/d541mDr/DAZN-La-Liga.jpg" group-title="By @Jonatan" tvg-id="AT. MADRID VS RAYO 1080", AT. MADRID VS RAYO 1080
+acestream://7ab900af72f56eca96503f683ea24febaa2db0bc
+#EXTINF:-1 tvg-logo="https://i.ibb.co/d541mDr/DAZN-La-Liga.jpg" group-title="By @Jonatan" tvg-id="AT. MADRID VS RAYO 720", AT. MADRID VS RAYO 720
+acestream://0552bc52bbf60706062c28f4a5fa7e6dbd27fe30
+
 
 
 

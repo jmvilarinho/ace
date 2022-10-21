@@ -1,7 +1,7 @@
 #EXTM3U url-tvg="https://raw.githubusercontent.com/dracohe/CARLOS/master/guide_IPTV.xml, https://github.com/dracohe/INTERNACIONALES/blob/master/guide.xml?raw=true"
 
 
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/9FFnChQY/4k.png" group-title="By @Lucas_m_o_o_m" tvg-id="M+LCAMPEONES",LIGA DE CAMPEONES 4K pruebas
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/9FFnChQY/4k.png" group-title="By @Lucas_m_o_o_m" tvg-id="M+LCAMPEONES",LIGA DE CAMPEONES 4K NO FUNCIONA
 acestream://de2074f9558653838083f180af86939013bd7f50
 
 
@@ -173,18 +173,17 @@ acestream://f3f14b89eb62839f97153593432370b5bd61a5df
 
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/F4cyBjm/Eventos.jpg" group-title="By @ManuK0S" tvg-id="", Evento del Momento 1080
-acestream://edfa1c981ad5dac59b6413434a7e69f40c57ab4d
-#EXTINF:-1 tvg-logo="https://i.ibb.co/F4cyBjm/Eventos.jpg" group-title="By @ManuK0S" tvg-id="", Evento del Momento 1080
-acestream://f305f91a3210858983697a9dc2bbd8f959e17ef8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/F4cyBjm/Eventos.jpg" group-title="By @ManuK0S" tvg-id="", #Vamos 720
-acestream://137ccef306febbd4509b5a374f08df1151bf388c
-#EXTINF:-1 tvg-logo="https://i.ibb.co/F4cyBjm/Eventos.jpg" group-title="By @ManuK0S" tvg-id="", #Vamos 1080
-acestream://4cff8e802e9fb0b43fd4575444c3abac9ac00b40
-#EXTINF:-1 tvg-logo="https://i.ibb.co/F4cyBjm/Eventos.jpg" group-title="By @ManuK0S" tvg-id="", ML Campeones
-acestream://69539c018423fb4014ab29cef683f32d3374fd94
-#EXTINF:-1 tvg-logo="https://i.ibb.co/F4cyBjm/Eventos.jpg" group-title="By @ManuK0S" tvg-id="", Levante vs Cartagena, Off
-acestream://
+#EXTINF:-1 tvg-logo="https://i.ibb.co/F4cyBjm/Eventos.jpg" group-title="By @ManuK0S" tvg-id="Almería VS Gerona 19:00", Almería VS Gerona 19:00
+acestream://167e3b44a520cd76d4372f6d30fe6d7ccd524175
+#EXTINF:-1 tvg-logo="https://i.ibb.co/F4cyBjm/Eventos.jpg" group-title="By @ManuK0S" tvg-id="Osasuna VS espanyol 20:00", Osasuna VS espanyol 20:00
+acestream://df98650743f24a245c44cdf2851e57078f4c487a
+#EXTINF:-1 tvg-logo="https://i.ibb.co/F4cyBjm/Eventos.jpg" group-title="By @ManuK0S" tvg-id="Barcelona VS Villareal 21:00", Barcelona VS Villareal 21:00
+acestream://167e3b44a520cd76d4372f6d30fe6d7ccd524175
+#EXTINF:-1 tvg-logo="https://i.ibb.co/F4cyBjm/Eventos.jpg" group-title="By @ManuK0S" tvg-id="Zalguiris VS barsa 19:45", Zalguiris VS barsa 19:45
+acestream://d4d4200a1e52fc23940b2dde915600af7e9a6b05
+#EXTINF:-1 tvg-logo="https://i.ibb.co/F4cyBjm/Eventos.jpg" group-title="By @ManuK0S" tvg-id="Fenerbsche VS valencia 19:45", Fenerbsche VS valencia 19:45
+acestream://bfbcda5a0999256360ce560caf2a6473aafc3f11
+
 
 
 
@@ -199,19 +198,16 @@ acestream://
 
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/d541mDr/DAZN-La-Liga.jpg" group-title="By @Jonatan" tvg-id="Sevilla VS Valencia 720 19:00", Sevilla VS Valencia 720 19:00
-acestream://313c3c992dc7017e2a80310bb6b75ff30b410280
-#EXTINF:-1 tvg-logo="https://i.ibb.co/d541mDr/DAZN-La-Liga.jpg" group-title="By @Jonatan" tvg-id="At Madrid VS rayo vallecano 2K 21:00", At Madrid VS rayo vallecano 2K 21:00
-acestream://6b7cdac10ea811b0ce1f8a660eb93da8784aa073
-#EXTINF:-1 tvg-logo="https://i.ibb.co/d541mDr/DAZN-La-Liga.jpg" group-title="By @Jonatan" tvg-id="SEVILLA VS VALENCIA 1080", SEVILLA VS VALENCIA 1080
-acestream://1020ab853036c45eb44ff75c314715474e994f2d
-#EXTINF:-1 tvg-logo="https://i.ibb.co/d541mDr/DAZN-La-Liga.jpg" group-title="By @Jonatan" tvg-id="GETAFE VS ATHLETIC 1080", GETAFE VS ATHLETIC 1080
-acestream://68d44340c4ae916ccb9ef0dcdc0ac6370ca2ea28
-#EXTINF:-1 tvg-logo="https://i.ibb.co/d541mDr/DAZN-La-Liga.jpg" group-title="By @Jonatan" tvg-id="AT. MADRID VS RAYO 1080", AT. MADRID VS RAYO 1080
-acestream://7ab900af72f56eca96503f683ea24febaa2db0bc
-#EXTINF:-1 tvg-logo="https://i.ibb.co/d541mDr/DAZN-La-Liga.jpg" group-title="By @Jonatan" tvg-id="AT. MADRID VS RAYO 720", AT. MADRID VS RAYO 720
-acestream://0552bc52bbf60706062c28f4a5fa7e6dbd27fe30
-
+#EXTINF:-1 tvg-logo="https://i.ibb.co/F4cyBjm/Eventos.jpg" group-title="By @Jonatan" tvg-id="ALMERIA VS GIRONA 1080", ALMERIA VS GIRONA 1080
+acestream://d5108b0f0da7ba7d60d5e94ff4e43deb64185dae
+#EXTINF:-1 tvg-logo="https://i.ibb.co/F4cyBjm/Eventos.jpg" group-title="By @Jonatan" tvg-id="BARCELONA VS VILLARREAL 1080", BARCELONA VS VILLARREAL 1080
+acestream://48a7a7b8830d1190a498c1b316d63598bb7a653c
+#EXTINF:-1 tvg-logo="https://i.ibb.co/F4cyBjm/Eventos.jpg" group-title="By @Jonatan" tvg-id="ALMERIA VS GIRONA 720", ALMERIA VS GIRONA 720
+acestream://fcf590931ee6958ed899f45c6790e44a228b5c82
+#EXTINF:-1 tvg-logo="https://i.ibb.co/F4cyBjm/Eventos.jpg" group-title="By @Jonatan" tvg-id="BARCELONA VS VILLARREAL 720", BARCELONA VS VILLARREAL 720
+acestream://fcf590931ee6958ed899f45c6790e44a228b5c82
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/9FFnChQY/4k.png" group-title="By @Jonatan" tvg-id="BARCELONA VS VILLARREAL 4k extranjero",BARCELONA VS VILLARREAL 4k extranjero
+acestream://5a4740c357c425f930b68e2859ec46ac2204d572
 
 
 
@@ -248,4 +244,6 @@ acestream://b12bd6f32bbd53a2bbf182a30549fbdf747235cd
 #EXTINF:-1 tvg-logo="https://i.ibb.co/0DRyycB/NatGeo.jpg" group-title="By @paradoxus" tvg-id="NAT GEO HD", NAT GEO HD
 acestream://d0c5c350d8c62f7b7aa2516646a7e6f42b6155d1
 #EXTINF:-1 tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/HIST.png" group-title="By @paradoxus" tvg-id="HISTORIA", CANAL HISTORIA HD
+acestream://b899f725b8782aa263026b2bfbd43ee1e18482b6
+ogo="https://www.movistarplus.es/recorte/m-NEO/canal/HIST.png" group-title="By @paradoxus" tvg-id="HISTORIA", CANAL HISTORIA HD
 acestream://b899f725b8782aa263026b2bfbd43ee1e18482b6

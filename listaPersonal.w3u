@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 22/10/2022 06:56:22",
+    "name": "Canales Acestream 23/10/2022 06:56:21",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -348,7 +348,7 @@
                 },
                 {
                     "name": "M. LaLiga 1080 MultiAudio",
-                    "url": "acestream://167e3b44a520cd76d4372f6d30fe6d7ccd524175",
+                    "url": "acestream://684e5c085484e8ea79858713eeb7a3668baca29e",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga.png",
                     "embed": "false"
                 },

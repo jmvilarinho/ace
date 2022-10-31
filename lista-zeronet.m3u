@@ -117,11 +117,11 @@ acestream://6709a124e9ec6c95d35496cfa59d8ba24ff2cfaf
 acestream://bfbcda5a0999256360ce560caf2a6473aafc3f11
 #EXTINF:-1 tvg-logo="https://i.ibb.co/Qjk9GPx/DAZN4.jpg" group-title="By @Lucas_m_o_o_m" tvg-id="DAZN 4", DAZN 4 1080
 acestream://a0465ef421f30d0c68ff706654147762ec7b6c03
-#EXTINF:-1 tvg-logo="https://i.ibb.co/wKHbyS8/DAZNF1.jpg" group-title="By @Lucas_m_o_o_m" tvg-id="DAZN F1 HD", DAZN F1 1080 (F?rmula 1)
+#EXTINF:-1 tvg-logo="https://i.ibb.co/wKHbyS8/DAZNF1.jpg" group-title="By @Lucas_m_o_o_m" tvg-id="DAZN F1 HD", DAZN F1 1080 (Formula 1)
 acestream://c372020ed2744033f56548b6beb11a9f3e740f37
-#EXTINF:-1 tvg-logo="https://i.ibb.co/wKHbyS8/DAZNF1.jpg" group-title="By @Lucas_m_o_o_m" tvg-id="DAZN F1 HD", DAZN F1 1080 (F?rmula 1)
+#EXTINF:-1 tvg-logo="https://i.ibb.co/wKHbyS8/DAZNF1.jpg" group-title="By @Lucas_m_o_o_m" tvg-id="DAZN F1 HD", DAZN F1 1080 (Formula 1)
 acestream://5c2c4c9d12d5ae042d41f886edfd2bfd3cec18a2
-#EXTINF:-1 tvg-logo="https://i.ibb.co/wKHbyS8/DAZNF1.jpg" group-title="By @Lucas_m_o_o_m" tvg-id="DAZN F1 HD", DAZN F1 720 (F?rmula 1)
+#EXTINF:-1 tvg-logo="https://i.ibb.co/wKHbyS8/DAZNF1.jpg" group-title="By @Lucas_m_o_o_m" tvg-id="DAZN F1 HD", DAZN F1 720 (Formula 1)
 acestream://5853ff69c8588fe23ff5555261d4a43e6ad2f1ae
 #EXTINF:-1 tvg-logo="https://i.ibb.co/5hYsXDR/Gol.jpg" group-title="By @Lucas_m_o_o_m" tvg-id="GOL HD", GOL TV 1080
 acestream://49c35606668ebf7a895434ec4c9243a163d87718
@@ -185,17 +185,24 @@ acestream://acefcfb8ec308c1ae5e66ccfc13a09bfbc6caa09
 
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/F4cyBjm/Eventos.jpg" group-title="By @Jonatan" tvg-id="", 
+#EXTINF:-1 tvg-logo="https://i.ibb.co/F4cyBjm/Eventos.jpg" group-title="By @Jonatan" tvg-id="Valencia vs Barcelona 21:00", Valencia vs Barcelona 21:00
+acestream://df98650743f24a245c44cdf2851e57078f4c487a
+#EXTINF:-1 tvg-logo="https://i.ibb.co/F4cyBjm/Eventos.jpg" group-title="By @Jonatan" tvg-id="Burgos VS Ibiza 21:00", Burgos VS Ibiza 21:00
+acestream://d4fa689e575f7626c8b136c9ad8685b945d3cccf
+#EXTINF:-1 tvg-logo="https://i.ibb.co/F4cyBjm/Eventos.jpg" group-title="By @Jonatan" tvg-id="Canarias VS Tenerife 20:45", Canarias VS Tenerife 20:45
+acestream://49acacbbbcf33be6e843958ceedc7da8dd4f1486
+#EXTINF:-1 tvg-logo="https://i.ibb.co/F4cyBjm/Eventos.jpg" group-title="By @Jonatan" tvg-id="Joventud VS Zaragoza 20:45", Joventud VS Zaragoza 20:45
 acestream://c47f756750190e4b2a9eefe8afdac48a2203b8d6
+#EXTINF:-1 tvg-logo="https://i.ibb.co/wKHbyS8/DAZNF1.jpg" group-title="By @Jonatan" tvg-id="DAZN F1", DAZN F1 (Formula 1)
+acestream://c372020ed2744033f56548b6beb11a9f3e740f37
+#EXTINF:-1 tvg-logo="https://i.ibb.co/wKHbyS8/DAZNF1.jpg" group-title="By @Jonatan" tvg-id="DAZN F1", DAZN F1 (Formula 1)
+acestream://5c2c4c9d12d5ae042d41f886edfd2bfd3cec18a2
 
 
 
 
-
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/9FFnChQY/4k.png" group-title="By @Danny" tvg-id="Real Betis - At Madrid", Real Betis - At Madrid
-acestream://fce57732100f78dc96a27c5571fe1fa0080a3841
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/9FFnChQY/4k.png" group-title="By @Danny" tvg-id="Formula 1 4k", Formula 1 4k
-acestream://fce57732100f78dc96a27c5571fe1fa0080a3841
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/9FFnChQY/4k.png" group-title="By @Danny" tvg-id="Valencia vs Barcelona a 4k 21:00", Real Betis - At Madrid (4k)
+acestream://94774eb9d2d6b0577a7a1732ddc586ad778b2657
 
 
 
@@ -299,19 +306,7 @@ acestream://297fab10d7364ca1991fa43fcff469573688ce7a
 acestream://a5d22610cb7bd5608c14249e3984bacb54dfe487
 #EXTINF:-1 tvg-logo="https://i.ibb.co/5KjsjJW/Campeones.jpg" group-title="Campeones" tvg-id="M+LCAMPEONES5", M.L. Campeones 5 SD
 acestream://a5d22610cb7bd5608c14249e3984bacb54dfe487
-os" tvg-id="RTL+ SPORT EVENT 6 [DE]", RTL+ SPORT EVENT 6 [DE]
-acestream://c065ab169f75ced1d34fbcab6b84a5fa4ca73e30
-#EXTINF:-1 group-title="Extranjeros" tvg-id="Eurosport 1 HD [DE]", Eurosport 1 HD [DE]
-acestream://b8cad4710b1c3b2b84a82c1ece40c08517b8f766
-#EXTINF:-1 group-title="Extranjeros" tvg-id="Eurosport 2 HD [DE]", Eurosport 2 HD [DE]
-acestream://ac675c82d6dfd4a201532c18b42e48dacb7c32c6
-#EXTINF:-1 group-title="Extranjeros" tvg-id="BeIN Sports 1 BE", BeIN Sports 1 BE
-acestream://bba1905fcd1c4975aec544047bf8e4cd23ce3fe0
-#EXTINF:-1 group-title="Extranjeros" tvg-id="BeIN Sports 2 BE", BeIN Sports 2 BE
-acestream://edb507e38394d614c9ff55805c9d354ae13210bc
-#EXTINF:-1 group-title="Extranjeros" tvg-id="BeIN Sports 3 BE", BeIN Sports 3 BE
-acestream://731bd3336ec0986ff9100efe40dbaf1473a22cf8
-#EXTINF:-1 group-title="Extranjeros" tvg-id="Eleven Sports 1 BE", Eleven Sports 1 BE
+-id="Eleven Sports 1 BE", Eleven Sports 1 BE
 acestream://36cad67fed5a739757a9db844a551aa845a8d51b
 #EXTINF:-1 group-title="Extranjeros" tvg-id="Eleven Sports 2 BE", Eleven Sports 2 BE
 acestream://d08013df6e437a1fdf1e0c34f573fdf6a40c7fce

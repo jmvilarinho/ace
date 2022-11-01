@@ -185,18 +185,37 @@ acestream://acefcfb8ec308c1ae5e66ccfc13a09bfbc6caa09
 
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/F4cyBjm/Eventos.jpg" group-title="By @Jonatan" tvg-id="Valencia vs Barcelona 21:00", Valencia vs Barcelona 21:00
-acestream://df98650743f24a245c44cdf2851e57078f4c487a
-#EXTINF:-1 tvg-logo="https://i.ibb.co/F4cyBjm/Eventos.jpg" group-title="By @Jonatan" tvg-id="Burgos VS Ibiza 21:00", Burgos VS Ibiza 21:00
-acestream://d4fa689e575f7626c8b136c9ad8685b945d3cccf
-#EXTINF:-1 tvg-logo="https://i.ibb.co/F4cyBjm/Eventos.jpg" group-title="By @Jonatan" tvg-id="Canarias VS Tenerife 20:45", Canarias VS Tenerife 20:45
-acestream://49acacbbbcf33be6e843958ceedc7da8dd4f1486
-#EXTINF:-1 tvg-logo="https://i.ibb.co/F4cyBjm/Eventos.jpg" group-title="By @Jonatan" tvg-id="Joventud VS Zaragoza 20:45", Joventud VS Zaragoza 20:45
+#EXTINF:-1 tvg-logo="https://i.ibb.co/F4cyBjm/Eventos.jpg" group-title="By @Jonatan" tvg-id="Málaga VS Betis 12:30", Málaga VS Betis 12:30
 acestream://c47f756750190e4b2a9eefe8afdac48a2203b8d6
+#EXTINF:-1 tvg-logo="https://i.ibb.co/F4cyBjm/Eventos.jpg" group-title="By @Jonatan" tvg-id="Real Madrid VS Fuenlabrada 12:30", Real Madrid VS Fuenlabrada 12:30
+acestream://49acacbbbcf33be6e843958ceedc7da8dd4f1486
+#EXTINF:-1 tvg-logo="https://i.ibb.co/F4cyBjm/Eventos.jpg" group-title="By @Jonatan" tvg-id="Valencia basket VS barsa 18:30", Valencia basket VS barsa 18:30
+acestream://069431a1199eb2545a14c0a724095e57bdc58e9c
+#EXTINF:-1 tvg-logo="https://i.ibb.co/F4cyBjm/Eventos.jpg" group-title="By @Jonatan" tvg-id="Gerona VS Murcia 19:15", Gerona VS Murcia 19:15
+acestream://0c8935087510ee1c5117243a6cc46f9d6d795faf
+#EXTINF:-1 tvg-logo="https://i.ibb.co/F4cyBjm/Eventos.jpg" group-title="By @Jonatan" tvg-id="Bilbao VS baskonia 21:00", Bilbao VS baskonia 21:00
+acestream://85bd65161dfd8c4033194da3c978c0450c9111db
+#EXTINF:-1 tvg-logo="https://i.ibb.co/F4cyBjm/Eventos.jpg" group-title="By @Jonatan" tvg-id="NBA pelicanos VS Clippers 21:00", NBA pelicanos VS Clippers 21:00
+acestream://49acacbbbcf33be6e843958ceedc7da8dd4f1486
+#EXTINF:-1 tvg-logo="https://i.ibb.co/F4cyBjm/Eventos.jpg" group-title="By @Jonatan" tvg-id="Lugo VS mirandés 14:00", Lugo VS mirandés 14:00
+acestream://d4fa689e575f7626c8b136c9ad8685b945d3cccf
+#EXTINF:-1 tvg-logo="https://i.ibb.co/F4cyBjm/Eventos.jpg" group-title="By @Jonatan" tvg-id="Málaga VS Eibar 16:15", Málaga VS Eibar 16:15
+acestream://d4fa689e575f7626c8b136c9ad8685b945d3cccf
+#EXTINF:-1 tvg-logo="https://i.ibb.co/F4cyBjm/Eventos.jpg" group-title="By @Jonatan" tvg-id="Albacete VS Villareal b 21:00", Albacete VS Villareal b 21:00
+acestream://d4fa689e575f7626c8b136c9ad8685b945d3cccf
+#EXTINF:-1 tvg-logo="https://i.ibb.co/F4cyBjm/Eventos.jpg" group-title="By @Jonatan" tvg-id="Osasuna VS Valladolid 14:00", Osasuna VS Valladolid 14:00
+acestream://df98650743f24a245c44cdf2851e57078f4c487a
+#EXTINF:-1 tvg-logo="https://i.ibb.co/F4cyBjm/Eventos.jpg" group-title="By @Jonatan" tvg-id="Real Madrid VS Gerona 16:15", Real Madrid VS Gerona 16:15
+acestream://167e3b44a520cd76d4372f6d30fe6d7ccd524175
+#EXTINF:-1 tvg-logo="https://i.ibb.co/F4cyBjm/Eventos.jpg" group-title="By @Jonatan" tvg-id="Athletic VS Villareal 18:30", Athletic VS Villareal 18:30
+acestream://df98650743f24a245c44cdf2851e57078f4c487a
+#EXTINF:-1 tvg-logo="https://i.ibb.co/F4cyBjm/Eventos.jpg" group-title="By @Jonatan" tvg-id="Real sociedad VS Betis 21:00", Real sociedad VS Betis 21:00
+acestream://167e3b44a520cd76d4372f6d30fe6d7ccd524175
+
+
 #EXTINF:-1 tvg-logo="https://i.ibb.co/wKHbyS8/DAZNF1.jpg" group-title="By @Jonatan" tvg-id="DAZN F1", DAZN F1 (Formula 1)
 acestream://c372020ed2744033f56548b6beb11a9f3e740f37
-#EXTINF:-1 tvg-logo="https://i.ibb.co/wKHbyS8/DAZNF1.jpg" group-title="By @Jonatan" tvg-id="DAZN F1", DAZN F1 (Formula 1)
-acestream://5c2c4c9d12d5ae042d41f886edfd2bfd3cec18a2
+
 
 
 
@@ -306,33 +325,7 @@ acestream://297fab10d7364ca1991fa43fcff469573688ce7a
 acestream://a5d22610cb7bd5608c14249e3984bacb54dfe487
 #EXTINF:-1 tvg-logo="https://i.ibb.co/5KjsjJW/Campeones.jpg" group-title="Campeones" tvg-id="M+LCAMPEONES5", M.L. Campeones 5 SD
 acestream://a5d22610cb7bd5608c14249e3984bacb54dfe487
--id="Eleven Sports 1 BE", Eleven Sports 1 BE
-acestream://36cad67fed5a739757a9db844a551aa845a8d51b
-#EXTINF:-1 group-title="Extranjeros" tvg-id="Eleven Sports 2 BE", Eleven Sports 2 BE
-acestream://d08013df6e437a1fdf1e0c34f573fdf6a40c7fce
-#EXTINF:-1 group-title="Extranjeros" tvg-id="Eleven Sports 3 BE", Eleven Sports 3 BE
-acestream://dae7d1251f069516cc0a9c8f15f6639d2a17df1e
-#EXTINF:-1 group-title="Extranjeros" tvg-id="Eleven Sports 4 BE", Eleven Sports 4 BE
-acestream://0f32c0131a2d9444996410801f4e18b04384db98
-#EXTINF:-1 group-title="Extranjeros" tvg-id="Eleven Sports 5 BE", Eleven Sports 5 BE
-acestream://4dbe63b44fc4f439f5b634c0d2aa7e0cccad808a
-#EXTINF:-1 group-title="Extranjeros" tvg-id="Eleven Sports 6 BE", Eleven Sports 6 BE
-acestream://50b6d2b5fd59fefb9f4fd2176994d418f2b94a80
-#EXTINF:-1 group-title="Extranjeros" tvg-id="Setanta Sport 1", Setanta Sport 1 
-acestream://b99278331ad806f1463fcd3bf53befa5530d86da
-#EXTINF:-1 group-title="Extranjeros" tvg-id="Setanta Sport 1", Setanta Sport 1 
-acestream://8b70ef2d42e2adac57e90f68847eadfc356c04d2
-#EXTINF:-1 group-title="Extranjeros" tvg-id="Setanta Sport 2", Setanta Sport 2 
-acestream://9b8feebaf07ced9351ad88da77ef617f82626c4b
-#EXTINF:-1 group-title="Extranjeros" tvg-id="Setanta Sport 2", Setanta Sport 2 
-acestream://02ab7a40891a8cc1aa7e29e0eff279abc4a4188e
-
-
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/5KjsjJW/Campeones.jpg" group-title="Campeones" tvg-id="M+LCAMPEONES", M.L. Campeones 
-acestream://aedf221240a0f8513d90b555bf1b6e5306ac1e76
-#EXTINF:-1 tvg-logo="https://i.ibb.co/5KjsjJW/Campeones.jpg" group-title="Campeones" tvg-id="M+LCAMPEONES", M.L. Campeones 
-acestream://f8d89bf80b813631e6eb85fc8c185b00fe9ab88d
+6eb85fc8c185b00fe9ab88d
 #EXTINF:-1 tvg-logo="https://i.ibb.co/5KjsjJW/Campeones.jpg" group-title="Campeones" tvg-id="M+LCAMPEONES", M.L. Campeones HD
 acestream://3a3858cae88f14bbe00f54ba6c9ebf7b1de1e9b6
 #EXTINF:-1 tvg-logo="https://i.ibb.co/5KjsjJW/Campeones.jpg" group-title="Campeones" tvg-id="M+LCAMPEONES2", M.L. Campeones 2 

@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 09/11/2022 06:56:19",
+    "name": "Canales Acestream 10/11/2022 06:56:20",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -125,6 +125,12 @@
                     "embed": "false"
                 },
                 {
+                    "name": "DAZN 1 720",
+                    "url": "acestream://84af46abab9de02bdd22818747738cfa5438132e",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-1-es-2510.png",
+                    "embed": "false"
+                },
+                {
                     "name": "DAZN 2 1080",
                     "url": "acestream://42fea4e172bf3debe0e004260bdd077fe0b4f58e",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-2-es-2511.png",
@@ -151,12 +157,6 @@
                 {
                     "name": "Dazn 1 HD",
                     "url": "acestream://26fde3b656ab412ce1bea40f20bb45d67c519013",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-1-es-2510.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "dazn 1 720",
-                    "url": "acestream://84af46abab9de02bdd22818747738cfa5438132e",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-1-es-2510.png",
                     "embed": "false"
                 }
@@ -211,6 +211,12 @@
                 {
                     "name": "Dazn Liga 2 1080 MultiAudio",
                     "url": "acestream://1124d4366348b76a755710c8d0d5728e39d0095c",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-2784.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Dazn Liga 2 720",
+                    "url": "acestream://d83a3242e10ecffc31a16a02890de199a65dd8d9",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-2784.png",
                     "embed": "false"
                 },
@@ -348,7 +354,7 @@
                 },
                 {
                     "name": "M. LaLiga 1080 MultiAudio",
-                    "url": "acestream://684e5c085484e8ea79858713eeb7a3668baca29e",
+                    "url": "acestream://167e3b44a520cd76d4372f6d30fe6d7ccd524175",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga.png",
                     "embed": "false"
                 },

@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 13/11/2022 06:56:23",
+    "name": "Canales Acestream 14/11/2022 06:56:22",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -354,13 +354,13 @@
                 },
                 {
                     "name": "M. LaLiga 1080 MultiAudio",
-                    "url": "acestream://167e3b44a520cd76d4372f6d30fe6d7ccd524175",
+                    "url": "acestream://1e0214a06000e6f4847dd30cdc2fb839527be862",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga.png",
                     "embed": "false"
                 },
                 {
                     "name": "M. LaLiga 720",
-                    "url": "acestream://df139bbcd7ae6825b46d5955c52d639f1215346a",
+                    "url": "acestream://5c668adaf86ed6af2488e28d9f3a4e3b0e909664",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga.png",
                     "embed": "false"
                 },
@@ -486,7 +486,7 @@
                 },
                 {
                     "name": "beIN SPORTS ñ 1080",
-                    "url": "acestream://c0f38f2a4b891db823edb45e64f1191655526e5e",
+                    "url": "acestream://4853a0bd4fd17f85f563267feb6aec3319a3ac1d",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
                     "embed": "false"
                 },

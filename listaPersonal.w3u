@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 17/11/2022 06:56:18",
+    "name": "Canales Acestream 18/11/2022 06:56:23",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -481,6 +481,12 @@
                 {
                     "name": "Gol Mundial 720",
                     "url": "acestream://e80b91500a5679965a0cbab90f5eaf6cba6da2f3",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Gol Mundial 720 low",
+                    "url": "acestream://16150dafbbd4515a8b539a8e21e0f083f86416da",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
                     "embed": "false"
                 },

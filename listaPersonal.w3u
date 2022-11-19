@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 18/11/2022 06:56:23",
+    "name": "Canales Acestream 19/11/2022 06:56:22",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -557,14 +557,32 @@
                     "embed": "false"
                 },
                 {
+                    "name": "Smartbank",
+                    "url": "acestream://7791ba828c0226d8f54cef1611889d29fb333247",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-laliga-smartbank.png",
+                    "embed": "false"
+                },
+                {
                     "name": "Smartbank 1080 MultiAudio",
                     "url": "acestream://d4fa689e575f7626c8b136c9ad8685b945d3cccf",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-laliga-smartbank.png",
                     "embed": "false"
                 },
                 {
+                    "name": "Smartbank 2",
+                    "url": "acestream://cf6249379184d88a61f9db617341c6b6e6abb342",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-laliga-smartbank.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Smartbank 2 720",
+                    "url": "acestream://d9cf1776ec4443e88aab3ca4b57647b00b4e439e",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-laliga-smartbank.png",
+                    "embed": "false"
+                },
+                {
                     "name": "Smartbank 720",
-                    "url": "acestream://24b85e8cdd5031e6752a8da2d1c8bbee19b0b3b3",
+                    "url": "acestream://ae84b2cc45ebf1148cc36ee5f801f26a04a2ac2c",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-laliga-smartbank.png",
                     "embed": "false"
                 },

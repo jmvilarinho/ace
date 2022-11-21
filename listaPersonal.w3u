@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 20/11/2022 06:56:19",
+    "name": "Canales Acestream 21/11/2022 06:56:21",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -53,8 +53,14 @@
                     "embed": "false"
                 },
                 {
+                    "name": "M.L. Campeones 1080 MultiAudio",
+                    "url": "acestream://045718bad2ddb4f03b1a420754a97a23ad8b493b",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-moviestar-liga-de-campeones-1459.png",
+                    "embed": "false"
+                },
+                {
                     "name": "M.L. Campeones 2 1080",
-                    "url": "acestream://dfffbcdd9c7e32d5dc88d268dee830ff2a0d3ab6",
+                    "url": "acestream://9b76d0739f87555ccd3f42fc8e548762a0b94c28",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-moviestar-liga-de-campeones-2-1460.png",
                     "embed": "false"
                 },
@@ -455,14 +461,8 @@
                     "embed": "false"
                 },
                 {
-                    "name": "Gol Mundial  1080",
-                    "url": "acestream://f5ac7190541e98bdf94dffc6e32b4acac8f15d7b",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
                     "name": "Gol Mundial  1080 MultiAudio",
-                    "url": "acestream://045718bad2ddb4f03b1a420754a97a23ad8b493b",
+                    "url": "acestream://dfffbcdd9c7e32d5dc88d268dee830ff2a0d3ab6",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
                     "embed": "false"
                 },

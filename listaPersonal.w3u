@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 22/11/2022 09:53:04",
+    "name": "Canales Acestream 22/11/2022 09:56:13",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -159,6 +159,18 @@
                     "url": "acestream://26fde3b656ab412ce1bea40f20bb45d67c519013",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-1-es-2510.png",
                     "embed": "false"
+                },
+                {
+                    "name": "Dazn Liga 1080 MultiAudio",
+                    "url": "acestream://df98650743f24a245c44cdf2851e57078f4c487a",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-2784.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Dazn Liga 720",
+                    "url": "acestream://c35d2207792128fc0ae49c40e885c463f664dbce",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-2784.png",
+                    "embed": "false"
                 }
             ]
         },
@@ -193,18 +205,6 @@
                 {
                     "name": "DAZN LaLiga",
                     "url": "acestream://0e0fa349701524bf0cb7418dd12ed36fbd8ab29a",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-2784.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "Dazn Liga 1080 MultiAudio",
-                    "url": "acestream://df98650743f24a245c44cdf2851e57078f4c487a",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-2784.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "Dazn Liga 720",
-                    "url": "acestream://c35d2207792128fc0ae49c40e885c463f664dbce",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-2784.png",
                     "embed": "false"
                 }
@@ -383,6 +383,18 @@
             "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-movistar-laliga.png",
             "stations": [
                 {
+                    "name": "LaLiga Tv Bar 1080",
+                    "url": "acestream://01b333b9369c662775902638ef8cffac346a0f61",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laligatv-bar-2505.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "LaLiga Tv Bar 720",
+                    "url": "acestream://fce88ddb0aca4a0869ecd23bdf0bddc288d95260",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laligatv-bar-2505.png",
+                    "embed": "false"
+                },
+                {
                     "name": "M. LaLiga 1 1080",
                     "url": "acestream://4229d640fecf3c0897674241bcf851b67f4310e3",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga.png",
@@ -417,20 +429,7 @@
         {
             "name": "L.L. TVBar",
             "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-la-liga-tv-bar.png",
-            "stations": [
-                {
-                    "name": "LaLiga Tv Bar 1080",
-                    "url": "acestream://01b333b9369c662775902638ef8cffac346a0f61",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laligatv-bar-2505.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "LaLiga Tv Bar 720",
-                    "url": "acestream://fce88ddb0aca4a0869ecd23bdf0bddc288d95260",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laligatv-bar-2505.png",
-                    "embed": "false"
-                }
-            ]
+            "stations": []
         },
         {
             "name": "NBA",

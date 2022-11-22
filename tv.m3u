@@ -52,7 +52,7 @@ http://127.0.0.1:6878/ace/getstream?id=6c526d4cc3ca77cfbc10c548aa0d49944e56f3ff&
 http://127.0.0.1:6878/ace/getstream?id=c9ee7c95e7a2e9cd0e848b1f70848453652bebc2&.mp4
 #EXTINF:-1 tvg-id="EUROSPORT2HD" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-es-eurosport-2-616.png" group-title="Eurosport" tvg-name="EuroSport 2 1080",EuroSport 2 1080
 http://127.0.0.1:6878/ace/getstream?id=d6622ca93e54e493a6910248f8fe1f03aa85bf01&.mp4
-#EXTINF:-1 tvg-id="Gol Mundial" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-gol-mundial.png" group-title="Gol Mundial" tvg-name="Gol Mundial  1080 MultiAudio",Gol Mundial  1080 MultiAudio
+#EXTINF:-1 tvg-id="Gol Mundial" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-gol-mundial.png" group-title="Gol Mundial" tvg-name="Gol Mundial  1080 MultiAudio",Gol Mundial  1080 MultiAudio
 http://127.0.0.1:6878/ace/getstream?id=dfffbcdd9c7e32d5dc88d268dee830ff2a0d3ab6&.mp4
 #EXTINF:-1 tvg-id="ESBC2700002LO" tvg-chno="4001" tvg-logo="https://tvpmlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/70/ESBC2700002LO_20221109T010714.png" group-title="Samsung TV",Grjngo - Películas Del Oeste
 https://45e603c214f5438cae8872707b7fd678.mediatailor.us-east-1.amazonaws.com/v1/master/f4e8c53a8367a5b58e20ce054ea3ce25a3e904d3/Samsung-es_GrjngoPeliculasDelOeste/playlist.m3u8?ads.wurl_channel=1239&ads.wurl_name=GrjngoPeliculasDelOeste&ads.coppa=0&ads.psid=%7BPSID%7D&ads.targetopt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.consent=%7BTC_STRING%7D

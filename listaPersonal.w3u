@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 23/11/2022 06:56:20",
+    "name": "Canales Acestream 24/11/2022 06:56:23",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -510,6 +510,12 @@
                 {
                     "name": "LA 1 1080 MultiAudio",
                     "url": "acestream://fd0a3f8874ba9bb0516b1e2b978827fdd6661842",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "La 1 UHD",
+                    "url": "acestream://6636a5c1055b5913ddcd0e87a5523f7d935350af",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
                     "embed": "false"
                 },

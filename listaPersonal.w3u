@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 26/11/2022 18:17:10",
+    "name": "Canales Acestream 26/11/2022 18:18:16",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -37,12 +37,6 @@
                 {
                     "name": "Campeones9",
                     "url": "acestream://69c95dc47b35dde559a6ef025c1b91c89646a17f",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-moviestar-liga-de-campeones.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "Liga Campeones 4K",
-                    "url": "acestream://109c70ce6abc73be01a82571470e3402e4714819",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-moviestar-liga-de-campeones.png",
                     "embed": "false"
                 },
@@ -279,7 +273,26 @@
         {
             "name": "Gol Mundial",
             "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-gol-mundial.png",
-            "stations": []
+            "stations": [
+                {
+                    "name": "Gol Mundial - 1080p",
+                    "url": "acestream://4e7b21206691ecdb489d4b1334944236f065e762",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-gol-mundial.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Gol Mundial - 720p",
+                    "url": "acestream://ea800270d91039624e821e2e9394d0bee4ea0e35",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-gol-mundial.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Gol Mundial 2 - 1080p",
+                    "url": "acestream://2bb8c4b59ab38574ecd271d60a0e2c48adb770d9",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-gol-mundial.png",
+                    "embed": "false"
+                }
+            ]
         },
         {
             "name": "M. La Liga",
@@ -419,12 +432,6 @@
                 {
                     "name": "NATIONAL GEOGRAPHIC",
                     "url": "acestream://d0c5c350d8c62f7b7aa2516646a7e6f42b6155d1",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "acestream//",
-                    "url": "acestream://4e7b21206691ecdb489d4b1334944236f065e762",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
                     "embed": "false"
                 },

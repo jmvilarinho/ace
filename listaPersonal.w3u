@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 26/11/2022 18:48:37",
+    "name": "Canales Acestream 26/11/2022 18:49:56",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -364,24 +364,6 @@
             "name": "Gol Mundial",
             "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-gol-mundial.png",
             "stations": [
-                {
-                    "name": "Gol Mundial - 1080p",
-                    "url": "acestream://4e7b21206691ecdb489d4b1334944236f065e762",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-gol-mundial.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "Gol Mundial - 720p",
-                    "url": "acestream://ea800270d91039624e821e2e9394d0bee4ea0e35",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-gol-mundial.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "Gol Mundial 2 - 1080p",
-                    "url": "acestream://2bb8c4b59ab38574ecd271d60a0e2c48adb770d9",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-gol-mundial.png",
-                    "embed": "false"
-                },
                 {
                     "name": "Gol Mundial 2 720",
                     "url": "acestream://110aad976bda241b547ad69a5c7c6dc3c87cc4b9",

@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 12/12/2022 06:56:24",
+    "name": "Canales Acestream 12/12/2022 07:38:23",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -399,6 +399,12 @@
                     "url": "acestream://16150dafbbd4515a8b539a8e21e0f083f86416da",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-gol-mundial.png",
                     "embed": "false"
+                },
+                {
+                    "name": "Gol Mundial UHD",
+                    "url": "acestream://fc138340e045615c18f678acd5d045aec7e630a8",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-gol-mundial.png",
+                    "embed": "false"
                 }
             ]
         },
@@ -581,12 +587,6 @@
                 },
                 {
                     "name": "LA 1 1080",
-                    "url": "acestream://b41d52a733be6f4709db3bdf33e260de2b67d27a",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "LA 1 1080 multi",
                     "url": "acestream://fd0a3f8874ba9bb0516b1e2b978827fdd6661842",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
                     "embed": "false"
@@ -756,8 +756,8 @@
             ]
         },
         {
-            "name": "Lista zeronet",
-            "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/lista-zeronet.m3u",
+            "name": "Lista ramses",
+            "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/lista-ramses.m3u",
             "embed": "true"
         },
         {

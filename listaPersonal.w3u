@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 31/12/2022 06:56:25",
+    "name": "Canales Acestream 31/12/2022 10:55:19",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -363,14 +363,7 @@
         {
             "name": "Gol Mundial",
             "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-gol-mundial.png",
-            "stations": [
-                {
-                    "name": "Gol Mundial UHD",
-                    "url": "acestream://fc138340e045615c18f678acd5d045aec7e630a8",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-gol-mundial.png",
-                    "embed": "false"
-                }
-            ]
+            "stations": []
         },
         {
             "name": "M. La Liga",

@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 11/01/2023 21:17:17",
+    "name": "Canales Acestream 11/01/2023 21:19:18",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -579,14 +579,26 @@
                     "embed": "false"
                 },
                 {
-                    "name": "TeleCinco 1080",
-                    "url": "acestream://cbf281d5e481697aa4184fe1de5e069928c95057",
+                    "name": "Supercopa 1080",
+                    "url": "acestream://95d9967309d74d3dbd87c66cf374666bb9da9f07",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
                     "embed": "false"
                 },
                 {
-                    "name": "acestream//",
+                    "name": "Supercopa 1080 Multi",
                     "url": "acestream://8b2c2ef8925b1c659ccd3922390617a98d9ee6e1",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Supercopa 720",
+                    "url": "acestream://a16f0078ccb46ba65aaa175ad823e47ec31ab464",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "TeleCinco 1080",
+                    "url": "acestream://cbf281d5e481697aa4184fe1de5e069928c95057",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
                     "embed": "false"
                 },

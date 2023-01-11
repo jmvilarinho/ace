@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 11/01/2023 21:19:18",
+    "name": "Canales Acestream 11/01/2023 21:28:10",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -587,6 +587,12 @@
                 {
                     "name": "Supercopa 1080 Multi",
                     "url": "acestream://8b2c2ef8925b1c659ccd3922390617a98d9ee6e1",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Supercopa 1080 Multi2",
+                    "url": "acestream://c1a176e0165da407199bb9f8fb3acc2aaab2d3d1",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
                     "embed": "false"
                 },

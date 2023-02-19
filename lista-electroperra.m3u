@@ -151,6 +151,8 @@ http://127.0.0.1:6878/ace/getstream?id=d0c5c350d8c62f7b7aa2516646a7e6f42b6155d1
 http://127.0.0.1:6878/ace/getstream?id=cbf281d5e481697aa4184fe1de5e069928c95057
 #EXTINF:-1 group-title="Otros contenidos" tvg-id="TELEDEPORTE" tvg-logo="https://img.sport-tv-guide.live/images/tv-station-teledeporte-612.png" ,Teledeporte 1080
 http://127.0.0.1:6878/ace/getstream?id=5a272a468eaf25feb032e2c5d377c6276b2299c7
+#EXTINF:-1 group-title="Otros idiomas" tvg-id="" tvg-logo="https://i.postimg.cc/BbXFprF3/tennis.png" ,Tennis Channel
+http://127.0.0.1:6878/ace/getstream?id=16089ab3f31a2756cf2ba6d507ff367cce14df83
 #EXTINF:-1 group-title="Otros idiomas" tvg-id="SPORT TV1 HD" tvg-logo="https://img.sport-tv-guide.live/images/tv-station-pt-sport-tv-1-450.png" ,Sport TV 1 1080
 http://127.0.0.1:6878/ace/getstream?id=c95422bc904378be0b035eba721d5e6a004f7d79
 #EXTINF:-1 group-title="Otros idiomas" tvg-id="SPORT TV2 HD" tvg-logo="https://img.sport-tv-guide.live/images/tv-station-pt-sport-tv-2-451.png" ,Sport TV 2 1080
@@ -236,9 +238,7 @@ http://127.0.0.1:6878/ace/getstream?id=9b8feebaf07ced9351ad88da77ef617f82626c4b
 #EXTINF:-1 group-title="Otros idiomas" tvg-id="" tvg-logo="https://picon.ml/setanta-sports2.png" ,Setanta Sports 2
 http://127.0.0.1:6878/ace/getstream?id=02ab7a40891a8cc1aa7e29e0eff279abc4a4188e
 
-s://img.sport-tv-guide.live/images/stations/a1559.png" ,Eleven Sports 6 PT
-http://127.0.0.1:6878/ace/getstream?id=50b6d2b5fd59fefb9f4fd2176994d418f2b94a80
-#EXTINF:-1 group-title="Otros idiomas" tvg-id="" tvg-logo="https://picon.ml/setanta-sports1.png" ,Setanta Sports 1080
+-id="" tvg-logo="https://picon.ml/setanta-sports1.png" ,Setanta Sports 1080
 http://127.0.0.1:6878/ace/getstream?id=72066549fbfd3f755853fe9467586b7debf01f60
 #EXTINF:-1 group-title="Otros idiomas" tvg-id="" tvg-logo="https://picon.ml/setanta-sports1.png" ,Setanta Sports 1
 http://127.0.0.1:6878/ace/getstream?id=b99278331ad806f1463fcd3bf53befa5530d86da

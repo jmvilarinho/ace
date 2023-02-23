@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 22/02/2023 07:07:20",
+    "name": "Canales Acestream 23/02/2023 07:07:20",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -14,12 +14,6 @@
                     "name": "M.L. Campeones 10 SD",
                     "url": "acestream://df67afe5c5f5e82a3ae629d126727b006b65e676",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-moviestar-liga-de-campeones.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "M.L. Campeones 1080",
-                    "url": "acestream://539fcb64c4e3f1fd1d06dd8a80e4e00116d1c01b",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-moviestar-liga-de-campeones-1459.png",
                     "embed": "false"
                 },
                 {
@@ -113,6 +107,12 @@
             "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-dazn-espana.png",
             "stations": [
                 {
+                    "name": "DAZN 1 1080",
+                    "url": "acestream://8b2e003ef51657196d2096aa84b9b21ae4bfb660",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-1-es-2510.png",
+                    "embed": "false"
+                },
+                {
                     "name": "DAZN 1 720",
                     "url": "acestream://47c6e8dadfba2b3bd013feecf4194ecceec428cd",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-1-es-2510.png",
@@ -166,12 +166,6 @@
             "name": "DAZN LaLiga",
             "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-dazn-laliga.png",
             "stations": [
-                {
-                    "name": "DAZN LaLiga 1080",
-                    "url": "acestream://8b2e003ef51657196d2096aa84b9b21ae4bfb660",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-2784.png",
-                    "embed": "false"
-                },
                 {
                     "name": "DAZN LaLiga 1080 multiaudio",
                     "url": "acestream://7264961f63dc9dc6ef7acee7371f7a76b6a02061",
@@ -443,7 +437,7 @@
                     "embed": "false"
                 },
                 {
-                    "name": "LA 1 1080",
+                    "name": "LA 1 1080 multi",
                     "url": "acestream://fd0a3f8874ba9bb0516b1e2b978827fdd6661842",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
                     "embed": "false"
@@ -451,24 +445,6 @@
                 {
                     "name": "M. Golf 1080",
                     "url": "acestream://4f945b0ba4206fa2676b61e9eaa465ac3dcc8122",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "Supercopa 1080",
-                    "url": "acestream://95d9967309d74d3dbd87c66cf374666bb9da9f07",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "Supercopa 1080 Multi",
-                    "url": "acestream://8b2c2ef8925b1c659ccd3922390617a98d9ee6e1",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "Supercopa 720",
-                    "url": "acestream://a16f0078ccb46ba65aaa175ad823e47ec31ab464",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
                     "embed": "false"
                 },

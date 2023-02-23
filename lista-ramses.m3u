@@ -1,17 +1,6 @@
 #EXTM3U url-tvg="https://raw.githubusercontent.com/dracohe/CARLOS/master/guide_IPTV.xml, https://github.com/dracohe/INTERNACIONALES/blob/master/guide.xml?raw=true"
 
 
-#EXTINF:-1 tvg-logo="https://www.mundoplus.tv/wp-content/uploads/2022/01/evento_supercopa_espana.jpg" group-title="By @Lucas_m_o_o_m" tvg-id="Supercopa 1080 Multi", Supercopa 1080 Multi
-acestream://8b2c2ef8925b1c659ccd3922390617a98d9ee6e1
-#EXTINF:-1 tvg-logo="https://www.mundoplus.tv/wp-content/uploads/2022/01/evento_supercopa_espana.jpg" group-title="By @Lucas_m_o_o_m" tvg-id="Supercopa 1080 Multi", Supercopa 1080 Multi
-acestream://c1a176e0165da407199bb9f8fb3acc2aaab2d3d1
-#EXTINF:-1 tvg-logo="https://www.mundoplus.tv/wp-content/uploads/2022/01/evento_supercopa_espana.jpg" group-title="By @Lucas_m_o_o_m" tvg-id="Supercopa 1080", Supercopa 1080
-acestream://95d9967309d74d3dbd87c66cf374666bb9da9f07
-#EXTINF:-1 tvg-logo="https://www.mundoplus.tv/wp-content/uploads/2022/01/evento_supercopa_espana.jpg" group-title="By @Lucas_m_o_o_m" tvg-id="Supercopa 720", Supercopa 720
-acestream://a16f0078ccb46ba65aaa175ad823e47ec31ab464
-#EXTINF:-1 tvg-logo="https://i.ibb.co/swhGnw4/La1.jpg" group-title="By @Lucas_m_o_o_m" tvg-id="LA 1 HD", LA 1 1080 
-acestream://fd0a3f8874ba9bb0516b1e2b978827fdd6661842
-
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/ykCff9y/La-Liga-Bar.jpg" group-title="By @Lucas_m_o_o_m" tvg-id="LALIGATV BAR", LaLiga Tv Bar 1080
 acestream://ed2a15319345fb0739590faf88d8be4cb1663bf3
@@ -41,8 +30,6 @@ acestream://699d5ea3b0132a0e9c2c381a86a669b77384977c
 acestream://8021cba61d1e0891a41a6c3334f947360000dc8e
 #EXTINF:-1 tvg-logo="https://i.ibb.co/jVMhMQQ/Liga-Santander.jpg" group-title="By @Lucas_m_o_o_m" tvg-id="M+ LaLiga 7", M. LaLiga 7 1080
 acestream://1c0bb99925a0d18e075c2fe2cd7cb50946554ab1
-#EXTINF:-1 tvg-logo="https://i.ibb.co/d541mDr/DAZN-La-Liga.jpg" group-title="By @Lucas_m_o_o_m" tvg-id="DAZN LaLigaHD", DAZN LaLiga 1080
-acestream://8b2e003ef51657196d2096aa84b9b21ae4bfb660
 #EXTINF:-1 tvg-logo="https://i.ibb.co/d541mDr/DAZN-La-Liga.jpg" group-title="By @Lucas_m_o_o_m" tvg-id="DAZN LaLigaHD ", DAZN LaLiga 1080 multiaudio
 acestream://7264961f63dc9dc6ef7acee7371f7a76b6a02061
 #EXTINF:-1 tvg-logo="https://i.ibb.co/d541mDr/DAZN-La-Liga.jpg" group-title="By @Lucas_m_o_o_m" tvg-id="DAZN LaLigaHD ", DAZN LaLiga 1080 multiaudio
@@ -92,8 +79,8 @@ acestream://5da3c25c14d111cb9c33cf6e0b45b7cab88fe741
 acestream://b779e6056975e3682a804d47cbd5cc806217f64d
 #EXTINF:-1 tvg-logo="https://i.ibb.co/5KjsjJW/Campeones.jpg" group-title="By @Lucas_m_o_o_m" tvg-id="M+LCAMPEONES", M.L. Campeones 1080 MultiAudio
 acestream://045718bad2ddb4f03b1a420754a97a23ad8b493b
-#EXTINF:-1 tvg-logo="https://i.ibb.co/5KjsjJW/Campeones.jpg" group-title="By @Lucas_m_o_o_m" tvg-id="M+LCAMPEONES", M.L. Campeones 1080
-acestream://539fcb64c4e3f1fd1d06dd8a80e4e00116d1c01b
+#EXTINF:-1 tvg-logo="https://i.ibb.co/5KjsjJW/Campeones.jpg" group-title="By @Lucas_m_o_o_m" tvg-id="M+LCAMPEONES", M.L. Campeones 1080 MultiAudio
+acestream://2bac25f323be1de8208d6554337c2c8256bc32bc
 #EXTINF:-1 tvg-logo="https://i.ibb.co/5KjsjJW/Campeones.jpg" group-title="By @Lucas_m_o_o_m" tvg-id="M+LCAMPEONES", M.L. Campeones 720
 acestream://444b51b2606cba9efb1b4ff56bf652cbc02a5f47
 #EXTINF:-1 tvg-logo="https://i.ibb.co/5KjsjJW/Campeones.jpg" group-title="By @Lucas_m_o_o_m" tvg-id="M+LCAMPEONES2", M.L. Campeones 2 1080
@@ -845,6 +832,18 @@ http://tribaliptv.com:8080/Gustavo/123456/10966
 http://tribaliptv.com:8080/Gustavo/123456/10967
 #EXTINF:-1 tvg-id="" tvg-name="101TV Málaga" tvg-logo="https://graph.facebook.com/101tvmalaga/picture?width=200&height=200" group-title="AUTONOMICAS",101TV Málaga
 http://tribaliptv.com:8080/Gustavo/123456/10968
+#EXTINF:-1 tvg-id="" tvg-name="El Correo de Andalucía" tvg-logo="https://graph.facebook.com/elcorreoweb/picture?width=200&height=200" group-title="AUTONOMICAS",El Correo de Andalucía
+http://tribaliptv.com:8080/Gustavo/123456/10969
+#EXTINF:-1 tvg-id="" tvg-name="Onda Cádiz" tvg-logo="https://graph.facebook.com/ondacadiz/picture?width=200&height=200" group-title="AUTONOMICAS",Onda Cádiz
+http://tribaliptv.com:8080/Gustavo/123456/10970
+#EXTINF:-1 tvg-id="" tvg-name="Mijas 3.40 TV" tvg-logo="https://graph.facebook.com/Mijas340/picture?width=200&height=200" group-title="AUTONOMICAS",Mijas 3.40 TV
+http://tribaliptv.com:8080/Gustavo/123456/10971
+#EXTINF:-1 tvg-id="" tvg-name="Córdoba TV" tvg-logo="https://graph.facebook.com/cordobatvonline/picture?width=200&height=200" group-title="AUTONOMICAS",Córdoba TV
+http://tribaliptv.com:8080/Gustavo/123456/10972
+#EXTINF:-1 tvg-id="" tvg-name="PTV Málaga" tvg-logo="https://graph.facebook.com/PTV.Malaga/picture?width=200&height=200" group-title="AUTONOMICAS",PTV Málaga
+http://tribaliptv.com:8080/Gustavo/123456/10973
+#EXTINF:-1 tvg-id="" tvg-name="M95 Marbella" tvg-logo="https://graph.facebook.com/m95tvmarbella/picture?width=200&height=200" group-title="AUTONOMICAS",M95 Marbella
+http://tribaliptv.com:8080/Gustavo/123456/109740968
 #EXTINF:-1 tvg-id="" tvg-name="El Correo de Andalucía" tvg-logo="https://graph.facebook.com/elcorreoweb/picture?width=200&height=200" group-title="AUTONOMICAS",El Correo de Andalucía
 http://tribaliptv.com:8080/Gustavo/123456/10969
 #EXTINF:-1 tvg-id="" tvg-name="Onda Cádiz" tvg-logo="https://graph.facebook.com/ondacadiz/picture?width=200&height=200" group-title="AUTONOMICAS",Onda Cádiz

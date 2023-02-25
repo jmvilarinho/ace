@@ -126,11 +126,11 @@ acestream://bbbbc306280b2161e6c3cfa83cc9aef18f046c4a
 #EXTINF:-1 tvg-logo="https://i.ibb.co/Qjk9GPx/DAZN4.jpg" group-title="By @Lucas_m_o_o_m" tvg-id="DAZN 4", DAZN 4 1080
 acestream://149a38e333de920753f1388c43247283bdb05f5b
 #EXTINF:-1 tvg-logo="https://i.ibb.co/wKHbyS8/DAZNF1.jpg" group-title="By @Lucas_m_o_o_m" tvg-id="DAZN F1 HD", DAZN F1 1080 (Formula 1)
-acestream://ffaa5f556ee0497ad905208d317b1f3ed4c0914b
+acestream://60cf60019aeef9af6183dd05af1b89e25594ac14
 #EXTINF:-1 tvg-logo="https://i.ibb.co/wKHbyS8/DAZNF1.jpg" group-title="By @Lucas_m_o_o_m" tvg-id="DAZN F1 HD", DAZN F1 1080 (Formula 1)
-acestream://5c2c4c9d12d5ae042d41f886edfd2bfd3cec18a2
+acestream://4fc3417ae1f5cfd8c7ab8e4ebdb9ba88d486caf2
 #EXTINF:-1 tvg-logo="https://i.ibb.co/wKHbyS8/DAZNF1.jpg" group-title="By @Lucas_m_o_o_m" tvg-id="DAZN F1 HD", DAZN F1 720 (Formula 1)
-acestream://a4d17dec3b341fb4c10afab81068dca29c5e9a4a
+acestream://a52bf7c28df63995ad427c32ebf1e517445720bb
 #EXTINF:-1 tvg-logo="https://i.ibb.co/5hYsXDR/Gol.jpg" group-title="By @Lucas_m_o_o_m" tvg-id="GOL HD", GOL TV 1080
 acestream://d4627f7b6b237a8556819445b3283d866caceca2
 #EXTINF:-1 tvg-logo="https://i.ibb.co/DKTwL0t/Eurosport1-o.jpg" group-title="By @Lucas_m_o_o_m" tvg-id="EUROSPORT1HD", EuroSport 1 1080
@@ -198,12 +198,6 @@ acestream://167e3b44a520cd76d4372f6d30fe6d7ccd524175
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/d541mDr/DAZN-La-Liga.jpg" group-title="By @Avipetit" tvg-id="",
 acestream://acefcfb8ec308c1ae5e66ccfc13a09bfbc6caa09
-
-
-#EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/1590123392484737028/r2OGGZpr_400x400.jpg" group-title="By @Jonatan" tvg-id="Gol Mundial 1 1080 Multi", Gol Mundial 1 1080 Multi
-acestream://48f60a6058d8f358ff3f50b0d8c661b8a59e1cb9
-#EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/1590123392484737028/r2OGGZpr_400x400.jpg" group-title="By @Jonatan" tvg-id="Gol Mundial 1 HD", Gol Mundial 1080  
-acestream://2de2028b57c39e7f499f09d0863d5ea519b5105c
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/wKHbyS8/DAZNF1.jpg" group-title="By @Jonatan" tvg-id="DAZN F1 OFF", DAZN F1 (Formula 1) OFF
@@ -839,6 +833,11 @@ http://tribaliptv.com:8080/Gustavo/123456/10970
 #EXTINF:-1 tvg-id="" tvg-name="Mijas 3.40 TV" tvg-logo="https://graph.facebook.com/Mijas340/picture?width=200&height=200" group-title="AUTONOMICAS",Mijas 3.40 TV
 http://tribaliptv.com:8080/Gustavo/123456/10971
 #EXTINF:-1 tvg-id="" tvg-name="Córdoba TV" tvg-logo="https://graph.facebook.com/cordobatvonline/picture?width=200&height=200" group-title="AUTONOMICAS",Córdoba TV
+http://tribaliptv.com:8080/Gustavo/123456/10972
+#EXTINF:-1 tvg-id="" tvg-name="PTV Málaga" tvg-logo="https://graph.facebook.com/PTV.Malaga/picture?width=200&height=200" group-title="AUTONOMICAS",PTV Málaga
+http://tribaliptv.com:8080/Gustavo/123456/10973
+#EXTINF:-1 tvg-id="" tvg-name="M95 Marbella" tvg-logo="https://graph.facebook.com/m95tvmarbella/picture?width=200&height=200" group-title="AUTONOMICAS",M95 Marbella
+http://tribaliptv.com:8080/Gustavo/123456/10974
 http://tribaliptv.com:8080/Gustavo/123456/10972
 #EXTINF:-1 tvg-id="" tvg-name="PTV Málaga" tvg-logo="https://graph.facebook.com/PTV.Malaga/picture?width=200&height=200" group-title="AUTONOMICAS",PTV Málaga
 http://tribaliptv.com:8080/Gustavo/123456/10973

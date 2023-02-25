@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 24/02/2023 07:07:20",
+    "name": "Canales Acestream 25/02/2023 07:07:21",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -150,13 +150,13 @@
             "stations": [
                 {
                     "name": "DAZN F1 1080 (Formula 1)",
-                    "url": "acestream://ffaa5f556ee0497ad905208d317b1f3ed4c0914b",
+                    "url": "acestream://60cf60019aeef9af6183dd05af1b89e25594ac14",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-formula-1-366.png",
                     "embed": "false"
                 },
                 {
                     "name": "DAZN F1 720 (Formula 1)",
-                    "url": "acestream://a4d17dec3b341fb4c10afab81068dca29c5e9a4a",
+                    "url": "acestream://a52bf7c28df63995ad427c32ebf1e517445720bb",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-formula-1-366.png",
                     "embed": "false"
                 }

@@ -232,20 +232,19 @@ http://127.0.0.1:6878/ace/getstream?id=9b8feebaf07ced9351ad88da77ef617f82626c4b
 #EXTINF:-1 group-title="Otros idiomas" tvg-id="" tvg-logo="https://picon.ml/setanta-sports2.png" ,Setanta Sports 2
 http://127.0.0.1:6878/ace/getstream?id=02ab7a40891a8cc1aa7e29e0eff279abc4a4188e
 
-#EXTINF:-1 group-title="STB&DRM test" tvg-id="DAZN F1 HD" tvg-logo="https://img.sport-tv-guide.live/images/tv-station-dazn-formula-1-366.png" ,DAZN F1
+#EXTINF:-1 group-title="DRM test (solo OTT)" tvg-id="DAZN F1 HD" tvg-logo="https://img.sport-tv-guide.live/images/tv-station-dazn-formula-1-366.png" ,DAZN F1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=82f8e2a17dac44c0a18f660479349c59:1b144f73e6fefe91cd05f850e2b589d0
 https://dce-fs-live-dazn-cdn.dazn.com/dashdrm/dazn-linear-016/stream.mpd
-#EXTINF:-1 group-title="STB&DRM test" tvg-id="DAZN LaLiga HD" tvg-logo="https://img.sport-tv-guide.live/images/stations/a2784.png" ,DAZN LaLiga 
+#EXTINF:-1 group-title="DRM test (solo OTT)" tvg-id="DAZN LaLiga HD" tvg-logo="https://img.sport-tv-guide.live/images/stations/a2784.png" ,DAZN LaLiga 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=82f8e2a17dac44c0a18f660479349c59:1b144f73e6fefe91cd05f850e2b589d0
 https://dce-fs-live-dazn-cdn.dazn.com/dashdrm/dazn-linear-043/stream.mpd
 
-#EXTINF:-1 group-title="STB&DRM test" tvg-id="" tvg-logo="https://img2.sport-tv-guide.live/images/stations/a2756.png" ,Viaplay F1 NL 1080 FHD IPTV
+#EXTINF:-1 group-title="STB test" tvg-id="" tvg-logo="https://img2.sport-tv-guide.live/images/stations/a2756.png" ,Viaplay F1 NL 1080 FHD IPTV
 http://31.220.3.170:80/play/live.php?mac=00:1A:79:4B:B2:41&stream=515142&extension=ts&play_token=2qDv2Fa68d
-#EXTINF:-1 group-title="STB&DRM test" tvg-id="" tvg-logo="" ,Calle 13 FHD
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:C3:AF:36&stream=55466&extension=ts&play_token=ltn2GgE1z64d2
-#EXTINF:-1 group-title="Otros idiomas" tvg-id="" tvg-logo="https://picon.ml/setanta-sports2.png" ,Setanta Sports 2
+#EXTINF:-1 group-title="STB test" tvg-id="" tvg-logo="" ,Calle 13 FHD
+http://mol-2.com:8080/play/live.php?mac=00:1A:79:C3:AF:36&stream=55466&extension=ts&play_token=ltn2GgE1z6EXTINF:-1 group-title="Otros idiomas" tvg-id="" tvg-logo="https://picon.ml/setanta-sports2.png" ,Setanta Sports 2
 http://127.0.0.1:6878/ace/getstream?id=9b8feebaf07ced9351ad88da77ef617f82626c4b
 #EXTINF:-1 group-title="Otros idiomas" tvg-id="" tvg-logo="https://picon.ml/setanta-sports2.png" ,Setanta Sports 2
 http://127.0.0.1:6878/ace/getstream?id=02ab7a40891a8cc1aa7e29e0eff279abc4a4188e

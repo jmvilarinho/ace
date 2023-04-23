@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 23/04/2023 08:58:13",
+    "name": "Canales Acestream 23/04/2023 12:20:56",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -559,6 +559,11 @@
         {
             "name": "Lista #2",
             "url": "https://pastebin.com/raw/UCr62p27",
+            "embed": "true"
+        },
+        {
+            "name": "Lista #3",
+            "url": "https://af-1-cionados.vercel.app/af1cionados.w3u",
             "embed": "true"
         }
     ]

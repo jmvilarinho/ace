@@ -263,8 +263,8 @@ https://dce-fs-live-dazn-cdn.dazn.com/dashdrm/dazn-linear-031/stream.mpd
 #KODIPROP:inputstream.adaptive.license_key=82f8e2a17dac44c0a18f660479349c59:1b144f73e6fefe91cd05f850e2b589d0
 https://dce-fs-live-dazn-cdn.dazn.com/dashdrm/dazn-linear-032/stream.mpd
 
-#EXTINF:-1 group-title="STB" tvg-id="CALLE 13 HD" tvg-logo="" ,Calle 13 1080
-http://mol-2.com:8080/play/live.php?mac=00:1A:79:C3:AF:36&stream=55466&extension=ts&play_token=ltn2GgE1z6fe9467586b7debf01f60
+#EXTINF:-1 group-title="STB" tvg-id="CALLE 13 HD" tvg-logo="" ,TEST Calle 13 1080
+http://mol-2.com:8080/play/live.php?mac=00:1A:79:C3:AF:36&stream=55466&extension=ts&play_token=ltn2GgE1z67586b7debf01f60
 #EXTINF:-1 group-title="Otros idiomas" tvg-id="" tvg-logo="https://picon.ml/setanta-sports1.png" ,Setanta Sports 1
 http://127.0.0.1:6878/ace/getstream?id=b99278331ad806f1463fcd3bf53befa5530d86da
 #EXTINF:-1 group-title="Otros idiomas" tvg-id="" tvg-logo="https://picon.ml/setanta-sports1.png" ,Setanta Sports 1

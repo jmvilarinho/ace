@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 26/04/2023 08:58:14",
+    "name": "Canales Acestream 28/04/2023 08:58:20",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -169,6 +169,12 @@
                 {
                     "name": "DAZN LaLiga 1080 multiaudio",
                     "url": "acestream://7264961f63dc9dc6ef7acee7371f7a76b6a02061",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-2784.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "DAZN LaLiga 2 1080",
+                    "url": "acestream://93d663e92a93845b11c9831885646fa39ba1ed66",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-2784.png",
                     "embed": "false"
                 },

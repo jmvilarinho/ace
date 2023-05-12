@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 12/05/2023 09:08:29",
+    "name": "Canales Acestream 12/05/2023 09:09:52",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -397,7 +397,7 @@
                 {
                     "name": "#0",
                     "url": "acestream://864fc1be34bdedc4bc2c7bb92098c61df8e9c7c2",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-cero.png",
                     "embed": "false"
                 },
                 {

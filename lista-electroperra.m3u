@@ -167,6 +167,14 @@ http://mol-2.com:8080/play/live.php?mac=00:1A:79:C3:AF:36&stream=55508&extension
 http://mol-2.com:8080/play/live.php?mac=00:1A:79:C3:AF:36&stream=55502&extension=ts&play_token=ltn2GgE1z6
 #EXTINF:-1 group-title="M+ STB MAC (Pruebas)" tvg-id="M+ESTRENOS HD" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MV1.png" ,M+ Estrenos 1080
 http://mol-2.com:8080/play/live.php?mac=00:1A:79:C3:AF:36&stream=55504&extension=ts&play_token=ltn2GgE1z6
+#EXTINF:-1 group-title="M+ STB MAC (Pruebas)" tvg-id="M+Cine Español" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/DCESP.png" ,M+ Cine Ñ
+http://mol-2.com:8080/play/live.php?mac=00:1A:79:C3:AF:36&stream=55506&extension=ts&play_token=ltn2GgE1z6
+#EXTINF:-1 group-title="M+ STB MAC (Pruebas)" tvg-id="M+COMEDIA HD" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/CPCOME.png" ,M+ Comedia 1080
+http://mol-2.com:8080/play/live.php?mac=00:1A:79:C3:AF:36&stream=55500&extension=ts&play_token=ltn2GgE1z6
+#EXTINF:-1 group-title="M+ STB MAC (Pruebas)" tvg-id="M+ ACCION HD" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/CPACCI.png" ,M+ Acción 1080
+http://mol-2.com:8080/play/live.php?mac=00:1A:79:C3:AF:36&stream=55496&extension=ts&play_token=ltn2GgE1z6
+#EXTINF:-1 group-title="M+ STB MAC (Pruebas)" tvg-id="M+ SERIES HD" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MV2.png" ,M+ Series 1080
+http://mol-2.com:8080/play/live.php?mac=00:1A:79:C3:AF:36&stream=55484&extension=ts&play_token=ltn2GgE1z6
 #EXTINF:-1 group-title="M+ STB MAC (Pruebas)" tvg-id="HISTORIA" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/HIST.png" ,Historia
 http://mol-2.com:8080/play/live.php?mac=00:1A:79:C3:AF:36&stream=55609&extension=ts&play_token=ltn2GgE1z6
 #EXTINF:-1 group-title="M+ STB MAC (Pruebas)" tvg-id="NAT GEO WILD HD" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/NATGW.png" ,Nat Geo Wild 1080

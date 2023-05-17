@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 16/05/2023 20:06:17",
+    "name": "Canales Acestream 17/05/2023 08:21:18",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -379,6 +379,11 @@
             ]
         },
         {
+            "name": "Movistar Plus+",
+            "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-plus-1475.png",
+            "stations": []
+        },
+        {
             "name": "NBA",
             "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-us-nba-tv.png",
             "stations": [
@@ -403,6 +408,18 @@
                 {
                     "name": "#Ellas 1080",
                     "url": "acestream://71e9e4c66a271ff58beb76792e01eeb6a1dde746",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "#Vamos 1080",
+                    "url": "acestream://f559b9fea692a86e1a1de41cd1aa667e3fa02775",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "#Vamos 720",
+                    "url": "acestream://0e18315b703248bb01eab6b9d3f0cb2cd893601f",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -536,24 +553,6 @@
                     "name": "Sport Tv 3",
                     "url": "acestream://6c526d4cc3ca77cfbc10c548aa0d49944e56f3ff",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-pt-sport-tv-3-452.png",
-                    "embed": "false"
-                }
-            ]
-        },
-        {
-            "name": "Vamos",
-            "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-vamos.png",
-            "stations": [
-                {
-                    "name": "#Vamos 1080",
-                    "url": "acestream://f559b9fea692a86e1a1de41cd1aa667e3fa02775",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-vamos.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "#Vamos 720",
-                    "url": "acestream://0e18315b703248bb01eab6b9d3f0cb2cd893601f",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-vamos.png",
                     "embed": "false"
                 }
             ]

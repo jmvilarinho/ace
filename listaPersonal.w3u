@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 17/05/2023 10:27:01",
+    "name": "Canales Acestream 17/05/2023 10:38:19",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -583,18 +583,18 @@
             ]
         },
         {
-            "name": "Lista ramses",
+            "name": "Lista Vercel",
+            "url": "https://af-1-cionados.vercel.app/af1cionados.w3u",
+            "embed": "true"
+        },
+        {
+            "name": "Lista Ramses",
             "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/lista-ramses.m3u",
             "embed": "true"
         },
         {
-            "name": "Lista #1",
+            "name": "Lista Pastebin",
             "url": "https://pastebin.com/raw/UCr62p27",
-            "embed": "true"
-        },
-        {
-            "name": "Lista #2",
-            "url": "https://af-1-cionados.vercel.app/af1cionados.w3u",
             "embed": "true"
         }
     ]

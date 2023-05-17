@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 17/05/2023 10:19:08",
+    "name": "Canales Acestream 17/05/2023 10:22:08",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -19,6 +19,12 @@
                 {
                     "name": "M.L. Campeones 1080 MultiAudio",
                     "url": "acestream://045718bad2ddb4f03b1a420754a97a23ad8b493b",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-moviestar-liga-de-campeones-1459.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M.L. Campeones 1080 MultiAudio - 32bc",
+                    "url": "acestream://2bac25f323be1de8208d6554337c2c8256bc32bc",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-moviestar-liga-de-campeones-1459.png",
                     "embed": "false"
                 },
@@ -155,6 +161,12 @@
                     "embed": "false"
                 },
                 {
+                    "name": "DAZN F1 1080 (Formula 1) - caf2",
+                    "url": "acestream://4fc3417ae1f5cfd8c7ab8e4ebdb9ba88d486caf2",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-formula-1-366.png",
+                    "embed": "false"
+                },
+                {
                     "name": "DAZN F1 720 (Formula 1)",
                     "url": "acestream://a52bf7c28df63995ad427c32ebf1e517445720bb",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-formula-1-366.png",
@@ -169,6 +181,12 @@
                 {
                     "name": "DAZN LaLiga 1080 multiaudio",
                     "url": "acestream://7264961f63dc9dc6ef7acee7371f7a76b6a02061",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-2784.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "DAZN LaLiga 1080 multiaudio - e5ff",
+                    "url": "acestream://0b01aa547ffe11ce2042bfe443abafb3ea17e5ff",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-2784.png",
                     "embed": "false"
                 },
@@ -325,6 +343,12 @@
                 {
                     "name": "M. LaLiga 1080 MultiAudio",
                     "url": "acestream://1e0214a06000e6f4847dd30cdc2fb839527be862",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M. LaLiga 1080 MultiAudio - deeb",
+                    "url": "acestream://d47addf5e467cbf102ba759600303c21efb1deeb",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga.png",
                     "embed": "false"
                 },

@@ -1,0 +1,1208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv generator-info-name="Vila">
+<channel id="LA 1 HD">
+    <display-name lang="es">LA 1 HD</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/TVE.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="la1.es">
+    <display-name lang="es">LA 1</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="LA 1 FHD">
+    <display-name lang="es">LA 1 FHD</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="La 2 HD">
+    <display-name lang="es">LA 2</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/LA2.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="la2.es">
+    <display-name lang="es">LA 2 FHD</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="ANTENA 3 HD">
+    <display-name lang="es">ANTENA 3 HD</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/A3.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="antena3.es">
+    <display-name lang="es">Antena 3</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="ANTENA 3 FHD">
+    <display-name lang="es">Antena 3 FHD</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="CUATRO HD">
+    <display-name lang="es">CUATRO HD</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/C4.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="cuatro.es">
+    <display-name lang="es">Cuatro</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="CUATRO FHD">
+    <display-name lang="es">Cuatro FHD</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="TELECINCO HD">
+    <display-name lang="es">TELECINCO HD</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/T5.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="telecinco.es">
+    <display-name lang="es">Telecinco</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="TELECINCO FHD">
+    <display-name lang="es">Telecinco FHD</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="LA SEXTA HD">
+    <display-name lang="es">LA SEXTA HD</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/SEXTA.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="lasexta.es">
+    <display-name lang="es">La Sexta</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="lasxta.es">
+    <display-name lang="es">LA SEXTA FHD</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="M+ #0 HD">
+    <display-name lang="es">M+ #0 HD</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/MV3.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="M+ESTRENOS HD">
+    <display-name lang="es">M+ESTRENOSHD</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/MV1.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="M+ ESTRENOS 2 HD">
+    <display-name lang="es">M+ ESTRENOS 2 HD</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/MEST2.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="M+ Superagentes">
+    <display-name lang="es">M+ Superagentes</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/MUNIDA.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="M+ Fest">
+    <display-name lang="es">M+ Fest</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/MONFIR.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="M+ CL&#xC1;SICOS HD">
+    <display-name lang="es">M+ CL&#193;SICOS HD</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/MCLAS.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="M+ ACCION HD">
+    <display-name lang="es">M+ ACCI&#211;N HD</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/CPACCI.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="M+COMEDIA HD">
+    <display-name lang="es">M+COMEDIA HD</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/CPCOME.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="M+ DRAMA HD">
+    <display-name lang="es">M+ DRAMA HD</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/CPCOLE.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="M+Cine Espa&#xF1;ol">
+    <display-name lang="es">M+Cine Espa&#241;ol</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/DCESP.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="M+ SERIES HD">
+    <display-name lang="es">M+ SERIES HD</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/MV2.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="M+ SERIES 2 HD">
+    <display-name lang="es">M+ SERIES 2 HD</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/CPSER.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="Warner TV">
+    <display-name lang="es">Warner TV</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/TNT.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="TCM HD">
+    <display-name lang="es">TCM HD</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/TCM.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="tcm.es">
+    <display-name lang="es">TCM FHD</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="SYFY HD">
+    <display-name lang="es">SYFY HD</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/SCI-FI.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="syfy.es">
+    <display-name lang="es">SYFY</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="SYFY FHD">
+    <display-name lang="es">SYFY FHD</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="SUNDANCE TV">
+    <display-name lang="es">SUNDANCE TV</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/SUNDAN.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="sundance.es">
+    <display-name lang="es">Sundance FHD</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="HOLLYWOOD HD">
+    <display-name lang="es">HOLLYWOODHD</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/HOLLYW.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="hollywood.es">
+    <display-name lang="es">Hollywood</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="HOLLYWOOD FHD">
+    <display-name lang="es">Hollywood FHD</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="FOX HD">
+    <display-name lang="es">FOX HD</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/FOXGE.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="fox.es">
+    <display-name lang="es">Fox</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="FOX FHD">
+    <display-name lang="es">Fox FHD</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="Dark">
+    <display-name lang="es">Dark</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/DARK.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="dark.es">
+    <display-name lang="es">Dark FHD</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="COSMO HD">
+    <display-name lang="es">COSMO HD</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/COSMO.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="cosmo.es">
+    <display-name lang="es">Cosmopolitan</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="COSMO FHD">
+    <display-name lang="es">Cosmopolitan FHD</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="COMEDYCENTRAL HD">
+    <display-name lang="es">COMEDYCENTRALHD</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/PCM.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="comedycentral.es">
+    <display-name lang="es">Comedy central FHD</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="CALLE 13 HD">
+    <display-name lang="es">CALLE 13 HD</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/CL13.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="calle13.es">
+    <display-name lang="es">Calle 13</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="CALLE 13 FHD">
+    <display-name lang="es">Calle13 FHD</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="AXN WHITE HD">
+    <display-name lang="es">AXN WHITE HD</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/SET.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="axnwhite.es">
+    <display-name lang="es">AXN White</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="AXN WHITE FHD">
+    <display-name lang="es">AXN White FHD</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="AXN HD">
+    <display-name lang="es">AXN HD</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/AXN.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="AXN FHD">
+    <display-name lang="es">AXN FHD</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="axn.es">
+    <display-name lang="es">AXN</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="AMC HD">
+    <display-name lang="es">AMC HD</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/AMC.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="amc.es">
+    <display-name lang="es">AMC</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="AMC FHD">
+    <display-name lang="es">AMC FHD</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="Atreseries HD">
+    <display-name lang="es">Atreseries</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/ATRESS.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="atreseries.es">
+    <display-name lang="es">A3SERIES</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="DreamWorks HD">
+    <display-name lang="es">DreamWorks HD</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/DWSP.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="FDF">
+    <display-name lang="es">FDF</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/FDFIC.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="factoriaficcion.es">
+    <display-name lang="es">FDF HD</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="fdftelecinco.es">
+    <display-name lang="es">FDF SD</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="ENERGY">
+    <display-name lang="es">ENERGY</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/ENERGY.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="DIVINITY">
+    <display-name lang="es">DIVINITY</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/DIVINI.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="PARAMOUNT">
+    <display-name lang="es">PARAMOUNT</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/PARCH.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="paramountchannel.es">
+    <display-name lang="es">Paramount Channel HD</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="MTV ESPA&#xD1;A">
+    <display-name lang="es">MTV ESPA&#209;A</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/MTV.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="mtv.es">
+    <display-name lang="es">MTV Spain FHD</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="NOVA">
+    <display-name lang="es">NOVA</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/NOVA.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="NOVA FHD">
+    <display-name lang="es">Nova FHD</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="NEOX">
+    <display-name lang="es">NEOX</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/NEOX.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="NEOX FHD">
+    <display-name lang="es">Neox FHD</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="DISNEY CH HD">
+    <display-name lang="es">DISNEY CH HD</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/DCH.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="disney.es">
+    <display-name lang="es">DISNEY CHANNEL FHD</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="disneyjunior.es">
+    <display-name lang="es">DISNEY JUNIOR</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/PLAYDC.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="DISNEY JR">
+    <display-name lang="es">DISNEY JR</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/PLAYDC.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="BABY TV">
+    <display-name lang="es">BABY TV</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/BABY.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="NICK JR">
+    <display-name lang="es">NICK JR</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/NICKJR.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="NICK JR FHD">
+    <display-name lang="es">Nick Jr FHD</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="NICKELODEON HD">
+    <display-name lang="es">NICKELODEONHD</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/NICK.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="NICKELODEON FHD">
+    <display-name lang="es">Nickelodeon FHD</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="CLAN  TVE">
+    <display-name lang="es">CLAN TVE</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/CLANTV.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="clantve.es">
+    <display-name lang="es">Clan TVE FHD</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="ENFAMILIA">
+    <display-name lang="es">ENFAMILIA</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/PANDA.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="BOING">
+    <display-name lang="es">BOING</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/BOING.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="Orange Series">
+    <display-name lang="es">Orange Series 1080</display-name>
+    <icon src="https://orangetv.orange.es/pc/api/rtv/v1/images/IMAGES/O/x_3d8fc71e7be8fe514fd74cc07.png"/>
+    <url>http://www.orange.es.EK</url>
+  </channel>
+  
+<channel id="XTRM">
+    <display-name lang="es">XTRM</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/XTRM.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="Somos">
+    <display-name lang="es">Somos</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/SOMOS.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="Sol M&#xFA;sica">
+    <display-name lang="es">Sol M&#250;sica</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/SOLMUS.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="Betis TV HD">
+    <display-name lang="es">BETIS TV</display-name>
+    <url>http://www.vodafonenetvonline.es</url>
+  </channel>
+  
+<channel id="R. MADRID TV">
+    <display-name lang="es">R. MADRID TV</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/REALM.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="SEVILLAFC TV">
+    <display-name lang="es">SevillaFC</display-name>
+    <url>http://www.vodafonenetvonline.es</url>
+  </channel>
+  
+<channel id="BARCA TV">
+    <display-name lang="es">BAR&#199;A TV</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/BARNA.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="BARCA TV FHD">
+    <display-name lang="es">BARCA FHD</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="M+ #VAMOSHD">
+    <display-name lang="es">M+ #VAMOSHD</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/VAMOSD.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="GOL HD">
+    <display-name lang="es">GOL</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/GOL.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="GOL">
+    <display-name lang="es">GOL HD</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="gol.es">
+    <display-name lang="es">GOL FHD</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="DAZN 1">
+    <display-name lang="es">DAZN 1 HD</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/M1SD.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="DAZN 2">
+    <display-name lang="es">DAZN 2 HD</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/M2SD.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="DAZN 3">
+    <display-name lang="es">DAZN 3 HD</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/DAZN3.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="DAZN 4">
+    <display-name lang="es">DAZN 4 HD</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/DAZN4.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="DAZN LaLigaHD">
+    <display-name lang="es">DAZN LaLigaHD</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/DAZNLI.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="DAZN LaLiga2 HD">
+    <display-name lang="es">DAZN LaLiga2 HD</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/DAZNL2.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="DAZN F1 HD">
+    <display-name lang="es">DAZN F1 HD</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/MVF1.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="M+ LaLiga HD">
+    <display-name lang="es">M+ LaLiga HD</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/MLIGA.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="M+ LaLiga 2 HD">
+    <display-name lang="es">M+ LaLiga 2 HD</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/MLIG1.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="M+ LaLiga 3 HD">
+    <display-name lang="es">M+ LaLiga 3 HD</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/MLIG2.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="M+ LaLiga 4">
+    <display-name lang="es">M+ LaLiga 4</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/MLIG3.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="M+ LaLiga 5">
+    <display-name lang="es">M+ LaLiga 5</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/MLIG4.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="M+ LaLiga 6">
+    <display-name lang="es">M+ LaLiga 6</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/MLIG5.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="LALIGATV BAR">
+    <display-name lang="es">LALIGATV BAR</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/LIGBAR.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="LaLiga SmartbankTV">
+    <display-name lang="es">LaLiga SmartbankTV</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/MLIGS.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="M+LCAMPEONES">
+    <display-name lang="es">M+LCAMPEONES</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/CHAPIO.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="Gol Mundial HD">
+    <display-name lang="es">Gol Mundial HD</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/GMUNDI.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="Gol Mundial 2 HD">
+    <display-name lang="es">Gol Mundial 2 HD</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/GMUND2.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="M+LCAMPEON4">
+    <display-name lang="es">M+LCAMPEON4</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/CHAP3.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="M+LCAMPEON5">
+    <display-name lang="es">M+LCAMPEON5</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/CHAP4.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="M+LCAMPEON6">
+    <display-name lang="es">M+LCAMPEON6</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/CHAP5.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="M+LCAMPEON7">
+    <display-name lang="es">M+LCAMPEON7</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/CHAP6.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="Garage TV 1080">
+    <display-name lang="es">Garage Tv 1080</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/GARAGE.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="Garage TV">
+    <display-name lang="es">Garage TV</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="TELEDEPORTE">
+    <display-name lang="es">TELEDEPORTE</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/TDEP.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="TELEDEPORTE FHD">
+    <display-name lang="es">Teledeporte FHD</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="M+ GOLF HD">
+    <display-name lang="es">M+ GOLF HD</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/GOLF%2B.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="EUROSPORT1HD">
+    <display-name lang="es">EUROSPORT1HD</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/ESP.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="EUROSPORT2HD">
+    <display-name lang="es">EUROSPORT 2</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/ESP2.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="M+DEPORTESHD">
+    <display-name lang="es">M+DEPORTESHD</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/CPDEP.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="M+DEPORTES2HD">
+    <display-name lang="es">M+DEPORTES2HD</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/ARTHUR.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="M+DEPORTES3">
+    <display-name lang="es">M+DEPORTES3</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/USOP2.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="VH1">
+    <display-name lang="es">VH1</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/VH1.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="VH1 Classic">
+    <display-name lang="es">VH1 Classic</display-name>
+    <url>http://www.vodafonenetvonline.es</url>
+  </channel>
+  
+<channel id="MTV ROCKS">
+    <display-name lang="es">MTV ROCKS</display-name>
+    <url>http://www.vodafonenetvonline.es</url>
+  </channel>
+  
+<channel id="TOROS HD">
+    <display-name lang="es">TOROS HD</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/CFERIA.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="TOROS">
+    <display-name lang="es">Toros</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="toros.es">
+    <display-name lang="es">Toros FHD</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="Cazavision">
+    <display-name lang="es">CazaVision</display-name>
+    <icon src="https://orangetv.orange.es/pc/api/rtv/v1/images/IMAGES/O/x_9ea0ef4ad7b17c62e5597a68d.png"/>
+    <url>http://www.orange.es.EK</url>
+  </channel>
+  
+<channel id="IBERALIA TV">
+    <display-name lang="es">IBERALIA TV</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/IBERAL.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="CAZAyPESCA HD">
+    <display-name lang="es">CAZAyPESCA HD</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/CAZPES.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="CAZAyPESCA">
+    <display-name lang="es">Caza y Pesca</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="cazapesca.es">
+    <display-name lang="es">Caza y Pesca FHD</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="Ten">
+    <display-name lang="es">TEN</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/TEN.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="ten.es">
+    <display-name lang="es">TEN SD</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="CANAL ODISEA">
+    <display-name lang="es">CANAL ODISEA</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/ODISEA.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="odisea.es">
+    <display-name lang="es">Odisea FHD</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="NAT GEO HD">
+    <display-name lang="es">NAT GEO HD</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/NATGEO.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="NAT GEO">
+    <display-name lang="es">National Geographic</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="NAT GEO FHD">
+    <display-name lang="es">National Geographic FHD</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="NAT GEO WILD HD">
+    <display-name lang="es">NG WILD HD</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/NATGW.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="NAT GEO WILD">
+    <display-name lang="es">Nat Geo Wild</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="natgeowild.es">
+    <display-name lang="es">Nat Geo Wild FHD</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="Intereconomia TV">
+    <display-name lang="es">INTERECONOMIA</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/INTECO.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="DKISS">
+    <display-name lang="es">DKISS</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/DKISS.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="Mega HD">
+    <display-name lang="es">Mega</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/MEGA.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="mega.es">
+    <display-name lang="es">Mega FHD</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="HISTORIA">
+    <display-name lang="es">HISTORIA</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/HIST.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="HISTORIA FHD">
+    <display-name lang="es">Historia FHD</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="Discovery MAX">
+    <display-name lang="es">DMAX</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/DCRMAX.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="discoverymax.es">
+    <display-name lang="es">DMax SD</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="DISCOVERY">
+    <display-name lang="es">DISCOVERY</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/DCR.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="discoverychannel.es">
+    <display-name lang="es">Discovery FHD</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="CANAL DECASA">
+    <display-name lang="es">CANAL DECASA</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/DECASA.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="canaldecasa.es">
+    <display-name lang="es">DE CASA FHD</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="CANAL COCINA">
+    <display-name lang="es">CANAL COCINA</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/CACOC.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="CANAL COCINA FHD">
+    <display-name lang="es">CANAL COCINA FHD</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="AMC BREAK">
+    <display-name lang="es">AMC BREAK</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/BIOGRA.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="AMC CRIME">
+    <display-name lang="es">AMC CRIME</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/CYM.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="BE MAD">
+    <display-name lang="es">BE MAD</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/BEMAD.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="bemad.es">
+    <display-name lang="es">BEMAD FHD</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="TRECE">
+    <display-name lang="es">TRECE</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/13TV.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="24 HORAS">
+    <display-name lang="es">24 HORAS</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/24H.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="CANAL SUR A.">
+    <display-name lang="es">CANAL SUR A.</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/ANTV.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="CanalSurHD">
+    <display-name lang="es">CanalSurHD</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/CANSUR.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="Andaluc&#xED;a TV">
+    <display-name lang="es">Andaluc&#237;a TV</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/ANDATV.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="TVGA">
+    <display-name lang="es">TV GALICIA HD</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/TVG.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="TVG">
+    <display-name lang="es">TVG</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/TVGAL.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="tvg2">
+    <display-name lang="es">tvG2</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/TVG2.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="TELEMADRID">
+    <display-name lang="es">TELEMADRID</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/TELMAD.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="Telemadrid">
+    <display-name lang="es">Telemadrid</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="La Otra">
+    <display-name lang="es">La Otra</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/OTRA.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="CMM">
+    <display-name lang="es">Castilla la Mancha TV</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/CASMAN.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="Castilla-La Mancha Media">
+    <display-name lang="es">Castilla La Mancha SD</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="ETB 1">
+    <display-name lang="es">ETB 1</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/ETB1.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="ETB 2">
+    <display-name lang="es">ETB 2</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/ETB2.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="EITB Basque">
+    <display-name lang="es">EITB Basque</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/ETB.png"/>
+    <url>http://www.plus.es</url>
+  </channel>
+  
+<channel id="EXTREMADURA SAT">
+    <display-name lang="es">EXTREMADURA SAT</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/EXTREM.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="EXTREMADURA">
+    <display-name lang="es">EXTREMADURA</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/EXTRE.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="TV3 CAT">
+    <display-name lang="es">TV3</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/TV3CAT.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="TPA ASTURIAS">
+    <display-name lang="es">TP7 Asturias</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/TPA.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="ARAGON TV ">
+    <display-name lang="es">ARAGON TV</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/ARAGTV.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="ARAGON TV INT">
+    <display-name lang="es">ARAGON TV INT</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/ARAGON.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="La 7 HD">
+    <display-name lang="es">La 7 HD</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/CYLTV.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="El Punt Avui">
+    <display-name lang="es">El Punt Avui</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/APUNT.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="BOM">
+    <display-name lang="es">BOM</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/BOMCIN.png"/>
+    <url>http://www.plus.es</url>
+  </channel>
+  
+<channel id="Betev&#xE9;">
+    <display-name lang="es">Beteve</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/BTV.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="IB3 RTV Illes Balears">
+    <display-name lang="es">IB3 RTV Illes Balears</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/IB3.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="IB3 HD">
+    <display-name lang="es">IB3 HD</display-name>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="CANARIA">
+    <display-name lang="es">CANARIA</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/CANAR.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="RTV MURCIA">
+    <display-name lang="es">RTV MURCIA</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/7TVMUR.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="Esport 3">
+    <display-name lang="es">Esport 3</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/ESP3.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="8tv">
+    <display-name lang="es">8tv</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/8TV.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="Onda C&#xE1;diz">
+    <display-name lang="es">Onda C&#225;diz</display-name>
+    <icon src="https://ondacadiz.es/sites/default/files/logo_onda_cadiz_web_120_100.png"/>
+    <url>http://www.ondacadiz.es</url>
+  </channel>
+  
+<channel id="Levante TV">
+    <display-name lang="es">Levante TV</display-name>
+    <icon src="https://e00-elmundo.uecdn.es/television/programacion-tv/img/v2/canales/64/10000996.png"/>
+    <url>http://www.elmundo.es</url>
+  </channel>
+  
+<channel id="Navarra Televisi&#xF3;n">
+    <display-name lang="es">Navarra Televisi&#243;n</display-name>
+    <url>http://www.vodafonenetvonline.es</url>
+  </channel>
+  
+<channel id="La Resistencia">
+    <display-name lang="es">La Resistencia</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/RESIST.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="Nautical Channel">
+    <display-name lang="es">Nautical Channel</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/NAUTIC.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  
+<channel id="Horse TV">
+    <display-name lang="es">Horse TV</display-name>
+    <icon src="https://www.movistarplus.es/recorte/m-NEO/canal/HORSE.png"/>
+    <url>http://www.movistarplus.es</url>
+  </channel>
+  

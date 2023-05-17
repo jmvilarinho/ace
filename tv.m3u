@@ -64,6 +64,8 @@ http://127.0.0.1:6878/ace/getstream?id=69c95dc47b35dde559a6ef025c1b91c89646a17f&
 http://127.0.0.1:6878/ace/getstream?id=df67afe5c5f5e82a3ae629d126727b006b65e676&.mp4
 #EXTINF:-1 tvg-id="M+LCAMPEON11" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-11.png" group-title="M.L. Campeones" tvg-name="M.L. Campeones 11 SD",M.L. Campeones 11 SD
 http://127.0.0.1:6878/ace/getstream?id=57e284a3c13100baeff7a88dc50949585c9f1277&.mp4
+#EXTINF:-1 tvg-id="M+LCAMPEON12" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-12.png" group-title="M.L. Campeones" tvg-name="M.L. Campeones 12 SD",M.L. Campeones 12 SD
+http://127.0.0.1:6878/ace/getstream?id=33369549c635dabdb78b95c478c21fcc9e4ee854&.mp4
 #EXTINF:-1 tvg-id="TELEDEPORTE" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-teledeporte-612.png" group-title="Outros" tvg-name="tdp 1080  (TeleDeporte)",tdp 1080  (TeleDeporte)
 http://127.0.0.1:6878/ace/getstream?id=5a272a468eaf25feb032e2c5d377c6276b2299c7&.mp4
 #EXTINF:-1 tvg-id="Sport TV1 POR HD" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-pt-sport-tv-1-450.png" group-title="Sport TV" tvg-name="Sport Tv 1 1080",Sport Tv 1 1080

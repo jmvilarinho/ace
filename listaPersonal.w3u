@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 17/05/2023 16:20:18",
+    "name": "Canales Acestream 17/05/2023 20:02:21",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -37,7 +37,7 @@
                 {
                     "name": "M.L. Campeones 12 SD",
                     "url": "acestream://33369549c635dabdb78b95c478c21fcc9e4ee854",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-moviestar-liga-de-campeones.png",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-12.png",
                     "embed": "false"
                 },
                 {

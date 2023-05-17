@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 17/05/2023 10:43:17",
+    "name": "Canales Acestream 17/05/2023 10:50:48",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -529,31 +529,31 @@
                 {
                     "name": "LaLiga SmartBank 1080",
                     "url": "acestream://7791ba828c0226d8f54cef1611889d29fb333247",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-laliga-smartbank.png",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-smartbank-tv-2833.png",
                     "embed": "false"
                 },
                 {
                     "name": "LaLiga SmartBank 2 1080",
                     "url": "acestream://cf6249379184d88a61f9db617341c6b6e6abb342",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-laliga-smartbank.png",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-smartbank-tv-2833-2.png",
                     "embed": "false"
                 },
                 {
                     "name": "LaLiga SmartBank 2 720",
                     "url": "acestream://d9cf1776ec4443e88aab3ca4b57647b00b4e439e",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-laliga-smartbank.png",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-smartbank-tv-2833-2.png",
                     "embed": "false"
                 },
                 {
                     "name": "LaLiga SmartBank 3 1080",
                     "url": "acestream://1104426e14b649eb23fee16698768544285de478",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-laliga-smartbank.png",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-smartbank-tv-2833-3.png",
                     "embed": "false"
                 },
                 {
                     "name": "LaLiga SmartBank 720",
                     "url": "acestream://ae84b2cc45ebf1148cc36ee5f801f26a04a2ac2c",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-laliga-smartbank.png",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-smartbank-tv-2833.png",
                     "embed": "false"
                 }
             ]

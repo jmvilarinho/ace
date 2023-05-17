@@ -10,10 +10,8 @@ http://127.0.0.1:6878/ace/getstream?id=d6622ca93e54e493a6910248f8fe1f03aa85bf01&
 http://127.0.0.1:6878/ace/getstream?id=864fc1be34bdedc4bc2c7bb92098c61df8e9c7c2&.mp4
 #EXTINF:-1 tvg-id="M+LCAMPEONES" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-moviestar-liga-de-campeones-1459.png" group-title="M.L. Campeones" tvg-name="M.L. Campeones 1080 MultiAudio",M.L. Campeones 1080 MultiAudio
 http://127.0.0.1:6878/ace/getstream?id=045718bad2ddb4f03b1a420754a97a23ad8b493b&.mp4
-#EXTINF:-1 tvg-id="Vamos 720" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-vamos.png" group-title="Movistar Plus+" tvg-name="#Vamos 720",#Vamos 720
+#EXTINF:-1 tvg-id="M+ #VAMOSHD" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-vamos.png" group-title="Movistar Plus+" tvg-name="#Vamos 720",#Vamos 720
 http://127.0.0.1:6878/ace/getstream?id=0e18315b703248bb01eab6b9d3f0cb2cd893601f&.mp4
-#EXTINF:-1 tvg-id="Vamos 1080" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-vamos.png" group-title="Movistar Plus+" tvg-name="#Vamos 1080",#Vamos 1080
-http://127.0.0.1:6878/ace/getstream?id=f559b9fea692a86e1a1de41cd1aa667e3fa02775&.mp4
 #EXTINF:-1 tvg-id="DAZN LaLigaHD" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-2784.png" group-title="DAZN LaLiga" tvg-name="DAZN LaLiga 1080 multiaudio",DAZN LaLiga 1080 multiaudio
 http://127.0.0.1:6878/ace/getstream?id=7264961f63dc9dc6ef7acee7371f7a76b6a02061&.mp4
 #EXTINF:-1 tvg-id="DAZN F1 HD" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-formula-1-366.png" group-title="DAZN F1" tvg-name="DAZN F1 1080 (Formula 1)",DAZN F1 1080 (Formula 1)

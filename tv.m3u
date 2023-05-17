@@ -52,6 +52,18 @@ http://127.0.0.1:6878/ace/getstream?id=ecf4ec41200785812c140e3d1050b412f1519fa7&
 http://127.0.0.1:6878/ace/getstream?id=1a1b528109edead1904e3dbff575637a452dd1fa&.mp4
 #EXTINF:-1 tvg-id="M+LCAMPEON5" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-5-1550.png" group-title="M.L. Campeones" tvg-name="M.L. Campeones 5 SD",M.L. Campeones 5 SD
 http://127.0.0.1:6878/ace/getstream?id=4b4a77f005ea45e57276ff9d90c3830b3c59010d&.mp4
+#EXTINF:-1 tvg-id="M+LCAMPEON6" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-6.png" group-title="M.L. Campeones" tvg-name="M.L. Campeones 6 SD",M.L. Campeones 6 SD
+http://127.0.0.1:6878/ace/getstream?id=e9950ec551124c490ecbc2526a83d2c5a4516293&.mp4
+#EXTINF:-1 tvg-id="M+LCAMPEON7" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-7.png" group-title="M.L. Campeones" tvg-name="M.L. Campeones 7 SD",M.L. Campeones 7 SD
+http://127.0.0.1:6878/ace/getstream?id=8ab70e161ad1d9a3ed76db91b84b2ae55e16103f&.mp4
+#EXTINF:-1 tvg-id="M+LCAMPEON8" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-8.png" group-title="M.L. Campeones" tvg-name="M.L. Campeones 8 SD",M.L. Campeones 8 SD
+http://127.0.0.1:6878/ace/getstream?id=fdd9e3660059051660dbd7857443c2b807f258d0&.mp4
+#EXTINF:-1 tvg-id="M+LCAMPEON9" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-9.png" group-title="M.L. Campeones" tvg-name="M.L. Campeones 9 SD",M.L. Campeones 9 SD
+http://127.0.0.1:6878/ace/getstream?id=69c95dc47b35dde559a6ef025c1b91c89646a17f&.mp4
+#EXTINF:-1 tvg-id="M+LCAMPEON10" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-10.png" group-title="M.L. Campeones" tvg-name="M.L. Campeones 10 SD",M.L. Campeones 10 SD
+http://127.0.0.1:6878/ace/getstream?id=df67afe5c5f5e82a3ae629d126727b006b65e676&.mp4
+#EXTINF:-1 tvg-id="M+LCAMPEON11" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-11.png" group-title="M.L. Campeones" tvg-name="M.L. Campeones 11 SD",M.L. Campeones 11 SD
+http://127.0.0.1:6878/ace/getstream?id=57e284a3c13100baeff7a88dc50949585c9f1277&.mp4
 #EXTINF:-1 tvg-id="TELEDEPORTE" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-teledeporte-612.png" group-title="Outros" tvg-name="tdp 1080  (TeleDeporte)",tdp 1080  (TeleDeporte)
 http://127.0.0.1:6878/ace/getstream?id=5a272a468eaf25feb032e2c5d377c6276b2299c7&.mp4
 #EXTINF:-1 tvg-id="Sport TV1 POR HD" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-pt-sport-tv-1-450.png" group-title="Sport TV" tvg-name="Sport Tv 1 1080",Sport Tv 1 1080

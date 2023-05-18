@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 17/05/2023 20:02:21",
+    "name": "Canales Acestream 18/05/2023 09:02:44",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -193,7 +193,7 @@
                 {
                     "name": "DAZN LaLiga 2 1080",
                     "url": "acestream://93d663e92a93845b11c9831885646fa39ba1ed66",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-2784.png",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-2.png",
                     "embed": "false"
                 },
                 {
@@ -241,25 +241,25 @@
                 {
                     "name": "M. Deportes 6 1080",
                     "url": "acestream://f41bd6f3eed3fa2f561e39a9865df8ab354bf486",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-movistar-deportes.png",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-6.png",
                     "embed": "false"
                 },
                 {
                     "name": "M. Deportes 7 1080",
                     "url": "acestream://5da3c25c14d111cb9c33cf6e0b45b7cab88fe741",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-movistar-deportes.png",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-7.png",
                     "embed": "false"
                 },
                 {
                     "name": "M. Deportes 720",
                     "url": "acestream://e5fa927d9a017f4523fdb62774a0aec457985bfa",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-movistar-deportes.png",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-364.png",
                     "embed": "false"
                 },
                 {
                     "name": "M. Deportes 8 SD",
                     "url": "acestream://b779e6056975e3682a804d47cbd5cc806217f64d",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-movistar-deportes.png",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-8.png",
                     "embed": "false"
                 }
             ]

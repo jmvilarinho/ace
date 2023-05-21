@@ -211,7 +211,7 @@ http://127.0.0.1:6878/ace/getstream?id=57e284a3c13100baeff7a88dc50949585c9f1277
 #EXTINF:-1 group-title="M+ Liga de Campeones" tvg-logo="https://img.sport-tv-guide.live/images/tv-station-moviestar-liga-de-campeones-1459.png" ,M+ Liga de Campeones 12
 http://127.0.0.1:6878/ace/getstream?id=33369549c635dabdb78b95c478c21fcc9e4ee854
 
-#EXTINF:-1 group-title="M+ StbEmu" tvg-id="AXN HD" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/AXN.png" ,AXN 720p
+#EXTINF:-1 group-title="M+ StbEmu" tvg-id="AXN HD" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/AXN.png" ,AXN 1080p
 http://iptv.darktv.nl:80/play/live.php?mac=00:1A:79:0D:9F:6D&stream=30249&extension=ts&play_token=tnM7ElRMha
 #EXTINF:-1 group-title="M+ StbEmu" tvg-id="AXN WHITE HD" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/SET.png" ,AXN Movies 1080p
 http://iptv.darktv.nl:80/play/live.php?mac=00:1A:79:0D:9F:6D&stream=30250&extension=ts&play_token=KCWFyiRk9i
@@ -256,7 +256,7 @@ http://diablo-pro.com:2095/play/live.php?mac=00:1A:79:D5:11:07&stream=145428&ext
 
 #EXTINF:-1 group-title="M+ UserPass (pruebas)" tvg-id="M+ CLÁSICOS HD" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MCLAS.png" ,M+ Clásicos 1080p
 http://658360882406321314.itvipmode.xyz:80/play/Noe230116/AANoe230116/321314.ts
-#EXTINF:-1 group-title="M+ UserPass (pruebas)" tvg-id="M+ CLÁSICOS HD" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MCLAS.png" ,M+ Clásicos
+#EXTINF:-1 group-title="M+ UserPass (pruebas)" tvg-id="M+ CLÁSICOS HD" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MCLAS.png" ,M+ Clásicos 1080p
 http://gamsgo.cyou:8080/xhevahir2022/bTUNuQxGfD64wgMZ/281773
 #EXTINF:-1 group-title="M+ UserPass (pruebas)" tvg-id="M+ Fest" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MONFIR.png" ,M+ Fest 1080p
 http://658360882406321340.itvipmode.xyz:80/play/Noe230116/AANoe230116/321340.ts

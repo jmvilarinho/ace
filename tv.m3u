@@ -1,6 +1,6 @@
-#EXTM3U @Vila https://raw.githubusercontent.com/jmvilarinho/ace/main/tv.m3u
+#EXTM3U @Vila https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv.m3u
 #EXTM3U url-tvg="https://raw.githubusercontent.com/jmvilarinho/ace/main/all.xml.gz"
-#EXTINF:-1 tvg-id="I156.32281.schedulesdirect.org" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-us-nba-tv.png" group-title="Deportivos Int." tvg-name="NBA TV",NBA TV
+#EXTINF:-1 tvg-id="I156.32281.schedulesdirect.org" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-us-nba-tv.png" group-title="Deportivos Int." tvg-name="NBA TV",NBA TV
 http://51.161.84.67/LB2022_NBA_TV/index.m3u8
 #EXTINF:-1 tvg-id="EUROSPORT1HD" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-es-eurosport-1-615.png" group-title="Eurosport" tvg-name="EuroSport 1 1080",EuroSport 1 1080
 http://127.0.0.1:6878/ace/getstream?id=c9ee7c95e7a2e9cd0e848b1f70848453652bebc2&.mp4
@@ -16,7 +16,7 @@ http://127.0.0.1:6878/ace/getstream?id=7791ba828c0226d8f54cef1611889d29fb333247&
 http://127.0.0.1:6878/ace/getstream?id=cf6249379184d88a61f9db617341c6b6e6abb342&.mp4
 #EXTINF:-1 tvg-id="LaLiga SmartbankTV3" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-smartbank-tv-2833-3.png" group-title="L.L. SmartBank" tvg-name="LaLiga SmartBank 3 1080",LaLiga SmartBank 3 1080
 http://127.0.0.1:6878/ace/getstream?id=1104426e14b649eb23fee16698768544285de478&.mp4
-#EXTINF:-1 tvg-id="M+ #VAMOSHD" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/tv-station-vamos.png" group-title="Movistar Plus+" tvg-name="#Vamos 720",#Vamos 720
+#EXTINF:-1 tvg-id="M+ #VAMOSHD" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-vamos.png" group-title="Movistar Plus+" tvg-name="#Vamos 720",#Vamos 720
 http://127.0.0.1:6878/ace/getstream?id=0e18315b703248bb01eab6b9d3f0cb2cd893601f&.mp4
 #EXTINF:-1 tvg-id="DAZN LaLigaHD" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-2784.png" group-title="DAZN LaLiga" tvg-name="DAZN LaLiga 1080 multiaudio",DAZN LaLiga 1080 multiaudio
 http://127.0.0.1:6878/ace/getstream?id=7264961f63dc9dc6ef7acee7371f7a76b6a02061&.mp4
@@ -32,7 +32,7 @@ http://127.0.0.1:6878/ace/getstream?id=3f68c1aa02094e253fd8446c0c307089cecf2a1e&
 http://127.0.0.1:6878/ace/getstream?id=bbbbc306280b2161e6c3cfa83cc9aef18f046c4a&.mp4
 #EXTINF:-1 tvg-id="DAZN 4" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-4-es-2525.png" group-title="DAZN" tvg-name="DAZN 4 1080",DAZN 4 1080
 http://127.0.0.1:6878/ace/getstream?id=149a38e333de920753f1388c43247283bdb05f5b&.mp4
-#EXTINF:-1 tvg-id="M+ LaLiga HD" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga.png" group-title="M. La Liga" tvg-name="M. LaLiga 1080 MultiAudio",M. LaLiga 1080 MultiAudio
+#EXTINF:-1 tvg-id="M+ LaLiga HD" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-1.png" group-title="M. La Liga" tvg-name="M. LaLiga 1080 MultiAudio",M. LaLiga 1080 MultiAudio
 http://127.0.0.1:6878/ace/getstream?id=1e0214a06000e6f4847dd30cdc2fb839527be862&.mp4
 #EXTINF:-1 tvg-id="M+ LaLiga 2 HD" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-2.png" group-title="M. La Liga" tvg-name="M. LaLiga 2 720",M. LaLiga 2 720
 http://127.0.0.1:6878/ace/getstream?id=91cf24543ac5a3dcd4a3557ce52de3f50ee6cb18&.mp4

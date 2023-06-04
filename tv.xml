@@ -1755,16 +1755,10 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P2159062"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Cuatro.TV" start="20230605083000 +0000" stop="20230605093000 +0000">
+	<programme channel="Cuatro.TV" start="20230605083000 +0000" stop="20230605101500 +0000">
 		<title>Alerta Cobra (T19): Ep.1 Revolución</title>
 		<desc>En la Europa del año 2000 las autopistas alemanas se han convertido en los lugares de paso de multitud de personajes siniestros, cargas peligrosas y conductores temerarios que cruzan el continente de un lado a otro. La brigada especial de carreteras se encarga de luchar contra el crimen en estos lugares y de tratar de mantener el orden en algunas de las zonas más conflictivas del país. Un trabajo de alto riesgo y máxima velocidad en el que se enfrentan a secuestradores, traficantes, fugitivos, ladrones y todo tipo de delincuentes que huyen de las ciudades para encontrarse cara a cara con estos héroes anónimos.''Alerta Cobra'' fue la pionera dentro de las series de acción de la productora alemana RTL. Gracias a su popularidad vieron la luz otros grandes éxitos del país teutón, como ''El Payaso'', ''Medicopter'' o ''Tres ángeles salvajes''. ''Alerta Cobra'' ha sido uno de los espacios más vistos en Alemania durante más de seis años.Entre el reparto, que ha contado con múltiples caras a lo largo de la veintena de temporadas que ha estado en antena, destacan los carismáticos René Steinke y Erdogan Atalay.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P1251131"/>
-		<category>Series</category>
-	</programme>
-	<programme channel="Cuatro.TV" start="20230605093000 +0000" stop="20230605101500 +0000">
-		<title>Alerta Cobra (T19): Ep.2 Revolución (2ª parte)</title>
-		<desc>Espacio de televenta presentado por Kiko Hernández.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P1897058"/>
 		<category>Series</category>
 	</programme>
 	<programme channel="Cuatro.TV" start="20230605101500 +0000" stop="20230605111500 +0000">
@@ -1774,10 +1768,10 @@
 		<category>Series</category>
 	</programme>
 	<programme channel="Cuatro.TV" start="20230605111500 +0000" stop="20230605132000 +0000">
-		<title>En boca de todos</title>
+		<title>En boca de todos: Episodio 107</title>
 		<desc>Espacio televisivo diario de actualidad que acerca a los espectadores las principales noticias políticas y sociales más comentadas, contextualizándolas mediante un equipo de expertos y colaboradores, quienes aportan una visión concreta de los temas que se abordan.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P2159709"/>
-		<category>Informativo</category>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P3048139"/>
+		<category>Documentales</category>
 	</programme>
 	<programme channel="Cuatro.TV" start="20230605132000 +0000" stop="20230605134000 +0000">
 		<title>Deportes Cuatro</title>
@@ -1786,80 +1780,80 @@
 		<category>Deportes</category>
 	</programme>
 	<programme channel="Cuatro.TV" start="20230605134000 +0000" stop="20230605150000 +0000">
-		<title>Todo es mentira</title>
+		<title>Todo es mentira: Episodio 187</title>
 		<desc>Espacio que analiza las noticias falsas y los bulos que inundan las páginas de los diarios y las redes sociales. Risto Mejide y su equipo ponen humor a este ácido análisis de la actualidad.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P2118028"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P3048141"/>
 		<category>Entretenimiento</category>
 	</programme>
 	<programme channel="Cuatro.TV" start="20230605150000 +0000" stop="20230605160000 +0000">
-		<title>Todo es mentira bis</title>
+		<title>Todo es mentira bis: Episodio 186</title>
 		<desc>Espacio que analiza las noticias falsas y los bulos que inundan las páginas de los diarios y las redes sociales. Risto Mejide y su equipo ponen humor a este ácido análisis de la actualidad.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P2118029"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P3048143"/>
 		<category>Entretenimiento</category>
 	</programme>
 	<programme channel="Cuatro.TV" start="20230605160000 +0000" stop="20230605180000 +0000">
-		<title>Cuatro al día</title>
+		<title>Cuatro al día: Episodio 439</title>
 		<desc>Espacio conducido por Ana Terradillos en el que la información es la protagonista: la actualidad política y las noticias más relevantes que sucedan en distintos puntos de España, a través de un equipo reporteros que se desplazarán a los lugares de interés informativo.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P1937089"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P3048145"/>
 		<category>Informativo</category>
 	</programme>
-	<programme channel="Cuatro.TV" start="20230605180000 +0000" stop="20230605184500 +0000">
-		<title>Cuatro al día a las 20h</title>
+	<programme channel="Cuatro.TV" start="20230605180000 +0000" stop="20230605184000 +0000">
+		<title>Cuatro al día a las 20h: Episodio 467</title>
 		<desc>Espacio en el que la información es la protagonista: la actualidad política y las noticias más relevantes que sucedan en distintos puntos de España, a través de un equipo reporteros que se desplazarán a los lugares donde surjan las informaciones más destacadas.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P1937090"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P3048147"/>
 		<category>Informativo</category>
 	</programme>
-	<programme channel="Cuatro.TV" start="20230605184500 +0000" stop="20230605190000 +0000">
+	<programme channel="Cuatro.TV" start="20230605184000 +0000" stop="20230605190000 +0000">
 		<title>Deportes Cuatro</title>
-		<desc>Un equipo de caza y pesca se desplaza hasta Sudáfrica con el reto de intentar la caza a rececho del más grande de los antílopes africanos: el Eland y la de los más pequeños: el Saltarrocas, el Steenbuck y el Duiker.</desc>
+		<desc>Informativo de Cuatro que repasa, de manera muy breve, los titulares y las imágenes más importantes del día en materia de deportes. El espacio concede una especial atención al ámbito futbolístico.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P2159745"/>
 		<category>Deportes</category>
 	</programme>
-	<programme channel="Cuatro.TV" start="20230605190000 +0000" stop="20230605190500 +0000">
+	<programme channel="Cuatro.TV" start="20230605190000 +0000" stop="20230605191000 +0000">
 		<title>El tiempo</title>
 		<desc>Espacio informativo que ofrece la previsión meteorológica.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P1373654"/>
 		<category>Informativo</category>
 	</programme>
-	<programme channel="Cuatro.TV" start="20230605190500 +0000" stop="20230605194000 +0000">
-		<title>First dates</title>
-		<desc>Con la organización siempre impecable de Mayo Oldiri, nuestros indomables se enfrentan a la caza del mayor antílope africano, el Eland de Derby. Este gigante puede alcanzar un peso de 650 kg y medir entre 2,20 y 2,90 metros. Habita en las sabanas centroafricanas y su caza es siempre todo un reto por su carácter tímido y unos sentidos increíbles que dificultan su acercamiento.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P1832683"/>
+	<programme channel="Cuatro.TV" start="20230605191000 +0000" stop="20230605194000 +0000">
+		<title>First dates: Episodio 4</title>
+		<desc>Espacio que organiza citas a ciegas entre solteros en un restaurante único y especial. Carlos Sobera ejerce de singular maître de este local, e interviene en caso de que sus clientes necesiten una ayuda extra durante la cita para conseguir el éxito entre la pareja.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P2120573"/>
 		<category>Entretenimiento</category>
 	</programme>
 	<programme channel="Cuatro.TV" start="20230605194000 +0000" stop="20230605205000 +0000">
-		<title>First dates</title>
+		<title>First dates: Episodio 190</title>
 		<desc>Arranca la nueva temporada de ''First Dates'', en la que la ilusión de los solteros por encontrar pareja, la diversidad y la buena vibra son los principales ingredientes en el menú del amor.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P2025798"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P3048149"/>
 		<category>Entretenimiento</category>
 	</programme>
 	<programme channel="Cuatro.TV" start="20230605205000 +0000" stop="20230605224000 +0000">
-		<title>Focus</title>
+		<title>Focus: Luxury in spain</title>
 		<desc>Espacio de reportajes de actualidad desde un enfoque diferenciado, original y alternativo.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P2185467"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P3048151"/>
 		<category>Documentales</category>
 	</programme>
-	<programme channel="Cuatro.TV" start="20230605224000 +0000" stop="20230606000000 +0000">
-		<title>Fuera de cobertura</title>
+	<programme channel="Cuatro.TV" start="20230605224000 +0000" stop="20230606003000 +0000">
+		<title>Focus: Padres y abuelos a la vez por edad</title>
 		<desc>Un equipo del programa se desplaza a Miami, donde se encuentra Ana Obregón, para profundizar en los detalles y los diversos debates y controversias surgidos a raíz de la noticia de su nueva maternidad.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P1664739"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P2195772"/>
+		<category>Documentales</category>
+	</programme>
+	<programme channel="Cuatro.TV" start="20230606003000 +0000" stop="20230606013500 +0000">
+		<title>En el punto de mira: Bebés atrapados</title>
+		<desc>De todos los países en los que es posible la gestación subrogada, Ucrania es el país con más niños nacidos por este sistema. Sus precios son los más baratos de toda Europa, tener un bebé por vientre de alquiler cuesta entre 30 y 60.000 euros.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P1575157"/>
 		<category>Informativo</category>
 	</programme>
-	<programme channel="Cuatro.TV" start="20230606000000 +0000" stop="20230606010000 +0000">
-		<title>El Desmarque de Cuatro</title>
-		<desc>Cazando con perros de rastro hay diversas maneras de afrontar las echadas. Mientras algunas cuadrillas optan por cortar o emplazar para echar en corto, otras deciden batir grandes extensiones de terreno, dando mayores opciones de huida a los jabalíes. De este tipo es la La Nueva de Salas, capitaneada por Fran Cuétara, una cuadrilla joven que disfruta con el trabajo de los perros, obligados a trabajar muy en largo para poder conseguir meter algún guarro en los puestos.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P1828693"/>
-		<category>Deportes</category>
-	</programme>
-	<programme channel="Cuatro.TV" start="20230606010000 +0000" stop="20230606020000 +0000">
-		<title>En el punto de mira</title>
-		<desc>En el último capíitulo de la temporada, nuestro protagonista hace un balance de la misma rescatando los lances y anecdótas más interesantes.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P1943043"/>
+	<programme channel="Cuatro.TV" start="20230606013500 +0000" stop="20230606022000 +0000">
+		<title>En el punto de mira: Falsas pensiones</title>
+		<desc>El programa incorpora tres nuevos reporteros para seguir mostrando historias desconocidas que sorprenden al espectador, como el de las falsas pensiones.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P1488357"/>
 		<category>Informativo</category>
 	</programme>
-	<programme channel="Cuatro.TV" start="20230606020000 +0000" stop="20230606050000 +0000">
+	<programme channel="Cuatro.TV" start="20230606022000 +0000" stop="20230606050000 +0000">
 		<title>Puro Cuatro</title>
-		<desc>A MORFAR! es un programa para TV presentado por el Chef argentino Javier Brichetto, un experimentado maestro de la parrilla con un abultado CV en el mundo gastronómico, ganador de concursos como La mejor tapa del mundo cuenta con varios restaurantes abiertos con éxito de gastro fusión. Actualmente regenta el restaurante PIANTAO, ubicado en el centro de Madrid en el que su especialidad es la carne angus argentina. El objetivo de «a MORFAR!» es llegar a todo el público de habla hispana, por ello uno de los capítulos de la primera temporada se centra en traducir los cortes vacunos de ternera de Argentina a España y otros paises como México, Venezuela, Perú¿ El vasto conocimiento del chef Javier Brichetto permite crear un producto de alta calidad al mismo tiempo que exclusivo en términos de sabiduría gastronómica.</desc>
+		<desc>La música que suena en los programas y autopromociones de la cadena es la protagonista de este programa de Cuatro. El espacio es un escaparate de las últimas tendencias del pop, rock, 'hip hop' y electrónica, así como una lanzadera para dar a conocer a nuevos artistas.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P2091428"/>
 		<category>Música</category>
 	</programme>
@@ -2121,17 +2115,23 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P1303097"/>
 		<category>Música</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20230605035500 +0000" stop="20230605050000 +0000">
+	<programme channel="Telecinco.TV" start="20230605035500 +0000" stop="20230605041000 +0000">
 		<title>Enphorma: Episodio 6</title>
 		<desc>Programa especializado en temas actuales de alimentación, psicología y ejercicio.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3047242"/>
 		<category>Ocio y Aficiones</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20230605035500 +0000" stop="20230605050000 +0000">
+	<programme channel="Telecinco.TV" start="20230605035500 +0000" stop="20230605041000 +0000">
 		<title>Enphorma: Episodio 6</title>
 		<desc>Programa especializado en temas actuales de alimentación, psicología y ejercicio.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3047242"/>
 		<category>Ocio y Aficiones</category>
+	</programme>
+	<programme channel="Telecinco.TV" start="20230605041000 +0000" stop="20230605050000 +0000">
+		<title>25 palabras: Episodio 115</title>
+		<desc>Concurso presentado por Christian Gálvez en el que dos equipos, formados por dos famosos y un concursante anónimo, compiten por adivinar palabras a través de sinónimos o palabras relacionadas.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3039580"/>
+		<category>Entretenimiento</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20230605050000 +0000" stop="20230605065500 +0000">
 		<title>Informativos Telecinco matinal</title>
@@ -2140,21 +2140,21 @@
 		<category>Informativo</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20230605065500 +0000" stop="20230605070000 +0000">
-		<title>Previo: El programa de Ana Rosa</title>
+		<title>Previo: El programa de Ana Rosa: Episodio 184</title>
 		<desc>Magacín matinal que combina información y ocio, presentado por Ana Rosa Quintana.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2122581"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3048117"/>
 		<category>Entretenimiento</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20230605070000 +0000" stop="20230605113000 +0000">
-		<title>El programa de Ana Rosa</title>
+		<title>El programa de Ana Rosa: Episodio 184</title>
 		<desc>Magacín matutino que contiene diferentes secciones donde contertulianos hablan sobre temas de sociedad, corazón, política y actualidad.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2122582"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3048118"/>
 		<category>Entretenimiento</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20230605113000 +0000" stop="20230605130000 +0000">
-		<title>Ya es mediodía</title>
+		<title>Ya es mediodía: Episodio 183</title>
 		<desc>Joaquín Prat presenta este programa informativo que ofrece un análisis pormenorizado de los temas más relevantes de la actualidad política, económica, social y cultural.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2103258"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3048154"/>
 		<category>Entretenimiento</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20230605130000 +0000" stop="20230605134000 +0000">
@@ -2166,8 +2166,8 @@
 	<programme channel="Telecinco.TV" start="20230605134000 +0000" stop="20230605135000 +0000">
 		<title>Deportes</title>
 		<desc>El mundo del deporte es el protagonista de este informativo de mediodía, en el que el periodista J.J. Santos presenta la actualidad y las últimas noticias de la jornada.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2161989"/>
-		<category>Deportes</category>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P1177860"/>
+		<category>Informativo</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20230605135000 +0000" stop="20230605140000 +0000">
 		<title>El tiempo</title>
@@ -2176,27 +2176,27 @@
 		<category>Informativo</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20230605140000 +0000" stop="20230605150000 +0000">
-		<title>Sálvame limón</title>
+		<title>Sálvame limón: Episodio 109</title>
 		<desc>Magacín de tarde que centra buena parte de su tiempo en hablar sobre la actualidad del corazón y los últimos rumores acaecidos en el mundo de la farándula y los personajes populares del país. Los colaboradores del programa aportan noticias en exclusiva.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2160545"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3048156"/>
 		<category>Entretenimiento</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20230605150000 +0000" stop="20230605170000 +0000">
-		<title>Sálvame naranja</title>
+		<title>Sálvame naranja: Episodio 108</title>
 		<desc>Magacín de tarde que centra buena parte de su tiempo en hablar sobre la actualidad del corazón y los últimos rumores acaecidos en el mundo de la farándula y los personajes populares del país. Los colaboradores del programa aportan noticias en exclusiva.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2160546"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3048158"/>
 		<category>Entretenimiento</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20230605170000 +0000" stop="20230605180000 +0000">
-		<title>25 palabras</title>
+		<title>25 palabras: Episodio 122</title>
 		<desc>Concurso presentado por Christian Gálvez en el que dos equipos, formados por dos famosos y un concursante anónimo, compiten por adivinar palabras a través de sinónimos o palabras relacionadas.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2155630"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3048167"/>
 		<category>Entretenimiento</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20230605180000 +0000" stop="20230605190000 +0000">
-		<title>Reacción en cadena</title>
+		<title>Reacción en cadena: Episodio 121</title>
 		<desc>Concurso presentado por Ion Aramendi en el que dos equipos rivales compiten en pruebas sucesivas para resolver cadenas de palabras mientras van acumulando dinero.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2155633"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3048160"/>
 		<category>Entretenimiento</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20230605190000 +0000" stop="20230605194000 +0000">
@@ -2217,28 +2217,40 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2160620"/>
 		<category>Deportes</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20230605200000 +0000" stop="20230605221000 +0000">
-		<title>Mi casa es la tuya</title>
+	<programme channel="Telecinco.TV" start="20230605200000 +0000" stop="20230605221500 +0000">
+		<title>Mi casa es la tuya: Pocholo Martínez Bordiú</title>
 		<desc>Pocholo Martínez Bordiú, economista, empresario hostelero e icono de la noche ibicenca, abre las puertas de su vivienda en la isla pitiusa para recibir a Bertín Osborne.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3034541"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3048169"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20230605221000 +0000" stop="20230606000000 +0000">
-		<title>Mi casa es la tuya</title>
-		<desc>El torneo sobre tierra batida por antonomasia reúne en París a los jugadores más importantes del mundo del tenis. Sin Rafa Nadal, la Copa de los Mosqueteros busca nuevo dueño. Mientras, en mujeres, Iga Swiatek defiende la Suzanne Lenglen.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P1442289"/>
+	<programme channel="Telecinco.TV" start="20230605221500 +0000" stop="20230605225000 +0000">
+		<title>Supervivientes: Resumen diario: Supervivientes 2023: Resumen diario</title>
+		<desc>Programa que incluye los mejores momentos de las aventuras de los concursantes famosos que se encuentran en un lugar recóndito y en condiciones extremas. El espacio muestra su resistencia física y su capacidad de supervivencia.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3048162"/>
+		<category>Entretenimiento</category>
+	</programme>
+	<programme channel="Telecinco.TV" start="20230605225000 +0000" stop="20230605233000 +0000">
+		<title>Supervivientes: Resumen diario: Episodio 65</title>
+		<desc>Programa que incluye los mejores momentos de las aventuras de los concursantes famosos que se encuentran en un lugar recóndito y en condiciones extremas. El espacio muestra su resistencia física y su capacidad de supervivencia.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3045051"/>
+		<category>Entretenimiento</category>
+	</programme>
+	<programme channel="Telecinco.TV" start="20230605233000 +0000" stop="20230606000000 +0000">
+		<title>Supervivientes: Resumen diario: Episodio 64</title>
+		<desc>Programa que incluye los mejores momentos de las aventuras de los concursantes famosos que se encuentran en un lugar recóndito y en condiciones extremas. El espacio muestra su resistencia física y su capacidad de supervivencia.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3044192"/>
 		<category>Entretenimiento</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20230606000000 +0000" stop="20230606002500 +0000">
-		<title>Casino Gran Madrid Online Show</title>
+		<title>Casino Gran Madrid Online Show: Episodio 156</title>
 		<desc>Programa nocturno para que los espectadores puedan conectarse al Casino Gran Madrid desde casa.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2160166"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3048164"/>
 		<category>Entretenimiento</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20230606002500 +0000" stop="20230606005500 +0000">
-		<title>Supervivientes: Resumen diario</title>
+		<title>Supervivientes: Resumen diario: Supervivientes 2023: Resumen diario</title>
 		<desc>Programa que incluye los mejores momentos de las aventuras de los concursantes famosos que se encuentran en un lugar recóndito y en condiciones extremas. El espacio muestra su resistencia física y su capacidad de supervivencia.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2185579"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3048162"/>
 		<category>Entretenimiento</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20230606005500 +0000" stop="20230606010000 +0000">
@@ -2248,15 +2260,15 @@
 		<category>Ocio y Aficiones</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20230606010000 +0000" stop="20230606013000 +0000">
-		<title>Mejor llama a Kiko</title>
+		<title>Mejor llama a Kiko: Episodio 75</title>
 		<desc>Espacio de televenta presentado por Kiko Hernández.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P1623348"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2172788"/>
 		<category>Ocio y Aficiones</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20230606013000 +0000" stop="20230606020000 +0000">
-		<title>Mejor llama a Kiko</title>
+		<title>Mejor llama a Kiko: Episodio 65</title>
 		<desc>Espacio de televenta presentado por Kiko Hernández.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P1623348"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2085994"/>
 		<category>Ocio y Aficiones</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20230606020000 +0000" stop="20230606035500 +0000">
@@ -2266,9 +2278,9 @@
 		<category>Música</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20230606035500 +0000" stop="20230606041000 +0000">
-		<title>Enphorma</title>
+		<title>Enphorma: Episodio 1</title>
 		<desc>Programa especializado en temas actuales de alimentación, psicología y ejercicio.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3033572"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3034643"/>
 		<category>Ocio y Aficiones</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20230606035500 +0000" stop="20230606041000 +0000">
@@ -10539,57 +10551,63 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1303097"/>
 		<category>Música</category>
 	</programme>
-	<programme channel="Energy.TV" start="20230605043000 +0000" stop="20230605053000 +0000">
-		<title>El zapping de Surferos</title>
+	<programme channel="Energy.TV" start="20230605043000 +0000" stop="20230605050000 +0000">
+		<title>El zapping de Surferos: Episodio 82</title>
 		<desc>Físicamente es imposible llegar a captar el contenido más interesante que se emite en los diferentes canales de televisión. Por ello, este espacio rastrea el oleaje del universo catódico y elige lo más destacado de una forma original y divertida.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP657660"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP675335"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="Energy.TV" start="20230605053000 +0000" stop="20230605061500 +0000">
-		<title>Hawai 5.0</title>
-		<desc>Pablo pasa las tardes en el barrio al cuidado de su hermano mayor, Lucas, y los amigos de éste. El verano es el escenario más loco de sus vidas, como si hubiesen dejado el mundo a los niños sin ningún adulto a la redonda. Premio Proyecto Corto Movistar+ en el Festival de Cine de Gijón 2021.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1127171"/>
+	<programme channel="Energy.TV" start="20230605050000 +0000" stop="20230605054500 +0000">
+		<title>Soko leipzig (T19): Ep.22 La prueba</title>
+		<desc>El equipo de la Comisión Especial de la policía de Leipzig investiga principalmente delitos capitales como asesinato y homicidio involuntario.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP3048120"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20230605061500 +0000" stop="20230605065500 +0000">
-		<title>Hawai 5.0</title>
-		<desc>Cortometraje nominado a los Premios Goya 2023 en la categoría de Mejor Cortometraje de Animación.La amistad entre Kookoo Rikoo, el único payaso árabe cristiano ortodoxo israelí, y una niña siria superviviente de la guerra.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1127171"/>
+	<programme channel="Energy.TV" start="20230605054500 +0000" stop="20230605062500 +0000">
+		<title>Hawai 5.0 (T5): Ep.12 Poina 'Ole (Sin olvido)</title>
+		<desc>El asesinato de un cirujano lleva al equipo a un misterio de hace 40 años que involucra a cuatro niños desaparecidos de reformatorios. Mientras, McGarret intenta averiguar quien robó su coche.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1201743"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20230605065500 +0000" stop="20230605074500 +0000">
-		<title>Hawai 5.0</title>
-		<desc>Ana no sabe cómo tratar a su hijo Son, de seis años. Últimamente, su vida está llena de conflictos y de luchas y se siente muy confusa. Ana decide pasar unos días con Son en un pueblo de montaña, rodeados denaturaleza. Quiere reencontrarse con él.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1243842"/>
+	<programme channel="Energy.TV" start="20230605062500 +0000" stop="20230605071000 +0000">
+		<title>Hawai 5.0 (T5): Ep.13 La Po'ino (Escenario fatídico)</title>
+		<desc>Con la ayuda de Joe White, el equipo debe parar un grupo terrorista de intentar utilizar un virus como arma mortal contra la población mundial.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1201744"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20230605074500 +0000" stop="20230605083000 +0000">
-		<title>NCIS: Nueva Orleans</title>
-		<desc>Vuelven las rectas frenéticas, las curvas imposibles y los adelantamientos al límite: ya está aquí el Mundial de Fórmula 1. La temporada 2022 promete más emoción y espectáculo que nunca.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1501067"/>
+	<programme channel="Energy.TV" start="20230605071000 +0000" stop="20230605073000 +0000">
+		<title>Hawai 5.0 (T7): Ep.6 Ka Hale Ho'okauweli (La casa de los horrores)</title>
+		<desc>En Halloween, el equipo investiga el asesinato de un médium que aparentemente murió aterrado por la presencia de un poltergeist. Por otra parte, Kono y Adam son secuestrados para un culto a la muerte.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1352610"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20230605083000 +0000" stop="20230605092000 +0000">
-		<title>NCIS: Nueva Orleans</title>
-		<desc>Edición especial del programa para celebrar las fiestas de Navidad.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1501067"/>
+	<programme channel="Energy.TV" start="20230605073000 +0000" stop="20230605083500 +0000">
+		<title>NCIS: Nueva Orleans (T5): Ep.21 Confía en mi</title>
+		<desc>Tammy está convencida de que un estafador cometió el asesinato de un médico de la Armada, aunque las pruebas muestren lo contrario. Además, a espaldas de Hannah, su marido, Ryan Porter, lleva a Pride nueva información sobre Apollyon, la red de espionaje clandestina responsable de asesinar a su padre.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1662632"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20230605092000 +0000" stop="20230605101000 +0000">
-		<title>NCIS: Nueva Orleans</title>
+	<programme channel="Energy.TV" start="20230605083500 +0000" stop="20230605092000 +0000">
+		<title>NCIS: Nueva Orleans (T5): Ep.22 Teoría del caos</title>
+		<desc>El equipo de NCIS investiga un atentado mortal durante un evento celebrado en un museo militar con más de 1.000 personas presentes.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1662633"/>
+		<category>Series</category>
+	</programme>
+	<programme channel="Energy.TV" start="20230605092000 +0000" stop="20230605101500 +0000">
+		<title>NCIS: Nueva Orleans (T5): Ep.23 El río Estigia (Primera parte)</title>
 		<desc>Orgullo y Lasalle viajan a Osetia del Sur en Rusia, devastada por la guerra, para localizar al agente especial del FBI Raymond Isler, quien fue secuestrado durante una misión fallida para detener al líder de Apollyon, la red clandestina de espías responsable de asesinar al padre de Pride.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1501067"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1662635"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20230605101000 +0000" stop="20230605105500 +0000">
-		<title>NCIS: Nueva Orleans</title>
-		<desc>Edición especial del programa para celebrar las fiestas de Navidad.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1501067"/>
+	<programme channel="Energy.TV" start="20230605101500 +0000" stop="20230605110000 +0000">
+		<title>NCIS: Nueva Orleans (T5): Ep.24 El río Estigia (Segunda parte)</title>
+		<desc>Después de rastrear a la red de espías Apollyon, Pride se separa del equipo y se enfrenta a un grave peligro. Además, para salvar a Pride, el equipo de NCIS debe localizar a un topo que continúa proporcionando información a Apollyon.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1665206"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20230605105500 +0000" stop="20230605113000 +0000">
+	<programme channel="Energy.TV" start="20230605110000 +0000" stop="20230605113000 +0000">
 		<title>NCIS: Nueva Orleans</title>
-		<desc>Nacho Sierra se encarga de mostrar a la audiencia lo que da de sí el reino animal. En este espacio tienen cabida desde las mascotas más exóticas hasta los animales de campo, sin olvidar el trabajo de veterinarios, etólogos y otros profesionales afines al este ámbito.</desc>
+		<desc>Dwayne Pryde lidera un grupo de agentes del Servicio de Investigación Criminal de la Marina que investiga crímenes en la ciudad de Nueva Orleans, donde la música y el entretenimiento juegan un papel principal.Cuarta temporada de esta serie derivada de "Navy: Investigación Criminal". En esta nueva tanda de episodios, Pride se encontrará en libertad condicional, seis semanas después de su derrota contra el corrupto alcalde Hamilton. Mientras, su equipo es controlado de cerca por la Agente Especial Supervisora: Paula Boyd, interpretada por Becky Ann Baker ("The Good Wife").Gary Glasberg ("El mentalista"), responsable de la ficción original, otorga el papel protagonista a Scott Bakula, a quien no le es extraña la pequeña pantalla tras sus papeles en "Star Trek: Enterprise" o "A través del tiempo", trabajo que fue galardonado con el Globo de Oro. El resto del reparto original está formado por Lucas Black ("A todo gas: Tokyo Race"), CCH Pounder ("The shield: al margen de la ley") y Rob Kerkovich ("Monstruoso").</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1501067"/>
 		<category>Series</category>
 	</programme>
@@ -11055,46 +11073,46 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP1379489"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="FDF.TV" start="20230605053000 +0000" stop="20230605054500 +0000">
-		<title>Gym Tony XS</title>
+	<programme channel="FDF.TV" start="20230605053000 +0000" stop="20230605060000 +0000">
+		<title>Gym Tony XS: Episodio 95</title>
 		<desc>En un gimnasio de barrio varios personajes estrafalarios viven situaciones disparatadas. A pesar de que Tony, el dueño del establecimiento, tiene una forma muy particular de llevar su negocio, tiene un grupo de clientes fieles que ha convertido en su nueva familia.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP1311513"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP1343975"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="FDF.TV" start="20230605054500 +0000" stop="20230605061500 +0000">
-		<title>Mejor llama a Kiko</title>
+	<programme channel="FDF.TV" start="20230605060000 +0000" stop="20230605063500 +0000">
+		<title>Mejor llama a Kiko: Episodio 61</title>
 		<desc>Espacio de televenta presentado por Kiko Hernández.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP1623348"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP2044290"/>
 		<category>Ocio y Aficiones</category>
 	</programme>
-	<programme channel="FDF.TV" start="20230605061500 +0000" stop="20230605072000 +0000">
-		<title>Aída</title>
-		<desc>España busca plaza en las semifinales de la Eurocopa sub-17. Tras una muy buena fase de grupos, el conjunto nacional se mide a Irlanda en el primer cruce del torneo, el de cuartos de final.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP679017"/>
+	<programme channel="FDF.TV" start="20230605063500 +0000" stop="20230605073000 +0000">
+		<title>Aída (T6): Ep.102 Chíllame que te veo</title>
+		<desc>Una ceguera temporal lleva a Soraya a aceptar el ofrecimiento de Luisma: alojarse en el apartamento de Paz mientras se recupera de su dolencia. El hermano de Aída saca partido de la situación colocando estratégicamente junto a su sobrina un cartel solicitando limosna.Impedida por su ceguera, Soraya prepara la fiesta de cumpleaños de Aidita con la ayuda de Macu y Lorena. Consciente de las limitaciones de su hermana, Lorena pretende utilizar el dinero que le entrega Soraya para organizar una fiesta femenina con un stripper y contratar a un payaso económico para la onomástica de su sobrina.El equipo de fútbol de Esperanza Sur atraviesa su peor momento debido a sus nefastos resultados deportivos y a su precaria situación económica. Ante la gravedad de los problemas del club, Mauricio planea deshacerse de él vendiéndoselo a un hombre de negocios que conoce en el Reinols. Para cerrar los pormenores de la operación, el hostelero tendrá que enfrentarse al empresario en un partido de paddle.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP780309"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="FDF.TV" start="20230605072000 +0000" stop="20230605082000 +0000">
-		<title>Aída</title>
-		<desc>Organizada por la Federación Española de Rugby, la División de Honor de este deporte es la máxima competición de rugby en España. Está formada por 12 equipos.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP679017"/>
+	<programme channel="FDF.TV" start="20230605073000 +0000" stop="20230605082000 +0000">
+		<title>Aída (T6): Ep.103 Esperanza beauty</title>
+		<desc>Ha llegado tarde en su primera jornada como peón, le han despedido del trabajo y es incapaz de contar la verdad a Paz. En lugar de afrontar la situación, Luisma vende su esperma para conseguir dinero y rehúye las relaciones íntimas con su novia, circunstancia que provoca en su pareja una gran inseguridad.Por su parte, Noe, una amiga de Lorena, ha despertado en Mauricio un sentimiento especial. Aunque el dueño del Reinols se niega a reconocerlo inicialmente, poco después descubre que está profundamente enamorado de la joven. Mientras su habitual grosería se transforma en romanticismo, Mauricio ignora que Noe únicamente está interesada en su dinero.Mientras, ilusionada con la idea de tener una mascota, Aidita pide a su madre que le compre un perro. Aunque Soraya se niega inicialmente a satisfacer el deseo de la pequeña, la insistencia de ésta lleva a la primogénita de Aída a cerrar un trato con su hija: si logra cuidar de un pez durante varios días, ella le comprará un perro. Contra todo pronóstico, Soraya observa cómo el pez sigue vivo a medida que transcurre el tiempo.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP780310"/>
 		<category>Series</category>
 	</programme>
 	<programme channel="FDF.TV" start="20230605082000 +0000" stop="20230605093000 +0000">
-		<title>Aída</title>
+		<title>Aída (T7): Ep.118 Diez razones para odiarte</title>
 		<desc>Aída, asistenta de clase humilde, tiene una pésima suerte con los hombres y unas complicadas relaciones personales.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP756861"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP869645"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="FDF.TV" start="20230605093000 +0000" stop="20230605104000 +0000">
-		<title>Aída</title>
+	<programme channel="FDF.TV" start="20230605093000 +0000" stop="20230605102500 +0000">
+		<title>Aída (T7): Ep.119 Moros y cristianos</title>
 		<desc>Aída, asistenta de clase humilde, tiene una pésima suerte con los hombres y unas complicadas relaciones personales.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP756861"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP869646"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="FDF.TV" start="20230605104000 +0000" stop="20230605115000 +0000">
-		<title>Aída</title>
-		<desc>La localidad azerí de Bakú acoge la 26ª edición del Mundial de taekwondo del 29 de mayo al 4 de junio. España acude a la cita con la intención de superar el registro de cinco medallas (un oro, dos platas y dos bronces) que logró el año pasado en México.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP756861"/>
+	<programme channel="FDF.TV" start="20230605102500 +0000" stop="20230605115000 +0000">
+		<title>Aída (T7): Ep.120 Macu, ¿qué será lo que tiene el negro?</title>
+		<desc>Aída, asistenta de clase humilde, tiene una pésima suerte con los hombres y unas complicadas relaciones personales.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP869647"/>
 		<category>Series</category>
 	</programme>
 	<programme channel="FDF.TV" start="20230605115000 +0000" stop="20230605134000 +0000">
@@ -13521,34 +13539,196 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBARNAP385190"/>
 		<category>Deportes</category>
 	</programme>
-	<programme channel="BarcaTV.TV" start="20230605040000 +0000" stop="20230605080000 +0000">
+	<programme channel="BarcaTV.TV" start="20230605040000 +0000" stop="20230605053000 +0000">
 		<title>Barça TV</title>
-		<desc>El equipo investiga una historia de leyendas fantasmales. Esto sucede cuando dos personas desaparecen en los bosques del Conservatorio del Hombre Muerto de East Allegheny, y un tercero aparece misteriosamente al día siguiente con detalles limitados sobre lo que sucedió sus amigos. Para ayudar con el caso, JJ regresa a regañadientes a su ciudad natal.</desc>
+		<desc>Emisión del canal de televisión del FC Barcelona.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBARNAP385190"/>
 		<category>Deportes</category>
 	</programme>
-	<programme channel="BarcaTV.TV" start="20230605080000 +0000" stop="20230605120000 +0000">
-		<title>Barça TV</title>
-		<desc>1992, Colombia. Cataleya, una pequeña de nueve años de edad, escapa a Estados Unidos junto a su tío Emilio tras presenciar el asesinato de sus padres. Su tío, convertido con los años en un gánster, le enseña a la pequeña el oficio de matar y la emplea como asesina profesional. Quince años después, Cataleya decide remover su pasado y buscar a los asesinos de sus padres en busca de venganza, incluso si ello significa perder todo lo que ama.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBARNAP385190"/>
+	<programme channel="BarcaTV.TV" start="20230605053000 +0000" stop="20230605063000 +0000">
+		<title>Especial: Dream Team: El somni que va canviar el futbol</title>
+		<desc>Emisión de un programa especial relacionado con el F.C. Barcelona, su historia y jugadores.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBARNAP1300323"/>
 		<category>Deportes</category>
 	</programme>
-	<programme channel="BarcaTV.TV" start="20230605120000 +0000" stop="20230605160000 +0000">
-		<title>Barça TV</title>
+	<programme channel="BarcaTV.TV" start="20230605063000 +0000" stop="20230605070000 +0000">
+		<title>Rantaró, el Ninja boy</title>
+		<desc>Serie de animación producida en Japón que parodia las estrictas academias de artes marciales. Rantaró y sus amigos intentan convertirse en Ninjas, los afamados guerreros japoneses, pero son bastante torpes, por lo que se ven envueltos en mil travesuras y líos durante su paso por la escuela.Rantaró proviene de una familia Ninja de clase pobre. La mayor ilusión de su madre es que se convierta en un gran guerrero, y para ello cuenta con una gran habilidad: ¡es tan rápido que puede correr 100 metros en 10 segundos! Su amigo Shinbei es bastante torpe, así que su padre, un rico comerciante, le inscribió en la escuela Ninja para que mejoraran su habilidad y su fuerza, pero a él lo que le gusta más es dormir y comer. ¡Su pelo es tan grueso que a veces saca a sus amigos de más de un apuro! Otro de sus compañeros es Kirimaru, un chico huérfano cuyo mayor interés es reunir todo el dinero que sea posible y así ser rico algún día. Además, los chicos tendrán que convivir con chicas de la Escuela de Ninjas vecina, lo que les meterá en más de un lío.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBARNAP628175"/>
+		<category>Infantil</category>
+	</programme>
+	<programme channel="BarcaTV.TV" start="20230605070000 +0000" stop="20230605071500 +0000">
+		<title>Boom and Reds</title>
+		<desc></desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBARNAP1670964"/>
+		<category>Infantil</category>
+	</programme>
+	<programme channel="BarcaTV.TV" start="20230605071500 +0000" stop="20230605073000 +0000">
+		<title>Glàmpers</title>
+		<desc>Los Glumpers son un clan, un grupo de amigos que conviven juntos, las acusadas personalidades de los cuales interactúan continuamente. Su casa, su hogar, viene a ser un tipo de reactor nuclear donde la mínima interacción entre sus partículas puede provocar una reacción en cadena de imprevisibles y desastrosas consecuencias.Comedia dirigida a chicos y chicas de entre 8 y 12 años protagonizada por unos curiosos personajes, los glumpers, creados por el estudio de diseño estadounidense Make. La producción se compone de episodios muy breves (no superan los dos minutos) y los personajes no hablan en ningún idioma reconocible, hecho que los convierte en un producto altamente explotable comercialmente en todo el mundo.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBARNAP1613542"/>
+		<category>Infantil</category>
+	</programme>
+	<programme channel="BarcaTV.TV" start="20230605073000 +0000" stop="20230605090000 +0000">
+		<title>Liga Nacional de fútbol sala (T22/23): Barcelona - Inter</title>
+		<desc>España puede presumir de tener la mejor liga del mundo de fútbol sala. 16 equipos conforman la Primera División, ocho de los cuales pelean por el título en los playoffs. El Barcelona, actual campeón, el Murcia y el Inter son los grandes favoritos al título.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBARNAP3045659"/>
+		<category>Deportes</category>
+	</programme>
+	<programme channel="BarcaTV.TV" start="20230605090000 +0000" stop="20230605100000 +0000">
+		<title>El 9: Laudrup, el fals 9 del Dream Team</title>
+		<desc>Serie de reportajes que recuerda a los mejores delanteros de la historia del Fútbol Club Barcelona. Cada capítulo ofrece el testimonio del protagonista, complementado por el de compañeros y periodistas expertos en fútbol que glosan su figura.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBARNAP1793430"/>
+		<category>Deportes</category>
+	</programme>
+	<programme channel="BarcaTV.TV" start="20230605100000 +0000" stop="20230605103000 +0000">
+		<title>Especial: Tots els gols de Michael Laudrup (1989-1994)</title>
+		<desc>Emisión de un programa especial relacionado con el F.C. Barcelona, su historia y jugadores.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBARNAP1359860"/>
+		<category>Informativo</category>
+	</programme>
+	<programme channel="BarcaTV.TV" start="20230605103000 +0000" stop="20230605120000 +0000">
+		<title>Copa Plenitude ASOBAL (T2023): Ademar León - Barcelona</title>
+		<desc>Barcelona, Ademar León, Granollers y Cuenca se disputan este título en León.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBARNAP2191405"/>
+		<category>Deportes</category>
+	</programme>
+	<programme channel="BarcaTV.TV" start="20230605120000 +0000" stop="20230605124500 +0000">
+		<title>L'Àlbum: Guillermo Amor</title>
 		<desc>Los mejores jugadores de la historia del Barça repasan su brillante trayectoria en el club a través de las fotografías más especiales con la camiseta azulgrana.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBARNAP385190"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBARNAP2025445"/>
+		<category>Documentales</category>
+	</programme>
+	<programme channel="BarcaTV.TV" start="20230605124500 +0000" stop="20230605130000 +0000">
+		<title>Especial: Tots els gols de Jordi Alba</title>
+		<desc>Emisión de un programa especial relacionado con el F.C. Barcelona, su historia y jugadores.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBARNAP1669270"/>
 		<category>Deportes</category>
 	</programme>
-	<programme channel="BarcaTV.TV" start="20230605160000 +0000" stop="20230605200000 +0000">
-		<title>Barça TV</title>
+	<programme channel="BarcaTV.TV" start="20230605130000 +0000" stop="20230605131500 +0000">
+		<title>El dia B</title>
 		<desc>Boletín informativo de Barça TV donde se tocan las últimas noticias de todas las secciones y categorías del F. C. Barcelona.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBARNAP385190"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBARNAP2132834"/>
+		<category>Informativo</category>
+	</programme>
+	<programme channel="BarcaTV.TV" start="20230605131500 +0000" stop="20230605134500 +0000">
+		<title>Especial: La Lliga és nostra i el futur també</title>
+		<desc>Emisión de un programa especial relacionado con el F.C. Barcelona, su historia y jugadores.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBARNAP3039631"/>
 		<category>Deportes</category>
 	</programme>
-	<programme channel="BarcaTV.TV" start="20230605200000 +0000" stop="20230606000000 +0000">
-		<title>Barça TV</title>
-		<desc>Espacio de Barça TV que ofrece un partido de algunos de los conjuntos del club, bien sea del primer equipo, de las categorías inferiores o de las polideportivas.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBARNAP385190"/>
+	<programme channel="BarcaTV.TV" start="20230605134500 +0000" stop="20230605140000 +0000">
+		<title>600'' de futbol (T22/23): Barcelona - Real Madrid</title>
+		<desc>Con una introducción que contextualiza cada marcador, ''600 segundos de fútbol'' traslada al espectador a diferentes escenarios, diferentes temporadas y diferentes partidos, todos con un denominador común: la magia del Barça y el buen fútbol.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBARNAP2192145"/>
+		<category>Deportes</category>
+	</programme>
+	<programme channel="BarcaTV.TV" start="20230605140000 +0000" stop="20230605141500 +0000">
+		<title>El dia B</title>
+		<desc>Boletín informativo de Barça TV donde se tocan las últimas noticias de todas las secciones y categorías del F. C. Barcelona.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBARNAP2132834"/>
+		<category>Informativo</category>
+	</programme>
+	<programme channel="BarcaTV.TV" start="20230605141500 +0000" stop="20230605150000 +0000">
+		<title>Primera Federación (T22/23): Barcelona Atlètic - Real Madrid Castilla</title>
+		<desc>La Primera Federación es la categoría de bronce del fútbol español. Esta es la segunda edición de esta nueva competición, llamada anteriormente Primera RFEF, en la que 40 clubes, encuadrados en dos grupos de 20, se enfrentarán durante 38 jornadas.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBARNAP3045654"/>
+		<category>Deportes</category>
+	</programme>
+	<programme channel="BarcaTV.TV" start="20230605150000 +0000" stop="20230605151500 +0000">
+		<title>El dia B</title>
+		<desc>Boletín informativo de Barça TV donde se tocan las últimas noticias de todas las secciones y categorías del F. C. Barcelona.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBARNAP2132834"/>
+		<category>Informativo</category>
+	</programme>
+	<programme channel="BarcaTV.TV" start="20230605151500 +0000" stop="20230605160000 +0000">
+		<title>Primera Federación (T22/23): Barcelona Atlètic - Real Madrid Castilla</title>
+		<desc>La Primera Federación es la categoría de bronce del fútbol español. Esta es la segunda edición de esta nueva competición, llamada anteriormente Primera RFEF, en la que 40 clubes, encuadrados en dos grupos de 20, se enfrentarán durante 38 jornadas.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBARNAP3045654"/>
+		<category>Deportes</category>
+	</programme>
+	<programme channel="BarcaTV.TV" start="20230605160000 +0000" stop="20230605161500 +0000">
+		<title>El dia B</title>
+		<desc>Boletín informativo de Barça TV donde se tocan las últimas noticias de todas las secciones y categorías del F. C. Barcelona.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBARNAP2132834"/>
+		<category>Informativo</category>
+	</programme>
+	<programme channel="BarcaTV.TV" start="20230605161500 +0000" stop="20230605170000 +0000">
+		<title>Recorda, Míster: Laureano Ruíz</title>
+		<desc>Reportaje en el que se recuerda a Laureano Ruíz.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBARNAP832194"/>
+		<category>Deportes</category>
+	</programme>
+	<programme channel="BarcaTV.TV" start="20230605170000 +0000" stop="20230605171500 +0000">
+		<title>El dia B</title>
+		<desc>Boletín informativo de Barça TV donde se tocan las últimas noticias de todas las secciones y categorías del F. C. Barcelona.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBARNAP2132834"/>
+		<category>Informativo</category>
+	</programme>
+	<programme channel="BarcaTV.TV" start="20230605171500 +0000" stop="20230605174500 +0000">
+		<title>Porta 104: Paulino Alcántara. El primer ídol</title>
+		<desc>Reportaje sobre Paulino Alcántara el que fue gran goleador del FC Barcelona, "El primer ídol".</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBARNAP1033364"/>
+		<category>Deportes</category>
+	</programme>
+	<programme channel="BarcaTV.TV" start="20230605174500 +0000" stop="20230605180000 +0000">
+		<title>600'' de futbol (T22/23): Betis - Barcelona</title>
+		<desc>Con una introducción que contextualiza cada marcador, ''600 segundos de fútbol'' traslada al espectador a diferentes escenarios, diferentes temporadas y diferentes partidos, todos con un denominador común: la magia del Barça y el buen fútbol.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBARNAP2171240"/>
+		<category>Deportes</category>
+	</programme>
+	<programme channel="BarcaTV.TV" start="20230605180000 +0000" stop="20230605181500 +0000">
+		<title>El dia B</title>
+		<desc>Boletín informativo de Barça TV donde se tocan las últimas noticias de todas las secciones y categorías del F. C. Barcelona.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBARNAP2132834"/>
+		<category>Informativo</category>
+	</programme>
+	<programme channel="BarcaTV.TV" start="20230605181500 +0000" stop="20230605183000 +0000">
+		<title>El cant de la penya: Tibenys</title>
+		<desc>Programa que tiene como protagonistas a todos aquellos barcelonistas que se atrevan a interpretar frente a las cámaras el himno del Barça en formato lipdub.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBARNAP3048172"/>
+		<category>Entretenimiento</category>
+	</programme>
+	<programme channel="BarcaTV.TV" start="20230605183000 +0000" stop="20230605184500 +0000">
+		<title>Espai Barça</title>
+		<desc>El proyecto de transformación de las instalaciones del FC Barcelona en el barrio de Les Corts de Barcelona y el Estadi Johan Cruyff en la Ciudad Deportiva Joan Gamper ya empieza a ser una realidad.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBARNAP3043290"/>
+		<category>Deportes</category>
+	</programme>
+	<programme channel="BarcaTV.TV" start="20230605184500 +0000" stop="20230605190000 +0000">
+		<title>Especial: Tots els gols de Jordi Alba</title>
+		<desc>Emisión de un programa especial relacionado con el F.C. Barcelona, su historia y jugadores.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBARNAP1669270"/>
+		<category>Deportes</category>
+	</programme>
+	<programme channel="BarcaTV.TV" start="20230605190000 +0000" stop="20230605203000 +0000">
+		<title>Liga Endesa (T22/23): Valencia Basket - Barça (2º)</title>
+		<desc>La mejor liga de baloncesto de Europa se juega en Movistar+, donde ofrecemos todos los partidos de cada jornada de Liga Endesa.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBARNAP2111046"/>
+		<category>Deportes</category>
+	</programme>
+	<programme channel="BarcaTV.TV" start="20230605203000 +0000" stop="20230605204500 +0000">
+		<title>El cant de la penya: Tibenys</title>
+		<desc>Programa que tiene como protagonistas a todos aquellos barcelonistas que se atrevan a interpretar frente a las cámaras el himno del Barça en formato lipdub.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBARNAP3048172"/>
+		<category>Entretenimiento</category>
+	</programme>
+	<programme channel="BarcaTV.TV" start="20230605204500 +0000" stop="20230605210000 +0000">
+		<title>Espai Barça</title>
+		<desc>El proyecto de transformación de las instalaciones del FC Barcelona en el barrio de Les Corts de Barcelona y el Estadi Johan Cruyff en la Ciudad Deportiva Joan Gamper ya empieza a ser una realidad.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBARNAP3043290"/>
+		<category>Deportes</category>
+	</programme>
+	<programme channel="BarcaTV.TV" start="20230605210000 +0000" stop="20230605230000 +0000">
+		<title>Supercopa de España Femenina (T2023): Barcelona-Real Madrid</title>
+		<desc>Segundo Clásico de la semana en la Supercopa, en esta ocasión en la versión femenina. Hasta la fecha, las culés se han mostrado siempre superiores en las competiciones femeninas. Aun así, Alberto Toril no descarta que sus pupilas puedan dar la sorpresa.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBARNAP2165512"/>
+		<category>Deportes</category>
+	</programme>
+	<programme channel="BarcaTV.TV" start="20230605230000 +0000" stop="20230606000000 +0000">
+		<title>Especial: Dream Team: El somni que va canviar el futbol</title>
+		<desc>Emisión de un programa especial relacionado con el F.C. Barcelona, su historia y jugadores.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBARNAP1300323"/>
 		<category>Deportes</category>
 	</programme>
 	<programme channel="BarcaTV.TV" start="20230606000000 +0000" stop="20230606040000 +0000">
@@ -14925,87 +15105,81 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1231384"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20230605032500 +0000" stop="20230605043200 +0000">
+	<programme channel="Divinity.TV" start="20230605032500 +0000" stop="20230605040000 +0000">
 		<title>Chicago Fire (T2): Ep.13 Esta es la noche</title>
 		<desc>La brigada 51 interviene cuando un apagón provoca el caos en la comunidad.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1231385"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20230605032500 +0000" stop="20230605043200 +0000">
-		<title>Chicago Fire (T2): Ep.13 Esta es la noche</title>
-		<desc>La brigada 51 interviene cuando un apagón provoca el caos en la comunidad.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1231385"/>
-		<category>Series</category>
-	</programme>
-	<programme channel="Divinity.TV" start="20230605043200 +0000" stop="20230605043800 +0000">
-		<title>I Love TV</title>
-		<desc>Este espacio repasa la actualidad del mundo de la escalada.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP823919"/>
+	<programme channel="Divinity.TV" start="20230605040000 +0000" stop="20230605041500 +0000">
+		<title>I Love TV: Lo mejor</title>
+		<desc>Espacio de zapeo que ofrece las imágenes más impactantes de la pequeña pantalla.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1380025"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20230605043800 +0000" stop="20230605045300 +0000">
-		<title>Gen360</title>
-		<desc>El torneo sobre tierra batida por antonomasia reúne en París a los jugadores más importantes del mundo del tenis. Sin Rafa Nadal, la Copa de los Mosqueteros busca nuevo dueño. Mientras, en mujeres, Iga Swiatek defiende la Suzanne Lenglen.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1917262"/>
+	<programme channel="Divinity.TV" start="20230605041500 +0000" stop="20230605043000 +0000">
+		<title>Gen360: Episodio 5</title>
+		<desc>Programa que promociona cursos profesionales que te abrirán las puertas del mercado laboral, con formación para impulsar el crecimiento personal.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP2115413"/>
 		<category>Cultural/Educativo</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20230605045300 +0000" stop="20230605050800 +0000">
-		<title>Enphorma</title>
-		<desc>El torneo sobre tierra batida por antonomasia reúne en París a los jugadores más importantes del mundo del tenis. Sin Rafa Nadal, la Copa de los Mosqueteros busca nuevo dueño. Mientras, en mujeres, Iga Swiatek defiende la Suzanne Lenglen.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP3033572"/>
+	<programme channel="Divinity.TV" start="20230605043000 +0000" stop="20230605044500 +0000">
+		<title>Enphorma: Episodio 6</title>
+		<desc>Programa especializado en temas actuales de alimentación, psicología y ejercicio.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP3047242"/>
 		<category>Ocio y Aficiones</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20230605050800 +0000" stop="20230605055000 +0000">
-		<title>Entre fantasmas</title>
-		<desc>El torneo sobre tierra batida por antonomasia reúne en París a los jugadores más importantes del mundo del tenis. Sin Rafa Nadal, la Copa de los Mosqueteros busca nuevo dueño. Mientras, en mujeres, Iga Swiatek defiende la Suzanne Lenglen.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP492433"/>
+	<programme channel="Divinity.TV" start="20230605044500 +0000" stop="20230605052500 +0000">
+		<title>Bones (T6): Ep.8 Los huesos en la camioneta</title>
+		<desc>Una camioneta arde en el arcén de una carretera comarcal. Al acudir a extinguir el fuego, los bomberos encuentran dentro un esqueleto retorcido y acuden a Booth para que investigue el suceso.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP942497"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20230605055000 +0000" stop="20230605063100 +0000">
-		<title>Entre fantasmas</title>
-		<desc>El torneo sobre tierra batida por antonomasia reúne en París a los jugadores más importantes del mundo del tenis. Sin Rafa Nadal, la Copa de los Mosqueteros busca nuevo dueño. Mientras, en mujeres, Iga Swiatek defiende la Suzanne Lenglen.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP492433"/>
+	<programme channel="Divinity.TV" start="20230605052500 +0000" stop="20230605060500 +0000">
+		<title>Bones (T6): Ep.9 La doctora en la foto</title>
+		<desc>Brennan y Booth investigan la muerte de una cirujana encontrada en un barrio peligroso y con múltiples fracturas en el cráneo. Temperance se ve reflejada en los aspectos personales de la víctima.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP942498"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20230605063100 +0000" stop="20230605071900 +0000">
-		<title>Entre fantasmas</title>
-		<desc>El torneo sobre tierra batida por antonomasia reúne en París a los jugadores más importantes del mundo del tenis. Entre ellos, un Rafa Nadal que busca conquistar su 15ª Copa de los Mosqueteros. Mientras, en mujeres, Iga Swiatek defiende la Suzanne Lenglen.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP492433"/>
+	<programme channel="Divinity.TV" start="20230605060500 +0000" stop="20230605065000 +0000">
+		<title>Bones (T6): Ep.10 El cadáver en la bolsa</title>
+		<desc>Una joven es hallada muerta en la ducha de una lujosa residencia. Los investigadores descubren que se trata de una mujer asiática que estaba relacionada con el contrabando de imitaciones.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP942500"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20230605071900 +0000" stop="20230605080700 +0000">
-		<title>Entre fantasmas</title>
-		<desc>Las carreteras italianas se vuelven a llenar de los apasionados y festivos espectadores del Giro. La primera de las grandes de la temporada no falla a su cita primaveral, con 21 etapas que parten de Fossacesia. 3.448 kilómetros después, la meta final se sitúa en Roma.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP492433"/>
+	<programme channel="Divinity.TV" start="20230605065000 +0000" stop="20230605073500 +0000">
+		<title>Bones (T6): Ep.11 La bala en el cerebro</title>
+		<desc>La asesina conocida como "La Enterradora", va a ser trasladada desde la prisión hasta la sala del tribunal que va a examinar su apelación. Al bajar del furgón, es asesinada de un disparo en la cabeza.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP942499"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20230605080700 +0000" stop="20230605085400 +0000">
-		<title>Entre fantasmas</title>
-		<desc>Una competición en la que participan los mejores escaladores del planeta. El certamen llega este año a su 35ª edición y cuenta con 12 pruebas en el calendario. Se premian tres disciplinas: lead, boulder y velocidad.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP492433"/>
+	<programme channel="Divinity.TV" start="20230605073500 +0000" stop="20230605082000 +0000">
+		<title>Bones (T6): Ep.12 El pecado en la Hermandad</title>
+		<desc>El equipo investiga el asesinato de un hombre encontrado en un maizal. Al contactar con la familia, descubren que la víctima tenía tres mujeres y que todas ellas eran hermanas.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP942501"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20230605085400 +0000" stop="20230605094900 +0000">
+	<programme channel="Divinity.TV" start="20230605082000 +0000" stop="20230605091000 +0000">
+		<title>Bones (T6): Ep.13 El acróbata en el moho</title>
+		<desc>El cadáver de un joven aparece cubierto de moho en la azotea de un edificio. Identificada la víctima, el equipo trabaja para encontrar al culpable de su muerte.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP942502"/>
+		<category>Series</category>
+	</programme>
+	<programme channel="Divinity.TV" start="20230605091000 +0000" stop="20230605100000 +0000">
+		<title>Bones (T6): Ep.14 El cadáver bronceado</title>
+		<desc>El día de San Valentín lleva el estrés al Jeffersonian de distintas maneras. Cam pide a su equipo que ponga todo su empeño en resolver el asesinato de una organizadora de bodas.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP964092"/>
+		<category>Series</category>
+	</programme>
+	<programme channel="Divinity.TV" start="20230605100000 +0000" stop="20230605105000 +0000">
+		<title>Bones (T6): Ep.15 El asesino en el punto de mira</title>
+		<desc>El francotirador Jacob Broadsky, el asesino de "La Sepulturera", regresa con su particular sentido de la justicia después de asesinar a un hombre que cargaba con una importante suma de dinero blanqueado. Booth se tomará el caso como algo personal y se propondrá darle caza antes de que vuelva a matar. En el laboratorio, el padre de Angela hace acto de presencia con un requerimiento un tanto especial.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP964093"/>
+		<category>Series</category>
+	</programme>
+	<programme channel="Divinity.TV" start="20230605105000 +0000" stop="20230605122700 +0000">
 		<title>Bones</title>
-		<desc>El deporte puede servir de inspiración y de guía. Este espacio profundiza en esa idea y muestra cómo ha servido a muchos atletas a salir de situaciones complicadas de su vida.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP571192"/>
-		<category>Series</category>
-	</programme>
-	<programme channel="Divinity.TV" start="20230605094900 +0000" stop="20230605104100 +0000">
-		<title>Bones</title>
-		<desc>El torneo sobre tierra batida por antonomasia reúne en París a los jugadores más importantes del mundo del tenis. Sin Rafa Nadal, la Copa de los Mosqueteros busca nuevo dueño. Mientras, en mujeres, Iga Swiatek defiende la Suzanne Lenglen.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP571192"/>
-		<category>Series</category>
-	</programme>
-	<programme channel="Divinity.TV" start="20230605104100 +0000" stop="20230605113600 +0000">
-		<title>Bones</title>
-		<desc>El torneo sobre tierra batida por antonomasia reúne en París a los jugadores más importantes del mundo del tenis. Sin Rafa Nadal, la Copa de los Mosqueteros busca nuevo dueño. Mientras, en mujeres, Iga Swiatek defiende la Suzanne Lenglen.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP571192"/>
-		<category>Series</category>
-	</programme>
-	<programme channel="Divinity.TV" start="20230605113600 +0000" stop="20230605122700 +0000">
-		<title>Bones</title>
-		<desc>El torneo sobre tierra batida por antonomasia reúne en París a los jugadores más importantes del mundo del tenis. Sin Rafa Nadal, la Copa de los Mosqueteros busca nuevo dueño. Mientras, en mujeres, Iga Swiatek defiende la Suzanne Lenglen.</desc>
+		<desc>Segunda temporada de la serie centrada en las vivencias de la antropóloga forense Temperance Brennan, especialista en investigar aquellos restos humanos que, por su estado, son imposibles de analizar mediante los métodos tradicionales. En sus pesquisas, Brennan forma pareja con el agente especial Seeley Booth, un antiguo francotirador de la armada que recela de la ciencia cuando se trata de resolver crímenes.La primera temporada de la serie obtuvo una media de 12 millones de espectadores en EE. UU., siguiendo la estela de otras exitosas producciones sobre médicos y forenses como ''CSI'' o ''House''. Inspirada en la vida real de la antropóloga forense y novelista Kathy Reichs -quien es no sólo productora ejecutiva de la serie sino también asesora, lo que convierte la producción procedimental en una de las más rigurosamente científicas del panorama de la época-, ''Bones'' intercala lo paranormal, la intriga policial y el humor. La pareja protagonista está compuesta por Emily Deschanel (''El Álamo'') y David Boreanaz (el vampiro con alma de ''Buffy, la cazavampiros'' que después tuvo su propia serie, ''Angel'').</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP584828"/>
 		<category>Series</category>
 	</programme>
@@ -16317,51 +16491,51 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP1052230"/>
 		<category>Cine</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20230605033000 +0000" stop="20230605050000 +0000">
+	<programme channel="Bemad.TV" start="20230605033000 +0000" stop="20230605042500 +0000">
 		<title>Cine</title>
 		<desc>Emisión de una película.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP710030"/>
 		<category>Cine</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20230605033000 +0000" stop="20230605050000 +0000">
+	<programme channel="Bemad.TV" start="20230605033000 +0000" stop="20230605042500 +0000">
 		<title>Cine</title>
 		<desc>Emisión de una película.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP710030"/>
 		<category>Cine</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20230605050000 +0000" stop="20230605053000 +0000">
-		<title>El zapping de Surferos</title>
-		<desc>El mejor resumen con lo más destacado de cada uno de los partidos de Segunda División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la competición de plata del fútbol español.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP657660"/>
+	<programme channel="Bemad.TV" start="20230605042500 +0000" stop="20230605054000 +0000">
+		<title>El zapping de Surferos: Episodio 80</title>
+		<desc>Físicamente es imposible llegar a captar el contenido más interesante que se emite en los diferentes canales de televisión. Por ello, este espacio rastrea el oleaje del universo catódico y elige lo más destacado de una forma original y divertida.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP675333"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20230605053000 +0000" stop="20230605073000 +0000">
-		<title>Cine</title>
-		<desc>El mejor resumen con lo más destacado de cada uno de los partidos de Segunda División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la competición de plata del fútbol español.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP710030"/>
+	<programme channel="Bemad.TV" start="20230605054000 +0000" stop="20230605071500 +0000">
+		<title>Safari</title>
+		<desc>Le han contratado para organizar un safari, pero lo que le mueve a ello realmente es vengarse del jefe de una tribu y no la caza.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP441986"/>
 		<category>Cine</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20230605073000 +0000" stop="20230605080000 +0000">
-		<title>Mejor llama a Kiko</title>
-		<desc>El mejor resumen con lo más destacado de cada uno de los partidos de Segunda División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la competición de plata del fútbol español.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP1623348"/>
+	<programme channel="Bemad.TV" start="20230605071500 +0000" stop="20230605074500 +0000">
+		<title>Mejor llama a Kiko: Episodio 70</title>
+		<desc>Espacio de televenta presentado por Kiko Hernández.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP2134410"/>
 		<category>Ocio y Aficiones</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20230605080000 +0000" stop="20230605113000 +0000">
-		<title>Cine</title>
-		<desc>El mejor resumen con lo más destacado de cada uno de los partidos de Segunda División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la competición de plata del fútbol español.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP710030"/>
+	<programme channel="Bemad.TV" start="20230605074500 +0000" stop="20230605093500 +0000">
+		<title>Kárate a muerte en Bangkok</title>
+		<desc>Cheng Chao-An (Bruce Lee) es un joven chino experto en artes marciales que llega a Tailandia para vivir con sus primos. Allí encuentra trabajo en una factoría de hielo que en realidad sirve como tapadera para el tráfico de drogas. Cuando uno a uno sus primos van desapareciendo de forma misteriosa, Cheng decide tomar cartas en el asunto y hacer algunas averiguaciones que le llevan a descubrir que sus parientes han sido en realidad asesinados por los tailandeses. Tras perder a casi todos sus parientes, y sin importarle ya lo que pueda sucederle, decide ir en busca del Gran Jefe para acabar con él y todos aquellos que se interpongan en su camino. Con esta película que revolucionó el cine de Hong Kong, Bruce Lee batió todos los records de taquilla y se convirtió en la mayor estrella del Sudeste Asiático.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP395867"/>
 		<category>Cine</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20230605113000 +0000" stop="20230605133000 +0000">
-		<title>Cine</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP710030"/>
+	<programme channel="Bemad.TV" start="20230605093500 +0000" stop="20230605113500 +0000">
+		<title>Furia oriental</title>
+		<desc>Shanghái, años 30. La población vive constantes disputas entre los chinos nativos y los invasores japoneses. Chen es un joven experto en artes marciales que regresa a su antigua escuela cuando se entera de que han asesinado a su maestro. Entonces, empieza una investigación y llega a la conclusión de que la muerte está relacionada con una escuela rival de nacionalidad nipona.Segunda colaboración entre el director Lo Wei y el actor Bruce Lee tras el éxito "Karate a muerte en Bangkok". En esta ocasión, Lee recibió más libertad y llegó incluso a coreografiar él mismo las escenas de combate, siendo en ocasiones sustituido por el entonces desconocido Jackie Chan en tareas de especialista. El resultado es un verdadero festival de artes marciales.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP227606"/>
 		<category>Cine</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20230605133000 +0000" stop="20230605151500 +0000">
+	<programme channel="Bemad.TV" start="20230605113500 +0000" stop="20230605151500 +0000">
 		<title>Cine</title>
-		<desc>Sin descripción</desc>
+		<desc>Emisión de una película.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP710030"/>
 		<category>Cine</category>
 	</programme>

@@ -1767,40 +1767,40 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P1827382"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Cuatro.TV" start="20230703111500 +0000" stop="20230703132000 +0000">
-		<title>En boca de todos</title>
+	<programme channel="Cuatro.TV" start="20230703111500 +0000" stop="20230703131500 +0000">
+		<title>En boca de todos: Episodio 127</title>
 		<desc>Espacio televisivo diario de actualidad que acerca a los espectadores las principales noticias políticas y sociales más comentadas, contextualizándolas mediante un equipo de expertos y colaboradores, quienes aportan una visión concreta de los temas que se abordan.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P2159709"/>
-		<category>Informativo</category>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P3067710"/>
+		<category>Documentales</category>
 	</programme>
-	<programme channel="Cuatro.TV" start="20230703132000 +0000" stop="20230703134000 +0000">
+	<programme channel="Cuatro.TV" start="20230703131500 +0000" stop="20230703133000 +0000">
 		<title>Deportes Cuatro</title>
-		<desc>Espacio de televenta donde se muestran los productos cosméticos de Remescar, se comparten trucos de belleza y cómo aplicar esos productos con una experta.</desc>
+		<desc>Informativo deportivo de Cuatro que repasa las últimas noticias que hayan sucedido en el ámbito del deporte.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P2159758"/>
 		<category>Deportes</category>
 	</programme>
-	<programme channel="Cuatro.TV" start="20230703134000 +0000" stop="20230703150000 +0000">
-		<title>Todo es mentira</title>
-		<desc>Nacho Sierra se encarga de mostrar a la audiencia lo que da de sí el reino animal. En este espacio tienen cabida desde las mascotas más exóticas hasta los animales de campo, sin olvidar el trabajo de veterinarios, etólogos y otros profesionales afines al este ámbito.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P2118028"/>
+	<programme channel="Cuatro.TV" start="20230703133000 +0000" stop="20230703150000 +0000">
+		<title>Todo es mentira: Episodio 207</title>
+		<desc>Espacio que analiza las noticias falsas y los bulos que inundan las páginas de los diarios y las redes sociales. Risto Mejide y su equipo ponen humor a este ácido análisis de la actualidad.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P3067712"/>
 		<category>Entretenimiento</category>
 	</programme>
 	<programme channel="Cuatro.TV" start="20230703150000 +0000" stop="20230703160000 +0000">
-		<title>Todo es mentira bis</title>
+		<title>Todo es mentira bis: Episodio 205</title>
 		<desc>Espacio que analiza las noticias falsas y los bulos que inundan las páginas de los diarios y las redes sociales. Risto Mejide y su equipo ponen humor a este ácido análisis de la actualidad.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P2118029"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P3067714"/>
 		<category>Entretenimiento</category>
 	</programme>
 	<programme channel="Cuatro.TV" start="20230703160000 +0000" stop="20230703180000 +0000">
-		<title>Cuatro al día</title>
+		<title>Cuatro al día: Episodio 459</title>
 		<desc>Espacio conducido por Ana Terradillos en el que la información es la protagonista: la actualidad política y las noticias más relevantes que sucedan en distintos puntos de España, a través de un equipo reporteros que se desplazarán a los lugares de interés informativo.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P1937089"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P3067716"/>
 		<category>Informativo</category>
 	</programme>
 	<programme channel="Cuatro.TV" start="20230703180000 +0000" stop="20230703184500 +0000">
-		<title>Cuatro al día a las 20h</title>
+		<title>Cuatro al día a las 20h: Episodio 487</title>
 		<desc>Espacio en el que la información es la protagonista: la actualidad política y las noticias más relevantes que sucedan en distintos puntos de España, a través de un equipo reporteros que se desplazarán a los lugares donde surjan las informaciones más destacadas.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P1937090"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P3067718"/>
 		<category>Informativo</category>
 	</programme>
 	<programme channel="Cuatro.TV" start="20230703184500 +0000" stop="20230703190000 +0000">
@@ -1809,51 +1809,51 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P2159745"/>
 		<category>Deportes</category>
 	</programme>
-	<programme channel="Cuatro.TV" start="20230703190000 +0000" stop="20230703190500 +0000">
+	<programme channel="Cuatro.TV" start="20230703190000 +0000" stop="20230703191000 +0000">
 		<title>El tiempo</title>
 		<desc>Espacio informativo que ofrece la previsión meteorológica.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P1373654"/>
 		<category>Informativo</category>
 	</programme>
-	<programme channel="Cuatro.TV" start="20230703190500 +0000" stop="20230703194000 +0000">
-		<title>First dates</title>
-		<desc>Espacio de zapeo que ofrece las imágenes más impactantes de la pequeña pantalla.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P1832683"/>
+	<programme channel="Cuatro.TV" start="20230703191000 +0000" stop="20230703194000 +0000">
+		<title>First dates: Episodio 32</title>
+		<desc>Espacio que organiza citas a ciegas entre solteros en un restaurante único y especial. Carlos Sobera ejerce de singular maître de este local, e interviene en caso de que sus clientes necesiten una ayuda extra durante la cita para conseguir el éxito entre la pareja.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P2135047"/>
 		<category>Entretenimiento</category>
 	</programme>
 	<programme channel="Cuatro.TV" start="20230703194000 +0000" stop="20230703205000 +0000">
-		<title>First dates</title>
+		<title>First dates: Episodio 210</title>
 		<desc>Arranca la nueva temporada de ''First Dates'', en la que la ilusión de los solteros por encontrar pareja, la diversidad y la buena vibra son los principales ingredientes en el menú del amor.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P2025798"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P3067720"/>
 		<category>Entretenimiento</category>
 	</programme>
 	<programme channel="Cuatro.TV" start="20230703205000 +0000" stop="20230703224000 +0000">
-		<title>Focus</title>
+		<title>Focus: Verano calórico</title>
 		<desc>Espacio de reportajes de actualidad desde un enfoque diferenciado, original y alternativo.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P2185467"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P3067722"/>
 		<category>Documentales</category>
 	</programme>
-	<programme channel="Cuatro.TV" start="20230703224000 +0000" stop="20230704000000 +0000">
-		<title>Fuera de cobertura</title>
+	<programme channel="Cuatro.TV" start="20230703224000 +0000" stop="20230704010000 +0000">
+		<title>Focus: ¿Y tú, qué comes?</title>
 		<desc>Abordamos algunas de las prácticas más extremas para perder peso, como pincharse con aguijones de abeja para controlar el apetito o realizarse trasplantes de microbiota. El programa también analiza los mitos y verdades de los llamados ''superalimentos''.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P1664739"/>
-		<category>Informativo</category>
-	</programme>
-	<programme channel="Cuatro.TV" start="20230704000000 +0000" stop="20230704010000 +0000">
-		<title>El Desmarque de Cuatro</title>
-		<desc>Concurso presentado por Christian Gálvez en el que dos equipos, formados por dos famosos y un concursante anónimo, compiten por adivinar palabras a través de sinónimos o palabras relacionadas.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P1828693"/>
-		<category>Deportes</category>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P3053020"/>
+		<category>Documentales</category>
 	</programme>
 	<programme channel="Cuatro.TV" start="20230704010000 +0000" stop="20230704020000 +0000">
-		<title>En el punto de mira</title>
+		<title>En el punto de mira: Corinna: la amiga entrañable</title>
 		<desc>Reportaje que arroja luz sobre la vida y las finanzas de Corinna. La periodista Mireia Llinares sigue de cerca la pista de Corinna desde su infancia hasta la actualidad en España, Reino Unido, Francia y Alemania con la colaboración especial de varios corresponsales.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P1943043"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P1830845"/>
 		<category>Informativo</category>
 	</programme>
-	<programme channel="Cuatro.TV" start="20230704020000 +0000" stop="20230704050000 +0000">
-		<title>Puro Cuatro</title>
+	<programme channel="Cuatro.TV" start="20230704020000 +0000" stop="20230704030000 +0000">
+		<title>En el punto de mira: Maje, coleccionista de amantes</title>
 		<desc>El equipo del programa logra en exclusiva las primeras declaraciones de la familia de Maje, la conocida como 'viuda negra de Patraix', tras el veredicto del jurado que la ha declarado culpable del crimen de su marido.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P1832765"/>
+		<category>Informativo</category>
+	</programme>
+	<programme channel="Cuatro.TV" start="20230704030000 +0000" stop="20230704050000 +0000">
+		<title>Puro Cuatro</title>
+		<desc>La música que suena en los programas y autopromociones de la cadena es la protagonista de este programa de Cuatro. El espacio es un escaparate de las últimas tendencias del pop, rock, 'hip hop' y electrónica, así como una lanzadera para dar a conocer a nuevos artistas.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P2091428"/>
 		<category>Música</category>
 	</programme>
@@ -2127,17 +2127,23 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P1303097"/>
 		<category>Música</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20230703035500 +0000" stop="20230703050000 +0000">
+	<programme channel="Telecinco.TV" start="20230703035500 +0000" stop="20230703041000 +0000">
 		<title>Enphorma: Episodio 8</title>
 		<desc>Programa especializado en temas actuales de alimentación, psicología y ejercicio.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3067117"/>
 		<category>Ocio y Aficiones</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20230703035500 +0000" stop="20230703050000 +0000">
+	<programme channel="Telecinco.TV" start="20230703035500 +0000" stop="20230703041000 +0000">
 		<title>Enphorma: Episodio 8</title>
 		<desc>Programa especializado en temas actuales de alimentación, psicología y ejercicio.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3067117"/>
 		<category>Ocio y Aficiones</category>
+	</programme>
+	<programme channel="Telecinco.TV" start="20230703041000 +0000" stop="20230703050000 +0000">
+		<title>25 palabras: Episodio 135</title>
+		<desc>Concurso presentado por Christian Gálvez en el que dos equipos, formados por dos famosos y un concursante anónimo, compiten por adivinar palabras a través de sinónimos o palabras relacionadas.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3058312"/>
+		<category>Entretenimiento</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20230703050000 +0000" stop="20230703065500 +0000">
 		<title>Informativos Telecinco matinal</title>
@@ -2146,57 +2152,63 @@
 		<category>Informativo</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20230703065500 +0000" stop="20230703070000 +0000">
-		<title>Previo: El programa de Ana Rosa</title>
+		<title>Previo: El programa de Ana Rosa: Episodio 204</title>
 		<desc>Magacín matinal que combina información y ocio, presentado por Ana Rosa Quintana.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2122581"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3067708"/>
 		<category>Entretenimiento</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20230703070000 +0000" stop="20230703113000 +0000">
-		<title>El programa de Ana Rosa</title>
+		<title>El programa de Ana Rosa: Episodio 204</title>
 		<desc>Magacín matutino que contiene diferentes secciones donde contertulianos hablan sobre temas de sociedad, corazón, política y actualidad.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2122582"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3067709"/>
 		<category>Entretenimiento</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20230703113000 +0000" stop="20230703130000 +0000">
-		<title>Ya es mediodía</title>
+		<title>Ya es mediodía: Episodio 203</title>
 		<desc>Joaquín Prat presenta este programa informativo que ofrece un análisis pormenorizado de los temas más relevantes de la actualidad política, económica, social y cultural.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2103258"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3067732"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20230703130000 +0000" stop="20230703134000 +0000">
+	<programme channel="Telecinco.TV" start="20230703130000 +0000" stop="20230703133000 +0000">
 		<title>Informativos Telecinco</title>
 		<desc>Edición de mediodía de Informativos Telecinco que ofrece los acontecimientos más relevantes acaecidos durante la mañana. Las principales noticias de ámbito nacional e internacional son recogidas por Isabel Jiménez y David Cantero.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2160617"/>
 		<category>Informativo</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20230703134000 +0000" stop="20230703135000 +0000">
+	<programme channel="Telecinco.TV" start="20230703133000 +0000" stop="20230703134000 +0000">
 		<title>Deportes</title>
-		<desc>Espacio informativo que ofrece la previsión meteorológica.</desc>
+		<desc>El mundo del deporte es el protagonista de este informativo de mediodía, en el que el periodista J.J. Santos presenta la actualidad y las últimas noticias de la jornada.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2161989"/>
 		<category>Deportes</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20230703135000 +0000" stop="20230703144500 +0000">
+	<programme channel="Telecinco.TV" start="20230703134000 +0000" stop="20230703134500 +0000">
 		<title>El tiempo</title>
-		<desc>Sin descripción</desc>
+		<desc>Espacio informativo que ofrece la previsión meteorológica.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P1373654"/>
 		<category>Informativo</category>
 	</programme>
+	<programme channel="Telecinco.TV" start="20230703134500 +0000" stop="20230703144500 +0000">
+		<title>Mía es la venganza (T1): Episodio 16</title>
+		<desc>Sonia y Mario tienen algo en común: ambos sufren las consecuencias de un trágico accidente ocurrido hace veinte años. Ella vive presa del remordimiento, mientras que él está lleno de odio y quiere que Sonia pague por todo lo sucedido.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3067734"/>
+		<category>Series</category>
+	</programme>
 	<programme channel="Telecinco.TV" start="20230703144500 +0000" stop="20230703170000 +0000">
-		<title>Así es la vida</title>
+		<title>Así es la vida: Episodio 6</title>
 		<desc>Magacín presentado por Sandra Barneda y César Muñoz. La última hora de las noticias de interés social a través de directos y reportajes, las novedades en el mundo de los famosos y de los grandes eventos del verano.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3060978"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3067724"/>
 		<category>Entretenimiento</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20230703170000 +0000" stop="20230703180000 +0000">
-		<title>25 palabras</title>
+		<title>25 palabras: Episodio 140</title>
 		<desc>Concurso presentado por Christian Gálvez en el que dos equipos, formados por dos famosos y un concursante anónimo, compiten por adivinar palabras a través de sinónimos o palabras relacionadas.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2155630"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3063527"/>
 		<category>Entretenimiento</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20230703180000 +0000" stop="20230703190000 +0000">
-		<title>Reacción en cadena</title>
+		<title>Reacción en cadena: Episodio 140</title>
 		<desc>Concurso presentado por Ion Aramendi en el que dos equipos rivales compiten en pruebas sucesivas para resolver cadenas de palabras mientras van acumulando dinero.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2155633"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3067730"/>
 		<category>Entretenimiento</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20230703190000 +0000" stop="20230703194000 +0000">
@@ -2217,28 +2229,22 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2160620"/>
 		<category>Deportes</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20230703200000 +0000" stop="20230703221000 +0000">
-		<title>Mi casa es la tuya</title>
+	<programme channel="Telecinco.TV" start="20230703200000 +0000" stop="20230704001000 +0000">
+		<title>Titanic</title>
 		<desc>Rose Dewitt, una adinerada joven, se embarca en el viaje inaugural del trasatlántico Titanic con rumbo a Philadelphia, donde está prevista su boda. Agobiada por una vida que no desea, se dirige una noche a la cubierta para suicidarse, pero un joven artista que viaja en tercera clase la salva.Una de las apuestas presupuestarias más alocadas de la historia del cine, "Titanic" fue la primera película con más de 200 millones de dólares de presupuesto, y todo auguraba que su trayectoria comercial acabaría más o menos como el viaje que narraba. Pero, contra todo pronóstico, el perfeccionista James Cameron consiguió realizar la película más taquillera de la historia hasta ese momento y ganar, de paso, once Oscar.Este drama romántico, convertido en todo un clásico moderno, está protagonizado por Leonardo DiCaprio y Kate Winslet, quienes dan vida a Jack Dawson -un joven sin oficio que gana los billetes del barco en una partida de póker- y a Rose Dewitt Bukater, prometida a un hombre aristocrático que le devolverá la posición que un día tuvo. Juntos vivirán un apasionado e inconveniente romance a espaldas de los demás pasajeros del transatlántico Titanic.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3034541"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P128914"/>
+		<category>Cine</category>
+	</programme>
+	<programme channel="Telecinco.TV" start="20230704001000 +0000" stop="20230704003500 +0000">
+		<title>Casino Gran Madrid Online Show: Episodio 184</title>
+		<desc>Programa nocturno para que los espectadores puedan conectarse al Casino Gran Madrid desde casa.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3067726"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20230703221000 +0000" stop="20230704000000 +0000">
-		<title>Mi casa es la tuya</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P1442289"/>
-		<category>Entretenimiento</category>
-	</programme>
-	<programme channel="Telecinco.TV" start="20230704000000 +0000" stop="20230704002500 +0000">
-		<title>Casino Gran Madrid Online Show</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2160166"/>
-		<category>Entretenimiento</category>
-	</programme>
-	<programme channel="Telecinco.TV" start="20230704002500 +0000" stop="20230704005500 +0000">
-		<title>Supervivientes: Resumen diario</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2185579"/>
+	<programme channel="Telecinco.TV" start="20230704003500 +0000" stop="20230704005500 +0000">
+		<title>¡Toma Salami!: Episodio 19</title>
+		<desc>Espacio vespertino que ofrece en tira diaria los momentos más destacados de los 30 años de historia de Mediaset España. Se recuperan momentos míticos y estará narrado por Javier Capitán.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P1679292"/>
 		<category>Entretenimiento</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20230704005500 +0000" stop="20230704010000 +0000">
@@ -2248,15 +2254,15 @@
 		<category>Ocio y Aficiones</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20230704010000 +0000" stop="20230704013000 +0000">
-		<title>Mejor llama a Kiko</title>
+		<title>Mejor llama a Kiko: Episodio 66</title>
 		<desc>Espacio de televenta presentado por Kiko Hernández.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P1623348"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3031150"/>
 		<category>Ocio y Aficiones</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20230704013000 +0000" stop="20230704020000 +0000">
-		<title>Mejor llama a Kiko</title>
+		<title>Mejor llama a Kiko: Episodio 80</title>
 		<desc>Espacio de televenta presentado por Kiko Hernández.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P1623348"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3059154"/>
 		<category>Ocio y Aficiones</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20230704020000 +0000" stop="20230704035500 +0000">
@@ -2266,9 +2272,9 @@
 		<category>Música</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20230704035500 +0000" stop="20230704041000 +0000">
-		<title>Enphorma</title>
+		<title>Enphorma: Episodio 7</title>
 		<desc>Programa especializado en temas actuales de alimentación, psicología y ejercicio.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3033572"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3056529"/>
 		<category>Ocio y Aficiones</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20230704035500 +0000" stop="20230704041000 +0000">
@@ -10599,69 +10605,69 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1303097"/>
 		<category>Música</category>
 	</programme>
-	<programme channel="Energy.TV" start="20230703043000 +0000" stop="20230703052500 +0000">
-		<title>El zapping de Surferos</title>
+	<programme channel="Energy.TV" start="20230703043000 +0000" stop="20230703050000 +0000">
+		<title>El zapping de Surferos: Episodio 78</title>
 		<desc>Físicamente es imposible llegar a captar el contenido más interesante que se emite en los diferentes canales de televisión. Por ello, este espacio rastrea el oleaje del universo catódico y elige lo más destacado de una forma original y divertida.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP657660"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP675331"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="Energy.TV" start="20230703052500 +0000" stop="20230703055500 +0000">
-		<title>Hawai 5.0</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1243842"/>
+	<programme channel="Energy.TV" start="20230703050000 +0000" stop="20230703054000 +0000">
+		<title>NCIS: Nueva Orleans (T2): Ep.14 El día del padre</title>
+		<desc>Pride y el alcalde Douglas son secuestrados en sus respectivos "Mardi Gras" y permanecen cautivos por un misterioso asaltante.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1281590"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20230703055500 +0000" stop="20230703064000 +0000">
-		<title>Hawai 5.0</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1243842"/>
+	<programme channel="Energy.TV" start="20230703054000 +0000" stop="20230703062000 +0000">
+		<title>NCIS: Nueva Orleans (T2): Ep.15 Tierra de nadie</title>
+		<desc>El equipo busca a un soldado que supuestamente es un prisionero de guerra en Afganistán cuando se encuentran sus huellas en la escena de un crimen.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1289653"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20230703064000 +0000" stop="20230703071500 +0000">
-		<title>Hawai 5.0</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1243842"/>
+	<programme channel="Energy.TV" start="20230703062000 +0000" stop="20230703070000 +0000">
+		<title>NCIS: Nueva Orleans (T2): Ep.16 Segundas oportunidades</title>
+		<desc>El quipo sigue la pista de la dinamita robada a la armada hasta un almacén de cocaína dirigido por un amigo de la infancia de Sonja.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1289654"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20230703071500 +0000" stop="20230703081000 +0000">
-		<title>NCIS: Los Ángeles</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1117850"/>
+	<programme channel="Energy.TV" start="20230703070000 +0000" stop="20230703074000 +0000">
+		<title>NCIS: Nueva Orleans (T2): Ep.17 Radio silencio</title>
+		<desc>El equipo de NCIS protege a un DJ local de un perpetrador que lo amenaza e investiga el asesinato de un capitán de la Marina que fue atacado mientras estaba en el aire en un programa de radio. Además, la hija de Pride, Laurel, regresa a casa para hablar de sus planes de futuro.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1289655"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20230703081000 +0000" stop="20230703090000 +0000">
-		<title>NCIS</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1176961"/>
+	<programme channel="Energy.TV" start="20230703074000 +0000" stop="20230703082000 +0000">
+		<title>NCIS: Nueva Orleans (T2): Ep.18 La sangre vende</title>
+		<desc>Brody cree que un marinero atropellado por un autobús de fiesta en el barrio francés está conectado a la muerte de su hermana cuando se descubren similitudes entre los dos.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1289656"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20230703090000 +0000" stop="20230703095000 +0000">
-		<title>NCIS: Nueva Orleans</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1197344"/>
+	<programme channel="Energy.TV" start="20230703082000 +0000" stop="20230703091000 +0000">
+		<title>NCIS: Nueva Orleans (T2): Ep.19 Medios para un fin</title>
+		<desc>Una furgoneta de vigilancia llena de fotos de Pride documentando cada uno de sus movimientos se descubre después de que su hija sufra un ataque en el campus.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1297709"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20230703095000 +0000" stop="20230703104500 +0000">
-		<title>NCIS: Nueva Orleans</title>
+	<programme channel="Energy.TV" start="20230703091000 +0000" stop="20230703095000 +0000">
+		<title>NCIS: Los Ángeles (T7): Ep.7 Una mente abierta</title>
+		<desc>Kensi y Deeks deciden hacerse pasar por miembros de una secta para rescatar a un ex empleado del Departamento de Defensa a quien le lavaron el cerebro para que revelar información clasificada. Mientras, el resto del equipo trabaja para evitar que la secta venda secretos del gobierno.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1244098"/>
+		<category>Series</category>
+	</programme>
+	<programme channel="Energy.TV" start="20230703095000 +0000" stop="20230703103500 +0000">
+		<title>NCIS: Los Ángeles (T7): Ep.8 El largo adiós</title>
 		<desc>El equipo busca a una chica perdida que temen que podría haber sido reclutada por una organización terrorista.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1197344"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1244099"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20230703104500 +0000" stop="20230703113000 +0000">
-		<title>NCIS: Nueva Orleans</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1197344"/>
+	<programme channel="Energy.TV" start="20230703103500 +0000" stop="20230703112000 +0000">
+		<title>NCIS: Los Ángeles (T7): Ep.9 Desertoras</title>
+		<desc>El equipo busca a una chica perdida que temen que podría haber sido reclutada por una organización terrorista.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1253087"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20230703113000 +0000" stop="20230703123000 +0000">
-		<title>NCIS: Nueva Orleans</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1197344"/>
-		<category>Series</category>
-	</programme>
-	<programme channel="Energy.TV" start="20230703123000 +0000" stop="20230703132500 +0000">
+	<programme channel="Energy.TV" start="20230703112000 +0000" stop="20230703132500 +0000">
 		<title>Mentes criminales</title>
-		<desc>Sin descripción</desc>
+		<desc>El agente más experimentado de la Unidad de Análisis de Conducta es David Rossi, uno de los miembros fundadores de la Unidad que vuelve de su retiro para ayudar al equipo a resolver nuevos casos.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP933392"/>
 		<category>Series</category>
 	</programme>
@@ -11115,51 +11121,57 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP1407963"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="FDF.TV" start="20230703053000 +0000" stop="20230703060000 +0000">
-		<title>Gym Tony XS</title>
+	<programme channel="FDF.TV" start="20230703053000 +0000" stop="20230703053500 +0000">
+		<title>¡Toma Salami!: Episodio 26</title>
 		<desc>Espacio vespertino que ofrece en tira diaria los momentos más destacados de los 30 años de historia de Mediaset España. Se recuperan momentos míticos y estará narrado por Javier Capitán.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP1311513"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP1685579"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="FDF.TV" start="20230703060000 +0000" stop="20230703063000 +0000">
-		<title>Mejor llama a Kiko</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP1623348"/>
+	<programme channel="FDF.TV" start="20230703053500 +0000" stop="20230703060500 +0000">
+		<title>Mejor llama a Kiko: Episodio 80</title>
+		<desc>Espacio de televenta presentado por Kiko Hernández.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP3059152"/>
 		<category>Ocio y Aficiones</category>
 	</programme>
-	<programme channel="FDF.TV" start="20230703063000 +0000" stop="20230703073000 +0000">
-		<title>Aída</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP600247"/>
+	<programme channel="FDF.TV" start="20230703060500 +0000" stop="20230703071500 +0000">
+		<title>Los Serrano (T1): Ep.1 Ya s'han casao</title>
+		<desc>Desde que se han casado Lucía y Diego, la actitud de Santiago ha sufrido un cambio drástico, ya no les visita tanto y tiene una actitud distante hacia ellos.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP339317"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="FDF.TV" start="20230703073000 +0000" stop="20230703083000 +0000">
-		<title>Aída</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP600247"/>
+	<programme channel="FDF.TV" start="20230703071500 +0000" stop="20230703081500 +0000">
+		<title>Aída (T1): Ep.11 Por la gloria de mi madre</title>
+		<desc>Aída se da cuenta de que está perdiendo la complicidad con su hija Lorena y que ésta prefiere hacer cualquier cosa antes que estar con ella. Convencida de que el problema es que Lorena cree que ella es una ''carca'', Aída inicia un plan de rejuvenecimiento, que va desde usar expresiones que ella cree juveniles, a vestirse con minifalda e ir a la discoteca.Por otro lado, Luisma, haciendo limpieza en el trastero, se encuentra con la vieja silla de ruedas de su abuelo. Lo que al principio solo parecía un simple instrumento para hacer carreras en el Bar Reynolds, pronto se revelará una eficaz herramienta de chantaje psicológico. Viéndole en silla de ruedas, la gente le trata mucho mejor, sobre todo Nieves, una antigua compañera del instituto que nunca se ha dignado a mirarle.Además, Chema ha hecho una gran reforma en su tienda convencido de que significará el paso de la pequeña a la mediana empresa. Pero cuando más convencido está de los buenos tiempos que se avecinan para él, recibe la noticia de que se ha abierto un supermercado cerca de su establecimiento. La competencia del supermercado hace que Fidel se preocupe por su futuro económico.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP464215"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="FDF.TV" start="20230703083000 +0000" stop="20230703094500 +0000">
-		<title>Aída</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP679017"/>
+	<programme channel="FDF.TV" start="20230703081500 +0000" stop="20230703090500 +0000">
+		<title>Aída (T2): Ep.16 Black is black</title>
+		<desc>Aída, asistenta de clase humilde, tiene una pésima suerte con los hombres y unas complicadas relaciones personales.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP466839"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="FDF.TV" start="20230703094500 +0000" stop="20230703105000 +0000">
-		<title>Aída</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP679017"/>
+	<programme channel="FDF.TV" start="20230703090500 +0000" stop="20230703095500 +0000">
+		<title>Aída (T8): Ep.137 Bailando con su enemigo</title>
+		<desc>Aída, asistenta de clase humilde, tiene una pésima suerte con los hombres y unas complicadas relaciones personales.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP911448"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="FDF.TV" start="20230703105000 +0000" stop="20230703115500 +0000">
-		<title>Aída</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP679017"/>
+	<programme channel="FDF.TV" start="20230703095500 +0000" stop="20230703105500 +0000">
+		<title>Aída (T8): Ep.138 A votar</title>
+		<desc>Aída, asistenta de clase humilde, tiene una pésima suerte con los hombres y unas complicadas relaciones personales.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP911449"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="FDF.TV" start="20230703115500 +0000" stop="20230703134000 +0000">
+	<programme channel="FDF.TV" start="20230703105500 +0000" stop="20230703125000 +0000">
 		<title>La que se avecina</title>
-		<desc>Sin descripción</desc>
+		<desc>Novena temporada de la serie que se centra en la vida de los peculiares y variopintos habitantes y empleados del complejo residencial Mirador de Montepinar.Nueva tanda de episodios de la exitosa secuela de ''Aquí no hay quien viva'', producida por José Luis Moreno. Entre las novedades de la temporada destaca la presencia de Luis Merlo, que interpreta a un famoso pianista deprimido que se muda al edificio tras divorciarse de su mujer. Otra cara conocida será la de Miren Ibarguren, que se incorpora de manera permanente interpretando el papel de una modista muy divertida y alocada, que resultará ser la nueva novia de Amador (Pablo Chiapella). Por contra, Luís Miguel Seguí (Leo Romaní) abandona la serie tras estar desde sus inicios. Además, una proposición a alcalde, un intento de suicidio, un nuevo presidente en la comunidad y un posible cambio de sexo son algunas de las otras novedades de la comedia.En su noveno año en antena, la serie no ha tocado demasiado la estructura que le ha dado tantos buenos resultados, basada en humor negro, situaciones surrealistas y variopintos personajes.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP1282207"/>
+		<category>Series</category>
+	</programme>
+	<programme channel="FDF.TV" start="20230703125000 +0000" stop="20230703134000 +0000">
+		<title>La que se avecina</title>
+		<desc>Novena temporada de la serie que se centra en la vida de los peculiares y variopintos habitantes y empleados del complejo residencial Mirador de Montepinar.Nueva tanda de episodios de la exitosa secuela de ''Aquí no hay quien viva'', producida por José Luis Moreno. Entre las novedades de la temporada destaca la presencia de Luis Merlo, que interpreta a un famoso pianista deprimido que se muda al edificio tras divorciarse de su mujer. Otra cara conocida será la de Miren Ibarguren, que se incorpora de manera permanente interpretando el papel de una modista muy divertida y alocada, que resultará ser la nueva novia de Amador (Pablo Chiapella). Por contra, Luís Miguel Seguí (Leo Romaní) abandona la serie tras estar desde sus inicios. Además, una proposición a alcalde, un intento de suicidio, un nuevo presidente en la comunidad y un posible cambio de sexo son algunas de las otras novedades de la comedia.En su noveno año en antena, la serie no ha tocado demasiado la estructura que le ha dado tantos buenos resultados, basada en humor negro, situaciones surrealistas y variopintos personajes.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP1282207"/>
 		<category>Series</category>
 	</programme>
@@ -12862,7 +12874,7 @@
 		<category>Deportes</category>
 	</programme>
 	<programme channel="TDP.TV" start="20230702090000 +0000" stop="20230702095500 +0000">
-		<title>Copa del mundo de waterpolo (M) (T2023): Semifinal</title>
+		<title>Copa del mundo de waterpolo (M) (T2023): España - Hungría</title>
 		<desc>La Copa del mundo sustituye a la antigua Liga Mundial. Doce selecciones pelean en la primera División por el título, entre ellas España, dividas en dos grupos de seis. Los tres primeros de cada grupo disputan la Superfinal. Los dos últimos, descienden.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTDEPP3066528"/>
 		<category>Deportes</category>
@@ -12892,7 +12904,7 @@
 		<category>Deportes</category>
 	</programme>
 	<programme channel="TDP.TV" start="20230702175500 +0000" stop="20230702200000 +0000">
-		<title>MundoBasket sub-19 (M) (T2023): Final</title>
+		<title>MundoBasket sub-19 (M) (T2023): España - Francia</title>
 		<desc>Debrecen alberga la disputa del MundoBasket sub-19 del 24 de junio al 2 de julio. Las jóvenes promesas de la canasta se desplazan a Hungría dispuestas a labrarse una carrera. Entre ellas, las de España, candidata al título junto a Estados Unidos o Serbia.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTDEPP3066716"/>
 		<category>Deportes</category>
@@ -12940,7 +12952,7 @@
 		<category>Deportes</category>
 	</programme>
 	<programme channel="TDP.TV" start="20230703015500 +0000" stop="20230703031500 +0000">
-		<title>Copa del mundo de waterpolo (M) (T2023): Final</title>
+		<title>Copa del mundo de waterpolo (M) (T2023): España - Italia</title>
 		<desc>La Copa del mundo sustituye a la antigua Liga Mundial. Doce selecciones pelean en la primera División por el título, entre ellas España, dividas en dos grupos de seis. Los tres primeros de cada grupo disputan la Superfinal. Los dos últimos, descienden.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTDEPP3066710"/>
 		<category>Deportes</category>
@@ -12976,7 +12988,7 @@
 		<category>Deportes</category>
 	</programme>
 	<programme channel="TDP.TV" start="20230703092000 +0000" stop="20230703104000 +0000">
-		<title>Copa del mundo de waterpolo (M) (T2023): Final</title>
+		<title>Copa del mundo de waterpolo (M) (T2023): España - Italia</title>
 		<desc>La Copa del mundo sustituye a la antigua Liga Mundial. Doce selecciones pelean en la primera División por el título, entre ellas España, dividas en dos grupos de seis. Los tres primeros de cada grupo disputan la Superfinal. Los dos últimos, descienden.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTDEPP3066710"/>
 		<category>Deportes</category>
@@ -13006,7 +13018,7 @@
 		<category>Deportes</category>
 	</programme>
 	<programme channel="TDP.TV" start="20230703161000 +0000" stop="20230703174500 +0000">
-		<title>MundoBasket sub-19 (M) (T2023): Final</title>
+		<title>MundoBasket sub-19 (M) (T2023): España - Francia</title>
 		<desc>Debrecen alberga la disputa del MundoBasket sub-19 del 24 de junio al 2 de julio. Las jóvenes promesas de la canasta se desplazan a Hungría dispuestas a labrarse una carrera. Entre ellas, las de España, candidata al título junto a Estados Unidos o Serbia.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTDEPP3066716"/>
 		<category>Deportes</category>
@@ -13072,7 +13084,7 @@
 		<category>Deportes</category>
 	</programme>
 	<programme channel="TDP.TV" start="20230704052500 +0000" stop="20230704064000 +0000">
-		<title>Copa del mundo de waterpolo (M) (T2023): Final</title>
+		<title>Copa del mundo de waterpolo (M) (T2023): España - Italia</title>
 		<desc>La Copa del mundo sustituye a la antigua Liga Mundial. Doce selecciones pelean en la primera División por el título, entre ellas España, dividas en dos grupos de seis. Los tres primeros de cada grupo disputan la Superfinal. Los dos últimos, descienden.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTDEPP3066710"/>
 		<category>Deportes</category>
@@ -14925,81 +14937,81 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1558956"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20230703033000 +0000" stop="20230703044000 +0000">
+	<programme channel="Divinity.TV" start="20230703033000 +0000" stop="20230703040000 +0000">
 		<title>Chicago Fire (T5): Ep.6 Aquel día</title>
 		<desc>Mientras respondía a una llamada, Dawson golpea accidentalmente a un peatón que se paró frente a la ambulancia, y ahora debe lidiar con las repercusiones.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1558957"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20230703033000 +0000" stop="20230703044000 +0000">
-		<title>Chicago Fire (T5): Ep.6 Aquel día</title>
-		<desc>Mientras respondía a una llamada, Dawson golpea accidentalmente a un peatón que se paró frente a la ambulancia, y ahora debe lidiar con las repercusiones.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1558957"/>
-		<category>Series</category>
+	<programme channel="Divinity.TV" start="20230703040000 +0000" stop="20230703043000 +0000">
+		<title>I Love TV: Lo mejor</title>
+		<desc>Espacio de zapeo que ofrece las imágenes más impactantes de la pequeña pantalla.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1386963"/>
+		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20230703044000 +0000" stop="20230703045500 +0000">
-		<title>Gen360</title>
-		<desc>Espacio de televenta presentado por Kiko Hernández.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1917262"/>
+	<programme channel="Divinity.TV" start="20230703043000 +0000" stop="20230703044500 +0000">
+		<title>Gen360: Episodio 6</title>
+		<desc>Programa que promociona cursos profesionales que te abrirán las puertas del mercado laboral, con formación para impulsar el crecimiento personal.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP2115511"/>
 		<category>Cultural/Educativo</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20230703045500 +0000" stop="20230703051000 +0000">
-		<title>Enphorma</title>
-		<desc>El circuito ATP hace parada en Santa Ponça para este torneo sobre hierba que se disputa la semana previa al inicio de Wimbledon. El campeonato, de categoría 250, es el único sobre esta superficie que se celebra en España. Tsitsipas espera repetir su triunfo de 2022.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP3033572"/>
+	<programme channel="Divinity.TV" start="20230703044500 +0000" stop="20230703051500 +0000">
+		<title>Enphorma: Episodio 8</title>
+		<desc>Programa especializado en temas actuales de alimentación, psicología y ejercicio.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP3067117"/>
 		<category>Ocio y Aficiones</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20230703051000 +0000" stop="20230703055000 +0000">
-		<title>Bones</title>
-		<desc>La Copa del mundo sustituye a la antigua Liga Mundial. Tras unas fases de grupo previas, los mejores equipos disputan la Superfinal, que esta temporada se celebra en Estados Unidos del 23 al 25 de junio. España busca el título.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1228292"/>
+	<programme channel="Divinity.TV" start="20230703051500 +0000" stop="20230703060000 +0000">
+		<title>Entre fantasmas (T2): Ep.4 El espíritu que llevas dentro</title>
+		<desc>Melinda Gordon, una chica recién casada, hereda de su abuela la capacidad de ver y de hablar con los espíritus de los difuntos. La mujer utiliza su extraño don para ayudar a los muertos a resolver temas no resueltos mientras aún vivían.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP604679"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20230703055000 +0000" stop="20230703063500 +0000">
-		<title>Bones</title>
-		<desc>España ya ha hecho los deberes y tiene plaza asegurada en cuartos de final de la Eurocopa sub-21. Santi Denia puede tirar de plantilla para el último encuentro de la fase de grupos. La Selección se mide a Ucrania en Bucarest.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1228292"/>
+	<programme channel="Divinity.TV" start="20230703060000 +0000" stop="20230703064000 +0000">
+		<title>Entre fantasmas (T2): Ep.5 Una cuestión de vida y muerte</title>
+		<desc>Melinda Gordon, una chica recién casada, hereda de su abuela la capacidad de ver y de hablar con los espíritus de los difuntos. La mujer utiliza su extraño don para ayudar a los muertos a resolver temas no resueltos mientras aún vivían.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP604680"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20230703063500 +0000" stop="20230703072000 +0000">
-		<title>Bones</title>
-		<desc>Los reportajes de TDP pretenden promocionar el deporte español. Una aproximación a los atletas y a las competiciones de menor seguimiento que sirven para poner en valor el esfuerzo y el sacrificio de los participantes.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1228292"/>
+	<programme channel="Divinity.TV" start="20230703064000 +0000" stop="20230703072000 +0000">
+		<title>Entre fantasmas (T2): Ep.6 La mujer de sus sueños</title>
+		<desc>Melinda Gordon, una chica recién casada, hereda de su abuela la capacidad de ver y de hablar con los espíritus de los difuntos. La mujer utiliza su extraño don para ayudar a los muertos a resolver temas no resueltos mientras aún vivían.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP604681"/>
 		<category>Series</category>
 	</programme>
 	<programme channel="Divinity.TV" start="20230703072000 +0000" stop="20230703081000 +0000">
-		<title>Bones</title>
+		<title>Entre fantasmas (T2): Ep.7 Círculo vicioso</title>
 		<desc>Melinda Gordon, una chica recién casada, hereda de su abuela la capacidad de ver y de hablar con los espíritus de los difuntos. La mujer utiliza su extraño don para ayudar a los muertos a resolver temas no resueltos mientras aún vivían.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1228292"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP604682"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20230703081000 +0000" stop="20230703090000 +0000">
-		<title>Bones</title>
+	<programme channel="Divinity.TV" start="20230703081000 +0000" stop="20230703085500 +0000">
+		<title>Castle (T6): Ep.9 La discípula</title>
 		<desc>Castle y Beckett acuden al escenario de un crimen, donde descubren que la víctima, una mujer, guarda un asombroso parecido con la médico forense Lanie Parish. Mientras tratan de esclarecer el extraño homicidio, los investigadores descubren que los detectives del distrito 12 podrían ser las siguientes víctimas del asesino.Además, la doctora Kelly Nieman, una prestigiosa cirujana plástica de Manhattan, será investigada por Richard y Kate debido a su vinculación con la víctima.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1228292"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1121411"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20230703090000 +0000" stop="20230703095000 +0000">
-		<title>Bones</title>
-		<desc>Un programa cuyo objetivo es concienciar a los ciudadanos sobre la importancia de adquirir hábitos saludables a través de la actividad física y una alimentación adecuada.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1228292"/>
+	<programme channel="Divinity.TV" start="20230703085500 +0000" stop="20230703094000 +0000">
+		<title>Castle (T6): Ep.10 El bueno, el malo y el bebé</title>
+		<desc>Un hombre ensangrentado irrumpe inesperadamente en una iglesia y fallece poco después tras entregar un misterioso bulto al párroco. En el paquete aparece un sonriente bebé, por lo que Castle y Beckett se ven obligados a hacerse cargo del recién nacido temporalmente.Sin embargo, cuando constatan que el pequeño no guarda relación con la víctima, se dan cuenta de que localizar a los padres del bebé es más difícil que esclarecer el asesinato.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1121412"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20230703095000 +0000" stop="20230703104500 +0000">
-		<title>Bones</title>
-		<desc>Espacio vespertino que ofrece en tira diaria los momentos más destacados de los 30 años de historia de Mediaset España. Se recuperan momentos míticos y estará narrado por Javier Capitán.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1361483"/>
+	<programme channel="Divinity.TV" start="20230703094000 +0000" stop="20230703102500 +0000">
+		<title>Castle (T6): Ep.11 Bajo el fuego</title>
+		<desc>Castle y Becket buscan a un pirómano que se ha convertido en asesino después de descubrir que el cadáver encontrado en un edificio incendiado había sido disparado previamente. Además, Jenny se pone de parto y Ryan está a punto de arruinar el esperado momento.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1126089"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20230703104500 +0000" stop="20230703114000 +0000">
-		<title>Bones</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1361483"/>
+	<programme channel="Divinity.TV" start="20230703102500 +0000" stop="20230703111500 +0000">
+		<title>Castle (T6): Ep.12 Misión secreta</title>
+		<desc>La investigación del asesinato del joven empleado en una tienda de vídeo da un giro inesperado cuando Castle y Beckett descubren que en el pasado la víctima fue un hacker de alto nivel. Sin embargo, esto no es nada comparado con la estupefacción de Richard cuando sus pesquisas le llevan a investigar a su propio padre, Jackson Hunt.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1126090"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20230703114000 +0000" stop="20230703123500 +0000">
+	<programme channel="Divinity.TV" start="20230703111500 +0000" stop="20230703123500 +0000">
 		<title>Bones</title>
-		<desc>Sin descripción</desc>
+		<desc>Esta última temporada de 12 episodios llevará las historias de Brennan, Booth y el equipo de Jeffersonian-FBI a un cierre, permitiendo a los leales seguidores de la serie decir adiós a estos personajes inolvidables.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1361483"/>
 		<category>Series</category>
 	</programme>
@@ -15315,13 +15327,7 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1433546"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Nova.TV" start="20230702034400 +0000" stop="20230702040600 +0000">
-		<title>Crímenes imperfectos</title>
-		<desc>No hay crímenes perfectos, sino delitos mal investigados. Esta es la máxima que vertebra esta serie documental. En cada entrega, se plantea un homicidio que, aparentemente, se ha llevado a cabo de forma impecable. Sin embargo, siempre quedan cabos sueltos.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MNOVAP761339"/>
-		<category>Documentales</category>
-	</programme>
-	<programme channel="Nova.TV" start="20230702040600 +0000" stop="20230702042200 +0000">
+	<programme channel="Nova.TV" start="20230702040000 +0000" stop="20230702042200 +0000">
 		<title>Crímenes imperfectos: Episodio 96</title>
 		<desc>No hay crímenes perfectos, sino delitos mal investigados. Esta es la máxima que vertebra esta serie documental. En cada entrega, se plantea un homicidio que, aparentemente, se ha llevado a cabo de forma impecable. Sin embargo, siempre quedan cabos sueltos.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MNOVAP922546"/>
@@ -16401,45 +16407,51 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP16570"/>
 		<category>Cine</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20230703023000 +0000" stop="20230703041900 +0000">
+	<programme channel="Bemad.TV" start="20230703023000 +0000" stop="20230703044000 +0000">
 		<title>Batman</title>
 		<desc>Tras presenciar de niño la muerte de sus padres, el millonario Bruce Wayne decide dedicar su vida a combatir el crimen de Gotham, una ciudad oscura y peligrosa en la que abunda el mal y la corrupción, protegida únicamente por su degenerado cuerpo de policía. Vestido como un murciélago y provisto de toda clase de artilugios, Wayne se convierte en Batman y vela por la seguridad y tranquilidad de los ciudadanos. Sin embargo, esta situación cambia con la aparición de un siniestro personaje, el Joker, un antiguo bandido con el rostro desfigurado y una eterna sonrisa en su cara, que pretende someter a toda la ciudad a los deseos de su mente perturbada. Mientras tanto, una reputada periodista intenta descubrir el secreto que se oculta tras la capa del hombre murciélago.Tim Burton adaptó para la gran pantalla, entre "Bitelchus" (1988) y "Eduardo Manostijeras" (1990), el cómic "Batman" creado en 1939 por Bob Kane. Después, en 1992, realizaría "Batman vuelve", para la que volvería a contar con  Michael Keaton. Años más tarde, el cineasta Joel Schumacher fue el encargado de dirigir "Batman Forever" (1995) y "Batman y Robin" (1997).El papel de héroe está interpretado por Michael Keaton mientras que el de villano recae en el histriónico Jack Nicholson. El papel de periodista lo interpreta Kim Basinger.Oscar 1990 a la mejor dirección artística.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP18256"/>
 		<category>Cine</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20230703023000 +0000" stop="20230703041900 +0000">
+	<programme channel="Bemad.TV" start="20230703023000 +0000" stop="20230703044000 +0000">
 		<title>Batman</title>
 		<desc>Tras presenciar de niño la muerte de sus padres, el millonario Bruce Wayne decide dedicar su vida a combatir el crimen de Gotham, una ciudad oscura y peligrosa en la que abunda el mal y la corrupción, protegida únicamente por su degenerado cuerpo de policía. Vestido como un murciélago y provisto de toda clase de artilugios, Wayne se convierte en Batman y vela por la seguridad y tranquilidad de los ciudadanos. Sin embargo, esta situación cambia con la aparición de un siniestro personaje, el Joker, un antiguo bandido con el rostro desfigurado y una eterna sonrisa en su cara, que pretende someter a toda la ciudad a los deseos de su mente perturbada. Mientras tanto, una reputada periodista intenta descubrir el secreto que se oculta tras la capa del hombre murciélago.Tim Burton adaptó para la gran pantalla, entre "Bitelchus" (1988) y "Eduardo Manostijeras" (1990), el cómic "Batman" creado en 1939 por Bob Kane. Después, en 1992, realizaría "Batman vuelve", para la que volvería a contar con  Michael Keaton. Años más tarde, el cineasta Joel Schumacher fue el encargado de dirigir "Batman Forever" (1995) y "Batman y Robin" (1997).El papel de héroe está interpretado por Michael Keaton mientras que el de villano recae en el histriónico Jack Nicholson. El papel de periodista lo interpreta Kim Basinger.Oscar 1990 a la mejor dirección artística.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP18256"/>
 		<category>Cine</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20230703041900 +0000" stop="20230703070800 +0000">
-		<title>El zapping de Surferos</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP657660"/>
+	<programme channel="Bemad.TV" start="20230703044000 +0000" stop="20230703044500 +0000">
+		<title>El zapping de Surferos: Episodio 89</title>
+		<desc>Físicamente es imposible llegar a captar el contenido más interesante que se emite en los diferentes canales de televisión. Por ello, este espacio rastrea el oleaje del universo catódico y elige lo más destacado de una forma original y divertida.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP675342"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20230703070800 +0000" stop="20230703074200 +0000">
-		<title>Mejor llama a Kiko</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP1623348"/>
+	<programme channel="Bemad.TV" start="20230703044500 +0000" stop="20230703064000 +0000">
+		<title>Batman vuelve</title>
+		<desc>El oscuro y solitario millonario Bruce Wayne sigue desarrollando su otra personalidad, la de Batman, el hombre murciélago, un superhéroe que colabora con la policía para acabar con el crimen en Gotham City. Allí, "El pingüino", una criatura solitaria y extrañamente deformada, con una mente brillante alimentada por la rabia y por una insaciable sed de venganza, establece una improbable alianza con el amoral magnate de los negocios Shreck, que siembra el terror en Gotham y hace doblegarse a sus autoridades y habitantes. Flanqueado por un ejército de pingüinos leales dispuestos a cumplir sus más diabólicas órdenes y por un grupo de salvajes traidores conocidos como "La banda del círculo del triángulo rojo", "El pingüino" lleva consigo el secreto de sus orígenes mientras se embarca en su diabólico plan de destruir Gotham City y a su salvador, Batman. Sin embargo, Batman tiene que enfrentarse a un reto aún mayor, encarnado por la hermosa y seductora, aunque letalmente peligrosa, Catwoman. Esta mujer, cuya propia existencia, al igual que la de Batman, surgió de la tragedia, es una gran luchadora que se enfrenta al hombre murciélago con una energía feroz, un ingenio mordaz y un secreto que Batman deberá descubrir antes de caer para siempre bajo el hechizo de Catwoman.Primera secuela de "Batman", dirigida también por Tim Burton en donde el director despliega una vez más su portentosa imaginación llevando su fascinante universo creativo a Gotham City. La película, a la vez que ahonda en los problemas psicológicos de la personalidad dual del protagonista, presenta un universo de nuevos y complejos personajes: "El pingüino", Catwoman, Max Shreck y "La pandilla del círculo del triángulo rojo".</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP124169"/>
+		<category>Cine</category>
+	</programme>
+	<programme channel="Bemad.TV" start="20230703064000 +0000" stop="20230703071000 +0000">
+		<title>Mejor llama a Kiko: Episodio 66</title>
+		<desc>Espacio de televenta presentado por Kiko Hernández.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP3031150"/>
 		<category>Ocio y Aficiones</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20230703074200 +0000" stop="20230703100900 +0000">
-		<title>Cine</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP1673189"/>
+	<programme channel="Bemad.TV" start="20230703071000 +0000" stop="20230703091000 +0000">
+		<title>Batman Forever</title>
+		<desc>La ciudad de Gotham está amenazada por un hombre, un antiguo fiscal del Estado, apodado "Dos caras", cuyo rostro está desfigurado a causa de las quemaduras que le produjo el ácido que le arrojaron durante un juicio. Intentará vengarse de la Humanidad y de Batman, a quien culpa de lo sucedido. Por otra parte, un psicópata llamado "El enigma" quiere dominar el mundo con su invento, un estrafalario aparato que permite absorber las ondas cerebrales de los seres humanos. Ambos, "Dos caras" y "Enigma", unen sus fuerzas para lograr sus propósitos.Cuando "Dos caras" comete un atentado durante una función circense de gala, da muerte a los Grayson Voladores, una famosa familia de trapecistas que tiene un hijo adolescente llamado Dick, el único superviviente. Este será adoptado por Batman, quien ve repetirse en él su propia tragedia y el trauma que le convirtió en Batman.Las dudas para Bruce sobre seguir siendo un justiciero anónimo surgen cuando Dick (enterado ya de su doble identidad) le pide que le deje ser su compañero, y se acentúan cuando la bella psiquiatra Chase Meridian se interesa en analizar la personalidad atormentada de Batman. En medio de todo esto, Dick estrena un traje-armadura similar al de Batman y, bajo el nombre de Robin, le hace ver que puede volver a ser el Caballero de la Noche, no por necesidad sino por decisión propia. Y lo más importante: en su nueva cruzada contra el mal, Batman ya no estará solo.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP14624"/>
 		<category>Cine</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20230703100900 +0000" stop="20230703120400 +0000">
-		<title>Cine</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP1673189"/>
+	<programme channel="Bemad.TV" start="20230703091000 +0000" stop="20230703111000 +0000">
+		<title>Batman y Robin</title>
+		<desc>Nuevas amenazas se ciernen sobre la ciudad de Gotham. Los experimentos que el Dr. Victor Fries ha llevado a cabo con una sustancia destinada a la criogenización han dado terribles resultados que le han convertido en el diabólico Mr. Frío. Ahora, mientras encuentra una cura para la misteriosa enfermedad que ha atacado a su esposa, Mr. Frío se ve obligado a mantener su propio cuerpo a temperaturas bajo cero. Su vida depende de ello y su objetivo es procurar un gélido y permanente invierno para la ciudad de Gotham. Además, la tímida botánica Pamela Isley se transforma en el transcurso de un experimento en la terrible Hiedra Venenosa y sus pretensiones incluyen asesinar a todos los seres humanos para que las plantas recuperen su hegemonía en la Tierra.Pese a los peligros Barbara, sobrina de Alfred, el leal mayordomo de Batman y Robin, viaja hasta Gotham para hacerle una visita. Alfred se encuentra aquejado de la misma extraña enfermedad que afecta a la esposa del Dr. Frío. Una vez más, los ciudadanos recurren a Batman para que salve a la ciudad de los siniestros  planes que el Dr. Frío y Hiedra Venenosa han orquestado. Barbara, que descubre a qué dedican el tiempo libre Bruce y Dick, decide pasar a la acción y unirse a la lucha criminal. El misterioso justiciero cuenta ahora con su temerario compañero Robin, pero también con la implacable Batgirl.Joel Schumacher ("Jóvenes ocultos", "El cliente", "Asesinato en 8 mm",  "Nueve días", "El fantasma de la ópera") dirige una película, la cuarta de la serie, sobre Batman ("Batman" y "Batman vuelve", dirigidas por Tim Burton, y "Batman forever", de Joel Schumacher). Schumacher, en "Batman y Robin", contó con George Clooney, en pleno éxito por la serie de TV "Urgencias" y "Abierto hasta el amanecer", en vez de Val Kilmer para el papel de Batman. Además introdujo dos nuevos personajes: Robin (Chris O'Donnell), y una Batgirl (Alicia Silverstone).  Frente a ellos cabe destacar a los malvados Mr. Freeze (Arnold Schwarzenegger) y Poison Ivy (Uma Thurman). Schumacher consigue mantener en "Batman y Robin" el colorido y el tono "pop" de la anterior "Batman forever". Debido a que tuvo poco éxito de taquilla (comparada con sus antecesoras), se paralizaron las nuevas secuelas, hasta que en 2005 se realizó una nueva película en la que se explicaban los orígenes de Batman ("Batman begins", dirigida por Christoher Nolan).</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP29828"/>
 		<category>Cine</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20230703120400 +0000" stop="20230703133000 +0000">
+	<programme channel="Bemad.TV" start="20230703111000 +0000" stop="20230703133000 +0000">
 		<title>Cine</title>
-		<desc>Sin descripción</desc>
+		<desc>Emisión de una película.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP1673189"/>
 		<category>Cine</category>
 	</programme>

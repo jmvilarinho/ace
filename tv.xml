@@ -10593,81 +10593,75 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP926918"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20230710034500 +0000" stop="20230710043000 +0000">
+	<programme channel="Energy.TV" start="20230710034500 +0000" stop="20230710040000 +0000">
 		<title>Miramimúsica</title>
 		<desc>Programa musical que se emite de madrugada.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1303097"/>
 		<category>Música</category>
 	</programme>
-	<programme channel="Energy.TV" start="20230710034500 +0000" stop="20230710043000 +0000">
-		<title>Miramimúsica</title>
-		<desc>Programa musical que se emite de madrugada.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1303097"/>
-		<category>Música</category>
-	</programme>
-	<programme channel="Energy.TV" start="20230710043000 +0000" stop="20230710052500 +0000">
-		<title>El zapping de Surferos</title>
-		<desc>Cortometraje ganador del Leopardo de Oro del Festival de Cine de Locarno 2022.En Uberlândia (Brasil), Chico se gana la vida arreglando hornos ya que, como es pequeñito, se puede introducir en ellos. Ante el desprecio de un sistema que lo relega a las filas de los marginados, Chico entra poco a poco en la resistencia.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP657660"/>
-		<category>Entretenimiento</category>
-	</programme>
-	<programme channel="Energy.TV" start="20230710052500 +0000" stop="20230710055500 +0000">
-		<title>Hawai 5.0</title>
-		<desc>Ganador del Premio BAFTA en la categoría de Mejor Cortometraje Británico de animación.Son las 2 de la madrugada en una triste estación de autobuses cualquiera. Una colección de viajeros solitarios y cansados esperan el último autobús. De pronto, en ese lugar frío y deprimente, las palomas consiguen crear una conexión mágica entre ellos durante un hermoso instante.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1243842"/>
+	<programme channel="Energy.TV" start="20230710040000 +0000" stop="20230710051500 +0000">
+		<title>Desaparecidos (T1): Ep.1 Seguimos buscando</title>
+		<desc>Sonia Ledesma es una inspectora que se incorpora al Grupo 2 de Desaparecidos de la Brigada Central, cuya vida personal se ve afectada por la desaparición de alguien cercano. La joven encuentra en sus compañeros Rodrigo, Sebas y Azhar una nueva familia.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP2069820"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20230710055500 +0000" stop="20230710064000 +0000">
-		<title>Hawai 5.0</title>
-		<desc>Cortometraje ganador del Leopardo de Oro del Festival de Cine de Locarno 2022.En Uberlândia (Brasil), Chico se gana la vida arreglando hornos ya que, como es pequeñito, se puede introducir en ellos. Ante el desprecio de un sistema que lo relega a las filas de los marginados, Chico entra poco a poco en la resistencia.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1243842"/>
+	<programme channel="Energy.TV" start="20230710051500 +0000" stop="20230710061000 +0000">
+		<title>NCIS: Nueva Orleans (T3): Ep.14 La caja de Pandora, parte II</title>
+		<desc>Los Agentes de NCIS McGee y Torres viajan a Nueva Orleans para unirse a Pride y su equipo en la búsqueda de un libro de seguridad nacional sobre terrorismo que se ha perdido.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1385086"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20230710064000 +0000" stop="20230710071500 +0000">
-		<title>Hawai 5.0</title>
-		<desc>Ha comenzado una nueva era en el desarrollo de prótesis. Para los pacientes que han perdido extremidades a causa de accidentes, guerras o enfermedades, una prótesis es una herramienta que les ayuda a volver a la vida normal.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1243842"/>
+	<programme channel="Energy.TV" start="20230710061000 +0000" stop="20230710064500 +0000">
+		<title>NCIS: Nueva Orleans (T3): Ep.15 Fin de línea</title>
+		<desc>Un espantoso asesinato copiado en un tranvía reabre un antiguo caso para Wade, evocando dolorosos recuerdos de su pasado.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1385087"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20230710071500 +0000" stop="20230710081000 +0000">
-		<title>NCIS: Los Ángeles</title>
-		<desc>Los maniquíes de colisión tienen un solo objetivo: salvar miles de vidas al año. Las pruebas de choque se llevaron a cabo inicialmente en personas reales o animales. Hoy en día, los maniquíes pueden llegar a costar hasta un millón de dólares.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1117850"/>
+	<programme channel="Energy.TV" start="20230710064500 +0000" stop="20230710073000 +0000">
+		<title>NCIS: Nueva Orleans (T3): Ep.16 El último bastón</title>
+		<desc>Rita Devereaux, amiga de Pride, solicita a NCIS que investigue la desaparición de un abogado especializado en casos clasificados y voluntario en una academia militar privada.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1385088"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20230710081000 +0000" stop="20230710090000 +0000">
-		<title>NCIS</title>
+	<programme channel="Energy.TV" start="20230710073000 +0000" stop="20230710081000 +0000">
+		<title>NCIS: Nueva Orleans (T3): Ep.17 Rápido, silencioso, mortal</title>
+		<desc>Un experto en operaciones marítimas especialeslleva a Pride y al equipo de NCIS a realizar una búsqueda por toda la ciudad tras asaltar a seis hombres en un bar.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1396546"/>
+		<category>Series</category>
+	</programme>
+	<programme channel="Energy.TV" start="20230710081000 +0000" stop="20230710084500 +0000">
+		<title>NCIS: Nueva Orleans (T3): Ep.18 Matar al dragón</title>
 		<desc>Tammy se reencuentra con su ex marido, Ethan McKinley, que desapareció después de desfalcar 80 millones de dólares en fondos de ayuda por el huracán Katrina y al ser vinculado con el asesinato del hijo de un jefe del crimen organizado.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1176961"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1396547"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20230710090000 +0000" stop="20230710095000 +0000">
+	<programme channel="Energy.TV" start="20230710084500 +0000" stop="20230710094000 +0000">
+		<title>NCIS: Los Ángeles (T7): Ep.24 Talión</title>
+		<desc>La temporada termina con Sam recibiendo un código de auxilio de su hijo Aiden en el que dice que su escuela militar en San Francisco ha sido tomada por un grupo extremista liderado por Tahir, el archienemigo de Sam. Él, Callen, Kensi y Deeks se precipitan al norte con la esperanza de detener a Tahir y liberar a los rehenes.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1289658"/>
+		<category>Series</category>
+	</programme>
+	<programme channel="Energy.TV" start="20230710094000 +0000" stop="20230710102000 +0000">
+		<title>NCIS: Los Ángeles (T8): Ep.1 Un objetivo muy valioso</title>
+		<desc>Después de que el equipo de NCIS no consiga localizar a un infiltrado en el departamento, el subsecretario de Defensa, Corbin Duggan, insiste en la necesidad de un nuevo liderazgo y se hace cargo de la unidad de Los Ángeles de Hetty y Granger. Además el equipo se pondrá en marcha para llevar a cabo una importante misión.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1335385"/>
+		<category>Series</category>
+	</programme>
+	<programme channel="Energy.TV" start="20230710102000 +0000" stop="20230710110000 +0000">
+		<title>NCIS: Los Ángeles (T8): Ep.2 Las entrañas de la bestia</title>
+		<desc>El equipo viaja hasta Siria para detener a un objetivo muy importante, pero un miembro del equipo queda gravemente herido cuando la misión se tuerce.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1335386"/>
+		<category>Series</category>
+	</programme>
+	<programme channel="Energy.TV" start="20230710110000 +0000" stop="20230710115500 +0000">
 		<title>NCIS: Nueva Orleans</title>
-		<desc>Los frentes abiertos contra El Larguero, el Grupo Prisa o Florentino Pérez hacen que, tras más de 40 años de profesión que culminan con sus etapas en Cope y Onda Cero, José María García se vea obligado a dejar la radio, sintiéndose abandonado por su propio grupo mediático. Es entonces cuando llega un nuevo golpe, esta vez inesperado: el anuncio de un cáncer, según le dicen, con pocas posibilidades de recuperación. Su fe y, por primera vez, su familia, se convierten en sus puntos de apoyo.</desc>
+		<desc>"NCIS: Nueva Orleans" es un nuevo drama sobre un equipo de agentes que investiga los crímenes en Nueva Orleans, una ciudad conocida por su música y su entretenimiento. Este equipo está liderado por el agente Dwayne Pryde, nativo de Nueva Orleans y que siempre tiene la voluntad de hacer lo correcto. Completan el reparto de la serie, Lucas Black, Zoe McLellan, Rob Kerkovich y CCH Pounder.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1197344"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20230710095000 +0000" stop="20230710104500 +0000">
-		<title>NCIS: Nueva Orleans</title>
-		<desc>La historia del inodoro se remonta mucho tiempo atrás e incluso los antiguos romanos construyeron letrinas. Este episodio sigue el sistema de alcantarillado desde nuestros hogares hasta la planta de tratamiento.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1197344"/>
-		<category>Series</category>
-	</programme>
-	<programme channel="Energy.TV" start="20230710104500 +0000" stop="20230710113000 +0000">
-		<title>NCIS: Nueva Orleans</title>
-		<desc>Encontramos hormigón en todas partes: túneles, puentes, viviendas... Este episodio explora este fascinante material de construcción, que se dice fue utilizado por los egipcios hace más de 5000 años en la construcción de sus pirámides.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1197344"/>
-		<category>Series</category>
-	</programme>
-	<programme channel="Energy.TV" start="20230710113000 +0000" stop="20230710123000 +0000">
-		<title>NCIS: Nueva Orleans</title>
-		<desc>Nacho Sierra se encarga de mostrar a la audiencia lo que da de sí el reino animal. En este espacio tienen cabida desde las mascotas más exóticas hasta los animales de campo, sin olvidar el trabajo de veterinarios, etólogos y otros profesionales afines al este ámbito.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1197344"/>
-		<category>Series</category>
-	</programme>
-	<programme channel="Energy.TV" start="20230710123000 +0000" stop="20230710132500 +0000">
+	<programme channel="Energy.TV" start="20230710115500 +0000" stop="20230710132500 +0000">
 		<title>Mentes criminales</title>
-		<desc>Nacho Sierra se encarga de mostrar a la audiencia lo que da de sí el reino animal. En este espacio tienen cabida desde las mascotas más exóticas hasta los animales de campo, sin olvidar el trabajo de veterinarios, etólogos y otros profesionales afines al este ámbito.</desc>
+		<desc>El agente más experimentado de la Unidad de Análisis de Conducta es David Rossi, uno de los miembros fundadores de la Unidad que vuelve de su retiro para ayudar al equipo a resolver nuevos casos.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP933392"/>
 		<category>Series</category>
 	</programme>
@@ -11121,87 +11115,81 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP1303097"/>
 		<category>Música</category>
 	</programme>
-	<programme channel="FDF.TV" start="20230710043500 +0000" stop="20230710050700 +0000">
+	<programme channel="FDF.TV" start="20230710043500 +0000" stop="20230710050000 +0000">
 		<title>I Love TV: Lo mejor</title>
 		<desc>Espacio de zapeo que ofrece las imágenes más impactantes de la pequeña pantalla.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP1421322"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="FDF.TV" start="20230710050700 +0000" stop="20230710053000 +0000">
-		<title>I Love TV</title>
-		<desc>Esta noche recibimos en La Resistencia a "Chino" jugador de futbol sala del Jaén, equipo ganador de la Copa de España 2018. Broncano y Ponce juegan al "Geoguess" y Quequé vuelve a trolear a nuestro presentador con su invitado sorpresa.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP823919"/>
+	<programme channel="FDF.TV" start="20230710050000 +0000" stop="20230710050500 +0000">
+		<title>¡Toma Salami!: Episodio 32</title>
+		<desc>Espacio vespertino que ofrece en tira diaria los momentos más destacados de los 30 años de historia de Mediaset España. Se recuperan momentos míticos y estará narrado por Javier Capitán.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP1704895"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="FDF.TV" start="20230710053000 +0000" stop="20230710060000 +0000">
-		<title>¡Toma Salami!</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP1671105"/>
+	<programme channel="FDF.TV" start="20230710050500 +0000" stop="20230710053500 +0000">
+		<title>¡Toma Salami!: Episodio 33</title>
+		<desc>Espacio vespertino que ofrece en tira diaria los momentos más destacados de los 30 años de historia de Mediaset España. Se recuperan momentos míticos y estará narrado por Javier Capitán.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP1704903"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="FDF.TV" start="20230710060000 +0000" stop="20230710063200 +0000">
-		<title>Mejor llama a Kiko</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP1623348"/>
+	<programme channel="FDF.TV" start="20230710053500 +0000" stop="20230710060500 +0000">
+		<title>Mejor llama a Kiko: Episodio 82</title>
+		<desc>Espacio de televenta presentado por Kiko Hernández.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP3068555"/>
 		<category>Ocio y Aficiones</category>
 	</programme>
-	<programme channel="FDF.TV" start="20230710063200 +0000" stop="20230710064800 +0000">
-		<title>¡Toma Salami!</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP1671105"/>
-		<category>Entretenimiento</category>
-	</programme>
-	<programme channel="FDF.TV" start="20230710064800 +0000" stop="20230710075300 +0000">
-		<title>Aída</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP756861"/>
+	<programme channel="FDF.TV" start="20230710060500 +0000" stop="20230710071500 +0000">
+		<title>Los Serrano (T1): Ep.6 Cien maneras de cocinar la trucha</title>
+		<desc>Pepe, un antiguo compañero de mili de Santiago, le propone irse de vacaciones juntos como antaño. Pero Santiago se queda de piedra cuando su amigo le confiesa que es gay.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP343492"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="FDF.TV" start="20230710075300 +0000" stop="20230710085200 +0000">
-		<title>Aída</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP448969"/>
+	<programme channel="FDF.TV" start="20230710071500 +0000" stop="20230710081500 +0000">
+		<title>Aída (T2): Ep.21 Los trilocos</title>
+		<desc>Aída, asistenta de clase humilde, tiene una pésima suerte con los hombres y unas complicadas relaciones personales.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP561794"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="FDF.TV" start="20230710085200 +0000" stop="20230710101300 +0000">
-		<title>Aída</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP1007003"/>
+	<programme channel="FDF.TV" start="20230710081500 +0000" stop="20230710092500 +0000">
+		<title>Aída (T9): Ep.144 El camino que lleva a Belén</title>
+		<desc>Aída, asistenta de clase humilde, tiene una pésima suerte con los hombres y unas complicadas relaciones personales.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP952291"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="FDF.TV" start="20230710101300 +0000" stop="20230710112400 +0000">
-		<title>Aída</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP1007003"/>
+	<programme channel="FDF.TV" start="20230710092500 +0000" stop="20230710104500 +0000">
+		<title>Aída (T9): Ep.145 Enamorado de la boda juvenil</title>
+		<desc>Aída, asistenta de clase humilde, tiene una pésima suerte con los hombres y unas complicadas relaciones personales.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP952292"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="FDF.TV" start="20230710112400 +0000" stop="20230710132300 +0000">
+	<programme channel="FDF.TV" start="20230710104500 +0000" stop="20230710125000 +0000">
+		<title>La que se avecina (T9): Ep.114 Un león usurpado, una himenoplastia y una reforma sorpresa</title>
+		<desc>Judith se siente irremediablemente atraída por Aitor, un joven apuesto y conservador.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP1283380"/>
+		<category>Series</category>
+	</programme>
+	<programme channel="FDF.TV" start="20230710125000 +0000" stop="20230710145000 +0000">
 		<title>La que se avecina</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP1834793"/>
-		<category>Series</category>
-	</programme>
-	<programme channel="FDF.TV" start="20230710132300 +0000" stop="20230710150300 +0000">
-		<title>La que se avecina</title>
-		<desc>Sin descripción</desc>
+		<desc>Brillante parodia de la vida cotidiana de cualquier comunidad de vecinos a través de unos personajes que se relacionan con desconfianza y alimentan con su maldad intrínseca unas tramas surrealistas llenas de obsesiones personales y vecinales.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP1126638"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="FDF.TV" start="20230710150300 +0000" stop="20230710165000 +0000">
+	<programme channel="FDF.TV" start="20230710145000 +0000" stop="20230710164500 +0000">
 		<title>La que se avecina</title>
-		<desc>Sin descripción</desc>
+		<desc>Décima temporada de la serie que se centra en la vida de los peculiares y variopintos habitantes y empleados del complejo residencial Mirador de Montepinar.Nueva tanda de episodios de la exitosa secuela de ''Aquí no hay quien viva'', producida por José Luis Moreno. Tras una década en antena, la serie no ha tocado demasiado la estructura que le ha dado tantos buenos resultados, basada en humor negro, situaciones surrealistas y variopintos personajes.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP1442290"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="FDF.TV" start="20230710165000 +0000" stop="20230710182800 +0000">
+	<programme channel="FDF.TV" start="20230710164500 +0000" stop="20230710182000 +0000">
 		<title>La que se avecina</title>
-		<desc>Sin descripción</desc>
+		<desc>Décima temporada de la serie que se centra en la vida de los peculiares y variopintos habitantes y empleados del complejo residencial Mirador de Montepinar.Nueva tanda de episodios de la exitosa secuela de ''Aquí no hay quien viva'', producida por José Luis Moreno. Tras una década en antena, la serie no ha tocado demasiado la estructura que le ha dado tantos buenos resultados, basada en humor negro, situaciones surrealistas y variopintos personajes.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP1442290"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="FDF.TV" start="20230710182800 +0000" stop="20230710204000 +0000">
+	<programme channel="FDF.TV" start="20230710182000 +0000" stop="20230710204000 +0000">
 		<title>La que se avecina</title>
-		<desc>Sin descripción</desc>
+		<desc>Octava temporada de la serie que se centra en la vida de los peculiares y variopintos habitantes y empleados del complejo residencial Mirador de Montepinar.Nueva tanda de episodios de la exitosa secuela de ''Aquí no hay quien viva'', producida por José Luis Moreno. Entre las novedades de la temporada destaca la incorporación de Petra Martínez (''La soledad'') quien da vida a la nueva vecina de Mirador de Montepinar, una señora mayor que hará más difícil si cabe la convivencia en el edificio. La recién llegada se convertirá en una amenaza para la cúpula presidencial y sacará de quicio a los demás propietarios con sus reprobables y oscuras acciones. Antonia San Juan se cae del elenco de actores principales tras fichar por otra comedia del grupo de canales de Mediaset, aunque no se descarta que el personaje de Estela Reynols aparezca de manera puntual.En su octavo año en antena, la serie no ha tocado demasiado la estructura que le ha dado tantos buenos resultados, basada en humor negro, situaciones surrealistas y variopintos personajes.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP1178527"/>
 		<category>Series</category>
 	</programme>
@@ -12837,13 +12825,13 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTDEPP3070660"/>
 		<category>Deportes</category>
 	</programme>
-	<programme channel="TDP.TV" start="20230709125000 +0000" stop="20230709141500 +0000">
+	<programme channel="TDP.TV" start="20230709125000 +0000" stop="20230709140000 +0000">
 		<title>Tour de Francia (T2023): Salida Etapa 9 - Saint-Léonard-de-Noblat - Puy de Dôme</title>
 		<desc>35 años después, el Tour de Francia regresa a una ascensión mítica, el Puy de Dôme. Las rampas de este coloso de categoría especial ponen el punto y final a la novena jornada de competición. Los escaladores pretenden dejar su huella marcada.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTDEPP3070652"/>
 		<category>Deportes</category>
 	</programme>
-	<programme channel="TDP.TV" start="20230709141500 +0000" stop="20230709160000 +0000">
+	<programme channel="TDP.TV" start="20230709140000 +0000" stop="20230709160000 +0000">
 		<title>Extreme E (T2023): Island X Prix - Día 2 - Carrera</title>
 		<desc>La tercera prueba del Extreme E lleva a pilotos y vehículos a Cerdeña para la disputa del Island X Prix. La ruta ofrece un paisaje repleto de rocas y arbustos, además de cauces de ríos que se agrietan debido al calor sofocante.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTDEPP3059716"/>
@@ -12862,72 +12850,72 @@
 		<category>Deportes</category>
 	</programme>
 	<programme channel="TDP.TV" start="20230709164500 +0000" stop="20230709171000 +0000">
-		<title>Serie Europea de Rugby 7 (F) (T2023): Semifinal</title>
+		<title>Serie Europea de Rugby 7 (F) (T2023): España - Bélgica</title>
 		<desc>La espectacular modalidad de rugby 7 celebra sus series europeas entre junio y julio. El certamen se lleva a cabo en dos etapas, la primera en Algarve, Portugal; y la segunda en Hamburgo, Alemania.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTDEPP3070669"/>
 		<category>Deportes</category>
 	</programme>
 	<programme channel="TDP.TV" start="20230709171000 +0000" stop="20230709173500 +0000">
-		<title>Serie Europea de Rugby 7 (M) (T2023): Semifinal</title>
+		<title>Serie Europea de Rugby 7 (M) (T2023): Irlanda - España</title>
 		<desc>La espectacular modalidad de rugby 7 celebra sus series europeas entre junio y julio. El certamen se lleva a cabo en dos etapas, la primera en Algarve, Portugal; y la segunda en Hamburgo, Alemania.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTDEPP3070665"/>
 		<category>Deportes</category>
 	</programme>
-	<programme channel="TDP.TV" start="20230709173500 +0000" stop="20230709180000 +0000">
-		<title>Serie Europea de Rugby 7 (F) (T2023): Final</title>
+	<programme channel="TDP.TV" start="20230709173500 +0000" stop="20230709175500 +0000">
+		<title>Serie Europea de Rugby 7 (F) (T2023): Francia - España</title>
 		<desc>La espectacular modalidad de rugby 7 celebra sus series europeas entre junio y julio. El certamen se lleva a cabo en dos etapas, la primera en Algarve, Portugal; y la segunda en Hamburgo, Alemania.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTDEPP3070671"/>
 		<category>Deportes</category>
 	</programme>
-	<programme channel="TDP.TV" start="20230709180000 +0000" stop="20230709182500 +0000">
-		<title>Serie Europea de Rugby 7 (M) (T2023): Final</title>
-		<desc>La espectacular modalidad de rugby 7 celebra sus series europeas entre junio y julio. El certamen se lleva a cabo en dos etapas, la primera en Algarve, Portugal; y la segunda en Hamburgo, Alemania.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTDEPP3070667"/>
-		<category>Deportes</category>
-	</programme>
-	<programme channel="TDP.TV" start="20230709182500 +0000" stop="20230709204500 +0000">
-		<title>EuroBasket sub-18 (F) (T2023): Final</title>
-		<desc>Las selecciones femeninas se reúnen en Turquía del 1 al 9 de julio para disputar el EuroBasket sub-18. España, subcampeona en 2022, acude a la cita dispuesta a hacerse con otro título en categorías inferiores.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTDEPP3070649"/>
-		<category>Deportes</category>
-	</programme>
-	<programme channel="TDP.TV" start="20230709204500 +0000" stop="20230709221500 +0000">
-		<title>Tour de Francia (T2023): Etapa 9 - Saint-Léonard-de-Noblat - Puy de Dôme</title>
-		<desc>35 años después, el Tour de Francia regresa a una ascensión mítica, el Puy de Dôme. Las rampas de este coloso de categoría especial ponen el punto y final a la novena jornada de competición. Los escaladores pretenden dejar su huella marcada.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTDEPP3053173"/>
-		<category>Deportes</category>
-	</programme>
-	<programme channel="TDP.TV" start="20230709221500 +0000" stop="20230709234000 +0000">
+	<programme channel="TDP.TV" start="20230709175500 +0000" stop="20230709194500 +0000">
 		<title>Amistoso de Rugby (T2023): España - Japón</title>
 		<desc>El día 22, España tiene un compromiso fundamental en Italia para asentarse en el segundo nivel de World Rugby. Para prepararlo, las Leonas se miden a Japón en dos partidos amistosos. El primero, en el estadio Las Terrazas de Alcobendas.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTDEPP3070682"/>
 		<category>Deportes</category>
 	</programme>
-	<programme channel="TDP.TV" start="20230709234000 +0000" stop="20230710024000 +0000">
+	<programme channel="TDP.TV" start="20230709194500 +0000" stop="20230709214500 +0000">
+		<title>Tour de Francia (T2023): Etapa 9 - Saint-Léonard-de-Noblat - Puy de Dôme</title>
+		<desc>35 años después, el Tour de Francia regresa a una ascensión mítica, el Puy de Dôme. Las rampas de este coloso de categoría especial ponen el punto y final a la novena jornada de competición. Los escaladores pretenden dejar su huella marcada.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTDEPP3053173"/>
+		<category>Deportes</category>
+	</programme>
+	<programme channel="TDP.TV" start="20230709214500 +0000" stop="20230709233000 +0000">
+		<title>Conexión Vintage (T10): Luis Suárez I</title>
+		<desc>Una mirada al pasado con las mejores retransmisiones emitidas por la cadena en su historia. Baloncesto, boxeo, tenis, fútbol, motociclismo, balonmano, golf.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTDEPP2064032"/>
+		<category>Deportes</category>
+	</programme>
+	<programme channel="TDP.TV" start="20230709233000 +0000" stop="20230709235500 +0000">
+		<title>Serie Europea de Rugby 7 (M) (T2023): Final</title>
+		<desc>La espectacular modalidad de rugby 7 celebra sus series europeas entre junio y julio. El certamen se lleva a cabo en dos etapas, la primera en Algarve, Portugal; y la segunda en Hamburgo, Alemania.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTDEPP3070667"/>
+		<category>Deportes</category>
+	</programme>
+	<programme channel="TDP.TV" start="20230709235500 +0000" stop="20230710030000 +0000">
 		<title>Mundial de atletismo paralímpico (T2023): Día 2 - Sesión vespertina</title>
 		<desc>El estadio Charlety de París acoge del 8 al 17 de julio el Mundial de atletismo paralímpico. Casi 1.400 atletas de 107 países participan en la décima edición de este evento, que reparte más de 200 medallas. España acude con 41 deportistas.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTDEPP3070641"/>
 		<category>Deportes</category>
 	</programme>
-	<programme channel="TDP.TV" start="20230710024000 +0000" stop="20230710032700 +0000">
+	<programme channel="TDP.TV" start="20230710030000 +0000" stop="20230710033700 +0000">
 		<title>Copa del mundo de remo (T2023): Lucerna - Finales 1</title>
 		<desc>La Copa del mundo de remo es una competición anual por equipos que consta de diversas regatas en su calendario. En la edición de 2023, los palistas visitan Zagreb del 5 al 7 de mayo; Varese del 16 al 18 de junio; y Lucerna, del 7 al 9 de julio.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTDEPP3070658"/>
 		<category>Deportes</category>
 	</programme>
-	<programme channel="TDP.TV" start="20230710032700 +0000" stop="20230710041500 +0000">
+	<programme channel="TDP.TV" start="20230710033700 +0000" stop="20230710043000 +0000">
 		<title>Copa del mundo de remo (T2023): Lucerna - Finales 2</title>
 		<desc>La Copa del mundo de remo es una competición anual por equipos que consta de diversas regatas en su calendario. En la edición de 2023, los palistas visitan Zagreb del 5 al 7 de mayo; Varese del 16 al 18 de junio; y Lucerna, del 7 al 9 de julio.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTDEPP3070660"/>
 		<category>Deportes</category>
 	</programme>
-	<programme channel="TDP.TV" start="20230710032700 +0000" stop="20230710041500 +0000">
+	<programme channel="TDP.TV" start="20230710033700 +0000" stop="20230710043000 +0000">
 		<title>Copa del mundo de remo (T2023): Lucerna - Finales 2</title>
 		<desc>La Copa del mundo de remo es una competición anual por equipos que consta de diversas regatas en su calendario. En la edición de 2023, los palistas visitan Zagreb del 5 al 7 de mayo; Varese del 16 al 18 de junio; y Lucerna, del 7 al 9 de julio.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTDEPP3070660"/>
 		<category>Deportes</category>
 	</programme>
-	<programme channel="TDP.TV" start="20230710041500 +0000" stop="20230710050000 +0000">
+	<programme channel="TDP.TV" start="20230710043000 +0000" stop="20230710050000 +0000">
 		<title>Extreme E (T2023): Island X Prix - Día 2 - Carrera</title>
 		<desc>La tercera prueba del Extreme E lleva a pilotos y vehículos a Cerdeña para la disputa del Island X Prix. La ruta ofrece un paisaje repleto de rocas y arbustos, además de cauces de ríos que se agrietan debido al calor sofocante.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTDEPP3059716"/>
@@ -12951,10 +12939,16 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTDEPP3070682"/>
 		<category>Deportes</category>
 	</programme>
-	<programme channel="TDP.TV" start="20230710114500 +0000" stop="20230710135500 +0000">
-		<title>EuroBasket sub-18 (F) (T2023): Final</title>
-		<desc>Las selecciones femeninas se reúnen en Turquía del 1 al 9 de julio para disputar el EuroBasket sub-18. España, subcampeona en 2022, acude a la cita dispuesta a hacerse con otro título en categorías inferiores.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTDEPP3070649"/>
+	<programme channel="TDP.TV" start="20230710114500 +0000" stop="20230710133500 +0000">
+		<title>Conexión Vintage (T10): Luis Suárez II</title>
+		<desc>Una mirada al pasado con las mejores retransmisiones emitidas por la cadena en su historia. Baloncesto, boxeo, tenis, fútbol, motociclismo, balonmano, golf.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTDEPP2065139"/>
+		<category>Deportes</category>
+	</programme>
+	<programme channel="TDP.TV" start="20230710133500 +0000" stop="20230710135500 +0000">
+		<title>Evasión TV</title>
+		<desc>Programa que trata de descubrir los destinos más inhóspitos del país, los mejores spots donde realizar actividad al aire libre y disfrutar de todoslos deportes outdoor.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTDEPP2165126"/>
 		<category>Deportes</category>
 	</programme>
 	<programme channel="TDP.TV" start="20230710135500 +0000" stop="20230710140000 +0000">
@@ -14865,76 +14859,76 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1596620"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20230710040000 +0000" stop="20230710041000 +0000">
-		<title>I Love TV</title>
+	<programme channel="Divinity.TV" start="20230710040000 +0000" stop="20230710043000 +0000">
+		<title>Chefs de élite (T1): Episodio 17</title>
 		<desc>En la escuela de gastronomía Auguste Armand está a punto de dar comienzo un nuevo curso en el que se vivirá de todo: una lucha sin escrúpulos por demostrar quién es el mejor chef, que se mezclará con amor, traición, celos y un crimen que complicará aún más la estancia de los estudiantes en el centro.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP823919"/>
-		<category>Entretenimiento</category>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP2029138"/>
+		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20230710041000 +0000" stop="20230710042500 +0000">
-		<title>Gen360</title>
-		<desc>Cortometraje ganador del Leopardo de Oro del Festival de Cine de Locarno 2022.En Uberlândia (Brasil), Chico se gana la vida arreglando hornos ya que, como es pequeñito, se puede introducir en ellos. Ante el desprecio de un sistema que lo relega a las filas de los marginados, Chico entra poco a poco en la resistencia.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1917262"/>
+	<programme channel="Divinity.TV" start="20230710043000 +0000" stop="20230710044500 +0000">
+		<title>Gen360: Episodio 5</title>
+		<desc>Programa que promociona cursos profesionales que te abrirán las puertas del mercado laboral, con formación para impulsar el crecimiento personal.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP2115413"/>
 		<category>Cultural/Educativo</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20230710042500 +0000" stop="20230710044000 +0000">
-		<title>Enphorma</title>
-		<desc>Ganador del Premio BAFTA en la categoría de Mejor Cortometraje Británico de animación.Son las 2 de la madrugada en una triste estación de autobuses cualquiera. Una colección de viajeros solitarios y cansados esperan el último autobús. De pronto, en ese lugar frío y deprimente, las palomas consiguen crear una conexión mágica entre ellos durante un hermoso instante.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP3033572"/>
+	<programme channel="Divinity.TV" start="20230710044500 +0000" stop="20230710050000 +0000">
+		<title>Enphorma: Episodio 1</title>
+		<desc>Programa especializado en temas actuales de alimentación, psicología y ejercicio.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP3034643"/>
 		<category>Ocio y Aficiones</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20230710044000 +0000" stop="20230710052000 +0000">
-		<title>Bones</title>
-		<desc>Sofiane, de 30 años, tiene una cita con la espectacular y vegana Mégane. Si quiere ligar con ella, tendrá que ocultarle que es un gran amante de la carne.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP584828"/>
+	<programme channel="Divinity.TV" start="20230710050000 +0000" stop="20230710052000 +0000">
+		<title>Castle (T8): Ep.5 La nariz</title>
+		<desc>Una obra de arte de inestimable valor es robada y la persona que la transportaba es asesinada. Castle y Beckett deben trabajar con un testigo clave para resolver el caso. De esta forma localizarán la pintura y olfatearán al asesino.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1238237"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20230710052000 +0000" stop="20230710060000 +0000">
-		<title>Bones</title>
+	<programme channel="Divinity.TV" start="20230710052000 +0000" stop="20230710060500 +0000">
+		<title>Castle (T8): Ep.6 La extraña pareja</title>
 		<desc>El detective Slaughter vuelve a contar con la ayuda de Castle para resolver un caso de robo de alto riesgo. Pero cuando se encuentran un cuerpo sin vida vinculado a este caso, Slaughter pasa a ser el sospechoso número uno. Por lo que Castle tiene que determinar si es culpable o ayudarle a demostrar su inocencia.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP584828"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1238238"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20230710060000 +0000" stop="20230710064500 +0000">
-		<title>Bones</title>
-		<desc>Mi viejo amigo Walter vive en su camioneta, Caronte, junto a su perro Rogna desde hace ocho años. En una entrevista nos abre las puertas de su casa de cuatro ruedas y nos cuenta las historias de su vida aventurera.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP584828"/>
+	<programme channel="Divinity.TV" start="20230710060500 +0000" stop="20230710064500 +0000">
+		<title>Castle (T8): Ep.7 La última seducción</title>
+		<desc>Con el fin de cazar al brutal asesino de un estafador, Castle y Beckett deben investigar a la élite de Nueva York. Mientras tanto, Castle planea sorprender a Beckett en su primer aniversario de boda.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1238239"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20230710064500 +0000" stop="20230710073000 +0000">
-		<title>Bones</title>
+	<programme channel="Divinity.TV" start="20230710064500 +0000" stop="20230710072500 +0000">
+		<title>Castle (T8): Ep.8 Señor y señora Castle</title>
 		<desc>Castle y Beckett investigan el asesinato de un animador de un crucero de vacaciones pero terminan atrapados con el asesino mar adentro.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP584828"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1238240"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20230710073000 +0000" stop="20230710082000 +0000">
-		<title>Bones</title>
-		<desc>Cortometraje ganador del Leopardo de Oro del Festival de Cine de Locarno 2022.En Uberlândia (Brasil), Chico se gana la vida arreglando hornos ya que, como es pequeñito, se puede introducir en ellos. Ante el desprecio de un sistema que lo relega a las filas de los marginados, Chico entra poco a poco en la resistencia.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP584828"/>
+	<programme channel="Divinity.TV" start="20230710072500 +0000" stop="20230710081500 +0000">
+		<title>Castle (T8): Ep.9 Canto mortal</title>
+		<desc>Un cuerpo es encontrado en el teatro donde Marta da su último espectáculo. Castle y Beckett tienen que llevar la investigación en un mundo inesperadamente peligroso y competitivo de musicales a capella.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1238241"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20230710082000 +0000" stop="20230710091000 +0000">
-		<title>Bones</title>
-		<desc>Drama judicial, premio a la mejor dirección (Yvan Attal) y al mejor guion (Attal y Yaël Langmann) en el Festival de Cine de Barcelona-Sant Jordi de 2022, basado en el multipremiado libro "Las cosas humanas", de Karine Tuil, en el que un joven es acusado de haber abusado sexualmente de una chica durante una noche de fiesta.Él, un joven consentido y adinerado; ella, una judía menor de edad. Las vidas, convicciones y certezas de ambos, e incluso de sus familias, se rompen en pedazos, pero... ¿hay una única verdad?Como explica su director Yvan Attal, la novela le proporcionó "un magnífico material dramático" con el que consiguió recrear una historia compleja en la que nunca se muestra lo que sucedió la noche que se juzga.La película es una historia compleja y arriesgada en la que no se muestra un único punto de vista. "El acusado" pone el foco en un tema peliagudo como es el del consentimiento mientras aborda temas como los juicios paralelos o la madurez personal.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP584828"/>
+	<programme channel="Divinity.TV" start="20230710081500 +0000" stop="20230710090500 +0000">
+		<title>Castle (T8): Ep.10 Testigo de la acusación</title>
+		<desc>A Castle finalmente le toca declarar como testigo clave de un asesinato cometido cinco meses atrás. Pero surge nueva información que hará que él y Beckett tengan que lidiar con el tiempo para prevenir un error judicial.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1243805"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20230710091000 +0000" stop="20230710100000 +0000">
-		<title>Bones</title>
-		<desc>Ganador del Premio BAFTA en la categoría de Mejor Cortometraje Británico de animación.Son las 2 de la madrugada en una triste estación de autobuses cualquiera. Una colección de viajeros solitarios y cansados esperan el último autobús. De pronto, en ese lugar frío y deprimente, las palomas consiguen crear una conexión mágica entre ellos durante un hermoso instante.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP584828"/>
+	<programme channel="Divinity.TV" start="20230710090500 +0000" stop="20230710095500 +0000">
+		<title>Castle (T8): Ep.11 Muerte roja</title>
+		<desc>Cuando el hijo de un diplomático ruso aparece asesinado, Beckett y Castle se encuentran en un juego peligroso de crimen internacional.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1243806"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20230710100000 +0000" stop="20230710110000 +0000">
-		<title>Bones</title>
-		<desc>Sofiane, de 30 años, tiene una cita con la espectacular y vegana Mégane. Si quiere ligar con ella, tendrá que ocultarle que es un gran amante de la carne.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP584828"/>
+	<programme channel="Divinity.TV" start="20230710095500 +0000" stop="20230710103000 +0000">
+		<title>Castle (T8): Ep.12 El juego de la culpa</title>
+		<desc>Castle es capturado y obligado a trabajar con desconocidos para resolver desequilibrados rompecabezas. Mientras, Beckett y el resto de la comisaría deben ir a contrarreloj para rescatar a Castle y atrapar al asesino.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1267260"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20230710110000 +0000" stop="20230710115500 +0000">
-		<title>Bones</title>
-		<desc>Mi viejo amigo Walter vive en su camioneta, Caronte, junto a su perro Rogna desde hace ocho años. En una entrevista nos abre las puertas de su casa de cuatro ruedas y nos cuenta las historias de su vida aventurera.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP584828"/>
+	<programme channel="Divinity.TV" start="20230710103000 +0000" stop="20230710115500 +0000">
+		<title>Elementary (T1): Ep.1 Piloto</title>
+		<desc>Tras contactar con Tobias Gregson, capitán de la policía neoyorquina, Sherlock se suma a la investigación de un allanamiento de morada que ha culminado con la misteriosa desaparición de la dueña de la casa.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1080603"/>
 		<category>Series</category>
 	</programme>
 	<programme channel="Divinity.TV" start="20230710115500 +0000" stop="20230710125000 +0000">
@@ -16377,51 +16371,63 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP395912"/>
 		<category>Cine</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20230710032000 +0000" stop="20230710073500 +0000">
+	<programme channel="Bemad.TV" start="20230710032000 +0000" stop="20230710050000 +0000">
 		<title>Cine</title>
 		<desc>Emisión de una película.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP1673189"/>
 		<category>Cine</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20230710032000 +0000" stop="20230710073500 +0000">
+	<programme channel="Bemad.TV" start="20230710032000 +0000" stop="20230710050000 +0000">
 		<title>Cine</title>
 		<desc>Emisión de una película.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP1673189"/>
 		<category>Cine</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20230710073500 +0000" stop="20230710080500 +0000">
-		<title>Mejor llama a Kiko</title>
+	<programme channel="Bemad.TV" start="20230710050000 +0000" stop="20230710052000 +0000">
+		<title>Así se hizo... Mari(dos)</title>
+		<desc>Programa que muestra el rodaje de la película protagonizada por Paco León y Ernesto Alterio.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP2181628"/>
+		<category>Documentales</category>
+	</programme>
+	<programme channel="Bemad.TV" start="20230710052000 +0000" stop="20230710053000 +0000">
+		<title>Así se hizo... ¡Vaya vacaciones!</title>
 		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP1623348"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADPNone"/>
+		<category>Desconocido</category>
+	</programme>
+	<programme channel="Bemad.TV" start="20230710053000 +0000" stop="20230710081500 +0000">
+		<title>El puente sobre el río Kwai</title>
+		<desc>En el año 1943, un campamento japonés de prisioneros recibe un nuevo contingente de presos encabezado por el coronel inglés Nicholson que, desde el primer momento, se enfrenta dialécticamente al coronel nipón Saito. Atraídos por su mutuo respeto al modo de vida militar y tras una dura etapa de tensión entre ambos que repercute directamente en la crueldad con que se trata a los prisioneros, ambos terminan colaborando en el levantamiento del estratégico "Ferrocarril de la muerte". La construcción del puente sobre el río se convertirá en una cuestión de honor para Nicholson y sus hombres, aunque, mientras tanto, el Estado Mayor británico ha encargado a un comando especial la demolición de la obra, que facilita al enemigo el suministro de materiales esenciales."El puente del río Kwai" es una de las cimas del cine británico, resultado de la colaboración entre el productor Sam Spiegel y el cineasta David Lean, que repetirían experiencia en "Lawrence de Arabia". Ganadora de siete Oscar de Hollywood y basada en la novela de Pierre Boulle, es todo un clásico del cine bélico que refleja con rigor diferentes aspectos de la vida militar y del honor castrense en tiempos de guerra. El enfrentamiento psicológico entre los altos cargos de sendos bandos es una de las grandes bazas de la película.Este filme monumental cuenta con un reparto de primera encabezado por William Holden ("El coloso en llamas", "El crepúsculo de los dioses") y Alec Guinness ("La guerra de las galaxias", "Un cadáver a los postres"), respaldados por Jack Hawkins ("Ben-Hur"), Sessue Haykawa ("Robinsones de los mares del sur"), James Donald ("El loco del pelo rojo") y Geoffrey Horne ("Buenos días tristeza").</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP8505"/>
+		<category>Cine</category>
+	</programme>
+	<programme channel="Bemad.TV" start="20230710081500 +0000" stop="20230710085000 +0000">
+		<title>Mejor llama a Kiko: Episodio 81</title>
+		<desc>Espacio de televenta presentado por Kiko Hernández.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP3064797"/>
 		<category>Ocio y Aficiones</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20230710080500 +0000" stop="20230710095900 +0000">
-		<title>Cine</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP1673189"/>
+	<programme channel="Bemad.TV" start="20230710085000 +0000" stop="20230710103000 +0000">
+		<title>Familia de policías</title>
+		<desc>Paul Fein, un alto oficial de policía, pretende reunir a todos sus hijos en su fiesta de cumpleaños. Hace años que no les ve y es consciente de que, tras la muerte de su esposa, no fue un buen padre para ellos. Pero la noche de la fiesta, Jackie, la oveja negra de la familia, se despierta junto al cadáver de un millonario. A partir de entonces, Paul y sus otros hijos sólo tendrán una misión: demostrar su inocencia.Ted Kotcheff, el responsable del primer ''Rambo'' dirigió este telefilme en el que el desaparecido Charles Bronson dejó por una vez el papel de justiciero para dar vida a un veterano oficial de policía, acuciado por los problemas familiares. Producida por la cadena CBS, la cinta conoció dos secuelas, ambas con Bronson repitiendo su personaje de Paul Fein.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP1276493"/>
 		<category>Cine</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20230710095900 +0000" stop="20230710115500 +0000">
-		<title>Cine</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP1673189"/>
+	<programme channel="Bemad.TV" start="20230710103000 +0000" stop="20230710120500 +0000">
+		<title>Familia de policías 2</title>
+		<desc>El policía Paul Fein investiga el asesinato de un sacerdote que le pondrá a él y a su familia en el punto de mira de la mafia rusa.Segunda película de la saga "Family of Cops", una serie de telefilmes que siguen las aventuras de un duro policía, interpretado por un Charles Bronson, quien, a pesar de tener 74 años, demostraba sus dotes para interpretar a su sempiterno rol de agente justiciero. Repite rol Angela Featherstone ("El chico ideal") y Sebastian Spence ("First Wave").Dos años más tarde, se cerró la trilogía, con "Family of Cops III: Under Suspicion", la última película que hizo el duro actor antes de retirars</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP1276494"/>
 		<category>Cine</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20230710115500 +0000" stop="20230710132800 +0000">
-		<title>Cine</title>
-		<desc>Magacín informativo presentado por Ricardo Altable y Laura Gómez. Incluye reportajes, entrevistas y secciones propias de contenido.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP1673189"/>
+	<programme channel="Bemad.TV" start="20230710120500 +0000" stop="20230710134000 +0000">
+		<title>Familia de policías III</title>
+		<desc>Paul Fein, jefe de la policía de Milwaukee, es asignado junto a su hijo en un caso de doble asesinato. Las víctimas, un banquero y su esposa, han sido encontrados muertos en su mansión.La última película de Charles Bronson, todo un especialista del cine de acción de serie B, fue en "Family Cops III: Bajo Sospecha". Se trata de la segunda secuela de "Family Cops" en el que el intérprete se vuelve a poner en la piel de su sempiterno papel de duro policía. A pesar de aprenderse todo su rol, el actor que en aquel entonces tenía 76 años, ya sufría sus primeros síntomas de Alzheimer. Le acompañan en pantalla dos habituales de la saga: Sebastian Spence ("Galáctica, estrella de combate", "First Wave") y Barbara Williams ("El secreto de los Abbott").</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP1276877"/>
 		<category>Cine</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20230710132800 +0000" stop="20230710152600 +0000">
+	<programme channel="Bemad.TV" start="20230710134000 +0000" stop="20230710165400 +0000">
 		<title>Cine</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP1673189"/>
-		<category>Cine</category>
-	</programme>
-	<programme channel="Bemad.TV" start="20230710152600 +0000" stop="20230710165400 +0000">
-		<title>Cine</title>
-		<desc>Sin descripción</desc>
+		<desc>Emisión de una película.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP1673189"/>
 		<category>Cine</category>
 	</programme>

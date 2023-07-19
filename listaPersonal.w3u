@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 18/07/2023 20:00:08",
+    "name": "Canales Acestream 19/07/2023 11:00:16",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -305,6 +305,12 @@
                     "embed": "false"
                 },
                 {
+                    "name": "ESPN 3 Colombia",
+                    "url": "acestream://b97f5975dbd067655432512d4693b417bc85a714",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-us-espn.png",
+                    "embed": "false"
+                },
+                {
                     "name": "ESPN Argentina",
                     "url": "acestream://2492f8aa7cd7c4800e7b22c4ecba05e34c18be00",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-us-espn.png",
@@ -312,7 +318,7 @@
                 },
                 {
                     "name": "ESPN Extra Colombia",
-                    "url": "acestream://b97f5975dbd067655432512d4693b417bc85a714",
+                    "url": "acestream://9c3feb380cd9bcf9dcb7a9454ca8eb7962201612",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-us-espn.png",
                     "embed": "false"
                 }
@@ -358,12 +364,6 @@
             "name": "M. La Liga",
             "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga.png",
             "stations": [
-                {
-                    "name": "M. LaLiga 1080",
-                    "url": "acestream://c22bfcc2a70b2a3f447d9b30c52e617946b03888",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-1.png",
-                    "embed": "false"
-                },
                 {
                     "name": "M. LaLiga 1080 MultiAudio",
                     "url": "acestream://7d8c87e057be98f00f22e23b23fbf08999e4b02f",
@@ -444,7 +444,7 @@
                 },
                 {
                     "name": "#Vamos 720",
-                    "url": "acestream://0e18315b703248bb01eab6b9d3f0cb2cd893601f",
+                    "url": "acestream://3bba7c95857c2502c7e03ced1a6a9b00eb567fa0",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-vamos.png",
                     "embed": "false"
                 }
@@ -515,8 +515,14 @@
                     "embed": "false"
                 },
                 {
+                    "name": "M. Golf 720",
+                    "url": "acestream://9a4f3ae6563668b7709dac509dedc709441b3fd9",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
                     "name": "TENNIS CHANNEL",
-                    "url": "acestream://16089ab3f31a2756cf2ba6d507ff367cce14df83",
+                    "url": "acestream://9292d3b32432efb56db4014933cbdec0a7cf2e36",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -596,6 +602,12 @@
                     "name": "LaLiga SmartBank 720",
                     "url": "acestream://06b367c22394a1358c9cefa0cb5d0b64b9b2b3f4",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-smartbank-tv-2833.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "LaLiga SmartBank 8",
+                    "url": "acestream://4d52fc1994fe927702aeb7bc8778e2f23b1260e2",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-smartbank.png",
                     "embed": "false"
                 }
             ]

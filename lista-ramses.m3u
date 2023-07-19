@@ -10,8 +10,6 @@ acestream://e3249feb41ca1e68f38cf9bd9a196d6b3f873032
 acestream://7d8c87e057be98f00f22e23b23fbf08999e4b02f
 #EXTINF:-1 tvg-logo="https://i.ibb.co/jVMhMQQ/Liga-Santander.jpg" group-title="By @Lucas_m_o_o_m" tvg-id="M+ LaLiga HD", M. LaLiga 1080 MultiAudio
 acestream://1969c27658d4c8333ab2c0670802546121a774a5
-#EXTINF:-1 tvg-logo="https://i.ibb.co/jVMhMQQ/Liga-Santander.jpg" group-title="By @Lucas_m_o_o_m" tvg-id="M+ LaLiga HD", M. LaLiga 1080
-acestream://c22bfcc2a70b2a3f447d9b30c52e617946b03888
 #EXTINF:-1 tvg-logo="https://i.ibb.co/jVMhMQQ/Liga-Santander.jpg" group-title="By @Lucas_m_o_o_m" tvg-id="M+ LaLiga HD", M. LaLiga 720
 acestream://f031f5728b32f6089dda28edebe990cf198108d8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/jVMhMQQ/Liga-Santander.jpg" group-title="By @Lucas_m_o_o_m" tvg-id="M+ LaLiga 2", M. LaLiga 2 720
@@ -64,12 +62,13 @@ acestream://a1146358aa50c99c887108b17f62f9264186a16a
 acestream://7a9bb1b9cccb759c44ed84f3c1283922e6854670
 #EXTINF:-1 tvg-logo="https://i.ibb.co/cybDs0J/La-Liga-Smart-Bank.jpg" group-title="By @Lucas_m_o_o_m" tvg-id="LaLiga SmartbankTV 7", LaLiga SmartBank 7 
 acestream://446e73a22582921393b020ed08b768ad8e14d754
-
+#EXTINF:-1 tvg-logo="https://i.ibb.co/cybDs0J/La-Liga-Smart-Bank.jpg" group-title="By @Lucas_m_o_o_m" tvg-id="LaLiga SmartbankTV 8", LaLiga SmartBank 8 
+acestream://4d52fc1994fe927702aeb7bc8778e2f23b1260e2
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/dgqH0nP/Vamos.jpg" group-title="By @Lucas_m_o_o_m" tvg-id="M+ #VAMOSHD", #Vamos 1080
 acestream://859bb6295b8d0f224224d3063d9db7cdeca03122
 #EXTINF:-1 tvg-logo="https://i.ibb.co/dgqH0nP/Vamos.jpg" group-title="By @Lucas_m_o_o_m" tvg-id="M+ #VAMOS", #Vamos 720
-acestream://0e18315b703248bb01eab6b9d3f0cb2cd893601f
+acestream://3bba7c95857c2502c7e03ced1a6a9b00eb567fa0
 #EXTINF:-1 tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MELLAV.png" group-title="By @Lucas_m_o_o_m" tvg-id="M+ #Ellas", #Ellas 1080
 acestream://67654e63b5065cdaa6c8e8d41bb5428b42b32830
 
@@ -127,6 +126,8 @@ acestream://33369549c635dabdb78b95c478c21fcc9e4ee854
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/fdHQYXQ/Golf.jpg" group-title="By @Lucas_m_o_o_m" tvg-id="M+ GOLF HD", M. Golf 1080
 acestream://4f945b0ba4206fa2676b61e9eaa465ac3dcc8122
+#EXTINF:-1 tvg-logo="https://i.ibb.co/fdHQYXQ/Golf.jpg" group-title="By @Lucas_m_o_o_m" tvg-id="Golf mex 720", M. Golf 720
+acestream://9a4f3ae6563668b7709dac509dedc709441b3fd9
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/NZjMkfL/DAZN1.jpg" group-title="By @Lucas_m_o_o_m" tvg-id="DAZN 1", DAZN 1 1080
 acestream://8ca07071b39185431f8e940ec98d1add9e561639
@@ -163,7 +164,7 @@ acestream://cbf281d5e481697aa4184fe1de5e069928c95057
 #EXTINF:-1 tvg-logo="https://i.ibb.co/2qxWsCP/BeMad.jpg" group-title="By @Lucas_m_o_o_m" tvg-id="BE MAD HD", BE MAD 1080
 acestream://5c267a00f264736c1d47c1cc3e754447ca8f770c
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/8e/Tennis_Channel_2022_horizontal.svg/revision/latest/scale-to-width-down/200?cb=20221201171719" group-title="By @Lucas_m_o_o_m" tvg-id="TENNIS CHANNEL", TENNIS CHANNEL
-acestream://16089ab3f31a2756cf2ba6d507ff367cce14df83
+acestream://9292d3b32432efb56db4014933cbdec0a7cf2e36
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/1mdGqWc/Cero.jpg" group-title="By @Lucas_m_o_o_m" tvg-id="M+ #0 HD", #0
@@ -187,15 +188,13 @@ acestream://9a8c5485a38e9399e81b3eed23e588946946039f
 #EXTINF:-1 tvg-logo="https://i.ibb.co/48fKHMB/ESPN.jpg" group-title="By @Lucas_m_o_o_m" tvg-id="ESPN Colombia", ESPN Colombia
 acestream://2492f8aa7cd7c4800e7b22c4ecba05e34c18be00
 #EXTINF:-1 tvg-logo="https://w7.pngwing.com/pngs/20/364/png-transparent-espn3-watchespn-espn-com-streaming-media-espn-3-television-text-sport-thumbnail.png" group-title="By @Lucas_m_o_o_m" tvg-id="ESPN Extra Colombia", ESPN Extra Colombia
-acestream://b97f5975dbd067655432512d4693b417bc85a714
+acestream://9c3feb380cd9bcf9dcb7a9454ca8eb7962201612
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/ESPN_Extra_Logo_2022.webp/750px-ESPN_Extra_Logo_2022.webp.png" group-title="By @Lucas_m_o_o_m" tvg-id="ESPN 2 Colombia", ESPN 2 Colombia
 acestream://e40b29774fdfd953751a71f5695f647726623b9d
 #EXTINF:-1 tvg-logo="https://tinyurl.com/9mx5x28p" group-title="By @Lucas_m_o_o_m" tvg-id="ESPN 3 Colombia", ESPN 3 Colombia
 acestream://b97f5975dbd067655432512d4693b417bc85a714
 
-
-#EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/1590123392484737028/r2OGGZpr_400x400.jpg" group-title="By @kawa" tvg-id="Gol Mundial 1080", Gol Mundial 1080
-acestream://7031601915e3d33893cb324c89055b91b9ec5574
+3d33893cb324c89055b91b9ec5574
 #EXTINF:-1 tvg-id="NAT GEO FHD" tvg-name="National Geography 1080" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/NATGEO.png" group-title="By @kawa",National Geography 1080
 acestream://d0c5c350d8c62f7b7aa2516646a7e6f42b6155d1
 #EXTINF:-1 tvg-logo="https://i.ibb.co/dgqH0nP/Vamos.jpg" group-title="By @kawa" tvg-id="M+ #VAMOSHD", #Vamos 1080

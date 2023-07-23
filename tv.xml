@@ -1626,145 +1626,145 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P2091428"/>
 		<category>Música</category>
 	</programme>
-	<programme channel="Cuatro.TV" start="20230724050000 +0000" stop="20230724051500 +0000">
-		<title>El zapping de Surferos</title>
-		<desc>Físicamente es imposible llegar a captar el contenido más interesante que se emite en los diferentes canales de televisión. Por ello, este espacio rastrea el oleaje del universo catódico y elige lo más destacado de una forma original y divertida.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P1308905"/>
+	<programme channel="Cuatro.TV" start="20230724050000 +0000" stop="20230724052000 +0000">
+		<title>¡Toma Salami!: Episodio 31</title>
+		<desc>Espacio vespertino que ofrece en tira diaria los momentos más destacados de los 30 años de historia de Mediaset España. Se recuperan momentos míticos y estará narrado por Javier Capitán.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P1699451"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="Cuatro.TV" start="20230724051500 +0000" stop="20230724054500 +0000">
-		<title>Mejor llama a Kiko</title>
+	<programme channel="Cuatro.TV" start="20230724052000 +0000" stop="20230724054500 +0000">
+		<title>¡Toma Salami!: Episodio 32</title>
+		<desc>Espacio vespertino que ofrece en tira diaria los momentos más destacados de los 30 años de historia de Mediaset España. Se recuperan momentos míticos y estará narrado por Javier Capitán.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P1704895"/>
+		<category>Entretenimiento</category>
+	</programme>
+	<programme channel="Cuatro.TV" start="20230724054500 +0000" stop="20230724062000 +0000">
+		<title>Mejor llama a Kiko: Episodio 67</title>
 		<desc>Espacio de televenta presentado por Kiko Hernández.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P1623348"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P2090675"/>
 		<category>Ocio y Aficiones</category>
 	</programme>
-	<programme channel="Cuatro.TV" start="20230724054500 +0000" stop="20230724063000 +0000">
-		<title>Alerta Cobra</title>
+	<programme channel="Cuatro.TV" start="20230724062000 +0000" stop="20230724070500 +0000">
+		<title>Alerta Cobra (T25): Ep.15 Abismos</title>
 		<desc>En la Europa del año 2000 las autopistas alemanas se han convertido en los lugares de paso de multitud de personajes siniestros, cargas peligrosas y conductores temerarios que cruzan el continente de un lado a otro. La brigada especial de carreteras se encarga de luchar contra el crimen en estos lugares y de tratar de mantener el orden en algunas de las zonas más conflictivas del país. Un trabajo de alto riesgo y máxima velocidad en el que se enfrentan a secuestradores, traficantes, fugitivos, ladrones y todo tipo de delincuentes que huyen de las ciudades para encontrarse cara a cara con estos héroes anónimos.''Alerta Cobra'' fue la pionera dentro de las series de acción de la productora alemana RTL. Gracias a su popularidad vieron la luz otros grandes éxitos del país teutón, como ''El Payaso'', ''Medicopter'' o ''Tres ángeles salvajes''. ''Alerta Cobra'' ha sido uno de los espacios más vistos en Alemania durante más de seis años.Entre el reparto, que ha contado con múltiples caras a lo largo de la veintena de temporadas que ha estado en antena, destacan los carismáticos René Steinke y Erdogan Atalay.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P1336358"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P1831523"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Cuatro.TV" start="20230724063000 +0000" stop="20230724072000 +0000">
-		<title>Heldt</title>
+	<programme channel="Cuatro.TV" start="20230724070500 +0000" stop="20230724075000 +0000">
+		<title>Heldt (T6): Ep.1 Carlo</title>
 		<desc>Nikolas Heldt es un policía que trabaja para la ciudad de Bochum y que tiene unos métodos para atrapar los criminales.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P2156495"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P2173808"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Cuatro.TV" start="20230724072000 +0000" stop="20230724081500 +0000">
-		<title>Heldt</title>
+	<programme channel="Cuatro.TV" start="20230724075000 +0000" stop="20230724084000 +0000">
+		<title>Heldt (T6): Ep.6 Un crimen a los postres (1ª parte)</title>
 		<desc>Nikolas Heldt es un policía que trabaja para la ciudad de Bochum y que tiene unos métodos para atrapar los criminales.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P2165225"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P2177616"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Cuatro.TV" start="20230724081500 +0000" stop="20230724090500 +0000">
-		<title>Alerta Cobra</title>
+	<programme channel="Cuatro.TV" start="20230724084000 +0000" stop="20230724093000 +0000">
+		<title>Alerta Cobra (T16): Ep.6 ¡Más alto, más rápido, más lejos!</title>
 		<desc>La brigada especial de autopistas se encarga de luchar contra el crimen y mantener el orden en zonas muy conflictivas.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P1255061"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P1048850"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Cuatro.TV" start="20230724090500 +0000" stop="20230724101000 +0000">
-		<title>Alerta Cobra</title>
-		<desc>La brigada especial de autopistas se encarga de luchar contra el crimen y mantener el orden en zonas muy conflictivas.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P1255061"/>
-		<category>Series</category>
-	</programme>
-	<programme channel="Cuatro.TV" start="20230724101000 +0000" stop="20230724111500 +0000">
-		<title>Alerta Cobra</title>
+	<programme channel="Cuatro.TV" start="20230724093000 +0000" stop="20230724101500 +0000">
+		<title>Alerta Cobra (T16): Ep.9 Carrera contrarreloj</title>
 		<desc>En la Europa del año 2000 las autopistas alemanas se han convertido en los lugares de paso de multitud de personajes siniestros, cargas peligrosas y conductores temerarios que cruzan el continente de un lado a otro. La brigada especial de carreteras se encarga de luchar contra el crimen en estos lugares y de tratar de mantener el orden en algunas de las zonas más conflictivas del país. Un trabajo de alto riesgo y máxima velocidad en el que se enfrentan a secuestradores, traficantes, fugitivos, ladrones y todo tipo de delincuentes que huyen de las ciudades para encontrarse cara a cara con estos héroes anónimos.''Alerta Cobra'' fue la pionera dentro de las series de acción de la productora alemana RTL. Gracias a su popularidad vieron la luz otros grandes éxitos del país teutón, como ''El Payaso'', ''Medicopter'' o ''Tres ángeles salvajes''. ''Alerta Cobra'' ha sido uno de los espacios más vistos en Alemania durante más de seis años.Entre el reparto, que ha contado con múltiples caras a lo largo de la veintena de temporadas que ha estado en antena, destacan los carismáticos René Steinke y Erdogan Atalay.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P1336358"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P1058125"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Cuatro.TV" start="20230724111500 +0000" stop="20230724132000 +0000">
-		<title>En boca de todos</title>
+	<programme channel="Cuatro.TV" start="20230724101500 +0000" stop="20230724111000 +0000">
+		<title>Alerta Cobra (T26): Ep.4 Identidad</title>
+		<desc>En la Europa del año 2000 las autopistas alemanas se han convertido en los lugares de paso de multitud de personajes siniestros, cargas peligrosas y conductores temerarios que cruzan el continente de un lado a otro. La brigada especial de carreteras se encarga de luchar contra el crimen en estos lugares y de tratar de mantener el orden en algunas de las zonas más conflictivas del país. Un trabajo de alto riesgo y máxima velocidad en el que se enfrentan a secuestradores, traficantes, fugitivos, ladrones y todo tipo de delincuentes que huyen de las ciudades para encontrarse cara a cara con estos héroes anónimos.''Alerta Cobra'' fue la pionera dentro de las series de acción de la productora alemana RTL. Gracias a su popularidad vieron la luz otros grandes éxitos del país teutón, como ''El Payaso'', ''Medicopter'' o ''Tres ángeles salvajes''. ''Alerta Cobra'' ha sido uno de los espacios más vistos en Alemania durante más de seis años.Entre el reparto, que ha contado con múltiples caras a lo largo de la veintena de temporadas que ha estado en antena, destacan los carismáticos René Steinke y Erdogan Atalay.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P1963677"/>
+		<category>Series</category>
+	</programme>
+	<programme channel="Cuatro.TV" start="20230724111000 +0000" stop="20230724131000 +0000">
+		<title>En boca de todos: Episodio 142</title>
 		<desc>Espacio televisivo diario de actualidad que acerca a los espectadores las principales noticias políticas y sociales más comentadas, contextualizándolas mediante un equipo de expertos y colaboradores, quienes aportan una visión concreta de los temas que se abordan.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P2159709"/>
-		<category>Informativo</category>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P3080926"/>
+		<category>Documentales</category>
 	</programme>
-	<programme channel="Cuatro.TV" start="20230724132000 +0000" stop="20230724133000 +0000">
+	<programme channel="Cuatro.TV" start="20230724131000 +0000" stop="20230724133000 +0000">
 		<title>Deportes Cuatro</title>
-		<desc>Informativo de Cuatro que repasa, de manera muy breve, los titulares y las imágenes más importantes del día en materia de deportes. El espacio concede una especial atención al ámbito futbolístico.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P2159745"/>
+		<desc>Informativo deportivo de Cuatro que repasa las últimas noticias que hayan sucedido en el ámbito del deporte.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P2159758"/>
 		<category>Deportes</category>
 	</programme>
-	<programme channel="Cuatro.TV" start="20230724133000 +0000" stop="20230724150000 +0000">
-		<title>Todo es mentira</title>
+	<programme channel="Cuatro.TV" start="20230724133000 +0000" stop="20230724160000 +0000">
+		<title>Todo es mentira: Episodio 222</title>
 		<desc>Espacio que analiza las noticias falsas y los bulos que inundan las páginas de los diarios y las redes sociales. Risto Mejide y su equipo ponen humor a este ácido análisis de la actualidad.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P2118028"/>
-		<category>Entretenimiento</category>
-	</programme>
-	<programme channel="Cuatro.TV" start="20230724150000 +0000" stop="20230724160000 +0000">
-		<title>Todo es mentira</title>
-		<desc>Espacio que analiza las noticias falsas y los bulos que inundan las páginas de los diarios y las redes sociales. Risto Mejide y su equipo ponen humor a este ácido análisis de la actualidad.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P2118028"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P3080928"/>
 		<category>Entretenimiento</category>
 	</programme>
 	<programme channel="Cuatro.TV" start="20230724160000 +0000" stop="20230724180000 +0000">
-		<title>Cuatro al día</title>
+		<title>Cuatro al día: Episodio 474</title>
 		<desc>Espacio conducido por Ana Terradillos en el que la información es la protagonista: la actualidad política y las noticias más relevantes que sucedan en distintos puntos de España, a través de un equipo reporteros que se desplazarán a los lugares de interés informativo.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P1937089"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P3080930"/>
 		<category>Informativo</category>
 	</programme>
-	<programme channel="Cuatro.TV" start="20230724180000 +0000" stop="20230724184500 +0000">
-		<title>Cuatro al día a las 20h</title>
+	<programme channel="Cuatro.TV" start="20230724180000 +0000" stop="20230724184000 +0000">
+		<title>Cuatro al día a las 20h: Episodio 502</title>
 		<desc>Espacio en el que la información es la protagonista: la actualidad política y las noticias más relevantes que sucedan en distintos puntos de España, a través de un equipo reporteros que se desplazarán a los lugares donde surjan las informaciones más destacadas.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P1937090"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P3080932"/>
 		<category>Informativo</category>
 	</programme>
-	<programme channel="Cuatro.TV" start="20230724184500 +0000" stop="20230724190000 +0000">
+	<programme channel="Cuatro.TV" start="20230724184000 +0000" stop="20230724185500 +0000">
 		<title>Deportes Cuatro</title>
 		<desc>Informativo de Cuatro que repasa, de manera muy breve, los titulares y las imágenes más importantes del día en materia de deportes. El espacio concede una especial atención al ámbito futbolístico.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P2159745"/>
 		<category>Deportes</category>
 	</programme>
-	<programme channel="Cuatro.TV" start="20230724190000 +0000" stop="20230724191000 +0000">
+	<programme channel="Cuatro.TV" start="20230724185500 +0000" stop="20230724190500 +0000">
 		<title>El tiempo</title>
 		<desc>Espacio informativo que ofrece la previsión meteorológica.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P1373654"/>
 		<category>Informativo</category>
 	</programme>
-	<programme channel="Cuatro.TV" start="20230724191000 +0000" stop="20230724194000 +0000">
-		<title>First dates</title>
+	<programme channel="Cuatro.TV" start="20230724190500 +0000" stop="20230724194000 +0000">
+		<title>First dates: Episodio 43</title>
 		<desc>Espacio que organiza citas a ciegas entre solteros en un restaurante único y especial. Carlos Sobera ejerce de singular maître de este local, e interviene en caso de que sus clientes necesiten una ayuda extra durante la cita para conseguir el éxito entre la pareja.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P2025798"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P2140839"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="Cuatro.TV" start="20230724194000 +0000" stop="20230724205000 +0000">
-		<title>First dates</title>
-		<desc>Espacio que organiza citas a ciegas entre solteros en un restaurante único y especial. Carlos Sobera ejerce de singular maître de este local, e interviene en caso de que sus clientes necesiten una ayuda extra durante la cita para conseguir el éxito entre la pareja.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P2025798"/>
+	<programme channel="Cuatro.TV" start="20230724194000 +0000" stop="20230724205500 +0000">
+		<title>First dates: Episodio 225</title>
+		<desc>Arranca la nueva temporada de ''First Dates'', en la que la ilusión de los solteros por encontrar pareja, la diversidad y la buena vibra son los principales ingredientes en el menú del amor.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P3080934"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="Cuatro.TV" start="20230724205000 +0000" stop="20230724224500 +0000">
-		<title>Focus</title>
-		<desc>Espacio de reportajes de actualidad desde un enfoque diferenciado, original y alternativo.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P2185467"/>
+	<programme channel="Cuatro.TV" start="20230724205500 +0000" stop="20230724224000 +0000">
+		<title>Focus: Y a ti ¿Qué te estropea el verano?</title>
+		<desc>El programa explica y analiza la proliferación de delitos que tienen lugar durante el verano, como comportamientos incívicos en las calles durante las noches, los hurtos en playas y los asaltos a domicilios vacíos.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P3080936"/>
 		<category>Documentales</category>
 	</programme>
-	<programme channel="Cuatro.TV" start="20230724224500 +0000" stop="20230725004500 +0000">
-		<title>Focus</title>
+	<programme channel="Cuatro.TV" start="20230724224000 +0000" stop="20230725005500 +0000">
+		<title>Focus: Verano calórico</title>
 		<desc>Espacio de reportajes de actualidad desde un enfoque diferenciado, original y alternativo.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P2185467"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P3067722"/>
 		<category>Documentales</category>
 	</programme>
-	<programme channel="Cuatro.TV" start="20230725004500 +0000" stop="20230725014500 +0000">
-		<title>En el punto de mira</title>
-		<desc>Programa de investigación periodística en el que, experimentados reporteros, enseñan la cara oculta de la actualidad social de mayor interés. Para ello, se sirven de las últimas tecnologías empleando drones y sistemas de grabación multicámara con dispositivos ocultos.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P1772804"/>
+	<programme channel="Cuatro.TV" start="20230725005500 +0000" stop="20230725020000 +0000">
+		<title>En el punto de mira: El nuevo boom del cannabis</title>
+		<desc>Cremas, aceites, infusiones, jabones, geles, cápsulas... El consumo de productos basados en CDB, el principio activo de la marihuana que se usa para fines terapéuticos, se ha disparado durante la pandemia.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P2029700"/>
 		<category>Informativo</category>
 	</programme>
-	<programme channel="Cuatro.TV" start="20230725014500 +0000" stop="20230725024500 +0000">
-		<title>En el punto de mira</title>
-		<desc>Programa de investigación periodística en el que, experimentados reporteros, enseñan la cara oculta de la actualidad social de mayor interés. Para ello, se sirven de las últimas tecnologías empleando drones y sistemas de grabación multicámara con dispositivos ocultos.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P1772804"/>
+	<programme channel="Cuatro.TV" start="20230725020000 +0000" stop="20230725030500 +0000">
+		<title>En el punto de mira: El crimen de Marta</title>
+		<desc>Cuando se cumplen diez años de la desaparición de Marta del Castillo, el programa realiza un especial monográfico que tratará de dar respuesta a los interrogantes que aún rodean el caso. Para ello hablarán con tres de los cinco imputados.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P1621893"/>
 		<category>Informativo</category>
 	</programme>
-	<programme channel="Cuatro.TV" start="20230725024500 +0000" stop="20230725050000 +0000">
+	<programme channel="Cuatro.TV" start="20230725030500 +0000" stop="20230725050000 +0000">
 		<title>Puro Cuatro</title>
 		<desc>La música que suena en los programas y autopromociones de la cadena es la protagonista de este programa de Cuatro. El espacio es un escaparate de las últimas tendencias del pop, rock, 'hip hop' y electrónica, así como una lanzadera para dar a conocer a nuevos artistas.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P2091428"/>
 		<category>Música</category>
 	</programme>
-	<programme channel="Cuatro.TV" start="20230725024500 +0000" stop="20230725050000 +0000">
+	<programme channel="Cuatro.TV" start="20230725030500 +0000" stop="20230725050000 +0000">
 		<title>Puro Cuatro</title>
 		<desc>La música que suena en los programas y autopromociones de la cadena es la protagonista de este programa de Cuatro. El espacio es un escaparate de las últimas tendencias del pop, rock, 'hip hop' y electrónica, así como una lanzadera para dar a conocer a nuevos artistas.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P2091428"/>
@@ -2028,17 +2028,23 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P1303097"/>
 		<category>Música</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20230724035500 +0000" stop="20230724050000 +0000">
+	<programme channel="Telecinco.TV" start="20230724035500 +0000" stop="20230724041000 +0000">
 		<title>Enphorma: Episodio 9</title>
 		<desc>Programa especializado en temas actuales de alimentación, psicología y ejercicio.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3079944"/>
 		<category>Ocio y Aficiones</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20230724035500 +0000" stop="20230724050000 +0000">
+	<programme channel="Telecinco.TV" start="20230724035500 +0000" stop="20230724041000 +0000">
 		<title>Enphorma: Episodio 9</title>
 		<desc>Programa especializado en temas actuales de alimentación, psicología y ejercicio.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3079944"/>
 		<category>Ocio y Aficiones</category>
+	</programme>
+	<programme channel="Telecinco.TV" start="20230724041000 +0000" stop="20230724050000 +0000">
+		<title>25 palabras: Episodio 150</title>
+		<desc>Concurso presentado por Christian Gálvez en el que dos equipos, formados por dos famosos y un concursante anónimo, compiten por adivinar palabras a través de sinónimos o palabras relacionadas.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3075110"/>
+		<category>Entretenimiento</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20230724050000 +0000" stop="20230724065500 +0000">
 		<title>Informativos Telecinco matinal</title>
@@ -2047,21 +2053,21 @@
 		<category>Informativo</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20230724065500 +0000" stop="20230724070000 +0000">
-		<title>Previo: El programa de Ana Rosa</title>
-		<desc>Magacín matinal que combina información y ocio, presentado por Ana Rosa Quintana.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2122581"/>
+		<title>Previo: El programa de Ana Rosa: Episodio 219</title>
+		<desc>Ana Rosa Quintana presenta este magacín matutino que contiene diferentes secciones donde contertulianos hablan sobre temas de sociedad, corazón, política y actualidad.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3080950"/>
 		<category>Entretenimiento</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20230724070000 +0000" stop="20230724113000 +0000">
-		<title>El programa de Ana Rosa</title>
+		<title>El programa de Ana Rosa: Episodio 219</title>
 		<desc>Magacín matutino que contiene diferentes secciones donde contertulianos hablan sobre temas de sociedad, corazón, política y actualidad.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2122582"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3080938"/>
 		<category>Entretenimiento</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20230724113000 +0000" stop="20230724130000 +0000">
-		<title>Ya es mediodía</title>
+		<title>Ya es mediodía: Episodio 218</title>
 		<desc>Joaquín Prat presenta este programa informativo que ofrece un análisis pormenorizado de los temas más relevantes de la actualidad política, económica, social y cultural.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2103258"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3080940"/>
 		<category>Entretenimiento</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20230724130000 +0000" stop="20230724133000 +0000">
@@ -2082,28 +2088,22 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P1373654"/>
 		<category>Informativo</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20230724134500 +0000" stop="20230724144500 +0000">
-		<title>Mía es la venganza</title>
-		<desc>Sonia y Mario tienen algo en común: ambos sufren las consecuencias de un trágico accidente ocurrido hace veinte años. Ella vive presa del remordimiento, mientras que él está lleno de odio y quiere que Sonia pague por todo lo sucedido.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3053000"/>
-		<category>Series</category>
-	</programme>
-	<programme channel="Telecinco.TV" start="20230724144500 +0000" stop="20230724170000 +0000">
-		<title>Así es la vida</title>
+	<programme channel="Telecinco.TV" start="20230724134500 +0000" stop="20230724170000 +0000">
+		<title>Así es la vida: Episodio 21</title>
 		<desc>Magacín presentado por Sandra Barneda y César Muñoz. La última hora de las noticias de interés social a través de directos y reportajes, las novedades en el mundo de los famosos y de los grandes eventos del verano.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3060978"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3080942"/>
 		<category>Entretenimiento</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20230724170000 +0000" stop="20230724180000 +0000">
-		<title>25 palabras</title>
+		<title>25 palabras: Episodio 155</title>
 		<desc>Concurso presentado por Christian Gálvez en el que dos equipos, formados por dos famosos y un concursante anónimo, compiten por adivinar palabras a través de sinónimos o palabras relacionadas.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2155630"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3080944"/>
 		<category>Entretenimiento</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20230724180000 +0000" stop="20230724190000 +0000">
-		<title>Reacción en cadena</title>
+		<title>Reacción en cadena: Episodio 155</title>
 		<desc>Concurso presentado por Ion Aramendi en el que dos equipos rivales compiten en pruebas sucesivas para resolver cadenas de palabras mientras van acumulando dinero.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2155633"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3080946"/>
 		<category>Entretenimiento</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20230724190000 +0000" stop="20230724194000 +0000">
@@ -2124,28 +2124,28 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2160620"/>
 		<category>Deportes</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20230724200000 +0000" stop="20230724223000 +0000">
-		<title>Cine</title>
-		<desc>Emisión de una película.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P710030"/>
+	<programme channel="Telecinco.TV" start="20230724200000 +0000" stop="20230724231500 +0000">
+		<title>Gladiator (El gladiador)</title>
+		<desc>El general romano Máximo ha vuelto victorioso del campo de batalla. Ahora sólo sueña con el regreso al hogar junto a su esposa e hijo, pero el agonizante emperador Marco Aurelio tiene una nueva misión para él: heredar su corona. Cómodo, el hijo del emperador, celoso del favor que Máximo recibe de su padre, ordena la ejecución de Máximo y de su familia.Tras cuatro décadas sin que el mundo del celuloide se ocupase de la época clásica romana, el realizador estadounidense Ridley Scott decidió embarcarse en un proyecto espectacular en el que las viejas cuadrigas y las legiones imperiales volvían a la carga en un largometraje enriquecido con increíbles efectos digitales.Así, "Gladitator (El gladiador)" se convirtió en la película más premiada en la edición de los Oscar del año 2001, obteniendo los premios de mejor película, actor principal (Russell Crowe), efectos especiales, diseño de vestuario y sonido.Además de Crowe, que da vida al superviviente general Máximo reconvertido en gladiador ("¡¡¡hispano, hispano, hispano!!!"), protagonizan la película Joaquin Phoenix como Cómodo, Connie Nielsen (Lucilla), Oliver Reed (Próximo), Richard Harris (Marco Aurelio), Derek Jacobi (Graco) y Djimon Hounsou (Juba).</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P218224"/>
 		<category>Cine</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20230724223000 +0000" stop="20230725000500 +0000">
-		<title>Cine</title>
-		<desc>Emisión de una película.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P710030"/>
-		<category>Cine</category>
-	</programme>
-	<programme channel="Telecinco.TV" start="20230725000500 +0000" stop="20230725004000 +0000">
-		<title>Casino Gran Madrid Online Show</title>
-		<desc>Programa nocturno para que los espectadores puedan conectarse al Casino Gran Madrid desde casa.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2160166"/>
+	<programme channel="Telecinco.TV" start="20230724231500 +0000" stop="20230724234500 +0000">
+		<title>¡Toma Salami!: Episodio 59</title>
+		<desc>Espacio vespertino que ofrece en tira diaria los momentos más destacados de los 30 años de historia de Mediaset España. Se recuperan momentos míticos y estará narrado por Javier Capitán.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P1761968"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20230725004000 +0000" stop="20230725005500 +0000">
-		<title>¡Toma Salami!</title>
+	<programme channel="Telecinco.TV" start="20230724234500 +0000" stop="20230725002000 +0000">
+		<title>Casino Gran Madrid Online Show: Episodio 205</title>
+		<desc>Programa nocturno para que los espectadores puedan conectarse al Casino Gran Madrid desde casa.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3080948"/>
+		<category>Entretenimiento</category>
+	</programme>
+	<programme channel="Telecinco.TV" start="20230725002000 +0000" stop="20230725005500 +0000">
+		<title>¡Toma Salami!: Episodio 40</title>
 		<desc>Espacio vespertino que ofrece en tira diaria los momentos más destacados de los 30 años de historia de Mediaset España. Se recuperan momentos míticos y estará narrado por Javier Capitán.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P1671105"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P1707982"/>
 		<category>Entretenimiento</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20230725005500 +0000" stop="20230725010000 +0000">
@@ -2155,15 +2155,15 @@
 		<category>Ocio y Aficiones</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20230725010000 +0000" stop="20230725013000 +0000">
-		<title>Mejor llama a Kiko</title>
+		<title>Mejor llama a Kiko: Episodio 80</title>
 		<desc>Espacio de televenta presentado por Kiko Hernández.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P1623348"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3059154"/>
 		<category>Ocio y Aficiones</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20230725013000 +0000" stop="20230725020000 +0000">
-		<title>Mejor llama a Kiko</title>
+		<title>Mejor llama a Kiko: Episodio 67</title>
 		<desc>Espacio de televenta presentado por Kiko Hernández.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P1623348"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2090675"/>
 		<category>Ocio y Aficiones</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20230725020000 +0000" stop="20230725035500 +0000">
@@ -2173,15 +2173,15 @@
 		<category>Música</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20230725035500 +0000" stop="20230725041000 +0000">
-		<title>Enphorma</title>
+		<title>Enphorma: Episodio 8</title>
 		<desc>Programa especializado en temas actuales de alimentación, psicología y ejercicio.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3033572"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3067117"/>
 		<category>Ocio y Aficiones</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20230725035500 +0000" stop="20230725041000 +0000">
-		<title>Enphorma</title>
+		<title>Enphorma: Episodio 8</title>
 		<desc>Programa especializado en temas actuales de alimentación, psicología y ejercicio.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3033572"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3067117"/>
 		<category>Ocio y Aficiones</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20230725041000 +0000" stop="20230725050000 +0000">
@@ -10266,58 +10266,58 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1303097"/>
 		<category>Música</category>
 	</programme>
-	<programme channel="Energy.TV" start="20230724041500 +0000" stop="20230724054500 +0000">
-		<title>NCIS: Nueva Orleans</title>
+	<programme channel="Energy.TV" start="20230724041500 +0000" stop="20230724043000 +0000">
+		<title>Caronte (T1): Ep.2 Insurrección</title>
 		<desc>Tras el éxito de Samuel Caronte en el juicio contra Javier Sáez, Marta Pelayo decide hacerle una oferta para convertirse en socios y llevar el caso de Hilario Méntrida, un padre acusado de haber acabado con la vida de su hija ahogándola en un lago.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1352595"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1879560"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20230724054500 +0000" stop="20230724062000 +0000">
-		<title>NCIS: Nueva Orleans</title>
-		<desc>Nacho Sierra se encarga de mostrar a la audiencia lo que da de sí el reino animal. En este espacio tienen cabida desde las mascotas más exóticas hasta los animales de campo, sin olvidar el trabajo de veterinarios, etólogos y otros profesionales afines al este ámbito.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1352595"/>
+	<programme channel="Energy.TV" start="20230724043000 +0000" stop="20230724060000 +0000">
+		<title>Caronte (T1): Ep.3 El infierno</title>
+		<desc>Caronte recibe la desagradable noticia de que Jorge López se ha fugado durante su traslado a prisión. El abogado sospecha de Paniagua, pero no puede probarlo. Mientras, Tomás, antiguo compañero de prisión de Caronte, contrata los servicios del nuevo bufete.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1881708"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20230724062000 +0000" stop="20230724070500 +0000">
-		<title>NCIS: Nueva Orleans</title>
-		<desc>Nacho Sierra se encarga de mostrar a la audiencia lo que da de sí el reino animal. En este espacio tienen cabida desde las mascotas más exóticas hasta los animales de campo, sin olvidar el trabajo de veterinarios, etólogos y otros profesionales afines al este ámbito.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1352595"/>
+	<programme channel="Energy.TV" start="20230724060000 +0000" stop="20230724064000 +0000">
+		<title>The Blacklist (T5): Ep.1 Smokey Putnum (Nº 30)</title>
+		<desc>Con su imperio criminal en ruinas y sus contactos en el mundo criminal completamente mermados, Red propone un plan a Liz para ganar dinero y entregar a un nuevo miembro de la lista negra a las fuerzas especiales.La eterna guerra de Reddington contra Kaplan parece haber llegado a su fin, con Red a salvo de que su trabajo para las fuerzas especiales del FBI no haya sido desvelado. Pero Reddington se encuentra por primera vez en una posición realmente vulnerable, completamente arruinado y con sus contactos en el mundo criminal considerablemente mermados. A esto se añade la confirmación definitiva de que Reddington es el padre biológico de Liz. Ahora que ya no es ningún secreto, Liz debe encontrar la manera de encajarlo en su nueva identidad, cada vez más cercana a la criminalidad.Quinta temporada de la adrenalítica serie protagonizada por James Spader, ganador de tres premios Emmy, y consolidada como uno de los mejores thrillers de acción de la televisión en abierto en EE UU.Megan Boone ("Los Angeles: Distrito criminal", "Step Up Revolution"), Diego Klattenhoff ("Homeland") y Ryan Eggold ("Dirt, El séquito) completan el reparto."The Blacklist" está creada por Jon Bokenkamp ("The Call", "Seduciendo a un extraño") y producida por John Eisendrath ("Alias") y John Davis ("Depredador", "Yo, Robot", "Chronicle") ha contado con Joe Carnahan ("Narc", "Ases Calientes", "El Equipo A", "Infierno Blanco") para la dirección del capítulo piloto. Diego Klattenhoff ("Homeland"), Harry Lennix ("Man of Steel") y Ryan Eggold ("90210") completan el reparto junto a los protagonistas.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1413656"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20230724070500 +0000" stop="20230724074500 +0000">
-		<title>NCIS: Nueva Orleans</title>
-		<desc>Nacho Sierra se encarga de mostrar a la audiencia lo que da de sí el reino animal. En este espacio tienen cabida desde las mascotas más exóticas hasta los animales de campo, sin olvidar el trabajo de veterinarios, etólogos y otros profesionales afines al este ámbito.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1352595"/>
+	<programme channel="Energy.TV" start="20230724064000 +0000" stop="20230724071500 +0000">
+		<title>The Blacklist (T5): Ep.2 Greyson Blaise (Nº 37)</title>
+		<desc>El equipo va tras la pista de un multimillonario experto en robos de arte de lujo. Tom busca identificar los restos en el maletín.La eterna guerra de Reddington contra Kaplan parece haber llegado a su fin, con Red a salvo de que su trabajo para las fuerzas especiales del FBI no haya sido desvelado. Pero Reddington se encuentra por primera vez en una posición realmente vulnerable, completamente  arruinado y con sus contactos en el mundo criminal considerablemente mermados. A esto se añade la confirmación definitiva de que Reddington es el padre biológico de Liz. Ahora que ya no es ningún secreto, Liz debe encontrar la manera de encajarlo en su nueva identidad, cada vez más cercana a la criminalidad.Quinta temporada de la adrenalítica serie protagonizada por James Spader, ganador de tres premios Emmy, y consolidada como uno de los mejores thrillers de acción de la televisión en abierto en EE UU.Megan Boone ("Los Angeles: Distrito criminal", "Step Up Revolution"), Diego Klattenhoff ("Homeland") y Ryan Eggold ("Dirt, El séquito) completan el reparto."The Blacklist" está creada por Jon Bokenkamp ("The Call", "Seduciendo a un extraño") y producida por John Eisendrath ("Alias") y John Davis ("Depredador", "Yo, Robot", "Chronicle") ha contado con Joe Carnahan ("Narc", "Ases Calientes", "El Equipo A", "Infierno Blanco") para la dirección del capítulo piloto. Diego Klattenhoff ("Homeland"), Harry Lennix ("Man of Steel") y Ryan Eggold ("90210") completan el reparto junto a los protagonistas.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1413657"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20230724074500 +0000" stop="20230724084500 +0000">
-		<title>NCIS: Nueva Orleans</title>
-		<desc>Cuando Riggs y Murtaugh investigan el asesinato de una joven modelo, descubren lo que se oculta tras las puertas de la mansión de una de las familias más ricas de Los Ángeles. Además, un amigo de la mujer de Riggs podría estar involucrado en el caso.En "Arma letal", adaptación televisiva del clásico de 1987, Martin Riggs es un carismático detective de policía de Texas, ex marine y amante del riesgo, que se muda a California para empezar de cero en la policía de Los Ángeles después de que su mujer embarazada muera en un trágico accidente de coche. Deprimido y sin ninguna gana de vivir, Riggs es asignado como compañero de Roger Murtaugh, un padre de familia que se reincorpora al cuerpo tras salir de una operación de corazón por un infarto.La actitud autodestructiva, pesimista y a veces psicótica de Riggs, que no duda en ponerse en plena línea de fuego sin importarle las consecuencias, choca radicalmente con el carácter tranquilo y los métodos tradicionales de Murtaugh, quien lo que menos necesita a su lado es una persona que le ponga al borde de la muerte a cada minuto. A medida que unen sus fuerzas para  atrapar a los criminales de Los Ángeles, Riggs conoce a la familia de Murtaugh y Murtaugh conoce los secretos de Riggs, mientras descubren que ser tan opuestos podría no ser tan malo después de todo. Eso si Riggs consigue que no les maten primero...Protagonizada por Clayne Crawford ("Un paseo para recordar", "24", "Rectify") en el papel de Martin Riggs y por Damon Wayans Jr. (con cuatro nominaciones a los Emmy por su papel en "In Living Color"), como Roger Murtaugh, la serie hace gala de unas espectaculares secuencias de acción rara vez vistas en televisión. No en vano, el episodio piloto de la serie fue el que más convenció durante su presentación en los Screenings de Los Ángeles y supuso uno de los estrenos más esperados.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1352595"/>
+	<programme channel="Energy.TV" start="20230724071500 +0000" stop="20230724080500 +0000">
+		<title>NCIS: Nueva Orleans (T5): Ep.5 En la sangre</title>
+		<desc>El padre de Pride, Cassius Pride, está involucrado en un antigüo caso sin resolver de un famoso atraco a un casino. Además, Pride conoce a un miembro de la familia del que no conocía su existencia.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1637220"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20230724084500 +0000" stop="20230724092500 +0000">
-		<title>NCIS: Los Ángeles</title>
+	<programme channel="Energy.TV" start="20230724080500 +0000" stop="20230724084500 +0000">
+		<title>NCIS: Nueva Orleans (T5): Ep.6 Una libra de carne</title>
+		<desc>La asistente de Pride, Ginny Young, se escapa de un secuestrador.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1637221"/>
+		<category>Series</category>
+	</programme>
+	<programme channel="Energy.TV" start="20230724084500 +0000" stop="20230724093000 +0000">
+		<title>NCIS: Nueva Orleans (T5): Ep.7 Perros pastores</title>
 		<desc>Tras la explosión de un coche con víctimas mortales en el Barrio Francés, el equipo del NCIS interroga a un profesor y exmiembro de una organización estudiantil. Además, Tammy descubre un secreto sobre la vida personal de Hannah.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1335377"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1645371"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20230724092500 +0000" stop="20230724102000 +0000">
-		<title>NCIS: Los Ángeles</title>
-		<desc>Un atraco a un casino de un millón de dólares toma un giro mortal y Riggs se hace amigo del único testigo creíble: un niño de ocho años. Mientras tanto, Murtaugh trata de demostrar a todo el mundo que puede ser un buen motorista.En "Arma letal", adaptación televisiva del clásico de 1987, Martin Riggs es un carismático detective de policía de Texas, ex marine y amante del riesgo, que se muda a California para empezar de cero en la policía de Los Ángeles después de que su mujer embarazada muera en un trágico accidente de coche. Deprimido y sin ninguna gana de vivir, Riggs es asignado como compañero de Roger Murtaugh, un padre de familia que se reincorpora al cuerpo tras salir de una operación de corazón por un infarto.La actitud autodestructiva, pesimista y a veces psicótica de Riggs, que no duda en ponerse en plena línea de fuego sin importarle las consecuencias, choca radicalmente con el carácter tranquilo y los métodos tradicionales de Murtaugh, quien lo que menos necesita a su lado es una persona que le ponga al borde de la muerte a cada minuto. A medida que unen sus fuerzas para  atrapar a los criminales de Los Ángeles, Riggs conoce a la familia de Murtaugh y Murtaugh conoce los secretos de Riggs, mientras descubren que ser tan opuestos podría no ser tan malo después de todo. Eso si Riggs consigue que no les maten primero...Protagonizada por Clayne Crawford ("Un paseo para recordar", "24", "Rectify") en el papel de Martin Riggs y por Damon Wayans Jr. (con cuatro nominaciones a los Emmy por su papel en "In Living Color"), como Roger Murtaugh, la serie hace gala de unas espectaculares secuencias de acción rara vez vistas en televisión. No en vano, el episodio piloto de la serie fue el que más convenció durante su presentación en los Screenings de Los Ángeles y supuso uno de los estrenos más esperados.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1335377"/>
+	<programme channel="Energy.TV" start="20230724093000 +0000" stop="20230724100000 +0000">
+		<title>NCIS: Nueva Orleans (T5): Ep.8 Cerca de casa</title>
+		<desc>El equipo del NCIS mantiene a Mateo Díaz, un pandillero de instituto que se convirtió en informante, en custodia preventiva mientras investigan el asesinato de su instructor en el grupo de entrenamiento del cuerpo de reserva junior. Además, Pride necesita la ayuda de su hermano, Jimmy Boyd, para ganarse la confianza de Mateo.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1645372"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20230724102000 +0000" stop="20230724111500 +0000">
-		<title>NCIS: Los Ángeles</title>
-		<desc>Nacho Sierra se encarga de mostrar a la audiencia lo que da de sí el reino animal. En este espacio tienen cabida desde las mascotas más exóticas hasta los animales de campo, sin olvidar el trabajo de veterinarios, etólogos y otros profesionales afines al este ámbito.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1335377"/>
-		<category>Series</category>
-	</programme>
-	<programme channel="Energy.TV" start="20230724111500 +0000" stop="20230724120500 +0000">
-		<title>NCIS: Los Ángeles</title>
-		<desc>Edición especial del programa para celebrar las fiestas de Navidad.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1335377"/>
+	<programme channel="Energy.TV" start="20230724100000 +0000" stop="20230724120500 +0000">
+		<title>NCIS: Los Ángeles (T5): Ep.14 Gritos de guerra</title>
+		<desc>Cuando dos contratistas militares privados son asesinados, la investigación del equipo lleva a un sospechoso que pone a uno de los suyos en peligro. Mientras, Sam embosca a Callen en una cita a ciegas.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1136465"/>
 		<category>Series</category>
 	</programme>
 	<programme channel="Energy.TV" start="20230724120500 +0000" stop="20230724125500 +0000">
@@ -10764,52 +10764,52 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP823919"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="FDF.TV" start="20230724050000 +0000" stop="20230724050500 +0000">
-		<title>¡Toma Salami!</title>
+	<programme channel="FDF.TV" start="20230724050000 +0000" stop="20230724051500 +0000">
+		<title>¡Toma Salami!: Episodio 52</title>
 		<desc>Espacio vespertino que ofrece en tira diaria los momentos más destacados de los 30 años de historia de Mediaset España. Se recuperan momentos míticos y estará narrado por Javier Capitán.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP1671105"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP1716797"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="FDF.TV" start="20230724050500 +0000" stop="20230724053500 +0000">
-		<title>¡Toma Salami!</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP1671105"/>
+	<programme channel="FDF.TV" start="20230724051500 +0000" stop="20230724054500 +0000">
+		<title>¡Toma Salami!: Episodio 53</title>
+		<desc>Espacio vespertino que ofrece en tira diaria los momentos más destacados de los 30 años de historia de Mediaset España. Se recuperan momentos míticos y estará narrado por Javier Capitán.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP1716247"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="FDF.TV" start="20230724053500 +0000" stop="20230724060500 +0000">
-		<title>Mejor llama a Kiko</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP1623348"/>
+	<programme channel="FDF.TV" start="20230724054500 +0000" stop="20230724061500 +0000">
+		<title>Mejor llama a Kiko: Episodio 80</title>
+		<desc>Espacio de televenta presentado por Kiko Hernández.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP3059152"/>
 		<category>Ocio y Aficiones</category>
 	</programme>
-	<programme channel="FDF.TV" start="20230724060500 +0000" stop="20230724071500 +0000">
-		<title>Los Serrano</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP331769"/>
+	<programme channel="FDF.TV" start="20230724061500 +0000" stop="20230724073500 +0000">
+		<title>Los Serrano (T2): Ep.16 El quinto sentido</title>
+		<desc>La relación entre Carmen y Francisco se intensifica cada día que pasa hasta el punto que él pide a la madre de Lucía que formalicen su unión a través del matrimonio. Carmen acepta su propuesta encantada, pero la tranquilidad de la pareja se rompe cuando a Francisco le reclaman una antigua deuda. Por otro lado, Diego, Fiti y Santiago preparan una escapada para irse a pescar. Cuando la salida es inminente, llega el ex marido de Lucía. Fiti reprocha a Diego que se marche de casa dejando el camino libre a Sergi. Diego sigue adelante con el plan de pesca pero, presa de la duda, decide regresar al domicilio conyugal antes de lo previsto.Boliche, que acaba de perder a su perro, está dispuesto a hacer cualquier cosa para recuperarlo. Sus amigos acuden en su ayuda y le echan una mano en la búsqueda. Convencidos de que el can se encuentra en el cementerio, los niños acuden al lugar. Sin embargo, los chicos no resultan tan valientes como creían ya que creen que comparten el camposanto con un vampiro.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP367941"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="FDF.TV" start="20230724071500 +0000" stop="20230724081500 +0000">
-		<title>Aída</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP564595"/>
+	<programme channel="FDF.TV" start="20230724073500 +0000" stop="20230724083500 +0000">
+		<title>Aída (T10): Ep.157 El a Padrino</title>
+		<desc>Aída, asistenta de clase humilde, tiene una pésima suerte con los hombres y unas complicadas relaciones personales.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP974127"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="FDF.TV" start="20230724081500 +0000" stop="20230724092500 +0000">
-		<title>Aída</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP869637"/>
+	<programme channel="FDF.TV" start="20230724083500 +0000" stop="20230724093000 +0000">
+		<title>Aída (T3): Ep.31 Tu madre se ha comido mi dedo</title>
+		<desc>Aída, asistenta de clase humilde, tiene una pésima suerte con los hombres y unas complicadas relaciones personales.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP600234"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="FDF.TV" start="20230724092500 +0000" stop="20230724104500 +0000">
-		<title>Aída</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP869637"/>
+	<programme channel="FDF.TV" start="20230724093000 +0000" stop="20230724102500 +0000">
+		<title>Aída (T10): Ep.164 Los Guinness al sol</title>
+		<desc>Aída, asistenta de clase humilde, tiene una pésima suerte con los hombres y unas complicadas relaciones personales.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP974134"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="FDF.TV" start="20230724104500 +0000" stop="20230724125000 +0000">
-		<title>La que se avecina</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP1282207"/>
+	<programme channel="FDF.TV" start="20230724102500 +0000" stop="20230724125000 +0000">
+		<title>Aída (T10): Ep.165 Top Secuestret</title>
+		<desc>Aída, asistenta de clase humilde, tiene una pésima suerte con los hombres y unas complicadas relaciones personales.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP974135"/>
 		<category>Series</category>
 	</programme>
 	<programme channel="FDF.TV" start="20230724125000 +0000" stop="20230724145000 +0000">
@@ -12300,19 +12300,25 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTDEPP3079716"/>
 		<category>Deportes</category>
 	</programme>
-	<programme channel="TDP.TV" start="20230723162500 +0000" stop="20230723181500 +0000">
-		<title>Tour de Francia (T2023): Etapa 21 - Saint-Quentin-en-Yvelines - París</title>
-		<desc>El tradicional paseo por las calles de París pone el colofón al Tour de Francia. Los ganadores de los diferentes jerseys reciben el aplauso de la gente que abarrota la capital gala. Y, en juego, la prestigiosa llegada masiva en los Campos Elíseos.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTDEPP3053186"/>
-		<category>Deportes</category>
-	</programme>
-	<programme channel="TDP.TV" start="20230723181500 +0000" stop="20230723185500 +0000">
+	<programme channel="TDP.TV" start="20230723162500 +0000" stop="20230723173000 +0000">
 		<title>Mundial de motocross (T2023): Flandes - MXGP - Primera carrera</title>
 		<desc>El mundial de motocross promete espectáculo. La 67ª temporada incluye 19 eventos que se celebran desde el mes de marzo hasta principios de octubre. Tim Gajser defiende título en la clase MXGP. En MX2, el vencedor de 2022 fue Tom Vialle.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTDEPP3069330"/>
 		<category>Deportes</category>
 	</programme>
-	<programme channel="TDP.TV" start="20230723185500 +0000" stop="20230723210000 +0000">
+	<programme channel="TDP.TV" start="20230723173000 +0000" stop="20230723181500 +0000">
+		<title>Tour de Francia (T2023): Podio Etapa 21 - Saint - Quentin - en - Yvelines - París</title>
+		<desc>La gran cita anual del pelotón se celebra desde el 1 al 23 de julio. 21 días de competición con salida en Bilbao y meta en París tras más de 3.400 kilómetros. Vingegaard, vencedor de la última edición, Pogacar, Van Aert, Yates, Mas o Landa encabezan un cartel de lujo.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTDEPP3080959"/>
+		<category>Deportes</category>
+	</programme>
+	<programme channel="TDP.TV" start="20230723181500 +0000" stop="20230723185000 +0000">
+		<title>Mundial de motocross (T2023): Flandes - MXGP - Segunda carrera</title>
+		<desc>El mundial de motocross promete espectáculo. La 67ª temporada incluye 19 eventos que se celebran desde el mes de marzo hasta principios de octubre. Tim Gajser defiende título en la clase MXGP. En MX2, el vencedor de 2022 fue Tom Vialle.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTDEPP3069334"/>
+		<category>Deportes</category>
+	</programme>
+	<programme channel="TDP.TV" start="20230723185000 +0000" stop="20230723210000 +0000">
 		<title>MundoBasket sub-19 (F) (T2023): Final</title>
 		<desc>Madrid alberga la disputa del MundoBasket sub-19 del 15 al 23 de julio. Las jóvenes promesas de la canasta se desplazan a la capital dispuestas a labrarse una carrera. Entre ellas, las de España, candidata al título junto a Estados Unidos o Lituania.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTDEPP3079714"/>
@@ -12324,22 +12330,16 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTDEPP3061813"/>
 		<category>Deportes</category>
 	</programme>
-	<programme channel="TDP.TV" start="20230723224500 +0000" stop="20230723232000 +0000">
+	<programme channel="TDP.TV" start="20230723224500 +0000" stop="20230723232500 +0000">
 		<title>Programa Copa Mundial Femenina (T2023): Domingo 23 julio</title>
 		<desc>Nueva Zelanda y Australia acogen la disputa de la Copa Mundial de la FIFA, la gran competición de selecciones del fútbol femenino. Este espacio repasa toda la actualidad del torneo oceánico, con las imágenes de los encuentros y los testimonios de las protagonistas.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTDEPP3079716"/>
 		<category>Deportes</category>
 	</programme>
-	<programme channel="TDP.TV" start="20230723232000 +0000" stop="20230724000500 +0000">
+	<programme channel="TDP.TV" start="20230723232500 +0000" stop="20230724004000 +0000">
 		<title>Tour de Francia (F) (T2023): Etapa 1 - Clermont-Ferrand - Clermont-Ferrand</title>
 		<desc>El Tour de Francia femenino arranca sin que haya acabado la edición masculina. En la primera jornada, el pelotón recorre 123,8 kilómetros por los alrededores de Clermont-Ferrand.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTDEPP3055324"/>
-		<category>Deportes</category>
-	</programme>
-	<programme channel="TDP.TV" start="20230724000500 +0000" stop="20230724004000 +0000">
-		<title>Mundial de motocross (T2023): Flandes - MXGP - Segunda carrera</title>
-		<desc>El mundial de motocross promete espectáculo. La 67ª temporada incluye 19 eventos que se celebran desde el mes de marzo hasta principios de octubre. Tim Gajser defiende título en la clase MXGP. En MX2, el vencedor de 2022 fue Tom Vialle.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTDEPP3069334"/>
 		<category>Deportes</category>
 	</programme>
 	<programme channel="TDP.TV" start="20230724004000 +0000" stop="20230724012500 +0000">
@@ -14316,82 +14316,88 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1757144"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20230724034000 +0000" stop="20230724044900 +0000">
+	<programme channel="Divinity.TV" start="20230724034000 +0000" stop="20230724041500 +0000">
 		<title>Chicago Fire (T7): Ep.10 No son solo trastos</title>
 		<desc>Casey y Naomi se encuentran en peligro. Foster y Brett planifican una visita al equipo, mientras Severide y Kidd pasan por un momento complicado.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1757145"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20230724034000 +0000" stop="20230724044900 +0000">
+	<programme channel="Divinity.TV" start="20230724034000 +0000" stop="20230724041500 +0000">
 		<title>Chicago Fire (T7): Ep.10 No son solo trastos</title>
 		<desc>Casey y Naomi se encuentran en peligro. Foster y Brett planifican una visita al equipo, mientras Severide y Kidd pasan por un momento complicado.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1757145"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20230724044900 +0000" stop="20230724050400 +0000">
-		<title>Gen360</title>
-		<desc>¡Aaaah! es el grito de dolor, de sorpresa, de miedo, de alegría, es un canto, una queja, risas, ira. ¡Aaaah! es la expresión con la que los niños, esos seres primarios e inocentes, experimentan la vida en grupo, vigilados por los adultos a golpe de silbato.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1917262"/>
+	<programme channel="Divinity.TV" start="20230724041500 +0000" stop="20230724042500 +0000">
+		<title>I Love TV: Lo mejor</title>
+		<desc>Espacio de zapeo que ofrece las imágenes más impactantes de la pequeña pantalla.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1386331"/>
+		<category>Entretenimiento</category>
+	</programme>
+	<programme channel="Divinity.TV" start="20230724042500 +0000" stop="20230724045000 +0000">
+		<title>Conectamos empleo: Episodio 3</title>
+		<desc>Programa sobre empleo y mercado laboral.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP3075239"/>
 		<category>Cultural/Educativo</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20230724050400 +0000" stop="20230724051900 +0000">
-		<title>Enphorma</title>
-		<desc>Cortometraje nominado a Mejor Cortometraje Europeo.A Nikita le encanta escuchar música techno y sueña con ir a Berlín y visitar el famoso club Berghain. Su madre Irena no conoce los sueños de su hijo, y pronto sus expectativas mutuas chocarán.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP3033572"/>
+	<programme channel="Divinity.TV" start="20230724045000 +0000" stop="20230724045500 +0000">
+		<title>Enphorma: Episodio 9</title>
+		<desc>Programa especializado en temas actuales de alimentación, psicología y ejercicio.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP3079944"/>
 		<category>Ocio y Aficiones</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20230724051900 +0000" stop="20230724060000 +0000">
-		<title>Entre fantasmas</title>
-		<desc>Ganador del Oscar 2023 al mejor cortometraje de ficción y del BAFTA 2023 al mejor cortometraje británico.En una zona rural de Irlanda del Norte, dos hermanos se reencuentran tras la prematura muerte de su madre. Cuando descubren una lista de cosas pendientes que pertenece a su difunta madre, su doloroso reencuentro toma un curso completamente diferente.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP604673"/>
+	<programme channel="Divinity.TV" start="20230724045500 +0000" stop="20230724053000 +0000">
+		<title>Castle (T2): Ep.20 Horario mortal</title>
+		<desc>Cuando Castle es invitado a un programa de la televisión presentado por un legendario presentador, Bobby Mann, para promocionar su libro. Durante una pausa publicitaria, el presentador confiesa al escritor que se siente perseguido, que alguien quiere verlo muerto. Unas horas más tarde, Bobby Mann aparece muerto, aparentemente a causa de un repentino un ataque al corazón. Pero Castle intentará convencer a la detective de que se trata de un asesinato. Gracias a la testarudez del escritor, la forense encontrará indicios de asesinato. Y a partir de ahí, la policía tendrá que investigar quien quería ver muerto al afamado presentador, podría ser algún compañero de plató o cualquiera de sus seis ex mujeres. Pero además, este programa incitará una apasionada relación entre Castle y una bella actriz que también fue invitada al magacín televisivo.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP855080"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20230724060000 +0000" stop="20230724064200 +0000">
-		<title>Entre fantasmas</title>
-		<desc>¡Aaaah! es el grito de dolor, de sorpresa, de miedo, de alegría, es un canto, una queja, risas, ira. ¡Aaaah! es la expresión con la que los niños, esos seres primarios e inocentes, experimentan la vida en grupo, vigilados por los adultos a golpe de silbato.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP604673"/>
+	<programme channel="Divinity.TV" start="20230724053000 +0000" stop="20230724061500 +0000">
+		<title>Castle (T2): Ep.21 La guarida de los ladrones</title>
+		<desc>Castle y Beckett deben investigar el asesinato de un ladrón de bancos que ha aparecido brutalmente electrocutado dentro de un coche. Cuando tratan de descubrir a los culpables, los primeros indicios les llevan hasta la mafia neoyorquina. Pero pronto dos acontecimientos harán especial este caso. Por un lado todos se sorprenden al descubrir que Espósito conoce muy bien al principal sospechoso. Hecho que traerá más de un problema al agente, ya que por su seguridad será apartado del caso preventivamente. Y por otro lado llega a la comisaría el atractivo detective Tom Demming, que dirigirá esta investigación. Su llegada provocará cambios importantes en la dinámica de trabajo. Pero el que más lo va a sufrir será Castle, ya que la buena conexión de Kate y el detective provocará que el escritor se sienta desplazado.Por otra parte, Castle decide enseñar a Alexis los mejores trucos para ganar a las cartas.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP855081"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20230724064200 +0000" stop="20230724072200 +0000">
-		<title>Entre fantasmas</title>
-		<desc>Cortometraje nominado a Mejor Cortometraje Europeo.A Nikita le encanta escuchar música techno y sueña con ir a Berlín y visitar el famoso club Berghain. Su madre Irena no conoce los sueños de su hijo, y pronto sus expectativas mutuas chocarán.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP604673"/>
+	<programme channel="Divinity.TV" start="20230724061500 +0000" stop="20230724065500 +0000">
+		<title>Castle (T2): Ep.22 Una comida de muerte</title>
+		<desc>Un famoso chef aparece congelado en la cocina de su restaurante, uno de los más reputados de Nueva York. Las complicaciones del caso comienzan con la autopsia, ya que la congelación de la víctima es tan extrema, que deberán esperar un tiempo hasta que se descongele, ya que tal como encuentran el cuerpo se deshace con el mínimo roce. Además la atracción entre Castle y la dueña del restaurante, una antigua amiga del instituto de Kate, puede entorpecer la investigación y seguro que influirá entre la actual relación entre Beckett y el escritor. Aunque mientras Castle intima con la bella amiga de Kate, ella seguirá avanzando en su relación con el detective Demming.Y por otra parte, Alexis que está en época de exámenes, pedirá de nuevo a su padre la responsabilidad que se le supone.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP855082"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20230724072200 +0000" stop="20230724081000 +0000">
-		<title>Entre fantasmas</title>
-		<desc>Ganador del Oscar 2023 al mejor cortometraje de ficción y del BAFTA 2023 al mejor cortometraje británico.En una zona rural de Irlanda del Norte, dos hermanos se reencuentran tras la prematura muerte de su madre. Cuando descubren una lista de cosas pendientes que pertenece a su difunta madre, su doloroso reencuentro toma un curso completamente diferente.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP604673"/>
+	<programme channel="Divinity.TV" start="20230724065500 +0000" stop="20230724074000 +0000">
+		<title>Castle (T2): Ep.23 Te mato y te remato</title>
+		<desc>El equipo tiene que investigar la muerte de un exitoso empresario de cosméticos para el hombre. Al comprobar que en la casa de la víctima han desaparecido una serie de libros de alto valor, Beckett invita a colaborar a Demming en este caso de homicidio con robo. Esta situación incomodará a Castle ya que tendrá que resignarse a ser testigo del romance en ciernes entre los detectives. Y además trabajar de nuevo juntos, provocará que Castle y Demming compitan por la atención de Kate y a cada momento intenten dejar claro que su forma de investigar es la mejor. Y mientras el detective y el escritor se pelean por demostrar quien lleva la razón, Kate utilizarán los avances de uno y otro para resolver el caso.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP855083"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20230724081000 +0000" stop="20230724085500 +0000">
-		<title>Castle</title>
-		<desc>¡Aaaah! es el grito de dolor, de sorpresa, de miedo, de alegría, es un canto, una queja, risas, ira. ¡Aaaah! es la expresión con la que los niños, esos seres primarios e inocentes, experimentan la vida en grupo, vigilados por los adultos a golpe de silbato.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1112801"/>
+	<programme channel="Divinity.TV" start="20230724074000 +0000" stop="20230724082000 +0000">
+		<title>Castle (T2): Ep.24 Un juego mortal</title>
+		<desc>A Castle comenzará a afectarle directamente la relación entre Beckett y Demming, ya que este romance ha provocado algunas dudas sobre la evolución de sus personajes, por lo que no ha terminado a tiempo el primer borrador de su nueva novela. Por ello el escritor trata de evitar hablar con Gina, su ex mujer y su actual editora. Mientras recibe la llamada de Beckett para investigar la muerte de un hombre que ha aparecido con múltiples heridas de bala. La policía lo tendrá difícil, ya que todo apunta a que haya sido un asesino profesional que tras matar a la víctima ha eliminado cualquier prueba, incluidas las balas. Además cuando comprueban que la identificación del hombre es falsa, el caso se complicará, podrían estar ante el asesinato de un espía. Pero en este caso nada es lo que parece.Y mientras la relación entre los detectives Demming y Beckett sigue adelante, Castle se planteará descansar durante un tiempo de su actual vida. Quizá estar más de un año siguiendo de cerca de su musa, es más que suficiente. De cualquier manera, Kate y Rick se verán forzados a hablar de sus sentimientos hacia el otro.Por otra parte, Alexis es admitida en un curso de verano de Priceton. Y Martha ha sido elegida para un papel en una obra estival. Por lo que este verano promete ser el más solitario para el escritor.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP855084"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20230724085500 +0000" stop="20230724094200 +0000">
-		<title>Castle</title>
-		<desc>Cortometraje nominado a Mejor Cortometraje Europeo.A Nikita le encanta escuchar música techno y sueña con ir a Berlín y visitar el famoso club Berghain. Su madre Irena no conoce los sueños de su hijo, y pronto sus expectativas mutuas chocarán.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1112801"/>
+	<programme channel="Divinity.TV" start="20230724082000 +0000" stop="20230724090000 +0000">
+		<title>Castle (T3): Ep.1 Una aventura mortal</title>
+		<desc>La única pista que descubren Beckett y su equipo en la escena del crimen de una joven, les llevará a una dirección desconocida. En este apartamento  descubrirán una nueva víctima y sorprendentemente a Castle junto al cadáver con una pistola en la mano. Beckett, Esposito y Ryan se ven obligados a detener a Castle como principal sospechoso del caso. Esta será la primera vez que Castle visite la comisaría para ser interrogado, en esta ocasión además de sus encantos deberá demostrar una buena coartada para demostrar su inocencia.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP825092"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20230724094200 +0000" stop="20230724102600 +0000">
-		<title>Castle</title>
-		<desc>Ganador del Oscar 2023 al mejor cortometraje de ficción y del BAFTA 2023 al mejor cortometraje británico.En una zona rural de Irlanda del Norte, dos hermanos se reencuentran tras la prematura muerte de su madre. Cuando descubren una lista de cosas pendientes que pertenece a su difunta madre, su doloroso reencuentro toma un curso completamente diferente.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1112801"/>
+	<programme channel="Divinity.TV" start="20230724090000 +0000" stop="20230724093000 +0000">
+		<title>Castle (T3): Ep.2 Hombre muerto, mujer muerta</title>
+		<desc>Una famosa vidente es asesinada, Beckett y Castle tendrán que investigar el crimen. Mientras hacen las primeras averiguaciones, ambos comparten su opinión sobre el más allá y los supuestos poderes de los mediums. En pleno debate, llegará una prueba que les desconcertará: una carta de la víctima fechada el día del asesinato en la que predice su propia muerte.  Tras esta inquietante nota, deberán averiguar si es una prueba del poder del más allá o se trata de la estrategia de un asesino.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP825093"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20230724102600 +0000" stop="20230724111600 +0000">
-		<title>Castle</title>
-		<desc>Nacho Sierra se encarga de mostrar a la audiencia lo que da de sí el reino animal. En este espacio tienen cabida desde las mascotas más exóticas hasta los animales de campo, sin olvidar el trabajo de veterinarios, etólogos y otros profesionales afines al este ámbito.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1112801"/>
+	<programme channel="Divinity.TV" start="20230724093000 +0000" stop="20230724103000 +0000">
+		<title>Elementary (T3): Ep.3 Un irregular habitual</title>
+		<desc>Un genio de las matemáticas que trata de resolver un enigma acaba descubriendo un cadáver. Por otro lado, el pasado de Kitty hace que Joan busque hacer las paces con ella.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1180871"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20230724111600 +0000" stop="20230724120200 +0000">
-		<title>Castle</title>
-		<desc>Nacho Sierra se encarga de mostrar a la audiencia lo que da de sí el reino animal. En este espacio tienen cabida desde las mascotas más exóticas hasta los animales de campo, sin olvidar el trabajo de veterinarios, etólogos y otros profesionales afines al este ámbito.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1112801"/>
+	<programme channel="Divinity.TV" start="20230724103000 +0000" stop="20230724120200 +0000">
+		<title>Elementary (T3): Ep.4 Bella</title>
+		<desc>Sherlock Holmes le pide ayuda a su colaboradora, la doctora Watson, cuando alguien roba un programa informático de inteligencia artificial. Sin embargo, Watson duda de los motivos de Sherlock para investigar el caso.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1180872"/>
 		<category>Series</category>
 	</programme>
 	<programme channel="Divinity.TV" start="20230724120200 +0000" stop="20230724125800 +0000">
@@ -15864,40 +15870,46 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP54818"/>
 		<category>Cine</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20230724035000 +0000" stop="20230724053500 +0000">
+	<programme channel="Bemad.TV" start="20230724035000 +0000" stop="20230724052000 +0000">
 		<title>Pesadilla en Elm Street. El origen</title>
 		<desc>Un grupo de adolescentes de los suburbios tiene algo en común: todos ellos son perseguidos por Freddy Krueger, un asesino con el rostro quemado que trata de acabar con ellos en los sueños. Mientras permanezcan despiertos podrán protegerse los unos a los otros. Pero cuando duermen... no hay escapatoria.En "Pesadilla en Elm Street: El origen", Freddy Krueger regresa en una reinvención contemporánea del clásico del cine de terror.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP895825"/>
 		<category>Cine</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20230724035000 +0000" stop="20230724053500 +0000">
+	<programme channel="Bemad.TV" start="20230724035000 +0000" stop="20230724052000 +0000">
 		<title>Pesadilla en Elm Street. El origen</title>
 		<desc>Un grupo de adolescentes de los suburbios tiene algo en común: todos ellos son perseguidos por Freddy Krueger, un asesino con el rostro quemado que trata de acabar con ellos en los sueños. Mientras permanezcan despiertos podrán protegerse los unos a los otros. Pero cuando duermen... no hay escapatoria.En "Pesadilla en Elm Street: El origen", Freddy Krueger regresa en una reinvención contemporánea del clásico del cine de terror.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP895825"/>
 		<category>Cine</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20230724053500 +0000" stop="20230724073000 +0000">
-		<title>Cine</title>
-		<desc>Una competición en la que participan los mejores escaladores del planeta. El certamen llega este año a su 35ª edición y cuenta con 12 pruebas en el calendario. Se premian tres disciplinas: lead, boulder y velocidad.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP1673189"/>
+	<programme channel="Bemad.TV" start="20230724052000 +0000" stop="20230724055000 +0000">
+		<title>El zapping de Surferos: Episodio 88</title>
+		<desc>Físicamente es imposible llegar a captar el contenido más interesante que se emite en los diferentes canales de televisión. Por ello, este espacio rastrea el oleaje del universo catódico y elige lo más destacado de una forma original y divertida.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP675341"/>
+		<category>Entretenimiento</category>
+	</programme>
+	<programme channel="Bemad.TV" start="20230724055000 +0000" stop="20230724082500 +0000">
+		<title>Las sandalias del pescador</title>
+		<desc>Tras veinte años como prisionero en Siberia, un cura ruso es nombrado Papa en un momento en el que el mundo está al borde de la guerra. Un 'best seller' de Morris West convertido en éxito de pantalla.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP14710"/>
 		<category>Cine</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20230724073000 +0000" stop="20230724080500 +0000">
-		<title>Mejor llama a Kiko</title>
-		<desc>The Ocean Race es la vuelta al mundo a vela, una regata que se celebra desde 1973. La edición de 2023 se inicia en Alicante el 15 de enero y viaja alrededor de todo el planeta.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP1623348"/>
+	<programme channel="Bemad.TV" start="20230724082500 +0000" stop="20230724085500 +0000">
+		<title>Mejor llama a Kiko: Episodio 83</title>
+		<desc>Espacio de televenta presentado por Kiko Hernández.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP3075215"/>
 		<category>Ocio y Aficiones</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20230724080500 +0000" stop="20230724095900 +0000">
-		<title>Cine</title>
-		<desc>Eurosport es un canal con vocación claramente polideportiva. Sus programas ofrecen una visión diferente de los atletas y de sus respectivos deportes.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP1673189"/>
+	<programme channel="Bemad.TV" start="20230724085500 +0000" stop="20230724103000 +0000">
+		<title>La mosca</title>
+		<desc>Seth Brundle es un científico que en su propio laboratorio investiga la transmigración de la materia. Un día muestra los progresos realizados a su novia Verónica, siempre con objetos inanimados que se trasladan de una cápsula a otra idéntica, ambas dentro del laboratorio, desintegrando la materia en una y recomponiéndola de forma idéntica en la otra. Sin embargo, llevado por los éxitos, Seth decide experimentar un descubrimiento sobre sí mismo. Se introduce en una de las cápsulas sin advertir que una mosca ha penetrado en el recinto con él. Aparentemente la transmutación parece un éxito y Seth sale de la segunda cápsula con más energía y vigor que antes, pero su ADN se ha mezclado con el de la mosca y ahora irá descubriendo aterrado como, poco a poco, se va transformando en una criatura grotesca, increíblemente ágil, muy fuerte y enloquecido por deseos que no puede controlar, sin que ni siquiera Verónica logre hacer nada por él.Partiendo de una historia original de George Langelaan que el guionista y director alemán Kurt Newman convirtió en los años cincuenta en un pequeño clásico del género fantástico, el canadiense David Cronenberg adapta a su peculiar universo fílmico la odisea de un científico que, en pleno experimento de transmigración de la materia, sufrirá una alteración de sus genes que se verán entremezclados con los de una mosca común. Excelente trabajo de Jeff Goldblum al que, según confesión propia, Cronenberg eligió por sus ojos saltones como los de las moscas. La atmosférica iluminación del operador Mark Irwin, la inspirada banda sonora de Howard Shore y los impactantes efectos de maquillaje de Chris Walas contribuyen al perfecto funcionamiento del filme que conoció una segunda parte igualmente inquietante, que dirigió el propio Walas.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP261730"/>
 		<category>Cine</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20230724095900 +0000" stop="20230724115500 +0000">
-		<title>Cine</title>
-		<desc>El mundial de motocross promete espectáculo. La 67ª temporada incluye 19 eventos que se celebran desde el mes de marzo hasta principios de octubre. Tim Gajser defiende título en la clase MXGP. En MX2, el vencedor de 2022 fue Tom Vialle.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP1673189"/>
+	<programme channel="Bemad.TV" start="20230724103000 +0000" stop="20230724115500 +0000">
+		<title>Rumores que matan</title>
+		<desc>Derrick, Jones y Travis son tres compañeros de piso en la universidad que colaboran en un trabajo que consiste en identificar la conexión entre el rumor y la noticia. Pero cuando su proyecto se sale alarmantemente de control, su amistad, su futuro y sus propias vidas se ponen en peligro.Una noche en una alocada fiesta fuera del campus, Derrick se encuentra con el tema perfecto para el trabajo de clase sobre cotilleo cuando descubre a Naomi en los brazos de su novio Beau. A pesar de conocer la actitud reticente de la chica respecto al chico, el trío de compañeros decide difundir el rumor de que la pareja ha mantenido relaciones sexuales, algo que se va extendiendo incontroladamente por el campus. Sin embargo, cuando Beau es detenido y acusado de haber violado a Naomi, el juego da un giro inesperado y los tres se ven superados por su malévola creación, complicándose aún más las cosas al descubrirse el oscuro pasado de uno de ellos.El veterano realizador Joel Schumacher ("Línea mortal", "Asesinato en 8 mm") ejerce como productor ejecutivo de esta cinta, dirigida por el joven Davis Guggenheim, que cuenta con un reparto de jóvenes intérpretes entre los que destacan sus tres protagonistas: James Marsden ("X Men"), Lena Headey ("El país del agua") y Norman Reedus ("La isla de la niebla").</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP214866"/>
 		<category>Cine</category>
 	</programme>
 	<programme channel="Bemad.TV" start="20230724115500 +0000" stop="20230724132800 +0000">
@@ -28819,10 +28831,10 @@
 		<category>Deportes</category>
 	</programme>
 	<programme channel="E3.TV" start="20230723081300 +0000" stop="20230723095500 +0000">
-		<title>Programa per determinar</title>
-		<desc>Programa per determinar.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MESP3P1244971"/>
-		<category>Entretenimiento</category>
+		<title>Hoquei herba: Catalunya - Índia</title>
+		<desc>L'Estadi Municipal Martí Colomer de Terrassa acull el partit amistós entre Catalunya i l'Índia per commemorar el centenari de la Federació Catalana d'Hoquei sobre herba.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MESP3P3075452"/>
+		<category>Deportes</category>
 	</programme>
 	<programme channel="E3.TV" start="20230723095500 +0000" stop="20230723115500 +0000">
 		<title>Pretemporada (T23/24): Manchester City - Yokohama Marinos</title>
@@ -28861,10 +28873,10 @@
 		<category>Deportes</category>
 	</programme>
 	<programme channel="E3.TV" start="20230723151300 +0000" stop="20230723165500 +0000">
-		<title>Programa per determinar</title>
-		<desc>Programa per determinar.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MESP3P1244971"/>
-		<category>Entretenimiento</category>
+		<title>Pretemporada (T23/24): Manchester City - Yokohama Marinos</title>
+		<desc>El Manchester City, campió de la Premier i de la Champions League, s'enfronta al Yokohama Marinos, campió de la lliga japonesa, en el marc de la gira asiàtica de pretemporada de l'equip anglès.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MESP3P3075496"/>
+		<category>Deportes</category>
 	</programme>
 	<programme channel="E3.TV" start="20230723165500 +0000" stop="20230723172500 +0000">
 		<title>Fora Límits (T1): Pau Gasol</title>
@@ -28896,47 +28908,65 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MESP3P3075474"/>
 		<category>Deportes</category>
 	</programme>
-	<programme channel="E3.TV" start="20230723204600 +0000" stop="20230723222800 +0000">
-		<title>Programa per determinar</title>
-		<desc>Programa per determinar.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MESP3P1244971"/>
-		<category>Entretenimiento</category>
+	<programme channel="E3.TV" start="20230723204600 +0000" stop="20230723211700 +0000">
+		<title>Les vaques sagrades</title>
+		<desc>Programa conduït per Lluís Canut a qui acompanya Pere Escobar i Quique Guasch que opinaran des del coneixement i parlaran sense pèls a la llengua periodistes esportius consagrats. Els acompanya Maria Garrido, que hi posa el contrapunt generacional, i Agustí Alavés.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MESP3P1946674"/>
+		<category>Deportes</category>
 	</programme>
-	<programme channel="E3.TV" start="20230723222800 +0000" stop="20230723225400 +0000">
+	<programme channel="E3.TV" start="20230723211700 +0000" stop="20230723220300 +0000">
+		<title>Les vaques sagrades</title>
+		<desc>Programa conduït per Lluís Canut a qui acompanya Pere Escobar i Quique Guasch que opinaran des del coneixement i parlaran sense pèls a la llengua periodistes esportius consagrats. Els acompanya Maria Garrido, que hi posa el contrapunt generacional, i Agustí Alavés.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MESP3P1946674"/>
+		<category>Deportes</category>
+	</programme>
+	<programme channel="E3.TV" start="20230723220300 +0000" stop="20230723222800 +0000">
 		<title>324 Esports</title>
 		<desc>Butlletí informatiu que fa un repàs a les darreres notícies relacionades amb el món dels esports, tant a nivell català com espanyol i internacional.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MESP3P1368716"/>
 		<category>Deportes</category>
 	</programme>
-	<programme channel="E3.TV" start="20230723225400 +0000" stop="20230723233900 +0000">
-		<title>Les vaques sagrades (T1): Episodi 65</title>
-		<desc>Programa conduït per Lluís Canut a qui acompanya Pere Escobar i Quique Guasch que opinaran des del coneixement i parlaran sense pèls a la llengua periodistes esportius consagrats. Els acompanya Maria Garrido, que hi posa el contrapunt generacional, i Agustí Alavés.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MESP3P2191348"/>
+	<programme channel="E3.TV" start="20230723222800 +0000" stop="20230723225600 +0000">
+		<title>Resumen WRC (T2023): Estonia: día 3</title>
+		<desc>La campanya del campionat del món de ralis (WRC) consta de diferents proves que visiten diferents parts de la geografia del món. Aquest espai resumeix el millor de cadascuna de les proves.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MESP3P3075474"/>
 		<category>Deportes</category>
 	</programme>
-	<programme channel="E3.TV" start="20230723233900 +0000" stop="20230724001200 +0000">
-		<title>Les vaques sagrades (T1): Episodi 65</title>
-		<desc>Programa conduït per Lluís Canut a qui acompanya Pere Escobar i Quique Guasch que opinaran des del coneixement i parlaran sense pèls a la llengua periodistes esportius consagrats. Els acompanya Maria Garrido, que hi posa el contrapunt generacional, i Agustí Alavés.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MESP3P2191348"/>
-		<category>Deportes</category>
-	</programme>
-	<programme channel="E3.TV" start="20230724001200 +0000" stop="20230724021400 +0000">
+	<programme channel="E3.TV" start="20230723225600 +0000" stop="20230724004200 +0000">
 		<title>Pretemporada (T23/24): Espanyol - Cádiz</title>
 		<desc>Els equips es preparen per a l'inici imminent de les competicions de clubs amb un seguit de partits amistosos. Els entrenadors intenten encaixar les peces, els nous fitxatges i assajar les tàctiques amb les que aspiren a la victòria.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MESP3P3075494"/>
 		<category>Deportes</category>
 	</programme>
-	<programme channel="E3.TV" start="20230724021400 +0000" stop="20230724040400 +0000">
-		<title>Programa per determinar</title>
-		<desc>Programa per determinar.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MESP3P1244971"/>
-		<category>Entretenimiento</category>
+	<programme channel="E3.TV" start="20230724004200 +0000" stop="20230724010800 +0000">
+		<title>324 Esports</title>
+		<desc>Butlletí informatiu que fa un repàs a les darreres notícies relacionades amb el món dels esports, tant a nivell català com espanyol i internacional.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MESP3P1368716"/>
+		<category>Deportes</category>
 	</programme>
-	<programme channel="E3.TV" start="20230724021400 +0000" stop="20230724040400 +0000">
-		<title>Programa per determinar</title>
-		<desc>Programa per determinar.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MESP3P1244971"/>
-		<category>Entretenimiento</category>
+	<programme channel="E3.TV" start="20230724010800 +0000" stop="20230724025100 +0000">
+		<title>Pretemporada (T23/24): Manchester City - Yokohama Marinos</title>
+		<desc>El Manchester City, campió de la Premier i de la Champions League, s'enfronta al Yokohama Marinos, campió de la lliga japonesa, en el marc de la gira asiàtica de pretemporada de l'equip anglès.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MESP3P3075496"/>
+		<category>Deportes</category>
+	</programme>
+	<programme channel="E3.TV" start="20230724025100 +0000" stop="20230724031700 +0000">
+		<title>324 Esports</title>
+		<desc>Butlletí informatiu que fa un repàs a les darreres notícies relacionades amb el món dels esports, tant a nivell català com espanyol i internacional.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MESP3P1368716"/>
+		<category>Deportes</category>
+	</programme>
+	<programme channel="E3.TV" start="20230724031700 +0000" stop="20230724040400 +0000">
+		<title>Zona Zàping (T19): Episodi 48</title>
+		<desc>Espai setmanal que ofereix un recull de les imatges més espectaculars, curioses o actuals de continguts esportius que ofereixen les diferents cadenes de televisió, tant estatals com internacionals.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MESP3P3068969"/>
+		<category>Deportes</category>
+	</programme>
+	<programme channel="E3.TV" start="20230724031700 +0000" stop="20230724040400 +0000">
+		<title>Zona Zàping (T19): Episodi 48</title>
+		<desc>Espai setmanal que ofereix un recull de les imatges més espectaculars, curioses o actuals de continguts esportius que ofereixen les diferents cadenes de televisió, tant estatals com internacionals.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MESP3P3068969"/>
+		<category>Deportes</category>
 	</programme>
 	<programme channel="E3.TV" start="20230724040400 +0000" stop="20230724054700 +0000">
 		<title>Pretemporada (T23/24): Espanyol - Cádiz</title>
@@ -28981,9 +29011,9 @@
 		<category>Deportes</category>
 	</programme>
 	<programme channel="E3.TV" start="20230724090400 +0000" stop="20230724104600 +0000">
-		<title>Pretemporada (T23/24): Barcelona - Juventus</title>
-		<desc>Els equips es preparen per a l'inici imminent de les competicions de clubs amb un seguit de partits amistosos. Els entrenadors intenten encaixar les peces, els nous fitxatges i assajar les tàctiques amb les que aspiren a la victòria.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MESP3P3075500"/>
+		<title>Pretemporada (T23/24): Manchester City - Yokohama Marinos</title>
+		<desc>El Manchester City, campió de la Premier i de la Champions League, s'enfronta al Yokohama Marinos, campió de la lliga japonesa, en el marc de la gira asiàtica de pretemporada de l'equip anglès.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MESP3P3075496"/>
 		<category>Deportes</category>
 	</programme>
 	<programme channel="E3.TV" start="20230724104600 +0000" stop="20230724121700 +0000">
@@ -29005,9 +29035,9 @@
 		<category>Documentales</category>
 	</programme>
 	<programme channel="E3.TV" start="20230724132800 +0000" stop="20230724150900 +0000">
-		<title>Pretemporada (T23/24): Barcelona - Juventus</title>
+		<title>Pretemporada (T23/24): Espanyol - Cádiz</title>
 		<desc>Els equips es preparen per a l'inici imminent de les competicions de clubs amb un seguit de partits amistosos. Els entrenadors intenten encaixar les peces, els nous fitxatges i assajar les tàctiques amb les que aspiren a la victòria.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MESP3P3075500"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MESP3P3075494"/>
 		<category>Deportes</category>
 	</programme>
 	<programme channel="E3.TV" start="20230724150900 +0000" stop="20230724155600 +0000">

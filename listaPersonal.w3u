@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 03/08/2023 20:00:30",
+    "name": "Canales Acestream 04/08/2023 11:00:17",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -42,13 +42,13 @@
                 },
                 {
                     "name": "M.L. Campeones 2 1080",
-                    "url": "acestream://dfffbcdd9c7e32d5dc88d268dee830ff2a0d3ab6",
+                    "url": "acestream://fc2fe31b0bce25e2dc7ab4d262bf645e2be5a393",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-moviestar-liga-de-campeones-2-1460.png",
                     "embed": "false"
                 },
                 {
                     "name": "M.L. Campeones 2 720",
-                    "url": "acestream://2d584c7335ff44f97c3cf64947892ef30fde715c",
+                    "url": "acestream://6753492c1908274c268a1b28e2a054a0ff8f86f9",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-moviestar-liga-de-campeones-2-1460.png",
                     "embed": "false"
                 },

@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 29/08/2023 22:23:42",
+    "name": "Canales Acestream 29/08/2023 22:24:44",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -589,12 +589,6 @@
                 {
                     "name": "TeleCinco 1080",
                     "url": "acestream://bb1982ae8d2d409d4ccd7a9f498042684e3532b5",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "acestream//",
-                    "url": "acestream://ad372cba73aa0ece207a79532b3e30b731136bb2",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },

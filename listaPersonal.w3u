@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 29/08/2023 22:27:14",
+    "name": "Canales Acestream 29/08/2023 22:28:37",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -10,12 +10,6 @@
             "name": "M.L. Campeones",
             "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-moviestar-liga-de-campeones.png",
             "stations": [
-                {
-                    "name": "Campeones 3",
-                    "url": "acestream://ad372cba73aa0ece207a79532b3e30b731136bb2",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-3-1548.png",
-                    "embed": "false"
-                },
                 {
                     "name": "M.L. Campeones 10 SD",
                     "url": "acestream://df67afe5c5f5e82a3ae629d126727b006b65e676",
@@ -595,6 +589,12 @@
                 {
                     "name": "TeleCinco 1080",
                     "url": "acestream://bb1982ae8d2d409d4ccd7a9f498042684e3532b5",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "acestream//",
+                    "url": "acestream://ad372cba73aa0ece207a79532b3e30b731136bb2",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },

@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 29/08/2023 22:29:39",
+    "name": "Canales Acestream 30/08/2023 11:00:16",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -10,12 +10,6 @@
             "name": "M.L. Campeones",
             "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-moviestar-liga-de-campeones.png",
             "stations": [
-                {
-                    "name": "Campeones 3",
-                    "url": "acestream://ad372cba73aa0ece207a79532b3e30b731136bb2",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-3-1548.png",
-                    "embed": "false"
-                },
                 {
                     "name": "M.L. Campeones 10 SD",
                     "url": "acestream://df67afe5c5f5e82a3ae629d126727b006b65e676",
@@ -60,7 +54,7 @@
                 },
                 {
                     "name": "M.L. Campeones 3 1080",
-                    "url": "acestream://ecf4ec41200785812c140e3d1050b412f1519fa7",
+                    "url": "acestream://ad372cba73aa0ece207a79532b3e30b731136bb2",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-3-1548.png",
                     "embed": "false"
                 },
@@ -96,7 +90,7 @@
                 },
                 {
                     "name": "M.L. Campeones 720",
-                    "url": "acestream://90beb42e9e276854348bc91a9ff3c3e46c617495",
+                    "url": "acestream://e2e2aca792aae5da19995ac516b1d620531bd49c",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-moviestar-liga-de-campeones-1459.png",
                     "embed": "false"
                 },
@@ -372,13 +366,13 @@
                 },
                 {
                     "name": "M. LaLiga 2 1080",
-                    "url": "acestream://37d42d2b5d2278e6bb5810329a5f220867b3cf0c",
+                    "url": "acestream://26029f72a4ca831d09deefe89534818db1d105bc",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-2.png",
                     "embed": "false"
                 },
                 {
                     "name": "M. LaLiga 2 720",
-                    "url": "acestream://91cf24543ac5a3dcd4a3557ce52de3f50ee6cb18",
+                    "url": "acestream://80126b240f3e4e004754fd8f8103e857ab2556a0",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-2.png",
                     "embed": "false"
                 },
@@ -404,12 +398,6 @@
                     "name": "M. LaLiga 6 1080",
                     "url": "acestream://c896d37778f9e43549a788fc22206a655895b51b",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-6.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "M. LaLiga 7 1080",
-                    "url": "acestream://1c0bb99925a0d18e075c2fe2cd7cb50946554ab1",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-7.png",
                     "embed": "false"
                 },
                 {
@@ -493,6 +481,30 @@
                 {
                     "name": "GOL TV 1080",
                     "url": "acestream://d4627f7b6b237a8556819445b3283d866caceca2",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Gol Mundial 1",
+                    "url": "acestream://78384a676407784df944243eb2f75d937fbcc253",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Gol Mundial 2",
+                    "url": "acestream://4af5952b95d3c2e99fcdc0de2f528d3fcd73e06b",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Gol Mundial 3",
+                    "url": "acestream://52c8ff01836c294caad8b8c029b53360aa16a4cd",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Gol Mundial 4",
+                    "url": "acestream://5a8d60f4c8e558f8ae5acad7c75f455928ce0c2e",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -605,12 +617,6 @@
                     "embed": "false"
                 },
                 {
-                    "name": "otro",
-                    "url": "acestream://acestream//ad372cba73aa0ece207a79532b3e30b731136bb2",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
                     "name": "tdp 1080  (TeleDeporte)",
                     "url": "acestream://e2395d28ad19423212fd3aa0e81f387db3e8bb9f",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-teledeporte-612.png",
@@ -648,7 +654,7 @@
             ]
         },
         {
-            "name": "Lista Vercel",
+            "name": "Lista Af1cionados",
             "url": "https://af-1-cionados.vercel.app/af1cionados.w3u",
             "embed": "true"
         },
@@ -660,11 +666,6 @@
         {
             "name": "Lista Pastebin",
             "url": "https://pastebin.com/raw/UCr62p27",
-            "embed": "true"
-        },
-        {
-            "name": "Lista Af1cionados",
-            "url": "https://af-1-cionados.vercel.app/af1cionados.w3u",
             "embed": "true"
         }
     ]

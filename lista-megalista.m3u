@@ -1,0 +1,126 @@
+{
+  "name": "MEGA LISTA WISEPLAY ZERONET",
+  "author": "Staff Listaswiseplay - 12/08/2023",
+  "image": "https://i.imgur.com/ApcbwHZ.png",
+  "url": "http://127.0.0.1:43110/1Anu2b62n6YYBJBVzjrYkYfT6QWXSNx2tG/megalista.w3u",
+  "telegram": "listaswiseplay",
+  "info": "Listaswiseplay",
+  "groups": [
+    {
+      "name": "Importar Listas",
+      "image": "https://i.imgur.com/YAaMwxN.png",
+      "stations": [
+        {
+          "name": "MEGALISTA TV WISEPLAY | Añadir Lista",
+          "image": "https://i.imgur.com/YAaMwxN.png",
+          "url": "http://127.0.0.1:43110/1Anu2b62n6YYBJBVzjrYkYfT6QWXSNx2tG/megalista_tv.w3u",
+          "import": true
+        },
+        {
+          "name": "MEGALISTA VOD WISEPLAY | Añadir Lista",
+          "image": "https://i.imgur.com/YAaMwxN.png",
+          "url": "http://127.0.0.1:43110/1Anu2b62n6YYBJBVzjrYkYfT6QWXSNx2tG/megalista_vod.w3u",
+          "import": true
+        },
+        {
+          "name": "MEGA LISTA ZERONET | Añadir Lista",
+          "image": "https://i.imgur.com/YAaMwxN.png",
+          "url": "http://127.0.0.1:43110/1Anu2b62n6YYBJBVzjrYkYfT6QWXSNx2tG/megalista_zeronet.w3u",
+          "import": true
+        },
+        {
+          "name": "CHUKYHOOD| Añadir Lista",
+          "image": "https://i.imgur.com/YAaMwxN.png",
+          "url": "https://raw.githubusercontent.com/chukyvaliente/Chuky-Hood/main/Chuky-Hood",
+          "import": true
+        },
+        {
+          "name": "MEGA SPORT TV (VPN) | Añadir Lista",
+          "image": "https://i.imgur.com/YAaMwxN.png",
+          "url": "http://127.0.0.1:43110/1Anu2b62n6YYBJBVzjrYkYfT6QWXSNx2tG/megasport.w3u",
+          "import": true
+        },
+        {
+          "name": "WISEPLAY-SPORT BY ELSUPREMO | Añadir Lista",
+          "image": "https://i.imgur.com/YAaMwxN.png",
+          "url": "https://bit.ly/WiseSportMenu",
+          "import": true
+        },
+        {
+          "name": "TIRISTAR TV JUVENIL | Añadir Lista ",
+          "image": "https://i.imgur.com/YAaMwxN.png",
+          "url": "https://raw.githubusercontent.com/tirimosqui/iconnos/main/TIRI_STARV3.w3u",
+          "import": true
+        },
+        {
+          "name": "🅰️🅵1🅲🅸🅾️🅽🅰️🅳🅾️🆂 BY YIᔕᑌᔕ MΣX | Añadir Lista",
+          "image": "https://i.imgur.com/YAaMwxN.png",
+          "url": "https://af-1-cionados.vercel.app/af1cionados.w3u",
+          "import": true
+        },
+        {
+          "name": "El Cano [Acestream] | Añadir Lista",
+          "image": "https://i.imgur.com/YAaMwxN.png",
+          "url": "https://fni3mdmse77bkur5eq2p5f7kt.vercel.app/base.txt",
+          "import": true
+        },
+        {
+          "name": "El Cano [HTTP] | Añadir Lista",
+          "image": "https://i.imgur.com/YAaMwxN.png",
+          "url": "https://fni3mdmse77bkur5eq2p5f7kt.vercel.app/get.txt",
+          "import": true
+        }
+      ]
+    },
+    {
+      "name": "MEGALISTA TV WISEPLAY",
+      "image": "https://i.imgur.com/L5RUMsy.png",
+      "url": "http://127.0.0.1:43110/1Anu2b62n6YYBJBVzjrYkYfT6QWXSNx2tG/megalista_tv.w3u"
+    },
+    {
+      "name": "MEGALISTA VOD WISEPLAY",
+      "image": "https://i.imgur.com/RZuPfC0.png",
+      "url": "http://127.0.0.1:43110/1Anu2b62n6YYBJBVzjrYkYfT6QWXSNx2tG/megalista_vod.w3u"
+    },
+    {
+      "name": "MEGA LISTA ZERONET",
+      "image": "https://i.imgur.com/3IwhWdp.png",
+      "url": "http://127.0.0.1:43110/1Anu2b62n6YYBJBVzjrYkYfT6QWXSNx2tG/megalista_zeronet.w3u"
+    },
+    {
+      "name": "CHUKYHOOD",
+      "image": "https://media.giphy.com/media/giv0BXaL5cLOA8jmhp/giphy.gif",
+      "url": "https://raw.githubusercontent.com/chukyvaliente/Chuky-Hood/main/Chuky-Hood"
+    },
+    {
+      "name": "MEGA SPORT TV (VPN)",
+      "image": "https://i.imgur.com/NW9AUMM.png",
+      "url": "http://127.0.0.1:43110/1Anu2b62n6YYBJBVzjrYkYfT6QWXSNx2tG/megasport.w3u"
+    },
+    {
+      "name": "WISEPLAY-SPORT BY ELSUPREMO",
+      "image": "https://www.dropbox.com/s/znbssto0jqby1f7/thb.jpg?dl=1",
+      "url": "https://bit.ly/WiseSportMenu"
+    },
+    {
+      "name": "TIRISTAR TV JUVENIL",
+      "image": "https://raw.githubusercontent.com/tirimosqui/iconnos/main/tiriTv2.gif",
+      "url": "https://raw.githubusercontent.com/tirimosqui/iconnos/main/TIRI_STARV3.w3u"
+    },
+    {
+      "name": "🅰️🅵1🅲🅸🅾️🅽🅰️🅳🅾️🆂 BY YIᔕᑌᔕ MΣX",
+      "image": "https://giffiles.alphacoders.com/211/211426.gif",
+      "url": "https://af-1-cionados.vercel.app/af1cionados.w3u"
+    },
+    {
+      "name": "El Cano [Acestream]",
+      "image": "https://i.imgur.com/Eg5iqZC.png",
+      "url": "https://fni3mdmse77bkur5eq2p5f7kt.vercel.app/base.txt"
+    },
+    {
+      "name": "El Cano [HTTP]",
+      "image": "https://i.imgur.com/Eg5iqZC.png",
+      "url": "https://fni3mdmse77bkur5eq2p5f7kt.vercel.app/get.txt"
+    }
+  ]
+}

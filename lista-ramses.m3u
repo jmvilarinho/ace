@@ -1,6 +1,9 @@
 #EXTM3U url-tvg="https://raw.githubusercontent.com/dracohe/CARLOS/master/guide_IPTV.xml, https://github.com/dracohe/INTERNACIONALES/blob/master/guide.xml?raw=true, https://raw.githubusercontent.com/davidmuma/EPG_dobleM/master/guia.xml, https://raw.githubusercontent.com/acidjesuz/EPG/master/guide.xml"
 
 
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.postimg.cc/zDn8qwjr/4kuhd.png" group-title="www.elcano.top",DAZN F1 y M+ LaLiga TV
+acestream://76d4087a189f847d2edbfb3979ee0e19b5b28899
+
 #EXTINF:-1 tvg-id="Gol Mundial" tvg-logo="https://i.ibb.co/Dg33r5M/golmund.png" group-title="www.elcano.top", Gol Mundial 1
 acestream://78384a676407784df944243eb2f75d937fbcc253
 #EXTINF:-1 tvg-id="Gol Mundial 2" tvg-logo="https://i.ibb.co/Dg33r5M/golmund.png" group-title="www.elcano.top", Gol Mundial 2
@@ -242,14 +245,7 @@ acestream://b97f5975dbd067655432512d4693b417bc85a714
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/NpNJvq8/4klogo.jpg" group-title="www.elcano.top", 
 
-
-
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/wKHbyS8/DAZNF1.jpg" group-title="By @Jonatan" tvg-id="DAZN F1 OFF", DAZN F1 (Formula 1) OFF
-acestream://
-
-
-#EXTINF:-1 group-title="Extranjeros" tvg-id="NBA USA 1 1080", NBA USA 1 1080
+ranjeros" tvg-id="NBA USA 1 1080", NBA USA 1 1080
 acestream://39db49bc89dcc3c8797566231f869dca57f1a47e
 #EXTINF:-1 group-title="Extranjeros" tvg-id="NBA USA 2 1080", NBA USA 2 1080
 acestream://f1c84ec8ea0c0bfff8a24272b66c64354a522110

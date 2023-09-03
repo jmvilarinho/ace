@@ -10230,7 +10230,7 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP14178"/>
 		<category>Cine</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20230904033600 +0000" stop="20230904061000 +0000">
+	<programme channel="Bemad.TV" start="20230904033600 +0000" stop="20230904050000 +0000">
 		<title>Cine</title>
 		<desc>Emisión de una película.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP1673189"/>
@@ -14940,7 +14940,7 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1238246"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20230904033500 +0000" stop="20230904053000 +0000">
+	<programme channel="Divinity.TV" start="20230904033500 +0000" stop="20230904040000 +0000">
 		<title>Chicago Fire (T2): Ep.16 Un cohete despegando</title>
 		<desc>Con Keeler en paradero desconocido, los hombres de la brigada 51 son vistos como principales sospechosos</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1238247"/>

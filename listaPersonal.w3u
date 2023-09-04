@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 04/09/2023 15:05:43",
+    "name": "Canales Acestream 04/09/2023 15:08:12",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -469,7 +469,7 @@
                 {
                     "name": "LaLiga Hypermotion 720",
                     "url": "acestream://06b367c22394a1358c9cefa0cb5d0b64b9b2b3f4",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-hypermotion-7.png",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-hypermotion.png",
                     "embed": "false"
                 },
                 {

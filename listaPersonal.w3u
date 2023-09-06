@@ -1,5 +1,5 @@
 {
-    "name": "Canales Acestream 06/09/2023 22:34:29",
+    "name": "Canales Acestream 06/09/2023 22:36:23",
     "author": "Vila",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
@@ -493,7 +493,7 @@
                 {
                     "name": "Movistar Plus+ HD",
                     "url": "acestream://5a236fbbe6e5bbfec03db548c244a7c858d675c0",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-plus-1475.png",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-cero.png",
                     "embed": "false"
                 }
             ]

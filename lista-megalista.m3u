@@ -13,19 +13,19 @@
         {
           "name": "MEGALISTA TV WISEPLAY | Añadir Lista",
           "image": "https://i.imgur.com/YAaMwxN.png",
-          "url": "http://127.0.0.1:43110/1Anu2b62n6YYBJBVzjrYkYfT6QWXSNx2tG/megalista_tv.w3u",
+          "url": "https://raw.githubusercontent.com/jmvilarinho/ace/megalista_tv.w3u",
           "import": true
         },
         {
           "name": "MEGALISTA VOD WISEPLAY | Añadir Lista",
           "image": "https://i.imgur.com/YAaMwxN.png",
-          "url": "http://127.0.0.1:43110/1Anu2b62n6YYBJBVzjrYkYfT6QWXSNx2tG/megalista_vod.w3u",
+          "url": "https://raw.githubusercontent.com/jmvilarinho/ace/megalista_vod.w3u",
           "import": true
         },
         {
           "name": "MEGA LISTA ZERONET | Añadir Lista",
           "image": "https://i.imgur.com/YAaMwxN.png",
-          "url": "http://127.0.0.1:43110/1Anu2b62n6YYBJBVzjrYkYfT6QWXSNx2tG/megalista_zeronet.w3u",
+          "url": "https://raw.githubusercontent.com/jmvilarinho/ace/megalista_zeronet.w3u",
           "import": true
         },
         {
@@ -37,7 +37,7 @@
         {
           "name": "MEGA SPORT TV (VPN) | Añadir Lista",
           "image": "https://i.imgur.com/YAaMwxN.png",
-          "url": "http://127.0.0.1:43110/1Anu2b62n6YYBJBVzjrYkYfT6QWXSNx2tG/megasport.w3u",
+          "url": "https://raw.githubusercontent.com/jmvilarinho/ace/megasport.w3u",
           "import": true
         },
         {
@@ -75,17 +75,17 @@
     {
       "name": "MEGALISTA TV WISEPLAY",
       "image": "https://i.imgur.com/L5RUMsy.png",
-      "url": "http://127.0.0.1:43110/1Anu2b62n6YYBJBVzjrYkYfT6QWXSNx2tG/megalista_tv.w3u"
+      "url": "https://raw.githubusercontent.com/jmvilarinho/ace/megalista_tv.w3u"
     },
     {
       "name": "MEGALISTA VOD WISEPLAY",
       "image": "https://i.imgur.com/RZuPfC0.png",
-      "url": "http://127.0.0.1:43110/1Anu2b62n6YYBJBVzjrYkYfT6QWXSNx2tG/megalista_vod.w3u"
+      "url": "https://raw.githubusercontent.com/jmvilarinho/ace/megalista_vod.w3u"
     },
     {
       "name": "MEGA LISTA ZERONET",
       "image": "https://i.imgur.com/3IwhWdp.png",
-      "url": "http://127.0.0.1:43110/1Anu2b62n6YYBJBVzjrYkYfT6QWXSNx2tG/megalista_zeronet.w3u"
+      "url": "https://raw.githubusercontent.com/jmvilarinho/ace/megalista_zeronet.w3u"
     },
     {
       "name": "CHUKYHOOD",
@@ -95,7 +95,7 @@
     {
       "name": "MEGA SPORT TV (VPN)",
       "image": "https://i.imgur.com/NW9AUMM.png",
-      "url": "http://127.0.0.1:43110/1Anu2b62n6YYBJBVzjrYkYfT6QWXSNx2tG/megasport.w3u"
+      "url": "https://raw.githubusercontent.com/jmvilarinho/ace/megasport.w3u"
     },
     {
       "name": "WISEPLAY-SPORT BY ELSUPREMO",

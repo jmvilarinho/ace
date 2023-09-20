@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 20/09/2023 22:41:59",
+    "author": "Vila - 20/09/2023 22:43:55",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -13,25 +13,25 @@
                 {
                     "name": "M. Liga de Campeones 4 [1080]",
                     "url": "acestream://1b48d5881337c87b89e1edefff6688fe2271d222",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-moviestar-liga-de-campeones.png",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-4-1549.png",
                     "embed": "false"
                 },
                 {
                     "name": "M. Liga de Campeones 5 [1080]",
                     "url": "acestream://5c21c181156f200d5e628ef2c62cd06bf5f97eb7",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-moviestar-liga-de-campeones.png",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-5-1550.png",
                     "embed": "false"
                 },
                 {
                     "name": "M. Liga de Campeones 6 [1080]",
                     "url": "acestream://a0978a100de9a307c12d395d9b2f4142db6ab52d",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-moviestar-liga-de-campeones.png",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-6.png",
                     "embed": "false"
                 },
                 {
                     "name": "M. Liga de Campeones 7 [1080]",
                     "url": "acestream://5932623d2fd7ed16b01787251b418e4f59a01cda",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-moviestar-liga-de-campeones.png",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-7.png",
                     "embed": "false"
                 },
                 {

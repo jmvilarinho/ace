@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 21/09/2023 10:50:24",
+    "author": "Vila - 21/09/2023 10:53:34",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -10,12 +10,6 @@
             "name": "M.L. Campeones",
             "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-00.png",
             "stations": [
-                {
-                    "name": "M. Liga de Campeones [1080][Multiaudio]",
-                    "url": "acestream://1d79a7543d691666135669f89f3541f54e2dd0a9",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-00.png",
-                    "embed": "false"
-                },
                 {
                     "name": "M.L. Campeones 1080 MultiAudio",
                     "url": "acestream://931b1984badcb821df7b47a66ac0835ac871b51c",
@@ -134,6 +128,24 @@
                     "name": "M.L. Campeones 12 SD",
                     "url": "acestream://33369549c635dabdb78b95c478c21fcc9e4ee854",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-12.png",
+                    "embed": "false"
+                }
+            ]
+        },
+        {
+            "name": "Eurosport",
+            "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-eurosport.png",
+            "stations": [
+                {
+                    "name": "EuroSport 1 1080",
+                    "url": "acestream://5e4cd48c79f991fcbee2de8b9d30c4b16de3b952",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-es-eurosport-1-615.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "EuroSport 2 1080",
+                    "url": "acestream://c373da9e901d414b7384e671112e64d5a2310c29",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-es-eurosport-2-616.png",
                     "embed": "false"
                 }
             ]
@@ -386,78 +398,6 @@
                     "name": "ESPN HD [US]",
                     "url": "acestream://4b4907de51ec11087d4bed5876f2a0c68264f442",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-us-espn.png",
-                    "embed": "false"
-                }
-            ]
-        },
-        {
-            "name": "Eurosport",
-            "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-eurosport.png",
-            "stations": [
-                {
-                    "name": "EuroSport 1 1080",
-                    "url": "acestream://5e4cd48c79f991fcbee2de8b9d30c4b16de3b952",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-es-eurosport-1-615.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "EuroSport 2 1080",
-                    "url": "acestream://c373da9e901d414b7384e671112e64d5a2310c29",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-es-eurosport-2-616.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "Eurosport 360 HD 1 [DE]",
-                    "url": "acestream://22df9a5fae8cae52fec925c2bb44b74f96a4200c",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-eurosport.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "Eurosport 360 HD 2 [DE]",
-                    "url": "acestream://57f95543ac41656d473b1a27123fc413388a728c",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-eurosport.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "Eurosport 360 HD 3 [DE]",
-                    "url": "acestream://7adbca42657ace1fe228142d351d0896974bbe0c",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-eurosport.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "Eurosport 360 HD 4 [DE]",
-                    "url": "acestream://1b6b6c0ddc0534236b3bae78f41d2bc27cd11f64",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-eurosport.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "Eurosport 360 HD 5 [DE]",
-                    "url": "acestream://148921c4dda96df445e253d6f26c4d092bf85809",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-eurosport.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "Eurosport 360 HD 6 [DE]",
-                    "url": "acestream://005ac522315699bd93bbf743329eb2f3c347dc3f",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-eurosport.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "Eurosport 360 HD 7 [DE]",
-                    "url": "acestream://b18657f64507cc859cd7edef1aef90feb053e791",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-eurosport.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "Eurosport 360 HD 8 [DE]",
-                    "url": "acestream://8f4f572005ca2557743474087aa622693ba9b5fe",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-eurosport.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "Eurosport 360 HD 9 [DE]",
-                    "url": "acestream://7993cecc31917793e2bfa2fe98faa9fe1ab62d47",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-eurosport.png",
                     "embed": "false"
                 }
             ]
@@ -779,6 +719,60 @@
                     "embed": "false"
                 },
                 {
+                    "name": "Eurosport 360 HD 1 [DE]",
+                    "url": "acestream://22df9a5fae8cae52fec925c2bb44b74f96a4200c",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Eurosport 360 HD 2 [DE]",
+                    "url": "acestream://57f95543ac41656d473b1a27123fc413388a728c",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Eurosport 360 HD 3 [DE]",
+                    "url": "acestream://7adbca42657ace1fe228142d351d0896974bbe0c",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Eurosport 360 HD 4 [DE]",
+                    "url": "acestream://1b6b6c0ddc0534236b3bae78f41d2bc27cd11f64",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Eurosport 360 HD 5 [DE]",
+                    "url": "acestream://148921c4dda96df445e253d6f26c4d092bf85809",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Eurosport 360 HD 6 [DE]",
+                    "url": "acestream://005ac522315699bd93bbf743329eb2f3c347dc3f",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Eurosport 360 HD 7 [DE]",
+                    "url": "acestream://b18657f64507cc859cd7edef1aef90feb053e791",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Eurosport 360 HD 8 [DE]",
+                    "url": "acestream://8f4f572005ca2557743474087aa622693ba9b5fe",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Eurosport 360 HD 9 [DE]",
+                    "url": "acestream://7993cecc31917793e2bfa2fe98faa9fe1ab62d47",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
                     "name": "Extreme Sports 1",
                     "url": "acestream://fc29afec151a8097ba65241acf3e0da791850e6c",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
@@ -871,6 +865,12 @@
                 {
                     "name": "M. Golf 720",
                     "url": "acestream://9a4f3ae6563668b7709dac509dedc709441b3fd9",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M. Liga de Campeones [1080][Multiaudio]",
+                    "url": "acestream://1d79a7543d691666135669f89f3541f54e2dd0a9",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },

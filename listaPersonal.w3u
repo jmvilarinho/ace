@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 21/09/2023 11:03:39",
+    "author": "Vila - 21/09/2023 11:04:15",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -236,7 +236,13 @@
                     "url": "acestream://2fcdf7a19c0858f686efdfabd3c8c2b92bf6bcfd",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-4-es-2525.png",
                     "embed": "false"
-                },
+                }
+            ]
+        },
+        {
+            "name": "DAZN F1",
+            "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-formula-1.png",
+            "stations": [
                 {
                     "name": "DAZN F1 1080 (Formula 1)",
                     "url": "acestream://5789ca155323664edd293b848606688edf803f4d",
@@ -316,11 +322,6 @@
                     "embed": "false"
                 }
             ]
-        },
-        {
-            "name": "DAZN F1",
-            "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-formula-1.png",
-            "stations": []
         },
         {
             "name": "ESPN",

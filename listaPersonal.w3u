@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 21/09/2023 11:04:15",
+    "author": "Vila - 21/09/2023 11:09:17",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -177,7 +177,14 @@
         {
             "name": "NBA",
             "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-us-nba-tv.png",
-            "stations": []
+            "stations": [
+                {
+                    "name": "Nba Tv (US)",
+                    "url": "acestream://e72d03fb9694164317260f684470be9ab781ed95",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-us-nba-tv.png",
+                    "embed": "false"
+                }
+            ]
         },
         {
             "name": "DAZN",
@@ -864,12 +871,6 @@
                 {
                     "name": "M. Liga de Campeones [1080][Multiaudio]",
                     "url": "acestream://1d79a7543d691666135669f89f3541f54e2dd0a9",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "Nba Tv (US)",
-                    "url": "acestream://e72d03fb9694164317260f684470be9ab781ed95",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },

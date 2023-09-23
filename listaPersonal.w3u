@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 23/09/2023 16:02:00",
+    "author": "Vila - 23/09/2023 20:01:19",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -101,9 +101,21 @@
                     "embed": "false"
                 },
                 {
+                    "name": "M. Liga de Campeones 8 [1080]",
+                    "url": "acestream://1a4b41c02e116ed19a505551a9caa79f54c027f7",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-08.png",
+                    "embed": "false"
+                },
+                {
                     "name": "M.L. Campeones 8 SD",
                     "url": "acestream://fdd9e3660059051660dbd7857443c2b807f258d0",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-08.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M. Liga de Campeones 9 SD",
+                    "url": "acestream://7244379f8f6382d40afec871fb8e4219a803840b",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-09.png",
                     "embed": "false"
                 },
                 {
@@ -113,9 +125,21 @@
                     "embed": "false"
                 },
                 {
+                    "name": "M. Liga de Campeones 10 SD",
+                    "url": "acestream://d42e1b592b840ea34394fd3e1b1d3a4d0f399213",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-10.png",
+                    "embed": "false"
+                },
+                {
                     "name": "M.L. Campeones 10 SD",
                     "url": "acestream://df67afe5c5f5e82a3ae629d126727b006b65e676",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-10.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M. Liga de Campeones 11 SD",
+                    "url": "acestream://e737c681a92a4328703761c6ed9d8a951655f3e4",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-11.png",
                     "embed": "false"
                 },
                 {
@@ -865,6 +889,12 @@
                 {
                     "name": "M. Golf 720",
                     "url": "acestream://9a4f3ae6563668b7709dac509dedc709441b3fd9",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M. Liga de Campeones 13 SD",
+                    "url": "acestream://60296c246e3596f334903fefd48cfaa724a5053b",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },

@@ -315,6 +315,42 @@
 			"info": "2924",
 			"image": "https://i.postimg.cc/wv6pvcKC/La-Liga2-new.png",
 			"url": "acestream://2709d0ab86cb6ce7ba4d3ad188d7fa80668f2924"
+			},
+			{
+			"name": "LaLiga HyperMotion 3",
+			"info": "db53",
+			"image": "https://i.postimg.cc/wv6pvcKC/La-Liga2-new.png",
+			"url": "acestream://59ba45b79152e4599144177b234f6491fc19db53"
+			},
+			{
+			"name": "LaLiga HyperMotion 4",
+			"info": "082e",
+			"image": "https://i.postimg.cc/wv6pvcKC/La-Liga2-new.png",
+			"url": "acestream://2cacf21476b036e319bcb7c7e747766e6ccc082e"
+			},
+			{
+			"name": "LaLiga HyperMotion 5",
+			"info": "a16a",
+			"image": "https://i.postimg.cc/wv6pvcKC/La-Liga2-new.png",
+			"url": "acestream://a1146358aa50c99c887108b17f62f9264186a16a"
+			},
+			{
+			"name": "LaLiga HyperMotion 6",
+			"info": "4670",
+			"image": "https://i.postimg.cc/wv6pvcKC/La-Liga2-new.png",
+			"url": "acestream://7a9bb1b9cccb759c44ed84f3c1283922e6854670"
+			},
+			{
+			"name": "LaLiga HyperMotion 7",
+			"info": "d754",
+			"image": "https://i.postimg.cc/wv6pvcKC/La-Liga2-new.png",
+			"url": "acestream://446e73a22582921393b020ed08b768ad8e14d754"
+			},
+			{
+			"name": "LaLiga HyperMotion 8",
+			"info": "260e2",
+			"image": "https://i.postimg.cc/wv6pvcKC/La-Liga2-new.png",
+			"url": "acestream://4d52fc1994fe927702aeb7bc8778e2f23b1260e2"
 			}
 		]
 	},
@@ -399,34 +435,40 @@
 			"url": "acestream://5932623d2fd7ed16b01787251b418e4f59a01cda"
 			},
 			{
-			"name": "M. Liga de Campeones 8 SD",
-			"info": "58d0",
+			"name": "M. Liga de Campeones 8 [1080]",
+			"info": "27f7",
 			"image": "https://i.postimg.cc/zGjZ74WJ/Liga-de-Campeones-8-por-Movistar-Plus-2022-logo.png",
-			"url": "acestream://fdd9e3660059051660dbd7857443c2b807f258d0"
+			"url": "acestream://1a4b41c02e116ed19a505551a9caa79f54c027f7"
 			},
 			{
 			"name": "M. Liga de Campeones 9 SD",
-			"info": "a17f",
+			"info": "840b",
 			"image": "https://i.postimg.cc/GpdgpjM9/Liga-de-Campeones-9-por-Movistar-Plus-2022-logo.png",
-			"url": "acestream://69c95dc47b35dde559a6ef025c1b91c89646a17f"
+			"url": "acestream://7244379f8f6382d40afec871fb8e4219a803840b"
 			},
 			{
 			"name": "M. Liga de Campeones 10 SD",
-			"info": "e676",
+			"info": "9213",
 			"image": "https://i.postimg.cc/mrdxfqbT/Liga-de-Campeones-10-por-Movistar-Plus-2022-logo.png",
-			"url": "acestream://df67afe5c5f5e82a3ae629d126727b006b65e676"
+			"url": "acestream://d42e1b592b840ea34394fd3e1b1d3a4d0f399213"
 			},
 			{
 			"name": "M. Liga de Campeones 11 SD",
-			"info": "1277",
+			"info": "f3e4",
 			"image": "https://i.postimg.cc/SQ2B3DHp/Liga-de-Campeones-11-por-Movistar-Plus-2022-logo.png",
-			"url": "acestream://57e284a3c13100baeff7a88dc50949585c9f1277"
+			"url": "acestream://e737c681a92a4328703761c6ed9d8a951655f3e4"
 			},
 			{
 			"name": "M. Liga de Campeones 12 SD",
 			"info": "e854",
 			"image": "https://i.postimg.cc/K8NwBV3t/Liga-de-Campeones-12-por-Movistar-Plus-2022-logo.png",
 			"url": "acestream://33369549c635dabdb78b95c478c21fcc9e4ee854"
+			},
+			{
+			"name": "M. Liga de Campeones 13 SD",
+			"info": "053b",
+			"image": "https://i.postimg.cc/SQ2B3DHp/Liga-de-Campeones-11-por-Movistar-Plus-2022-logo.png",
+			"url": "acestream://60296c246e3596f334903fefd48cfaa724a5053b"
 			}
 		]
 	},

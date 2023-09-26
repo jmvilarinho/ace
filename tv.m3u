@@ -64,7 +64,7 @@ https://i.mjh.nz/SamsungTVPlus/ESBA3300027H5.m3u8
 https://i.mjh.nz/SamsungTVPlus/ESBA2200005D6.m3u8
 #EXTINF:-1 channel-id="samsung-ESAJ4500024LR" tvg-id="ESAJ4500024LR" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESAJ4500024LR_20230222T012038SQUARE.png_20230222012039.png" tvg-chno="4003" group-title="Samsung TV" , Euronews en directo
 https://i.mjh.nz/SamsungTVPlus/ESAJ4500024LR.m3u8
-#EXTINF:-1 channel-id="samsung-ESAJ4500019AM" tvg-id="ESAJ4500019AM" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESAJ4500019AM_20221109T010644SQUARE.png_20221109010644.png" tvg-chno="4004" group-title="Samsung TV" , Comedias - Rakuten TV
+#EXTINF:-1 channel-id="samsung-ESAJ4500019AM" tvg-id="ESAJ4500019AM" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESAJ4500019AM_20230926T032405SQUARE.png_20230926032406.png" tvg-chno="4004" group-title="Samsung TV" , Comedias - Rakuten TV
 https://i.mjh.nz/SamsungTVPlus/ESAJ4500019AM.m3u8
 #EXTINF:-1 channel-id="samsung-ESBD2300004Y7" tvg-id="ESBD2300004Y7" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD2300004Y7_20230913T030612SQUARE.png_20230913030613.png" tvg-chno="4005" group-title="Samsung TV" , Sol Música
 https://i.mjh.nz/SamsungTVPlus/ESBD2300004Y7.m3u8
@@ -184,6 +184,8 @@ https://i.mjh.nz/SamsungTVPlus/ESBA2200006B4.m3u8
 https://i.mjh.nz/SamsungTVPlus/ESAJ2900001Y3.m3u8
 #EXTINF:-1 channel-id="samsung-ESBD3200001EG" tvg-id="ESBD3200001EG" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD3200001EG_20230913T030604SQUARE.png_20230913030605.png" tvg-chno="4485" group-title="Samsung TV" , Motorvision
 https://i.mjh.nz/SamsungTVPlus/ESBD3200001EG.m3u8
+#EXTINF:-1 channel-id="samsung-ESBD3600001Q1" tvg-id="ESBD3600001Q1" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD3600001Q1_20230926T032407SQUARE.png_20230926032407.png" tvg-chno="4502" group-title="Samsung TV" , La Liga
+https://i.mjh.nz/SamsungTVPlus/ESBD3600001Q1.m3u8
 #EXTINF:-1 channel-id="samsung-ESBC410000577" tvg-id="ESBC410000577" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC410000577_20230913T030616SQUARE.png_20230913030616.png" tvg-chno="4504" group-title="Samsung TV" , Teledeporte
 https://i.mjh.nz/SamsungTVPlus/ESBC410000577.m3u8
 #EXTINF:-1 channel-id="samsung-ESBC2700009B4" tvg-id="ESBC2700009B4" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC2700009B4_20230712T021339SQUARE.png_20230712021340.png" tvg-chno="4506" group-title="Samsung TV" , FIFA+
@@ -192,8 +194,8 @@ https://i.mjh.nz/SamsungTVPlus/ESBC2700009B4.m3u8
 https://i.mjh.nz/SamsungTVPlus/ESBC3500003YK.m3u8
 #EXTINF:-1 channel-id="samsung-ESBD2600001ME" tvg-id="ESBD2600001ME" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD2600001ME_20230809T053838SQUARE.png_20230809053839.png" tvg-chno="4509" group-title="Samsung TV" , Tennis Channel
 https://i.mjh.nz/SamsungTVPlus/ESBD2600001ME.m3u8
-#EXTINF:-1 channel-id="samsung-ESBA14000024Z" tvg-id="ESBA14000024Z" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBA14000024Z_20220323T082000SQUARE.png_20220323082003.png" tvg-chno="4510" group-title="Samsung TV" , World Poker Tour
-https://i.mjh.nz/SamsungTVPlus/ESBA14000024Z.m3u8
+#EXTINF:-1 channel-id="samsung-ESBD2900001P9" tvg-id="ESBD2900001P9" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD2900001P9_20230926T032409SQUARE.png_20230926032410.png" tvg-chno="4510" group-title="Samsung TV" , World Poker Tour
+https://i.mjh.nz/SamsungTVPlus/ESBD2900001P9.m3u8
 #EXTINF:-1 channel-id="samsung-ESBA3300035DP" tvg-id="ESBA3300035DP" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBA3300035DP_20220323T081930SQUARE.png_20220323081932.png" tvg-chno="4513" group-title="Samsung TV" , Trace Sportstars
 https://i.mjh.nz/SamsungTVPlus/ESBA3300035DP.m3u8
 #EXTINF:-1 channel-id="samsung-ESBA140000460" tvg-id="ESBA140000460" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBA140000460_20220323T082117SQUARE.png_20220323082120.png" tvg-chno="4560" group-title="Samsung TV" , Surf Channel

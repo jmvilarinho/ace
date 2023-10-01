@@ -2058,22 +2058,22 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P1303097"/>
 		<category>Música</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20231002035500 +0000" stop="20231002041000 +0000">
+	<programme channel="Telecinco.TV" start="20231002035500 +0000" stop="20231002040500 +0000">
 		<title>Enphorma: Episodio 8</title>
 		<desc>Programa especializado en temas actuales de alimentación, psicología y ejercicio.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3067117"/>
 		<category>Ocio y Aficiones</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20231002035500 +0000" stop="20231002041000 +0000">
+	<programme channel="Telecinco.TV" start="20231002035500 +0000" stop="20231002040500 +0000">
 		<title>Enphorma: Episodio 8</title>
 		<desc>Programa especializado en temas actuales de alimentación, psicología y ejercicio.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3067117"/>
 		<category>Ocio y Aficiones</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20231002041000 +0000" stop="20231002050000 +0000">
-		<title>25 palabras</title>
-		<desc>Roma tiene nombre de mujer. Es la madre del imperio y la cultura que ha dominado occidente durante más de 1.000 años. Y aun así 'sus hijas' no son fácilmente reconocibles. La sombra de los varones las ha mantenido ocultas. Ellos: Marco Antonio, Julio César, Octavio Augusto... siempre salen del casting con el papel principal. Ellas: Fulvia, Cleopatra, Livia, Julia Mesa... obligadas a sonreír con un secundario bajo el brazo. Nos encanta Roma, pero siempre hemos contado la mitad de su historia.El corazón del Imperio pone nombre, cara, cuerpo y alma a esas mujeres. Las que fueron modelos de virtud, las machacadas por Roma, las que empuñaron armas, las fanáticas, las seductoras, las que se convirtieron en monedas de cambio... Patricias, esclavas, matronas, prostitutas, sacerdotisas, gladiadoras...Roma, en el siglo I D.C, es una ciudad violenta. Los bajos fondos son un hervidero de vida y de muerte. La fuerza y la dominación se exhiben con orgullo en un mundo de clases en el que ninguna mujer puede ser militar o emprender una carrera política. De ellas, se espera que se conviertan en el ideal de mujer romano; capaces de gestionar la economía doméstica, buenas conversadoras y grandes conocedoras del arte y la cultura, perfectas anfitrionas y modestas compañeras. Pero nuestras protagonistas, desafiaron las normas establecidas y fueron protagonistas de la historia, que, de algún modo, las olvidó.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2155630"/>
+	<programme channel="Telecinco.TV" start="20231002040500 +0000" stop="20231002050000 +0000">
+		<title>Reacción en cadena: Episodio 188</title>
+		<desc>Concurso presentado por Ion Aramendi en el que dos equipos rivales compiten en pruebas sucesivas para resolver cadenas de palabras mientras van acumulando dinero.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3112744"/>
 		<category>Entretenimiento</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20231002050000 +0000" stop="20231002065500 +0000">
@@ -2083,129 +2083,129 @@
 		<category>Informativo</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20231002065500 +0000" stop="20231002083000 +0000">
-		<title>La mirada crítica</title>
+		<title>La mirada crítica: Episodio 16</title>
 		<desc>Ana Terradillos y Antonio Teixeira se encargan de ofrecer, a primera hora de la mañana, lo más destacado de la actualidad política, económica y social en el panorama nacional e internacional.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3114625"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3129059"/>
 		<category>Informativo</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20231002083000 +0000" stop="20231002125700 +0000">
-		<title>Vamos a ver</title>
+	<programme channel="Telecinco.TV" start="20231002083000 +0000" stop="20231002130000 +0000">
+		<title>Vamos a ver: Episodio 16</title>
 		<desc>Joaquín Prat junto a Patricia Pardo y Adriana Dorronsoro repasan todas las noticias de actualidad, investigación y entretenimiento que interesan al gran público.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3114627"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3129060"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20231002125700 +0000" stop="20231002133000 +0000">
+	<programme channel="Telecinco.TV" start="20231002130000 +0000" stop="20231002133000 +0000">
 		<title>Informativos Telecinco</title>
-		<desc>Roma tiene nombre de mujer. Es la madre del imperio y la cultura que ha dominado occidente durante más de 1.000 años. Y aun así 'sus hijas' no son fácilmente reconocibles. La sombra de los varones las ha mantenido ocultas. Ellos: Marco Antonio, Julio César, Octavio Augusto... siempre salen del casting con el papel principal. Ellas: Fulvia, Cleopatra, Livia, Julia Mesa... obligadas a sonreír con un secundario bajo el brazo. Nos encanta Roma, pero siempre hemos contado la mitad de su historia.El corazón del Imperio pone nombre, cara, cuerpo y alma a esas mujeres. Las que fueron modelos de virtud, las machacadas por Roma, las que empuñaron armas, las fanáticas, las seductoras, las que se convirtieron en monedas de cambio... Patricias, esclavas, matronas, prostitutas, sacerdotisas, gladiadoras...Roma, en el siglo I D.C, es una ciudad violenta. Los bajos fondos son un hervidero de vida y de muerte. La fuerza y la dominación se exhiben con orgullo en un mundo de clases en el que ninguna mujer puede ser militar o emprender una carrera política. De ellas, se espera que se conviertan en el ideal de mujer romano; capaces de gestionar la economía doméstica, buenas conversadoras y grandes conocedoras del arte y la cultura, perfectas anfitrionas y modestas compañeras. Pero nuestras protagonistas, desafiaron las normas establecidas y fueron protagonistas de la historia, que, de algún modo, las olvidó.</desc>
+		<desc>Edición de mediodía de Informativos Telecinco que ofrece los acontecimientos más relevantes acaecidos durante la mañana. Las principales noticias de ámbito nacional e internacional son recogidas por Isabel Jiménez y David Cantero.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2160617"/>
 		<category>Informativo</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20231002133000 +0000" stop="20231002134000 +0000">
-		<title>El Desmarque Telecinco</title>
+		<title>El Desmarque Telecinco (T1): Episodio 38</title>
 		<desc>El mundo del deporte es el protagonista de este programa, en el que el periodista Manu Carreño presenta la actualidad y las últimas noticias de la jornada.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3099738"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3129080"/>
 		<category>Deportes</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20231002134000 +0000" stop="20231002135100 +0000">
+	<programme channel="Telecinco.TV" start="20231002134000 +0000" stop="20231002134500 +0000">
 		<title>El tiempo</title>
 		<desc>Espacio informativo que ofrece la previsión meteorológica.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P1373654"/>
 		<category>Informativo</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20231002135100 +0000" stop="20231002164400 +0000">
-		<title>Así es la vida</title>
-		<desc>El 4 de mayo de 2017, un ciclista encuentra un coche quemado en uno de los caminos del Pantano de Foix. Cuando los mossos se acercan al lugar, localizan, en el maletero del vehículo, los restos del cadáver de una persona totalmente carbonizado.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3060978"/>
+	<programme channel="Telecinco.TV" start="20231002134500 +0000" stop="20231002150000 +0000">
+		<title>Así es la vida: Episodio 70</title>
+		<desc>Magacín presentado por Sandra Barneda y César Muñoz. La última hora de las noticias de interés social a través de directos y reportajes, las novedades en el mundo de los famosos y de los grandes eventos del verano.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3129078"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20231002164400 +0000" stop="20231002175000 +0000">
-		<title>25 palabras</title>
-		<desc>La jueza llama a declarar a la pareja de la víctima, también agente de la Guardia Urbana, Rosa. Según ella, el fin de semana previo al crimen, no dejó de recibir mensajes de Albert, su ex amante, que seguía obsesionado con ella y odiaba a Pedro.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2155630"/>
+	<programme channel="Telecinco.TV" start="20231002150000 +0000" stop="20231002180000 +0000">
+		<title>TardeAR: Episodio 11</title>
+		<desc>Ana Rosa Quintana capitanea este magacín junto con colaboradores como Laura Madrueño, Miguel Ángel Nicolás, Beatriz Archidona, Jorge Luque, Manuel Marlasca y Antonio Hidalgo. El programa combina actualidad, información y entretenimiento.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3129076"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20231002175000 +0000" stop="20231002185900 +0000">
-		<title>Reacción en cadena</title>
-		<desc>Gracias a modernas técnicas forenses y arqueológicas, esta serie desvela secretos que han estado ocultos durante siglos. En cada uno de los episodios se arroja luz sobre momentos de la Historia envueltos en leyendas y llenos de controversia. ¿La balsa muisca que se encontró en una remota cueva de Colombia es la llave de El Dorado? ¿Es la Sábana Santa la fotografía más antigua de la Historia? ¿Se ha hallado el primer papiro de la antigüedad que habla de una relación íntima entre Jesús y María Magdalena? ¿Podemos afirmar por fin de quién es el rostro de la esfinge de Guiza? Esta nueva serie llevará a los espectadores por un fascinante viaje de descubrimiento y revelación.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2155633"/>
+	<programme channel="Telecinco.TV" start="20231002180000 +0000" stop="20231002190500 +0000">
+		<title>Reacción en cadena: Episodio 204</title>
+		<desc>Concurso presentado por Ion Aramendi en el que dos equipos rivales compiten en pruebas sucesivas para resolver cadenas de palabras mientras van acumulando dinero.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3129082"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20231002185900 +0000" stop="20231002192800 +0000">
+	<programme channel="Telecinco.TV" start="20231002190500 +0000" stop="20231002193500 +0000">
 		<title>Informativos Telecinco</title>
-		<desc>Cada semana un invitado se convierte en concursante en la nueva temporada de Cero en Historia para enfrentarse a tres de los colaboradores del programa: J.J. Vaquero, Patricia Conde, Susi Caramelo y Pablo Chiapella, nueva incorporación al elenco. Todos los programas de la décima temporada son temáticos y cuentan con nuevas pruebas como 'Abriendo el melón' o 'Serendipia' y fabulosos premios.</desc>
+		<desc>Informativo vespertino presentado por Pedro Piqueras y Alba Lago que incluye las principales noticias que se han producido durante la jornada.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2160619"/>
 		<category>Informativo</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20231002192800 +0000" stop="20231002193800 +0000">
-		<title>El Desmarque Telecinco Noche</title>
-		<desc>Leo Talks es una parodia de las Charlas TED, llevada a cabo por el humorista Leo Harlem, con un objetivo totalmente contrario al tono positivo y motivacional que desprenden las originales. Sin duda, se trata de un formato que plantea una fórmula renovada del clásico "Stand up Comedy". Sobre un escenario, ante una gran pantalla y rodeado de público, Leo expone sus tesis atrevidas e impactantes encaminadas a echar por tierra muchos conceptos y realidades que invaden nuestras vidas. Un punto de vista desternillante que aborda temas como la adolescencia, la obsesión por la salud, el futuro que nos espera, las mascotas, la necesidad de tener pareja o en lo que hoy en día se ha convertido la cocina saludable¿  A Leo le acompaña Chari, su "asistente virtual de última generación", que aporta datos que respaldan las teorías del monologuista. Las charlas también se apoyan en testimonios y noticias que plantean preguntas más importantes de lo que podamos creer. En definitiva, el cómico pretende desincentivar al mundo entero a la hora de enfrentarse a la obligación de ser "Mr. Perfect". Así que, si sigues tumbado en el sofá, sin hacer nada, sintiéndote culpable por no ser una persona más productiva, por no ser "foodie", o no entender nada del lenguaje adolescente, Leo te espera con los brazos abiertos en esta segunda temporada.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3099923"/>
+	<programme channel="Telecinco.TV" start="20231002193500 +0000" stop="20231002194500 +0000">
+		<title>El Desmarque Telecinco Noche (T1): Episodio 38</title>
+		<desc>El mundo del deporte es el protagonista de este programa, en el que el periodista Manu Carreño presenta la actualidad y las últimas noticias de la jornada.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3129084"/>
 		<category>Deportes</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20231002193800 +0000" stop="20231002194800 +0000">
+	<programme channel="Telecinco.TV" start="20231002194500 +0000" stop="20231002195000 +0000">
 		<title>El tiempo</title>
-		<desc>La actriz Macarena Gómez y el también actor, Carles Sans, nos acompañan para hablar de `Oficinas`. ¿Habrán trabajado alguna vez en una oficina? ¿Serán de los que roban el material? ¿Habrán tenido que hacer un curso de riesgos laborales? Javier Coronas, junto a Javier Cansado y Pepe Colubi, les recibe desde un nuevo plató en Madrid.</desc>
+		<desc>Espacio informativo que ofrece la previsión meteorológica.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P1373654"/>
 		<category>Informativo</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20231002194800 +0000" stop="20231002210000 +0000">
-		<title>Gran Hermano VIP 2023: Última hora</title>
-		<desc>En el corredor de la muerte es la historia de la lucha de un hombre por demostrar su inocencia, de una familia que nunca se ha rendido. Basada en el caso real de Pablo Ibar, declarado culpable del triple asesinato que tuvo lugar en Florida en 1994.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3128447"/>
+	<programme channel="Telecinco.TV" start="20231002195000 +0000" stop="20231002205000 +0000">
+		<title>Gran Hermano VIP 2023: Última hora: Episodio 1</title>
+		<desc>Espacio que resume los mejores momentos de las celebridades que participan en este concurso. En el espacio se ofrecen imágenes inéditas de Guadalix y se analizan las últimas discusiones, pactos y encontronazos entre los concursantes.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3129086"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20231002210000 +0000" stop="20231002225100 +0000">
-		<title>La que se avecina</title>
-		<desc></desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2147905"/>
+	<programme channel="Telecinco.TV" start="20231002205000 +0000" stop="20231002225500 +0000">
+		<title>La que se avecina (T13): Ep.5 Setenta y cinco primaveras, un disconfort vaginal y el Talento de míster Rivas</title>
+		<desc>Antonio recibe una llamada de un antiguo compañero de prisión, y le pide que le ayude a ocuparse de su suegra. Noelia presiona a Bruno para que le dé información sobre su hijo. El ginecólogo recomienda a Menchu el uso de la silla pélvica para resolver sus problemas.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3113498"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20231002225100 +0000" stop="20231003003300 +0000">
-		<title>La que se avecina</title>
-		<desc>Un programa que combina el deporte actual con lo mejor del archivo de la casa. Te contamos todo lo acontecido durante la semana, a la vez que recordamos imágenes míticas. Todo ello amenizado con la voz de Raúl Pérez y sus personajes.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P1834793"/>
-		<category>Series</category>
-	</programme>
-	<programme channel="Telecinco.TV" start="20231003003300 +0000" stop="20231003005900 +0000">
-		<title>Casino Gran Madrid Online Show</title>
-		<desc>Un asesinato. Un pasado oculto. Y una cena navideña donde nadie es lo que parece y en la que un expresidente mundial, un ministro, un alcalde, un cantante negacionista, un cómico y una activista hacen que Raúl Pérez ponga en duda su propia identidad.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2160166"/>
+	<programme channel="Telecinco.TV" start="20231002225500 +0000" stop="20231002235500 +0000">
+		<title>Gran Hermano VIP 2023: Resumen diario: Episodio 11</title>
+		<desc>Resumen diario de los mejores momentos vividos por los habitantes famosos de este concurso.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3129088"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20231003005900 +0000" stop="20231003011100 +0000">
-		<title>Cómo se hizo Way down</title>
-		<desc>Cada semana un invitado se convierte en concursante en la nueva temporada de Cero en Historia para enfrentarse a tres de los colaboradores del programa: J.J. Vaquero, Patricia Conde, Susi Caramelo y Pablo Chiapella, nueva incorporación al elenco. Todos los programas de la décima temporada son temáticos y cuentan con nuevas pruebas como 'Abriendo el melón' o 'Serendipia' y fabulosos premios.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3113264"/>
+	<programme channel="Telecinco.TV" start="20231002235500 +0000" stop="20231003002000 +0000">
+		<title>Casino Gran Madrid Online Show: Episodio 275</title>
+		<desc>Programa nocturno para que los espectadores puedan conectarse al Casino Gran Madrid desde casa.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3129072"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20231003011100 +0000" stop="20231003011600 +0000">
+	<programme channel="Telecinco.TV" start="20231003002000 +0000" stop="20231003005500 +0000">
+		<title>¡Toma Salami!: Episodio 45</title>
+		<desc>Espacio vespertino que ofrece en tira diaria los momentos más destacados de los 30 años de historia de Mediaset España. Se recuperan momentos míticos y estará narrado por Javier Capitán.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P1746572"/>
+		<category>Entretenimiento</category>
+	</programme>
+	<programme channel="Telecinco.TV" start="20231003005500 +0000" stop="20231003010000 +0000">
 		<title>Horóscopo de Esperanza Gracia</title>
-		<desc>Cada semana un invitado se convierte en concursante en la nueva temporada de Cero en Historia para enfrentarse a tres de los colaboradores del programa: J.J. Vaquero, Patricia Conde, Susi Caramelo y Pablo Chiapella, nueva incorporación al elenco. Todos los programas de la décima temporada son temáticos y cuentan con nuevas pruebas como 'Abriendo el melón' o 'Serendipia' y fabulosos premios.</desc>
+		<desc>La tarotista Esperanza Gracia hace un repaso a la fortuna que van a vivir los distintos signos del zodiaco.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P1479780"/>
 		<category>Ocio y Aficiones</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20231003011600 +0000" stop="20231003014600 +0000">
-		<title>Mejor llama a Kiko</title>
-		<desc>Cada semana un invitado se convierte en concursante en la nueva temporada de Cero en Historia para enfrentarse a tres de los colaboradores del programa: J.J. Vaquero, Patricia Conde, Susi Caramelo y Pablo Chiapella, nueva incorporación al elenco. Todos los programas de la décima temporada son temáticos y cuentan con nuevas pruebas como 'Abriendo el melón' o 'Serendipia' y fabulosos premios.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P1623348"/>
+	<programme channel="Telecinco.TV" start="20231003010000 +0000" stop="20231003013000 +0000">
+		<title>Mejor llama a Kiko: Episodio 83</title>
+		<desc>Espacio de televenta presentado por Kiko Hernández.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3075215"/>
 		<category>Ocio y Aficiones</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20231003014600 +0000" stop="20231003021600 +0000">
-		<title>Mejor llama a Kiko</title>
-		<desc>Roma tiene nombre de mujer. Es la madre del imperio y la cultura que ha dominado occidente durante más de 1.000 años. Y aun así 'sus hijas' no son fácilmente reconocibles. La sombra de los varones las ha mantenido ocultas. Ellos: Marco Antonio, Julio César, Octavio Augusto... siempre salen del casting con el papel principal. Ellas: Fulvia, Cleopatra, Livia, Julia Mesa... obligadas a sonreír con un secundario bajo el brazo. Nos encanta Roma, pero siempre hemos contado la mitad de su historia.El corazón del Imperio pone nombre, cara, cuerpo y alma a esas mujeres. Las que fueron modelos de virtud, las machacadas por Roma, las que empuñaron armas, las fanáticas, las seductoras, las que se convirtieron en monedas de cambio... Patricias, esclavas, matronas, prostitutas, sacerdotisas, gladiadoras...Roma, en el siglo I D.C, es una ciudad violenta. Los bajos fondos son un hervidero de vida y de muerte. La fuerza y la dominación se exhiben con orgullo en un mundo de clases en el que ninguna mujer puede ser militar o emprender una carrera política. De ellas, se espera que se conviertan en el ideal de mujer romano; capaces de gestionar la economía doméstica, buenas conversadoras y grandes conocedoras del arte y la cultura, perfectas anfitrionas y modestas compañeras. Pero nuestras protagonistas, desafiaron las normas establecidas y fueron protagonistas de la historia, que, de algún modo, las olvidó.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P1623348"/>
+	<programme channel="Telecinco.TV" start="20231003013000 +0000" stop="20231003020000 +0000">
+		<title>Mejor llama a Kiko: Episodio 75</title>
+		<desc>Espacio de televenta presentado por Kiko Hernández.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2172788"/>
 		<category>Ocio y Aficiones</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20231003021600 +0000" stop="20231003035600 +0000">
+	<programme channel="Telecinco.TV" start="20231003020000 +0000" stop="20231003035500 +0000">
 		<title>Miramimúsica</title>
-		<desc>Roma tiene nombre de mujer. Es la madre del imperio y la cultura que ha dominado occidente durante más de 1.000 años. Y aun así 'sus hijas' no son fácilmente reconocibles. La sombra de los varones las ha mantenido ocultas. Ellos: Marco Antonio, Julio César, Octavio Augusto... siempre salen del casting con el papel principal. Ellas: Fulvia, Cleopatra, Livia, Julia Mesa... obligadas a sonreír con un secundario bajo el brazo. Nos encanta Roma, pero siempre hemos contado la mitad de su historia.El corazón del Imperio pone nombre, cara, cuerpo y alma a esas mujeres. Las que fueron modelos de virtud, las machacadas por Roma, las que empuñaron armas, las fanáticas, las seductoras, las que se convirtieron en monedas de cambio... Patricias, esclavas, matronas, prostitutas, sacerdotisas, gladiadoras...Roma, en el siglo I D.C, es una ciudad violenta. Los bajos fondos son un hervidero de vida y de muerte. La fuerza y la dominación se exhiben con orgullo en un mundo de clases en el que ninguna mujer puede ser militar o emprender una carrera política. De ellas, se espera que se conviertan en el ideal de mujer romano; capaces de gestionar la economía doméstica, buenas conversadoras y grandes conocedoras del arte y la cultura, perfectas anfitrionas y modestas compañeras. Pero nuestras protagonistas, desafiaron las normas establecidas y fueron protagonistas de la historia, que, de algún modo, las olvidó.</desc>
+		<desc>Programa musical que se emite de madrugada.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P1303097"/>
 		<category>Música</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20231003035600 +0000" stop="20231003041000 +0000">
-		<title>Enphorma</title>
-		<desc>Roma tiene nombre de mujer. Es la madre del imperio y la cultura que ha dominado occidente durante más de 1.000 años. Y aun así 'sus hijas' no son fácilmente reconocibles. La sombra de los varones las ha mantenido ocultas. Ellos: Marco Antonio, Julio César, Octavio Augusto... siempre salen del casting con el papel principal. Ellas: Fulvia, Cleopatra, Livia, Julia Mesa... obligadas a sonreír con un secundario bajo el brazo. Nos encanta Roma, pero siempre hemos contado la mitad de su historia.El corazón del Imperio pone nombre, cara, cuerpo y alma a esas mujeres. Las que fueron modelos de virtud, las machacadas por Roma, las que empuñaron armas, las fanáticas, las seductoras, las que se convirtieron en monedas de cambio... Patricias, esclavas, matronas, prostitutas, sacerdotisas, gladiadoras...Roma, en el siglo I D.C, es una ciudad violenta. Los bajos fondos son un hervidero de vida y de muerte. La fuerza y la dominación se exhiben con orgullo en un mundo de clases en el que ninguna mujer puede ser militar o emprender una carrera política. De ellas, se espera que se conviertan en el ideal de mujer romano; capaces de gestionar la economía doméstica, buenas conversadoras y grandes conocedoras del arte y la cultura, perfectas anfitrionas y modestas compañeras. Pero nuestras protagonistas, desafiaron las normas establecidas y fueron protagonistas de la historia, que, de algún modo, las olvidó.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3033572"/>
+	<programme channel="Telecinco.TV" start="20231003035500 +0000" stop="20231003041000 +0000">
+		<title>Enphorma: Episodio 7</title>
+		<desc>Programa especializado en temas actuales de alimentación, psicología y ejercicio.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3056529"/>
 		<category>Ocio y Aficiones</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20231003035500 +0000" stop="20231003041000 +0000">
@@ -9966,7 +9966,7 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP222669"/>
 		<category>Cine</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20231002031000 +0000" stop="20231002054000 +0000">
+	<programme channel="Bemad.TV" start="20231002031000 +0000" stop="20231002052500 +0000">
 		<title>2001: Una odisea del espacio</title>
 		<desc>Hace millones de años, antes de la aparición del "homo sapiens", unos primates descubren un monolito que los conduce a un estadio de inteligencia superior. Millones de años después, otro monolito, enterrado en una luna, despierta el interés de los científicos. Por último, durante una misión de la NASA, HAL 9000, una máquina dotada de inteligencia artificial, se encarga de controlar todos los sistemas de una nave espacial tripulada. La mejor y más famosa película de ciencia ficción de la historia, en la que Stanley Kubrick, en plena carrera espacial, quiso poner de manifiesto la relación del hombre con el universo. Preparada durante cuatro años por un Kubrick extremadamente minucioso junto a Arthur C. Clarke, se buscó hasta el último conocimiento científico para crear una tecnología futurista lo más próxima a lo que pudiera ser un futuro inmediato. Se trata de una película en la que por primera vez los hombres son tan importantes como las máquinas, los silencios tan importantes como los diálogos y lo desconocido tan determinante como lo que se conoce. Obtuvo el Oscar a los Mejores efectos visuales, además de la nominación al Mejor director, guion y dirección artística. También consiguió el Premio David di Donatello a la Mejor producción extranjera.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP20565"/>
@@ -10662,70 +10662,70 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1033962"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20231002035500 +0000" stop="20231002044400 +0000">
+	<programme channel="Energy.TV" start="20231002035500 +0000" stop="20231002041500 +0000">
 		<title>Miramimúsica</title>
 		<desc>Programa musical que se emite de madrugada.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1303097"/>
 		<category>Música</category>
 	</programme>
-	<programme channel="Energy.TV" start="20231002035500 +0000" stop="20231002044400 +0000">
+	<programme channel="Energy.TV" start="20231002035500 +0000" stop="20231002041500 +0000">
 		<title>Miramimúsica</title>
 		<desc>Programa musical que se emite de madrugada.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1303097"/>
 		<category>Música</category>
 	</programme>
-	<programme channel="Energy.TV" start="20231002044400 +0000" stop="20231002055200 +0000">
-		<title>Caronte</title>
-		<desc>El mejor resumen con lo más destacado de cada uno de los partidos de Segunda División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la competición de plata del fútbol español.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1877317"/>
+	<programme channel="Energy.TV" start="20231002041500 +0000" stop="20231002043000 +0000">
+		<title>Caronte (T1): Ep.11 Ana</title>
+		<desc>La ruptura con Natalia deja a Caronte sumido en un estado de ánimo tan bajo que le impulsa a querer cometer una locura para vengarse de Paniagua.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1898603"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20231002055200 +0000" stop="20231002063200 +0000">
-		<title>The Blacklist</title>
-		<desc>El mejor resumen con lo más destacado de cada uno de los partidos de Segunda División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la competición de plata del fútbol español.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1413655"/>
+	<programme channel="Energy.TV" start="20231002043000 +0000" stop="20231002050500 +0000">
+		<title>Mentes criminales (T12): Ep.16 La ayuda es inútil</title>
+		<desc>Una madre revela informacion valiosa a la BAU para su investigación sobre el sujeto conoocido como el Bone Crusher. Mientras, Reid sigue adaptándose a su nueva vida entre rejas.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1378732"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20231002063200 +0000" stop="20231002071300 +0000">
-		<title>The Blacklist</title>
-		<desc>El mejor resumen con lo más destacado de cada uno de los partidos de Segunda División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la competición de plata del fútbol español.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1413655"/>
+	<programme channel="Energy.TV" start="20231002050500 +0000" stop="20231002054000 +0000">
+		<title>Mentes criminales (T12): Ep.17 En la oscuridad</title>
+		<desc>Cuando los cuerpos de dos víctimas brutalmente asesinadas aparecen en la misma ciudad, los analistas federales creen que los crímenes pueden ser obra de dos sujetos distintos. Mientras, la Unidad de Análisis de Conducta lucha para mantener a salvo a Reid.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1384266"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20231002071300 +0000" stop="20231002075600 +0000">
-		<title>NCIS: Nueva Orleans</title>
-		<desc>El mejor resumen con lo más destacado de cada uno de los partidos de Segunda División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la competición de plata del fútbol español.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1762557"/>
+	<programme channel="Energy.TV" start="20231002054000 +0000" stop="20231002063000 +0000">
+		<title>Mentes criminales (T12): Ep.18 Hell's Kitchen</title>
+		<desc>El equipo es enviado a Nueva York para investigar a un sospechoso que rapta a sus víctimas y las esconde en el alcantarillado. Reid, toma una decisión que afectará a su relación con los otros presos.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1384267"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20231002075600 +0000" stop="20231002084400 +0000">
-		<title>NCIS: Nueva Orleans</title>
-		<desc>El mejor resumen con lo más destacado de cada uno de los partidos de Segunda División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la competición de plata del fútbol español.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1762557"/>
+	<programme channel="Energy.TV" start="20231002063000 +0000" stop="20231002073000 +0000">
+		<title>Mentes criminales (T12): Ep.19 El norte verdadero</title>
+		<desc>El equipo viaja a Arizona cuando tres cuerpos aparecen atados en estacas.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1384268"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20231002084400 +0000" stop="20231002092800 +0000">
-		<title>NCIS: Nueva Orleans</title>
-		<desc>El mejor resumen con lo más destacado de cada uno de los partidos de Segunda División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la competición de plata del fútbol español.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1762557"/>
+	<programme channel="Energy.TV" start="20231002073000 +0000" stop="20231002081500 +0000">
+		<title>Hawai 5.0 (T3): Ep.12 Kapu (Prohibido)</title>
+		<desc>Danny y McGarrett investigan el asesinato de un profesor de la Universidad de Oahu, cuyo cuerpo se encuentra en descomposición en una tina de ácido.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1069021"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20231002092800 +0000" stop="20231002101100 +0000">
-		<title>NCIS: Nueva Orleans</title>
-		<desc>El mejor resumen con lo más destacado de cada uno de los partidos de Segunda División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la competición de plata del fútbol español.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1762557"/>
+	<programme channel="Energy.TV" start="20231002081500 +0000" stop="20231002091500 +0000">
+		<title>Hawai 5.0 (T3): Ep.13 Olelo Ho'Opa'I Make (Sentencia de muerte)</title>
+		<desc>Tras ser secuestradio y aparecer en prisión, Chin tiene que luchar por su vida para escapar antes de que los otros prisioneros le identifiquen como policía.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1069022"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20231002101100 +0000" stop="20231002105800 +0000">
-		<title>NCIS: Los Ángeles</title>
-		<desc>El mejor resumen con lo más destacado de cada uno de los partidos de Segunda División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la competición de plata del fútbol español.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1236111"/>
+	<programme channel="Energy.TV" start="20231002091500 +0000" stop="20231002100000 +0000">
+		<title>Hawai 5.0 (T3): Ep.14 Hana i wa 'ia (Escándalo)</title>
+		<desc>En la víspera de las elecciones, el Gobernador pide al equipo que investigue el asesinato de una prostituta que había mantenido una relación con un congresista.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1069023"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20231002105800 +0000" stop="20231002114800 +0000">
-		<title>NCIS: Los Ángeles</title>
-		<desc>El mejor resumen con lo más destacado de cada uno de los partidos de Segunda División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la competición de plata del fútbol español.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1236111"/>
+	<programme channel="Energy.TV" start="20231002100000 +0000" stop="20231002114800 +0000">
+		<title>Hawai 5.0 (T3): Ep.15 Hookman (El francotirador)</title>
+		<desc>El equipo investiga a un criminal que asesina a varios oficiales de policía por venganza y que se fija como próximo objetivo a McGarret.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1069024"/>
 		<category>Series</category>
 	</programme>
 	<programme channel="Energy.TV" start="20231002114800 +0000" stop="20231002123500 +0000">
@@ -11190,40 +11190,40 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP1303097"/>
 		<category>Música</category>
 	</programme>
-	<programme channel="FDF.TV" start="20231002050000 +0000" stop="20231002054900 +0000">
-		<title>¡Toma Salami!</title>
+	<programme channel="FDF.TV" start="20231002050000 +0000" stop="20231002052000 +0000">
+		<title>¡Toma Salami!: Episodio 32</title>
 		<desc>Espacio vespertino que ofrece en tira diaria los momentos más destacados de los 30 años de historia de Mediaset España. Se recuperan momentos míticos y estará narrado por Javier Capitán.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP1832791"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP1739978"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="FDF.TV" start="20231002054900 +0000" stop="20231002061900 +0000">
-		<title>Mejor llama a Kiko</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP1623348"/>
+	<programme channel="FDF.TV" start="20231002052000 +0000" stop="20231002055000 +0000">
+		<title>Mejor llama a Kiko: Episodio 71</title>
+		<desc>Espacio de televenta presentado por Kiko Hernández.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP2133207"/>
 		<category>Ocio y Aficiones</category>
 	</programme>
-	<programme channel="FDF.TV" start="20231002061900 +0000" stop="20231002074000 +0000">
-		<title>Los Serrano</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP455176"/>
+	<programme channel="FDF.TV" start="20231002055000 +0000" stop="20231002072500 +0000">
+		<title>Los Serrano (T4): Ep.65 Una proposición indecente</title>
+		<desc>La atracción entre Santiago y Lourdes es cada vez mayor, pero ninguno de los dos se atreve a dar el primer paso. Por una parte, ella no tiene ningún tipo de experiencia en el terreno amoroso, y por otra, él teme acercarse a una mujer tan religiosa y casta. Fiti decide intervenir e invita a Lourditas a cenar para convencerla de que debe mostrarse más abierta en el terreno sexual si quiere conquistar a Santi definitivamente. Sin embargo, todo se complica cuando Lucía y Carmen son testigos casuales de este encuentro y llegan a la errónea conclusión de que entre ellos existe una relación adúltera. Raúl pasa la mayor parte del tiempo con sus amigos y descuida su relación con África. Marcos le aconseja que cuide a su novia si no quiere perderla y el joven decide invitar a su chica al cine olvidando que esa misma noche el equipo de fútbol del Santa Justa se reúne para marcharse de juerga. Raúl se deshace de ella obligándola a cenar con Ruth y un tío suyo que ha venido de Barcelona. Sin embargo, las chicas descubren la encerrona y ponen en marcha la venganza.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP478827"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="FDF.TV" start="20231002074000 +0000" stop="20231002084100 +0000">
-		<title>Aída</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP600247"/>
+	<programme channel="FDF.TV" start="20231002072500 +0000" stop="20231002084500 +0000">
+		<title>Aída (T5): Ep.26 La guerra de papá</title>
+		<desc>Paz encuentra una nueva oportunidad para iniciar una historia de amor con Luisma tras la ruptura matrimonial entre éste y Macu. Sin embargo, la joven se desespera ante el despiste de Luisma, que es incapaz de darse cuenta de sus verdaderas intenciones.Entretanto, con el fin de obtener importantes cantidades de dinero, Mauricio decide convertir el bar Reinols en una discoteca por las noches. El nuevo negocio genera opiniones encontradas: por un lado, el ruido desespera a Aída y a Eugenia, que no pueden dormir, mientras que a Jonathan y Fidel les emociona la idea y acuden al local sin el permiso de sus padres.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP709677"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="FDF.TV" start="20231002084100 +0000" stop="20231002093900 +0000">
-		<title>Aída</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP600247"/>
+	<programme channel="FDF.TV" start="20231002084500 +0000" stop="20231002100000 +0000">
+		<title>Aída (T8): Ep.127 Furgo</title>
+		<desc>Pretendía disfrutar de una noche solo para chicas para celebrar la despedida de soltera de su amiga Vanesa pero un suceso inesperado llevará a Lorena a vivir una auténtica pesadilla. Y es que, tras robar el coche de Chema, su hermano Jonathan se ofrece a llevar a las amigas a los locales nocturnos de moda, velada que se frustra cuando el grupo atropella inesperadamente a Eugenia.Mientras tanto, la imposibilidad de conseguir el visado para acompañar a Paz en su nueva andadura estadounidense ha obligado a Luisma a quedarse en Esperanza Sur mientras su novia ha fijado su residencia en Miami. Triste y deprimido, el hermano de Aída no encuentra consuelo hasta que su familia y amigos le hacen una insólita propuesta: convertirse en el nuevo entrenador del equipo de baloncesto de Aidita.Por último, su vasta cultura general, sus grandes dotes artísticas y su dominio de las matemáticas han permitido a Fidel superar con éxito el temido examen de selectividad. Tras recibir las notas, el hijo de Chema se muestra indeciso ante la carrera universitaria que elegir mientras sopesa los pros y los contras de un amplio abanico de opciones.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP869654"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="FDF.TV" start="20231002093900 +0000" stop="20231002105100 +0000">
-		<title>Aída</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP1006594"/>
+	<programme channel="FDF.TV" start="20231002100000 +0000" stop="20231002105100 +0000">
+		<title>Aída (T8): Ep.128 El año que vivimos peligrosamente</title>
+		<desc>Aída, asistenta de clase humilde, tiene una pésima suerte con los hombres y unas complicadas relaciones personales.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP869655"/>
 		<category>Series</category>
 	</programme>
 	<programme channel="FDF.TV" start="20231002105100 +0000" stop="20231002121000 +0000">
@@ -12848,91 +12848,91 @@
 	</programme>
 	<programme channel="TDP.TV" start="20231003041000 +0000" stop="20231003053000 +0000">
 		<title>OXER Hípica (T2023): Gran Premio Ciudad de Barcelona (CSIO Barcelona)</title>
-		<desc>Competición hípica del máximo nivel. Los mejores Concursos de Salto Internacionales y la Liga Nacional de Salto de la RealFederación Hípico Española. Movistar + Deportes galopa con la temporada Oxer 2023.</desc>
+		<desc>Sin descripción</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTDEPP3037129"/>
 		<category>Deportes</category>
 	</programme>
 	<programme channel="TDP.TV" start="20231003053000 +0000" stop="20231003070000 +0000">
 		<title>ASOBAL (T23/24): Anaitasuna - Ademar León</title>
-		<desc>La ASOBAL, la liga de balonmano profesional española, lleva años dominada con mano de hierro por el Barcelona. El conjunto azulgrana es el máximo favorito, en el que sería su decimocuarto título consecutivo. El resto de equipos pretenden plantar cara.</desc>
+		<desc>Sin descripción</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTDEPP3127625"/>
 		<category>Deportes</category>
 	</programme>
 	<programme channel="TDP.TV" start="20231003070000 +0000" stop="20231003083000 +0000">
 		<title>Estudio estadio (T23/24): Lunes 2 octubre</title>
-		<desc>La información y la opinión van de la mano en este veterano espacio que analiza al detalle las noticias que genere el mundo del fútbol y del resto de deportes. El programa incluye la participación de varios comentaristas que dan su punto de vista.</desc>
+		<desc>Sin descripción</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTDEPP3128498"/>
 		<category>Deportes</category>
 	</programme>
 	<programme channel="TDP.TV" start="20231003083000 +0000" stop="20231003103000 +0000">
 		<title>Open de China</title>
-		<desc>Los torneos WTA 1000 forman parte del WTA Tour organizado por la Asociación de Tenis Femenina.</desc>
+		<desc>Sin descripción</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTDEPP3125850"/>
 		<category>Deportes</category>
 	</programme>
 	<programme channel="TDP.TV" start="20231003103000 +0000" stop="20231003123000 +0000">
 		<title>Open de China</title>
-		<desc>Los torneos WTA 1000 forman parte del WTA Tour organizado por la Asociación de Tenis Femenina.</desc>
+		<desc>Sin descripción</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTDEPP3125850"/>
 		<category>Deportes</category>
 	</programme>
 	<programme channel="TDP.TV" start="20231003123000 +0000" stop="20231003130000 +0000">
 		<title>Mundial de carreras en ruta (T2023): Media maratón (M)</title>
-		<desc>La ciudad de Riga acoge la primera edición del Mundial de carreras en ruta, el sucesor del antiguo Mundial de media maratón. Además de esa prueba, este evento también incluye competiciones de 5 kilómetros y de una milla de distancia.</desc>
+		<desc>Sin descripción</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTDEPP3127599"/>
 		<category>Deportes</category>
 	</programme>
 	<programme channel="TDP.TV" start="20231003130000 +0000" stop="20231003150000 +0000">
 		<title>Open de China</title>
-		<desc>Los torneos WTA 1000 forman parte del WTA Tour organizado por la Asociación de Tenis Femenina.</desc>
+		<desc>Sin descripción</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTDEPP3125850"/>
 		<category>Deportes</category>
 	</programme>
 	<programme channel="TDP.TV" start="20231003150000 +0000" stop="20231003163500 +0000">
 		<title>Supercopa LF Endesa (T2023): Final</title>
-		<desc>El Gran Canaria Arena reúne a los cuatro mejores equipos del pasado curso. La Supercopa de la Liga Femenina se disputa en la isla los días 30 de septiembre y 1 de octubre. El equipo anfitrión, Valencia Basket, Basket Zaragoza y Avenida son los participantes.</desc>
+		<desc>Sin descripción</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTDEPP3127645"/>
 		<category>Deportes</category>
 	</programme>
 	<programme channel="TDP.TV" start="20231003163500 +0000" stop="20231003173500 +0000">
 		<title>Resumen Mundial de motociclismo (T2023): GP de Japón</title>
-		<desc>El Mundial de motociclismo es sinónimo de emoción. Las 21 citas del campeonato reúnen a los pilotos más competitivos sobre dos ruedas. En juego, los títulos de las tres cilindradas: Moto3, Moto2 y la categoría reina, MotoGP.</desc>
+		<desc>Sin descripción</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTDEPP3127589"/>
 		<category>Deportes</category>
 	</programme>
 	<programme channel="TDP.TV" start="20231003173500 +0000" stop="20231003201500 +0000">
 		<title>Mundial de gimnasia artística (T2023): Final equipos masculinos</title>
-		<desc>La 52ª edición del Mundial de gimnasia artística se celebra en el Sportpalais de la ciudad belga de Amberes del 30 de septiembre al 8 de octubre.</desc>
+		<desc>Sin descripción</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTDEPP3128509"/>
 		<category>Deportes</category>
 	</programme>
 	<programme channel="TDP.TV" start="20231003201500 +0000" stop="20231003210000 +0000">
 		<title>Mundial de Superbike (T2023): Algarve - Segunda carrera</title>
-		<desc>El campeonato del mundo de Superbike es una competición de motos de gran cilindrada paralela al mundial de velocidad y que sirve de plataforma para muchos pilotos. El calendario de 2023 consta de doce pruebas. En cada evento se disputan tres carreras puntuables.</desc>
+		<desc>Sin descripción</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTDEPP3119185"/>
 		<category>Deportes</category>
 	</programme>
 	<programme channel="TDP.TV" start="20231003210000 +0000" stop="20231003223000 +0000">
 		<title>Estudio estadio (T23/24): Martes 3 octubre</title>
-		<desc>La información y la opinión van de la mano en este veterano espacio que analiza al detalle las noticias que genere el mundo del fútbol y del resto de deportes. El programa incluye la participación de varios comentaristas que dan su punto de vista.</desc>
+		<desc>Sin descripción</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTDEPP3128500"/>
 		<category>Deportes</category>
 	</programme>
 	<programme channel="TDP.TV" start="20231003223000 +0000" stop="20231004001500 +0000">
 		<title>Open de China</title>
-		<desc>Los torneos WTA 1000 forman parte del WTA Tour organizado por la Asociación de Tenis Femenina.</desc>
+		<desc>Sin descripción</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTDEPP3125850"/>
 		<category>Deportes</category>
 	</programme>
 	<programme channel="TDP.TV" start="20231004001500 +0000" stop="20231004020000 +0000">
 		<title>Open de China</title>
-		<desc>Los torneos WTA 1000 forman parte del WTA Tour organizado por la Asociación de Tenis Femenina.</desc>
+		<desc>Sin descripción</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTDEPP3125850"/>
 		<category>Deportes</category>
 	</programme>
 	<programme channel="TDP.TV" start="20231004020000 +0000" stop="20231004044500 +0000">
 		<title>Mundial de gimnasia artística (T2023): Final equipos masculinos</title>
-		<desc>La 52ª edición del Mundial de gimnasia artística se celebra en el Sportpalais de la ciudad belga de Amberes del 30 de septiembre al 8 de octubre.</desc>
+		<desc>Sin descripción</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTDEPP3128509"/>
 		<category>Deportes</category>
 	</programme>
@@ -14526,70 +14526,76 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP2037386"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20231002032000 +0000" stop="20231002040000 +0000">
+	<programme channel="Divinity.TV" start="20231002032000 +0000" stop="20231002045500 +0000">
 		<title>Chicago Fire (T9): Ep.16 Sin supervivientes</title>
 		<desc>El equipo recibe buenas noticias. Además, llega un desconocido misterioso y una llamada impactante deja a Severide sin aliento.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP2037387"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20231002040000 +0000" stop="20231002041500 +0000">
-		<title>Conectamos empleo</title>
-		<desc>El mejor resumen con lo más destacado de cada uno de los partidos de Segunda División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la competición de plata del fútbol español.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP3075158"/>
+	<programme channel="Divinity.TV" start="20231002032000 +0000" stop="20231002045500 +0000">
+		<title>Chicago Fire (T9): Ep.16 Sin supervivientes</title>
+		<desc>El equipo recibe buenas noticias. Además, llega un desconocido misterioso y una llamada impactante deja a Severide sin aliento.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP2037387"/>
+		<category>Series</category>
+	</programme>
+	<programme channel="Divinity.TV" start="20231002045500 +0000" stop="20231002051000 +0000">
+		<title>Conectamos empleo: Episodio 3</title>
+		<desc>Programa sobre empleo y mercado laboral.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP3075239"/>
 		<category>Cultural/Educativo</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20231002041500 +0000" stop="20231002043000 +0000">
-		<title>Enphorma</title>
-		<desc>El mejor resumen con lo más destacado de cada uno de los partidos de Segunda División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la competición de plata del fútbol español.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP3033572"/>
+	<programme channel="Divinity.TV" start="20231002051000 +0000" stop="20231002052500 +0000">
+		<title>Enphorma: Episodio 8</title>
+		<desc>Programa especializado en temas actuales de alimentación, psicología y ejercicio.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP3067117"/>
 		<category>Ocio y Aficiones</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20231002043000 +0000" stop="20231002044000 +0000">
-		<title>Chicago Fire</title>
-		<desc>El mejor resumen con lo más destacado de cada uno de los partidos de Segunda División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la competición de plata del fútbol español.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1189973"/>
+	<programme channel="Divinity.TV" start="20231002052500 +0000" stop="20231002062000 +0000">
+		<title>Nina: una enfermera diferente (T1): Ep.1 La vuelta</title>
+		<desc>Nina es una madre coraje que, después de pasarse diez años recorriendo hospitales con su hija Lily enferma de cáncer, decide empezar de cero en el servicio de Medicina Interna del Hospital Madeleine Brès que dirige su exmarido.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1927535"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20231002044000 +0000" stop="20231002052000 +0000">
-		<title>Chicago Fire</title>
-		<desc>El mejor resumen con lo más destacado de cada uno de los partidos de Segunda División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la competición de plata del fútbol español.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1189973"/>
+	<programme channel="Divinity.TV" start="20231002062000 +0000" stop="20231002072500 +0000">
+		<title>Nina: una enfermera diferente (T1): Ep.3 Heridas en el corazón</title>
+		<desc>Nina es una madre coraje que, después de pasarse diez años recorriendo hospitales con su hija Lily enferma de cáncer, decide empezar de cero en el servicio de Medicina Interna del Hospital Madeleine Brès que dirige su exmarido.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1929139"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20231002052000 +0000" stop="20231002060000 +0000">
-		<title>Chicago Fire</title>
-		<desc>El mejor resumen con lo más destacado de cada uno de los partidos de Segunda División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la competición de plata del fútbol español.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1189973"/>
+	<programme channel="Divinity.TV" start="20231002072500 +0000" stop="20231002082000 +0000">
+		<title>Chicago Fire (T2): Ep.17 Cuando las cosas se ponen dificiles</title>
+		<desc>Una actuación heroica de un ciudadano de Chicago tiene consecuencias inesperadas en el cuartel.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1238248"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20231002060000 +0000" stop="20231002065000 +0000">
-		<title>Chicago Fire</title>
-		<desc>El mejor resumen con lo más destacado de cada uno de los partidos de Segunda División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la competición de plata del fútbol español.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1189973"/>
+	<programme channel="Divinity.TV" start="20231002082000 +0000" stop="20231002084000 +0000">
+		<title>Chicago Fire (T2): Ep.18 Hasta que separas los pies del suelo</title>
+		<desc>Mas alla de la acción, nuevos lazos estrechan y fortalece los antiguos.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1238249"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20231002065000 +0000" stop="20231002074500 +0000">
-		<title>Turno de Noche</title>
-		<desc>El mejor resumen con lo más destacado de cada uno de los partidos de Segunda División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la competición de plata del fútbol español.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1251675"/>
-		<category>Series</category>
-	</programme>
-	<programme channel="Divinity.TV" start="20231002074500 +0000" stop="20231002084000 +0000">
-		<title>Turno de Noche</title>
-		<desc>El mejor resumen con lo más destacado de cada uno de los partidos de Segunda División. Las mejores jugadas, goles e imágenes de los encuentros que se disputan cada jornada en la competición de plata del fútbol español.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1251675"/>
-		<category>Series</category>
-	</programme>
-	<programme channel="Divinity.TV" start="20231002084000 +0000" stop="20231002093500 +0000">
+	<programme channel="Divinity.TV" start="20231002084000 +0000" stop="20231002091500 +0000">
 		<title>The Good Doctor</title>
 		<desc>Shaun Murphy, un joven cirujano con autismo y síndrome del sabio, tuvo una infancia problemática. Pero Murphy decide trasladarse a la ciudad para unirse al prestigioso departamento de cirugía en San José St. Bonaventure Hospital.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1816769"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20231002093500 +0000" stop="20231002103000 +0000">
+	<programme channel="Divinity.TV" start="20231002091500 +0000" stop="20231002093500 +0000">
+		<title>Chicago Fire (T2): Ep.19 Un gran peso</title>
+		<desc>La brigada 51 se ve sacudida por una nueva tragedia.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1238250"/>
+		<category>Series</category>
+	</programme>
+	<programme channel="Divinity.TV" start="20231002093500 +0000" stop="20231002100000 +0000">
 		<title>The Good Doctor</title>
 		<desc>Shaun Murphy, un joven cirujano con autismo y síndrome del sabio, tuvo una infancia problemática. Pero Murphy decide trasladarse a la ciudad para unirse al prestigioso departamento de cirugía en San José St. Bonaventure Hospital.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1816769"/>
+		<category>Series</category>
+	</programme>
+	<programme channel="Divinity.TV" start="20231002100000 +0000" stop="20231002103000 +0000">
+		<title>Chicago Fire (T2): Ep.20 Un día terrible</title>
+		<desc>Una explosión en el hospital de Chicago estremece la ciudad.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1238251"/>
 		<category>Series</category>
 	</programme>
 	<programme channel="Divinity.TV" start="20231002103000 +0000" stop="20231002112000 +0000">

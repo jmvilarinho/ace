@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 08/10/2023 16:00:21",
+    "author": "Vila - 08/10/2023 19:29:51",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -847,6 +847,12 @@
                 {
                     "name": "GOL TV 1080",
                     "url": "acestream://d4627f7b6b237a8556819445b3283d866caceca2",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "http//127.0.0.16878/ace/m/",
+                    "url": "acestream://cc8c238d349438517544884e25eb4b0b163e90d3",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },

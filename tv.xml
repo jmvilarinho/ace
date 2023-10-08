@@ -2040,17 +2040,23 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P1303097"/>
 		<category>Música</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20231009035500 +0000" stop="20231009050000 +0000">
+	<programme channel="Telecinco.TV" start="20231009035500 +0000" stop="20231009040500 +0000">
 		<title>Enphorma: Episodio 1</title>
 		<desc>Programa especializado en temas actuales de alimentación, psicología y ejercicio.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3034643"/>
 		<category>Ocio y Aficiones</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20231009035500 +0000" stop="20231009050000 +0000">
+	<programme channel="Telecinco.TV" start="20231009035500 +0000" stop="20231009040500 +0000">
 		<title>Enphorma: Episodio 1</title>
 		<desc>Programa especializado en temas actuales de alimentación, psicología y ejercicio.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3034643"/>
 		<category>Ocio y Aficiones</category>
+	</programme>
+	<programme channel="Telecinco.TV" start="20231009040500 +0000" stop="20231009050000 +0000">
+		<title>Reacción en cadena: Episodio 193</title>
+		<desc>Concurso presentado por Ion Aramendi en el que dos equipos rivales compiten en pruebas sucesivas para resolver cadenas de palabras mientras van acumulando dinero.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3116721"/>
+		<category>Entretenimiento</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20231009050000 +0000" stop="20231009065500 +0000">
 		<title>Informativos Telecinco matinal</title>
@@ -2058,130 +2064,124 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2160618"/>
 		<category>Informativo</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20231009065500 +0000" stop="20231009070000 +0000">
-		<title>Previo: El programa del verano</title>
+	<programme channel="Telecinco.TV" start="20231009065500 +0000" stop="20231009083000 +0000">
+		<title>La mirada crítica: Episodio 21</title>
 		<desc>Ana Terradillos y Antonio Teixeira se encargan de ofrecer, a primera hora de la mañana, lo más destacado de la actualidad política, económica y social en el panorama nacional e internacional.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3081375"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3134943"/>
+		<category>Informativo</category>
+	</programme>
+	<programme channel="Telecinco.TV" start="20231009083000 +0000" stop="20231009130000 +0000">
+		<title>Vamos a ver: Episodio 21</title>
+		<desc>Joaquín Prat junto a Patricia Pardo y Adriana Dorronsoro repasan todas las noticias de actualidad, investigación y entretenimiento que interesan al gran público.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3134944"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20231009070000 +0000" stop="20231009113000 +0000">
-		<title>El programa del verano</title>
-		<desc>El veterano Brendan Gleeson ("Escondidos en Brujas", "Calvary") debuta como presentador con motivo de su último trabajo cinematográfico, "Almas en pena de Inisherin", del director Martin McDonagh ("Tres carteles en las afueras"). La cantante Willow, hija de Will Smith, también pisa por primera vez el escenario del Studio 8H como artista musical invitada, presentando su nuevo disco ""."Saturday Night Live" es el programa de comedia en vivo más importante de la historia de la televisión estadounidense. Puede presumir de la mayor cantera de actores de comedia de EE.UU., lanzando a la fama a cómicos de la talla de Eddie Murphy, Steve Martin, Mike Myers, Tina Fey, Bill Murray, Billy Crystal, Ben Stiller, Chris Rock o Will Ferrell. Y ha ganado 87 premios Emmy desde 1975, año en el que empezaron sus emisiones. El programa se basa en tres pilares: sketches humorísticos, un presentador famoso (desde actores hasta cantantes, pasando por políticos de renombre) y un grupo musical invitado. Todo ello grabado y emitido originalmente en directo desde Nueva York.Esta temporada ya no cuenta con veteranas como Kate Mckinon (9 temporadas y 3 premios Emmy), Aidy Bryant (9 temporadas), Pete Davidson o Kyle Mooney, pero incorpora cuatro caras de la nueva comedia norteamericana: Marcello Hernández, Molly Kearney, Michael Longfellow y Devon Walker.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3081377"/>
-		<category>Entretenimiento</category>
-	</programme>
-	<programme channel="Telecinco.TV" start="20231009113000 +0000" stop="20231009130000 +0000">
-		<title>Ya es mediodía</title>
-		<desc>"Una vida en diez fotos" vuelve, esta vez para contarnos la historia de Nelson Mandela, Bruce Lee, Robin Williams, Carrie Fisher, Ella Fitzgerald y Alexander McQueen. Creíamos saberlo todo de ellos, pero esta serie nos revelará que aún hay cosas que no hemos visto.Los protagonistas de esta serie documental son algunas de las personas más fotografiadas de la historia. 10 fotos icónicas y privadas de estas personas célebres nos revelan en cada episodio nuevas historias; los secretos que esas fotografías esconden contados por quienes estuvieron ahí y por quiénes mejor los conocían. Unas vidas extraordinarias mostradas a través de una lente única.Han pasado años desde que nos dejaron pero sus vidas siguen despertando nuestro interés. "Una vida en diez fotos" es un viaje que repasa la vida de estas personas extraordinarias desde sus inicios hasta su final.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2103258"/>
-		<category>Entretenimiento</category>
-	</programme>
-	<programme channel="Telecinco.TV" start="20231009130000 +0000" stop="20231009133500 +0000">
+	<programme channel="Telecinco.TV" start="20231009130000 +0000" stop="20231009132500 +0000">
 		<title>Informativos Telecinco</title>
 		<desc>Edición de mediodía de Informativos Telecinco que ofrece los acontecimientos más relevantes acaecidos durante la mañana. Las principales noticias de ámbito nacional e internacional son recogidas por Isabel Jiménez y David Cantero.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2160617"/>
 		<category>Informativo</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20231009133500 +0000" stop="20231009134000 +0000">
-		<title>El Desmarque Telecinco</title>
-		<desc>Espacio informativo que ofrece la previsión meteorológica.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3099738"/>
+	<programme channel="Telecinco.TV" start="20231009132500 +0000" stop="20231009133500 +0000">
+		<title>El Desmarque Telecinco (T1): Episodio 45</title>
+		<desc>El mundo del deporte es el protagonista de este programa, en el que el periodista Manu Carreño presenta la actualidad y las últimas noticias de la jornada.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3134950"/>
 		<category>Deportes</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20231009134000 +0000" stop="20231009134500 +0000">
+	<programme channel="Telecinco.TV" start="20231009133500 +0000" stop="20231009134500 +0000">
 		<title>El tiempo</title>
-		<desc>"Una vida en diez fotos" vuelve, esta vez para contarnos la historia de Nelson Mandela, Bruce Lee, Robin Williams, Carrie Fisher, Ella Fitzgerald y Alexander McQueen. Creíamos saberlo todo de ellos, pero esta serie nos revelará que aún hay cosas que no hemos visto.Los protagonistas de esta serie documental son algunas de las personas más fotografiadas de la historia. 10 fotos icónicas y privadas de estas personas célebres nos revelan en cada episodio nuevas historias; los secretos que esas fotografías esconden contados por quienes estuvieron ahí y por quiénes mejor los conocían. Unas vidas extraordinarias mostradas a través de una lente única.Han pasado años desde que nos dejaron pero sus vidas siguen despertando nuestro interés. "Una vida en diez fotos" es un viaje que repasa la vida de estas personas extraordinarias desde sus inicios hasta su final.</desc>
+		<desc>Espacio informativo que ofrece la previsión meteorológica.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P1373654"/>
 		<category>Informativo</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20231009134500 +0000" stop="20231009170000 +0000">
-		<title>Así es la vida</title>
+	<programme channel="Telecinco.TV" start="20231009134500 +0000" stop="20231009150000 +0000">
+		<title>Así es la vida: Episodio 75</title>
 		<desc>Magacín presentado por Sandra Barneda y César Muñoz. La última hora de las noticias de interés social a través de directos y reportajes, las novedades en el mundo de los famosos y de los grandes eventos del verano.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3060978"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3134952"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20231009170000 +0000" stop="20231009180000 +0000">
-		<title>25 palabras</title>
-		<desc>"Una vida en diez fotos" vuelve, esta vez para contarnos la historia de Nelson Mandela, Bruce Lee, Robin Williams, Carrie Fisher, Ella Fitzgerald y Alexander McQueen. Creíamos saberlo todo de ellos, pero esta serie nos revelará que aún hay cosas que no hemos visto.Los protagonistas de esta serie documental son algunas de las personas más fotografiadas de la historia. 10 fotos icónicas y privadas de estas personas célebres nos revelan en cada episodio nuevas historias; los secretos que esas fotografías esconden contados por quienes estuvieron ahí y por quiénes mejor los conocían. Unas vidas extraordinarias mostradas a través de una lente única.Han pasado años desde que nos dejaron pero sus vidas siguen despertando nuestro interés. "Una vida en diez fotos" es un viaje que repasa la vida de estas personas extraordinarias desde sus inicios hasta su final.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2155630"/>
+	<programme channel="Telecinco.TV" start="20231009150000 +0000" stop="20231009180000 +0000">
+		<title>TardeAR: Episodio 16</title>
+		<desc>Ana Rosa Quintana capitanea este magacín junto con colaboradores como Laura Madrueño, Miguel Ángel Nicolás, Beatriz Archidona, Jorge Luque, Manuel Marlasca y Antonio Hidalgo. El programa combina actualidad, información y entretenimiento.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3134954"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20231009180000 +0000" stop="20231009190000 +0000">
-		<title>Reacción en cadena</title>
+	<programme channel="Telecinco.TV" start="20231009180000 +0000" stop="20231009190500 +0000">
+		<title>Reacción en cadena: Episodio 209</title>
 		<desc>Concurso presentado por Ion Aramendi en el que dos equipos rivales compiten en pruebas sucesivas para resolver cadenas de palabras mientras van acumulando dinero.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2155633"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3134956"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20231009190000 +0000" stop="20231009193500 +0000">
+	<programme channel="Telecinco.TV" start="20231009190500 +0000" stop="20231009193500 +0000">
 		<title>Informativos Telecinco</title>
-		<desc>"Una vida en diez fotos" vuelve, esta vez para contarnos la historia de Nelson Mandela, Bruce Lee, Robin Williams, Carrie Fisher, Ella Fitzgerald y Alexander McQueen. Creíamos saberlo todo de ellos, pero esta serie nos revelará que aún hay cosas que no hemos visto.Los protagonistas de esta serie documental son algunas de las personas más fotografiadas de la historia. 10 fotos icónicas y privadas de estas personas célebres nos revelan en cada episodio nuevas historias; los secretos que esas fotografías esconden contados por quienes estuvieron ahí y por quiénes mejor los conocían. Unas vidas extraordinarias mostradas a través de una lente única.Han pasado años desde que nos dejaron pero sus vidas siguen despertando nuestro interés. "Una vida en diez fotos" es un viaje que repasa la vida de estas personas extraordinarias desde sus inicios hasta su final.</desc>
+		<desc>Informativo vespertino presentado por Pedro Piqueras y Alba Lago que incluye las principales noticias que se han producido durante la jornada.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2160619"/>
 		<category>Informativo</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20231009193500 +0000" stop="20231009195500 +0000">
-		<title>El tiempo</title>
+	<programme channel="Telecinco.TV" start="20231009193500 +0000" stop="20231009194500 +0000">
+		<title>El Desmarque Telecinco Noche (T1): Episodio 45</title>
 		<desc>El mundo del deporte es el protagonista de este programa, en el que el periodista Manu Carreño presenta la actualidad y las últimas noticias de la jornada.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3134958"/>
+		<category>Deportes</category>
+	</programme>
+	<programme channel="Telecinco.TV" start="20231009194500 +0000" stop="20231009200000 +0000">
+		<title>El tiempo</title>
+		<desc>Espacio informativo que ofrece la previsión meteorológica.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P1373654"/>
 		<category>Informativo</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20231009195500 +0000" stop="20231009200000 +0000">
-		<title>El Desmarque Telecinco Noche</title>
-		<desc>En este capítulo, la serie documental repasa la historia del cine durante la década de los noventa a través de sus películas más icónicas.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3099923"/>
-		<category>Deportes</category>
-	</programme>
-	<programme channel="Telecinco.TV" start="20231009200000 +0000" stop="20231009222500 +0000">
-		<title>Cine</title>
+	<programme channel="Telecinco.TV" start="20231009200000 +0000" stop="20231009231500 +0000">
+		<title>Código 10: Episodio 26</title>
 		<desc>Programa de actualidad presentado por David Aleman y Nacho Abad. El espacio trata los crímenes y sucesos más destacados de la actualidad y casos históricos que han conmocionado a la sociedad española.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P1673189"/>
-		<category>Cine</category>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3134978"/>
+		<category>Documentales</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20231009222500 +0000" stop="20231010002000 +0000">
-		<title>Cine</title>
-		<desc>En este capítulo, la serie documental repasa la historia del cine durante la década de los noventa a través de sus películas más icónicas.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P1673189"/>
-		<category>Cine</category>
+	<programme channel="Telecinco.TV" start="20231009231500 +0000" stop="20231009235500 +0000">
+		<title>Gran Hermano VIP 2023: Resumen diario: Episodio 16</title>
+		<desc>Resumen diario de los mejores momentos vividos por los habitantes famosos de este concurso.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3134980"/>
+		<category>Entretenimiento</category>
+	</programme>
+	<programme channel="Telecinco.TV" start="20231009235500 +0000" stop="20231010002000 +0000">
+		<title>Casino Gran Madrid Online Show: Episodio 282</title>
+		<desc>Programa nocturno para que los espectadores puedan conectarse al Casino Gran Madrid desde casa.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3134982"/>
+		<category>Entretenimiento</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20231010002000 +0000" stop="20231010004500 +0000">
-		<title>Casino Gran Madrid Online Show</title>
+		<title>¡Toma Salami!: Episodio 52</title>
 		<desc>Espacio vespertino que ofrece en tira diaria los momentos más destacados de los 30 años de historia de Mediaset España. Se recuperan momentos míticos y estará narrado por Javier Capitán.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2160166"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P1752262"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20231010004500 +0000" stop="20231010010000 +0000">
-		<title>¡Toma Salami!</title>
-		<desc>La tarotista Esperanza Gracia hace un repaso a la fortuna que van a vivir los distintos signos del zodiaco.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P1832791"/>
-		<category>Entretenimiento</category>
-	</programme>
-	<programme channel="Telecinco.TV" start="20231010010000 +0000" stop="20231010010500 +0000">
+	<programme channel="Telecinco.TV" start="20231010004500 +0000" stop="20231010005500 +0000">
 		<title>Horóscopo de Esperanza Gracia</title>
-		<desc>Sin descripción</desc>
+		<desc>La tarotista Esperanza Gracia hace un repaso a la fortuna que van a vivir los distintos signos del zodiaco.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P1479780"/>
 		<category>Ocio y Aficiones</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20231010010500 +0000" stop="20231010013500 +0000">
-		<title>Mejor llama a Kiko</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P1623348"/>
+	<programme channel="Telecinco.TV" start="20231010005500 +0000" stop="20231010012500 +0000">
+		<title>Mejor llama a Kiko: Episodio 71</title>
+		<desc>Espacio de televenta presentado por Kiko Hernández.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2133207"/>
 		<category>Ocio y Aficiones</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20231010013500 +0000" stop="20231010020500 +0000">
-		<title>Mejor llama a Kiko</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P1623348"/>
+	<programme channel="Telecinco.TV" start="20231010012500 +0000" stop="20231010015500 +0000">
+		<title>Mejor llama a Kiko: Episodio 85</title>
+		<desc>Espacio de televenta presentado por Kiko Hernández.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3134945"/>
 		<category>Ocio y Aficiones</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20231010020500 +0000" stop="20231010035500 +0000">
+	<programme channel="Telecinco.TV" start="20231010015500 +0000" stop="20231010035000 +0000">
 		<title>Miramimúsica</title>
-		<desc>Sin descripción</desc>
+		<desc>Programa musical que se emite de madrugada.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P1303097"/>
 		<category>Música</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20231010035500 +0000" stop="20231010041000 +0000">
-		<title>Enphorma</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3033572"/>
+	<programme channel="Telecinco.TV" start="20231010035000 +0000" stop="20231010041000 +0000">
+		<title>Enphorma: Episodio 15</title>
+		<desc>Programa especializado en temas actuales de alimentación, psicología y ejercicio.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3118829"/>
 		<category>Ocio y Aficiones</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20231010035000 +0000" stop="20231010041000 +0000">
@@ -9834,57 +9834,57 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP57189"/>
 		<category>Cine</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20231009022500 +0000" stop="20231009033900 +0000">
+	<programme channel="Bemad.TV" start="20231009022500 +0000" stop="20231009035000 +0000">
 		<title>Risky Business</title>
 		<desc>Los padres de Joel, un responsable adolescente a punto de graduarse, se marchan de vacaciones y dejan a su hijo al cuidado de la casa. Siguiendo los consejos de un amigo, Joel llama por teléfono a una prostituta y es así como conoce a Lana, una chica encantadora que desea cambiar de vida pero que se encuentra sometida por su proxeneta. Éste, cuando descubre que Lana y Joel han intimado, no duda en amenazarles para que dejen de verse. Sin embargo, ellos no renuncian y montan un negocio en casa de los padres de Joel: un burdel improvisado en los que todos los amigos de Joel disfrutan de los servicios de varias chicas. Esto tampoco gusta al chulo de Lana, que pretende vengarse de ellos justo cuando los padres de Joel están a punto de regresar.Debut cinematográfico de Paul Brickman y cuarta película de Tom Cruise, que por aquel entonces contaba con 19 años, y que consiguió grandes elogios por esta interpretación, por la que obtuvo su primera nominación al Globo de Oro y marcó el inicio de su carrera como estrella.Por su parte, la actriz Rebecca de Mornay protagonizó un magnífico debut como la liberada prostituta que acaba montando un negocio en la casa de Cruise.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP20154"/>
 		<category>Cine</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20231009033900 +0000" stop="20231009043000 +0000">
-		<title>El zapping de Surferos</title>
+	<programme channel="Bemad.TV" start="20231009035000 +0000" stop="20231009035500 +0000">
+		<title>El zapping de Surferos: Episodio 81</title>
 		<desc>Físicamente es imposible llegar a captar el contenido más interesante que se emite en los diferentes canales de televisión. Por ello, este espacio rastrea el oleaje del universo catódico y elige lo más destacado de una forma original y divertida.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP657660"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP675334"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20231009033900 +0000" stop="20231009043000 +0000">
-		<title>El zapping de Surferos</title>
-		<desc>Físicamente es imposible llegar a captar el contenido más interesante que se emite en los diferentes canales de televisión. Por ello, este espacio rastrea el oleaje del universo catódico y elige lo más destacado de una forma original y divertida.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP657660"/>
-		<category>Entretenimiento</category>
-	</programme>
-	<programme channel="Bemad.TV" start="20231009043000 +0000" stop="20231009063100 +0000">
-		<title>Cine</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP1673189"/>
+	<programme channel="Bemad.TV" start="20231009035500 +0000" stop="20231009052000 +0000">
+		<title>Rumores que matan</title>
+		<desc>Derrick, Jones y Travis son tres compañeros de piso en la universidad que colaboran en un trabajo que consiste en identificar la conexión entre el rumor y la noticia. Pero cuando su proyecto se sale alarmantemente de control, su amistad, su futuro y sus propias vidas se ponen en peligro.Una noche en una alocada fiesta fuera del campus, Derrick se encuentra con el tema perfecto para el trabajo de clase sobre cotilleo cuando descubre a Naomi en los brazos de su novio Beau. A pesar de conocer la actitud reticente de la chica respecto al chico, el trío de compañeros decide difundir el rumor de que la pareja ha mantenido relaciones sexuales, algo que se va extendiendo incontroladamente por el campus. Sin embargo, cuando Beau es detenido y acusado de haber violado a Naomi, el juego da un giro inesperado y los tres se ven superados por su malévola creación, complicándose aún más las cosas al descubrirse el oscuro pasado de uno de ellos.El veterano realizador Joel Schumacher ("Línea mortal", "Asesinato en 8 mm") ejerce como productor ejecutivo de esta cinta, dirigida por el joven Davis Guggenheim, que cuenta con un reparto de jóvenes intérpretes entre los que destacan sus tres protagonistas: James Marsden ("X Men"), Lena Headey ("El país del agua") y Norman Reedus ("La isla de la niebla").</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP214866"/>
 		<category>Cine</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20231009063100 +0000" stop="20231009081900 +0000">
-		<title>Cine</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP1673189"/>
+	<programme channel="Bemad.TV" start="20231009035500 +0000" stop="20231009052000 +0000">
+		<title>Rumores que matan</title>
+		<desc>Derrick, Jones y Travis son tres compañeros de piso en la universidad que colaboran en un trabajo que consiste en identificar la conexión entre el rumor y la noticia. Pero cuando su proyecto se sale alarmantemente de control, su amistad, su futuro y sus propias vidas se ponen en peligro.Una noche en una alocada fiesta fuera del campus, Derrick se encuentra con el tema perfecto para el trabajo de clase sobre cotilleo cuando descubre a Naomi en los brazos de su novio Beau. A pesar de conocer la actitud reticente de la chica respecto al chico, el trío de compañeros decide difundir el rumor de que la pareja ha mantenido relaciones sexuales, algo que se va extendiendo incontroladamente por el campus. Sin embargo, cuando Beau es detenido y acusado de haber violado a Naomi, el juego da un giro inesperado y los tres se ven superados por su malévola creación, complicándose aún más las cosas al descubrirse el oscuro pasado de uno de ellos.El veterano realizador Joel Schumacher ("Línea mortal", "Asesinato en 8 mm") ejerce como productor ejecutivo de esta cinta, dirigida por el joven Davis Guggenheim, que cuenta con un reparto de jóvenes intérpretes entre los que destacan sus tres protagonistas: James Marsden ("X Men"), Lena Headey ("El país del agua") y Norman Reedus ("La isla de la niebla").</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP214866"/>
 		<category>Cine</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20231009081900 +0000" stop="20231009084900 +0000">
-		<title>Mejor llama a Kiko</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP1623348"/>
+	<programme channel="Bemad.TV" start="20231009052000 +0000" stop="20231009074500 +0000">
+		<title>Batman</title>
+		<desc>Tras presenciar de niño la muerte de sus padres, el millonario Bruce Wayne decide dedicar su vida a combatir el crimen de Gotham, una ciudad oscura y peligrosa en la que abunda el mal y la corrupción, protegida únicamente por su degenerado cuerpo de policía. Vestido como un murciélago y provisto de toda clase de artilugios, Wayne se convierte en Batman y vela por la seguridad y tranquilidad de los ciudadanos. Sin embargo, esta situación cambia con la aparición de un siniestro personaje, el Joker, un antiguo bandido con el rostro desfigurado y una eterna sonrisa en su cara, que pretende someter a toda la ciudad a los deseos de su mente perturbada. Mientras tanto, una reputada periodista intenta descubrir el secreto que se oculta tras la capa del hombre murciélago.Tim Burton adaptó para la gran pantalla, entre "Bitelchus" (1988) y "Eduardo Manostijeras" (1990), el cómic "Batman" creado en 1939 por Bob Kane. Después, en 1992, realizaría "Batman vuelve", para la que volvería a contar con  Michael Keaton. Años más tarde, el cineasta Joel Schumacher fue el encargado de dirigir "Batman Forever" (1995) y "Batman y Robin" (1997).El papel de héroe está interpretado por Michael Keaton mientras que el de villano recae en el histriónico Jack Nicholson. El papel de periodista lo interpreta Kim Basinger.Oscar 1990 a la mejor dirección artística.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP18256"/>
+		<category>Cine</category>
+	</programme>
+	<programme channel="Bemad.TV" start="20231009074500 +0000" stop="20231009082000 +0000">
+		<title>Mejor llama a Kiko: Episodio 71</title>
+		<desc>Espacio de televenta presentado por Kiko Hernández.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP2133207"/>
 		<category>Ocio y Aficiones</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20231009084900 +0000" stop="20231009110800 +0000">
-		<title>Cine</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP1673189"/>
+	<programme channel="Bemad.TV" start="20231009082000 +0000" stop="20231009104000 +0000">
+		<title>Batman Forever</title>
+		<desc>La ciudad de Gotham está amenazada por un hombre, un antiguo fiscal del Estado, apodado "Dos caras", cuyo rostro está desfigurado a causa de las quemaduras que le produjo el ácido que le arrojaron durante un juicio. Intentará vengarse de la Humanidad y de Batman, a quien culpa de lo sucedido. Por otra parte, un psicópata llamado "El enigma" quiere dominar el mundo con su invento, un estrafalario aparato que permite absorber las ondas cerebrales de los seres humanos. Ambos, "Dos caras" y "Enigma", unen sus fuerzas para lograr sus propósitos.Cuando "Dos caras" comete un atentado durante una función circense de gala, da muerte a los Grayson Voladores, una famosa familia de trapecistas que tiene un hijo adolescente llamado Dick, el único superviviente. Este será adoptado por Batman, quien ve repetirse en él su propia tragedia y el trauma que le convirtió en Batman.Las dudas para Bruce sobre seguir siendo un justiciero anónimo surgen cuando Dick (enterado ya de su doble identidad) le pide que le deje ser su compañero, y se acentúan cuando la bella psiquiatra Chase Meridian se interesa en analizar la personalidad atormentada de Batman. En medio de todo esto, Dick estrena un traje-armadura similar al de Batman y, bajo el nombre de Robin, le hace ver que puede volver a ser el Caballero de la Noche, no por necesidad sino por decisión propia. Y lo más importante: en su nueva cruzada contra el mal, Batman ya no estará solo.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP14624"/>
 		<category>Cine</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20231009110800 +0000" stop="20231009140100 +0000">
-		<title>Cine</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP1673189"/>
+	<programme channel="Bemad.TV" start="20231009104000 +0000" stop="20231009130000 +0000">
+		<title>Batman y Robin</title>
+		<desc>Nuevas amenazas se ciernen sobre la ciudad de Gotham. Los experimentos que el Dr. Victor Fries ha llevado a cabo con una sustancia destinada a la criogenización han dado terribles resultados que le han convertido en el diabólico Mr. Frío. Ahora, mientras encuentra una cura para la misteriosa enfermedad que ha atacado a su esposa, Mr. Frío se ve obligado a mantener su propio cuerpo a temperaturas bajo cero. Su vida depende de ello y su objetivo es procurar un gélido y permanente invierno para la ciudad de Gotham. Además, la tímida botánica Pamela Isley se transforma en el transcurso de un experimento en la terrible Hiedra Venenosa y sus pretensiones incluyen asesinar a todos los seres humanos para que las plantas recuperen su hegemonía en la Tierra.Pese a los peligros, Barbara, sobrina de Alfred, el leal mayordomo de Batman y Robin, viaja hasta Gotham para hacerle una visita. Alfred se encuentra aquejado de la misma extraña enfermedad que afecta a la esposa del Dr. Frío. Una vez más, los ciudadanos recurren a Batman para que salve a la ciudad de los siniestros  planes que el Dr. Frío y Hiedra Venenosa han orquestado. Barbara, que descubre a qué dedican el tiempo libre Bruce y Dick, decide pasar a la acción y unirse a la lucha criminal. El misterioso justiciero cuenta ahora con su temerario compañero Robin, pero también con la implacable Batgirl.Joel Schumacher ("Jóvenes ocultos", "El cliente", "Asesinato en 8 mm",  "Nueve días", "El fantasma de la ópera") dirige una película, la cuarta de la serie, sobre Batman ("Batman" y "Batman vuelve", dirigidas por Tim Burton, y "Batman forever", de Joel Schumacher). Schumacher, en "Batman y Robin", contó con George Clooney, en pleno éxito por la serie de TV "Urgencias" y "Abierto hasta el amanecer", en vez de Val Kilmer para el papel de Batman. Además introdujo dos nuevos personajes: Robin (Chris O'Donnell), y una Batgirl (Alicia Silverstone).  Frente a ellos cabe destacar a los malvados Mr. Freeze (Arnold Schwarzenegger) y Poison Ivy (Uma Thurman). Schumacher consigue mantener en "Batman y Robin" el colorido y el tono "pop" de la anterior "Batman forever". Debido a que tuvo poco éxito de taquilla (comparada con sus antecesoras), se paralizaron las nuevas secuelas, hasta que en 2005 se realizó una nueva película en la que se explicaban los orígenes de Batman ("Batman begins", dirigida por Christoher Nolan).</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP29828"/>
 		<category>Cine</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20231009140100 +0000" stop="20231009160800 +0000">
+	<programme channel="Bemad.TV" start="20231009130000 +0000" stop="20231009160800 +0000">
 		<title>Cine</title>
-		<desc>Sin descripción</desc>
+		<desc>Emisión de una película.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP1673189"/>
 		<category>Cine</category>
 	</programme>
@@ -10542,69 +10542,69 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1778416"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20231009040000 +0000" stop="20231009041500 +0000">
+	<programme channel="Energy.TV" start="20231009040000 +0000" stop="20231009040500 +0000">
 		<title>Miramimúsica</title>
 		<desc>Programa musical que se emite de madrugada.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1303097"/>
 		<category>Música</category>
 	</programme>
-	<programme channel="Energy.TV" start="20231009041500 +0000" stop="20231009050500 +0000">
-		<title>Caronte</title>
+	<programme channel="Energy.TV" start="20231009040500 +0000" stop="20231009041500 +0000">
+		<title>Caronte (T1): Ep.3 El infierno</title>
+		<desc>Caronte recibe la desagradable noticia de que Jorge López se ha fugado durante su traslado a prisión. El abogado sospecha de Paniagua, pero no puede probarlo. Mientras, Tomás, antiguo compañero de prisión de Caronte, contrata los servicios del nuevo bufete.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1881708"/>
+		<category>Series</category>
+	</programme>
+	<programme channel="Energy.TV" start="20231009041500 +0000" stop="20231009045500 +0000">
+		<title>Mentes criminales (T1): Ep.14 Muerte en la silla eléctrica</title>
 		<desc>Tras entrevistar a una pareja que se encuentra en el corredor de la muerte por una serie de asesinatos, Gideon sospecha que la mujer es inocente. Pero teniendo en cuenta que será ejecutada en dos días, el tiempo para demostrarlo es más bien escaso.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1877317"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP551852"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20231009050500 +0000" stop="20231009061300 +0000">
-		<title>Caronte</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1877317"/>
+	<programme channel="Energy.TV" start="20231009045500 +0000" stop="20231009053500 +0000">
+		<title>Mentes criminales (T1): Ep.15 Asuntos pendientes</title>
+		<desc>Un asesino en serie reaparece trás veinte años de silencio y decide contactar al grupo especial para avisarles de que en los próximos 5 días volverá a matar.¬¬¬¬</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP551853"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20231009061300 +0000" stop="20231009065400 +0000">
-		<title>The Blacklist</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1596967"/>
+	<programme channel="Energy.TV" start="20231009053500 +0000" stop="20231009062500 +0000">
+		<title>Mentes criminales (T1): Ep.16 La tribu</title>
+		<desc>El equipo cree que un peligroso culto puede ser el reponsable de la muertes en masa de cinco estudiantes encontrados en una casa vacía.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP554652"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20231009065400 +0000" stop="20231009073700 +0000">
-		<title>The Blacklist</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1596967"/>
+	<programme channel="Energy.TV" start="20231009062500 +0000" stop="20231009073000 +0000">
+		<title>Mentes criminales (T1): Ep.17 Lluvia de verdad</title>
+		<desc>La Unidad viaja a NY para investigar una serie de asesinatos que parecen haber sido cometidos por un vigilante de la condicional, para así vengarse de aquellos criminales que han sido exculpados por el sistema judicial.¬¬¬</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP554651"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20231009073700 +0000" stop="20231009081900 +0000">
-		<title>NCIS: Nueva Orleans</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1892804"/>
+	<programme channel="Energy.TV" start="20231009073000 +0000" stop="20231009082000 +0000">
+		<title>Hawai 5.0 (T4): Ep.13 Hana Lokomaika'i (El favor)</title>
+		<desc>Asuntos Internos pregunta a Chin acerca del asesinato de su padre hace 15 años, y cómo la relación con Malia y su familia pueden haber dañado la investigación.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1141115"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20231009081900 +0000" stop="20231009090500 +0000">
-		<title>NCIS: Nueva Orleans</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1892804"/>
+	<programme channel="Energy.TV" start="20231009082000 +0000" stop="20231009091500 +0000">
+		<title>Hawai 5.0 (T4): Ep.14 Na Hala A Ka Makua (Pecados del padre)</title>
+		<desc>McGarrett y Danny son secuestrados por un convicto escapado que quiere que el 5-0 demuestre que es inocente. Mientras, Grace se mete en problemas cuando le pega a alguien en la escuela.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1141116"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20231009090500 +0000" stop="20231009094900 +0000">
-		<title>NCIS: Nueva Orleans</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1892804"/>
+	<programme channel="Energy.TV" start="20231009091500 +0000" stop="20231009101500 +0000">
+		<title>Hawai 5.0 (T4): Ep.15 Pale 'La (Secretos soterrados)</title>
+		<desc>Mientras el 5-0 investiga el asesinato de un agente inmobiliario cuyo cuerpo fue encontrado a las puertas de una de sus casas, la madre de Danny llega a Oahu con noticias impactantes.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1141117"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20231009094900 +0000" stop="20231009103500 +0000">
-		<title>NCIS: Nueva Orleans</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1892804"/>
+	<programme channel="Energy.TV" start="20231009101500 +0000" stop="20231009110000 +0000">
+		<title>Hawai 5.0 (T8): Ep.1 A'ole e 'olelo mai ana ke ahi ua ana ia (El fuego nunca dirá que ha tenido suficiente)</title>
+		<desc>En el comienzo de temporada, McGarret y Danny reclutan a Tani Rey para el equipo de acción cuando un diabólico 'hacker' libera de prisión a un pirómano.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1444911"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20231009103500 +0000" stop="20231009111800 +0000">
+	<programme channel="Energy.TV" start="20231009110000 +0000" stop="20231009120400 +0000">
 		<title>NCIS: Los Ángeles</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1236111"/>
-		<category>Series</category>
-	</programme>
-	<programme channel="Energy.TV" start="20231009111800 +0000" stop="20231009120400 +0000">
-		<title>NCIS: Los Ángeles</title>
-		<desc>Sin descripción</desc>
+		<desc>Nueva temporada de la serie en la que el equipo NCIS de la ciudad de Los Ángeles resolverá nuevos y peligrosos casos.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1236111"/>
 		<category>Series</category>
 	</programme>
@@ -11076,45 +11076,45 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP1303097"/>
 		<category>Música</category>
 	</programme>
-	<programme channel="FDF.TV" start="20231009050000 +0000" stop="20231009052300 +0000">
-		<title>¡Toma Salami!</title>
+	<programme channel="FDF.TV" start="20231009050000 +0000" stop="20231009051000 +0000">
+		<title>¡Toma Salami!: La tv que nos parió: Episodio 51</title>
 		<desc>Espacio vespertino que ofrece en tira diaria los momentos más destacados de los 30 años de historia de Mediaset España. Se recuperan momentos míticos y estará narrado por Javier Capitán.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP1832791"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP1800371"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="FDF.TV" start="20231009052300 +0000" stop="20231009055400 +0000">
-		<title>¡Toma Salami!</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP1832791"/>
-		<category>Entretenimiento</category>
-	</programme>
-	<programme channel="FDF.TV" start="20231009055400 +0000" stop="20231009062600 +0000">
-		<title>Mejor llama a Kiko</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP1623348"/>
+	<programme channel="FDF.TV" start="20231009051000 +0000" stop="20231009054000 +0000">
+		<title>Mejor llama a Kiko: Episodio 85</title>
+		<desc>Espacio de televenta presentado por Kiko Hernández.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP3134945"/>
 		<category>Ocio y Aficiones</category>
 	</programme>
-	<programme channel="FDF.TV" start="20231009062600 +0000" stop="20231009075200 +0000">
-		<title>Los Serrano</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP455176"/>
+	<programme channel="FDF.TV" start="20231009054000 +0000" stop="20231009072500 +0000">
+		<title>Los Serrano (T4): Ep.70 Mainfrionlain</title>
+		<desc>Fructuoso decide hacer una visita a su hijo Fiti desde Benidorm. Todos esperan con ansiedad la llegada del anciano.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP477122"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="FDF.TV" start="20231009075200 +0000" stop="20231009091400 +0000">
-		<title>Aída</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP1006594"/>
+	<programme channel="FDF.TV" start="20231009072500 +0000" stop="20231009084500 +0000">
+		<title>Aída (T6): Ep.88 Cita a ciegas</title>
+		<desc>Miren Ibarguren (''Escenas de matrimonio'') se incorpora a ''Aída'' para interpretar a Soraya, la hija mayor de la protagonista. La primogénita sorprende a su familia al venir acompañada por su hija Aídita. Lo que planteará en principio como una breve visita se convertirá en una estancia indefinida.La reaparición de Soraya supone para Aída la confirmación de que su hija mayor ha cometido los mismos errores que ella. Aída no olvida que Soraya desoyó sus consejos y advertencias en el pasado, por lo que el resentimiento marcará profundamente la relación entre madre e hija.Con su hermana Lorena mantendrá una relación basada en la complicidad, ya que ambas comparten múltiples afinidades. La diferencia de edad y los años que llevan sin verse hacen que la relación con Jonathan sea un tanto distante. Sin embargo, al hermano menor le hace mucha ilusión ser tío de repente.Luisma, por su parte, se convertirá en el protegido de Soraya, que le ve como una persona débil que en cualquier momento puede sucumbir en las drogas. La relación con su abuela tampoco será fácil: Eugenia se siente vieja al descubrir que ya tiene una bisnieta.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP756866"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="FDF.TV" start="20231009091400 +0000" stop="20231009103700 +0000">
-		<title>Aída</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP1006594"/>
+	<programme channel="FDF.TV" start="20231009084500 +0000" stop="20231009095000 +0000">
+		<title>Aída (T8): Ep.137 Bailando con su enemigo</title>
+		<desc>Tras semanas de hostilidades y múltiples discrepancias, Luisma y Eduardo han acordado dejar atrás su enconada rivalidad para contentar a Paz. La prueba de fuego de su recién estrenada amistad consistirá en participar como pareja en un concurso de baile que se celebrará en Esperanza Sur.A pesar de la insistencia y el tesón de su hija, Soraya se niega a comprarle una bicicleta. Conmovido por la ilusión de la pequeña, Chema decide regalársela a espaldas de su pareja. Por otro lado, las molestias que le está produciendo un uñero obligan a Mauricio a acudir al hospital, donde un médico examina su dolencia. En el centro hospitalario, el dueño del Reynols conoce a una paciente que despierta una gran atracción en él. El empresario hostelero pone en marcha una singular campaña de seducción que le llevará a ingresar como paciente en la clínica para poder conquistarla.Son varios los estudiantes que han manifestado su interés en conseguir los impecables apuntes de Fidel. A pesar de las insistentes y continuas demandas, el hijo de Chema se niega a compartirlos con sus compañeros. Sin embargo, Mecos logra hacerse con ellos para venderlos a una amplia clientela de jóvenes universitarios.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP911448"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="FDF.TV" start="20231009103700 +0000" stop="20231009121800 +0000">
+	<programme channel="FDF.TV" start="20231009095000 +0000" stop="20231009110000 +0000">
+		<title>Aída (T8): Ep.138 A votar</title>
+		<desc>Días antes de la celebración de las elecciones, Luisma recibe una notificación en la que le informan que ha sido designado presidente de la mesa electoral. Impresionado por el cometido que debe llevar a cabo, el hermano de Aída pide ayuda urgente a Chema para que le enseñe a desempeñar con éxito su nuevo cargo.Disfrutar de intimidad en un idílico entorno es el sueño que desean hacer realidad Soraya y Chema en una romántica escapada. Sin embargo, los planes de la pareja se ven amenazados cuando el padre de Fidel introduce por error los billetes de avión en la urna de la mesa electoral que preside Luisma.Mientras tanto, tras una conversación con Paz, Lorena descubre que tiene más aspectos en común con su abuela Eugenia de los que ella creía. Horrorizada, la joven decide modificar radicalmente su comportamiento para que nadie pueda percibir su gran parecido con la matriarca del clan García. Por último, el enorme volumen de trabajo del bar y una férrea política de contención del gasto llevan a Mauricio a tomar una medida extraordinaria: aumentar el personal del Reynols mediante la contratación de un becario.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP911449"/>
+		<category>Series</category>
+	</programme>
+	<programme channel="FDF.TV" start="20231009110000 +0000" stop="20231009121800 +0000">
 		<title>La que se avecina</title>
-		<desc>Sin descripción</desc>
+		<desc>Octava temporada de la serie que se centra en la vida de los peculiares y variopintos habitantes y empleados del complejo residencial Mirador de Montepinar.Nueva tanda de episodios de la exitosa secuela de ''Aquí no hay quien viva'', producida por José Luis Moreno. Entre las novedades de la temporada destaca la incorporación de Petra Martínez (''La soledad'') quien da vida a la nueva vecina de Mirador de Montepinar, una señora mayor que hará más difícil si cabe la convivencia en el edificio. La recién llegada se convertirá en una amenaza para la cúpula presidencial y sacará de quicio a los demás propietarios con sus reprobables y oscuras acciones. Antonia San Juan se cae del elenco de actores principales tras fichar por otra comedia del grupo de canales de Mediaset, aunque no se descarta que el personaje de Estela Reynols aparezca de manera puntual.En su octavo año en antena, la serie no ha tocado demasiado la estructura que le ha dado tantos buenos resultados, basada en humor negro, situaciones surrealistas y variopintos personajes.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP1178527"/>
 		<category>Series</category>
 	</programme>
@@ -14616,87 +14616,81 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1511936"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20231009031500 +0000" stop="20231009041500 +0000">
+	<programme channel="Divinity.TV" start="20231009031500 +0000" stop="20231009040000 +0000">
 		<title>Chicago Fire (T4): Ep.19 Voy a ir andando</title>
 		<desc>Casey intenta utilizar su influencia política para remediar el incidente de una pandilla. Severide ayuda a Holloway en una peligrosa investigación encubierta.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1511937"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20231009031500 +0000" stop="20231009041500 +0000">
-		<title>Chicago Fire (T4): Ep.19 Voy a ir andando</title>
-		<desc>Casey intenta utilizar su influencia política para remediar el incidente de una pandilla. Severide ayuda a Holloway en una peligrosa investigación encubierta.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1511937"/>
-		<category>Series</category>
-	</programme>
-	<programme channel="Divinity.TV" start="20231009041500 +0000" stop="20231009043000 +0000">
-		<title>Conectamos empleo</title>
-		<desc>Programa especializado en temas actuales de alimentación, psicología y ejercicio.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP3075158"/>
+	<programme channel="Divinity.TV" start="20231009040000 +0000" stop="20231009041500 +0000">
+		<title>Conectamos empleo: Episodio 10</title>
+		<desc>Programa sobre empleo y mercado laboral.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP3105607"/>
 		<category>Cultural/Educativo</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20231009043000 +0000" stop="20231009044500 +0000">
-		<title>Enphorma</title>
-		<desc>Nina es una madre coraje que, después de pasarse diez años recorriendo hospitales con su hija Lily enferma de cáncer, decide empezar de cero en el servicio de Medicina Interna del Hospital Madeleine Brès que dirige su exmarido.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP3033572"/>
+	<programme channel="Divinity.TV" start="20231009041500 +0000" stop="20231009043000 +0000">
+		<title>Enphorma: Episodio 1</title>
+		<desc>Programa especializado en temas actuales de alimentación, psicología y ejercicio.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP3034643"/>
 		<category>Ocio y Aficiones</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20231009044500 +0000" stop="20231009061000 +0000">
-		<title>Castle</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1112801"/>
+	<programme channel="Divinity.TV" start="20231009043000 +0000" stop="20231009045000 +0000">
+		<title>Nina: una enfermera diferente (T2): Ep.5 El hospital y sus fantasmas</title>
+		<desc>Nina es una madre coraje que, después de pasarse diez años recorriendo hospitales con su hija Lily enferma de cáncer, decide empezar de cero en el servicio de Medicina Interna del Hospital Madeleine Brès que dirige su exmarido.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1933250"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20231009061000 +0000" stop="20231009065000 +0000">
-		<title>Castle</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1112801"/>
+	<programme channel="Divinity.TV" start="20231009045000 +0000" stop="20231009053000 +0000">
+		<title>Castle (T6): Ep.6 En busca de la pista</title>
+		<desc>Castle y Beckett investigan el asesinato de una mujer. Como el asesinato parece ritual, Castle esta convencido de que se encuentran ante una conspiración del tipo Código da Vinci.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1117398"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20231009065000 +0000" stop="20231009073000 +0000">
-		<title>Castle</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1112801"/>
+	<programme channel="Divinity.TV" start="20231009053000 +0000" stop="20231009062000 +0000">
+		<title>Castle (T6): Ep.7 De tal palo, tal astilla</title>
+		<desc>Alexis pide ayuda a Castle para que le ayude a demostrar que Frank Henson, un preso del corredor de la muerte, fue condenado injustamente. 72 horas antes de la ejecución, Alexis y Castle investigan el homicidio por el que fue condenado.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1117399"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20231009073000 +0000" stop="20231009081500 +0000">
-		<title>Castle</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1112801"/>
+	<programme channel="Divinity.TV" start="20231009062000 +0000" stop="20231009072000 +0000">
+		<title>Castle (T6): Ep.8 Un asesinato es para siempre</title>
+		<desc>Cuando una famosa terapeuta familiar es asesinada, todo apunta que lo que le ha llevado a la muerte es el conocimiento de los secretos de su poderosa clientela.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1120750"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20231009081500 +0000" stop="20231009090500 +0000">
-		<title>Castle</title>
+	<programme channel="Divinity.TV" start="20231009072000 +0000" stop="20231009081500 +0000">
+		<title>Castle (T6): Ep.9 La discípula</title>
+		<desc>Castle y Beckett acuden al escenario de un crimen, donde descubren que la víctima, una mujer, guarda un asombroso parecido con la médico forense Lanie Parish. Mientras tratan de esclarecer el extraño homicidio, los investigadores descubren que los detectives del distrito 12 podrían ser las siguientes víctimas del asesino.Además, la doctora Kelly Nieman, una prestigiosa cirujana plástica de Manhattan, será investigada por Richard y Kate debido a su vinculación con la víctima.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1121411"/>
+		<category>Series</category>
+	</programme>
+	<programme channel="Divinity.TV" start="20231009081500 +0000" stop="20231009091500 +0000">
+		<title>Castle (T6): Ep.10 El bueno, el malo y el bebé</title>
 		<desc>Un hombre ensangrentado irrumpe inesperadamente en una iglesia y fallece poco después tras entregar un misterioso bulto al párroco. En el paquete aparece un sonriente bebé, por lo que Castle y Beckett se ven obligados a hacerse cargo del recién nacido temporalmente.Sin embargo, cuando constatan que el pequeño no guarda relación con la víctima, se dan cuenta de que localizar a los padres del bebé es más difícil que esclarecer el asesinato.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1121412"/>
+		<category>Series</category>
+	</programme>
+	<programme channel="Divinity.TV" start="20231009091500 +0000" stop="20231009101000 +0000">
+		<title>Castle (T6): Ep.11 Bajo el fuego</title>
+		<desc>Castle y Becket buscan a un pirómano que se ha convertido en asesino después de descubrir que el cadáver encontrado en un edificio incendiado había sido disparado previamente. Además, Jenny se pone de parto y Ryan está a punto de arruinar el esperado momento.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1126089"/>
+		<category>Series</category>
+	</programme>
+	<programme channel="Divinity.TV" start="20231009101000 +0000" stop="20231009110000 +0000">
+		<title>Castle (T6): Ep.12 Misión secreta</title>
+		<desc>La investigación del asesinato del joven empleado en una tienda de vídeo da un giro inesperado cuando Castle y Beckett descubren que en el pasado la víctima fue un hacker de alto nivel. Sin embargo, esto no es nada comparado con la estupefacción de Richard cuando sus pesquisas le llevan a investigar a su propio padre, Jackson Hunt.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1126090"/>
+		<category>Series</category>
+	</programme>
+	<programme channel="Divinity.TV" start="20231009110000 +0000" stop="20231009120000 +0000">
+		<title>Castle</title>
+		<desc>Sexta temporada de la serie protagonizada por Nick Castle, un afamado escritor de novelas de misterio que resuelve crímenes junto a la detective Kate Beckett.En esta nueva tanda de episodios la relación entre Beckett y Castle va a cambiar profundamente ya que Beckett dará una respuesta definitiva respecto a la proposición de matrimonio por parte de Nick. Además, la paternidad de Ryan afectará a su trabajo porque ahora ya no puede pensar solo en él.Andrew W. Marlowe, guionista de taquillazos de Hollywood como "Air Force One", "El fin de los días" y "El hombre sin sombra", es el creador de esta serie de misterio protagonizada por Nathan Fillion ("White Noise 2: La luz") y Stana Katia ("Stiletto") que fue nominada a un Emmy a la mejor música en su primera temporada. La producción explota la fórmula, muy en boga en la época, de dos investigadores que provienen de mundos profesionales diferentes y resuelven casos de asesinato, en la línea de "Bones", "El mentalista" y "La hora 11".Cabe destacar, a modo de anécdota, que el gran éxito de la serie en Estados Unidos ha llevado a la cadena que la emite, ABC, a publicar y vender los libros que escribe Nick Castle en la ficción.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1112801"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20231009090500 +0000" stop="20231009095000 +0000">
+	<programme channel="Divinity.TV" start="20231009120000 +0000" stop="20231009130500 +0000">
 		<title>Castle</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1112801"/>
-		<category>Series</category>
-	</programme>
-	<programme channel="Divinity.TV" start="20231009095000 +0000" stop="20231009103500 +0000">
-		<title>Castle</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1112801"/>
-		<category>Series</category>
-	</programme>
-	<programme channel="Divinity.TV" start="20231009103500 +0000" stop="20231009112000 +0000">
-		<title>Castle</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1112801"/>
-		<category>Series</category>
-	</programme>
-	<programme channel="Divinity.TV" start="20231009112000 +0000" stop="20231009121000 +0000">
-		<title>Castle</title>
-		<desc>Sin descripción</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1112801"/>
-		<category>Series</category>
-	</programme>
-	<programme channel="Divinity.TV" start="20231009121000 +0000" stop="20231009130500 +0000">
-		<title>Castle</title>
-		<desc>Sin descripción</desc>
+		<desc>Sexta temporada de la serie protagonizada por Nick Castle, un afamado escritor de novelas de misterio que resuelve crímenes junto a la detective Kate Beckett.En esta nueva tanda de episodios la relación entre Beckett y Castle va a cambiar profundamente ya que Beckett dará una respuesta definitiva respecto a la proposición de matrimonio por parte de Nick. Además, la paternidad de Ryan afectará a su trabajo porque ahora ya no puede pensar solo en él.Andrew W. Marlowe, guionista de taquillazos de Hollywood como "Air Force One", "El fin de los días" y "El hombre sin sombra", es el creador de esta serie de misterio protagonizada por Nathan Fillion ("White Noise 2: La luz") y Stana Katia ("Stiletto") que fue nominada a un Emmy a la mejor música en su primera temporada. La producción explota la fórmula, muy en boga en la época, de dos investigadores que provienen de mundos profesionales diferentes y resuelven casos de asesinato, en la línea de "Bones", "El mentalista" y "La hora 11".Cabe destacar, a modo de anécdota, que el gran éxito de la serie en Estados Unidos ha llevado a la cadena que la emite, ABC, a publicar y vender los libros que escribe Nick Castle en la ficción.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1112801"/>
 		<category>Series</category>
 	</programme>

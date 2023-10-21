@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 21/10/2023 16:00:23",
+    "author": "Vila - 21/10/2023 20:01:08",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -882,6 +882,18 @@
                 {
                     "name": "M.L. Campeones 13 SD",
                     "url": "acestream://60296c246e3596f334903fefd48cfaa724a5053b",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "PRELIMINARES UFC Islam Makhachev y Alexander Volkanosvski",
+                    "url": "acestream://d871578fc069de543d1ed8b5e63092d870bad8ee",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "PRELIMINARES UFC Islam Makhachev y Alexander Volkanosvski - fbfa",
+                    "url": "acestream://822654b2c0db24d1de149cb21fdd44a3b968fbfa",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },

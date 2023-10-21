@@ -8,6 +8,33 @@
     "groups": 
 	[
 
+	{
+	"name": "UFC",
+	"image": "https://i.postimg.cc/Hk6VCHsX/Fight-Sports-new.png",
+	"imageScale": "",
+	"info":"",
+	"stations":
+		[
+			{
+			"name": "PRELIMINARES UFC Islam Makhachev y Alexander Volkanosvski",
+			"info":"IDIOMA ESPAÑOL",
+			"image": "https://i.postimg.cc/yN6cFvWX/Fight-new.png",
+			"url": "acestream://d871578fc069de543d1ed8b5e63092d870bad8ee"
+			},
+			{
+			"name": "PRELIMINARES UFC Islam Makhachev y Alexander Volkanosvski",
+			"info":"IDIOMA RUSO",
+			"image": "https://i.postimg.cc/yN6cFvWX/Fight-new.png",
+			"url": "acestream://822654b2c0db24d1de149cb21fdd44a3b968fbfa"
+			},
+			{
+			"name": "UFC",
+			"info":"496e",
+			"image": "https://i.postimg.cc/yN6cFvWX/Fight-new.png",
+			"url": "acestream://d6cdd724a97fcf851e7ef641c28d6beb8663496e"
+			}
+		]
+	},
 
 	{
 	"name": "CANALES ESPAÑA",

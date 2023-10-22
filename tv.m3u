@@ -417,7 +417,7 @@ https://fast-channels.atresmedia.com/648ef50a2bfab0e4607e0d61/648ef50a2bfab0e460
 https://ztnr.rtve.es/ztnr/6924117.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/rtveplay/picture?width=200&height=200" group-title="Eventuales" tvg-name="RTVE Época",RTVE Época
 https://ztnr.rtve.es/ztnr/6922467.m3u8
-#EXTINF:-1 tvg-logo="https://graph.facebook.com/rtveplay/picture?width=200&height=200" group-title="Eventuales" tvg-name="RTVE La Promesa",RTVE La Promesa
+#EXTINF:-1 tvg-logo="https://graph.facebook.com/rtveplay/picture?width=200&height=200" group-title="Eventuales" tvg-name="RTVE Cuéntame",RTVE Cuéntame
 https://ztnr.rtve.es/ztnr/6909843.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/rtveplay/picture?width=200&height=200" group-title="Eventuales" tvg-name="RTVE Somos Cine",RTVE Somos Cine
 https://ztnr.rtve.es/ztnr/6909845.m3u8
@@ -649,9 +649,9 @@ https://directes-tv-int.ccma.cat/live-origin/canal324-hls/master.m3u8
 https://directes-tv-cat.ccma.cat/live-origin/c33-super3-hls/master.m3u8
 #EXTINF:-1 tvg-id="C33.TV" tvg-logo="https://graph.facebook.com/Canal33/picture?width=200&height=200" group-title="Cataluña" tvg-name="33",33 GEO
 https://directes-tv-es.ccma.cat/live-origin/c33-super3-hls/master.m3u8
-#EXTINF:-1 tvg-id="C33.TV" tvg-logo="https://graph.facebook.com/SomSX3/picture?width=200&height=200" group-title="Cataluña" tvg-name="Super3",Super3 GEO CAT
+#EXTINF:-1 tvg-id="C33.TV" tvg-logo="https://graph.facebook.com/SomSX3/picture?width=200&height=200" group-title="Cataluña" tvg-name="SX3",SX3 GEO CAT
 https://directes-tv-cat.ccma.cat/live-origin/super3-hls/master.m3u8
-#EXTINF:-1 tvg-id="C33.TV" tvg-logo="https://graph.facebook.com/SomSX3/picture?width=200&height=200" group-title="Cataluña" tvg-name="Super3",Super3 GEO
+#EXTINF:-1 tvg-id="C33.TV" tvg-logo="https://graph.facebook.com/SomSX3/picture?width=200&height=200" group-title="Cataluña" tvg-name="SX3",SX3 GEO
 https://directes-tv-es.ccma.cat/live-origin/super3-hls/master.m3u8
 #EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/899576410607693825/BLjUpQzO_200x200.jpg" group-title="Cataluña" tvg-name="CCMA Exclusiu 1",CCMA Exclusiu 1 GEO CAT
 https://directes-tv-cat.ccma.cat/live-origin/oca1-hls/master.m3u8
@@ -955,7 +955,7 @@ https://cdnlive.codev8.net/rtpalive/smil:directo/playlist.m3u8?DVR
 https://rtv-murcia-live.globalmest.com/principal/smil:principal.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="7RM.TV" tvg-logo="https://graph.facebook.com/la7tele/picture?width=200&height=200" group-title="R. de Murcia" tvg-name="7 R. de Murcia",7 R. de Murcia
 https://rtv-murcia-live.globalmest.com/secundario/smil:secundario.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="PopularMU.TV" tvg-logo="https://pbs.twimg.com/profile_images/1633748275521105920/o_45zyRx_200x200.jpg" group-title="R. de Murcia" tvg-name="Popular TV Murcia",Popular TV Murcia
+#EXTINF:-1 tvg-id="PopularMU.TV" tvg-logo="https://pbs.twimg.com/profile_images/1709805583526744064/7r1mDDWA_200x200.jpg" group-title="R. de Murcia" tvg-name="Popular TV Murcia",Popular TV Murcia
 #EXTVLCOPT:http-referrer=https://player.streamingconnect.com/
 https://cloud.fastchannel.es/mic/manifiest/hls/populartvrm/populartvrm.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/tuwebtv/picture?width=200&height=200" group-title="R. de Murcia" tvg-name="Canal 1 Mar Menor Torre Pacheco",Canal 1 Mar Menor Torre Pacheco

@@ -1325,7 +1325,7 @@
 	</programme>
 	<programme channel="Antena3.TV" start="20231027134500 +0000" stop="20231027150000 +0000">
 		<title>Amar es para siempre (T12): Episodio 2740</title>
-		<desc>Inés y Mauro son dos jóvenes abogados que pese a no tener muy buena relación cuando se conocen se van enamorando. Ella ve en él a un chico arrogante, pero ese espíritu alegre y alocado hará que entre ellos surja algo más fuerte. Su historia de amor se enmarca en la España de los años 60, una época de reconstrucción, cambios y crecimiento.Telenovela de época producida por Diagonal Tv que supone la continuación de la ficción ''Amar en tiempos revueltos'', emitida por TVE. Encabezan el reparto conocidos actores del panorama nacional como Marc Clotet (''Física o química''), Bárbara Goenaga (''Vientos de agua''), Manuel Baqueiro (''Amar en tiempos revueltos'') o Itziar Miranda (''Nada en la nevera''). Destacan personajes secundarios como Olga, una joven azafata interpretada por Elena Furiase (''El internado'').La Plaza de los Frutos es el escenario principal de la ficción y en ella se encuentran el bar El asturiano, el hostal La estrella o la agencia de viajes La puntual, donde las vidas de todos los protagonistas confluyen. Cabe destacar que la cantante malagueña Diana Navarro interpreta la sintonía de cabecera de la serie, cuya música es de Noel Molina.</desc>
+		<desc>Federico vuelve a buscar la complicidad de Victoria. Tras finalizar las grabaciones, Pilar Romero vuelve con una inesperada propuesta. Gracias a Gala, Sebas consigue reconciliarse con Carlos. Sofía descubre que Isidro ha dormido con Valeria.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MA3P3141259"/>
 		<category>Series</category>
 	</programme>
@@ -1367,7 +1367,7 @@
 	</programme>
 	<programme channel="Antena3.TV" start="20231027201000 +0000" stop="20231027231500 +0000">
 		<title>La Voz: Episodio 7</title>
-		<desc>Concurso que elige, entre un grupo de concursantes, a aquellos que destaquen por sus cualidades vocales sin que su imagen influya. Este está integrado por Pablo López, Antonio Orozco, Luis Fonsi y Malú, que competirán entre ellos por formar sus equipos.</desc>
+		<desc>En esta gala, los coaches deberán reducir a sus equipos a la mitad de talents. Una noche repleta de emoción y giros que llega tras el gran éxito alcanzado en las Audiciones. Para ello, contarán con la ayuda de asesores como Lola Índigo, Nathy Peluso o Abraham Mateo.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MA3P3141265"/>
 		<category>Entretenimiento</category>
 	</programme>
@@ -1439,7 +1439,7 @@
 	</programme>
 	<programme channel="Antena3.TV" start="20231028064000 +0000" stop="20231028111500 +0000">
 		<title>La Voz: Episodio 7</title>
-		<desc>Concurso que elige, entre un grupo de concursantes, a aquellos que destaquen por sus cualidades vocales sin que su imagen influya. Este está integrado por Pablo López, Antonio Orozco, Luis Fonsi y Malú, que competirán entre ellos por formar sus equipos.</desc>
+		<desc>En esta gala, los coaches deberán reducir a sus equipos a la mitad de talents. Una noche repleta de emoción y giros que llega tras el gran éxito alcanzado en las Audiciones. Para ello, contarán con la ayuda de asesores como Lola Índigo, Nathy Peluso o Abraham Mateo.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MA3P3141265"/>
 		<category>Entretenimiento</category>
 	</programme>
@@ -1840,7 +1840,7 @@
 		<category>Ocio y Aficiones</category>
 	</programme>
 	<programme channel="Cuatro.TV" start="20231028085000 +0000" stop="20231028093000 +0000">
-		<title>Rediséñame T2 Ep. 4</title>
+		<title>Rediséñame: Episodio 4</title>
 		<desc>Concurso de diseño de moda con ropa de segunda mano presentado por María Verdoy y con Rocio Osorno y Mery Turiel como jurado. Tres diseñadores de moda concursarán en cada programa para crear el outfit ganador a tres mujeres de diferente perfil y estilo.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P3146542"/>
 		<category>Entretenimiento</category>
@@ -1864,13 +1864,13 @@
 		<category>Documentales</category>
 	</programme>
 	<programme channel="Cuatro.TV" start="20231028115500 +0000" stop="20231028125500 +0000">
-		<title>Cuatro al día fin de semana T4 Ep. 225</title>
+		<title>Cuatro al día fin de semana: Episodio 225</title>
 		<desc>Espacio en el que la información es la protagonista: la actualidad política y las noticias más relevantes que sucedan en distintos puntos de España, a través de un equipo reporteros que se desplazarán a los lugares donde surjan las informaciones más destacadas.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P3146536"/>
 		<category>Informativo</category>
 	</programme>
 	<programme channel="Cuatro.TV" start="20231028125500 +0000" stop="20231028132000 +0000">
-		<title>El Desmarque de Cuatro mediodía fin de semana T1 Ep. 64</title>
+		<title>El Desmarque de Cuatro mediodía fin de semana (T1): Episodio 64</title>
 		<desc>Espacio conducido por Joseba Larrañaga que analiza los temas más relevantes de la actualidad futbolística y de otros deportes en una mesa de especialistas en información deportiva. Además, ''El Desmarque de Cuatro'' ofrece imágenes curiosas del universo deportivo.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P3146538"/>
 		<category>Deportes</category>
@@ -1894,13 +1894,13 @@
 		<category>Cine</category>
 	</programme>
 	<programme channel="Cuatro.TV" start="20231028180500 +0000" stop="20231028185500 +0000">
-		<title>Cuatro al día fin de semana a las 20h T4 Ep. 219</title>
+		<title>Cuatro al día fin de semana a las 20h: Episodio 219</title>
 		<desc>Espacio en el que la información es la protagonista: la actualidad política y las noticias más relevantes que sucedan en distintos puntos de España, a través de un equipo reporteros que se desplazarán a los lugares donde surjan las informaciones más destacadas.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P3146534"/>
 		<category>Informativo</category>
 	</programme>
 	<programme channel="Cuatro.TV" start="20231028185500 +0000" stop="20231028191000 +0000">
-		<title>El Desmarque de Cuatro noche fin de semana T1 Ep. 63</title>
+		<title>El Desmarque de Cuatro noche fin de semana (T1): Episodio 63</title>
 		<desc>Espacio conducido por Joseba Larrañaga que analiza los temas más relevantes de la actualidad futbolística y de otros deportes en una mesa de especialistas en información deportiva. Además, ''El Desmarque de Cuatro'' ofrece imágenes curiosas del universo deportivo.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MC4P3146540"/>
 		<category>Deportes</category>
@@ -4174,8 +4174,8 @@
 		<category>Entretenimiento</category>
 	</programme>
 	<programme channel="Canarias.TV" start="20231027230000 +0000" stop="20231028004500 +0000">
-		<title>Especial Humor, Aarón Gómez y Darío López</title>
-		<desc>Televisión Canaria graba un espectáculo de humor protagonizado por el cómico, que será incluido en la programación de estas fechas navideñas.</desc>
+		<title>Aarón Gómez y Darío López</title>
+		<desc>Televisión Canaria emite un espectáculo de humor protagonizado por Aarón Gómez y Darío López. El show reúne en un mismo escenario a estos dos jóvenes humoristas ofreciendo la oportunidad de disfrutar de su ingenio y capacidad de improvisación.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MCANARP1850081"/>
 		<category>Entretenimiento</category>
 	</programme>
@@ -27405,11 +27405,17 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1241945"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231026042400 +0000" stop="20231026043000 +0000">
+	<programme channel="TV5Monde.TV" start="20231026042400 +0000" stop="20231026042800 +0000">
 		<title>Météo</title>
 		<desc>Un bulletin complet avec les prévisions météorologiques en France et en Europe (temps, climat, températures, etc.).</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P900340"/>
 		<category>Informativo</category>
+	</programme>
+	<programme channel="TV5Monde.TV" start="20231026042800 +0000" stop="20231026043000 +0000">
+		<title>La minute urbaine</title>
+		<desc></desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1717896"/>
+		<category>Documentales</category>
 	</programme>
 	<programme channel="TV5Monde.TV" start="20231026043000 +0000" stop="20231026045700 +0000">
 		<title>TV5Monde Le journal Afrique</title>
@@ -27417,17 +27423,23 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1242044"/>
 		<category>Informativo</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231026045700 +0000" stop="20231026050000 +0000">
-		<title>La minute urbaine</title>
+	<programme channel="TV5Monde.TV" start="20231026045700 +0000" stop="20231026050200 +0000">
+		<title>Voyages vert vous</title>
 		<desc></desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1717896"/>
-		<category>Documentales</category>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1830597"/>
+		<category>Ocio y Aficiones</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231026050000 +0000" stop="20231026053000 +0000">
+	<programme channel="TV5Monde.TV" start="20231026050200 +0000" stop="20231026052600 +0000">
 		<title>Sérieux?</title>
 		<desc>Les transports en commun sont-ils la solution miracle à tout ? Marie-Ève et Mathieu tentent une démonstration : un en voiture et l'autre en autobus. Et le ministre des Transports, François Bonardel, répond à une question '' électrifiante ''.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P2105265"/>
 		<category>Ocio y Aficiones</category>
+	</programme>
+	<programme channel="TV5Monde.TV" start="20231026052600 +0000" stop="20231026053000 +0000">
+		<title>Sans faute(s)</title>
+		<desc></desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1788521"/>
+		<category>Infantil</category>
 	</programme>
 	<programme channel="TV5Monde.TV" start="20231026053000 +0000" stop="20231026055700 +0000">
 		<title>Télématin</title>
@@ -27441,49 +27453,73 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1242009"/>
 		<category>Cultural/Educativo</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231026060000 +0000" stop="20231026062700 +0000">
+	<programme channel="TV5Monde.TV" start="20231026060000 +0000" stop="20231026062600 +0000">
 		<title>Journal Radio Canada</title>
 		<desc>Le journal télévisé proposé par la rédaction de Radio-Canada.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P2029552"/>
 		<category>Informativo</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231026062700 +0000" stop="20231026064200 +0000">
+	<programme channel="TV5Monde.TV" start="20231026062600 +0000" stop="20231026063900 +0000">
 		<title>TV5Monde Le journal</title>
 		<desc></desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1242043"/>
 		<category>Informativo</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231026064200 +0000" stop="20231026071100 +0000">
+	<programme channel="TV5Monde.TV" start="20231026063900 +0000" stop="20231026070500 +0000">
 		<title>La faute à l'Europe?</title>
 		<desc></desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P3142055"/>
 		<category>Informativo</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231026071100 +0000" stop="20231026073500 +0000">
+	<programme channel="TV5Monde.TV" start="20231026070500 +0000" stop="20231026072700 +0000">
 		<title>L'epicerie</title>
 		<desc></desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1255942"/>
 		<category>Informativo</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231026073500 +0000" stop="20231026080000 +0000">
+	<programme channel="TV5Monde.TV" start="20231026072700 +0000" stop="20231026072900 +0000">
+		<title>Sans faute(s)</title>
+		<desc></desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1788521"/>
+		<category>Infantil</category>
+	</programme>
+	<programme channel="TV5Monde.TV" start="20231026072900 +0000" stop="20231026075300 +0000">
 		<title>C'est humain</title>
 		<desc></desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P3096182"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231026080000 +0000" stop="20231026083000 +0000">
+	<programme channel="TV5Monde.TV" start="20231026075300 +0000" stop="20231026075900 +0000">
+		<title>Appelle-moi Poésie</title>
+		<desc></desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P2026964"/>
+		<category>Documentales</category>
+	</programme>
+	<programme channel="TV5Monde.TV" start="20231026075900 +0000" stop="20231026082300 +0000">
 		<title>Comment ça va le Nord?</title>
 		<desc></desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P3132903"/>
 		<category>Ocio y Aficiones</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231026083000 +0000" stop="20231026085500 +0000">
+	<programme channel="TV5Monde.TV" start="20231026082300 +0000" stop="20231026082600 +0000">
+		<title>La recette de Guy Martin</title>
+		<desc></desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1347752"/>
+		<category>Ocio y Aficiones</category>
+	</programme>
+	<programme channel="TV5Monde.TV" start="20231026082600 +0000" stop="20231026083000 +0000">
+		<title>La recette de Guy Martin</title>
+		<desc></desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1347752"/>
+		<category>Ocio y Aficiones</category>
+	</programme>
+	<programme channel="TV5Monde.TV" start="20231026083000 +0000" stop="20231026085400 +0000">
 		<title>Curieux Bégin</title>
 		<desc>Dans ''Curieux Bégin'' on parle cuisine et vin. L'animateur et comédien épicurien Christian Bégin égaye nos papilles et nous entraîne, d'une recette à l'autre, à la rencontre de passionnés de la bonne chère. Au menu: des rencontres inspirantes et des moments de rire.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1275808"/>
 		<category>Ocio y Aficiones</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231026085500 +0000" stop="20231026090000 +0000">
+	<programme channel="TV5Monde.TV" start="20231026085400 +0000" stop="20231026090000 +0000">
 		<title>C quoi l'info ?</title>
 		<desc>Rendez-vous quotidien d'actualité à destination des 12-18 ans. Actualités incontournables, informations positives, grandes tendances sur les réseaux sociaux, conseils culturels, actualités sportives.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P3122623"/>
@@ -27495,19 +27531,19 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1242043"/>
 		<category>Informativo</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231026091400 +0000" stop="20231026091700 +0000">
+	<programme channel="TV5Monde.TV" start="20231026091400 +0000" stop="20231026091900 +0000">
 		<title>Météo</title>
 		<desc>Un bulletin complet avec les prévisions météorologiques en France et en Europe (temps, climat, températures, etc.).</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P900340"/>
 		<category>Informativo</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231026091700 +0000" stop="20231026094000 +0000">
+	<programme channel="TV5Monde.TV" start="20231026091900 +0000" stop="20231026094100 +0000">
 		<title>Un si grand soleil</title>
 		<desc></desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1612979"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231026094000 +0000" stop="20231026094500 +0000">
+	<programme channel="TV5Monde.TV" start="20231026094100 +0000" stop="20231026094500 +0000">
 		<title>Vestiaires</title>
 		<desc></desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1543744"/>
@@ -27519,209 +27555,251 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1310157"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231026103000 +0000" stop="20231026111400 +0000">
+	<programme channel="TV5Monde.TV" start="20231026103000 +0000" stop="20231026111200 +0000">
 		<title>Josélito au coeur du monde</title>
 		<desc></desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P3110547"/>
 		<category>Documentales</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231026111400 +0000" stop="20231026113000 +0000">
+	<programme channel="TV5Monde.TV" start="20231026111200 +0000" stop="20231026112600 +0000">
 		<title>Écho-logis</title>
 		<desc>''Écho-logis'' part à la rencontre d'hommes qui ouvrent les portes de leurs maisons.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1644046"/>
 		<category>Documentales</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231026113000 +0000" stop="20231026120000 +0000">
+	<programme channel="TV5Monde.TV" start="20231026112600 +0000" stop="20231026113000 +0000">
+		<title>Merci professeur</title>
+		<desc></desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1242009"/>
+		<category>Cultural/Educativo</category>
+	</programme>
+	<programme channel="TV5Monde.TV" start="20231026113000 +0000" stop="20231026120100 +0000">
 		<title>Journal RTBF</title>
 		<desc></desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1241980"/>
 		<category>Informativo</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231026120000 +0000" stop="20231026122200 +0000">
+	<programme channel="TV5Monde.TV" start="20231026120100 +0000" stop="20231026122200 +0000">
 		<title>La maison-bleue</title>
 		<desc></desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P2072904"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231026122200 +0000" stop="20231026124400 +0000">
+	<programme channel="TV5Monde.TV" start="20231026122200 +0000" stop="20231026124300 +0000">
 		<title>La maison-bleue</title>
 		<desc></desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P2072904"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231026124400 +0000" stop="20231026130600 +0000">
+	<programme channel="TV5Monde.TV" start="20231026124300 +0000" stop="20231026130500 +0000">
 		<title>La maison-bleue</title>
 		<desc></desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P2072904"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231026130600 +0000" stop="20231026133200 +0000">
+	<programme channel="TV5Monde.TV" start="20231026130500 +0000" stop="20231026132700 +0000">
 		<title>La maison-bleue</title>
 		<desc></desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P2072904"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231026133200 +0000" stop="20231026140200 +0000">
+	<programme channel="TV5Monde.TV" start="20231026132700 +0000" stop="20231026135300 +0000">
 		<title>Version Française</title>
 		<desc>Mode, design, gastronomie, art de vivre.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P2030286"/>
 		<category>Ocio y Aficiones</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231026140200 +0000" stop="20231026142500 +0000">
+	<programme channel="TV5Monde.TV" start="20231026135300 +0000" stop="20231026140100 +0000">
+		<title>Hep taxi ! Express</title>
+		<desc>Jérôme Colin, animateur-taximan, embarque une personnalité lors d'une course express et décalée, souvent propice aux confidences.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1912544"/>
+		<category>Entretenimiento</category>
+	</programme>
+	<programme channel="TV5Monde.TV" start="20231026140100 +0000" stop="20231026142400 +0000">
 		<title>Un si grand soleil</title>
 		<desc></desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1612979"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231026142500 +0000" stop="20231026143200 +0000">
+	<programme channel="TV5Monde.TV" start="20231026142400 +0000" stop="20231026142900 +0000">
 		<title>Vestiaires</title>
 		<desc></desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1543744"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231026143200 +0000" stop="20231026150600 +0000">
+	<programme channel="TV5Monde.TV" start="20231026142900 +0000" stop="20231026150200 +0000">
 		<title>Questions pour un champion</title>
 		<desc></desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1242025"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231026150600 +0000" stop="20231026154000 +0000">
+	<programme channel="TV5Monde.TV" start="20231026150200 +0000" stop="20231026153300 +0000">
 		<title>13h15, le samedi</title>
 		<desc></desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1276513"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231026154000 +0000" stop="20231026160000 +0000">
+	<programme channel="TV5Monde.TV" start="20231026153300 +0000" stop="20231026154600 +0000">
+		<title>Et si</title>
+		<desc>Denise Époté accueille une personnalité africaine du monde politique, économique ou culturel qui fait l'actualité sur ce continent en pleine mutation.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1969318"/>
+		<category>Entretenimiento</category>
+	</programme>
+	<programme channel="TV5Monde.TV" start="20231026154600 +0000" stop="20231026160000 +0000">
 		<title>Le dessous des cartes</title>
 		<desc></desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1241988"/>
 		<category>Documentales</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231026160000 +0000" stop="20231026162200 +0000">
+	<programme channel="TV5Monde.TV" start="20231026160000 +0000" stop="20231026162300 +0000">
 		<title>64'le monde en français</title>
 		<desc></desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1241935"/>
 		<category>Informativo</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231026162200 +0000" stop="20231026162500 +0000">
+	<programme channel="TV5Monde.TV" start="20231026162300 +0000" stop="20231026162700 +0000">
 		<title>Le journal de l'eco</title>
 		<desc></desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1241991"/>
 		<category>Informativo</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231026162500 +0000" stop="20231026162800 +0000">
+	<programme channel="TV5Monde.TV" start="20231026162700 +0000" stop="20231026163000 +0000">
 		<title>Météo</title>
 		<desc>Un bulletin complet avec les prévisions météorologiques en France et en Europe (temps, climat, températures, etc.).</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P900340"/>
 		<category>Informativo</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231026162800 +0000" stop="20231026164200 +0000">
+	<programme channel="TV5Monde.TV" start="20231026163000 +0000" stop="20231026164100 +0000">
 		<title>L'invité</title>
 		<desc>Programme court presenté par Patrick Simonin qui fera des entretiens avec un invité au coeur de l'actualité politique, économique, culturelle.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1242002"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231026164200 +0000" stop="20231026181300 +0000">
+	<programme channel="TV5Monde.TV" start="20231026164100 +0000" stop="20231026180800 +0000">
 		<title>Les siffleurs</title>
 		<desc>Lila, une étudiante, disparaît brutalement après une soirée entre copines. Elle avait créé un compte sur les réseaux sociaux où elle postait un ''selfie'' d'elle avec chacun des hommes qui la harcelaient quotidiennement dans la rue.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P3132909"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231026181300 +0000" stop="20231026183000 +0000">
+	<programme channel="TV5Monde.TV" start="20231026180800 +0000" stop="20231026182200 +0000">
 		<title>La peinture française autour du monde</title>
 		<desc></desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P2072903"/>
 		<category>Documentales</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231026183000 +0000" stop="20231026185600 +0000">
+	<programme channel="TV5Monde.TV" start="20231026182200 +0000" stop="20231026183000 +0000">
+		<title>Tendance XXI</title>
+		<desc></desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1955656"/>
+		<category>Entretenimiento</category>
+	</programme>
+	<programme channel="TV5Monde.TV" start="20231026183000 +0000" stop="20231026185700 +0000">
 		<title>Le journal de France 2</title>
 		<desc></desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1241989"/>
 		<category>Informativo</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231026185600 +0000" stop="20231026190000 +0000">
+	<programme channel="TV5Monde.TV" start="20231026185700 +0000" stop="20231026190100 +0000">
 		<title>Météo</title>
 		<desc>Un bulletin complet avec les prévisions météorologiques en France et en Europe (temps, climat, températures, etc.).</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P900340"/>
 		<category>Informativo</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231026190000 +0000" stop="20231026204000 +0000">
+	<programme channel="TV5Monde.TV" start="20231026190100 +0000" stop="20231026204100 +0000">
 		<title>Les gens normaux n'ont rien d'exceptionnel</title>
 		<desc>Après une rupture difficile, Martine se retrouve, avec une amnésie temporaire, aux urgences d'un hôpital psychiatrique. Elle commence à s'intéresser aux personnes qui traînent dans les couloirs.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P3138130"/>
 		<category>Cine</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231026204000 +0000" stop="20231026210600 +0000">
+	<programme channel="TV5Monde.TV" start="20231026204100 +0000" stop="20231026210800 +0000">
 		<title>Journal TSR</title>
 		<desc>Journal télévisé proposé par la rédaction de la télévision suisse qui nous offre un résumé des actualités.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1241981"/>
 		<category>Informativo</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231026210600 +0000" stop="20231026211100 +0000">
+	<programme channel="TV5Monde.TV" start="20231026210800 +0000" stop="20231026211100 +0000">
 		<title>Météo</title>
 		<desc>Un bulletin complet avec les prévisions météorologiques en France et en Europe (temps, climat, températures, etc.).</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P900340"/>
 		<category>Informativo</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231026211100 +0000" stop="20231026214300 +0000">
+	<programme channel="TV5Monde.TV" start="20231026211100 +0000" stop="20231026214200 +0000">
 		<title>L'actu news</title>
 		<desc>Le journal de TVMONACO.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P3097803"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231026214300 +0000" stop="20231026234200 +0000">
+	<programme channel="TV5Monde.TV" start="20231026214200 +0000" stop="20231026233300 +0000">
 		<title>Envoyé special</title>
 		<desc></desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1264483"/>
 		<category>Informativo</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231026234200 +0000" stop="20231027000900 +0000">
+	<programme channel="TV5Monde.TV" start="20231026233300 +0000" stop="20231027000000 +0000">
 		<title>TV5Monde Le journal Afrique</title>
 		<desc></desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1242044"/>
 		<category>Informativo</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231027000900 +0000" stop="20231027001600 +0000">
+	<programme channel="TV5Monde.TV" start="20231027000000 +0000" stop="20231027000400 +0000">
 		<title>Météo</title>
 		<desc>Un bulletin complet avec les prévisions météorologiques en France et en Europe (temps, climat, températures, etc.).</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P900340"/>
 		<category>Informativo</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231027001600 +0000" stop="20231027011000 +0000">
+	<programme channel="TV5Monde.TV" start="20231027000400 +0000" stop="20231027005700 +0000">
 		<title>400 millions de critiques</title>
 		<desc>Premier grand magazine culturel francophone au monde, revient sur l'actualité culturelle francophone à travers les regards croisés de journalistes belges, suisses, canadiens, québécois et français.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1933280"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231027011000 +0000" stop="20231027015800 +0000">
-		<title>Skate le monde</title>
+	<programme channel="TV5Monde.TV" start="20231027005700 +0000" stop="20231027015000 +0000">
+		<title>Décolonisations</title>
 		<desc></desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P3105901"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P3058097"/>
+		<category>Documentales</category>
+	</programme>
+	<programme channel="TV5Monde.TV" start="20231027015000 +0000" stop="20231027015800 +0000">
+		<title>Tendance XXI</title>
+		<desc></desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1955656"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231027015800 +0000" stop="20231027022500 +0000">
+	<programme channel="TV5Monde.TV" start="20231027015800 +0000" stop="20231027022200 +0000">
 		<title>Allô tribunal</title>
 		<desc></desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1632717"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231027022500 +0000" stop="20231027042400 +0000">
+	<programme channel="TV5Monde.TV" start="20231027022200 +0000" stop="20231027022800 +0000">
+		<title>L'écologie en action</title>
+		<desc></desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1937031"/>
+		<category>Documentales</category>
+	</programme>
+	<programme channel="TV5Monde.TV" start="20231027022800 +0000" stop="20231027042400 +0000">
 		<title>C Dans L'Air</title>
 		<desc></desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1241945"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231027022500 +0000" stop="20231027042400 +0000">
+	<programme channel="TV5Monde.TV" start="20231027022800 +0000" stop="20231027042400 +0000">
 		<title>C Dans L'Air</title>
 		<desc></desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1241945"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231027042400 +0000" stop="20231027043000 +0000">
+	<programme channel="TV5Monde.TV" start="20231027042400 +0000" stop="20231027042800 +0000">
 		<title>Météo</title>
 		<desc>Un bulletin complet avec les prévisions météorologiques en France et en Europe (temps, climat, températures, etc.).</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P900340"/>
 		<category>Informativo</category>
+	</programme>
+	<programme channel="TV5Monde.TV" start="20231027042800 +0000" stop="20231027043000 +0000">
+		<title>La minute urbaine</title>
+		<desc></desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1717896"/>
+		<category>Documentales</category>
 	</programme>
 	<programme channel="TV5Monde.TV" start="20231027043000 +0000" stop="20231027045700 +0000">
 		<title>TV5Monde Le journal Afrique</title>
@@ -27729,73 +27807,73 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1242044"/>
 		<category>Informativo</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231027045700 +0000" stop="20231027050000 +0000">
-		<title>La minute urbaine</title>
+	<programme channel="TV5Monde.TV" start="20231027045700 +0000" stop="20231027050300 +0000">
+		<title>Voyages vert vous</title>
 		<desc></desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1717896"/>
-		<category>Documentales</category>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1830597"/>
+		<category>Ocio y Aficiones</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231027050000 +0000" stop="20231027053000 +0000">
+	<programme channel="TV5Monde.TV" start="20231027050300 +0000" stop="20231027052900 +0000">
 		<title>Curieux Bégin</title>
 		<desc>Dans ''Curieux Bégin'' on parle cuisine et vin. L'animateur et comédien épicurien Christian Bégin égaye nos papilles et nous entraîne, d'une recette à l'autre, à la rencontre de passionnés de la bonne chère. Au menu: des rencontres inspirantes et des moments de rire.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1275808"/>
 		<category>Ocio y Aficiones</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231027053000 +0000" stop="20231027055700 +0000">
+	<programme channel="TV5Monde.TV" start="20231027052900 +0000" stop="20231027055600 +0000">
 		<title>Télématin</title>
 		<desc></desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1242037"/>
 		<category>Informativo</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231027055700 +0000" stop="20231027060000 +0000">
+	<programme channel="TV5Monde.TV" start="20231027055600 +0000" stop="20231027060000 +0000">
 		<title>Merci professeur</title>
 		<desc></desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1242009"/>
 		<category>Cultural/Educativo</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231027060000 +0000" stop="20231027062700 +0000">
+	<programme channel="TV5Monde.TV" start="20231027060000 +0000" stop="20231027062600 +0000">
 		<title>Journal Radio Canada</title>
 		<desc>Le journal télévisé proposé par la rédaction de Radio-Canada.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P2029552"/>
 		<category>Informativo</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231027062700 +0000" stop="20231027064000 +0000">
+	<programme channel="TV5Monde.TV" start="20231027062600 +0000" stop="20231027063900 +0000">
 		<title>TV5Monde Le journal</title>
 		<desc></desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1242043"/>
 		<category>Informativo</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231027064000 +0000" stop="20231027070600 +0000">
+	<programme channel="TV5Monde.TV" start="20231027063900 +0000" stop="20231027070400 +0000">
 		<title>Geopolitis</title>
 		<desc></desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1243502"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231027070600 +0000" stop="20231027073000 +0000">
+	<programme channel="TV5Monde.TV" start="20231027070400 +0000" stop="20231027072800 +0000">
 		<title>Curieux Bégin</title>
 		<desc>Dans ''Curieux Bégin'' on parle cuisine et vin. L'animateur et comédien épicurien Christian Bégin égaye nos papilles et nous entraîne, d'une recette à l'autre, à la rencontre de passionnés de la bonne chère. Au menu: des rencontres inspirantes et des moments de rire.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1275808"/>
 		<category>Ocio y Aficiones</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231027073000 +0000" stop="20231027075600 +0000">
+	<programme channel="TV5Monde.TV" start="20231027072800 +0000" stop="20231027075400 +0000">
 		<title>C Jamy</title>
 		<desc>Jamy Gourmaud sera aux commandes de ce nouveau rendez-vous. Son ambition, avec à ses côtés une équipe de chroniqueuses et de chroniqueurs : éclairer des sujets de l'actualité, en stimulant la connaissance, le goût du savoir et la curiosité.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P2114261"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231027075600 +0000" stop="20231027082400 +0000">
+	<programme channel="TV5Monde.TV" start="20231027075400 +0000" stop="20231027082200 +0000">
 		<title>À travers champs</title>
 		<desc></desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P3111344"/>
 		<category>Documentales</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231027082400 +0000" stop="20231027085500 +0000">
+	<programme channel="TV5Monde.TV" start="20231027082200 +0000" stop="20231027085400 +0000">
 		<title>Cuisine ouverte</title>
 		<desc>Le chef Mory Sacko met à l'honneur l'héritage et la diversité de la gastronomie française à travers un échange amical et inventif entre une cuisine des terroirs et une cuisine ouverte aux influences du monde.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1996133"/>
 		<category>Ocio y Aficiones</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231027085500 +0000" stop="20231027090000 +0000">
+	<programme channel="TV5Monde.TV" start="20231027085400 +0000" stop="20231027090000 +0000">
 		<title>C quoi l'info ?</title>
 		<desc>Rendez-vous quotidien d'actualité à destination des 12-18 ans. Actualités incontournables, informations positives, grandes tendances sur les réseaux sociaux, conseils culturels, actualités sportives.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P3122623"/>
@@ -27807,34 +27885,40 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1242043"/>
 		<category>Informativo</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231027091400 +0000" stop="20231027091700 +0000">
+	<programme channel="TV5Monde.TV" start="20231027091400 +0000" stop="20231027091900 +0000">
 		<title>Météo</title>
 		<desc>Un bulletin complet avec les prévisions météorologiques en France et en Europe (temps, climat, températures, etc.).</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P900340"/>
 		<category>Informativo</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231027091700 +0000" stop="20231027093500 +0000">
+	<programme channel="TV5Monde.TV" start="20231027091900 +0000" stop="20231027094200 +0000">
 		<title>Un si grand soleil</title>
 		<desc></desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1612979"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231027093500 +0000" stop="20231027094400 +0000">
+	<programme channel="TV5Monde.TV" start="20231027094200 +0000" stop="20231027094600 +0000">
 		<title>Vestiaires</title>
 		<desc></desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1543744"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231027094400 +0000" stop="20231027103000 +0000">
+	<programme channel="TV5Monde.TV" start="20231027094600 +0000" stop="20231027103000 +0000">
 		<title>Tout le monde veut prendre sa place</title>
 		<desc></desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1310157"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231027103000 +0000" stop="20231027113000 +0000">
+	<programme channel="TV5Monde.TV" start="20231027103000 +0000" stop="20231027112100 +0000">
 		<title>En train à travers la Suisse</title>
 		<desc>Chaque jour, des centaines de milliers de voyageurs sillonnent la Suisse en train, à travers des paysages féeriques.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P3122757"/>
+		<category>Documentales</category>
+	</programme>
+	<programme channel="TV5Monde.TV" start="20231027112100 +0000" stop="20231027113000 +0000">
+		<title>Garden Party</title>
+		<desc></desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P2058987"/>
 		<category>Documentales</category>
 	</programme>
 	<programme channel="TV5Monde.TV" start="20231027113000 +0000" stop="20231027120000 +0000">
@@ -27843,49 +27927,49 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1954189"/>
 		<category>Informativo</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231027120000 +0000" stop="20231027125300 +0000">
+	<programme channel="TV5Monde.TV" start="20231027120000 +0000" stop="20231027125000 +0000">
 		<title>Jeux d'influence</title>
 		<desc></desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P3132418"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231027125300 +0000" stop="20231027134400 +0000">
+	<programme channel="TV5Monde.TV" start="20231027125000 +0000" stop="20231027133700 +0000">
 		<title>Jeux d'influence</title>
 		<desc></desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P3132418"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231027134400 +0000" stop="20231027140400 +0000">
-		<title>Alterrenative voyages</title>
-		<desc>Exploration de plusieurs régions du monde à travers le prisme de la protection de l'environnement et des initiatives locales, durables, positives. Un périple qui met les rencontres et le partage à l'honneur.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P3055043"/>
-		<category>Documentales</category>
+	<programme channel="TV5Monde.TV" start="20231027133700 +0000" stop="20231027140400 +0000">
+		<title>Tendance XXI</title>
+		<desc></desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1955656"/>
+		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231027140400 +0000" stop="20231027142700 +0000">
+	<programme channel="TV5Monde.TV" start="20231027140400 +0000" stop="20231027142800 +0000">
 		<title>Un si grand soleil</title>
 		<desc></desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1612979"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231027142700 +0000" stop="20231027143200 +0000">
+	<programme channel="TV5Monde.TV" start="20231027142800 +0000" stop="20231027143100 +0000">
 		<title>Vestiaires</title>
 		<desc></desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1543744"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231027143200 +0000" stop="20231027150600 +0000">
+	<programme channel="TV5Monde.TV" start="20231027143100 +0000" stop="20231027150500 +0000">
 		<title>Questions pour un champion</title>
 		<desc></desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1242025"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231027150600 +0000" stop="20231027153300 +0000">
+	<programme channel="TV5Monde.TV" start="20231027150500 +0000" stop="20231027153200 +0000">
 		<title>Destination francophonie</title>
 		<desc></desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1241963"/>
 		<category>Cultural/Educativo</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231027153300 +0000" stop="20231027160000 +0000">
+	<programme channel="TV5Monde.TV" start="20231027153200 +0000" stop="20231027160000 +0000">
 		<title>Sur les murs</title>
 		<desc>Mouvement underground né au rythme du hip hop des années 70 dans les ghettos américains, le graffiti est un art à la fois populaire, sauvage et éphémère.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1949733"/>
@@ -27933,95 +28017,95 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1241989"/>
 		<category>Informativo</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231027185600 +0000" stop="20231027185800 +0000">
+	<programme channel="TV5Monde.TV" start="20231027185600 +0000" stop="20231027190000 +0000">
 		<title>Météo</title>
 		<desc>Un bulletin complet avec les prévisions météorologiques en France et en Europe (temps, climat, températures, etc.).</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P900340"/>
 		<category>Informativo</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231027185800 +0000" stop="20231027190000 +0000">
-		<title>Voile: Transat Jacques Vabre</title>
-		<desc></desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1957752"/>
-		<category>Entretenimiento</category>
-	</programme>
-	<programme channel="TV5Monde.TV" start="20231027190000 +0000" stop="20231027194300 +0000">
+	<programme channel="TV5Monde.TV" start="20231027190000 +0000" stop="20231027194200 +0000">
 		<title>Les pays d'en haut</title>
 		<desc></desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P2037360"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231027194300 +0000" stop="20231027202600 +0000">
+	<programme channel="TV5Monde.TV" start="20231027194200 +0000" stop="20231027202700 +0000">
 		<title>Les pays d'en haut</title>
 		<desc></desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P2037360"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231027202600 +0000" stop="20231027205200 +0000">
+	<programme channel="TV5Monde.TV" start="20231027202700 +0000" stop="20231027205400 +0000">
 		<title>Journal TSR</title>
 		<desc>Journal télévisé proposé par la rédaction de la télévision suisse qui nous offre un résumé des actualités.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1241981"/>
 		<category>Informativo</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231027205200 +0000" stop="20231027205500 +0000">
+	<programme channel="TV5Monde.TV" start="20231027205400 +0000" stop="20231027205700 +0000">
 		<title>Météo</title>
 		<desc>Un bulletin complet avec les prévisions météorologiques en France et en Europe (temps, climat, températures, etc.).</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P900340"/>
 		<category>Informativo</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231027205500 +0000" stop="20231027212500 +0000">
+	<programme channel="TV5Monde.TV" start="20231027205700 +0000" stop="20231027212800 +0000">
 		<title>L'actu news</title>
 		<desc>Le journal de TVMONACO.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P3097803"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231027212500 +0000" stop="20231027221100 +0000">
+	<programme channel="TV5Monde.TV" start="20231027212800 +0000" stop="20231027221400 +0000">
 		<title>Au bout de l'enquête, la fin du crime parfait ?</title>
 		<desc></desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P2096607"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231027221100 +0000" stop="20231027230000 +0000">
+	<programme channel="TV5Monde.TV" start="20231027221400 +0000" stop="20231027230300 +0000">
 		<title>Au bout de l'enquête, la fin du crime parfait ?</title>
 		<desc></desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P2096607"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231027230000 +0000" stop="20231027232600 +0000">
+	<programme channel="TV5Monde.TV" start="20231027230300 +0000" stop="20231027233000 +0000">
 		<title>TV5Monde Le journal Afrique</title>
 		<desc></desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1242044"/>
 		<category>Informativo</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231027232600 +0000" stop="20231027233100 +0000">
+	<programme channel="TV5Monde.TV" start="20231027233000 +0000" stop="20231027233300 +0000">
 		<title>Météo</title>
 		<desc>Un bulletin complet avec les prévisions météorologiques en France et en Europe (temps, climat, températures, etc.).</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P900340"/>
 		<category>Informativo</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231027233100 +0000" stop="20231028002400 +0000">
+	<programme channel="TV5Monde.TV" start="20231027233300 +0000" stop="20231028002700 +0000">
 		<title>Infrarouge le débat RTS</title>
 		<desc>Débat public entre plusieurs personnalités sur un thème lié à l'actualité. Les invités exposent leur opinion et leurs arguments sur des sujets touchant la société, la politique ou encore l'économie.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1371866"/>
 		<category>Informativo</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231028002400 +0000" stop="20231028010400 +0000">
-		<title>Face aux territoires</title>
+	<programme channel="TV5Monde.TV" start="20231028002700 +0000" stop="20231028005700 +0000">
+		<title>13h15, le samedi</title>
 		<desc></desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1893540"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1276513"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231028010400 +0000" stop="20231028011700 +0000">
+	<programme channel="TV5Monde.TV" start="20231028005700 +0000" stop="20231028011000 +0000">
 		<title>Le dessous des cartes</title>
 		<desc></desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P1241988"/>
 		<category>Documentales</category>
 	</programme>
-	<programme channel="TV5Monde.TV" start="20231028011700 +0000" stop="20231028020100 +0000">
+	<programme channel="TV5Monde.TV" start="20231028011000 +0000" stop="20231028015300 +0000">
 		<title>Josélito au coeur du monde</title>
 		<desc></desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P3110547"/>
 		<category>Documentales</category>
+	</programme>
+	<programme channel="TV5Monde.TV" start="20231028015300 +0000" stop="20231028020100 +0000">
+		<title>Édition archives - HEAD</title>
+		<desc>Une île submergée. Trajet en état de veille. Temps de catastrophe.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P2077024"/>
+		<category>Cine</category>
 	</programme>
 	<programme channel="TV5Monde.TV" start="20231028020100 +0000" stop="20231028022800 +0000">
 		<title>Population d'Afrique</title>
@@ -28276,7 +28360,7 @@
 		<category>Informativo</category>
 	</programme>
 	<programme channel="TV5Monde.TV" start="20231028190200 +0000" stop="20231028205600 +0000">
-		<title>Tous en ch¿ur, on chante Goldman</title>
+		<title>Tous en ch&amp;#339;ur, on chante Goldman</title>
 		<desc></desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTV5P3142044"/>
 		<category>Música</category>
@@ -37828,7 +37912,7 @@
 		<category>Informativo</category>
 	</programme>
 	<programme channel="BTV.TV" start="20231027180000 +0000" stop="20231027200500 +0000">
-		<title>Habitació 910: Episodi 206</title>
+		<title>Habitació 910: La il·lustració com a eina per comunicar emocions</title>
 		<desc>Programa de música pop de betevé, en contraposició a una cultura acadèmica, alta o centrada en mitjans d’expressió tradicionals, elitistes i valorats com a 'superiors'. Pop són Beyoncé, Franz Ferdinand, Lana del Rey, Morrissey i inclòs Björk. Pop ets tu i som tots.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBTVP3143411"/>
 		<category>Música</category>
@@ -37846,7 +37930,7 @@
 		<category>Documentales</category>
 	</programme>
 	<programme channel="BTV.TV" start="20231027230000 +0000" stop="20231028010000 +0000">
-		<title>Habitació 910: Episodi 206</title>
+		<title>Habitació 910: La il·lustració com a eina per comunicar emocions</title>
 		<desc>Programa de música pop de betevé, en contraposició a una cultura acadèmica, alta o centrada en mitjans d’expressió tradicionals, elitistes i valorats com a 'superiors'. Pop són Beyoncé, Franz Ferdinand, Lana del Rey, Morrissey i inclòs Björk. Pop ets tu i som tots.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBTVP3143411"/>
 		<category>Música</category>
@@ -38044,7 +38128,7 @@
 		<category>Cine</category>
 	</programme>
 	<programme channel="BTV.TV" start="20231029000700 +0000" stop="20231029021500 +0000">
-		<title>Habitació 910: Episodi 206</title>
+		<title>Habitació 910: La il·lustració com a eina per comunicar emocions</title>
 		<desc>Programa de música pop de betevé, en contraposició a una cultura acadèmica, alta o centrada en mitjans d’expressió tradicionals, elitistes i valorats com a 'superiors'. Pop són Beyoncé, Franz Ferdinand, Lana del Rey, Morrissey i inclòs Björk. Pop ets tu i som tots.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBTVP3143411"/>
 		<category>Música</category>

@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 29/10/2023 18:00:50",
+    "author": "Vila - 29/10/2023 18:02:42",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -728,7 +728,7 @@
         {
             "name": "Chuky",
             "url": "https://drive.google.com/uc?export=download&id=1Wkta2yu_vp-TehAYmN4iGyh0igktB3dx",
-            "parse_ids": false
+            "embed": "true"
         }
     ]
 }

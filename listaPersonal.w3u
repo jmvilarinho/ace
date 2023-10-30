@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 29/10/2023 20:00:25",
+    "author": "Vila - 30/10/2023 08:03:35",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -59,6 +59,12 @@
                     "embed": "false"
                 },
                 {
+                    "name": "M. Liga de Campeones 4 [1080]",
+                    "url": "acestream://1b48d5881337c87b89e1edefff6688fe2271d222",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-04.png",
+                    "embed": "false"
+                },
+                {
                     "name": "M.L. Campeones 4 1080",
                     "url": "acestream://f2df4f96b23388b45e75d848a48a510cf8af560f",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-04.png",
@@ -80,6 +86,12 @@
                     "name": "M.L. Campeones 7 1080",
                     "url": "acestream://5932623d2fd7ed16b01787251b418e4f59a01cda",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-07.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M. Liga de Campeones 8 [1080]",
+                    "url": "acestream://1a4b41c02e116ed19a505551a9caa79f54c027f7",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-08.png",
                     "embed": "false"
                 },
                 {
@@ -161,7 +173,7 @@
             "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-us-nba-tv.png",
             "stations": [
                 {
-                    "name": "NBA TV",
+                    "name": "Nba Tv (US)",
                     "url": "acestream://e72d03fb9694164317260f684470be9ab781ed95",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-us-nba-tv.png",
                     "embed": "false"
@@ -181,6 +193,12 @@
                 {
                     "name": "Dazn liga F 2",
                     "url": "acestream://d6cdd724a97fcf851e7ef641c28d6beb8663496e",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-0.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "DAZN LIGA F 2",
+                    "url": "acestream://4af5952b95d3c2e99fcdc0de2f528d3fcd73e06b",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-0.png",
                     "embed": "false"
                 },
@@ -305,6 +323,12 @@
                     "embed": "false"
                 },
                 {
+                    "name": "DAZN LaLiga 2 [1080][Multiaudio]",
+                    "url": "acestream://93d663e92a93845b11c9831885646fa39ba1ed66",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-2.png",
+                    "embed": "false"
+                },
+                {
                     "name": "DAZN LaLiga 3 1080",
                     "url": "acestream://8c71f0e0a5476e10950fc827f9d2a507340aba74",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-3.png",
@@ -328,6 +352,12 @@
             "name": "ESPN",
             "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-us-espn.png",
             "stations": [
+                {
+                    "name": "ESPN 2 [BE]",
+                    "url": "acestream://3e0ba6867173f345d482d80c771f1a5dc3b37e63",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-us-espn.png",
+                    "embed": "false"
+                },
                 {
                     "name": "ESPN 2 Colombia",
                     "url": "acestream://e40b29774fdfd953751a71f5695f647726623b9d",
@@ -353,8 +383,20 @@
                     "embed": "false"
                 },
                 {
+                    "name": "ESPN DEPORTES",
+                    "url": "acestream://3ce776c6eac31081239903cd45c152b27f95af63",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-us-espn.png",
+                    "embed": "false"
+                },
+                {
                     "name": "ESPN Extra Colombia",
                     "url": "acestream://9c3feb380cd9bcf9dcb7a9454ca8eb7962201612",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-us-espn.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "ESPN HD [US]",
+                    "url": "acestream://4b4907de51ec11087d4bed5876f2a0c68264f442",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-us-espn.png",
                     "embed": "false"
                 }
@@ -391,6 +433,12 @@
                     "name": "LaLiga Hypermotion 2 720",
                     "url": "acestream://2709d0ab86cb6ce7ba4d3ad188d7fa80668f2924",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-hypermotion-2.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "LaLiga HyperMotion 3",
+                    "url": "acestream://59ba45b79152e4599144177b234f6491fc19db53",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-hypermotion-3.png",
                     "embed": "false"
                 },
                 {
@@ -574,8 +622,86 @@
                     "embed": "false"
                 },
                 {
+                    "name": "beIN SPORTS 1  [BE]",
+                    "url": "acestream://bba1905fcd1c4975aec544047bf8e4cd23ce3fe0",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "beIN SPORTS 1 [FR]",
+                    "url": "acestream://54cbfaf8ad446499aae28ae50b512d95c263f811",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "beIN SPORTS 2  [BE]",
+                    "url": "acestream://edb507e38394d614c9ff55805c9d354ae13210bc",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "beIN SPORTS 2 [FR]",
+                    "url": "acestream://705e0086f2156e1d76609393666b95a5bd43bebb",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "beIN SPORTS 3  [BE]",
+                    "url": "acestream://731bd3336ec0986ff9100efe40dbaf1473a22cf8",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
                     "name": "beIN SPORTS nn 1080",
                     "url": "acestream://41af6926a6010b68ba2540975761436bb077748f",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "beIN SPORTS XtraÑ",
+                    "url": "acestream://92a7dcc55392efc6dd5d012c4ff3878891eb6a6e",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "BT Sport1 (UK) [1080]",
+                    "url": "acestream://ab2b69970c0629bf0fa30dd61b0072adb4ac4d9c",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "BT Sport1 (UK) [1080] - 3c5b",
+                    "url": "acestream://efc60cfe5e3a349baa02bcc49f6647c21a9c3c5b",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "BT Sport2 (UK [1080])",
+                    "url": "acestream://d63d8a57cf471394bfa9f619bbd68b01ae27a801",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "BT Sport3 (UK) [1080]",
+                    "url": "acestream://5f966c123759de46dff29c379266b7a403452033",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "BT Sport4 (UK) [1080]",
+                    "url": "acestream://fc5089d8e1519872fdf951779ccbca913acc9bce",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "BT Sport5 (UK) [1080]",
+                    "url": "acestream://c300ecb07d854c1730b04ea022c3fb0a184d7801",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "BT Sport6 (UK) [1080]",
+                    "url": "acestream://e1d74c79ab7b3991b3ed40b199abd0e8eb0ae511",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -588,6 +714,108 @@
                 {
                     "name": "dce1579e3a2e5bd29071fca8eae364f1eb3205cf",
                     "url": "acestream://aa82e7d4f03061f2144a2f4be22f2e2210d42280",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Eleven Sport 1 (BE)",
+                    "url": "acestream://36cad67fed5a739757a9db844a551aa845a8d51b",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Eleven Sport 2 (PL)",
+                    "url": "acestream://54a4a28882d3cae1ca19de5d4b022ebea40351f9",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Eleven Sport 3 (PL)",
+                    "url": "acestream://b146ee4b6e16c9df58e27bd02ffd6cea840ff212",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Eleven Sport 4 (PL)",
+                    "url": "acestream://458a0ddd7d193f6d2750cd14d03a47f47a808e09",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "ESPORT 3 CAT [1080]",
+                    "url": "acestream://4c0e50c9cc4971479feb12cc46ab1f5dbce8b132",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Eurosport 360 HD 1 [DE]",
+                    "url": "acestream://22df9a5fae8cae52fec925c2bb44b74f96a4200c",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Eurosport 360 HD 2 [DE]",
+                    "url": "acestream://57f95543ac41656d473b1a27123fc413388a728c",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Eurosport 360 HD 3 [DE]",
+                    "url": "acestream://7adbca42657ace1fe228142d351d0896974bbe0c",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Eurosport 360 HD 4 [DE]",
+                    "url": "acestream://1b6b6c0ddc0534236b3bae78f41d2bc27cd11f64",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Eurosport 360 HD 5 [DE]",
+                    "url": "acestream://148921c4dda96df445e253d6f26c4d092bf85809",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Eurosport 360 HD 6 [DE]",
+                    "url": "acestream://005ac522315699bd93bbf743329eb2f3c347dc3f",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Eurosport 360 HD 7 [DE]",
+                    "url": "acestream://b18657f64507cc859cd7edef1aef90feb053e791",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Eurosport 360 HD 8 [DE]",
+                    "url": "acestream://8f4f572005ca2557743474087aa622693ba9b5fe",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Eurosport 360 HD 9 [DE]",
+                    "url": "acestream://7993cecc31917793e2bfa2fe98faa9fe1ab62d47",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Extreme Sports 1",
+                    "url": "acestream://fc29afec151a8097ba65241acf3e0da791850e6c",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Extreme Sports 2",
+                    "url": "acestream://56239e8c8257170861da94a32a86d59c716a7071",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Extreme Sports 3 (PL)",
+                    "url": "acestream://73ff07648e367efebd94636047b07625f664a082",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -652,6 +880,84 @@
                     "embed": "false"
                 },
                 {
+                    "name": "REAL MADRID TV [1080]",
+                    "url": "acestream://0827cf7d290967985892965c6e61244a479d6dcd",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "REAL MADRID TV [1080] - 0be8",
+                    "url": "acestream://d644f9276c8c204882ccc4e80cc26f7986830be8",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "REAL MADRID TV [1080] - cd11",
+                    "url": "acestream://0ec3f3786318acd8dca2588f74c3759cda76cd11",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Red Bull",
+                    "url": "acestream://62daab1c54565d0c5ba4e3c660f3a4a5c93adc8a",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Red Bull TV",
+                    "url": "acestream://f1e1e9cce7297a749a5bb2e75c1520f9ce73a83b",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "RED BULL TV (2+)",
+                    "url": "acestream://a0270364634d9c49279ba61ae3d8467809fb7095",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Red Bull TV HD",
+                    "url": "acestream://647d19df70ee35100d0e95bc62ddebeebec1fabb",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Red Bull TV UHD",
+                    "url": "acestream://fefd91766cef2af2bf4ded328633fb01051d6df9",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Sky Sport F1",
+                    "url": "acestream://3251c61c831ddeae6b7feeae704a3f6c5c975e02",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Sky Sport F1 - 6ab3",
+                    "url": "acestream://28710e9057927317c869b11d669c28a4d77a6ab3",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Sky Sport F1 [1080]",
+                    "url": "acestream://55a762c1e48db88542771a476c65ffc309bd7262",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Sky Sport Football (UK)",
+                    "url": "acestream://8dbe2d515e9131fa311353537736f8c94be9b26d",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Sky Sport Main Event (UK)",
+                    "url": "acestream://eab7aeef0218ce8b0752e596e4792b69eda4df5e",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
                     "name": "TeleCinco 1080",
                     "url": "acestream://bb1982ae8d2d409d4ccd7a9f498042684e3532b5",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
@@ -660,6 +966,36 @@
                 {
                     "name": "TENNIS CHANNEL",
                     "url": "acestream://9292d3b32432efb56db4014933cbdec0a7cf2e36",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Tennis Channel",
+                    "url": "acestream://16089ab3f31a2756cf2ba6d507ff367cce14df83",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "UFC",
+                    "url": "acestream://d871578fc069de543d1ed8b5e63092d870bad8ee",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "UFC - fbfa",
+                    "url": "acestream://822654b2c0db24d1de149cb21fdd44a3b968fbfa",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "ViaPlay Sports 1",
+                    "url": "acestream://75a56863b6fe0407ad4305b4d7ee5643c3923565",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "ViaPlay Sports 2",
+                    "url": "acestream://4903ca695edb64bc72ae29eb85a5333ba0139537",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },

@@ -13,43 +13,43 @@
         {
           "name": "Acestream Pmeister 1 [Zeronet] | Importar Lista",
           "image": "https://i.imgur.com/YAaMwxN.png",
-          "url": "http://127.0.0.1:43110/1DfXfvZdWCkNKYmQkD6ezBL2Q9V32vZnhx/lista1.m3u",
+          "url": "https://raw.githubusercontent.com/jmvilarinho/ace/zeronet_pages/lista1.m3u",
           "import": true
         },
         {
           "name": "Acestream Pmeister 2 [Zeronet] | Importar Lista",
           "image": "https://i.imgur.com/YAaMwxN.png",
-          "url": "http://127.0.0.1:43110/1DfXfvZdWCkNKYmQkD6ezBL2Q9V32vZnhx/lista2.m3u",
+          "url": "https://raw.githubusercontent.com/jmvilarinho/ace/zeronet_pages/lista2.m3u",
           "import": true
         },
         {
           "name": "Acestream Lista Peliculas [Zeronet] | Importar Lista",
           "image": "https://i.imgur.com/YAaMwxN.png",
-          "url": "http://127.0.0.1:43110/1nKKMWkZVKRLcRosnZWFBr9Fph2G9RdkU/list/peliculas_base.txt",
+          "url": "https://raw.githubusercontent.com/jmvilarinho/ace/zeronet_pages/peliculas_base.txt",
           "import": true
         },
         {
           "name": "Acestream Lista Series [Zeronet] | Importar Lista",
           "image": "https://i.imgur.com/YAaMwxN.png",
-          "url": "http://127.0.0.1:43110/1nKKMWkZVKRLcRosnZWFBr9Fph2G9RdkU/list/series_base.txt",
+          "url": "https://raw.githubusercontent.com/jmvilarinho/ace/zeronet_pages/series_base.txt",
           "import": true
         },
         {
           "name": "Acestream Electroperra Lista 1 [Zeronet] | Importar Lista",
           "image": "https://i.imgur.com/YAaMwxN.png",
-          "url": "http://127.0.0.1:43110/1EoakGCUsHZrjMe9V86PBktkzn8T7LK2rG/lista1.m3u",
+          "url": "https://raw.githubusercontent.com/jmvilarinho/ace/zeronet_pages/lista1.m3u",
           "import": true
         },
         {
           "name": "Acestream Electroperra Lista 2 [Zeronet] | Importar Lista",
           "image": "https://i.imgur.com/YAaMwxN.png",
-          "url": "http://127.0.0.1:43110/1EoakGCUsHZrjMe9V86PBktkzn8T7LK2rG/lista2.m3u",
+          "url": "https://raw.githubusercontent.com/jmvilarinho/ace/zeronet_pages/lista2.m3u",
           "import": true
         },
         {
           "name": "Acestream Electroperra Automatica [Zeronet] | Importar Lista",
           "image": "https://i.imgur.com/YAaMwxN.png",
-          "url": "http://127.0.0.1:43110/1EoakGCUsHZrjMe9V86PBktkzn8T7LK2rG/channels.txt",
+          "url": "https://raw.githubusercontent.com/jmvilarinho/ace/zeronet_pages/channels.txt",
           "import": true
         },
         {
@@ -61,25 +61,25 @@
         {
           "name": "Peliculas Ramses [Zeronet] | Importar Lista",
           "image": "https://i.imgur.com/YAaMwxN.png",
-          "url": "http://127.0.0.1:43110/13aNmBWAkWzaXT1Hva4B9kpJW1nWFjFF4X/peliculas.m3u",
+          "url": "https://raw.githubusercontent.com/jmvilarinho/ace/zeronet_pages/peliculas.m3u",
           "import": true
         },
         {
           "name": "Acestream Icestresana [Zeronet] | Importar Lista",
           "image": "https://i.imgur.com/YAaMwxN.png",
-          "url": "http://127.0.0.1:43110/12Yeki2J1iXKurXSqL5JupkBjp1P4eYuEw/Icastresana.m3u",
+          "url": "https://raw.githubusercontent.com/jmvilarinho/ace/zeronet_pages/Icastresana.m3u",
           "import": true
         },
         {
           "name": "Acestream ElCano 1 [Zeronet] | Importar Lista",
           "image": "https://i.imgur.com/YAaMwxN.png",
-          "url": "http://127.0.0.1:43110/1Anu2b62n6YYBJBVzjrYkYfT6QWXSNx2tG/acestream/base.txt",
+          "url": "https://raw.githubusercontent.com/jmvilarinho/ace/zeronet_pages/base.txt",
           "import": true
         },
         {
           "name": "Acestream ElCano 2 [Zeronet] | Importar Lista",
           "image": "https://i.imgur.com/YAaMwxN.png",
-          "url": "http://127.0.0.1:43110/1Anu2b62n6YYBJBVzjrYkYfT6QWXSNx2tG/acestream/get.txt",
+          "url": "https://raw.githubusercontent.com/jmvilarinho/ace/zeronet_pages/get.txt",
           "import": true
         }
       ]
@@ -91,43 +91,43 @@
         {
           "name": "Acestream Pmeister 1 [Zeronet] | Abrir Navegador",
           "image": "https://i.imgur.com/9KXmBKo.png",
-          "url": "http://127.0.0.1:43110/1DfXfvZdWCkNKYmQkD6ezBL2Q9V32vZnhx/lista1.m3u",
+          "url": "https://raw.githubusercontent.com/jmvilarinho/ace/zeronet_pages/lista1.m3u",
           "embed": true
         },
         {
           "name": "Acestream Pmeister 2 [Zeronet] | Abrir Navegador",
           "image": "https://i.imgur.com/9KXmBKo.png",
-          "url": "http://127.0.0.1:43110/1DfXfvZdWCkNKYmQkD6ezBL2Q9V32vZnhx/lista2.m3u",
+          "url": "https://raw.githubusercontent.com/jmvilarinho/ace/zeronet_pages/lista2.m3u",
           "embed": true
         },
         {
           "name": "Acestream Lista Peliculas [Zeronet] | Abrir Navegador",
           "image": "https://i.imgur.com/9KXmBKo.png",
-          "url": "http://127.0.0.1:43110/1nKKMWkZVKRLcRosnZWFBr9Fph2G9RdkU/list/peliculas_base.txt",
+          "url": "https://raw.githubusercontent.com/jmvilarinho/ace/zeronet_pages/peliculas_base.txt",
           "embed": true
         },
         {
           "name": "Acestream Lista Series [Zeronet] | Abrir Navegador",
           "image": "https://i.imgur.com/9KXmBKo.png",
-          "url": "http://127.0.0.1:43110/1nKKMWkZVKRLcRosnZWFBr9Fph2G9RdkU/list/series_base.txt",
+          "url": "https://raw.githubusercontent.com/jmvilarinho/ace/zeronet_pages/series_base.txt",
           "embed": true
         },
         {
           "name": "Acestream Electroperra Lista 1 [Zeronet] | Abrir Navegador",
           "image": "https://i.imgur.com/9KXmBKo.png",
-          "url": "http://127.0.0.1:43110/1EoakGCUsHZrjMe9V86PBktkzn8T7LK2rG/lista1.m3u",
+          "url": "https://raw.githubusercontent.com/jmvilarinho/ace/zeronet_pages/lista1.m3u",
           "embed": true
         },
         {
           "name": "Acestream Electroperra Lista 2 [Zeronet] | Abrir Navegador",
           "image": "https://i.imgur.com/9KXmBKo.png",
-          "url": "http://127.0.0.1:43110/1EoakGCUsHZrjMe9V86PBktkzn8T7LK2rG/lista2.m3u",
+          "url": "https://raw.githubusercontent.com/jmvilarinho/ace/zeronet_pages/lista2.m3u",
           "embed": true
         },
         {
           "name": "Acestream Electroperra Automatica [Zeronet] | Abrir Navegador",
           "image": "https://i.imgur.com/9KXmBKo.png",
-          "url": "http://127.0.0.1:43110/1EoakGCUsHZrjMe9V86PBktkzn8T7LK2rG/channels.txt",
+          "url": "https://raw.githubusercontent.com/jmvilarinho/ace/zeronet_pages/channels.txt",
           "embed": true
         },
         {
@@ -139,25 +139,25 @@
         {
           "name": "Peliculas Ramses [Zeronet] | Abrir Navegador",
           "image": "https://i.imgur.com/9KXmBKo.png",
-          "url": "http://127.0.0.1:43110/13aNmBWAkWzaXT1Hva4B9kpJW1nWFjFF4X/peliculas.m3u",
+          "url": "https://raw.githubusercontent.com/jmvilarinho/ace/zeronet_pages/peliculas.m3u",
           "embed": true
         },
         {
           "name": "Acestream Icestresana [Zeronet] | Abrir Navegador",
           "image": "https://i.imgur.com/9KXmBKo.png",
-          "url": "http://127.0.0.1:43110/12Yeki2J1iXKurXSqL5JupkBjp1P4eYuEw/Icastresana.m3u",
+          "url": "https://raw.githubusercontent.com/jmvilarinho/ace/zeronet_pages/Icastresana.m3u",
           "embed": true
         },
         {
           "name": "Acestream ElCano 1 [Zeronet] | Abrir Navegador",
           "image": "https://i.imgur.com/9KXmBKo.png",
-          "url": "http://127.0.0.1:43110/1Anu2b62n6YYBJBVzjrYkYfT6QWXSNx2tG/acestream/base.txt",
+          "url": "https://raw.githubusercontent.com/jmvilarinho/ace/zeronet_pages/base.txt",
           "embed": true
         },
         {
           "name": "Acestream ElCano 2 [Zeronet] | Abrir Navegador",
           "image": "https://i.imgur.com/9KXmBKo.png",
-          "url": "http://127.0.0.1:43110/1Anu2b62n6YYBJBVzjrYkYfT6QWXSNx2tG/acestream/get.txt",
+          "url": "https://raw.githubusercontent.com/jmvilarinho/ace/zeronet_pages/get.txt",
           "embed": true
         }
       ]
@@ -165,32 +165,32 @@
     {
       "name": "Acestream Pmeister 1 [Zeronet] ",
       "image": "https://i.imgur.com/3IwhWdp.png",
-      "url": "http://127.0.0.1:43110/1DfXfvZdWCkNKYmQkD6ezBL2Q9V32vZnhx/lista1.m3u"
+      "url": "https://raw.githubusercontent.com/jmvilarinho/ace/zeronet_pages/lista1.m3u"
     },
     {
       "name": "Acestream Pmeister 2 [Zeronet] ",
       "image": "https://i.imgur.com/3IwhWdp.png",
-      "url": "http://127.0.0.1:43110/1DfXfvZdWCkNKYmQkD6ezBL2Q9V32vZnhx/lista2.m3u"
+      "url": "https://raw.githubusercontent.com/jmvilarinho/ace/zeronet_pages/lista2.m3u"
     },
     {
       "name": "Acestream Electroperra Lista 1 [Zeronet] ",
       "image": "https://i.imgur.com/3IwhWdp.png",
-      "url": "http://127.0.0.1:43110/1EoakGCUsHZrjMe9V86PBktkzn8T7LK2rG/lista1.m3u"
+      "url": "https://raw.githubusercontent.com/jmvilarinho/ace/zeronet_pages/lista1.m3u"
     },
     {
       "name": "Acestream Electroperra Lista 2 [Zeronet] ",
       "image": "https://i.imgur.com/3IwhWdp.png",
-      "url": "http://127.0.0.1:43110/1EoakGCUsHZrjMe9V86PBktkzn8T7LK2rG/lista2.m3u"
+      "url": "https://raw.githubusercontent.com/jmvilarinho/ace/zeronet_pages/lista2.m3u"
     },
     {
       "name": "Acestream Lista Peliculas [Zeronet] ",
       "image": "https://i.imgur.com/3IwhWdp.png",
-      "url": "http://127.0.0.1:43110/1nKKMWkZVKRLcRosnZWFBr9Fph2G9RdkU/list/peliculas_base.txt"
+      "url": "https://raw.githubusercontent.com/jmvilarinho/ace/zeronet_pages/peliculas_base.txt"
     },
     {
       "name": "Acestream Lista Series [Zeronet] a",
       "image": "https://i.imgur.com/3IwhWdp.png",
-      "url": "http://127.0.0.1:43110/1nKKMWkZVKRLcRosnZWFBr9Fph2G9RdkU/list/series_base.txt"
+      "url": "https://raw.githubusercontent.com/jmvilarinho/ace/zeronet_pages/series_base.txt"
     },
     {
       "name": "Acestream Ramses [Zeronet] ",
@@ -200,22 +200,22 @@
     {
       "name": "Peliculas Ramses [Zeronet] ",
       "image": "https://i.imgur.com/3IwhWdp.png",
-      "url": "http://127.0.0.1:43110/13aNmBWAkWzaXT1Hva4B9kpJW1nWFjFF4X/peliculas.m3u"
+      "url": "https://raw.githubusercontent.com/jmvilarinho/ace/zeronet_pages/peliculas.m3u"
     },
     {
       "name": "Acestream Icestresana [Zeronet] ",
       "image": "https://i.imgur.com/3IwhWdp.png",
-      "url": "http://127.0.0.1:43110/12Yeki2J1iXKurXSqL5JupkBjp1P4eYuEw/Icastresana.m3u"
+      "url": "https://raw.githubusercontent.com/jmvilarinho/ace/zeronet_pages/Icastresana.m3u"
     },
     {
       "name": "Acestream ElCano 1 [Zeronet] ",
       "image": "https://i.imgur.com/3IwhWdp.png",
-      "url": "http://127.0.0.1:43110/1Anu2b62n6YYBJBVzjrYkYfT6QWXSNx2tG/acestream/base.txt"
+      "url": "https://raw.githubusercontent.com/jmvilarinho/ace/zeronet_pages/base.txt"
     },
     {
       "name": "Acestream ElCano 2 [Zeronet] ",
       "image": "https://i.imgur.com/3IwhWdp.png",
-      "url": "http://127.0.0.1:43110/1Anu2b62n6YYBJBVzjrYkYfT6QWXSNx2tG/acestream/get.txt"
+      "url": "https://raw.githubusercontent.com/jmvilarinho/ace/zeronet_pages/get.txt"
     }
   ]
 }

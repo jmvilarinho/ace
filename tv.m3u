@@ -64,8 +64,6 @@ http://127.0.0.1:6878/ace/getstream?id=396d82ca6f5445abcd32e6b609d67e332ee12ace&
 http://127.0.0.1:6878/ace/getstream?id=f8cb9d9e3077eb3ae417b2d95a69c5f590760eb9&.mp4
 #EXTINF:-1 channel-id="samsung-ESBD3400001AA" tvg-id="ESBD3400001AA" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD3400001AA_20231011T084722SQUARE.png_20231011084722.png" tvg-chno="4001" group-title="Samsung TV" , Negocios TV
 https://i.mjh.nz/SamsungTVPlus/ESBD3400001AA.m3u8
-#EXTINF:-1 channel-id="samsung-ESBA2200005D6" tvg-id="ESBA2200005D6" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBA2200005D6_20230426T015705SQUARE.png_20230426015706.png" tvg-chno="4002" group-title="Samsung TV" , Todo Crimen
-https://i.mjh.nz/SamsungTVPlus/ESBA2200005D6.m3u8
 #EXTINF:-1 channel-id="samsung-ESAJ4500024LR" tvg-id="ESAJ4500024LR" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESAJ4500024LR_20230222T012038SQUARE.png_20230222012039.png" tvg-chno="4003" group-title="Samsung TV" , Euronews en directo
 https://i.mjh.nz/SamsungTVPlus/ESAJ4500024LR.m3u8
 #EXTINF:-1 channel-id="samsung-ESAJ4500019AM" tvg-id="ESAJ4500019AM" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESAJ4500019AM_20230926T032405SQUARE.png_20230926032406.png" tvg-chno="4004" group-title="Samsung TV" , Comedias - Rakuten TV
@@ -76,7 +74,9 @@ https://i.mjh.nz/SamsungTVPlus/ESBD1300004IG.m3u8
 https://i.mjh.nz/SamsungTVPlus/ESBA140000504.m3u8
 #EXTINF:-1 channel-id="samsung-ESBC4100001NZ" tvg-id="ESBC4100001NZ" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC4100001NZ_20221109T010943SQUARE.png_20221109010943.png" tvg-chno="4007" group-title="Samsung TV" , La 1
 https://i.mjh.nz/SamsungTVPlus/ESBC4100001NZ.m3u8
-#EXTINF:-1 channel-id="samsung-ESBD1500001SD" tvg-id="ESBD1500001SD" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD1500001SD_20230510T044209SQUARE.png_20230510044209.png" tvg-chno="4009" group-title="Samsung TV" , Hoguera
+#EXTINF:-1 channel-id="samsung-ESBD3900001P4" tvg-id="ESBD3900001P4" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD3900001P4_20231101T032755SQUARE.png_20231101032756.png" tvg-chno="4008" group-title="Samsung TV" , Vevo Navidad
+https://i.mjh.nz/SamsungTVPlus/ESBD3900001P4.m3u8
+#EXTINF:-1 channel-id="samsung-ESBD1500001SD" tvg-id="ESBD1500001SD" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD1500001SD_20231101T032819SQUARE.png_20231101032819.png" tvg-chno="4009" group-title="Samsung TV" , Mi chimenea
 https://i.mjh.nz/SamsungTVPlus/ESBD1500001SD.m3u8
 #EXTINF:-1 channel-id="samsung-ESBC4100002AG" tvg-id="ESBC4100002AG" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC4100002AG_20221109T010944SQUARE.png_20221109010944.png" tvg-chno="4105" group-title="Samsung TV" , La 2
 https://i.mjh.nz/SamsungTVPlus/ESBC4100002AG.m3u8
@@ -84,6 +84,8 @@ https://i.mjh.nz/SamsungTVPlus/ESBC4100002AG.m3u8
 https://i.mjh.nz/SamsungTVPlus/ESAJ3800003LX.m3u8
 #EXTINF:-1 channel-id="samsung-ESAJ3800006TT" tvg-id="ESAJ3800006TT" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESAJ3800006TT_20221026T004507SQUARE.png_20221026004507.png" tvg-chno="4113" group-title="Samsung TV" , MTV Cribs
 https://i.mjh.nz/SamsungTVPlus/ESAJ3800006TT.m3u8
+#EXTINF:-1 channel-id="samsung-ESAJ380000226" tvg-id="ESAJ380000226" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESAJ380000226_20231101T032816SQUARE.png_20231101032817.png" tvg-chno="4115" group-title="Samsung TV" , MTV Originals
+https://i.mjh.nz/SamsungTVPlus/ESAJ380000226.m3u8
 #EXTINF:-1 channel-id="samsung-ESBA1400006NP" tvg-id="ESBA1400006NP" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBA1400006NP_20221026T004520SQUARE.png_20221026004521.png" tvg-chno="4116" group-title="Samsung TV" , FailArmy
 https://i.mjh.nz/SamsungTVPlus/ESBA1400006NP.m3u8
 #EXTINF:-1 channel-id="samsung-ESAJ4500023Y5" tvg-id="ESAJ4500023Y5" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESAJ4500023Y5_20220323T081726SQUARE.png_20220323081728.png" tvg-chno="4119" group-title="Samsung TV" , People Are Awesome
@@ -96,8 +98,6 @@ https://i.mjh.nz/SamsungTVPlus/ESAJ4500016BH.m3u8
 https://i.mjh.nz/SamsungTVPlus/ESBC3900001G6.m3u8
 #EXTINF:-1 channel-id="samsung-ESBC3900002L8" tvg-id="ESBC3900002L8" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC3900002L8_20221012T021029SQUARE.png_20221012021029.png" tvg-chno="4124" group-title="Samsung TV" , Vivir con Gatos
 https://i.mjh.nz/SamsungTVPlus/ESBC3900002L8.m3u8
-#EXTINF:-1 channel-id="samsung-ESAJ380000226" tvg-id="ESAJ380000226" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESAJ380000226_20221026T004458SQUARE.png_20221026004458.png" tvg-chno="4125" group-title="Samsung TV" , MTV Originals
-https://i.mjh.nz/SamsungTVPlus/ESAJ380000226.m3u8
 #EXTINF:-1 channel-id="samsung-ESAJ3800005C5" tvg-id="ESAJ3800005C5" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESAJ3800005C5_20221109T010642SQUARE.png_20221109010642.png" tvg-chno="4128" group-title="Samsung TV" , Comedia Made in Spain
 https://i.mjh.nz/SamsungTVPlus/ESAJ3800005C5.m3u8
 #EXTINF:-1 channel-id="samsung-ESBC4700003RJ" tvg-id="ESBC4700003RJ" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC4700003RJ_20230412T042445SQUARE.png_20230412042445.png" tvg-chno="4130" group-title="Samsung TV" , Teen Vee
@@ -172,6 +172,8 @@ https://i.mjh.nz/SamsungTVPlus/ESAJ2900003ND.m3u8
 https://i.mjh.nz/SamsungTVPlus/ESBA1400008NE.m3u8
 #EXTINF:-1 channel-id="samsung-ESAJ4500017Y1" tvg-id="ESAJ4500017Y1" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESAJ4500017Y1_20220323T081606SQUARE.png_20220323081609.png" tvg-chno="4408" group-title="Samsung TV" , Fashion TV
 https://i.mjh.nz/SamsungTVPlus/ESAJ4500017Y1.m3u8
+#EXTINF:-1 channel-id="samsung-ESBD1400001L4" tvg-id="ESBD1400001L4" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD1400001L4_20231101T032753SQUARE.png_20231101032754.png" tvg-chno="4410" group-title="Samsung TV" , Travelxp
+https://i.mjh.nz/SamsungTVPlus/ESBD1400001L4.m3u8
 #EXTINF:-1 channel-id="samsung-ESBC27000040I" tvg-id="ESBC27000040I" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC27000040I_20230726T033527SQUARE.png_20230726033528.png" tvg-chno="4414" group-title="Samsung TV" , GoUSA TV
 https://i.mjh.nz/SamsungTVPlus/ESBC27000040I.m3u8
 #EXTINF:-1 channel-id="samsung-ESBC3500002PW" tvg-id="ESBC3500002PW" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC3500002PW_20221215T020824SQUARE.png_20221215020824.png" tvg-chno="4417" group-title="Samsung TV" , Ideas en 5 Minutos
@@ -210,7 +212,7 @@ https://i.mjh.nz/SamsungTVPlus/ESBA3300028OE.m3u8
 https://i.mjh.nz/SamsungTVPlus/ESBA33000233H.m3u8
 #EXTINF:-1 channel-id="samsung-ESBA3300017FA" tvg-id="ESBA3300017FA" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBA3300017FA_20230208T013037SQUARE.png_20230208013037.png" tvg-chno="4615" group-title="Samsung TV" , Familiares - Rakuten TV
 https://i.mjh.nz/SamsungTVPlus/ESBA3300017FA.m3u8
-#EXTINF:-1 channel-id="samsung-ESBD3200002V5" tvg-id="ESBD3200002V5" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD3200002V5_20230913T030600SQUARE.png_20230913030601.png" tvg-chno="4616" group-title="Samsung TV" , David el Gnomo & Friends
+#EXTINF:-1 channel-id="samsung-ESBD3200002V5" tvg-id="ESBD3200002V5" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD3200002V5_20231101T032821SQUARE.png_20231101032821.png" tvg-chno="4616" group-title="Samsung TV" , Heidi & Maya
 https://i.mjh.nz/SamsungTVPlus/ESBD3200002V5.m3u8
 #EXTINF:-1 channel-id="samsung-ESBA3300020W5" tvg-id="ESBA3300020W5" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBA3300020W5_20220914T041117SQUARE.png_20220914041117.png" tvg-chno="4619" group-title="Samsung TV" , Caillou
 https://i.mjh.nz/SamsungTVPlus/ESBA3300020W5.m3u8

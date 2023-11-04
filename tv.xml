@@ -3352,7 +3352,7 @@
 		<category>Música</category>
 	</programme>
 	<programme channel="APUNT.TV" start="20231105090000 +0000" stop="20231105095500 +0000">
-		<title>Missa</title>
+		<title>Santa Missa</title>
 		<desc>Retransmissió d'una Missa.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MAPUNTP1254072"/>
 		<category>Cultural/Educativo</category>
@@ -14823,19 +14823,13 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTDEPP3152861"/>
 		<category>Deportes</category>
 	</programme>
-	<programme channel="TDP.TV" start="20231103214500 +0000" stop="20231103220000 +0000">
-		<title>Reportajes TDP (T2023): Escalada urbana y Copa de España carreras por montaña</title>
-		<desc>Los reportajes de TDP pretenden promocionar el deporte español. Una aproximación a los atletas y a las competiciones de menor seguimiento que sirven para poner en valor el esfuerzo y el sacrificio de los participantes.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTDEPP3152838"/>
-		<category>Deportes</category>
-	</programme>
-	<programme channel="TDP.TV" start="20231103220000 +0000" stop="20231104000000 +0000">
+	<programme channel="TDP.TV" start="20231103214500 +0000" stop="20231103230000 +0000">
 		<title>Finales WTA Cancún (T2023): Gauff - Vondrousova</title>
-		<desc>Las ocho mejores tenistas de la temporada luchan por proclamarse maestras. Un torneo de lujo que en esta edición se celebra en la localidad mexicana de Cancún. Aryna Sabalenka, quien perdió la final del año anterior, parte como principal favorita.</desc>
+		<desc>Los reportajes de TDP pretenden promocionar el deporte español. Una aproximación a los atletas y a las competiciones de menor seguimiento que sirven para poner en valor el esfuerzo y el sacrificio de los participantes.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTDEPP3152857"/>
 		<category>Deportes</category>
 	</programme>
-	<programme channel="TDP.TV" start="20231104000000 +0000" stop="20231104020000 +0000">
+	<programme channel="TDP.TV" start="20231103230000 +0000" stop="20231104020000 +0000">
 		<title>Finales WTA Cancún (T2023): Swiatek - Jabeur</title>
 		<desc>Las ocho mejores tenistas de la temporada luchan por proclamarse maestras. Un torneo de lujo que en esta edición se celebra en la localidad mexicana de Cancún. Aryna Sabalenka, quien perdió la final del año anterior, parte como principal favorita.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MTDEPP3152859"/>

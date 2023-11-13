@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 13/11/2023 18:33:57",
+    "author": "Vila - 13/11/2023 18:36:26",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -502,6 +502,12 @@
                     "embed": "false"
                 },
                 {
+                    "name": "M. Laliga 1080p",
+                    "url": "acestream://aa82e7d4f03061f2144a2f4be22f2e2210d42280",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-1.png",
+                    "embed": "false"
+                },
+                {
                     "name": "M. LaLiga 720",
                     "url": "acestream://f031f5728b32f6089dda28edebe990cf198108d8",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-1.png",
@@ -556,12 +562,6 @@
                     "embed": "false"
                 },
                 {
-                    "name": "60106275d34f995e26bb2cc4a21a42f586c6c555",
-                    "url": "acestream://dce1579e3a2e5bd29071fca8eae364f1eb3205cf",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
                     "name": "BARCA TV HD",
                     "url": "acestream://e3362507e7c732b9461bd7bdc74bd054c49b3ba7",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
@@ -582,12 +582,6 @@
                 {
                     "name": "CUATRO 1080",
                     "url": "acestream://e8eec35f4662be1af96963245bfa88fb7d0242c4",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "dce1579e3a2e5bd29071fca8eae364f1eb3205cf",
-                    "url": "acestream://aa82e7d4f03061f2144a2f4be22f2e2210d42280",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -642,6 +636,12 @@
                 {
                     "name": "M. Golf 720",
                     "url": "acestream://9a4f3ae6563668b7709dac509dedc709441b3fd9",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M. Laliga UHD",
+                    "url": "acestream://dce1579e3a2e5bd29071fca8eae364f1eb3205cf",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },

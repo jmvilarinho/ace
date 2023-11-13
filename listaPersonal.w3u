@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 12/11/2023 20:00:47",
+    "author": "Vila - 13/11/2023 11:01:02",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -159,14 +159,7 @@
         {
             "name": "NBA",
             "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-us-nba-tv.png",
-            "stations": [
-                {
-                    "name": "NBA TV",
-                    "url": "acestream://e72d03fb9694164317260f684470be9ab781ed95",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-us-nba-tv.png",
-                    "embed": "false"
-                }
-            ]
+            "stations": []
         },
         {
             "name": "DAZN",

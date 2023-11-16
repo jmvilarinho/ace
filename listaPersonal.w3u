@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 16/11/2023 11:01:29",
+    "author": "Vila - 16/11/2023 16:00:31",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -478,6 +478,12 @@
             "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-0.png",
             "stations": [
                 {
+                    "name": "M+ Deportes 720p",
+                    "url": "acestream://e5fa927d9a017f4523fdb62774a0aec457985bfa",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-1.png",
+                    "embed": "false"
+                },
+                {
                     "name": "M. Deportes 1080",
                     "url": "acestream://d00223931b1854163e24c5c22475015d7d45c112",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-1.png",
@@ -485,7 +491,7 @@
                 },
                 {
                     "name": "M. Deportes 720",
-                    "url": "acestream://e5fa927d9a017f4523fdb62774a0aec457985bfa",
+                    "url": "acestream://77d83a79afcf6c865289cd8cdb42223cd4b6501c",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-1.png",
                     "embed": "false"
                 },

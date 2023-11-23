@@ -1,5 +1,9 @@
 #EXTM3U
 
+#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/aM0ViG6LVkN1PQGe9Bon1gQXpc7.jpg",El conejo de terciopelo (2023) BluRay Rip [6.5]
+acestream://9b84fd33d241f81e76b94fa38c49cc464d5bfb15
+#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/aM0ViG6LVkN1PQGe9Bon1gQXpc7.jpg",El conejo de terciopelo (2023) BluRay 720pRip [6.5]
+acestream://51ed8eabe128d62095f88d7e2b56064aa22258e3
 
 #EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/el_cuco-788052686-large.jpg",El cuco (2023) BluRay Rip [6.0]
 acestream://2bed2d0b1522bc9a3dfb7549eaa7e30b846e604b

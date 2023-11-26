@@ -29,7 +29,7 @@
  <h1>Add new site</h1>
  <h2>Please confirm before adding a new site to the client</h2>
  <form action="/add/" method="POST">
-  <input type="hidden" name="add_nonce" value="654688f5d34f8c966ec17db7a9e9ab55c6931ea120b955dba0a09288f68063bd">
+  <input type="hidden" name="add_nonce" value="c1c44e40fdf9ef1258876ebc586c1f82ebbd600963f61855ff7250b8b98c32c7">
   <input type="hidden" name="address" value="1DfXfvZdWCkNKYmQkD6ezBL2Q9V32vZnhx">
   <input type="hidden" name="url" value="/1DfXfvZdWCkNKYmQkD6ezBL2Q9V32vZnhx/lista1.m3u">
   <input type="submit" class="button button-submit" id="button" value="Load site"/>

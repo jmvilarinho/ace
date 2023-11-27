@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 27/11/2023 09:44:22",
+    "author": "Vila - 27/11/2023 09:46:29",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -131,20 +131,8 @@
                     "embed": "false"
                 },
                 {
-                    "name": "Eurosport 1 HD [DE]",
-                    "url": "acestream://b8cad4710b1c3b2b84a82c1ece40c08517b8f766",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-es-eurosport-1-615.png",
-                    "embed": "false"
-                },
-                {
                     "name": "EuroSport 2 1080",
                     "url": "acestream://c373da9e901d414b7384e671112e64d5a2310c29",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-es-eurosport-2-616.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "Eurosport 2 HD [DE]",
-                    "url": "acestream://ac675c82d6dfd4a201532c18b42e48dacb7c32c6",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-es-eurosport-2-616.png",
                     "embed": "false"
                 }
@@ -846,42 +834,6 @@
                 {
                     "name": "Premier Sports 2 UK",
                     "url": "acestream://4903ca695edb64bc72ae29eb85a5333ba0139537",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "RTL+ SPORT EVENT 1 [DE]",
-                    "url": "acestream://a7319ebd54cb1db9a9db1574929ca8d305a323d3",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "RTL+ SPORT EVENT 2 [DE]",
-                    "url": "acestream://e360a96fb4bbe1cb8a7862a6514c4c284eeec466",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "RTL+ SPORT EVENT 3 [DE]",
-                    "url": "acestream://8b3c5f9ec938c3d3950bc4c989428d266bd4bd5b",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "RTL+ SPORT EVENT 4 [DE]",
-                    "url": "acestream://784da1ced871f6d3f6bf25f29664bfd39f6130a6",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "RTL+ SPORT EVENT 5 [DE]",
-                    "url": "acestream://81284e9a279ee23cbc4a7400bd9531f127d20fe5",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "RTL+ SPORT EVENT 6 [DE]",
-                    "url": "acestream://c065ab169f75ced1d34fbcab6b84a5fa4ca73e30",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },

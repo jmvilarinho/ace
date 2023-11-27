@@ -55,7 +55,7 @@
         {
           "name": "Acestream Ramses [Zeronet] | Importar Lista",
           "image": "https://i.imgur.com/YAaMwxN.png",
-          "url": "http://127.0.0.1:43110/13aNmBWAkWzaXT1Hva4B9kpJW1nWFjFF4X/Lista%20acestream.m3u",
+          "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/zeronet_pages/13aNmBWAkWzaXT1Hva4B9kpJW1nWFjFF4X/Lista%20acestream.m3u",
           "import": true
         },
         {
@@ -133,7 +133,7 @@
         {
           "name": "Acestream Ramses [Zeronet] | Abrir Navegador",
           "image": "https://i.imgur.com/9KXmBKo.png",
-          "url": "http://127.0.0.1:43110/13aNmBWAkWzaXT1Hva4B9kpJW1nWFjFF4X/Lista%20acestream.m3u",
+          "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/zeronet_pages/13aNmBWAkWzaXT1Hva4B9kpJW1nWFjFF4X/Lista%20acestream.m3u",
           "embed": true
         },
         {
@@ -195,7 +195,7 @@
     {
       "name": "Acestream Ramses [Zeronet] ",
       "image": "https://i.imgur.com/3IwhWdp.png",
-      "url": "http://127.0.0.1:43110/13aNmBWAkWzaXT1Hva4B9kpJW1nWFjFF4X/Lista%20acestream.m3u"
+      "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/zeronet_pages/13aNmBWAkWzaXT1Hva4B9kpJW1nWFjFF4X/Lista%20acestream.m3u"
     },
     {
       "name": "Peliculas Ramses [Zeronet] ",

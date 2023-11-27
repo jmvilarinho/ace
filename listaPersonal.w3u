@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 27/11/2023 09:46:29",
+    "author": "Vila - 27/11/2023 09:55:43",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -389,11 +389,6 @@
                     "embed": "false"
                 }
             ]
-        },
-        {
-            "name": "L.L. TVBar",
-            "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-la-liga-tv-bar.png",
-            "stations": []
         },
         {
             "name": "LaLiga Hypermotion",

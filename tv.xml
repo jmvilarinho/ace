@@ -682,10 +682,10 @@
 		<category>Cultural/Educativo</category>
 	</programme>
 	<programme channel="La2.TV" start="20231203202500 +0000" stop="20231203213000 +0000">
-		<title>Eugenio</title>
-		<desc>Siempre de negro, escondido tras esas enormes gafas negras, fumando y con aquel cubata en la mano. Si alguien era una estrella en los 80 y 90 en el mundo del entretenimiento país, ese fue Eugenio, el cómico genial. Eugenio llenaba escenarios con su presencia y su particular sentido del humor. Esta es la desconocida historia de un hombre que alcanzó un éxito sin precedentes en la España de los casetes de gasolinera, fuertemente marcado por la desaparición de su primer amor, Conchita, y su paulatino descenso a los infiernos.  Personaje polifacético, Eugenio también fue joyero, cantante, empresario, pintor, actor e incluso aficionado al esoterismo. Su vida estuvo marcada por un gran amor - su primera esposa, Conchita Alcaide - que lo convirtió en artista. La muerte prematura de Conchita fue el punto de inflexión que marcaría su vida para siempre. Por un lado, coincidió con el inicio de su éxito. Por el otro, se apoderó de él una tristeza infinita que lo llevaría a un pozo de oscuridad. Un retrato del Eugenio más desconocido.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MLA2P1574298"/>
-		<category>Documentales</category>
+		<title>Concha Velasco, memoria viva</title>
+		<desc>En sus cincuenta años de escenarios, Concha Velasco ha vivido grandes éxitos, aunque también ha sufrido decepciones y hasta ha padecido la ruina económica al producir espectáculos musicales. Este reportaje ensalza la figura de la actriz vallisoletana para realizar un repaso por la historia del teatro, el cine, los musicales y la televisión en España.Dirigido por Manuel Armán (''Defensa de dama'', ''¡Viva la Pepa!'') y producido por RTVE, el documental hace un análisis vital de numerosas confesiones y recuerdos de la actriz vallisoletana. Más de seis horas de grabación concentradas en 60 minutos que incluyen testimonios cercanos a Concha Velasco como José Carlos Plaza, Josefina Molina, Pedro Olea, Fernando Navarrete y José Sacristán.En su mayoría, el documental fue rodado en la ciudad de Madrid. La librería ''Ocho y medio'', un espacio muy frecuentado por Velasco, el teatro de La Latina, o la carpintería de TVE de Prado del Rey, son algunos de los principales espacios de rodaje.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MLA2P1281932"/>
+		<category>Cine</category>
 	</programme>
 	<programme channel="La2.TV" start="20231203213000 +0000" stop="20231203235500 +0000">
 		<title>La vida era eso</title>
@@ -12297,55 +12297,49 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP188954"/>
 		<category>Cine</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20231204041000 +0000" stop="20231204053000 +0000">
+	<programme channel="Bemad.TV" start="20231204041000 +0000" stop="20231204054500 +0000">
 		<title>Buscando a Eva</title>
 		<desc>Años 60, en plena Guerra Fría. Un científico alocado, que piensa que Estados Unidos puede ser invadido en cualquier momento por rusos comunistas, ha construido un refugio antiatómico debajo de su casa. Cuando confunde un accidente con uno de estos ataques decide ocultarse en su refugio con su esposa, que está embarazada.Treinta años más tarde el ingenuo y bueno de Adam, el hijo que aún no conoce nada del exterior, es enviado fuera del refugio para reponer provisiones. Es así cuando conoce a Eva, una rubia explosiva que ha crecido al ritmo trepidante de Los Ángeles. Los evidentes contrastes entre ambos darán lugar a un sinfín de alocadas y diversas situaciones.Comedia dirigida por Hugh Wilson que juega con la inocencia de Adam (Brendan Fraser) para hacer una crítica mordaz a muchas de las paranoias del mundo moderno, que ya acostumbramos a ver como normales. Como curiosidad cabe destacar que la fotografía del filme es de un español, el veterano José Luis Alcaine.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP308937"/>
 		<category>Cine</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20231204041000 +0000" stop="20231204053000 +0000">
+	<programme channel="Bemad.TV" start="20231204041000 +0000" stop="20231204054500 +0000">
 		<title>Buscando a Eva</title>
 		<desc>Años 60, en plena Guerra Fría. Un científico alocado, que piensa que Estados Unidos puede ser invadido en cualquier momento por rusos comunistas, ha construido un refugio antiatómico debajo de su casa. Cuando confunde un accidente con uno de estos ataques decide ocultarse en su refugio con su esposa, que está embarazada.Treinta años más tarde el ingenuo y bueno de Adam, el hijo que aún no conoce nada del exterior, es enviado fuera del refugio para reponer provisiones. Es así cuando conoce a Eva, una rubia explosiva que ha crecido al ritmo trepidante de Los Ángeles. Los evidentes contrastes entre ambos darán lugar a un sinfín de alocadas y diversas situaciones.Comedia dirigida por Hugh Wilson que juega con la inocencia de Adam (Brendan Fraser) para hacer una crítica mordaz a muchas de las paranoias del mundo moderno, que ya acostumbramos a ver como normales. Como curiosidad cabe destacar que la fotografía del filme es de un español, el veterano José Luis Alcaine.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP308937"/>
 		<category>Cine</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20231204053000 +0000" stop="20231204054700 +0000">
-		<title>El zapping de Surferos</title>
+	<programme channel="Bemad.TV" start="20231204054500 +0000" stop="20231204060000 +0000">
+		<title>El zapping de Surferos: Episodio 89</title>
 		<desc>Físicamente es imposible llegar a captar el contenido más interesante que se emite en los diferentes canales de televisión. Por ello, este espacio rastrea el oleaje del universo catódico y elige lo más destacado de una forma original y divertida.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP657660"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP675342"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20231204054700 +0000" stop="20231204071400 +0000">
-		<title>Cine</title>
-		<desc>Emisión de una película.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP1673189"/>
+	<programme channel="Bemad.TV" start="20231204060000 +0000" stop="20231204075000 +0000">
+		<title>Entrelobos</title>
+		<desc>A los siete años Marcos es vendido por su padre para trabajar con un cabrero en el Valle del Silencio, un perdido lugar de Sierra Morena. Con él aprende los secretos de la naturaleza y, a su muerte, sobrevive doce años junto a una manada de lobos, convirtiéndose en su líder."Entrelobos" es un largometraje de ficción basado en la extraordinaria historia de Marcos Rodríguez Pantoja, nacido en el norte de la provincia de Córdoba en 1946, en pleno corazón de Sierra Morena. Una historia de amor entre un niño y la naturaleza, pero también una película sobre la amistad y la lealtad; sobre la supervivencia y la capacidad de superación.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP953306"/>
 		<category>Cine</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20231204071400 +0000" stop="20231204074600 +0000">
-		<title>Mejor llama a Kiko</title>
+	<programme channel="Bemad.TV" start="20231204075000 +0000" stop="20231204082500 +0000">
+		<title>Mejor llama a Kiko: Episodio 91</title>
 		<desc>Espacio de televenta presentado por Kiko Hernández.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP1623348"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP3172047"/>
 		<category>Ocio y Aficiones</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20231204074600 +0000" stop="20231204094700 +0000">
-		<title>Cine</title>
-		<desc>Emisión de una película.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP1673189"/>
+	<programme channel="Bemad.TV" start="20231204082500 +0000" stop="20231204113000 +0000">
+		<title>La vuelta al mundo en 80 días</title>
+		<desc>Phileas Fogg, un rígido miembro del Reform Club del Londres de la Reina Victoria, maniático de la puntualidad y de la temperatura del agua, apuesta con los miembros del club toda su fortuna a que puede dar la vuelta al mundo en 80 días. Acompañado de su criado, el atolondrando Passepartout, viaja de Londres a París y a España en globo, y de aquí a Marsella en el yate de Achmed Abdullah. El agente Fix de Scotland Yard sospecha que el viaje de Fogg sea una treta para disimular el robo de 55.000 libras en el Banco de Inglaterra, del que le cree culpable, y no pudiendo detenerle en territorio que no sea de soberanía británica, les seguirá el resto del viaje recurriendo a toda suerte de artimañas para detenerle. De Suez a Bombay viajan en el barco Mongolia y de Bombay a Calcuta en tren. Pero la línea férrea se interrumpe a 80 kilómetros de su destino, tramo que recorrerán a lomos de un elefante, aprovechando la ocasión para rescatar a la princesa Aouda, una viuda sutí que va a ser quemada con el cadáver de su esposo. Hasta Hong Kong se desplazan en el Rangoon y de Hong Kong a Yokohama en el Carnatic. Pero Fix engaña a Passepartout y le droga. Cuando el fiel criado despierta, descubre que viaja en el barco correcto, pero sin Fogg, que no lo ha tomado por esperarle. Fogg y Passepartout vuelven a encontrarse en un teatro kabuki japonés con el tiempo justo de embarcar en el President Grant con destino a San Francisco. Allí se desarrolla una agitada campaña política y deciden atravesar las Montañas Rocosas en un ferrocarril que es atacado por los indios, que apresan al criado y casi lo incineran antes de que el Séptimo de Caballería y Fogg acudan a rescatarle. En un carromato con una vela, movido por el viento sobre la vía férrea, logran abordar un barco de carga que Fogg desvía hacia Gran Bretaña, aunque para llegar deberán quemar en la caldera toda la madera del navío. Una vez en su país, Phileas Fogg es arrestado por Fix y no puede llegar a tiempo al club. Aquella misma noche, Fix descubre que se ha equivocado de hombre, y tras propinarle un deportivo puñetazo, Fogg, arruinado, se retira a su hogar y pide a Aouda que se case con él. Pero descubre que al haber viajado siempre en dirección contraria a las manecillas del reloj, ha ganado un día entero al sol. Cuando suenan las últimas campanadas del Big Ben, Phileas Fogg hace su triunfante entrada en la sala de juegos del Club.Deslumbrante superproducción que logró cinco Oscars y que adapta la novela homónima de Julio Verne, con un reparto lleno de rostros famosos, algunos en breves cameos. David Niven da vida el británico Mr. Fogg y Mario Moreno, Cantinflas, es aquí su ayudante, siendo la primera película que hacía Cantinflas fuera de México. Rodada por el sistema de Cinerama, en cuatro continentes, fue un empeño personal del productor Michael Todd, que no alcanzó a comprobar el enorme éxito mundial del filme, ya que fallecería en accidente de avioneta poco después del estreno.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP19158"/>
 		<category>Cine</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20231204094700 +0000" stop="20231204120200 +0000">
-		<title>Cine</title>
-		<desc>Emisión de una película.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP1673189"/>
+	<programme channel="Bemad.TV" start="20231204113000 +0000" stop="20231204143000 +0000">
+		<title>La carrera del siglo</title>
+		<desc>El Gran Leslie, un famoso piloto de automóviles, convence a los grandes constructores de coches de finales del siglo XIX para organizar una carrera entre Nueva York y París, atravesando el estrecho de Bering y Rusia, para promocionar así las ventas de coches. El archienemigo de Leslie, el siempre hosco profesor Fate, decide participar en la carrera para vencerlo, con un auto de su propia invención. En la carrera también participa la bella periodista Maggie DuBois, que pretende escribir un gran reportaje.Una especie de versión en carne y hueso de la famosa serie de dibujos animados ''Los autos locos'', con la que el director Blake Edwards (''La pantera rosa'') quiso hacer su particular homenaje al cine mudo y, en especial a Laurel y Hardy (de hecho, incluso aparece una dedicatoria a la pareja al principio de la película). Repleta de grandes momentos de slapstick (destacando una escena con una espectacular batalla con pasteles), la cinta contó con un excelente reparto en el que destacan una Natalie Wood que nunca lució mejor y un Peter Falk (''Colombo'') en el papel del torpe esbirro de Jack Lemmon.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP11604"/>
 		<category>Cine</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20231204120200 +0000" stop="20231204142200 +0000">
-		<title>Cine</title>
-		<desc>Emisión de una película.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP1673189"/>
-		<category>Cine</category>
-	</programme>
-	<programme channel="Bemad.TV" start="20231204142200 +0000" stop="20231204155700 +0000">
+	<programme channel="Bemad.TV" start="20231204143000 +0000" stop="20231204155700 +0000">
 		<title>Cine</title>
 		<desc>Emisión de una película.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP1673189"/>
@@ -13029,73 +13023,73 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1303097"/>
 		<category>Música</category>
 	</programme>
-	<programme channel="Energy.TV" start="20231204050000 +0000" stop="20231204065500 +0000">
-		<title>Mentes criminales</title>
-		<desc>Una brigada de criminalistas de élite, perteneciente al FBI, analizan las mentes de los asesinos en serie.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP762010"/>
+	<programme channel="Energy.TV" start="20231204050000 +0000" stop="20231204050500 +0000">
+		<title>Chefs de élite (T1): Episodio 70</title>
+		<desc>En la escuela de gastronomía Auguste Armand está a punto de dar comienzo un nuevo curso en el que se vivirá una lucha sin escrúpulos por demostrar quién es el mejor chef.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP2055257"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20231204065500 +0000" stop="20231204073700 +0000">
-		<title>Mentes criminales</title>
-		<desc>Una brigada de criminalistas de élite, perteneciente al FBI, analizan las mentes de los asesinos en serie.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP762010"/>
+	<programme channel="Energy.TV" start="20231204050500 +0000" stop="20231204053000 +0000">
+		<title>Chefs de élite (T1): Episodio 71</title>
+		<desc>En la escuela de gastronomía Auguste Armand está a punto de dar comienzo un nuevo curso en el que se vivirá de todo: una lucha sin escrúpulos por demostrar quién es el mejor chef, que se mezclará con amor, traición, celos y un crimen que complicará aún más la estancia de los estudiantes en el centro.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP2055327"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20231204073700 +0000" stop="20231204082300 +0000">
-		<title>Mentes criminales</title>
-		<desc>Una brigada de criminalistas de élite, perteneciente al FBI, analizan las mentes de los asesinos en serie.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP839011"/>
+	<programme channel="Energy.TV" start="20231204053000 +0000" stop="20231204061500 +0000">
+		<title>Mentes criminales (T12): Ep.4 Cuidador</title>
+		<desc>El equipo viaja a una zona Apalache en la Virginia rural persiguiendo a un asesino en serie que actúa por la zona. Reid tendrá que enfrentarse a un dilema relacionado con su madre.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1333151"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20231204082300 +0000" stop="20231204090900 +0000">
-		<title>Mentes criminales</title>
-		<desc>Una brigada de criminalistas de élite, perteneciente al FBI, analizan las mentes de los asesinos en serie.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP839011"/>
+	<programme channel="Energy.TV" start="20231204061500 +0000" stop="20231204065000 +0000">
+		<title>Mentes criminales (T12): Ep.5 El grupo antiterrorista</title>
+		<desc>El equipo tiene que investigar el asesinato de dos familias. En ambos casos solo ha habido un superviviente. El equipo encuentra una conexión entre los supervivientes que puede ser el móvil de los asesinatos.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1333152"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20231204090900 +0000" stop="20231204095100 +0000">
-		<title>Hawai 5.0</title>
-		<desc>El equipo de policía más famoso de Hawaii seguirá resolviendo los casos que sucedan dentro de la islas.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1243842"/>
+	<programme channel="Energy.TV" start="20231204065000 +0000" stop="20231204073500 +0000">
+		<title>Mentes criminales (T12): Ep.6 La laguna de Elliot</title>
+		<desc>El equipo debe investigar la extraña desaparición de tres niños que iban en bicicleta y sospechan que puede haber una conexión con una desaparción ocurrida 30 años antes.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1333154"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20231204095100 +0000" stop="20231204104200 +0000">
-		<title>Hawai 5.0</title>
-		<desc>El equipo de policía más famoso de Hawaii seguirá resolviendo los casos que sucedan dentro de la islas.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1243842"/>
+	<programme channel="Energy.TV" start="20231204073500 +0000" stop="20231204082000 +0000">
+		<title>Mentes criminales (T12): Ep.7 Imagen en espejo</title>
+		<desc>Cuando un hombre afirma ser el hermano de la doctora Lewis y saber secretos de la familia, el equipo comienza a buscar al hermano real con el que Tara lleva tiempo sin tener contacto.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1341934"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20231204104200 +0000" stop="20231204112500 +0000">
-		<title>Hawai 5.0</title>
-		<desc>Octava temporada de la serie de investigación localizada en Honolulu. Steve McGarrett se pone a los mandos de un equipo de élite para resolver los crímenes que suceden en Hawái.En esta nueva tanda de episodios, los seguidores se sorprenderán ante la ausencia de Daniel Dae Kim (Chin Ho Kelly) y Grace Park (Kono Kalakaua), ambos por motivos salariales. Los productores suplirán estas bajas con dos fichajes: Meaghan Rath (''Casi humanos''), quien interpretará a una chica que fue expulsada de la academia de policía; y Beulah Koale (''The Last Saint''), un exmiembro de la marina.Esta serie supone una adaptación de la serie homónima de 1968, que sorprendió por utilizar los escenarios naturales de Hawái. Este orgullo por Hawái se mantiene en esta reimaginación hasta el punto que la séptima temporada fue bautizada con un rito tradicional de bendición hawaiano. Esta versión modernizada, además añade a la mezcla original más acción y efectos especiales. La protagonizan el australiano Alex O'Loughlin (''Moonlight'') y Scott Caan (''El séquito'').</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1444824"/>
+	<programme channel="Energy.TV" start="20231204082000 +0000" stop="20231204090500 +0000">
+		<title>Mentes criminales (T12): Ep.8 Espantapájaros</title>
+		<desc>Cuando los restos de doce personas aparecen en un riachuelo, el equipo viaja a Yakima, Washington, para encontrar al asesino.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1341935"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20231204112500 +0000" stop="20231204121600 +0000">
-		<title>Hawai 5.0</title>
-		<desc>Octava temporada de la serie de investigación localizada en Honolulu. Steve McGarrett se pone a los mandos de un equipo de élite para resolver los crímenes que suceden en Hawái.En esta nueva tanda de episodios, los seguidores se sorprenderán ante la ausencia de Daniel Dae Kim (Chin Ho Kelly) y Grace Park (Kono Kalakaua), ambos por motivos salariales. Los productores suplirán estas bajas con dos fichajes: Meaghan Rath (''Casi humanos''), quien interpretará a una chica que fue expulsada de la academia de policía; y Beulah Koale (''The Last Saint''), un exmiembro de la marina.Esta serie supone una adaptación de la serie homónima de 1968, que sorprendió por utilizar los escenarios naturales de Hawái. Este orgullo por Hawái se mantiene en esta reimaginación hasta el punto que la séptima temporada fue bautizada con un rito tradicional de bendición hawaiano. Esta versión modernizada, además añade a la mezcla original más acción y efectos especiales. La protagonizan el australiano Alex O'Loughlin (''Moonlight'') y Scott Caan (''El séquito'').</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1444824"/>
+	<programme channel="Energy.TV" start="20231204090500 +0000" stop="20231204095000 +0000">
+		<title>Mentes criminales (T12): Ep.9 Criminología avanzada</title>
+		<desc>Mientras Rossi dirige la elaboración de un perfil durante su cumpleaños, recibe una llamada de su némesis, el asesino en serie Tommy Yates, indicándole la ubicación de su última victima.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1341936"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20231204121600 +0000" stop="20231204130000 +0000">
-		<title>Hawai 5.0</title>
-		<desc>Octava temporada de la serie de investigación localizada en Honolulu. Steve McGarrett se pone a los mandos de un equipo de élite para resolver los crímenes que suceden en Hawái.En esta nueva tanda de episodios, los seguidores se sorprenderán ante la ausencia de Daniel Dae Kim (Chin Ho Kelly) y Grace Park (Kono Kalakaua), ambos por motivos salariales. Los productores suplirán estas bajas con dos fichajes: Meaghan Rath (''Casi humanos''), quien interpretará a una chica que fue expulsada de la academia de policía; y Beulah Koale (''The Last Saint''), un exmiembro de la marina.Esta serie supone una adaptación de la serie homónima de 1968, que sorprendió por utilizar los escenarios naturales de Hawái. Este orgullo por Hawái se mantiene en esta reimaginación hasta el punto que la séptima temporada fue bautizada con un rito tradicional de bendición hawaiano. Esta versión modernizada, además añade a la mezcla original más acción y efectos especiales. La protagonizan el australiano Alex O'Loughlin (''Moonlight'') y Scott Caan (''El séquito'').</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1444824"/>
+	<programme channel="Energy.TV" start="20231204095000 +0000" stop="20231204104000 +0000">
+		<title>Hawai 5.0 (T6): Ep.11 Kuleana, (El sentido de responsabilidad de cada cual)</title>
+		<desc>Chin Ho pide a Kamekona encubrirse para ayudar a resolver el asesinato de un ex socio de tráfico de drogas de su pasado, mientras que Steve y Danny van a un retiro de parejas para trabajar en su relación.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1268667"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20231204130000 +0000" stop="20231204135600 +0000">
-		<title>C.S.I.: Miami</title>
-		<desc>La octava temporada de CSI Miami ofrece cameos sorprendentes y la participación de estrellas invitadas. Entre las apariciones más originales, se encuentra la colaboración del jugador español de los Lakers, Pau Gasol. Pau aparecerá ya avanzada la temporada, cuando el equipo de CSI se dispone a investigar qué o quién ha causado un terrible accidente de coche que pondrá de manifiesto algunos secretos de los conductores implicados. También regresa en el papel de Alex Woods la actriz Khandi Alexander y harán su aparición actrices tan conocidas como Cheryl Ladd (Los Ángeles de Charlie) y Tia Carrere (Relic Hunter).Para todos los fans del fenómeno CSI, esta temporada ofrece una ocasión única: un crossover triple con CSI Las Vegas y CSI Nueva York, en la que Fishburne, Taylor y Horatio unen sus habilidades y experiencia para la resolución de un caso. La primera entrega de esta nueva temporada comienza con un flashback de Horatio, recordando momentos de 12 años atrás, cuando los componentes del CSI se conocieron y comenzaron a trabajar en equipo. Al mismo tiempo, la vida de Delko parece estar en una situación dudosa. Ambientado en la ciudad más meridional de los Estados Unidos, Florida, CSI Miami sigue el ritmo y el trabajo de un equipo de investigadores de primera línea, que utilizan para esclarecer los crímenes y asesinatos innovadoras técnicas forenses junto a métodos policiales tradicionales. Horatio Caine lidera este grupo de investigadores que realizan su trabajo en medio del ambiente tropical y la encrucijada de culturas que es Miami.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP839059"/>
+	<programme channel="Energy.TV" start="20231204104000 +0000" stop="20231204112500 +0000">
+		<title>Hawai 5.0 (T6): Ep.12 Ua ola loko i ke aloha (El amor que reconforta)</title>
+		<desc>El equipo Cinco-0 descubre un misterio sobre espionaje japonés de la Segunda Guerra Mundial después de que un muchacho joven reciba un disparo en un búnker olvidado hace mucho tiempo. Mientras tanto, la tía Deb regresa a Hawai para visitar a los McGarrett y así poder ayudar a terminar la lista de cosas pendientes de su marido recientemente fallecido.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1268668"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20231204135600 +0000" stop="20231204145100 +0000">
-		<title>C.S.I.: Miami</title>
-		<desc>La octava temporada de CSI Miami ofrece cameos sorprendentes y la participación de estrellas invitadas. Entre las apariciones más originales, se encuentra la colaboración del jugador español de los Lakers, Pau Gasol. Pau aparecerá ya avanzada la temporada, cuando el equipo de CSI se dispone a investigar qué o quién ha causado un terrible accidente de coche que pondrá de manifiesto algunos secretos de los conductores implicados. También regresa en el papel de Alex Woods la actriz Khandi Alexander y harán su aparición actrices tan conocidas como Cheryl Ladd (Los Ángeles de Charlie) y Tia Carrere (Relic Hunter).Para todos los fans del fenómeno CSI, esta temporada ofrece una ocasión única: un crossover triple con CSI Las Vegas y CSI Nueva York, en la que Fishburne, Taylor y Horatio unen sus habilidades y experiencia para la resolución de un caso. La primera entrega de esta nueva temporada comienza con un flashback de Horatio, recordando momentos de 12 años atrás, cuando los componentes del CSI se conocieron y comenzaron a trabajar en equipo. Al mismo tiempo, la vida de Delko parece estar en una situación dudosa. Ambientado en la ciudad más meridional de los Estados Unidos, Florida, CSI Miami sigue el ritmo y el trabajo de un equipo de investigadores de primera línea, que utilizan para esclarecer los crímenes y asesinatos innovadoras técnicas forenses junto a métodos policiales tradicionales. Horatio Caine lidera este grupo de investigadores que realizan su trabajo en medio del ambiente tropical y la encrucijada de culturas que es Miami.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP839059"/>
+	<programme channel="Energy.TV" start="20231204112500 +0000" stop="20231204122000 +0000">
+		<title>Hawai 5.0 (T6): Ep.13 Umia Ka Hanu (Contened la respiración)</title>
+		<desc>Lou toma medidas extremas para exponer la verdad sobre la muerte de un amigo, mientras que Danny, Steve, Kono y Chin compiten en una apuesta amistosa que se vuelve mortal.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1268669"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20231204145100 +0000" stop="20231204154400 +0000">
+	<programme channel="Energy.TV" start="20231204122000 +0000" stop="20231204154400 +0000">
 		<title>C.S.I.: Miami</title>
 		<desc>La octava temporada de CSI Miami ofrece cameos sorprendentes y la participación de estrellas invitadas. Entre las apariciones más originales, se encuentra la colaboración del jugador español de los Lakers, Pau Gasol. Pau aparecerá ya avanzada la temporada, cuando el equipo de CSI se dispone a investigar qué o quién ha causado un terrible accidente de coche que pondrá de manifiesto algunos secretos de los conductores implicados. También regresa en el papel de Alex Woods la actriz Khandi Alexander y harán su aparición actrices tan conocidas como Cheryl Ladd (Los Ángeles de Charlie) y Tia Carrere (Relic Hunter).Para todos los fans del fenómeno CSI, esta temporada ofrece una ocasión única: un crossover triple con CSI Las Vegas y CSI Nueva York, en la que Fishburne, Taylor y Horatio unen sus habilidades y experiencia para la resolución de un caso. La primera entrega de esta nueva temporada comienza con un flashback de Horatio, recordando momentos de 12 años atrás, cuando los componentes del CSI se conocieron y comenzaron a trabajar en equipo. Al mismo tiempo, la vida de Delko parece estar en una situación dudosa. Ambientado en la ciudad más meridional de los Estados Unidos, Florida, CSI Miami sigue el ritmo y el trabajo de un equipo de investigadores de primera línea, que utilizan para esclarecer los crímenes y asesinatos innovadoras técnicas forenses junto a métodos policiales tradicionales. Horatio Caine lidera este grupo de investigadores que realizan su trabajo en medio del ambiente tropical y la encrucijada de culturas que es Miami.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP839059"/>
@@ -13527,37 +13521,49 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP3172111"/>
 		<category>Ocio y Aficiones</category>
 	</programme>
-	<programme channel="FDF.TV" start="20231204054000 +0000" stop="20231204064500 +0000">
+	<programme channel="FDF.TV" start="20231204054000 +0000" stop="20231204060000 +0000">
 		<title>Miramimúsica</title>
 		<desc>Programa musical que se emite de madrugada.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP1303097"/>
 		<category>Música</category>
 	</programme>
-	<programme channel="FDF.TV" start="20231204064500 +0000" stop="20231204071500 +0000">
-		<title>Mejor llama a Kiko</title>
+	<programme channel="FDF.TV" start="20231204060000 +0000" stop="20231204063000 +0000">
+		<title>Mejor llama a Kiko: Episodio 93</title>
 		<desc>Espacio de televenta presentado por Kiko Hernández.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP1623348"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP3172111"/>
 		<category>Ocio y Aficiones</category>
 	</programme>
-	<programme channel="FDF.TV" start="20231204071500 +0000" stop="20231204091900 +0000">
-		<title>Los Serrano</title>
-		<desc>La serie relata las diferencias que existen entre hombres y mujeres, los conflictos generacionales, la educación de los hijos, las vivencias de éstos y también las de sus padres.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP464213"/>
+	<programme channel="FDF.TV" start="20231204063000 +0000" stop="20231204074500 +0000">
+		<title>Los Serrano (T6): Ep.109 El jamón maltés</title>
+		<desc>Diego recibe la visita de Marcos, que regresa a casa para que su padre pueda conocer a su nieta Chloé y encuentre en ella un motivo de alegría. Sin embargo, tras la llegada del joven comienzan a surgir algunos problemas relacionados con su amigo Raúl, que pretende encontrar en él al confidente perfecto de sus problemas amorosos con África.Marcos, por su parte, también tiene la oportunidad de escuchar la versión de los hechos de boca de la propia África, quien no duda además en presentarle a su nuevo novio, Manu, con quien el joven entablará una buena amistad. Cuando Raúl se entera de la complicidad que hay entre ambos lo considera una traición. Lo que en un primer momento iba a transcurrir como una visita de carácter estrictamente familiar se va tornando en un cúmulo de complicaciones que amenazan con retrasar la vuelta de Marcos a Francia.José Luis regresa por sorpresa al barrio tras pasar un largo periodo en ultramar trabajando como marinero. El hermano de Lourditas propone a su esposa la idea de trasladarse a la isla de Malta para montar un hotel, negocio que también plantea a Raúl y que Fiti ve con recelo. La desconfianza del mecánico hacia su cuñado enfrenta a ambos.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP1045345"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="FDF.TV" start="20231204091900 +0000" stop="20231204104300 +0000">
-		<title>Aída</title>
+	<programme channel="FDF.TV" start="20231204074500 +0000" stop="20231204084500 +0000">
+		<title>Aída (T6): Ep.106 Algas para recordar</title>
+		<desc>Feliz e ilusionado: así se siente Luisma tras conseguir trabajo como albañil. Sin embargo, su alegría se transforma en enorme sorpresa cuando descubre que su empleo es de bailarín de estriptis y no de operario de albañilería como creía en un primer momento. Evitar que Paz le descubra mientras él trabaja en el sector del entretenimiento para adultos constituirá su principal objetivo.Por su parte, para incrementar los ingresos de la familia García, Soraya se dedica a la venta de Relaxinina, unas pastillas elaboradas a base de algas que sirven como remedio para un amplio abanico de dolencias. Harta de ir puerta por puerta intentando colocar su producto, la hija de Aída convence a Chema para que le permita vender sus milagrosas pastillas en su tienda.Mientras tanto, Mauricio está enamorado de Soraya y busca desesperadamente la manera de que ella corresponda a sus sentimientos. Cuando la joven se queja en su bar sobre cómo los hombres rehuyen su compañía cuando les comenta que es madre de una niña, Mauricio decide acercarse a su amada ganándose el aprecio y la simpatía de Aidita.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP792674"/>
+		<category>Series</category>
+	</programme>
+	<programme channel="FDF.TV" start="20231204084500 +0000" stop="20231204101000 +0000">
+		<title>Aída (T12): Ep.207 Atrapado por su pesado</title>
 		<desc>Aída, asistenta de clase humilde, tiene una pésima suerte con los hombres y unas complicadas relaciones personales.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP869637"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP1114432"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="FDF.TV" start="20231204104300 +0000" stop="20231204115900 +0000">
-		<title>Aída</title>
+	<programme channel="FDF.TV" start="20231204101000 +0000" stop="20231204112500 +0000">
+		<title>Aída (T12): Ep.217 Destino final (feliz)</title>
 		<desc>Aída, asistenta de clase humilde, tiene una pésima suerte con los hombres y unas complicadas relaciones personales.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP869637"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP1129761"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="FDF.TV" start="20231204115900 +0000" stop="20231204134300 +0000">
+	<programme channel="FDF.TV" start="20231204112500 +0000" stop="20231204125000 +0000">
+		<title>Aída (T12): Ep.218 Testigo de calvo</title>
+		<desc>Carmen, una clienta de Chema, acosa constantemente al tendero para que se acueste con ella. Él, preocupado, le cuenta todo a Macu y Simón y éste, tras conocer que el marido de Carmen tiene una buena posición económica, piensa rápidamente en un medio para rentabilizar el asunto.Por su parte, Fidel presenta a su novio Chimo a su padre. El parecido entre ambos es asombroso, no solo física sino también ideológicamente. Agobiado por la situación, el joven decide romper con él, pero no le resultará nada fácil. Entretanto, Soraya, Aconcagua, Machupichu y la Junca quedan para tomar algo después de terminar su jornada en el Reinols. Esta camaradería despierta la envidia de Mauricio, al que le gustaría participar con ellos en estas reuniones. El hostelero consigue que le acepten en el grupo pero con él la fiesta es un desastre porque ni siquiera estando fuera del trabajo es capaz de respetarles. Viendo que no consigue integrarse, decide llevar a cabo un plan para cortar el buen rollo entre sus trabajadores.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP1130678"/>
+		<category>Series</category>
+	</programme>
+	<programme channel="FDF.TV" start="20231204125000 +0000" stop="20231204134300 +0000">
 		<title>La que se avecina</title>
 		<desc>Aventuras y desventuras de los peculiares y variopintos residentes y empleados del complejo residencial Mirador de Montepinar. Cuarta temporada de esta serie coral, que es una secuela de la exitosa serie ''Aquí no hay quien viva'', producida por José Luis Moreno e interpretada por los mismos actores (aunque en distintos roles) que popularizaron la serie predecesora, a excepción de Fernando Tejero y Luis Merlo, que desde un principio se desvincularon del proyecto.Esta tanda de episodios está marcada por la intervención especial en un capítulo de la humorista, actriz y presentadora Paz Padilla. La presentadora de ''Sálvame'' se alejará de su registro más conocido, la comedia, para dar vida a un personaje conflictivo: una drogadicta que acude a la urbanización en busca de su exnovio. Además, en otra entrega el plató de la serie recibirá los 'cameos' de Mª José Cantudo y José Manuel Parada.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MFDFICP885176"/>
@@ -17259,73 +17265,73 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP3102177"/>
 		<category>Cultural/Educativo</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20231204051000 +0000" stop="20231204061000 +0000">
+	<programme channel="Divinity.TV" start="20231204051000 +0000" stop="20231204051500 +0000">
 		<title>Enphorma: Episodio 5</title>
 		<desc>Programa especializado en temas actuales de alimentación, psicología y ejercicio.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP3035495"/>
 		<category>Ocio y Aficiones</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20231204061000 +0000" stop="20231204065000 +0000">
-		<title>Huérfanas</title>
+	<programme channel="Divinity.TV" start="20231204051500 +0000" stop="20231204054500 +0000">
+		<title>Huérfanas (T1): Episodio 513</title>
 		<desc>Cinco adolescentes que conviven en un orfanato buscan labrarse un futuro a pesar de las dificultades del paso a la edad adulta.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP2028266"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP3176906"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20231204065000 +0000" stop="20231204073500 +0000">
-		<title>Huérfanas</title>
-		<desc>Cinco adolescentes que conviven en un orfanato buscan labrarse un futuro a pesar de las dificultades del paso a la edad adulta.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP2028266"/>
+	<programme channel="Divinity.TV" start="20231204054500 +0000" stop="20231204060000 +0000">
+		<title>Nuestra Historia (T1): Episodio 114</title>
+		<desc>Filiz es una joven que se ve obligada a cuidar de sus cinco hermanos pequeños desde que su madre les dejó. Ella se convierte en la cabeza de familia ya que su padre, Fikri, es un alcohólico que solo provoca problemas. Filiz vive volcada en sus hermanos hasta que conoce a Baris. En ese momento todo cambia. El joven cae rendido a sus encantos y estará dispuesto a hacer cualquier cosa por ella y su familia para ganarse su corazón.Este drama turco protagonizado por Hazal Kaya (''El secreto de Feriha'') y Burak Deniz (''Amor sin palabras'') es una adaptación de la popular serie británica ''Shameless''.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1965075"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20231204073500 +0000" stop="20231204081000 +0000">
-		<title>Huérfanas</title>
-		<desc>Cinco adolescentes que conviven en un orfanato buscan labrarse un futuro a pesar de las dificultades del paso a la edad adulta.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP2028266"/>
+	<programme channel="Divinity.TV" start="20231204060000 +0000" stop="20231204064000 +0000">
+		<title>Castle (T8): Ep.8 Señor y señora Castle</title>
+		<desc>Castle y Beckett investigan el asesinato de un animador de un crucero de vacaciones pero terminan atrapados con el asesino mar adentro.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1238240"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20231204081000 +0000" stop="20231204091000 +0000">
-		<title>Nuestra Historia</title>
-		<desc>Filiz es una joven que se ve obligada a cuidar a sus cinco hermanos pequeños desde que su madre les deja. Ella se convierte en la cabeza de familia ya que su padre, Fikri, es un hombre alcohólico que no deja de provocar problemas a la familia. Filiz vive volcada en sus hermanos hasta que conoce a Bariş. En ese momento todo cambia. El joven cae rendido a sus encantos y estará dispuesto a hacer cualquier cosa por ella y su familia, solo para ganarse su corazón.La serie, un drama turco protagonizado por Hazal Kaya (''El secreto de Feriha'') y Burak Deniz (''Hayat (Amor sin palabras)''), es una adaptación de la popular serie británica ''Shameless''.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1914732"/>
+	<programme channel="Divinity.TV" start="20231204064000 +0000" stop="20231204072000 +0000">
+		<title>Castle (T8): Ep.9 Canto mortal</title>
+		<desc>Un cuerpo es encontrado en el teatro donde Marta da su último espectáculo. Castle y Beckett tienen que llevar la investigación en un mundo inesperadamente peligroso y competitivo de musicales a capella.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1238241"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20231204091000 +0000" stop="20231204100500 +0000">
-		<title>Nuestra Historia</title>
-		<desc>Filiz es una joven que se ve obligada a cuidar a sus cinco hermanos pequeños desde que su madre les deja. Ella se convierte en la cabeza de familia ya que su padre, Fikri, es un hombre alcohólico que no deja de provocar problemas a la familia. Filiz vive volcada en sus hermanos hasta que conoce a Bariş. En ese momento todo cambia. El joven cae rendido a sus encantos y estará dispuesto a hacer cualquier cosa por ella y su familia, solo para ganarse su corazón.La serie, un drama turco protagonizado por Hazal Kaya (''El secreto de Feriha'') y Burak Deniz (''Hayat (Amor sin palabras)''), es una adaptación de la popular serie británica ''Shameless''.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1914732"/>
+	<programme channel="Divinity.TV" start="20231204072000 +0000" stop="20231204080500 +0000">
+		<title>Castle (T8): Ep.10 Testigo de la acusación</title>
+		<desc>A Castle finalmente le toca declarar como testigo clave de un asesinato cometido cinco meses atrás. Pero surge nueva información que hará que él y Beckett tengan que lidiar con el tiempo para prevenir un error judicial.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1243805"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20231204100500 +0000" stop="20231204105500 +0000">
-		<title>Chicago Fire</title>
-		<desc>Esta serie  muestra el día a día de un grupo de bomberos y paramédicos de Chicago. Chicago Fire intenta profundizar en una de las profesiones más peligrosas y altruistas de la actualidad. El teniente Matthew Casey trata de afrontar el día a día y su profesión con normalidad. Aunque no es tarea fácil. El estrés y el ajetreo diario de su trabajo y el riesgo diario le ponen constantemente a prueba.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1189973"/>
+	<programme channel="Divinity.TV" start="20231204080500 +0000" stop="20231204085000 +0000">
+		<title>Castle (T8): Ep.11 Muerte roja</title>
+		<desc>Cuando el hijo de un diplomático ruso aparece asesinado, Beckett y Castle se encuentran en un juego peligroso de crimen internacional.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1243806"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20231204105500 +0000" stop="20231204115000 +0000">
-		<title>Chicago Fire</title>
-		<desc>Esta serie  muestra el día a día de un grupo de bomberos y paramédicos de Chicago. Chicago Fire intenta profundizar en una de las profesiones más peligrosas y altruistas de la actualidad. El teniente Matthew Casey trata de afrontar el día a día y su profesión con normalidad. Aunque no es tarea fácil. El estrés y el ajetreo diario de su trabajo y el riesgo diario le ponen constantemente a prueba.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1189973"/>
+	<programme channel="Divinity.TV" start="20231204085000 +0000" stop="20231204094000 +0000">
+		<title>Bones (T7): Ep.10 El guerrero y el miedica</title>
+		<desc>El cadáver de un empleado de la compañía de camiones aparece en el medio del bosque. Después de interrogar al hijo de la víctima, Booth y Brennan van hasta su clase de karate en busca de un motivo o una pista.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1007852"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20231204115000 +0000" stop="20231204124500 +0000">
-		<title>Chicago Fire</title>
-		<desc>Esta serie  muestra el día a día de un grupo de bomberos y paramédicos de Chicago. Chicago Fire intenta profundizar en una de las profesiones más peligrosas y altruistas de la actualidad. El teniente Matthew Casey trata de afrontar el día a día y su profesión con normalidad. Aunque no es tarea fácil. El estrés y el ajetreo diario de su trabajo y el riesgo diario le ponen constantemente a prueba.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1189973"/>
+	<programme channel="Divinity.TV" start="20231204094000 +0000" stop="20231204102500 +0000">
+		<title>Bones (T7): Ep.11 La familia enfrentada</title>
+		<desc>Se encuentra un cadáver en el bosqueal que vinculan con dos familias que llevan enfrentadas durante casi un siglo. Brennan y Booth interrogan a un familiar y su sorprendente confesión les lleva hacia un motivo que alguien tendría para asesinarle.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1007853"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20231204124500 +0000" stop="20231204134500 +0000">
-		<title>Chicago Fire</title>
-		<desc>Esta serie  muestra el día a día de un grupo de bomberos y paramédicos de Chicago. Chicago Fire intenta profundizar en una de las profesiones más peligrosas y altruistas de la actualidad. El teniente Matthew Casey trata de afrontar el día a día y su profesión con normalidad. Aunque no es tarea fácil. El estrés y el ajetreo diario de su trabajo y el riesgo diario le ponen constantemente a prueba.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1189973"/>
+	<programme channel="Divinity.TV" start="20231204102500 +0000" stop="20231204112000 +0000">
+		<title>Bones (T7): Ep.12 El ejecutivo en el plató</title>
+		<desc>Brennan y Booth van a Los Ángeles para revisar la producción de la película basada en el último libro de Brennan.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1007854"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20231204134500 +0000" stop="20231204143500 +0000">
-		<title>Chicago Fire</title>
-		<desc>Esta serie  muestra el día a día de un grupo de bomberos y paramédicos de Chicago. Chicago Fire intenta profundizar en una de las profesiones más peligrosas y altruistas de la actualidad. El teniente Matthew Casey trata de afrontar el día a día y su profesión con normalidad. Aunque no es tarea fácil. El estrés y el ajetreo diario de su trabajo y el riesgo diario le ponen constantemente a prueba.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1189973"/>
+	<programme channel="Divinity.TV" start="20231204112000 +0000" stop="20231204122000 +0000">
+		<title>Bones (T7): Ep.13 El pasado en el presente</title>
+		<desc>La séptima temporada de la serie finaliza con la llegada a las salas del juzgado el recurso de Christopher Pelant contra su sentencia. Booth y Brennan están decididos a hacer todo lo que está en sus manos para mantenerle entre rejas.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1007855"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Divinity.TV" start="20231204143500 +0000" stop="20231204151500 +0000">
+	<programme channel="Divinity.TV" start="20231204122000 +0000" stop="20231204151500 +0000">
 		<title>Chicago Fire</title>
 		<desc>Esta serie  muestra el día a día de un grupo de bomberos y paramédicos de Chicago. Chicago Fire intenta profundizar en una de las profesiones más peligrosas y altruistas de la actualidad. El teniente Matthew Casey trata de afrontar el día a día y su profesión con normalidad. Aunque no es tarea fácil. El estrés y el ajetreo diario de su trabajo y el riesgo diario le ponen constantemente a prueba.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MDIVINIP1189973"/>

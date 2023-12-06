@@ -545,8 +545,6 @@ https://streaming101tv.es/hls/webaxarquia.m3u8
 https://streaming004.gestec-video.com/hls/MIJAS.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/PTVGranada/picture?width=200&height=200" group-title="Andalucía" tvg-name="PTV Granada",PTV Granada
 https://streamer.zapitv.com/PTV-granada/index.m3u8
-#EXTINF:-1 tvg-logo="https://graph.facebook.com/tele.gilena/picture?width=200&height=200" group-title="Andalucía" tvg-name="TeleGilena",TeleGilena
-https://5940924978228.streamlock.net/Directo1/Directo1/master.m3u8
 #EXTINF:-1 tvg-id="FuengirolaTV.TV" tvg-logo="https://graph.facebook.com/fuengirolatvoficial/picture?width=200&height=200" group-title="Andalucía" tvg-name="Fuengirola TV",Fuengirola TV
 https://secure.todostreaming.es/live/nerja-livestream.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/SevillaPTV/picture?width=200&height=200" group-title="Andalucía" tvg-name="PTV Sevilla",PTV Sevilla
@@ -564,8 +562,6 @@ http://89.140.229.5/hls1/cancionero.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/rtvmanilva/picture?width=200&height=200" group-title="Andalucía" tvg-name="Manilva TV",Manilva TV
 #EXTVLCOPT:http-referrer=https://player.castr.com/
 https://stream.castr.com/627a72d21914543be01c1720/live_e2ae1780dc2a11eca660b7b17b7952a5/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://graph.facebook.com/LaFabricaTV/picture?width=200&height=200" group-title="Andalucía" tvg-name="La Fábrica TV",La Fábrica TV
-https://mejorestrucos.com:5443/LiveApp/streams/854077030689510682594068.m3u8
 #EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/xpmtGgfJkNyRXmRDBCaI1UwgnNESJbc0edjazTUsNNdGPq_NvYz6quCiuJMwx-uF9pTWx5hcqQ=s200" group-title="Andalucía" tvg-name="PTV Almería",PTV Almería
 https://streamer.zapitv.com/ptv_almeria/index.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/ondacadiz/picture?width=200&height=200" group-title="Andalucía" tvg-name="Onda Cádiz 24h",Onda Cádiz 24h
@@ -822,7 +818,7 @@ https://limited09.todostreaming.es/live/tarson-livestream.m3u8
 https://www.burrianateve.com/hls/btv.m3u8
 #EXTINF:-1 tvg-id="Distrito.TV" tvg-logo="https://graph.facebook.com/2004860103163343/picture?width=200&height=200" group-title="C. Valenciana" tvg-name="Distrito TV Valencia",Distrito TV Valencia
 https://live.emitstream.com/hls/3mn7wpcv7hbmxmdzaxap/master.m3u8
-#EXTINF:-1 tvg-logo="https://graph.facebook.com/Tele7Safor/picture?width=200&height=200" group-title="C. Valenciana" tvg-name="telesafor",telesafor
+#EXTINF:-1 tvg-logo="https://yt3.ggpht.com/ytc/APkrFKZ5UffEAeHVZWc1fbQsPu4VNureSfNMwlMoRmgH=s200" group-title="C. Valenciana" tvg-name="telesafor",telesafor
 http://video.telesafor.com/hls/video.m3u8
 #EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/1543985670066245632/cX_NvIkT_200x200.jpg" group-title="C. Valenciana" tvg-name="Elche 7 TV",Elche 7 TV
 https://elche7tv.gestec-video.com/hls/canal2.m3u8
@@ -1215,11 +1211,11 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00047-tastemade-tastemadeinternatio
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/FTV/picture?width=200&height=200" group-title="Int. Otros" tvg-name="Fashion TV",Fashion TV
 https://fashs043.cloudycdn.services/scte/pg18/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/miamitv/picture?width=200&height=200" group-title="Int. Otros" tvg-name="Miami TV",Miami TV
-https://59ec5453559f0.streamlock.net/miamitv/smil:miamitv/playlist.m3u8
+https://59ec5453559f0.streamlock.net/JennyLiveMembers/smil:WEB/.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/miamitv/picture?width=200&height=200" group-title="Int. Otros" tvg-name="Miami TV",Miami TV
-https://59ec5453559f0.streamlock.net/Latino/smil:WEB/playlist.m3u8
+https://59ec5453559f0.streamlock.net/Latino/smil:WEB3131/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/miamitv/picture?width=200&height=200" group-title="Int. Otros" tvg-name="Miami TV",Miami TV
-https://59ec5453559f0.streamlock.net/JennyLive/JennyLive/playlist.m3u8
+https://59ec5453559f0.streamlock.net/mexicotv/smil:miamitvmexico/.m3u8
 #EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/956583141245775872/2en3-8Ag_200x200.jpg" group-title="Int. Otros" tvg-name="Classic Arts Showcase",Classic Arts Showcase EN
 https://classicarts.akamaized.net/hls/live/1024257/CAS/master.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/WatchAKCTV/picture?width=200&height=200" group-title="Int. Otros" tvg-name="AKC TV Dogs",AKC TV Dogs EN

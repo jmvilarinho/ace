@@ -1,6 +1,27 @@
 #EXTM3U
 
 
+
+
+#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/yBWTT6FjVxw3SYTMtB7X1YFvf2o.jpg",En el desierto (2023) BluRay Rip [7.0]
+acestream://9ed2891d150f045516d88ae7fb44c4aa56fd8957
+#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/yBWTT6FjVxw3SYTMtB7X1YFvf2o.jpg",En el desierto (2023) BluRay 720pRip [7.0]
+acestream://e3fb8a44da1f98eea42f612917a8699039d96f77
+#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/yBWTT6FjVxw3SYTMtB7X1YFvf2o.jpg",En el desierto (2023) BluRay 1080Rip [7.0]
+acestream://0b76628d37fc3fb2cbb59132bc688a7c7252d459
+
+#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/suDjK0qIsPoBNrAhWUtIjkIWx1G.jpg",La tipica Navidad (2023) BluRay Rip [5.7]
+acestream://7546353f0fbf82a12890554569bea96e85994f71
+#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/suDjK0qIsPoBNrAhWUtIjkIWx1G.jpg",La tipica Navidad (2023) BluRay 720pRip [5.7]
+acestream://1a46f005faba7a71680e2e9b8eca6b3fc33218a2
+
+#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/8AXeipK5ppzIacZM3qQPr35IsPE.jpg",Me he hecho viral (2023) BluRay Rip [6.6]
+acestream://02b21abf06e8d2470a3adf6bc351c3b3ec954dea
+#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/8AXeipK5ppzIacZM3qQPr35IsPE.jpg",Me he hecho viral (2023) BluRay 720pRip [6.6]
+acestream://212915c3acfd4782106ebb15033be7b8e2606090
+#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/8AXeipK5ppzIacZM3qQPr35IsPE.jpg",Me he hecho viral (2023) BluRay 1080Rip [6.6]
+acestream://54a86125dc7d6ce1cee4a31feb867f06c1b02381
+
 #EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/2osbLk1MMt9qjXPKSB2hMcBUyrw.jpg",Theater Camp (Ensayo General) (2023) BluRay Rip [6.5]
 acestream://e99a1085da324ce5fe3e2f201503c65cb01ce430
 #EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/2osbLk1MMt9qjXPKSB2hMcBUyrw.jpg",Theater Camp (Ensayo General) (2023) BluRay 720pRip [6.5]
@@ -9032,14 +9053,6 @@ acestream://108fb735d7ec25af64ad3cc558bd43005a62cccd
 acestream://57d2b6b7b575bce0f7c933c13b8241ba36f37b28
 #EXTINF:-1 tvg-logo="https://imgsrc.cineserie.com/2019/10/1851600.jpg?ver=1", Scare Package(2019)                                         
 acestream://703bfb7c66e70ac0cf94fa4f9ad2f16c7d5f0e48
-#EXTINF:-1 tvg-logo="https://decine21.com/img/upload/obras/amor-garantizado-42407/src/amor-garantizado-42407-c.jpg", Amor garantizado(2020)                                    
-acestream://5cf80597b3ea738ffe943437e352c50288917676
-#EXTINF:-1 tvg-logo="https://decine21.com/img/upload/obras/la-corazonada-42046/src/la-corazonada-42046-c.jpg", La corazonada(2020)                                           
-acestream://d44cdad8fda251ee2da92b9f0e7e6dec3eeddc4b
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/A1KGZxEVwgL._RI_.jpg", Blood quantum(2019)                                       
-acestream://cd3ff0a9a0c1585e6b00b6a2816e3de6f4c24b51
-#EXTINF:-1 tvg-logo="https://s3-eu-west-1.amazonaws.com/abandomedia/db/poster/db_posters_48512.jpg", The young cannibals(2019)                             
-acestream://183e40fcd355aa47e029687d73371f32be394b2d
-
+ 
 
                    

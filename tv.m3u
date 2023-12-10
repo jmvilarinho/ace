@@ -459,6 +459,8 @@ https://hls-directo01-cope-stream.flumotion.com/playlist.m3u8
 https://cdnlive.codev8.net/rtvalive/smil:channel1.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/canalsurradioytv/picture?width=200&height=200" group-title="Andalucía" tvg-name="Canal Sur 2 Accesible",Canal Sur 2 Accesible
 https://cdnlive.codev8.net/rtvalive/smil:channel22.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://cdn2.rtva.interactvty.com/content_cards/f3479aa9410940a3ad484c42b959ed13.png" group-title="Andalucía" tvg-name="Canal Sur Navidad",Canal Sur Navidad
+https://cdnlive.codev8.net/rtvalive/smil:channel23.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/ytc/APkrFKb6DZpbxOMbN_VANCdenLck4ceg7gxMk5tnkjmM=s200" group-title="Andalucía" tvg-name="Andalucía Cocina",Andalucía Cocina
 #EXTVLCOPT:http-referrer=https://player.streamingconnect.com/
 https://cloud.fastchannel.es/mic/manifiest/hls/acocina/acocina.m3u8
@@ -739,6 +741,8 @@ http://51.254.47.72:1935/piera/smil:piera.smil/master.m3u8
 https://liveingesta318.cdnmedia.tv/tvcardedeulive/smil:rtmp01.smil/playlist.m3u8?DVR
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/canal10emporda/picture?width=200&height=200" group-title="Cataluña" tvg-name="Canal 10 Empordà",Canal 10 Empordà
 http://ventdelnord.tv:8080/escala/directe.m3u8
+#EXTINF:-1 tvg-logo="https://graph.facebook.com/PirineusTV/picture?width=200&height=200" group-title="Cataluña" tvg-name="Pirineus TV",Pirineus TV
+https://s100.ipcamlive.com/streams/64qikzj67l4evolpu/stream.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/tvvallesvisio/picture?width=200&height=200" group-title="Cataluña" tvg-name="Vallès Visió",Vallès Visió
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 https://liveingesta318.cdnmedia.tv/vallesvisiotvlive/smil:live.smil/playlist.m3u8?DVR
@@ -892,8 +896,6 @@ https://directo.tvferrol.es/tv.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/televigo/picture?width=200&height=200" group-title="Galicia" tvg-name="TeleVigo",TeleVigo
 #EXTVLCOPT:http-referrer=http://www.televigo.com
 https://cloud.fastchannel.es/mic/manifiest/hls/televigo/televigo.m3u8
-#EXTINF:-1 tvg-logo="https://graph.facebook.com/anove.tv/picture?width=200&height=200" group-title="Galicia" tvg-name="Anove TV",Anove TV
-https://205245.gvideo.io/cmaf/205245_786753/master.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/TEFTV/picture?width=200&height=200" group-title="Illes Balears" tvg-name="TEF",TEF
 https://5940924978228.streamlock.net/EIVISSA_2/EIVISSA_2/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/GRUP4COM/picture?width=200&height=200" group-title="Illes Balears" tvg-name="Canal 4 Televisió",Canal 4 Televisió
@@ -1211,11 +1213,11 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00047-tastemade-tastemadeinternatio
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/FTV/picture?width=200&height=200" group-title="Int. Otros" tvg-name="Fashion TV",Fashion TV
 https://fashs043.cloudycdn.services/scte/pg18/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/miamitv/picture?width=200&height=200" group-title="Int. Otros" tvg-name="Miami TV",Miami TV
-https://59ec5453559f0.streamlock.net/JennyLiveMembers/smil:WEB/.m3u8
+https://59ec5453559f0.streamlock.net/miamitv/smil:WEB3131/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/miamitv/picture?width=200&height=200" group-title="Int. Otros" tvg-name="Miami TV",Miami TV
 https://59ec5453559f0.streamlock.net/Latino/smil:WEB3131/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/miamitv/picture?width=200&height=200" group-title="Int. Otros" tvg-name="Miami TV",Miami TV
-https://59ec5453559f0.streamlock.net/mexicotv/smil:miamitvmexico/.m3u8
+https://59ec5453559f0.streamlock.net/JennyLiveMembers/smil:WEB3131/.m3u8
 #EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/956583141245775872/2en3-8Ag_200x200.jpg" group-title="Int. Otros" tvg-name="Classic Arts Showcase",Classic Arts Showcase EN
 https://classicarts.akamaized.net/hls/live/1024257/CAS/master.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/WatchAKCTV/picture?width=200&height=200" group-title="Int. Otros" tvg-name="AKC TV Dogs",AKC TV Dogs EN

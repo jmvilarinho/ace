@@ -1992,19 +1992,19 @@
 	<programme channel="Telecinco.TV" start="20231210073000 +0000" stop="20231210081500 +0000">
 		<title>Got Talent España. Momentazos: Episodio 6</title>
 		<desc>La adaptación española del formato internacional ''Got Talent'' busca promesas en distintas disciplinas artísticas como el canto, el baile, la magia o el humor. Este espacio ofrece una selección de los mejores momentos del programa.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P1729725"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P1634471"/>
 		<category>Entretenimiento</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20231210081500 +0000" stop="20231210091000 +0000">
 		<title>Got Talent España. Momentazos: Episodio 7</title>
 		<desc>La adaptación española del formato internacional ''Got Talent'' busca promesas en distintas disciplinas artísticas como el canto, el baile, la magia o el humor. Este espacio ofrece una selección de los mejores momentos del programa.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P1731707"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2135121"/>
 		<category>Entretenimiento</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20231210091000 +0000" stop="20231210121500 +0000">
 		<title>Got Talent España: Episodio 1</title>
-		<desc>En la primera de las audiciones se vivirán grandes momentos como el protagonizado por Mindanguillo, un tímido clown que sorprenderá cantando ópera e intentado ligar con Edurne tras su actuación; o por Juanjo, un hombre toca el otamatone, un extraño instrumento japonés.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P1853408"/>
+		<desc>Concurso que busca nuevas promesas en distintas disciplinas artísticas como el canto, el baile, la magia o el humor, entre otros. Los aspirantes mostrarán sus habilidades frente a un jurado compuesto por Paula Echevarría, Edurne, Risto Mejide y Dani Martínez.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2119985"/>
 		<category>Entretenimiento</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20231210121500 +0000" stop="20231210140000 +0000">
@@ -2014,9 +2014,9 @@
 		<category>Entretenimiento</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20231210140000 +0000" stop="20231210143500 +0000">
-		<title>Informativos Telecinco Fin de Semana</title>
+		<title>Informativos Telecinco Fin de Semana: Episodio 98</title>
 		<desc>Ángeles Blanco y José Ribagorda conducen las diferentes ediciones de los informativos del fin de semana del canal con las últimas noticias a nivel nacional e internacional.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2160211"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3181168"/>
 		<category>Informativo</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20231210143500 +0000" stop="20231210145000 +0000">
@@ -2038,9 +2038,9 @@
 		<category>Entretenimiento</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20231210200000 +0000" stop="20231210203000 +0000">
-		<title>Informativos Telecinco Fin de Semana</title>
-		<desc>Ángeles Blanco y José Ribagorda conducen las diferentes ediciones de los informativos del fin de semana del canal con las últimas noticias a nivel nacional e internacional.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2160211"/>
+		<title>Informativos Telecinco Fin de Semana noche: Episodio 98</title>
+		<desc>Ángeles Blanco y José Ribagorda conducen la edición vespertina de los informativos del fin de semana del canal con las últimas noticias a nivel nacional e internacional.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3181170"/>
 		<category>Informativo</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20231210203000 +0000" stop="20231210204500 +0000">
@@ -2116,111 +2116,117 @@
 		<category>Ocio y Aficiones</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20231211051000 +0000" stop="20231211060000 +0000">
-		<title>Reacción en cadena</title>
+		<title>Reacción en cadena: Episodio 228</title>
 		<desc>Concurso presentado por Ion Aramendi en el que dos equipos rivales compiten en pruebas sucesivas para resolver cadenas de palabras mientras van acumulando dinero.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2155633"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3157024"/>
 		<category>Entretenimiento</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20231211060000 +0000" stop="20231211075500 +0000">
-		<title>Informativos Telecinco matinal</title>
-		<desc>Primera edición informativa de la cadena presentada por Leticia Iglesias y Laila Jiménez. El noticiario matinal ofrece un seguimiento de las noticias de la jornada anterior junto a lo más destacado de la información deportiva nacional e internacional.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2160618"/>
-		<category>Informativo</category>
-	</programme>
-	<programme channel="Telecinco.TV" start="20231211075500 +0000" stop="20231211093000 +0000">
-		<title>La mirada crítica</title>
-		<desc>Ana Terradillos y Antonio Teixeira se encargan de ofrecer, a primera hora de la mañana, lo más destacado de la actualidad política, económica y social en el panorama nacional e internacional.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3114625"/>
-		<category>Informativo</category>
-	</programme>
-	<programme channel="Telecinco.TV" start="20231211093000 +0000" stop="20231211140000 +0000">
-		<title>Vamos a ver</title>
-		<desc>Joaquín Prat junto a Patricia Pardo y Adriana Dorronsoro repasan todas las noticias de actualidad, investigación y entretenimiento que interesan al gran público.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3114627"/>
-		<category>Entretenimiento</category>
-	</programme>
-	<programme channel="Telecinco.TV" start="20231211140000 +0000" stop="20231211143000 +0000">
 		<title>Informativos Telecinco</title>
 		<desc>Edición de mediodía de Informativos Telecinco que ofrece los acontecimientos más relevantes acaecidos durante la mañana. Las principales noticias de ámbito nacional e internacional son recogidas por Isabel Jiménez y David Cantero.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2160617"/>
 		<category>Informativo</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20231211143000 +0000" stop="20231211144000 +0000">
-		<title>El Desmarque Telecinco</title>
+	<programme channel="Telecinco.TV" start="20231211075500 +0000" stop="20231211093000 +0000">
+		<title>La mirada crítica: Episodio 62</title>
+		<desc>Ana Terradillos y Antonio Teixeira se encargan de ofrecer, a primera hora de la mañana, lo más destacado de la actualidad política, económica y social en el panorama nacional e internacional.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3181190"/>
+		<category>Informativo</category>
+	</programme>
+	<programme channel="Telecinco.TV" start="20231211093000 +0000" stop="20231211140000 +0000">
+		<title>Vamos a ver: Episodio 62</title>
+		<desc>Joaquín Prat junto a Patricia Pardo y Adriana Dorronsoro repasan todas las noticias de actualidad, investigación y entretenimiento que interesan al gran público.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3181188"/>
+		<category>Entretenimiento</category>
+	</programme>
+	<programme channel="Telecinco.TV" start="20231211140000 +0000" stop="20231211143000 +0000">
+		<title>Informativos Telecinco: Episodio 244</title>
+		<desc>Edición de mediodía de Informativos Telecinco que ofrece los acontecimientos más relevantes acaecidos durante la mañana. Las principales noticias de ámbito nacional e internacional son recogidas por Isabel Jiménez y David Cantero.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3181186"/>
+		<category>Informativo</category>
+	</programme>
+	<programme channel="Telecinco.TV" start="20231211143000 +0000" stop="20231211144500 +0000">
+		<title>El Desmarque Telecinco (T1): Episodio 107</title>
 		<desc>El mundo del deporte es el protagonista de este programa, en el que el periodista Manu Carreño presenta la actualidad y las últimas noticias de la jornada.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3099738"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3181184"/>
 		<category>Deportes</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20231211144000 +0000" stop="20231211145000 +0000">
+	<programme channel="Telecinco.TV" start="20231211144500 +0000" stop="20231211145500 +0000">
 		<title>El tiempo</title>
 		<desc>Espacio informativo que ofrece la previsión meteorológica.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P1373654"/>
 		<category>Informativo</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20231211145000 +0000" stop="20231211160000 +0000">
-		<title>Así es la vida</title>
+	<programme channel="Telecinco.TV" start="20231211145500 +0000" stop="20231211160000 +0000">
+		<title>Así es la vida: Episodio 115</title>
 		<desc>Magacín presentado por Sandra Barneda y César Muñoz. La última hora de las noticias de interés social a través de directos y reportajes, las novedades en el mundo de los famosos y de los grandes eventos del verano.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3060978"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3181182"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20231211160000 +0000" stop="20231211190000 +0000">
-		<title>TardeAR</title>
+	<programme channel="Telecinco.TV" start="20231211160000 +0000" stop="20231211185500 +0000">
+		<title>TardeAR: Episodio 57</title>
 		<desc>Ana Rosa Quintana capitanea este magacín junto con colaboradores como Laura Madrueño, Miguel Ángel Nicolás, Beatriz Archidona, Jorge Luque, Manuel Marlasca y Antonio Hidalgo. El programa combina actualidad, información y entretenimiento.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3120370"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3181176"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20231211190000 +0000" stop="20231211200500 +0000">
-		<title>Reacción en cadena</title>
+	<programme channel="Telecinco.TV" start="20231211185500 +0000" stop="20231211200000 +0000">
+		<title>Reacción en cadena: Episodio 250</title>
 		<desc>Concurso presentado por Ion Aramendi en el que dos equipos rivales compiten en pruebas sucesivas para resolver cadenas de palabras mientras van acumulando dinero.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2155633"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3181178"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20231211200500 +0000" stop="20231211203500 +0000">
-		<title>Informativos Telecinco</title>
+	<programme channel="Telecinco.TV" start="20231211200000 +0000" stop="20231211203500 +0000">
+		<title>Informativos Telecinco: Informativos Telecinco noche</title>
 		<desc>Informativo vespertino presentado por Pedro Piqueras y Alba Lago que incluye las principales noticias que se han producido durante la jornada.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2160619"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3181180"/>
 		<category>Informativo</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20231211203500 +0000" stop="20231211204500 +0000">
-		<title>El Desmarque Telecinco Noche</title>
+		<title>El Desmarque Telecinco Noche (T1): Episodio 108</title>
 		<desc>El mundo del deporte es el protagonista de este programa, en el que el periodista Manu Carreño presenta la actualidad y las últimas noticias de la jornada.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3099923"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3181174"/>
 		<category>Deportes</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20231211204500 +0000" stop="20231211210000 +0000">
+	<programme channel="Telecinco.TV" start="20231211204500 +0000" stop="20231211205500 +0000">
 		<title>El tiempo</title>
 		<desc>Espacio informativo que ofrece la previsión meteorológica.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P1373654"/>
 		<category>Informativo</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20231211210000 +0000" stop="20231211215000 +0000">
-		<title>Gran Hermano VIP 2023: Última hora</title>
+	<programme channel="Telecinco.TV" start="20231211205500 +0000" stop="20231211215000 +0000">
+		<title>Gran Hermano VIP 2023: Última hora: Episodio 30</title>
 		<desc>Espacio que resume los mejores momentos de las celebridades que participan en este concurso. En el espacio se ofrecen imágenes inéditas de Guadalix y se analizan las últimas discusiones, pactos y encontronazos entre los concursantes.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3128447"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3181172"/>
 		<category>Entretenimiento</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20231211215000 +0000" stop="20231211232000 +0000">
-		<title>Bosé</title>
-		<desc>La fascinante vida y carrera del cantante Miguel Bosé, hijo del torero Luis Miguel Dominguín y la actriz Lucía Bosé, desde principios de los años 70 hasta su consolidación en el mundo de la música pop.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3154595"/>
+		<title>100% Únicos: Episodio 1</title>
+		<desc>Antonio Banderas y Leo Harlem son los primeros invitados en ser entrevistados por un grupo de personas con diferentes Trastornos del Espectro Autista (TEA), presentado por Guillermo Fesser.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3181166"/>
+		<category>Entretenimiento</category>
+	</programme>
+	<programme channel="Telecinco.TV" start="20231211232000 +0000" stop="20231212001500 +0000">
+		<title>The Good Doctor (T6): Ep.1 Después de la fiesta</title>
+		<desc>Shaun Murphy es un joven cirujano con síndrome de Savant que luchará para unirse al equipo de cirugía de un hospital de prestigio. Inmerso en un mundo en el que es incapaz de conectar con aquellos que le rodean, Shaun usa sus extraordinarios dones médicos para conquistar a sus colegas y salvar las vidas de sus pacientes.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2121416"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20231211232000 +0000" stop="20231212010000 +0000">
-		<title>La Noche de Bosé</title>
-		<desc>Joaquín Prat conduce esta entrevista a Miguel Bosé, comentada por cuatro invitadas muy cercanas a la figura del cantante y actor: su hermana Paola Dominguín, Bibiana Fernández, Andrea Bronston y Rosa Villacastín.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3162941"/>
-		<category>Entretenimiento</category>
+	<programme channel="Telecinco.TV" start="20231212001500 +0000" stop="20231212010500 +0000">
+		<title>The Good Doctor (T6): Ep.2 Cambio de perspectiva</title>
+		<desc>Shaun Murphy es un joven cirujano con síndrome de Savant que luchará para unirse al equipo de cirugía de un hospital de prestigio. Inmerso en un mundo en el que es incapaz de conectar con aquellos que le rodean, Shaun usa sus extraordinarios dones médicos para conquistar a sus colegas y salvar las vidas de sus pacientes.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2121417"/>
+		<category>Series</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20231212010000 +0000" stop="20231212012000 +0000">
-		<title>Casino Gran Madrid Online Show</title>
+	<programme channel="Telecinco.TV" start="20231212010500 +0000" stop="20231212013000 +0000">
+		<title>Casino Gran Madrid Online Show: Episodio 345</title>
 		<desc>Programa nocturno para que los espectadores puedan conectarse al Casino Gran Madrid desde casa.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P2160166"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3181192"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20231212012000 +0000" stop="20231212015000 +0000">
-		<title>¡Toma Salami!: La tv que nos parió</title>
+	<programme channel="Telecinco.TV" start="20231212013000 +0000" stop="20231212015000 +0000">
+		<title>¡Toma Salami!: La tv que nos parió: Episodio 77</title>
 		<desc>Espacio vespertino que ofrece en tira diaria los momentos más destacados de los 30 años de historia de Mediaset España. Se recuperan momentos míticos y estará narrado por Javier Capitán.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P1753366"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P1841059"/>
 		<category>Entretenimiento</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20231212015000 +0000" stop="20231212015500 +0000">
@@ -2230,33 +2236,33 @@
 		<category>Ocio y Aficiones</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20231212015500 +0000" stop="20231212022500 +0000">
-		<title>Mejor llama a Kiko</title>
+		<title>Mejor llama a Kiko: Episodio 92</title>
 		<desc>Espacio de televenta presentado por Kiko Hernández.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P1623348"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3172203"/>
 		<category>Ocio y Aficiones</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20231212022500 +0000" stop="20231212025500 +0000">
-		<title>Mejor llama a Kiko</title>
+		<title>Mejor llama a Kiko: Episodio 90</title>
 		<desc>Espacio de televenta presentado por Kiko Hernández.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P1623348"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3167764"/>
 		<category>Ocio y Aficiones</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20231212025500 +0000" stop="20231212045500 +0000">
+	<programme channel="Telecinco.TV" start="20231212025500 +0000" stop="20231212045000 +0000">
 		<title>Miramimúsica</title>
 		<desc>Programa musical que se emite de madrugada.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P1303097"/>
 		<category>Música</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20231212045500 +0000" stop="20231212051000 +0000">
-		<title>Enphorma</title>
+	<programme channel="Telecinco.TV" start="20231212045000 +0000" stop="20231212051000 +0000">
+		<title>Enphorma: Episodio 12</title>
 		<desc>Programa especializado en temas actuales de alimentación, psicología y ejercicio.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3033572"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3102809"/>
 		<category>Ocio y Aficiones</category>
 	</programme>
-	<programme channel="Telecinco.TV" start="20231212045500 +0000" stop="20231212051000 +0000">
-		<title>Enphorma</title>
+	<programme channel="Telecinco.TV" start="20231212045000 +0000" stop="20231212051000 +0000">
+		<title>Enphorma: Episodio 12</title>
 		<desc>Programa especializado en temas actuales de alimentación, psicología y ejercicio.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3033572"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MT5P3102809"/>
 		<category>Ocio y Aficiones</category>
 	</programme>
 	<programme channel="Telecinco.TV" start="20231212051000 +0000" stop="20231212060000 +0000">
@@ -12213,82 +12219,100 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP380075"/>
 		<category>Cine</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20231211041500 +0000" stop="20231211055400 +0000">
+	<programme channel="Bemad.TV" start="20231211041500 +0000" stop="20231211060000 +0000">
 		<title>Cruce de destinos</title>
 		<desc>En la turbulenta India de 1947, los ingleses están a punto de abandonar la colonia. Una mujer, hija de un inglés y una india, debe tomar partido sin lograr decidirse entre una de las dos razas de las que procede. En estos momentos dramáticos conoce a un coronel inglés. Entre ambos nacerá un problemático romance.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP25494"/>
 		<category>Cine</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20231211041500 +0000" stop="20231211055400 +0000">
+	<programme channel="Bemad.TV" start="20231211041500 +0000" stop="20231211060000 +0000">
 		<title>Cruce de destinos</title>
 		<desc>En la turbulenta India de 1947, los ingleses están a punto de abandonar la colonia. Una mujer, hija de un inglés y una india, debe tomar partido sin lograr decidirse entre una de las dos razas de las que procede. En estos momentos dramáticos conoce a un coronel inglés. Entre ambos nacerá un problemático romance.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP25494"/>
 		<category>Cine</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20231211055400 +0000" stop="20231211061500 +0000">
-		<title>El zapping de Surferos</title>
+	<programme channel="Bemad.TV" start="20231211060000 +0000" stop="20231211065500 +0000">
+		<title>El zapping de Surferos: Episodio 84</title>
 		<desc>Físicamente es imposible llegar a captar el contenido más interesante que se emite en los diferentes canales de televisión. Por ello, este espacio rastrea el oleaje del universo catódico y elige lo más destacado de una forma original y divertida.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP657660"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP675337"/>
 		<category>Entretenimiento</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20231211061500 +0000" stop="20231211084800 +0000">
-		<title>Cine</title>
-		<desc>Emisión de una película.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP1673189"/>
+	<programme channel="Bemad.TV" start="20231211065500 +0000" stop="20231211090500 +0000">
+		<title>Moulin Rouge</title>
+		<desc>En el Moulin  Rouge, el lugar más alegre y predilecto del París de la Belle Epoque, el tullido pintor Henri de Toulouse-Lautrec (José Ferrer) encuentra amistad y olvido. Apura y bebe su siempre llena copa de coñac y, sobre el mantel, dibuja el panorama de la vida que pasa ante él en el gran salón de baile. En la calle llena de sombras, una muchacha llega corriendo hasta él y le coge del brazo. La policía va tras ella y le pide a Toulouse-Lautrec que la proteja. El sargento detective Patou (Georges Lannes) intenta detenerla y advierte a Lautrec que se trata Marie Charlet (Colette Marchand), una prostituta callejera de mala reputación. Sin embargo el pintor insiste en protegerla y ella le convence para que la lleve a su casa. De esta manera Marie pasa a ser su amante y, a pesar de su insistencia sobre el amor que ella siente por él, su vida es turbulenta. Las mentiras y engaños de ella dan lugar a una riña final y Toulouse-Lautrec la despide. Él intenta en vano olvidarla, ya que ella llevó a su solitaria vida la primera semblanza de amor, aunque fuese de poca valía. Toda la pasión y vitalidad del pintor se dedican ahora a dibujar el cartel para el Moulin Rouge. A pesar de la templada acogida que su obra tiene en el Moulin Rouge, Toulouse-Lautrec se hace famoso de la noche a la mañana cuando cientos de copias de su cartel son pegadas por las paredes de todo París. Los encargos no cesan de llegar, a la vez que las denuncias por un cartel que las clases poderosas y conservadoras no sólo consideran indecente sino además una afrenta a ellos. Toulouse-Latrec se siente feliz por su trabajo, sus exposiciones constituyen enormes éxitos, aunque él, por beber excesivamente, no constituye precisamente un éxito social. Desesperado, Toulouse-Lautrec busca en todas partes a su antigua amante y cuando se da cuenta de que la ha perdido para siempre, acentúa su afición a la bebida, su siempre delicada salud se deteriora más y finalmente es llevado a su casa desde un tugurio en estado de colapso, por el siempre fiel Patou. Es trasladado al rico hogar de su aristocrática familia, el Chateau de Albi, el pintor agoniza y su comprensiva madre intenta animarle con la noticia de que su obra ha sido admitida por el Museo del Louvre, estado todavía vivo, cosa que no había logrado jamás ningún otro artista. Su padre le pide que perdone su incomprensión. Pero Toulouse-Lautrec yace tumbado esperando el fin y soñando con el Moulin Rouge. En una última visión desfilan ante su cama todos los componentes del Moulin Rouge, que le saludan uno por uno y que van diciéndole alegremente adiós con la mano, cerrando el desfile las alegres bailarinas del can-can impulsando al aire sus enaguas. Toulouse-Lautrec cierra los ojos.Alegre y emocionante película de John Huston que recoge la biografía del genial pintor de Toulouse Lautrec, a partir del libro escrito en inglés por el francés Pierre Le Mure, el más vendido en Estados Unidos en 1952, año en que se produjo el filme. La película muestra la atormentada vida de un artista genial, marcado por un accidente sufrido de pequeño que le dejó lisiado para siempre. A destacar el extraordinario tratamiento fotográfico inspirado en las tonalidades cromáticas de los cuadros del pintor.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP309871"/>
 		<category>Cine</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20231211084800 +0000" stop="20231211092500 +0000">
-		<title>Mejor llama a Kiko</title>
+	<programme channel="Bemad.TV" start="20231211090500 +0000" stop="20231211093500 +0000">
+		<title>Mejor llama a Kiko: Episodio 93</title>
 		<desc>Espacio de televenta presentado por Kiko Hernández.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP1623348"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP3172111"/>
 		<category>Ocio y Aficiones</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20231211092500 +0000" stop="20231211115100 +0000">
-		<title>Cine</title>
-		<desc>Emisión de una película.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP1673189"/>
+	<programme channel="Bemad.TV" start="20231211093500 +0000" stop="20231211111500 +0000">
+		<title>Familia de policías</title>
+		<desc>Paul Fein, un alto oficial de policía, pretende reunir a todos sus hijos en su fiesta de cumpleaños. Hace años que no les ve y es consciente de que, tras la muerte de su esposa, no fue un buen padre para ellos. Pero la noche de la fiesta, Jackie, la oveja negra de la familia, se despierta junto al cadáver de un millonario. A partir de entonces, Paul y sus otros hijos sólo tendrán una misión: demostrar su inocencia.Ted Kotcheff, el responsable del primer ''Rambo'' dirigió este telefilme en el que el desaparecido Charles Bronson dejó por una vez el papel de justiciero para dar vida a un veterano oficial de policía, acuciado por los problemas familiares. Producida por la cadena CBS, la cinta conoció dos secuelas, ambas con Bronson repitiendo su personaje de Paul Fein.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP1276493"/>
 		<category>Cine</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20231211115100 +0000" stop="20231211143000 +0000">
-		<title>Cine</title>
-		<desc>Emisión de una película.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP1673189"/>
+	<programme channel="Bemad.TV" start="20231211111500 +0000" stop="20231211125500 +0000">
+		<title>Familia de policías 2</title>
+		<desc>El policía Paul Fein investiga el asesinato de un sacerdote que le pondrá a él y a su familia en el punto de mira de la mafia rusa.Segunda película de la saga "Family of Cops", una serie de telefilmes que siguen las aventuras de un duro policía, interpretado por un Charles Bronson, quien, a pesar de tener 74 años, demostraba sus dotes para interpretar a su sempiterno rol de agente justiciero. Repite rol Angela Featherstone ("El chico ideal") y Sebastian Spence ("First Wave").Dos años más tarde, se cerró la trilogía, con "Family of Cops III: Under Suspicion", la última película que hizo el duro actor antes de retirars</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP1276494"/>
 		<category>Cine</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20231211143000 +0000" stop="20231211160600 +0000">
-		<title>Cine</title>
-		<desc>Emisión de una película.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP1673189"/>
+	<programme channel="Bemad.TV" start="20231211125500 +0000" stop="20231211143500 +0000">
+		<title>Familia de policías III</title>
+		<desc>Paul Fein, jefe de la policía de Milwaukee, es asignado junto a su hijo en un caso de doble asesinato. Las víctimas, un banquero y su esposa, han sido encontrados muertos en su mansión.La última película de Charles Bronson, todo un especialista del cine de acción de serie B, fue en "Family Cops III: Bajo Sospecha". Se trata de la segunda secuela de "Family Cops" en el que el intérprete se vuelve a poner en la piel de su sempiterno papel de duro policía. A pesar de aprenderse todo su rol, el actor que en aquel entonces tenía 76 años, ya sufría sus primeros síntomas de Alzheimer. Le acompañan en pantalla dos habituales de la saga: Sebastian Spence ("Galáctica, estrella de combate", "First Wave") y Barbara Williams ("El secreto de los Abbott").</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP1276877"/>
 		<category>Cine</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20231211160600 +0000" stop="20231211191900 +0000">
-		<title>Cine</title>
-		<desc>Emisión de una película.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP1673189"/>
+	<programme channel="Bemad.TV" start="20231211143500 +0000" stop="20231211165500 +0000">
+		<title>El río de la vida</title>
+		<desc>Norman (Craig Sheffer) y Paul Mclean (Brad Pitt), hijos de un pastor protestante (Tom Skerrit), recibieron una rígida y dura educación que los ha marcado profundamente. Norman es profesor y está enamorado. Paul, por su parte, sigue en la casa paterna y lleva una vida autodestructiva. A pesar de todo, siempre habrá algo que los mantendrá unidos: el río salvaje que atraviesa Montana, donde aprendieron a pescar. Oscar a la mejor fotografía y tres nominaciones más. Nominada al Globo de oro a la mejor dirección (Robert Redford).</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP57598"/>
 		<category>Cine</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20231211191900 +0000" stop="20231211215100 +0000">
-		<title>Cine</title>
-		<desc>Emisión de una película.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP1673189"/>
+	<programme channel="Bemad.TV" start="20231211165500 +0000" stop="20231211194000 +0000">
+		<title>El imperio del sol</title>
+		<desc>Jim Graham, un niño británico de clase alta, vive en Shangái a principios de los años 40. Es un niño de once años mimado y protegido que de la noche a la mañana comienza a padecer los desastres y las consecuencias de la invasión japonesa durante la II Guerra Mundial. Mientras su familia decide huir, él se pierde en la calle, se queda solo y es enviado a un campo de concentración, donde tendrá que enfrentarse a las dificultades mientras conoce todo tipo de penurias. Allí va madurando y aprendiendo de la vida gracias a un curioso personaje. La acción de la película termina en 1945, momento de la liberación, cuando el niño ya tiene 13 años y su manera de entender la vida ha cambiado radicalmente.Cuando Steven Spielberg decidió dirigir él mismo "El imperio del Sol", una película que en principio sólo iba a producir, dio un importante giro a su carrera cinematográfica, en ese momento en pleno auge como maestro del cine de aventuras.El filme supuso el descubrimiento del joven Christian Bale, protagonista entonces con sólo 13 años y posterior estrella en películas como "El caballero oscuro" o "American Psycho".</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP126595"/>
 		<category>Cine</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20231211215100 +0000" stop="20231212012800 +0000">
-		<title>Cine</title>
-		<desc>Emisión de una película.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP1673189"/>
+	<programme channel="Bemad.TV" start="20231211194000 +0000" stop="20231211213000 +0000">
+		<title>Eternamente joven</title>
+		<desc>1939. El piloto de pruebas Daniel McCormick (Mel Gibson) se encuentra en el mejor momento de su vida: tiene un trabajo perfecto volando un B-25s, un verdadero amor, Helen, (Isabel Glasser) y un amigo y confidente de hace años (George Wendt). En verdad, lo tiene todo. O casi todo. A pesar de su habilidad para enfrentarse al peligro, no tiene el valor para proponerle a su novia el matrimonio. Siempre decide esperar a mañana... pero en un terrible instante una tragedia golpea inesperadamente a Helen, que tras un accidente entra en coma. Daniel se muestra reacio a hacer frente a la vida solo, por lo que se ofrece voluntario para participar en un experimento criogénico de alto secreto. Inerte y en estado de hibernación durante más de cincuenta años, se despierta en 1992, cuando unos niños manipulan la cápsula, perdido y en un entorno desconocido para él. A través de la amistad de un chico huérfano (Elijah Wood) y su madre (Jaime Lee Curtis), Daniel aprende que el tiempo nunca se detiene. Y como un gran amor perdura siempre intenta averiguar el paradero de Helen. Daniel descubre un mundo nuevo en el que tendrá que sobrevivir, averiguar todo lo que ha pasado en esos años y conocerá un terrible secreto que afecta a su futuro y sobre todo a su vida.Con este filme, Mel Gibson abandonó las películas de acción a las que tenía acostumbrado a su público, por el drama intimista mezclado con la ciencia ficción. Aunque no es la película por la que más se ha aclamado su labor interpretativa, consigue de manera eficaz, representar el papel de piloto deprimido y desorientado que protagoniza esta fantástica historia. Junto con Jaime Lee Curtis: "La noche de Halloween" ("Halloween", 1978), "Un pez llamado Wanda" ("A Fish Called Wanda", 1988), "Mentiras arriesgadas" ("True Lies", 1994), y Elijah Wood: "El buen hijo" ("The Good Son", 1993), "La tormenta de hielo" ("The Ice Storm", 1997) o la trilogía de "El Señor de los anillos" ("The Lord of the Rings", 2001, 2002, 2003), el reparto de la película confiere una solidez al argumento que hizo de ella una de las más vistas por el público del año de su estreno. Steve Miner, director y productor de cine fantástico norteamericano ha hecho películas que casi todo el mundo conoce ("Viernes 13" (2ª y 3ª partes); "House, una casa alucinante"; "Warlock, el brujo"; "La fuerza del amor"; "Mandíbula"; "Texas Rangers", "Halloween" "H20"...), sin embargo, no ha obtenido el prestigio y reconocimiento que merece en su género.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP16096"/>
 		<category>Cine</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20231212012800 +0000" stop="20231212015900 +0000">
-		<title>Mejor llama a Kiko</title>
+	<programme channel="Bemad.TV" start="20231211213000 +0000" stop="20231211231000 +0000">
+		<title>Teniente corrupto</title>
+		<desc>A un teniente de la policía de Nueva York, adicto a varias drogas, estafador y jugador, aunque devoto católico, le asignan el caso de una monja que ha sufrido una múltiple violación en el altar de una iglesia. El caso le obsesionará hasta el punto de sentirse el elegido de una misión divina y lo llevará a plantearse la coherencia entre su fe y sus actos y a implorar su redención.La obra definitiva de Abel Ferrara está protagonizada por Harvey Keitel en uno de sus papeles más míticos, especialmente por unos desnudos integrales que terminaron de desatar la tremenda polémica que ya de por sí rodeaba a la película.El consumo indiscriminado de drogas, la prostitución, el abuso de autoridad, la religión, la adicción al juego... Un crudo retrato de la corrupción policial a través de este personaje que navega entre el aire opresivo de las calles de Nueva York y locales nocturnos llenos de luces de neón y música ochentera. Se rumorea que Harvey Keitel consumía cocaína de verdad durante el rodaje para interpretar mejor su papel. El cineasta Werner Herzog llevó a cabo un remake en 2009 protagonizado por Nicholas Cage y Eva Mendes.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP57189"/>
+		<category>Cine</category>
+	</programme>
+	<programme channel="Bemad.TV" start="20231211231000 +0000" stop="20231212014000 +0000">
+		<title>Asalto al distrito 13</title>
+		<desc>Ethan Hawke, Laurence Fishburne, Gabriel Byrne, Maria Bello, Drea de Matteo, John Leguizamo y Brian Dennehy encabezan el reparto de este 'thriller' policíaco, 'remake' de "Asalto a la comisaría del distrito 13" (John Carpenter, 1976).Dirigida por Jean-François Richet, la película narra el feroz asedio a una comisaría de policía que está a punto de ser clausurada y en la que una tormenta de nieve ha dejado retenido a un capo de la mafia.Tanto la cinta de Carpenter como este 'remake' rinden homenaje a los filmes de Howard Hawks "Río Bravo" (1959) y "El Dorado" (1967).</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP467200"/>
+		<category>Cine</category>
+	</programme>
+	<programme channel="Bemad.TV" start="20231212014000 +0000" stop="20231212021000 +0000">
+		<title>Mejor llama a Kiko: Episodio 92</title>
 		<desc>Espacio de televenta presentado por Kiko Hernández.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP1623348"/>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP3172203"/>
 		<category>Ocio y Aficiones</category>
 	</programme>
-	<programme channel="Bemad.TV" start="20231212015900 +0000" stop="20231212042700 +0000">
-		<title>Cine</title>
-		<desc>Emisión de una película.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP1673189"/>
+	<programme channel="Bemad.TV" start="20231212021000 +0000" stop="20231212033000 +0000">
+		<title>Pesadilla final: la muerte de Freddy</title>
+		<desc>En esta última entrega, Freddy Krueger ha conseguido finalmente matar a todos los adolescentes de su ciudad. Freddy decide entonces mudarse para conseguir nuevas presas y con este fin reclama la ayuda de su propia hija. Sin embargo, ésta averigua el origen demoníaco de los poderes de su padre y se propone enfrentarse a él.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP54818"/>
+		<category>Cine</category>
+	</programme>
+	<programme channel="Bemad.TV" start="20231212033000 +0000" stop="20231212042700 +0000">
+		<title>London Boulevard</title>
+		<desc>Tras salir de la cárcel, Mitchel intenta llevar una nueva vida alejado de la violenta fama que se ha ganado entre sus antiguos colegas de los bajos fondos de Londres. Casualmente, Mitchel entra en contacto con Charlotte, una estrella de cine que vive aislada ante el acoso de los 'paparazzi', y se convierte en su guardaespaldas, creándose un profundo lazo entre ellos. Pero el pasado de Mitchel lo atrapa de nuevo cuando un mafioso llamado Gant pretende que vuelva a hacer lo que mejor sabe hacer.William Monahan -guionista de "Infiltrados", de Martin Scorsese, por la que consiguió un Oscar- debuta en la dirección con este 'thriller' que adapta la novela homónima de Ken Bruen. Monahan, que también se encarga del guión, dirige a un reparto de lujo encabezado por Keira Knightley y Colin Farrell, a los que acompañan Ray Winstone, Anna Friel, Ben Chaplin, David Thewlis y Jamie Campbell Bower.</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MBEMADP1021516"/>
 		<category>Cine</category>
 	</programme>
 	<programme channel="Bemad.TV" start="20231212042700 +0000" stop="20231212055400 +0000">
@@ -12903,17 +12927,17 @@
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1596986"/>
 		<category>Series</category>
 	</programme>
-	<programme channel="Energy.TV" start="20231211045500 +0000" stop="20231211060100 +0000">
+	<programme channel="Energy.TV" start="20231211045500 +0000" stop="20231211050000 +0000">
 		<title>Miramimúsica</title>
 		<desc>Programa musical que se emite de madrugada.</desc>
 		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1303097"/>
 		<category>Música</category>
 	</programme>
-	<programme channel="Energy.TV" start="20231211045500 +0000" stop="20231211060100 +0000">
-		<title>Miramimúsica</title>
-		<desc>Programa musical que se emite de madrugada.</desc>
-		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYP1303097"/>
-		<category>Música</category>
+	<programme channel="Energy.TV" start="20231211050000 +0000" stop="20231211060100 +0000">
+		<title>Energy</title>
+		<desc>Sin descripción</desc>
+		<icon src="https://www.movistarplus.es/recorte/n/caratula4/MENERGYPNone"/>
+		<category>Desconocido</category>
 	</programme>
 	<programme channel="Energy.TV" start="20231211060100 +0000" stop="20231211063900 +0000">
 		<title>Mentes criminales</title>

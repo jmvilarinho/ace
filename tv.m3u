@@ -741,8 +741,6 @@ http://51.254.47.72:1935/piera/smil:piera.smil/master.m3u8
 https://liveingesta318.cdnmedia.tv/tvcardedeulive/smil:rtmp01.smil/playlist.m3u8?DVR
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/canal10emporda/picture?width=200&height=200" group-title="Cataluña" tvg-name="Canal 10 Empordà",Canal 10 Empordà
 http://ventdelnord.tv:8080/escala/directe.m3u8
-#EXTINF:-1 tvg-logo="https://graph.facebook.com/PirineusTV/picture?width=200&height=200" group-title="Cataluña" tvg-name="Pirineus TV",Pirineus TV
-https://s100.ipcamlive.com/streams/64qikzj67l4evolpu/stream.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/tvvallesvisio/picture?width=200&height=200" group-title="Cataluña" tvg-name="Vallès Visió",Vallès Visió
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 https://liveingesta318.cdnmedia.tv/vallesvisiotvlive/smil:live.smil/playlist.m3u8?DVR

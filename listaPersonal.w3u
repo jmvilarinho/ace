@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 18/12/2023 08:17:10",
+    "author": "Vila - 18/12/2023 08:26:55",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -83,8 +83,14 @@
                     "embed": "false"
                 },
                 {
-                    "name": "M.L. Campeones 6 1080",
+                    "name": "M+ Liga de Campeones 6",
                     "url": "acestream://a0978a100de9a307c12d395d9b2f4142db6ab52d",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-06.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M.L. Campeones 6 1080",
+                    "url": "acestream://64a9353032efa2acb093d0bb86481f20f482d47e",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-06.png",
                     "embed": "false"
                 },

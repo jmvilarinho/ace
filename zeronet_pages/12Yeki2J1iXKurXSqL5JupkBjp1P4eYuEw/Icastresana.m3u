@@ -1,7 +1,6 @@
-#EXTM3U url-tvg="https://raw.githubusercontent.com/davidmuma/EPG_dobleM/master/guia.xml, https://www.bevy.be/bevyfiles/turkeypremium1.xml, https://www.bevy.be/bevyfiles/poland.xml, https://www.bevy.be/bevyfiles/francepremium.xml, https://xmltv.info/de/epg.xml, https://www.bevy.be/bevyfiles/unitedstatespremium1.xml, https://www.bevy.be/bevyfiles/unitedkingdompremium1.xml, https://www.bevy.be/bevyfiles/netherlands.xml, https://iptvx.one/EPG"
+#EXTM3U url-tvg="https://raw.githubusercontent.com/davidmuma/EPG_dobleM/master/guia.xml, https://www.bevy.be/bevyfiles/turkeypremium1.xml, https://www.bevy.be/bevyfiles/poland.xml, https://xmltv.info/de/epg.xml, https://www.bevy.be/bevyfiles/unitedstatespremium1.xml, https://www.bevy.be/bevyfiles/unitedkingdompremium1.xml, https://www.bevy.be/bevyfiles/netherlands.xml, https://iptvx.one/EPG"
 
  
-
 
 
 
@@ -261,16 +260,24 @@ acestream://c21316ad4b7f44eaf6fcfb2c245c46de8b746cc6
 acestream://b8cad4710b1c3b2b84a82c1ece40c08517b8f766
 #EXTINF:-1 tvg-logo="https://picon.pp.ua/eurosport2.png" group-title="Alemania" tvg-id="DE: Eurosport 2", Eurosport 2
 acestream://ac675c82d6dfd4a201532c18b42e48dacb7c32c6
+#EXTINF:-1 tvg-logo="" group-title="Alemania" tvg-id="DE: Eurosport 360 1", Eurosport 360 1
+acestream://22df9a5fae8cae52fec925c2bb44b74f96a4200c
+#EXTINF:-1 tvg-logo="" group-title="Alemania" tvg-id="DE: Eurosport 360 2", Eurosport 360 2
+acestream://57f95543ac41656d473b1a27123fc413388a728c
+#EXTINF:-1 tvg-logo="" group-title="Alemania" tvg-id="DE: Eurosport 360 3", Eurosport 360 3
+acestream://7adbca42657ace1fe228142d351d0896974bbe0c
+#EXTINF:-1 tvg-logo="" group-title="Alemania" tvg-id="DE: Eurosport 360 4", Eurosport 360 4
+acestream://1b6b6c0ddc0534236b3bae78f41d2bc27cd11f64
 
 
 
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/CQNdqNG/Bein1.png" group-title="Francia" tvg-id="beIN SPORTS 1.fr", Bein Sports 1
+#EXTINF:-1 tvg-logo="https://i.ibb.co/CQNdqNG/Bein1.png" group-title="Francia" tvg-id="BEIN SPORTS 1 FRA", Bein Sports 1
 acestream://bba1905fcd1c4975aec544047bf8e4cd23ce3fe0
-#EXTINF:-1 tvg-logo="https://i.ibb.co/4KdLb6X/Bein2.png" group-title="Francia" tvg-id="beIN SPORTS 2.fr", Bein Sports 2
+#EXTINF:-1 tvg-logo="https://i.ibb.co/4KdLb6X/Bein2.png" group-title="Francia" tvg-id="BEIN SPORTS 2 FRA", Bein Sports 2
 acestream://edb507e38394d614c9ff55805c9d354ae13210bc
-#EXTINF:-1 tvg-logo="https://i.ibb.co/k2XVS6h/Bein3.png" group-title="Francia" tvg-id="beIN SPORTS 3.fr", Bein Sports 3
+#EXTINF:-1 tvg-logo="https://i.ibb.co/k2XVS6h/Bein3.png" group-title="Francia" tvg-id="BEIN SPORTS 3 FRA", Bein Sports 3
 acestream://731bd3336ec0986ff9100efe40dbaf1473a22cf8
 
 
@@ -329,6 +336,8 @@ acestream://035e34b791335962ca817f42fd14300382af3797
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/Gck11Fx/TVPsport.png" group-title="Polonia" tvg-id="TVPSport.pl", TVP Sport HD
 acestream://d6f0a6377c31f68b1c1c071e0a8f9f105a455867
+#EXTINF:-1 tvg-logo="https://i.ibb.co/105yk9z/Eleven1.png" group-title="Polonia" tvg-id="eleven-sports-1", Eleven Sport 1 4k 
+acestream://7ac2d74ef6df9d15012992d7e0e635a95f58c652
 #EXTINF:-1 tvg-logo="https://i.ibb.co/105yk9z/Eleven1.png" group-title="Polonia" tvg-id="eleven-sports-1", Eleven Sport 1 
 acestream://14407b00d454cb7dc0d70aa26e8bbc554f457f00
 #EXTINF:-1 tvg-logo="https://i.ibb.co/Hd5r2GW/Eleven2.png" group-title="Polonia" tvg-id="eleven-sports-2", Eleven Sport 2
@@ -368,17 +377,17 @@ acestream://d4acffe8f08b7728d3b489ab5ca37398a5636689
 
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/RBPb12F/Eleven1.png" group-title="Portugal" tvg-id="eleven-sport1-pt", Eleven Sport 1
+#EXTINF:-1 tvg-logo="https://i.ibb.co/RBPb12F/Eleven1.png" group-title="Portugal" tvg-id="Eleven Sports 1 POR", Eleven Sport 1
 acestream://36cad67fed5a739757a9db844a551aa845a8d51b
-#EXTINF:-1 tvg-logo="https://i.ibb.co/vddFjGL/Eleven2.png" group-title="Portugal" tvg-id="eleven-sport2-pt", Eleven Sport 2
+#EXTINF:-1 tvg-logo="https://i.ibb.co/vddFjGL/Eleven2.png" group-title="Portugal" tvg-id="Eleven Sports 2 POR", Eleven Sport 2
 acestream://d08013df6e437a1fdf1e0c34f573fdf6a40c7fce
-#EXTINF:-1 tvg-logo="https://i.ibb.co/wYSjdjR/Eleven3.png" group-title="Portugal" tvg-id="eleven-sport3-pt", Eleven Sport 3
+#EXTINF:-1 tvg-logo="https://i.ibb.co/wYSjdjR/Eleven3.png" group-title="Portugal" tvg-id="Eleven Sports 3 POR", Eleven Sport 3
 acestream://dae7d1251f069516cc0a9c8f15f6639d2a17df1e
-#EXTINF:-1 tvg-logo="https://i.ibb.co/R4MHd5t/Eleven4.png" group-title="Portugal" tvg-id="eleven-sport4-pt", Eleven Sport 4
+#EXTINF:-1 tvg-logo="https://i.ibb.co/R4MHd5t/Eleven4.png" group-title="Portugal" tvg-id="Eleven Sports 4 POR", Eleven Sport 4
 acestream://0f32c0131a2d9444996410801f4e18b04384db98
-#EXTINF:-1 tvg-logo="https://i.ibb.co/J5j1qB8/Eleven5.png" group-title="Portugal" tvg-id="eleven-sport5-pt", Eleven Sport 5
+#EXTINF:-1 tvg-logo="https://i.ibb.co/J5j1qB8/Eleven5.png" group-title="Portugal" tvg-id="Eleven Sports 5 POR", Eleven Sport 5
 acestream://4dbe63b44fc4f439f5b634c0d2aa7e0cccad808a
-#EXTINF:-1 tvg-logo="https://i.ibb.co/zF8ZQTF/Eleven6.png" group-title="Portugal" tvg-id="eleven-sport6-pt", Eleven Sport 6
+#EXTINF:-1 tvg-logo="https://i.ibb.co/zF8ZQTF/Eleven6.png" group-title="Portugal" tvg-id="Eleven Sports 6 POR", Eleven Sport 6
 acestream://50b6d2b5fd59fefb9f4fd2176994d418f2b94a80
 
 

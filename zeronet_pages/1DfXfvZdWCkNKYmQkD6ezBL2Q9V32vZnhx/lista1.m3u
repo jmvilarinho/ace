@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://raw.githubusercontent.com/davidmuma/EPG_dobleM/master/guia.xml"
+#EXTM3U url-tvg="https://raw.githubusercontent.com/davidmuma/EPG_dobleM/master/guiatv.xml"
 #EXTINF:-1 group-title="1. Eventos del momento" tvg-logo="https://i.postimg.cc/LhKZPW09/wrc.png" ,Evento #1 (NASCAR Las Vegas)
 acestream://78f6f3d1ad7a003d4d26f069f09314ea79aa004b
 #EXTINF:-1 group-title="1. Eventos del momento" tvg-logo="https://i.postimg.cc/LhKZPW09/wrc.png" ,Evento #2 (Argentina-Ecuador)

@@ -1,8 +1,10 @@
-#EXTM3U url-tvg="https://raw.githubusercontent.com/davidmuma/EPG_dobleM/master/guia.xml, https://www.bevy.be/bevyfiles/turkeypremium1.xml, https://www.bevy.be/bevyfiles/poland.xml, https://xmltv.info/de/epg.xml, https://www.bevy.be/bevyfiles/unitedstatespremium1.xml, https://www.bevy.be/bevyfiles/unitedkingdompremium1.xml, https://www.bevy.be/bevyfiles/netherlands.xml, https://iptvx.one/EPG"
+#EXTM3U url-tvg="https://raw.githubusercontent.com/davidmuma/EPG_dobleM/master/guiatv.xml, https://raw.githubusercontent.com/Icastresana/lista1/main/epg.xml, https://www.bevy.be/bevyfiles/turkeypremium1.xml, https://www.bevy.be/bevyfiles/poland.xml, https://xmltv.info/de/epg.xml, https://www.bevy.be/bevyfiles/unitedstatespremium1.xml, https://www.bevy.be/bevyfiles/unitedkingdompremium1.xml, https://www.bevy.be/bevyfiles/netherlands.xml, https://iptvx.one/EPG"
 
  
-#EXTINF:-1 tvg-logo="" group-title="1RFEF" tvg-id="",19:00 Algeciras-Recre 21:00 Intercity-Malaga
+#EXTINF:-1 tvg-logo="" group-title="Eventos" tvg-id="Canal 1", Canal 1
 acestream://8552d0ab6ca31e07a2de46f2d7ff1c546212dc2b
+#EXTINF:-1 tvg-logo="" group-title="Eventos" tvg-id="Canal 2", Cal 2
+acestream://9a6aaee457d88eccdef6f0c0a40523dda0e64c2a
 
 
 
@@ -35,7 +37,7 @@ acestream://a3bca895c58d3fc7d5e4259d3d5e3cf0291d1914
 #EXTINF:-1 tvg-logo="https://i.ibb.co/SyvJQkp/Daznliga2.png" group-title="DAZN LaLiga" tvg-id="DAZN LaLiga 2 HD", DAZN LaLiga 2 1080 Multiaudio
 acestream://e33e666c393ef04ebe99a9b92135d2e0b48c4d10
 #EXTINF:-1 tvg-logo="https://i.ibb.co/SyvJQkp/Daznliga2.png" group-title="DAZN LaLiga" tvg-id="DAZN LaLiga 2 HD", DAZN LaLiga 2 720
-acestream://0950c37fe1ea817fc561c611ae943d58505f7a79
+acestream://02b9307c5c97c86914cc5939d6bbeb5b4ec60b47
 
 
 

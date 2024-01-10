@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 10/01/2024 16:01:08",
+    "author": "Vila - 10/01/2024 20:02:22",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -329,7 +329,7 @@
                     "embed": "false"
                 },
                 {
-                    "name": "DAZN LaLiga 2 720",
+                    "name": "DAZN LaLiga 2 720p",
                     "url": "acestream://0950c37fe1ea817fc561c611ae943d58505f7a79",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-2.png",
                     "embed": "false"
@@ -829,6 +829,12 @@
                 {
                     "name": "Match! Prime",
                     "url": "acestream://77fd6e894eba1957177c0f8faa48ff851b3ffbd5",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Movistar SuperCopa 1080",
+                    "url": "acestream://8ba764f6a3bce6eae87ec71208fad1aa3a20528d",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },

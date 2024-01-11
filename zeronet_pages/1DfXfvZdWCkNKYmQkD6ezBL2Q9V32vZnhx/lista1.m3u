@@ -1179,6 +1179,10 @@ http://chipidominio.online:8080/saidenvenezuela/77yVppnWfcyZ/157442
 http://chipidominio.online:8080/patriciosonncalderon/4ZC4SsdD4/157442
 #EXTINF:-1 group-title="M+ LaLiga" tvg-id="M+ LaLiga TV 2 HD" tvg-logo="https://i.postimg.cc/Hk59y0C2/liga2.png" ,M+ LaLigaTV 2 720
 acestream://80126b240f3e4e004754fd8f8103e857ab2556a0
+#EXTINF:-1 group-title="M+ Supercopa" tvg-id="M+ Supercopa de España" tvg-logo="https://i.postimg.cc/xjMTsxHj/supercopa-24.png" ,M+ Supercopa 1080 (temp)
+acestream://8ba764f6a3bce6eae87ec71208fad1aa3a20528d
+#EXTINF:-1 group-title="M+ Supercopa" tvg-id="M+ Supercopa de España" tvg-logo="https://i.postimg.cc/xjMTsxHj/supercopa-24.png" ,M+ Supercopa 1080 (Plus+)
+acestream://5a236fbbe6e5bbfec03db548c244a7c858d675c0
 #EXTINF:-1 group-title="M+ Supercopa" tvg-id="M+ Supercopa de España" tvg-logo="https://i.postimg.cc/xjMTsxHj/supercopa-24.png" ,M+ Supercopa 1080 1080p
 acestream://4c4844564313e39a888f593511f299f5ba3cf929
 #EXTINF:-1 group-title="M+ Supercopa" tvg-id="M+ Supercopa de España" tvg-logo="https://i.postimg.cc/xjMTsxHj/supercopa-24.png" ,M+ Supercopa 1080 1080 IPTV (01)

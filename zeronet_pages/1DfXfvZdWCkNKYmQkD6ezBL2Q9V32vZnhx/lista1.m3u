@@ -1183,7 +1183,13 @@ acestream://80126b240f3e4e004754fd8f8103e857ab2556a0
 acestream://8ba764f6a3bce6eae87ec71208fad1aa3a20528d
 #EXTINF:-1 group-title="M+ Supercopa" tvg-id="M+ Supercopa de España" tvg-logo="https://i.postimg.cc/xjMTsxHj/supercopa-24.png" ,M+ Supercopa 1080 (Plus+)
 acestream://5a236fbbe6e5bbfec03db548c244a7c858d675c0
-#EXTINF:-1 group-title="M+ Supercopa" tvg-id="M+ Supercopa de España" tvg-logo="https://i.postimg.cc/xjMTsxHj/supercopa-24.png" ,M+ Supercopa 1080 1080p
+#EXTINF:-1 group-title="M+ Supercopa" tvg-id="M+ Supercopa de España" tvg-logo="https://i.postimg.cc/xjMTsxHj/supercopa-24.png" ,M+ Supercopa 1080 MultiAudio
+acestream://3a4c8ac955d451bf3c29b45256e74aa0ea82d281
+#EXTINF:-1 group-title="M+ Supercopa" tvg-id="M+ Supercopa de España" tvg-logo="https://i.postimg.cc/xjMTsxHj/supercopa-24.png" ,M+ Supercopa 720
+acestream://7d70685696722c2b1b48a5ae1a7f92c445d9443d
+#EXTINF:-1 group-title="M+ Supercopa" tvg-id="M+ Supercopa de España" tvg-logo="https://i.postimg.cc/xjMTsxHj/supercopa-24.png" ,M+ Supercopa 720 (02)
+acestream://dab7cab5d6d177df36c3b333ca363c2266d91a03
+#EXTINF:-1 group-title="M+ Supercopa" tvg-id="M+ Supercopa de España" tvg-logo="https://i.postimg.cc/xjMTsxHj/supercopa-24.png" ,M+ Supercopa 1080
 acestream://4c4844564313e39a888f593511f299f5ba3cf929
 #EXTINF:-1 group-title="M+ Supercopa" tvg-id="M+ Supercopa de España" tvg-logo="https://i.postimg.cc/xjMTsxHj/supercopa-24.png" ,M+ Supercopa 1080 1080 IPTV (01)
 http://185.71.66.13:2052/ESPT/NV7nR87n4afv/151361

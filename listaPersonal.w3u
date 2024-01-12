@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 11/01/2024 20:01:05",
+    "author": "Vila - 12/01/2024 11:01:07",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -811,6 +811,24 @@
                 {
                     "name": "Movistar SuperCopa 1080",
                     "url": "acestream://8ba764f6a3bce6eae87ec71208fad1aa3a20528d",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Movistar SuperCopa 1080 - 443d",
+                    "url": "acestream://7d70685696722c2b1b48a5ae1a7f92c445d9443d",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Movistar SuperCopa 1080 MultiAudio",
+                    "url": "acestream://3a4c8ac955d451bf3c29b45256e74aa0ea82d281",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Movistar SuperCopa 720",
+                    "url": "acestream://dab7cab5d6d177df36c3b333ca363c2266d91a03",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },

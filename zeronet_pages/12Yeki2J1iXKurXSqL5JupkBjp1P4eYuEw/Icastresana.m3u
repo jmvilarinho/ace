@@ -1,10 +1,10 @@
-#EXTM3U url-tvg="https://raw.githubusercontent.com/davidmuma/EPG_dobleM/master/guiatv.xml, https://raw.githubusercontent.com/Icastresana/lista1/main/epg.xml, https://www.bevy.be/bevyfiles/turkeypremium1.xml, https://www.bevy.be/bevyfiles/poland.xml, https://xmltv.info/de/epg.xml, https://www.bevy.be/bevyfiles/unitedstatespremium1.xml, https://www.bevy.be/bevyfiles/unitedkingdompremium1.xml, https://www.bevy.be/bevyfiles/netherlands.xml, https://iptvx.one/EPG"
+#EXTM3U url-tvg="https://raw.githubusercontent.com/davidmuma/EPG_dobleM/master/guiatv.xml, https://raw.githubusercontent.com/Icastresana/lista1/main/epg.xml, https://www.bevy.be/bevyfiles/turkeypremium1.xml, https://www.bevy.be/bevyfiles/poland.xml, https://xmltv.info/de/epg.xml, https://www.bevy.be/bevyfiles/unitedstatespremium1.xml, https://www.bevy.be/bevyfiles/unitedkingdompremium1.xml, https://www.bevy.be/bevyfiles/netherlands.xml, https://www.bevy.be/bevyfiles/romania.xml, https://iptvx.one/EPG"
 
  
 #EXTINF:-1 tvg-logo="" group-title="Eventos" tvg-id="Canal 1", Canal 1
-acestream://8552d0ab6ca31e07a2de46f2d7ff1c546212dc2b
+acestream://db42b6826943198e4b51b70955df598eb7342b35
 #EXTINF:-1 tvg-logo="" group-title="Eventos" tvg-id="Canal 2", Canal 2
-acestream://9a6aaee457d88eccdef6f0c0a40523dda0e64c2a
+acestream://fb13a548c427d104d618d61b87cc66c47805a325
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/bRWf26g/supercopa.png" group-title="Supercopa" tvg-id="M+ Supercopa de España", Supercopa 1080
@@ -272,6 +272,8 @@ acestream://e61b6538df35e5016635dfa2b3073f5b82ee4c2b
 acestream://988f4d88d74ec0d2b3584f6c7e067fcbdb501115
 #EXTINF:-1 tvg-logo="https://i.ibb.co/4fYChH8/Motorvision.webp" group-title="Alemania" tvg-id="DE: Motorvision", Motorvision
 acestream://acd7e3ae185a376e6596e60a414bebbf3321b37f
+#EXTINF:-1 tvg-logo="" group-title="Alemania" tvg-id="DE: ProSieben MAXX", ProSieben MAXX
+acestream://40d73c46051360ce2ba7b329725440dc74d485f2
 #EXTINF:-1 tvg-logo="https://i.ibb.co/vwtpZX3/Magenta.webp" group-title="Alemania" tvg-id="DE: Magenta Sport 1", Magenta Sport 1
 acestream://501141c649a2b78c4965cbf3257224181cc55072
 #EXTINF:-1 tvg-logo="https://i.ibb.co/vwtpZX3/Magenta.webp" group-title="Alemania" tvg-id="DE: Magenta Sport 2", Magenta Sport 2
@@ -427,6 +429,16 @@ acestream://0f32c0131a2d9444996410801f4e18b04384db98
 acestream://4dbe63b44fc4f439f5b634c0d2aa7e0cccad808a
 #EXTINF:-1 tvg-logo="https://i.ibb.co/zF8ZQTF/Eleven6.png" group-title="Portugal" tvg-id="Eleven Sports 6 POR", Eleven Sport 6
 acestream://50b6d2b5fd59fefb9f4fd2176994d418f2b94a80
+
+
+
+
+#EXTINF:-1 tvg-logo="" group-title="Rumania" tvg-id="Digi Sport 1", DIGI Sport 1 HD
+acestream://83671b11f6dc071feb5769f6646cfc439c18989d
+#EXTINF:-1 tvg-logo="" group-title="Rumania" tvg-id="Digi Sport 1", DIGI Sport 1 HD
+acestream://3005a16671e5a9c5b7f7c7ef24973c77267c8d03
+#EXTINF:-1 tvg-logo="" group-title="Rumania" tvg-id="Digi Sport 3", DIGI Sport 3 HD
+acestream://257be6b709b3c62e171f5ca9dbdf7428dfc97040
 
 
 

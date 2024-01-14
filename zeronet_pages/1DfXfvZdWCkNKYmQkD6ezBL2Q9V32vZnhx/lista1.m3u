@@ -10,10 +10,12 @@ acestream://
 #EXTINF:-1 group-title="Póker" tvg-logo="https://i.postimg.cc/50DjbRZn/wpt.png" tvg-name="" ,World Poker Tour Español
 http://185.71.66.13:2052/ESPT/NV7nR87n4afv/241590
 #EXTINF:-1 group-title="Series 24h" tvg-logo="https://i.postimg.cc/tgqmkKvV/anhqv.png" ,Aquí no hay quien viva
-https://cdn5.lqsa.es/hls/0/stream.m3u8
+https://cdn5.lqsa.es/hls/2/stream.m3u8
 #EXTINF:-1 group-title="Series 24h" tvg-logo="https://i.postimg.cc/mgN5QLjs/lqsa.png" ,La que se avecina
-https://cdn7.lqsa.es/hls/0/stream.m3u8
+https://cdn7.lqsa.es/hls/2/stream.m3u8
 #EXTINF:-1 group-title="Series 24h" tvg-logo="https://i.postimg.cc/mgN5QLjs/lqsa.png" ,La que se avecina (Señal #2)
+https://cdn7.lqsa.es/hls/stream.m3u8
+#EXTINF:-1 group-title="Series 24h" tvg-logo="https://i.postimg.cc/mgN5QLjs/lqsa.png" ,La que se avecina (Señal #3 Capitulo diferente)
 https://cdn6.lqsa.es/hls/0/stream.m3u8
 #EXTINF:-1 group-title="MLS / AppleTV / STAR+" tvg-logo="https://i.postimg.cc/hvtTDvxH/appletv.png" ,INTER MIAMI español
 http://chipidominio.online:8080/saidenvenezuela/77yVppnWfcyZ/222248
@@ -1181,8 +1183,6 @@ http://chipidominio.online:8080/patriciosonncalderon/4ZC4SsdD4/157442
 acestream://80126b240f3e4e004754fd8f8103e857ab2556a0
 #EXTINF:-1 group-title="M+ Supercopa" tvg-id="M+ Supercopa de España" tvg-logo="https://i.postimg.cc/xjMTsxHj/supercopa-24.png" ,M+ Supercopa 1080 (temp)
 acestream://8ba764f6a3bce6eae87ec71208fad1aa3a20528d
-#EXTINF:-1 group-title="M+ Supercopa" tvg-id="M+ Supercopa de España" tvg-logo="https://i.postimg.cc/xjMTsxHj/supercopa-24.png" ,M+ Supercopa 1080 (Plus+)
-acestream://5a236fbbe6e5bbfec03db548c244a7c858d675c0
 #EXTINF:-1 group-title="M+ Supercopa" tvg-id="M+ Supercopa de España" tvg-logo="https://i.postimg.cc/xjMTsxHj/supercopa-24.png" ,M+ Supercopa 1080 MultiAudio
 acestream://3a4c8ac955d451bf3c29b45256e74aa0ea82d281
 #EXTINF:-1 group-title="M+ Supercopa" tvg-id="M+ Supercopa de España" tvg-logo="https://i.postimg.cc/xjMTsxHj/supercopa-24.png" ,M+ Supercopa 720

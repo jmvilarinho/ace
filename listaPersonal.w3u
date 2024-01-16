@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 16/01/2024 11:02:16",
+    "author": "Vila - 16/01/2024 16:00:59",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -187,12 +187,6 @@
                 {
                     "name": "Dazn liga F 1",
                     "url": "acestream://600222a4f98df80a2c0df2d60cb5ff3df9620710",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-0.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "Dazn liga F 2",
-                    "url": "acestream://d6cdd724a97fcf851e7ef641c28d6beb8663496e",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-0.png",
                     "embed": "false"
                 },
@@ -823,6 +817,12 @@
                 {
                     "name": "Movistar SuperCopa 1080 MultiAudio",
                     "url": "acestream://3a4c8ac955d451bf3c29b45256e74aa0ea82d281",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Movistar SuperCopa 1080 Plus",
+                    "url": "acestream://d6cdd724a97fcf851e7ef641c28d6beb8663496e",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },

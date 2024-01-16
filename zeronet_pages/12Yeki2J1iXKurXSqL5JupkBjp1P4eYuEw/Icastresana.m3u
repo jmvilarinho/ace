@@ -7,18 +7,6 @@ acestream://db42b6826943198e4b51b70955df598eb7342b35
 acestream://fb13a548c427d104d618d61b87cc66c47805a325
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/bRWf26g/supercopa.png" group-title="Supercopa" tvg-id="M+ Supercopa de España", Supercopa 1080
-acestream://8ba764f6a3bce6eae87ec71208fad1aa3a20528d
-#EXTINF:-1 tvg-logo="https://i.ibb.co/bRWf26g/supercopa.png" group-title="Supercopa" tvg-id="M+ Supercopa de España", Supercopa 1080 Multiaudio
-acestream://3a4c8ac955d451bf3c29b45256e74aa0ea82d281
-#EXTINF:-1 tvg-logo="https://i.ibb.co/bRWf26g/supercopa.png" group-title="Supercopa" tvg-id="M+ Supercopa de España", Supercopa 1080
-acestream://7d70685696722c2b1b48a5ae1a7f92c445d9443d
-#EXTINF:-1 tvg-logo="https://i.ibb.co/bRWf26g/supercopa.png" group-title="Supercopa" tvg-id="M+ Supercopa de España", Supercopa 720
-acestream://dab7cab5d6d177df36c3b333ca363c2266d91a03
-#EXTINF:-1 tvg-logo="https://i.ibb.co/dMXrBBc/plus.png" group-title="Supercopa" tvg-id="Movistar Plus+ HD", M+ Plus+
-acestream://5a236fbbe6e5bbfec03db548c244a7c858d675c0
-
-
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/yfV1Q8n/liga.png" group-title="Canales 24h" tvg-id="M+ LaLiga TV HD", M. LaLiga 

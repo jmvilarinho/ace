@@ -9,6 +9,9 @@ acestream://fb13a548c427d104d618d61b87cc66c47805a325
 
 
 
+
+
+
 #EXTINF:-1 tvg-logo="https://i.ibb.co/yfV1Q8n/liga.png" group-title="Canales 24h" tvg-id="M+ LaLiga TV HD", M. LaLiga 
 acestream://cc9b7f5fe416069a2110da0909b0f915043c468b
 #EXTINF:-1 tvg-logo="https://i.ibb.co/CV4CLjz/deportes.png" group-title="Canales 24h" tvg-id="M+ Deportes HD", M. Deportes 
@@ -214,6 +217,16 @@ acestream://f763ab71f6f646e6c993f37e237be97baf2143ef
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/dMXrBBc/plus.png" group-title="Otros" tvg-id="Movistar Plus+ HD", M+ Plus+
 acestream://5a236fbbe6e5bbfec03db548c244a7c858d675c0
+#EXTINF:-1 tvg-logo="https://i.ibb.co/bRWf26g/supercopa.png" group-title="Otros" tvg-id="M+ LaLiga TV 3 HD", Supercopa 1080
+acestream://8ba764f6a3bce6eae87ec71208fad1aa3a20528d
+#EXTINF:-1 tvg-logo="https://i.ibb.co/bRWf26g/supercopa.png" group-title="Otros" tvg-id="M+ LaLiga TV 3 HD", Supercopa 1080 plus
+acestream://d6cdd724a97fcf851e7ef641c28d6beb8663496e
+#EXTINF:-1 tvg-logo="https://i.ibb.co/bRWf26g/supercopa.png" group-title="Otros" tvg-id="M+ LaLiga TV 3 HD", Supercopa 1080 Multiaudio
+acestream://3a4c8ac955d451bf3c29b45256e74aa0ea82d281
+#EXTINF:-1 tvg-logo="https://i.ibb.co/bRWf26g/supercopa.png" group-title="Otros" tvg-id="M+ LaLiga TV 3 HD", Supercopa 1080
+acestream://7d70685696722c2b1b48a5ae1a7f92c445d9443d
+#EXTINF:-1 tvg-logo="https://i.ibb.co/bRWf26g/supercopa.png" group-title="Otros" tvg-id="M+ LaLiga TV 3 HD", Supercopa 720
+acestream://dab7cab5d6d177df36c3b333ca363c2266d91a03
 #EXTINF:-1 tvg-logo="https://i.ibb.co/8bSvSX3/golf.png" group-title="Otros" tvg-id="M+ Golf HD", M. Golf 1080 
 acestream://4f945b0ba4206fa2676b61e9eaa465ac3dcc8122
 #EXTINF:-1 tvg-logo="https://i.ibb.co/n1KGvn6/Golf2.png" group-title="Otros" tvg-id="M+ Golf 2 HD", M. Golf 2 1080

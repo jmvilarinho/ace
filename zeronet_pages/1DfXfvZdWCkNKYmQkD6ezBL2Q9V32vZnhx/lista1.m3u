@@ -31,6 +31,10 @@ acestream://7ac2d74ef6df9d15012992d7e0e635a95f58c652
 acestream://169da1e59ffd3947c09d65eb1a0de0c831bef390
 #EXTINF:-1 group-title="Tenis" tvg-id="TennisChannel.us" tvg-logo="https://img2.sport-tv-guide.live/images/tv-station-tennis-channel-63.png" , Tennis Channel
 acestream://9292d3b32432efb56db4014933cbdec0a7cf2e36
+#EXTINF:-1 group-title="Tenis" tvg-id="TennisChannel.us" tvg-logo="https://img2.sport-tv-guide.live/images/tv-station-tennis-channel-63.png" , Tennis Channel (web)
+acestream://756aa727f132136b43e1937affcc69cbe40fccad
+#EXTINF:-1 group-title="Tenis" tvg-id="TennisChannel.us" tvg-logo="https://img2.sport-tv-guide.live/images/tv-station-tennis-channel-63.png" , Tennis Channel (web2)
+acestream://039fae21c9e7e5214d3d898cba80863e37e623ac
 #EXTINF:-1 group-title="Tenis" tvg-id="" tvg-logo="https://i.postimg.cc/tgV0RQxM/tench2.png" , Tennis Channel 2
 acestream://51a682f0daa2e2fb61e078e48704cb1e3411a300
 #EXTINF:-1 group-title="Tenis" tvg-id="TennisChannel.us" tvg-logo="https://img2.sport-tv-guide.live/images/tv-station-tennis-channel-63.png" , Tennis Channel IPTV
@@ -95,6 +99,8 @@ http://185.233.16.53:80/play/vi0111820/EcQ$PHt4tB/595409.ts
 http://185.233.16.53:80/play/vi0111820/EcQ$PHt4tB/595410.ts
 #EXTINF:-1 group-title="DAZN" tvg-id="DAZN 1 HD" tvg-logo="https://img.sport-tv-guide.live/images/tv-station-dazn-1-es-2510.png" ,DAZN 1 1080*
 acestream://8ca07071b39185431f8e940ec98d1add9e561639
+#EXTINF:-1 group-title="DAZN" tvg-id="DAZN 1 HD" tvg-logo="https://img.sport-tv-guide.live/images/tv-station-dazn-1-es-2510.png" ,DAZN 1 1080 (web)
+acestream://d5b2c6b940cf3df5e8f9dc6f000f0ea23a10b151
 #EXTINF:-1 group-title="DAZN" tvg-id="DAZN 1 HD" tvg-logo="https://img.sport-tv-guide.live/images/tv-station-dazn-1-es-2510.png" ,DAZN 1 1080 IPTV (02)
 http://37.49.225.107:8080/14e17190/e84b5c0d6a/64711
 #EXTINF:-1 group-title="DAZN" tvg-id="DAZN 1 HD" tvg-logo="https://img.sport-tv-guide.live/images/tv-station-dazn-1-es-2510.png" ,DAZN 1 1080 IPTV (03)
@@ -287,6 +293,8 @@ http://185.233.16.53:80/play/3clucasscxjuave/84Kn8FBC7g/228398.ts
 acestream://5789ca155323664edd293b848606688edf803f4d
 #EXTINF:-1 group-title="DAZN F1/ SKY F1 / F1TV" tvg-id="DAZN F1 HD" tvg-logo="https://img.sport-tv-guide.live/images/tv-station-dazn-formula-1-366.png" ,DAZN F1 1080
 acestream://9dad717d99b29a05672166258a77c25b57713dd5
+#EXTINF:-1 group-title="DAZN F1" tvg-id="DAZN F1 HD" tvg-logo="https://img.sport-tv-guide.live/images/tv-station-dazn-formula-1-366.png" ,DAZN F1 1080 (web)
+acestream://d65257bb934b73647374224fd62d836815804be2
 #EXTINF:-1 group-title="DAZN F1/ SKY F1 / F1TV" tvg-id="DAZN F1 4K" tvg-logo="https://i.postimg.cc/d3S50qPM/daznf14k.png" ,DAZN F1 4K
 acestream://6b94479c24898700089e6b87d28a3ccc72dc4041
 #EXTINF:-1 group-title="DAZN F1/ SKY F1 / F1TV" tvg-id="DAZN F1 4K" tvg-logo="https://i.postimg.cc/d3S50qPM/daznf14k.png" ,DAZN F1 4K (EP)
@@ -1079,6 +1087,8 @@ http://185.233.16.53:80/play/3clucasscxjuave/84Kn8FBC7g/542877.ts
 acestream://7d8c87e057be98f00f22e23b23fbf08999e4b02f
 #EXTINF:-1 group-title="M+ LaLiga" tvg-id="M+ LaLiga TV HD" tvg-logo="https://i.postimg.cc/GpCJJBL1/liga1.png" ,M+ LaLigaTV 1080 multiaudio
 acestream://1969c27658d4c8333ab2c0670802546121a774a5
+#EXTINF:-1 group-title="M+ LaLiga" tvg-id="M+ LaLiga TV HD" tvg-logo="https://i.postimg.cc/GpCJJBL1/liga1.png" ,M+ LaLigaTV 1080 (web)
+acestream://cc9b7f5fe416069a2110da0909b0f915043c468b
 #EXTINF:-1 group-title="M+ LaLiga" tvg-id="M+ LaLiga TV UHD" tvg-logo="https://i.postimg.cc/qMF1nM6k/ligauhd.png" ,M+ LaLigaTV 4K (Solo evento)
 acestream://8286183314d367940409b760bbf887f3fb923f60
 #EXTINF:-1 group-title="M+ LaLiga" tvg-id="M+ LaLiga TV UHD" tvg-logo="https://i.postimg.cc/qMF1nM6k/ligauhd.png" ,M+ LaLigaTV 4K (Solo evento) (EP)
@@ -1183,6 +1193,16 @@ http://chipidominio.online:8080/patriciosonncalderon/4ZC4SsdD4/157442
 acestream://80126b240f3e4e004754fd8f8103e857ab2556a0
 #EXTINF:-1 group-title="M+ Copa del Rey" tvg-id="M+ LaLiga TV 3 HD" tvg-logo="https://i.postimg.cc/hv3vnfRf/coparey.png" ,M+ Copa del Rey 1080
 acestream://4c4844564313e39a888f593511f299f5ba3cf929
+#EXTINF:-1 group-title="M+ Copa del Rey" tvg-id="M+ LaLiga TV 3 HD" tvg-logo="https://i.postimg.cc/hv3vnfRf/coparey.png" ,M+ Copa del Rey 1080 (02)
+acestream://8ba764f6a3bce6eae87ec71208fad1aa3a20528d
+#EXTINF:-1 group-title="M+ Copa del Rey" tvg-id="M+ LaLiga TV 3 HD" tvg-logo="https://i.postimg.cc/hv3vnfRf/coparey.png" ,M+ Copa del Rey 1080 Multi
+acestream://3a4c8ac955d451bf3c29b45256e74aa0ea82d281
+#EXTINF:-1 group-title="M+ Copa del Rey" tvg-id="M+ LaLiga TV 3 HD" tvg-logo="https://i.postimg.cc/hv3vnfRf/coparey.png" ,M+ Copa del Rey 1080 (03)
+acestream://7d70685696722c2b1b48a5ae1a7f92c445d9443d
+#EXTINF:-1 group-title="M+ Copa del Rey" tvg-id="M+ LaLiga TV 3 HD" tvg-logo="https://i.postimg.cc/hv3vnfRf/coparey.png" ,M+ Copa del Rey 1080 plus
+acestream://d6cdd724a97fcf851e7ef641c28d6beb8663496e
+#EXTINF:-1 group-title="M+ Copa del Rey" tvg-id="M+ LaLiga TV 3 HD" tvg-logo="https://i.postimg.cc/hv3vnfRf/coparey.png" ,M+ Copa del Rey 720
+acestream://dab7cab5d6d177df36c3b333ca363c2266d91a03
 #EXTINF:-1 group-title="M+ Copa del Rey" tvg-id="M+ LaLiga TV 3 HD" tvg-logo="https://i.postimg.cc/hv3vnfRf/coparey.png" ,M+ Copa del Rey 1080 IPTV (01)
 http://185.71.66.13:2052/ESPT/NV7nR87n4afv/151361
 #EXTINF:-1 group-title="M+ Copa del Rey" tvg-id="M+ LaLiga TV 3 HD" tvg-logo="https://i.postimg.cc/hv3vnfRf/coparey.png" ,M+ Copa del Rey 1080 IPTV (02)
@@ -1626,7 +1646,7 @@ http://chipidominio.online:8080/patriciosonncalderon/4ZC4SsdD4/133795
 #EXTINF:-1 group-title="Otros contenidos" tvg-id="Historia" tvg-logo="https://i.postimg.cc/13TMkF75/historia.png" ,Historia 720
 acestream://b899f725b8782aa263026b2bfbd43ee1e18482b6
 #EXTINF:-1 group-title="Otros contenidos" tvg-id="La 1 HD" tvg-logo="https://img.sport-tv-guide.live/images/tv-station-la-1-838.png" ,La 1 1080*
-acestream://02b9307c5c97c86914cc5939d6bbeb5b4ec60b47
+acestream://fa79d8cea5689da7a69a5afd833690f4aa544cd3
 #EXTINF:-1 group-title="Otros contenidos" tvg-id="La 1 HD" tvg-logo="https://img.sport-tv-guide.live/images/tv-station-la-1-838.png" ,La 1 1080
 acestream://b41d52a733be6f4709db3bdf33e260de2b67d27a
 #EXTINF:-1 group-title="Otros contenidos" tvg-id="La 1 HD" tvg-logo="https://img.sport-tv-guide.live/images/tv-station-la-1-838.png" ,La 1 1080 (m3u8)
@@ -2115,6 +2135,12 @@ acestream://314eb626864faf52e01624361bd6906b5406127f
 acestream://7aa9cc819c6fa781dea6b4de3aa5393258b766d8
 #EXTINF:-1 group-title="Eurosport" tvg-id="Eurosport1Poland.pl" tvg-logo="https://img2.sport-tv-guide.live/images/stations/a1419.png" ,EuroSport 1 [RU/ING] 1080
 acestream://1b0bc4d4dcd609d3c092712e721392b199f50a62
+#EXTINF:-1 group-title="Eurosport" tvg-id="Eurosport1Poland.pl" tvg-logo="https://img2.sport-tv-guide.live/images/stations/a1419.png" ,EuroSport 2 [RU/ING] 1080
+acestream://6176281b9c46a5621a0e88524f8dc621f173b8e0
+#EXTINF:-1 group-title="Eurosport" tvg-id="Eurosport1Poland.pl" tvg-logo="https://img2.sport-tv-guide.live/images/stations/a1419.png" ,EuroSport 1 [RU] 1080
+acestream://79b597867967c0f10706b93647bd60fb0e9e1082
+#EXTINF:-1 group-title="Eurosport" tvg-id="Eurosport1Poland.pl" tvg-logo="https://img2.sport-tv-guide.live/images/stations/a1419.png" ,EuroSport 2 [RU] 1080
+acestream://4f5f224819dd6240f64ccd7fc29f93456e849e14
 #EXTINF:-1 group-title="Eurosport" tvg-id="Eurosport 1 GER" tvg-logo="https://img.sport-tv-guide.live/images/stations/a150.png" ,Eurosport 1 GER HD
 acestream://b8cad4710b1c3b2b84a82c1ece40c08517b8f766
 #EXTINF:-1 group-title="Eurosport" tvg-id="Eurosport 2 GER" tvg-logo="https://img.sport-tv-guide.live/images/stations/a151.png" ,Eurosport 2 GER HD

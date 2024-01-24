@@ -357,7 +357,8 @@ acestream://4903ca695edb64bc72ae29eb85a5333ba0139537
 
 
 
-
+#EXTINF:-1 tvg-logo="" group-title="Italia" tvg-id="Sky Sport Calcio.it", Sky Sport Calcio HD
+acestream://d1b673e887b9fa8a40aba89272711e65d7e1c955
 #EXTINF:-1 tvg-logo="" group-title="Italia" tvg-id="Sky Sport Tennis.it", Sky Sport Tennis HD
 acestream://89e380332cc52ae3b7774607fbf54813fb7f4dd7
 #EXTINF:-1 tvg-logo="" group-title="Italia" tvg-id="Sky Sport Uno.it", Sky Sport Uno HD 
@@ -539,6 +540,6 @@ acestream://cba8d369eac629b577750edb90370cd1c5fb03b7
 #EXTINF:-1 tvg-logo="" group-title="USA" tvg-id="beIN Sports (Spanish)", Bein Sports Xtra Ñ
 acestream://92a7dcc55392efc6dd5d012c4ff3878891eb6a6e
 #EXTINF:-1 tvg-logo="https://i.ibb.co/n09HkMh/tenis.png" group-title="USA" tvg-id="Tennis Channel", Tennis Channel
-acestream://756aa727f132136b43e1937affcc69cbe40fccad
+acestream://c997934cd2f5aedb5e4d393899b53bbb59369310
 #EXTINF:-1 tvg-logo="https://i.ibb.co/7x3fT2T/nba.png" group-title="USA" tvg-id="NBA TV", NBA TV
 acestream://e72d03fb9694164317260f684470be9ab781ed95

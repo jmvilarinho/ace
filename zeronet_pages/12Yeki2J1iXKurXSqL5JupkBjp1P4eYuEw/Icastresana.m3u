@@ -239,7 +239,7 @@ acestream://9a4f3ae6563668b7709dac509dedc709441b3fd9
 #EXTINF:-1 tvg-logo="https://i.ibb.co/BjvBnzf/la1.png" group-title="Otros" tvg-id="La 1 HD", LA 1 UHD
 acestream://6636a5c1055b5913ddcd0e87a5523f7d935350af
 #EXTINF:-1 tvg-logo="https://i.ibb.co/BjvBnzf/la1.png" group-title="Otros" tvg-id="La 1 HD", LA 1 1080
-acestream://fa79d8cea5689da7a69a5afd833690f4aa544cd3
+acestream://02b9307c5c97c86914cc5939d6bbeb5b4ec60b47
 #EXTINF:-1 tvg-logo="https://i.ibb.co/n3JD6NQ/la2.png" group-title="Otros" tvg-id="La 2", LA 2 1080
 acestream://60106275d34f995e26bb2cc4a21a42f586c6c555
 #EXTINF:-1 tvg-logo="https://i.ibb.co/9rZFpDM/gol.png" group-title="Otros" tvg-id="GOL PLAY", GOL TV 1080
@@ -373,7 +373,8 @@ acestream://a5597a324630eb1b15cb48cf3d34238e732b04e2
 acestream://ee197f7428f5d4cc88f5e2c936b2f0d38a88e6b5
 #EXTINF:-1 tvg-logo="" group-title="Italia" tvg-id="Sky Sport F1.it", Sky Sport F1 HD
 acestream://db71c3bbdf37d6382a45ff59b85da3c5426ff982
-
+#EXTINF:-1 tvg-logo="" group-title="Italia" tvg-id="Sky Sport MotoGP.it", Sky Sport MotoGP HD
+acestream://2ce58af4ffe0cf0e52980db8f2e73ad962d9d9b4
 
 
 
@@ -518,6 +519,11 @@ acestream://ed81c333815247536edfcdb2755147e8c4144d62
 acestream://7683cd0cbacf55fa8b39c363219ffba1bc47cf9d
 #EXTINF:-1 tvg-logo="https://i.ibb.co/cvTFJQt/Bein-Haber.png" group-title="Turquía" tvg-id="beIN SPORTS HABER", Bein Sports HABER
 acestream://47c1b3a68d03bd190fed521d144ad08fa0f195f3
+#EXTINF:-1 tvg-logo="" group-title="Turquía" tvg-id="beIN SPORTS MAX HD 1", Bein Sports MAX 1
+acestream://ad0859bef437866dfc7fb97252a08a0c0e4f5c9a
+#EXTINF:-1 tvg-logo="" group-title="Turquía" tvg-id="beIN SPORTS MAX HD 2", Bein Sports MAX 2
+acestream://fecc49438ac6b303d734464436243d0c6d5a5ff5
+
 
 
 

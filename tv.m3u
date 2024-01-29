@@ -62,6 +62,8 @@ http://127.0.0.1:6878/ace/getstream?id=ce235921dac95e1da2dd5e54673c2fecb9e806de&
 http://127.0.0.1:6878/ace/getstream?id=396d82ca6f5445abcd32e6b609d67e332ee12ace&.mp4
 #EXTINF:-1 tvg-id="Sport TV3 POR HD" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-pt-sport-tv-3-452.png" group-title="Sport TV" tvg-name="Sport Tv 3 1080",Sport Tv 3 1080
 http://127.0.0.1:6878/ace/getstream?id=f8cb9d9e3077eb3ae417b2d95a69c5f590760eb9&.mp4
+#EXTINF:-1 channel-id="samsung-ESBD4700001T2" tvg-id="ESBD4700001T2" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD4700001T2_20240129T094611SQUARE.png_20240129094612.png" tvg-chno="4001" group-title="Samsung TV" , La Liga Inside
+https://i.mjh.nz/SamsungTVPlus/ESBD4700001T2.m3u8
 #EXTINF:-1 channel-id="samsung-ESAJ4500024LR" tvg-id="ESAJ4500024LR" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESAJ4500024LR_20230222T012038SQUARE.png_20230222012039.png" tvg-chno="4003" group-title="Samsung TV" , Euronews en directo
 https://i.mjh.nz/SamsungTVPlus/ESAJ4500024LR.m3u8
 #EXTINF:-1 channel-id="samsung-ESAJ2900003ND" tvg-id="ESAJ2900003ND" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESAJ2900003ND_20240117T032717SQUARE.png_20240117032717.png" tvg-chno="4004" group-title="Samsung TV" , Estilo y Vida – Rakuten TV
@@ -182,8 +184,6 @@ https://i.mjh.nz/SamsungTVPlus/ESAJ3800007PC.m3u8
 https://i.mjh.nz/SamsungTVPlus/ESBA2200006B4.m3u8
 #EXTINF:-1 channel-id="samsung-ESBD3200001EG" tvg-id="ESBD3200001EG" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD3200001EG_20230913T030604SQUARE.png_20230913030605.png" tvg-chno="4485" group-title="Samsung TV" , Motorvision
 https://i.mjh.nz/SamsungTVPlus/ESBD3200001EG.m3u8
-#EXTINF:-1 channel-id="samsung-ESBD4700001T2" tvg-id="ESBD4700001T2" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD4700001T2_20231213T032953SQUARE.png_20231213032954.png" tvg-chno="4501" group-title="Samsung TV" , La Liga Inside
-https://i.mjh.nz/SamsungTVPlus/ESBD4700001T2.m3u8
 #EXTINF:-1 channel-id="samsung-ESBD3600001Q1" tvg-id="ESBD3600001Q1" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD3600001Q1_20231213T103940SQUARE.png_20231213103940.png" tvg-chno="4502" group-title="Samsung TV" , La Liga
 https://i.mjh.nz/SamsungTVPlus/ESBD3600001Q1.m3u8
 #EXTINF:-1 channel-id="samsung-ESBC410000577" tvg-id="ESBC410000577" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC410000577_20231213T103944SQUARE.png_20231213103945.png" tvg-chno="4504" group-title="Samsung TV" , Teledeporte

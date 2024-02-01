@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 31/01/2024 20:01:03",
+    "author": "Vila - 01/02/2024 11:00:52",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -301,12 +301,6 @@
                 {
                     "name": "DAZN LaLiga 2 1080",
                     "url": "acestream://e33e666c393ef04ebe99a9b92135d2e0b48c4d10",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-2.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "DAZN LaLiga 2 720p",
-                    "url": "acestream://0950c37fe1ea817fc561c611ae943d58505f7a79",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-2.png",
                     "embed": "false"
                 },
@@ -635,7 +629,7 @@
                     "embed": "false"
                 },
                 {
-                    "name": "CONTROL 28-12-23",
+                    "name": "CONTROL 24-01-24",
                     "url": "acestream://1234567890123456789012345678901234567890",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"

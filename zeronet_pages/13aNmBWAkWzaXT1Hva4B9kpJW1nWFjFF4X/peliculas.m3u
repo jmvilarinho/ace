@@ -1,6 +1,23 @@
 #EXTM3U
 
 
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/yOANMJCxkjFoVULGp6QJZCF9div.jpg",Los guardianes de la formula  (2024) BluRay Rip [6.5]
+acestream://36ddb99410edacfec6401c2bfc1559939deeed45
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/yOANMJCxkjFoVULGp6QJZCF9div.jpg",Los guardianes de la formula  (2024) BluRay 720pRip [6.5]
+acestream://55c820cb3c0eec1ff80b4de3c62c9248620c856c
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/zhjtCIUiNvLnaeLOlWBK9ztv9GW.jpg",Amanece (2024) BluRay Rip []
+acestream://576d21ce0587c1a960d4e0acd7b9fbcbfbbe7b88
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/zhjtCIUiNvLnaeLOlWBK9ztv9GW.jpg",Amanece (2024) BluRay 720pRip []
+acestream://36c857b2179fdea2cc93945cff07207ca40b06ef
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/7lTnXOy0iNtBAdRP3TZvaKJ77F6.jpg",Aquaman y el reino perdido  (2024) BluRay Rip [7.0]
+acestream://37cc3fae39a79e08be2fbbebedbd43a59e540eb9
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/7lTnXOy0iNtBAdRP3TZvaKJ77F6.jpg",Aquaman y el reino perdido  (2024) BluRay 720Rip [7.0]
+acestream://52ec71a1ce62cc7683e3936a68f59f0b7dbe9d75
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/7lTnXOy0iNtBAdRP3TZvaKJ77F6.jpg",Aquaman y el reino perdido  (2024) BluRay 1080Rip [7.0]
+acestream://5eb4d75e92e6bb63dbc0fca0e8c6a62aeebb1739
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/kXiioJHUDR5gNyrj0XMPpSaV9jz.jpg",The Warrant Breakers Law  (2024) BluRay Rip [4.5]
 acestream://ee4bff82505c1ab458e1801745a6b8ec5a67cde7
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/kXiioJHUDR5gNyrj0XMPpSaV9jz.jpg",The Warrant Breakers Law  (2024) BluRay 720pRip [4.5]
@@ -62,8 +79,6 @@ acestream://f89d74652f6b3ca0e96d1e816172c6c9bfac9596
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/nJCP1ZNTPKlZ7S0Kv3gbmuraAT4.jpg",Noche de paz  (2024) BluRay 1080Rip [6.2]
 acestream://d6dd4a0b811fcbd22eac72a640012a08ed5a6027
 
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/7lTnXOy0iNtBAdRP3TZvaKJ77F6.jpg",Aquaman y el reino perdido  (2024) BluRay 1080Rip [7.0]
-acestream://9fd471cdf88b5dbded3f62ae342b14427c082bdf
 
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/gKh28PVUqt1vY2oAdFlauXkDacW.jpg",El viaje de Rickey Hill  (2024) BluRay Rip [7.0]
 acestream://3ee22ce297989566a38e3b0b441eb3dbbbc7c3fc

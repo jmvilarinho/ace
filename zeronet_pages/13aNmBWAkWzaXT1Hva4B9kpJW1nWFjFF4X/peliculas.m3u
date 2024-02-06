@@ -1,6 +1,30 @@
 #EXTM3U
 
 
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/1vdhF6UQn1jHiVy9xEBsXmqywpm.jpg",Alegria (2024) BluRay Rip []
+acestream://207179fb58dc97967c1a091029f70a77d10cf2bd
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/1vdhF6UQn1jHiVy9xEBsXmqywpm.jpg",Alegria (2024) BluRay 720pRip []
+acestream://e612f5161075ea2a9a1309a74861870645d10cd2
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/zYt35YGKoc85LXULzMKDfJ8qX1C.jpg",Aporia (2024) BluRay Rip [6.3]
+acestream://a0b07ec4d8c299480526a6e36b8ff3c0dd1d0c1c
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/zYt35YGKoc85LXULzMKDfJ8qX1C.jpg",Aporia (2024) BluRay 720pRip [6.3]
+acestream://e823d735939ae1aa41f4076d8fbbfe34ff027352
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/zYt35YGKoc85LXULzMKDfJ8qX1C.jpg",Aporia (2024) BluRay 1080Rip [6.3]
+acestream://079b01967cd6c60b853839bb48c71d60ce14a83d
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/tcnYHu131GJsme6Lgn5HQ9OWqTt.jpg",Robot Dreams (2024) BluRay 720pRip [7.2]
+acestream://fd1746e459ab76228f8dc6f30f8109ee5868a7f1
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/tcnYHu131GJsme6Lgn5HQ9OWqTt.jpg",Robot Dreams (2024) Web dl Hd 1080p  [7.2]
+acestream://3f712d6f6b3b4676e04967c96f05eb5e6eb713b6
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/bJYYpb3dQUgJOavKUk8lkBFQhCS.jpg",La generacion capsula (2024) BluRay Rip [6.0]
+acestream://1705b0c3f0f341993307e20de1596af4ae0b329b
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/bJYYpb3dQUgJOavKUk8lkBFQhCS.jpg",La generacion capsula (2024) BluRay 720pRip [6.0]
+acestream://83d78a978cf6a03b3cbf172867eef90a8f7e1596
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/bJYYpb3dQUgJOavKUk8lkBFQhCS.jpg",La generacion capsula (2024) BluRay 1080Rip [6.0]
+acestream://9a9514ae6a3364a8040eca842ed74c59d44a4bc4
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/yOANMJCxkjFoVULGp6QJZCF9div.jpg",Los guardianes de la formula  (2024) BluRay Rip [6.5]
 acestream://36ddb99410edacfec6401c2bfc1559939deeed45
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/yOANMJCxkjFoVULGp6QJZCF9div.jpg",Los guardianes de la formula  (2024) BluRay 720pRip [6.5]

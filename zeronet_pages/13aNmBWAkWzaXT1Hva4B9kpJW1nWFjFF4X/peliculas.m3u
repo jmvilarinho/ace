@@ -1,5 +1,16 @@
 #EXTM3U
 
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/9v7e4WvlEY4JnO62OEuw3zllmAP.jpg",Ceniza  (2024) BluRay Rip [6.5]
+acestream://809eeb4fb4b35d15f5922f2bec6601060994c673
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/9v7e4WvlEY4JnO62OEuw3zllmAP.jpg",Ceniza  (2024) BluRay 720pRip [6.5]
+acestream://27516e68c94c64a68f3b7b1f2d04b3d57b1b7f80
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/qj23sVNyKeFf4N03DtU8tm7td8T.jpg",Juego prohibido (2024) BluRay Rip [6.0]
+acestream://8d452954b98b51f652785c2d9a41e0961e1aaec4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/qj23sVNyKeFf4N03DtU8tm7td8T.jpg",Juego prohibido (2024) BluRay 720pRip [6.0]
+acestream://30f679868140a93a5f857b79308240ddef6bd109
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/qj23sVNyKeFf4N03DtU8tm7td8T.jpg",Juego prohibido (2024) BluRay 1080Rip [6.0]
+acestream://784efe706960db5a9461b3796c9445386f4cc4c8
 
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/57MFWGHarg9jid7yfDTka4RmcMU.jpg",American Fiction (2024) BluRay Rip [7.2]
 acestream://d1fe49c219689e8ca4d25559bfe9171131e0c6f5

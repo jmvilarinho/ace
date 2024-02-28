@@ -76,6 +76,8 @@ https://i.mjh.nz/SamsungTVPlus/ESBD800004KU.m3u8
 https://i.mjh.nz/SamsungTVPlus/ESBC4100001NZ.m3u8
 #EXTINF:-1 channel-id="samsung-ESBC4100002AG" tvg-id="ESBC4100002AG" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC4100002AG_20221109T010944SQUARE.png_20221109010944.png" tvg-chno="4105" group-title="Samsung TV" , La 2
 https://i.mjh.nz/SamsungTVPlus/ESBC4100002AG.m3u8
+#EXTINF:-1 channel-id="samsung-ESBD3000002GP" tvg-id="ESBD3000002GP" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD3000002GP_20240228T030552SQUARE.png_20240228030553.png" tvg-chno="4107" group-title="Samsung TV" , Canal Sur Andalucía
+https://i.mjh.nz/SamsungTVPlus/ESBD3000002GP.m3u8
 #EXTINF:-1 channel-id="samsung-ESBD1300004IG" tvg-id="ESBD1300004IG" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD1300004IG_20231115T012149SQUARE.png_20231115012149.png" tvg-chno="4108" group-title="Samsung TV" , Azteca Internacional
 https://i.mjh.nz/SamsungTVPlus/ESBD1300004IG.m3u8
 #EXTINF:-1 channel-id="samsung-ESAJ3800003LX" tvg-id="ESAJ3800003LX" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESAJ3800003LX_20221026T004500SQUARE.png_20221026004501.png" tvg-chno="4110" group-title="Samsung TV" , MTV Catfish
@@ -212,6 +214,8 @@ https://i.mjh.nz/SamsungTVPlus/ESBC4100003WE.m3u8
 https://i.mjh.nz/SamsungTVPlus/ESBD130000205.m3u8
 #EXTINF:-1 channel-id="samsung-ESBA3300028OE" tvg-id="ESBA3300028OE" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBA3300028OE_20220914T041141SQUARE.png_20220914041142.png" tvg-chno="4607" group-title="Samsung TV" , iCarly
 https://i.mjh.nz/SamsungTVPlus/ESBA3300028OE.m3u8
+#EXTINF:-1 channel-id="samsung-ESBD1400002W4" tvg-id="ESBD1400002W4" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD1400002W4_20240228T030529SQUARE.png_20240228030530.png" tvg-chno="4608" group-title="Samsung TV" , Peter Rabbit
+https://i.mjh.nz/SamsungTVPlus/ESBD1400002W4.m3u8
 #EXTINF:-1 channel-id="samsung-ESBD5100001G0" tvg-id="ESBD5100001G0" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD5100001G0_20240214T035702SQUARE.png_20240214035703.png" tvg-chno="4613" group-title="Samsung TV" , SuperToons TV
 https://i.mjh.nz/SamsungTVPlus/ESBD5100001G0.m3u8
 #EXTINF:-1 channel-id="samsung-ESBA3300017FA" tvg-id="ESBA3300017FA" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBA3300017FA_20240117T032708SQUARE.png_20240117032709.png" tvg-chno="4615" group-title="Samsung TV" , Familiares - Rakuten TV

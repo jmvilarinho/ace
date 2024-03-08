@@ -1,12 +1,35 @@
 #EXTM3U
 
-
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/7O4iVfOMQmdCSxhOg1WnzG1AgYT.jpg",Shogun 1x01 (2024) BluRay Rip [9.0]
 acestream://565548def0f450d1a15bcbef80bf1a782288267f
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/7O4iVfOMQmdCSxhOg1WnzG1AgYT.jpg",Shogun 1x02 (2024) BluRay Rip [9.0]
 acestream://e8bd58d2f5e972b483f1c1ae837b606833541dd5
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/7O4iVfOMQmdCSxhOg1WnzG1AgYT.jpg",Shogun 1x03 (2024) BluRay Rip [9.0]
 acestream://6e88ff5c0188acdd5e397d148242a35d53775ee7
+
+
+
+
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xN293BKB0MDqpILmLCtGGYxQXKW.jpg",The Old Oak (2024) BluRay Rip [7.3]
+acestream://4e571f659f542355ed316525fbbfbbba4effd099
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xN293BKB0MDqpILmLCtGGYxQXKW.jpg",The Old Oak (2024) Web dl Hd 1080p  [7.3]
+acestream://1897f1149ddf7a21861509a3f1af34340e607ca0
+
+#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/yjTQ8Rdg2vjZum8MU9h6iZsJj6y.jpg",Ricky Stanicky (2024) BluRay Rip [5.8]
+acestream://e70d95961798288bb06ccc67a1c83aea8221fddf
+
+#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/yjTQ8Rdg2vjZum8MU9h6iZsJj6y.jpg",Ricky Stanicky (2024) Web dl Hd 1080p  [5.8]
+acestream://16993e56598b79874ba2c0fe7594dd7dc39133ef
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/slQYCDzCMM8SBh9Xa3aPeM2fekA.jpg",Venganza en Las Vegas (2024) Web dl Hd 1080p  [4.7]
+acestream://0cb245e2cd0b1e5e08f61aba0e068b21f3400d02
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/koD3jv3905vzMCT0VLH7UOVxYGo.jpg",El maestro que prometió el mar  (2024) Web dl Hd 1080p  [7.6]
+acestream://8f878be27563fcc02faf859998b0de3d39ab95c4
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/oEYEJXSVDzCCDzTu59S1USAuqBQ.jpg",Peppergrass (2024) Web dl Hd 1080p  [5.0]
+acestream://54e53a406d484877167a248638490df4918d0f6e
 
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/4GcHmPzHGC1d4gTsUxdjr5RBjFU.jpg",Joven para siempre Choeur de rockers  (2024) BluRay Rip [5.6]
 acestream://4fe7f684e415e008b4d92ce5a15e7c12b1214b1a
@@ -10083,82 +10106,9 @@ acestream://fffe246045643ceb0bfda46225d53a30625f383f
 acestream://dd55afb37406885034f1bf83950a1e37983a86e4
 #EXTINF:-1 tvg-logo="https://decine21.com/img/upload/obras/inmune-42778/src/inmune-42778-c.jpg", Inmune(2020)                                                     
 acestream://8a879dddc0f32c9adb3e21e5b90fffb5c4b4c349
-#EXTINF:-1 tvg-logo="https://decine21.com/img/upload/obras/madame-curie-42024/src/madame-curie-42024-c.jpg", Madame Curie(2019)                                           
-acestream://e0e3bf83bb5e8757d7b3c2d572297592f4654694
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BNTVjOGFhY2UtNDg5ZS00NTA2LTgxMWMtMDU0NDVhZjNhZWVmXkEyXkFqcGdeQXVyMTA0MjU0Ng@@._V1_FMjpg_UX1000_.jpg", Čxode(2019)                                                          
-acestream://255761f3b691ebeaa185c60201bae5c827853f9d
-#EXTINF:-1 tvg-logo="https://www.dcine.org/sites/default/files/carteles/the-furies.jpg", Las furias(The furies)(2019)                            
-acestream://f65f1cc49c8438c20a1e16b2904ca5443fc720a0
-#EXTINF:-1 tvg-logo="https://decine21.com/img/upload/obras/la-liga-de-la-justicia-de-zack-snyder-43459/src/la-liga-de-la-justicia-de-zack-snyder-43459-c.jpg", La Liga de la Justicia de Zack Snyder(2021)                                                                             
-acestream://62155011529c1af3fce93da333560c0b80fbaf65
-#EXTINF:-1 tvg-logo="https://decine21.com/img/upload/obras/nekrotronic-41803/src/nekrotronic-41803-c.jpg", Nekrotronic(2018)                                              
-acestream://aa6f728755c36644c6ce2659667a9303d9b25604
-#EXTINF:-1 tvg-logo="https://decine21.com/img/upload/obras/come-away-38842/src/come-away-38842-c.jpg", Érase una vez...(2020)                                     
-acestream://730d9563548d6c68a93a5122cced33b9cdce2d12
-#EXTINF:-1 tvg-logo="https://decine21.com/img/upload/obras/mas-locos-que-una-cabra-43421/src/mas-locos-que-una-cabra-43421-c.jpg", Más loco que una cabra(2021)                       
-acestream://f0284ed94cc3ae44da05df1841eacf1185920671
-#EXTINF:-1 tvg-logo="https://decine21.com/img/upload/obras/the-ground-beneath-my-feet-39489/src/the-ground-beneath-my-feet-39489-c.jpg", The Ground Beneath My Feet(2019)                     
-acestream://be09503297029a95234a55a65a567cff7092d611
-#EXTINF:-1 tvg-logo="https://decine21.com/img/upload/obras/judas-and-the-black-messiah-43003/src/judas-and-the-black-messiah-43003-c.jpg", Judas and the Black Messiah(2021)                    
-acestream://020d507872104fc5a842e065eabfbb08e18b116
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/I/91S9JEe7jYL._SL1500_.jpg", Party Hard Die Young(2018)                              
-acestream://275270f1b9ca93eaf1396ac25cf1cac87391e2b5
-#EXTINF:-1 tvg-logo="https://decine21.com/img/upload/obras/de-gaulle-41119/src/de-gaulle-41119-c.jpg", De Gaulle(2020)                                               
-acestream://239dfb8df7c0e49fa0e7e1ca746e03b44f7b3da1
-#EXTINF:-1 tvg-logo="https://http2.mlstatic.com/D_NQ_NP_985252-MLA43403143116_092020-O.webp", Atrapado en Grand Isle (2019)                            
-acestream://90d3856cc7d547e1e2392128b437f606011a1231
-#EXTINF:-1 tvg-logo="https://1.bp.blogspot.com/-CxNB2JTZsg0/X0ygGxwT19I/AAAAAAAAaoA/9eMQd8bHIB8jx7sTAzs1_ErLu77WeyRzwCLcBGAsYHQ/s1600/the-block-island-sound-poster.jpg", The Block Island Sound(2020)                       
-acestream://4685ac57c1003f63cb6018c00f3723f34ffec616
-#EXTINF:-1 tvg-logo="https://r1.abcimg.es/resizer/resizer.php?imagen=https%3A%2F%2Fstatic4.abc.es%2Fmedia%2Fpeliculas%2F000%2F057%2F723%2Fsin-rumbo-1.jpg&nuevoancho=620&medio=abc", Sin rumbo(2020)                                             
-acestream://61068adf878cbc286107754032e6c41cd3c98752
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BZTVkOTk5MDItYmNjZS00YjMxLWFkODktNmUzNDE0YzBkZTM0XkEyXkFqcGdeQXVyMjM5MDI4MzI@._V1_FMjpg_UX1000_.jpg", Vicious Fun(2020)                                              
-acestream://74998e3e460cf0b145c831b5ee635b6bece45c68
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BN2U5ZTE0OGItNzQyZi00NWFlLWI2ZmYtYjUyODA2MDY5Njg4XkEyXkFqcGdeQXVyNDgyNzAxMzY@._V1_.jpg", Los sueńos de Heaven                                    
-acestream://a0529df6b41eb66dc4461f9ab7839514ded3fdf6
-#EXTINF:-1 tvg-logo="https://decine21.com/img/upload/obras/las-espias-de-churchill-43441/src/las-espias-de-churchill-43441-c.jpg", Las espías de Churchill(2019)                        
-acestream://e2643b2c56fc70f86ee7cde03df0bfaccb1723b2
-#EXTINF:-1 tvg-logo="https://decine21.com/img/upload/obras/infiel-y-seductor-43407/src/infiel-y-seductor-43407-c.jpg", Infiel y seductor(2019)                                      
-acestream://e4c4587b6287aab893b3ff891c20a0ccb849aac6
-#EXTINF:-1 tvg-logo="https://decine21.com/img/upload/obras/purity-falls-43037/src/purity-falls-43037-c.jpg", Seducción y engańo(2019)                               
-acestream://f15b8383366a2d94c08b58278ef46b508b340a0b
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BZjM2NjU4YTMtOGY1OS00MDkwLTk0NDctYjU5OWE3MTMwMDc2XkEyXkFqcGdeQXVyMzE2ODIxNA@@._V1_.jpg", Les ondes du souvenir(2020)                          
-acestream://27c1c141b10af8d88e4963cee864bfe107e26e4e
-#EXTINF:-1 tvg-logo="https://decine21.com/img/upload/obras/los-pequenos-detalles-42894/src/los-pequenos-detalles-42894-c.jpg", Pequeńos detalles(2021)                                    
-acestream://120ac952571433954106cb459369f67f789680bf
-#EXTINF:-1 tvg-logo="https://decine21.com/img/upload/obras/los-secretos-que-ocultamos-43338/src/los-secretos-que-ocultamos-43338-c.jpg", Los secretos que ocultamos(2020)                      
-acestream://e857938d5b0190b1254b71733fc273604ba6c4f6
-#EXTINF:-1 tvg-logo="https://decine21.com/img/upload/obras/el-dia-que-todo-cambio-43510/src/el-dia-que-todo-cambio-43510-c.jpg", El día que todo cambió(2020)                                
-acestream://58a1f06dd8a601fa7462876e2c4de4392ddad765
-#EXTINF:-1 tvg-logo="https://decine21.com/img/upload/obras/undine-41563/src/undine-41563-c.jpg", Ondina. Un amor para siempre(2020)                      
-acestream://61c4b162c58427706772ced250b7fce66edf7152
-#EXTINF:-1 tvg-logo="https://decine21.com/img/upload/obras/shirley-visions-of-reality/src/shirley-visions-of-reality-c.jpg", Shirley(2020)                                                        
-acestream://676da5d02b9d600ce3ece3223486427d7b5531f1
-#EXTINF:-1 tvg-logo="https://decine21.com/img/upload/obras/vidas-de-papel-43403/src/vidas-de-papel-43403-c.jpg", Vidas de papel(2021)                                                      
-acestream://2339f7cd194164628c675413bf63fe399f40bb97
-#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/811PXZSa-qL._RI_.jpg", Uncle Peckerhead(2020)                                   
-acestream://9f03dd2f7896ec8d10a2603206ab86eee3f3ff8f
-#EXTINF:-1 tvg-logo="https://decine21.com/img/upload/obras/centinela-43331/src/centinela-43331-c.jpg", Centinela(2021)                                                
-acestream://2feaafeb13e38cb3256e4066eef2584fc8ba5b4e
-#EXTINF:-1 tvg-logo="https://decine21.com/img/upload/obras/mas-alla-de-la-mentira-41626/src/mas-alla-de-la-mentira-41626-c.jpg", Más allá de la mentira(2019)                             
-acestream://a916490d4898ce4673cf0907319dae8d8ef0f3ec
-#EXTINF:-1 tvg-logo="https://decine21.com/img/upload/obras/the-golden-glove-39490/src/the-golden-glove-39490-c.jpg", El monstruo de St. Pauli(2019)                         
-acestream://053e3f25e71a7ec4131b279d787d0432b6584860
-#EXTINF:-1 tvg-logo="https://decine21.com/img/upload/obras/shadow-in-the-cloud-42452/src/shadow-in-the-cloud-42452-c.jpg", Pasajero oculto(2020)                                       
-acestream://dc077d0b5faadb4b2e2b45a17c787035bf15ac52
-#EXTINF:-1 tvg-logo="https://decine21.com/img/upload/obras/el-club-de-los-divorciados-42441/src/el-club-de-los-divorciados-42441-c.jpg", El club de los divorciados(2020)                      
-acestream://7130bb5ded3e545ac2955d684412d93b8873edc9
-#EXTINF:-1 tvg-logo="https://decine21.com/img/upload/obras/baby-42563/src/baby-42563-c.jpg", Baby(2020)                                                       
-acestream://3448b7b3fb9037ec54677f6581d41f5219ee1c25
-#EXTINF:-1 tvg-logo="https://static.abc.es/media/peliculas/000/057/539/first-light-1.jpg", First Light(2018)                                               
-acestream://fb0ffb3a086c5428e7ceffa7036538f9cfcfed50
-#EXTINF:-1 tvg-logo="https://decine21.com/img/upload/obras/enjambre-42678/src/enjambre-42678-c.jpg", Enjambre(2020)                                                  
-acestream://8c1d2938c50fb0a0d9cd42f8a7ef04783e5a9e49
-#EXTINF:-1 tvg-logo="https://decine21.com/img/upload/obras/l-incroyable-histoire-du-facteur-cheval-40364/src/l-incroyable-histoire-du-facteur-cheval-40364-c.jpg", El palacio ideal(2018)                                      
-acestream://eb18b861ab73d02c51d9d2c045a7c32d0c0112d1
-#EXTINF:-1 tvg-logo="https://decine21.com/img/upload/obras/en-el-lugar-equivocado-43196/src/en-el-lugar-equivocado-43196-c.jpg", En el lugar equivocado(2020)                           
-acestream://c29db78e55cd69a331340a8eeb73329f3e647f11
-#EXTINF:-1 tvg-logo="https://static.digit.in/OTT/v2/images/tr:w-1200/hacker-81072.jpg", Secreto de estado(2018)                                  
-acestream://de047f30a05856e68378fdf640ea2a5b77d02634
+
+
+
 
 
 

@@ -1,6 +1,12 @@
 #EXTM3U url-tvg="https://raw.githubusercontent.com/davidmuma/EPG_dobleM/master/guiatv.xml"
-#EXTINF:-1 group-title="1. Eventos del momento" tvg-logo="https://i.postimg.cc/s2gsRzz5/acestream.png" ,Evento #1 (NADAL VS ALCARAZ)
+#EXTINF:-1 group-title="1. Eventos PPV" tvg-logo="https://i.postimg.cc/s2gsRzz5/acestream.png" ,Evento PPV #1
 acestream://600222a4f98df80a2c0df2d60cb5ff3df9620710
+#EXTINF:-1 group-title="1. Eventos PPV" tvg-logo="https://i.postimg.cc/s2gsRzz5/acestream.png" ,Evento PPV #2
+acestream://d6cdd724a97fcf851e7ef641c28d6beb8663496e
+#EXTINF:-1 group-title="1. Eventos PPV" tvg-logo="https://i.postimg.cc/s2gsRzz5/acestream.png" ,Evento PPV #3
+acestream://162942adc047d0f78eac056effbe5bbec54a5e51
+#EXTINF:-1 group-title="1. Eventos PPV" tvg-logo="https://i.postimg.cc/s2gsRzz5/acestream.png" ,Evento PPV #4
+acestream://e454681a152a86da504e63694f17f90d0586867d
 #EXTINF:-1 group-title="Póker" tvg-logo="https://i.postimg.cc/50DjbRZn/wpt.png" tvg-name="" ,World Poker Tour Español
 http://185.71.66.13:2052/ESPT/NV7nR87n4afv/241590
 #EXTINF:-1 group-title="Series 24h" tvg-logo="https://i.postimg.cc/tgqmkKvV/anhqv.png" ,Aquí no hay quien viva
@@ -93,8 +99,6 @@ http://185.233.16.53:80/play/vi0111820/EcQ$PHt4tB/595409.ts
 http://185.233.16.53:80/play/vi0111820/EcQ$PHt4tB/595410.ts
 #EXTINF:-1 group-title="DAZN" tvg-id="DAZN 1 HD" tvg-logo="https://img.sport-tv-guide.live/images/tv-station-dazn-1-es-2510.png" ,DAZN 1 1080*
 acestream://8ca07071b39185431f8e940ec98d1add9e561639
-#EXTINF:-1 group-title="DAZN" tvg-id="DAZN 1 HD" tvg-logo="https://img.sport-tv-guide.live/images/tv-station-dazn-1-es-2510.png" ,DAZN 1 1080 (web)
-acestream://d5b2c6b940cf3df5e8f9dc6f000f0ea23a10b151
 #EXTINF:-1 group-title="DAZN" tvg-id="DAZN 1 HD" tvg-logo="https://img.sport-tv-guide.live/images/tv-station-dazn-1-es-2510.png" ,DAZN 1 1080 IPTV (02)
 http://37.49.225.107:8080/14e17190/e84b5c0d6a/64711
 #EXTINF:-1 group-title="DAZN" tvg-id="DAZN 1 HD" tvg-logo="https://img.sport-tv-guide.live/images/tv-station-dazn-1-es-2510.png" ,DAZN 1 1080 IPTV (03)
@@ -289,8 +293,6 @@ acestream://5789ca155323664edd293b848606688edf803f4d
 acestream://9dad717d99b29a05672166258a77c25b57713dd5
 #EXTINF:-1 group-title="DAZN F1" tvg-id="DAZN F1 HD" tvg-logo="https://img.sport-tv-guide.live/images/tv-station-dazn-formula-1-366.png" ,DAZN F1 1080 (web)
 acestream://d65257bb934b73647374224fd62d836815804be2
-#EXTINF:-1 group-title="DAZN F1/ SKY F1 / F1TV" tvg-id="DAZN F1 4K" tvg-logo="https://i.postimg.cc/d3S50qPM/daznf14k.png" ,DAZN F1 4K
-acestream://6b94479c24898700089e6b87d28a3ccc72dc4041
 #EXTINF:-1 group-title="DAZN F1/ SKY F1 / F1TV" tvg-id="DAZN F1 4K" tvg-logo="https://i.postimg.cc/d3S50qPM/daznf14k.png" ,DAZN F1 4K (EP)
 acestream://c021e3af42b9cd3743817a2c6258e0986666dd73
 #EXTINF:-1 group-title="DAZN F1/ SKY F1 / F1TV" tvg-id="DAZN F1 HD" tvg-logo="https://img.sport-tv-guide.live/images/tv-station-dazn-formula-1-366.png" ,DAZN F1 1080 Multicámara (Solo evento)
@@ -1085,8 +1087,6 @@ acestream://1969c27658d4c8333ab2c0670802546121a774a5
 acestream://cc9b7f5fe416069a2110da0909b0f915043c468b
 #EXTINF:-1 group-title="M+ LaLiga" tvg-id="M+ LaLiga TV UHD" tvg-logo="https://i.postimg.cc/qMF1nM6k/ligauhd.png" ,M+ LaLigaTV 4K (Solo evento)
 acestream://8286183314d367940409b760bbf887f3fb923f60
-#EXTINF:-1 group-title="M+ LaLiga" tvg-id="M+ LaLiga TV UHD" tvg-logo="https://i.postimg.cc/qMF1nM6k/ligauhd.png" ,M+ LaLigaTV 4K (Solo evento) (EP)
-acestream://dce1579e3a2e5bd29071fca8eae364f1eb3205cf
 #EXTINF:-1 group-title="M+ LaLiga" tvg-id="M+ LaLiga TV UHD" tvg-logo="https://i.postimg.cc/qMF1nM6k/ligauhd.png" ,M+ LaLigaTV 4K (Solo evento) (A**x)
 acestream://aec6e3384c22d3ed1e1d1cdcbc9855379049487b
 #EXTINF:-1 group-title="M+ LaLiga" tvg-id="M+ LaLiga TV HD" tvg-logo="https://i.postimg.cc/GpCJJBL1/liga1.png" ,M+ LaLigaTV 1080 multiaudio (Temp)

@@ -1,6 +1,5 @@
 #EXTM3U
 
-
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/7O4iVfOMQmdCSxhOg1WnzG1AgYT.jpg",Shogun 1x01 (2024) BluRay Rip [9.0]
 acestream://565548def0f450d1a15bcbef80bf1a782288267f
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/7O4iVfOMQmdCSxhOg1WnzG1AgYT.jpg",Shogun 1x02 (2024) BluRay Rip [9.0]
@@ -9,7 +8,97 @@ acestream://e8bd58d2f5e972b483f1c1ae837b606833541dd5
 acestream://6e88ff5c0188acdd5e397d148242a35d53775ee7
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/7O4iVfOMQmdCSxhOg1WnzG1AgYT.jpg",Shogun 1x04 (2024) BluRay Rip [9.0]
 acestream://6cff4b0d5d1c5f09cd7e87670a2a5404fcb1d304
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/7O4iVfOMQmdCSxhOg1WnzG1AgYT.jpg",Shogun 1x05 (2024) BluRay Rip [9.0]
+acestream://46c0f0280f16b2e697402e84105ff1baa1a1dfb9
 
+
+
+
+#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/lXJK3E3EPcT2i7mev2ilHlTIvTR.jpg",Road House (2024) BluRay 720p [7.2*]
+acestream://9ce486bd3ebb32872cf7b512c1a76c9c6d82debe
+#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/lXJK3E3EPcT2i7mev2ilHlTIvTR.jpg",Road House (2024) BluRay 1080p [7.2*]
+acestream://80f958a74829d3151708104261cff1027d4f7dd9
+#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/lXJK3E3EPcT2i7mev2ilHlTIvTR.jpg",Road House (2024) BluRay 4k 2160P [7.2*]
+acestream://351cbab22183ea21abb387cb150e0630e1157ba7
+
+#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/w2C71E6VKt3GTKidkBSKkmhZYtC.jpg",Llego a mí (2023) BluRay 720p [6.0*]
+acestream://ccd067b757f3855677f8c1b95eff9a096a45f0c7
+#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/w2C71E6VKt3GTKidkBSKkmhZYtC.jpg",Llego a mí (2023) BluRay 1080p [6.0*]
+acestream://c4cd71aa57d61152d16bb6f414a60fc658f94773
+
+#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/xGhe9QsHJo1xMU9PgWNDstSwrYW.jpg",Teresa (2023) BluRay Rip [6.6*]
+acestream://978f2bbdac09166c33955ebdbcbd090d90517462
+#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/xGhe9QsHJo1xMU9PgWNDstSwrYW.jpg",Teresa (2023) BluRay 720p [6.6*]
+acestream://884f3933637bc5400df130a2011ecdf151f0127f
+
+#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/nQebhPtuFAP7VOe8j0nzM4aHq79.jpg",Shirley (2024) BluRay Rip [7.3*]
+acestream://c2d6198edfea95c70344635304aa21e8627f9aa1
+#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/nQebhPtuFAP7VOe8j0nzM4aHq79.jpg",Shirley (2024) BluRay 720p [7.3*]
+acestream://d2ae4a42cb8a9dc17e47746bc399fa429b072dbf
+
+#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/A5muc6PtApC9ubfmJW3ADRnIIfi.jpg",Contagio de miedo (2024) BluRay Rip [6.6*]
+acestream://6d50ffed7e9cc9406903d362346d8fe5d9636938
+#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/A5muc6PtApC9ubfmJW3ADRnIIfi.jpg",Contagio de miedo (2024) BluRay 720p [6.6*]
+acestream://bcbc77f452c33bea0536918fc7855f5e34417c10
+
+#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/niif2QNVoanNaJwnAfgAOkkleT0.jpg",Buscando a Pauline (2023) BluRay Rip [6.6*]
+acestream://718ae678ce167e4f4fce37a78e45f066e314702e
+#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/niif2QNVoanNaJwnAfgAOkkleT0.jpg",Buscando a Pauline (2023) BluRay 720p [6.6*]
+acestream://cd3799ef64f2629c124ed0dba2b9eec5f24e19a4
+#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/niif2QNVoanNaJwnAfgAOkkleT0.jpg",Buscando a Pauline (2023) BluRay 1080p [6.6*]
+acestream://9b567b1f88041ca7e37d3873167397f68ffa560c
+#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/niif2QNVoanNaJwnAfgAOkkleT0.jpg",Buscando a Pauline (2023) BluRay 1080p [6.6*]
+acestream://8095ab192fadeb99f3e26216c8699c9519153e12
+
+#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/196UozS7bV3QDLIkP8Ztwk5HDKH.jpg",Las Cicladas (2023) BluRay Rip [6.1*]
+acestream://164113b869eca1f1b2b2c5739984de87f46d68af
+#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/196UozS7bV3QDLIkP8Ztwk5HDKH.jpg",Las Cicladas (2023) BluRay 720p [6.1*]
+acestream://38b69b9bf998aa6d9b13557a001773990d317b97
+#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/196UozS7bV3QDLIkP8Ztwk5HDKH.jpg",Las Cicladas (2023) BluRay 1080p [6.1*]
+acestream://b6885b8019bede4cd4e067ab30b4b29a06142d5b
+
+#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/fhAJkn9x9PUsWFPtkQ51DFCZqq4.jpg",La Navidad en sus manos (2023) BluRay Rip [6.0*]
+acestream://b0b8f67a9725513d1ed43716359586458f7c32c5
+#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/fhAJkn9x9PUsWFPtkQ51DFCZqq4.jpg",La Navidad en sus manos (2023) BluRay 720p [6.0*]
+acestream://e6bc2cb215fe3fd9259e58f0b5f9017eacd76c87
+#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/fhAJkn9x9PUsWFPtkQ51DFCZqq4.jpg",La Navidad en sus manos (2023) BluRay 1080p [6.0*]
+acestream://76c2746d29a7c44111ffde1a8750be20225a5e00
+
+#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/fgVHJRMDp1d8kca2Lgg8ufUU6sX.jpg",Con los pies en la tierra (2023) BluRay Rip [7.3*]
+acestream://d2412a39dae537326472350c0881afc219212920
+#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/fgVHJRMDp1d8kca2Lgg8ufUU6sX.jpg",Con los pies en la tierra (2023) BluRay 720p [7.3*]
+acestream://7282d71a00a929c6489da8fc9a24634fe7c89cbf
+#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/fgVHJRMDp1d8kca2Lgg8ufUU6sX.jpg",Con los pies en la tierra (2023) BluRay 1080p [7.3*]
+acestream://7200f597510fd1536b79e56bd2d04c07c4fd880e
+
+#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/hPOFajv8ytZUq0fTurZMjKvi5o4.jpg",Alienoid Parte 1 (2022) BluRay Rip [7.2*]
+acestream://12d677534089cbc4341012cb22e58358d6792493
+#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/hPOFajv8ytZUq0fTurZMjKvi5o4.jpg",Alienoid Parte 1 (2022) BluRay 720p [7.2*]
+acestream://aed14e41159dec32dcff00205bf9d5c2634d5200
+#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/hPOFajv8ytZUq0fTurZMjKvi5o4.jpg",Alienoid Parte 1 (2022) BluRay 1080p [7.2*]
+acestream://0cdf88d0cc9eea8fdac948ef37a5e96ec3ea1a48
+#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/hPOFajv8ytZUq0fTurZMjKvi5o4.jpg",Alienoid Parte 1 (2022) BluRay 1080p [7.2*]
+acestream://25a87ead900d8289358c701857e15792461029fd
+#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/hPOFajv8ytZUq0fTurZMjKvi5o4.jpg",Alienoid Parte 1 (2022) BluRay 4k 2160P [7.2*]
+acestream://7c9c332568e3338217869d3a136ac76a746ae62a
+
+#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/sRvd39S4BzRhGqC1Xp2DTOgg1nS.jpg",Bob Marley: One Love (2024) BluRay Rip [7.0*]
+acestream://faac01e42d4060ac3318fd7b7f64a526c9c991aa
+#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/sRvd39S4BzRhGqC1Xp2DTOgg1nS.jpg",Bob Marley: One Love (2024) BluRay 720p [7.0*]
+acestream://13a5d7600c44341a35b9d5ad12b1b330d43745f0
+#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/sRvd39S4BzRhGqC1Xp2DTOgg1nS.jpg",Bob Marley: One Love (2024) BluRay 1080p [7.0*]
+acestream://911b3de22f021caed39493f897862fe32a842c46
+#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/sRvd39S4BzRhGqC1Xp2DTOgg1nS.jpg",Bob Marley: One Love (2024) BluRay 1080p [7.0*]
+acestream://59f1d84053861ec0cbc2ac9650203dfbc4b1f0e3
+#EXTINF:-1 tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/sRvd39S4BzRhGqC1Xp2DTOgg1nS.jpg",Bob Marley: One Love (2024) BluRay 4k 2160P [7.0*]
+acestream://fad55be159e5fea4b83ca1b27261a77ff9a70e29
+
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/mKWalirPreEdCKDJjc5TKeOP2xi.jpg",Bob Marley One Love  (2024) Web dl Hd 1080p  [6.7]
+acestream://b4be98dabcf747f9431666cf9c2fb69238b859aa
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/jO0wd6MQwuSTd15h8TNJC7WgO4U.jpg",Lan re xing zhe (2024) Web dl Hd 1080p  []
+acestream://9bea375d9bf5f95ac2a779fb7817e4b5095b5de2
 
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/58UKdNFfSSvx8TuecGAzqja3NTZ.jpg",Asesinato en Yellowstone (2024) Web dl Hd 1080p  [5.5]
 acestream://38e78fd38744bb316a853efdac838821b16829af
@@ -9909,69 +9998,6 @@ acestream://cca846b1f846da8a9f2afcf7c8b94584dcbd83d2
 acestream://4c7f2d85879e7106c250d28f32f806518ab22d28
 #EXTINF:-1 tvg-logo="https://elcritico.com.ar/wp-content/uploads/2021/08/kingdom-poster.jpg", Kingdom La Historia de Ashin(2021)
 acestream://4434167e54c212d30b6dff7bcee6d2a58f3a7b62
-#EXTINF:-1 tvg-logo="https://images.moviefit.me/t/o/507019-the-misfits.jpg", Ladrones de Elite(2021)                                 
-acestream://4712c835d22b86cf2aca34670a551ddc667069fe
-#EXTINF:-1 tvg-logo="https://decine21.com/img/upload/obras/burn-36994/src/burn-36994-c.jpg", Burn(2019)                                                   
-acestream://fc10af029d980c57535ee5028351aff64a4cd674
-#EXTINF:-1 tvg-logo="https://decine21.com/img/upload/obras/escapada-al-limite-44137/src/escapada-al-limite-44137-c.jpg", Escapada al límite(2019)                                
-acestream://e7607734581fb559705bb4d0c7ca5fd6bf1f37a6
-#EXTINF:-1 tvg-logo="https://www.movistarplus.es/recorte/n/caratula4/F3925342", Ciudad de asesinos(2020)                                
-acestream://83631227a83b55c2b3d8a6c3b8fad7d1e9eb1bdc
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMDlhZTFlNDAtNzQ4Zi00MzQ3LTkwMWUtNDQxMTk4YmU1Nzk5XkEyXkFqcGdeQXVyMTEyOTQ1OTk4._V1_.jpg", La espía(2019)                                               
-acestream://3267dae09e58d811bb07daf9b60027ab6137ef72
-#EXTINF:-1 tvg-logo="https://decine21.com/img/upload/obras/ven-a-jugar-44416/src/ven-a-jugar-44416-c.jpg", Ven a Jugar(2020)                                          
-acestream://59e5833c9980b413297d1c5c1ad5f9dd711abd62
-#EXTINF:-1 tvg-logo="https://es.web.img3.acsta.net/pictures/15/10/06/10/59/201305.jpg", Rams(2020)                                                    
-acestream://8de9888751f7098c37d164da40f9ce738ad8e5fa
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMTM5MGQzZGItMzE3MS00YzI3LTlmODgtNmNkM2FjN2YzMjQyXkEyXkFqcGdeQXVyNjgzMjQ0MTA@._V1_FMjpg_UX1000_.jpg", Rocks(2020)                                                    
-acestream://8f91808bcbff125adc448e6adabbf9878935ca42
-#EXTINF:-1 tvg-logo="https://decine21.com/img/upload/obras/mas-alla-de-la-onda-expansiva-44016/src/mas-alla-de-la-onda-expansiva-44016-c.jpg", Más allá de la onda expansiva(2020)                   
-acestream://5afbebf1af2297187510c41a7baeb92b77a66446
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BZTIxZjBmZDQtM2ZjZC00OTlmLTg1NzctYWU5MjUxOTRkZjFiXkEyXkFqcGdeQXVyMTEyOTQyNzgy._V1_.jpg", Lucky(2020)                                                  
-acestream://76e2537c73b6f8403ed318da1e4fbb08911c58fc
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMTBmZGQ0YjItODNjZi00MTBlLWFjMDEtZjljNzYwNjlhODhiXkEyXkFqcGdeQXVyMDc3ODUxNg@@._V1_.jpg", L.A. Slasher(2015)                                               
-acestream://076c265657d7dfd1b9e4da0bbb169ca122b984d0
-#EXTINF:-1 tvg-logo="https://de.web.img3.acsta.net/pictures/21/05/27/09/19/3598079.jpg", The Rookies(2019)                                             
-acestream://2da2609552729c908f538c55922848e3054e5633
-#EXTINF:-1 tvg-logo="https://decine21.com/img/upload/obras/american-made-34349/american-made-34349-g1.jpg", El traficante (2021)                                            
-acestream://3c483dce4971c14cd73845b4c148b038496ee29b
-#EXTINF:-1 tvg-logo="https://decine21.com/img/upload/obras/black-mountain-side-40787/src/black-mountain-side-40787-c.jpg", Black Mountain Side(2016)                              
-acestream://51fbbf43308ac54b6d43ccee080a53973c5be406
-#EXTINF:-1 tvg-logo="https://decine21.com/img/upload/obras/la-calle-del-terror-parte-3-1666-43794/src/la-calle-del-terror-parte-3-1666-43794-c.jpg", La calle del terror Parte 3 1666(2021)              
-acestream://04a1eba6ba42f6c96c419075815062c5a9a69536
-#EXTINF:-1 tvg-logo="https://decine21.com/img/upload/obras/urubu-40979/src/urubu-40979-c.jpg", Urubú(2020)                                               
-acestream://b29ede1d469c9b116a160411ab87ec8c8d7f5655
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMTQyMzE5NjE1MF5BMl5BanBnXkFtZTcwOTEyNzAxOQ@@._V1_FMjpg_UX1000_.jpg", Thale(2012)                                                   
-acestream://4756da4b2569e9678a9ad0eaf90f85555a43981b
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/I/81rJHK3W9ZL._SL1500_.jpg", Gates of Darkness(2019)                                
-acestream://b6ad56971e8a00801250364a1e6c621d0876c537
-#EXTINF:-1 tvg-logo="https://decine21.com/img/upload/obras/los-traductores-43140/src/los-traductores-43140-c.jpg", Los traductores(2019)                                  
-acestream://ab3f6541de29cb81f573db8f7a961a6584baf9d4
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BZWZiNzYyOGEtZWQ3ZS00MThiLWI4OGEtZTJiOWJkY2JhOGNlXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_QL75_UY281_CR3,0,190,281_.jpg", Brazo de oro(2021)                                        
-acestream://2970a2de6b681b57e871592eafe6d540dc728fd8
-#EXTINF:-1 tvg-logo="https://nomixto.top/wp-content/uploads/2021/07/Blood-Bags-2018.jpg", Blood Bags(2018)                                            
-acestream://bde8b049a6d96c32e5e9b266d35042e9548b2536
-#EXTINF:-1 tvg-logo="https://decine21.com/img/upload/obras/flashback-44082/src/flashback-44082-c.jpg", Flashback(2021)                                            
-acestream://9a11276cdab72048682386541c855cb8df9bc51b
-#EXTINF:-1 tvg-logo="https://decine21.com/img/upload/obras/the-dig-41281/src/the-dig-41281-c.jpg", La excavación(2021)                                      
-acestream://c6698ee9cbd515caccac7c6209af9d24756d2785
-#EXTINF:-1 tvg-logo="https://i0.wp.com/noescinetodoloquereluce.com/wp-content/uploads/2021/07/que-nadie-se-entere-poster.jpg?fit=405%2C600&ssl=1", Que nadie se entere(2020)                         
-acestream://9f4d5afd54090b99b5cdd66b6c6f884872201473
-#EXTINF:-1 tvg-logo="https://decine21.com/img/upload/obras/una-joven-prometedora-42796/src/una-joven-prometedora-42796-c.jpg", Una joven prometedora (2020)                      
-acestream://726179fd5adff5311d41410cbaa8de436ae542db
-#EXTINF:-1 tvg-logo="https://decine21.com/img/upload/obras/wild-mountain-thyme-41118/src/wild-mountain-thyme-41118-c.jpg", Una canción irlandesa(2020)                         
-acestream://0176a561241c5a838d39dd7b752433fb6b0e48bd
-#EXTINF:-1 tvg-logo="https://decine21.com/img/upload/obras/favolacce-41556/src/favolacce-41556-c.jpg", Queridos vecinos(2020)                                  
-acestream://e4aa8e270e4b080dbcaa53970d26b8d0e5e341d9
-#EXTINF:-1 tvg-logo="https://decine21.com/img/upload/obras/the-witches-40563/src/the-witches-40563-c.jpg", Las brujas (de Roald Dahl)(2020)                      
-acestream://b7175cb551465047b171bb8475594d1a5448d10c
-#EXTINF:-1 tvg-logo="https://decine21.com/img/upload/obras/el-lobo-de-snow-hollow-44149/src/el-lobo-de-snow-hollow-44149-c.jpg", El lobo de Snow Hollow(2020)                                
-acestream://037cdf3a42ddef51817ea192e0ed19d8d62912e5
-#EXTINF:-1 tvg-logo="https://decine21.com/img/upload/obras/viuda-negra-41194/src/viuda-negra-41194-c.jpg", Viuda negra(2021)                                       
-acestream://9bc29cb9ffcfc5a1919fab04759f947f5f66f917
-#EXTINF:-1 tvg-logo="https://decine21.com/img/upload/obras/la-calle-del-terror-parte-2-1978-43793/src/la-calle-del-terror-parte-2-1978-43793-c.jpg", La calle del terror Parte 2 1978(2021)            
-acestream://13145d1e9a8be2cfa0cdc75b7b8b823a69dafe76
-#EXTINF:-1 tvg-logo="https://decine21.com/img/upload/obras/igor-grom-contra-el-doctor-peste-44157/src/igor-grom-contra-el-doctor-peste-44157-c.jpg", Igor Grom contra el Doctor Peste(2021)                    
-acestream://fba8d6ac88c4d0b7843b1000c01826524c57b95b
+
 
 

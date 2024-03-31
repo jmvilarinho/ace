@@ -772,7 +772,7 @@ https://ventdelnord.tv:8080/escala/directe.m3u8
 https://liveingesta318.cdnmedia.tv/vallesvisiotvlive/smil:live.smil/playlist.m3u8?DVR
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/televisiodelripolles/picture?width=200&height=200" group-title="Cataluña" tvg-name="TV del Ripollès",TV del Ripollès
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
-https://liveingesta318.cdnmedia.tv/tvripolleslive/smil:live.smil/playlist.m3u8?DVR
+https://tvup-fti-tvr.akamaized.net/0.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/etv.llobregat/picture?width=200&height=200" group-title="Cataluña" tvg-name="etv",etv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 https://liveingesta318.cdnmedia.tv/tvetvlive/smil:rtmp01.smil/playlist.m3u8?DVR

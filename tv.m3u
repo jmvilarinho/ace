@@ -39,7 +39,7 @@ http://127.0.0.1:6878/ace/getstream?id=4c46585214b23b1d802ef2168060c7649a3894cf&
 #EXTINF:-1 tvg-id="LALIGA TV HYPERMOTION 2" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-hypermotion-2.png" group-title="LaLiga Hypermotion" tvg-name="LaLiga Hypermotion 2 1080",LaLiga Hypermotion 2 1080
 http://127.0.0.1:6878/ace/getstream?id=d81b4f2f3fde433539c097b2edc9b587ca47b087&.mp4
 #EXTINF:-1 tvg-id="LALIGA TV HYPERMOTION 3" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-hypermotion-3.png" group-title="LaLiga Hypermotion" tvg-name="LaLiga Hypermotion 3 1080",LaLiga Hypermotion 3 1080
-http://127.0.0.1:6878/ace/getstream?id=b4a076c1f67a5c1f1ba899ac61b9401b1dc30f41&.mp4
+http://127.0.0.1:6878/ace/getstream?id=424c89c7c0f251051269b578f40d13d192cf2c2d&.mp4
 #EXTINF:-1 tvg-id="M+ Deportes" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-1.png" group-title="M. Deportes" tvg-name="M. Deportes 1080",M. Deportes 1080
 http://127.0.0.1:6878/ace/getstream?id=d00223931b1854163e24c5c22475015d7d45c112&.mp4
 #EXTINF:-1 tvg-id="M+ Deportes 2" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-2.png" group-title="M. Deportes" tvg-name="M. Deportes 2 1080",M. Deportes 2 1080

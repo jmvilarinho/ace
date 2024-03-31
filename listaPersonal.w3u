@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 31/03/2024 16:00:39",
+    "author": "Vila - 31/03/2024 20:00:34",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -402,7 +402,7 @@
                 },
                 {
                     "name": "LaLiga Hypermotion 3 1080",
-                    "url": "acestream://b4a076c1f67a5c1f1ba899ac61b9401b1dc30f41",
+                    "url": "acestream://424c89c7c0f251051269b578f40d13d192cf2c2d",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-hypermotion-3.png",
                     "embed": "false"
                 },
@@ -739,6 +739,12 @@
                 {
                     "name": "M+ LaLiga TV UHD",
                     "url": "acestream://8286183314d367940409b760bbf887f3fb923f60",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M+ LaLiga TV3 Hypermotion",
+                    "url": "acestream://b4a076c1f67a5c1f1ba899ac61b9401b1dc30f41",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },

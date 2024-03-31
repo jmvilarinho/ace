@@ -396,11 +396,11 @@ http://31.43.191.49:25461/exch@iptvpk/nLTe6XztDc8JDHFSKDJFIUBJKSMKLJLJKSBJ/1931
 #EXTINF:-1 group-title="DAZN F1/ SKY F1 / F1TV" tvg-id="DAZN F1 HD" tvg-logo="https://img.sport-tv-guide.live/images/tv-station-dazn-formula-1-366.png" ,DAZN F1 720 IPTV (16)
 http://31.43.191.49:25461/EXCHfamous/4SceG2qsZkHVisgdfq5/1931
 #EXTINF:-1 group-title="DAZN F1/ SKY F1 / F1TV" tvg-id="" tvg-logo="https://i.postimg.cc/t4bQRT25/f1tvlogo.png" ,F1TV Español(Solo evento)
-http://127.0.0.1:6878/ace/getstream?id=3854da5873600c72a94af74305f8da2e7e76e4b1
+http://127.0.0.1:6878/ace/getstream?id=7605c43f5ae919f6bcb60f29da06d66551b23872
 #EXTINF:-1 group-title="DAZN F1/ SKY F1 / F1TV" tvg-id="" tvg-logo="https://i.postimg.cc/t4bQRT25/f1tvlogo.png" ,F1TV (Solo evento)
-http://127.0.0.1:6878/ace/getstream?id=8a67d56804ab0e6ec21bb107dc64baca31e42671
+http://127.0.0.1:6878/ace/getstream?id=5a6402ddec68d6657694b0b3e6d582dc3b196830
 #EXTINF:-1 group-title="DAZN F1/ SKY F1 / F1TV" tvg-id="" tvg-logo="https://i.postimg.cc/t4bQRT25/f1tvlogo.png" ,F1TV (Solo evento) (02)
-http://127.0.0.1:6878/ace/getstream?id=1ee758814f14af179505f6a7f12e900f7e3e89a7
+http://127.0.0.1:6878/ace/getstream?id=3a699291ecf067f606760dc090a344f4069e44e0
 #EXTINF:-1 group-title="DAZN F1/ SKY F1 / F1TV" tvg-id="" tvg-logo="https://i.postimg.cc/t4bQRT25/f1tvlogo.png" ,F1TV 1080 IPTV (01)
 http://23.227.140.78:8080/JsnCdcSSe8/CWvQ6KPTQR/405789
 #EXTINF:-1 group-title="DAZN F1/ SKY F1 / F1TV" tvg-id="" tvg-logo="https://i.postimg.cc/t4bQRT25/f1tvlogo.png" ,F1TV 1080 IPTV (02)
@@ -1334,7 +1334,7 @@ http://117.55.202.27:8080/MauricioRivas/7YOsbvj8T2/273542
 #EXTINF:-1 group-title="M+ LaLiga Hypermotion" tvg-id="LaLiga TV Hypermotion 2" tvg-logo="https://i.postimg.cc/Dzk5jjcH/hyper2.png" ,M+ LaLiga Hypermotion 2 720
 http://127.0.0.1:6878/ace/getstream?id=2709d0ab86cb6ce7ba4d3ad188d7fa80668f2924
 #EXTINF:-1 group-title="M+ LaLiga Hypermotion" tvg-id="LaLiga TV Hypermotion 3" tvg-logo="https://i.postimg.cc/8cgS1QLG/hyper3.png" ,M+ LaLiga Hypermotion 3 1080
-http://127.0.0.1:6878/ace/getstream?id=b4a076c1f67a5c1f1ba899ac61b9401b1dc30f41
+http://127.0.0.1:6878/ace/getstream?id=424c89c7c0f251051269b578f40d13d192cf2c2d
 #EXTINF:-1 group-title="M+ LaLiga Hypermotion" tvg-id="LaLiga TV Hypermotion 3" tvg-logo="https://i.postimg.cc/8cgS1QLG/hyper3.png" ,M+ LaLiga Hypermotion 3 1080 IPTV (01)
 http://185.71.66.13:2052/ESPT/NV7nR87n4afv/151349
 #EXTINF:-1 group-title="M+ LaLiga Hypermotion" tvg-id="LaLiga TV Hypermotion 3" tvg-logo="https://i.postimg.cc/8cgS1QLG/hyper3.png" ,M+ LaLiga Hypermotion 3 1080 IPTV (03)

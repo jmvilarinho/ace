@@ -60,7 +60,7 @@ acestream://d81b4f2f3fde433539c097b2edc9b587ca47b087
 #EXTINF:-1 tvg-logo="https://i.ibb.co/8K0VrQV/hypermotion2.png" group-title="Segunda" tvg-id="LaLiga TV Hypermotion 2", LaLiga Hypermotion 2 720
 acestream://2709d0ab86cb6ce7ba4d3ad188d7fa80668f2924
 #EXTINF:-1 tvg-logo="https://i.ibb.co/826y2Yv/Hypermotion3.png" group-title="Segunda" tvg-id="LaLiga TV Hypermotion 3", LaLiga Hypermotion 3 1080
-acestream://b4a076c1f67a5c1f1ba899ac61b9401b1dc30f41
+acestream://424c89c7c0f251051269b578f40d13d192cf2c2d
  
  
  
@@ -200,13 +200,13 @@ acestream://dab7cab5d6d177df36c3b333ca363c2266d91a03
 
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/TLm78RK/LigaF.png" group-title="Liga F" tvg-id="DAZN LaLiga Femenina 1", DAZN Liga F 1
+#EXTINF:-1 tvg-logo="" group-title="Eventos (UFC, Boxeo...)" tvg-id="", PVP  1
 acestream://600222a4f98df80a2c0df2d60cb5ff3df9620710
-#EXTINF:-1 tvg-logo="https://i.ibb.co/TLm78RK/LigaF.png" group-title="Liga F" tvg-id="DAZN LaLiga Femenina 2", DAZN Liga F 2
+#EXTINF:-1 tvg-logo="" group-title="Eventos (UFC, Boxeo...)" tvg-id="", PVP  2
 acestream://d6cdd724a97fcf851e7ef641c28d6beb8663496e
-#EXTINF:-1 tvg-logo="https://i.ibb.co/TLm78RK/LigaF.png" group-title="Liga F" tvg-id="DAZN LaLiga Femenina 3", DAZN Liga F 3
+#EXTINF:-1 tvg-logo="" group-title="Eventos (UFC, Boxeo...)" tvg-id="", PVP  3
 acestream://162942adc047d0f78eac056effbe5bbec54a5e51
-#EXTINF:-1 tvg-logo="https://i.ibb.co/TLm78RK/LigaF.png" group-title="Liga F" tvg-id="DAZN LaLiga Femenina 4", DAZN Liga F 4
+#EXTINF:-1 tvg-logo="" group-title="Eventos (UFC, Boxeo...)" tvg-id="", PVP  4
 acestream://e454681a152a86da504e63694f17f90d0586867d
 
 

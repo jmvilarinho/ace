@@ -64,6 +64,8 @@ http://127.0.0.1:6878/ace/getstream?id=396d82ca6f5445abcd32e6b609d67e332ee12ace&
 http://127.0.0.1:6878/ace/getstream?id=f8cb9d9e3077eb3ae417b2d95a69c5f590760eb9&.mp4
 #EXTINF:-1 channel-id="samsung-ES400002P5" tvg-id="ES400002P5" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES400002P5_20240402T134115SQUARE.png" tvg-chno="4001" group-title="Samsung TV" , Cuéntame cómo pasó
 https://i.mjh.nz/SamsungTVPlus/ES400002P5.m3u8
+#EXTINF:-1 channel-id="samsung-ESBD3900002EV" tvg-id="ESBD3900002EV" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD3900002EV_20231101T032823SQUARE.png_20231101032824.png" tvg-chno="4002" group-title="Samsung TV" , Todo Crimen
+https://i.mjh.nz/SamsungTVPlus/ESBD3900002EV.m3u8
 #EXTINF:-1 channel-id="samsung-ESAJ4500024LR" tvg-id="ESAJ4500024LR" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESAJ4500024LR_20230222T012038SQUARE.png_20230222012039.png" tvg-chno="4003" group-title="Samsung TV" , Euronews en directo
 https://i.mjh.nz/SamsungTVPlus/ESAJ4500024LR.m3u8
 #EXTINF:-1 channel-id="samsung-ESAJ2900003ND" tvg-id="ESAJ2900003ND" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESAJ2900003ND_20240117T032717SQUARE.png_20240117032717.png" tvg-chno="4004" group-title="Samsung TV" , Estilo y Vida – Rakuten TV

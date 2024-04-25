@@ -288,6 +288,8 @@ https://i.mjh.nz/SamsungTVPlus/ESBC27000062Q.m3u8
 https://i.mjh.nz/SamsungTVPlus/ESBC27000079V.m3u8
 #EXTINF:-1 channel-id="samsung-ESBD230000143" tvg-id="ESBD230000143" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD230000143_20240214T035648SQUARE.png_20240214035649.png" tvg-chno="4985" group-title="Samsung TV" , FreeTV Clásico
 https://i.mjh.nz/SamsungTVPlus/ESBD230000143.m3u8
+#EXTINF:-1 channel-id="samsung-ES300007KS" tvg-id="ES300007KS" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES300007KS_20240423T033404SQUARE.png" tvg-chno="4988" group-title="Samsung TV" , Sony One Hits Comedia
+https://i.mjh.nz/SamsungTVPlus/ES300007KS.m3u8
 #EXTINF:-1 channel-id="samsung-ESAJ4500019AM" tvg-id="ESAJ4500019AM" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESAJ4500019AM_20240117T032650SQUARE.png_20240117032651.png" tvg-chno="4990" group-title="Samsung TV" , Comedias - Rakuten TV
 https://i.mjh.nz/SamsungTVPlus/ESAJ4500019AM.m3u8
 #EXTINF:-1 channel-id="samsung-ESBC2700005EE" tvg-id="ESBC2700005EE" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC2700005EE_20221012T021024SQUARE.png_20221012021024.png" tvg-chno="4994" group-title="Samsung TV" , Películas Top - Rakuten TV

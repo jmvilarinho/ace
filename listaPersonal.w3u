@@ -1,11 +1,29 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 29/04/2024 09:20:24",
+    "author": "Vila - 29/04/2024 09:24:00",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
     "telegram": "vikinko21",
     "groups": [
+        {
+            "name": "Eurosport",
+            "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-eurosport.png",
+            "stations": [
+                {
+                    "name": "EuroSport 1 1080",
+                    "url": "acestream://5e4cd48c79f991fcbee2de8b9d30c4b16de3b952",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-es-eurosport-1-615.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "EuroSport 2 1080",
+                    "url": "acestream://c373da9e901d414b7384e671112e64d5a2310c29",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-es-eurosport-2-616.png",
+                    "embed": "false"
+                }
+            ]
+        },
         {
             "name": "M.L. Campeones",
             "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-00.png",
@@ -110,24 +128,6 @@
                     "name": "M.L. Campeones 12 SD",
                     "url": "acestream://33369549c635dabdb78b95c478c21fcc9e4ee854",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-12.png",
-                    "embed": "false"
-                }
-            ]
-        },
-        {
-            "name": "Eurosport",
-            "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-eurosport.png",
-            "stations": [
-                {
-                    "name": "EuroSport 1 1080",
-                    "url": "acestream://5e4cd48c79f991fcbee2de8b9d30c4b16de3b952",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-es-eurosport-1-615.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "EuroSport 2 1080",
-                    "url": "acestream://c373da9e901d414b7384e671112e64d5a2310c29",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-es-eurosport-2-616.png",
                     "embed": "false"
                 }
             ]

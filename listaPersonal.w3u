@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 08/05/2024 11:02:36",
+    "author": "Vila - 08/05/2024 16:03:39",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -587,19 +587,19 @@
                     "embed": "false"
                 },
                 {
-                    "name": "LA 1",
+                    "name": "LA 1 (OFF)",
                     "url": "acestream://02b9307c5c97c86914cc5939d6bbeb5b4ec60b47",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
                 {
-                    "name": "LA 1 UHD",
+                    "name": "LA 1 UHD (OFF)",
                     "url": "acestream://6636a5c1055b5913ddcd0e87a5523f7d935350af",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
                 {
-                    "name": "LA 2",
+                    "name": "LA 2 (OFF)",
                     "url": "acestream://60106275d34f995e26bb2cc4a21a42f586c6c555",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"

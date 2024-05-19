@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 19/05/2024 11:01:49",
+    "author": "Vila - 19/05/2024 16:05:58",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -667,6 +667,18 @@
                 {
                     "name": "TENNIS CHANNEL",
                     "url": "acestream://9292d3b32432efb56db4014933cbdec0a7cf2e36",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "UFC las vegas",
+                    "url": "acestream://998b2b93854d283e7dcff0d707ba979d1463b33c",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "UFC las vegas - afd9",
+                    "url": "acestream://fcdd3f9e4c4e3a9463af1f69064bdcfcd446afd9",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },

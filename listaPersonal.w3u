@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 19/05/2024 16:05:58",
+    "author": "Vila - 19/05/2024 20:00:38",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -288,19 +288,19 @@
                 },
                 {
                     "name": "DAZN LaLiga 3 1080",
-                    "url": "acestream://8c71f0e0a5476e10950fc827f9d2a507340aba74",
+                    "url": "acestream://3d0b2395098452617097896abb38956965b8a396",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-3.png",
                     "embed": "false"
                 },
                 {
                     "name": "DAZN LaLiga 4 1080",
-                    "url": "acestream://2792a8a5f4a3f53cd72dec377a2639cd12a6973e",
+                    "url": "acestream://6e97745e481ee0be3b48720d4bfead7da2f08689",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-4.png",
                     "embed": "false"
                 },
                 {
                     "name": "DAZN LaLiga 5 1080",
-                    "url": "acestream://99e544cddbee13798e854c1009ee7d1a93fdedf7",
+                    "url": "acestream://45db6feb1a8da2690a948532efd771992a7ea7c9",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-5.png",
                     "embed": "false"
                 }
@@ -504,26 +504,20 @@
                 },
                 {
                     "name": "M. LaLiga 3 1080",
-                    "url": "acestream://4c4844564313e39a888f593511f299f5ba3cf929",
+                    "url": "acestream://de52318ab15c921d8d5c036c5f33562382b5ae71",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-3.png",
                     "embed": "false"
                 },
                 {
                     "name": "M. LaLiga 4 1080",
-                    "url": "acestream://aa8f826da70e27a26b29c7b32402f17e8a67a8b0",
+                    "url": "acestream://5c2ee247211b205f64ef1cf90ef5c45408657326",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-4.png",
                     "embed": "false"
                 },
                 {
                     "name": "M. LaLiga 5 1080",
-                    "url": "acestream://535394f62a810bc5aeb25be75ea5ff7d03e070b2",
+                    "url": "acestream://c661bee7afd61d487ce085a1667c4f2b91d6675d",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-5.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "M. LaLiga 6 1080",
-                    "url": "acestream://c896d37778f9e43549a788fc22206a655895b51b",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-6.png",
                     "embed": "false"
                 }
             ]
@@ -667,18 +661,6 @@
                 {
                     "name": "TENNIS CHANNEL",
                     "url": "acestream://9292d3b32432efb56db4014933cbdec0a7cf2e36",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "UFC las vegas",
-                    "url": "acestream://998b2b93854d283e7dcff0d707ba979d1463b33c",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "UFC las vegas - afd9",
-                    "url": "acestream://fcdd3f9e4c4e3a9463af1f69064bdcfcd446afd9",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },

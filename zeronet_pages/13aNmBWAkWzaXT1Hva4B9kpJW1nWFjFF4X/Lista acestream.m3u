@@ -1,11 +1,5 @@
 #EXTM3U url-tvg="https://raw.githubusercontent.com/dracohe/CARLOS/master/guide_IPTV.xml, https://github.com/dracohe/INTERNACIONALES/blob/master/guide.xml?raw=true, https://raw.githubusercontent.com/davidmuma/EPG_dobleM/master/guia.xml, https://raw.githubusercontent.com/acidjesuz/EPG/master/guide.xml"
 
-#EXTINF:-1 tvg-id="UFC las vegas" group-title="www.elcano.top", UFC las vegas
-acestream://998b2b93854d283e7dcff0d707ba979d1463b33c
-
-#EXTINF:-1 tvg-id="UFC las vegas" group-title="www.elcano.top", UFC las vegas
-acestream://fcdd3f9e4c4e3a9463af1f69064bdcfcd446afd9
-
 #EXTINF:-1 tvg-id="DAZN F1" tvg-logo="https://i.postimg.cc/zDn8qwjr/4kuhd.png" group-title="www.elcano.top", F1 [4k] OFF
 acestream://c021e3af42b9cd3743817a2c6258e0986666dd73
 
@@ -32,13 +26,13 @@ acestream://26029f72a4ca831d09deefe89534818db1d105bc
 #EXTINF:-1 tvg-id="M+ LaLiga TV 2" tvg-logo="https://i.ibb.co/SK08wdg/laliga.png" group-title="www.elcano.top", M. LaLiga 2 720
 acestream://80126b240f3e4e004754fd8f8103e857ab2556a0
 #EXTINF:-1 tvg-id="M+ LaLiga TV 3" tvg-logo="https://i.ibb.co/SK08wdg/laliga.png" group-title="www.elcano.top", M. LaLiga 3 1080
-acestream://4c4844564313e39a888f593511f299f5ba3cf929
+acestream://de52318ab15c921d8d5c036c5f33562382b5ae71
 #EXTINF:-1 tvg-id="M+ LaLiga TV 4" tvg-logo="https://i.ibb.co/SK08wdg/laliga.png" group-title="www.elcano.top", M. LaLiga 4 1080
-acestream://aa8f826da70e27a26b29c7b32402f17e8a67a8b0
+acestream://5c2ee247211b205f64ef1cf90ef5c45408657326
 #EXTINF:-1 tvg-id="M+ LaLiga TV 5" tvg-logo="https://i.ibb.co/SK08wdg/laliga.png" group-title="www.elcano.top", M. LaLiga 5 1080
-acestream://535394f62a810bc5aeb25be75ea5ff7d03e070b2
+acestream://c661bee7afd61d487ce085a1667c4f2b91d6675d
 #EXTINF:-1 tvg-id="M+ LaLiga TV 6" tvg-logo="https://i.ibb.co/SK08wdg/laliga.png" group-title="www.elcano.top", M. LaLiga 6 1080
-acestream://c896d37778f9e43549a788fc22206a655895b51b
+acestream://c661bee7afd61d487ce085a1667c4f2b91d6675d
 #EXTINF:-1 tvg-id="M+ LaLiga TV 6" tvg-logo="https://iusport.com/upload/images/01_2023/385_laliga-bar.jpg" group-title="www.elcano.top", M. LaLiga BAR
 acestream://aa82e7d4f03061f2144a2f4be22f2e2210d42280
 
@@ -56,11 +50,11 @@ acestream://e33e666c393ef04ebe99a9b92135d2e0b48c4d10
 #EXTINF:-1 tvg-id="DAZN LaLiga 2 HD" tvg-logo="https://i.ibb.co/d541mDr/DAZN-La-Liga.jpg" group-title="www.elcano.top", DAZN LaLiga 2 720
 acestream://02b9307c5c97c86914cc5939d6bbeb5b4ec60b47
 #EXTINF:-1 tvg-id="DAZN LaLiga 3 HD" tvg-logo="https://i.ibb.co/d541mDr/DAZN-La-Liga.jpg" group-title="www.elcano.top", DAZN LaLiga 3 1080
-acestream://8c71f0e0a5476e10950fc827f9d2a507340aba74
+acestream://3d0b2395098452617097896abb38956965b8a396
 #EXTINF:-1 tvg-id="DAZN LaLiga 4 HD" tvg-logo="https://i.ibb.co/d541mDr/DAZN-La-Liga.jpg" group-title="www.elcano.top", DAZN LaLiga 4 1080
-acestream://2792a8a5f4a3f53cd72dec377a2639cd12a6973e
+acestream://6e97745e481ee0be3b48720d4bfead7da2f08689
 #EXTINF:-1 tvg-id="DAZN LaLiga 5 HD" tvg-logo="https://i.ibb.co/d541mDr/DAZN-La-Liga.jpg" group-title="www.elcano.top", DAZN LaLiga 5 1080
-acestream://99e544cddbee13798e854c1009ee7d1a93fdedf7
+acestream://45db6feb1a8da2690a948532efd771992a7ea7c9
 
 
 #EXTINF:-1 tvg-id="LaLiga TV Hypermotion HD" tvg-logo="https://i.ibb.co/CHv2fdP/hypermotion.png" group-title="www.elcano.top", LaLiga Hypermotion 1080 MultiAudio

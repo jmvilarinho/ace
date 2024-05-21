@@ -2,3 +2,7 @@
 #EXTM3U url-tvg="https://raw.githubusercontent.com/jmvilarinho/ace/main/all.xml.gz"
 #EXTINF:-1 tvg-id="Sport TV3 POR HD" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-pt-sport-tv-3-452.png" group-title="Sport TV" tvg-name="Sport Tv 3 1080",Sport Tv 3 1080
 http://127.0.0.1:6878/ace/getstream?id=f8cb9d9e3077eb3ae417b2d95a69c5f590760eb9&.mp4
+#EXTINF:-1 channel-id="samsung-ESAJ45000181E" tvg-id="ESAJ45000181E" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESAJ45000181E_20220323T081350SQUARE.png_20220323081353.png" tvg-chno="4999" group-title="Películas" , Acción - Rakuten TV
+https://i.mjh.nz/SamsungTVPlus/ESAJ45000181E.m3u8
+#EXTINF:-1 tvg-logo="https://graph.facebook.com/3abn.org/picture?width=200&height=200" group-title="Religiosos" tvg-name="3ABN USA",3ABN USA
+https://3abn-live.akamaized.net/hls/live/2010547/Latino/master.m3u8

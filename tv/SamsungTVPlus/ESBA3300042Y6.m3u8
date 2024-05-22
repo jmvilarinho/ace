@@ -1,10 +1,80 @@
-#EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:PROGRAM-ID=0,BANDWIDTH=1020800,AVERAGE-BANDWIDTH=985600,CODECS="avc1.4d4028,mp4a.40.2",RESOLUTION=640x360,CLOSED-CAPTIONS=NONE,FRAME-RATE=25.000
-https://amg01131-tracetv-tracelatinaes-samsungspain-d7byg.amagi.tv/playlist/amg01131-tracetv-tracelatinaes-samsungspain/cb56341d6573638b84c33778d1f26287bc5137c54831ca376fb457876d9d4607c0f4ec94b30ef67a489718df605e3c585e7aca11db751cc6df2ffe4c66781427879ee32ede9c135be4d9082b2eb9592466af5a56ce710a76ab81706e9e0d8650210eb27104313389ae47f92816e7bd30b0344dfacfaa145d023a3bd2574ddf9e0ff7bcff0c059803f5ee4119cc7167d9b87e82a57cdbefa024e332ff08bc1eb1a8ccda87539cd7d123c609e3390c2a4e17f39b58a3f96298fbb74c24c60f422b1f51f5ed87fd712f92554a52ff8da6d50ee427edb616b5521e95278515f45ae36aae1ae9e241b0bdbaad212b58f4f6a6004dd28d7175025443dc1c9987da9f164f89f71d7635b807ba071e485c795676fea53083a42c95b11360502a1798faefc4b0eebe99439d22c587f09d7d61416e140d9549a7966c995bb5de1d6572533e6a65d7fd72c58ad05d39630df5e8de01cd7acbbaa8f9b62f7be96f094f4bb1d8116206a965392bb57babd95418f82584bf1763eb7d15f9a2d4673188df9a454c5690cbd54def6aa0980bd6e40bad5741337584f5294b0a1d3382be285e7031cf4ceac6d2ac700715a585ad84a0595a516b0f338e50172a826dd4bab34aa50dbd8a6955/62/640x360_1020800/index.m3u8
-#EXT-X-STREAM-INF:PROGRAM-ID=0,BANDWIDTH=1249600,AVERAGE-BANDWIDTH=1205600,CODECS="avc1.4d4028,mp4a.40.2",RESOLUTION=848x480,CLOSED-CAPTIONS=NONE,FRAME-RATE=25.000
-https://amg01131-tracetv-tracelatinaes-samsungspain-d7byg.amagi.tv/playlist/amg01131-tracetv-tracelatinaes-samsungspain/cb56341d6573638b84c33778d1f26287bc5137c54831ca376fb457876d9d4607c0f4ec94b30ef67a489718df605e3c585e7aca11db751cc6df2ffe4c66781427879ee32ede9c135be4d9082b2eb9592466af5a56ce710a76ab81706e9e0d8650210eb27104313389ae47f92816e7bd30b0344dfacfaa145d023a3bd2574ddf9e0ff7bcff0c059803f5ee4119cc7167d9b87e82a57cdbefa024e332ff08bc1eb1a8ccda87539cd7d123c609e3390c2a4e17f39b58a3f96298fbb74c24c60f422b1f51f5ed87fd712f92554a52ff8da6d50ee427edb616b5521e95278515f45ae36aae1ae9e241b0bdbaad212b58f4f6a6004dd28d7175025443dc1c9987da9f164f89f71d7635b807ba071e485c795676fea53083a42c95b11360502a1798faefc4b0eebe99439d22c587f09d7d61416e140d9549a7966c995bb5de1d6572533e6a65d7fd72c58ad05d39630df5e8de01cd7acbbaa8f9b62f7be96f094f4bb1d8116206a965392bb57babd95418f82584bf1763eb7d15f9a2d4673188df9a454c5690cbd54def6aa0980bd6e40bad5741337584f5294b0a1d3382be285e7031cf4ceac6d2ac700715a585ad84a0595a516b0f338e50172a826dd4bab34aa50dbd8a6955/62/848x480_1249600/index.m3u8
-#EXT-X-STREAM-INF:PROGRAM-ID=0,BANDWIDTH=2657600,AVERAGE-BANDWIDTH=2560800,CODECS="avc1.4d4028,mp4a.40.2",RESOLUTION=1280x720,CLOSED-CAPTIONS=NONE,FRAME-RATE=25.000
-https://amg01131-tracetv-tracelatinaes-samsungspain-d7byg.amagi.tv/playlist/amg01131-tracetv-tracelatinaes-samsungspain/cb56341d6573638b84c33778d1f26287bc5137c54831ca376fb457876d9d4607c0f4ec94b30ef67a489718df605e3c585e7aca11db751cc6df2ffe4c66781427879ee32ede9c135be4d9082b2eb9592466af5a56ce710a76ab81706e9e0d8650210eb27104313389ae47f92816e7bd30b0344dfacfaa145d023a3bd2574ddf9e0ff7bcff0c059803f5ee4119cc7167d9b87e82a57cdbefa024e332ff08bc1eb1a8ccda87539cd7d123c609e3390c2a4e17f39b58a3f96298fbb74c24c60f422b1f51f5ed87fd712f92554a52ff8da6d50ee427edb616b5521e95278515f45ae36aae1ae9e241b0bdbaad212b58f4f6a6004dd28d7175025443dc1c9987da9f164f89f71d7635b807ba071e485c795676fea53083a42c95b11360502a1798faefc4b0eebe99439d22c587f09d7d61416e140d9549a7966c995bb5de1d6572533e6a65d7fd72c58ad05d39630df5e8de01cd7acbbaa8f9b62f7be96f094f4bb1d8116206a965392bb57babd95418f82584bf1763eb7d15f9a2d4673188df9a454c5690cbd54def6aa0980bd6e40bad5741337584f5294b0a1d3382be285e7031cf4ceac6d2ac700715a585ad84a0595a516b0f338e50172a826dd4bab34aa50dbd8a6955/62/1280x720_2657600/index.m3u8
-#EXT-X-STREAM-INF:PROGRAM-ID=0,BANDWIDTH=4716800,AVERAGE-BANDWIDTH=4540800,CODECS="avc1.4d4028,mp4a.40.2",RESOLUTION=1920x1080,CLOSED-CAPTIONS=NONE,FRAME-RATE=25.000
-https://amg01131-tracetv-tracelatinaes-samsungspain-d7byg.amagi.tv/playlist/amg01131-tracetv-tracelatinaes-samsungspain/cb56341d6573638b84c33778d1f26287bc5137c54831ca376fb457876d9d4607c0f4ec94b30ef67a489718df605e3c585e7aca11db751cc6df2ffe4c66781427879ee32ede9c135be4d9082b2eb9592466af5a56ce710a76ab81706e9e0d8650210eb27104313389ae47f92816e7bd30b0344dfacfaa145d023a3bd2574ddf9e0ff7bcff0c059803f5ee4119cc7167d9b87e82a57cdbefa024e332ff08bc1eb1a8ccda87539cd7d123c609e3390c2a4e17f39b58a3f96298fbb74c24c60f422b1f51f5ed87fd712f92554a52ff8da6d50ee427edb616b5521e95278515f45ae36aae1ae9e241b0bdbaad212b58f4f6a6004dd28d7175025443dc1c9987da9f164f89f71d7635b807ba071e485c795676fea53083a42c95b11360502a1798faefc4b0eebe99439d22c587f09d7d61416e140d9549a7966c995bb5de1d6572533e6a65d7fd72c58ad05d39630df5e8de01cd7acbbaa8f9b62f7be96f094f4bb1d8116206a965392bb57babd95418f82584bf1763eb7d15f9a2d4673188df9a454c5690cbd54def6aa0980bd6e40bad5741337584f5294b0a1d3382be285e7031cf4ceac6d2ac700715a585ad84a0595a516b0f338e50172a826dd4bab34aa50dbd8a6955/62/1920x1080_4716800/index.m3u8
+<html>
+<head><title>Index of /SamsungTVPlus/</title></head>
+<body>
+<h1>Index of /SamsungTVPlus/</h1><hr><pre><a href="../">../</a>
+<a href="all-kodi.m3u8">all-kodi.m3u8</a>                                      22-May-2024 14:09              544115
+<a href="all-tvh.m3u8">all-tvh.m3u8</a>                                       22-May-2024 14:09              843658
+<a href="all.html">all.html</a>                                           22-May-2024 14:09              323601
+<a href="all.m3u8">all.m3u8</a>                                           22-May-2024 14:09              503790
+<a href="all.xml">all.xml</a>                                            22-May-2024 14:09             8700839
+<a href="all.xml.gz">all.xml.gz</a>                                         23-May-2024 07:31             1702496
+<a href="app.json">app.json</a>                                           22-May-2024 14:09             1334633
+<a href="app.json.gz">app.json.gz</a>                                        23-May-2024 07:31              370427
+<a href="at-kodi.m3u8">at-kodi.m3u8</a>                                       23-May-2024 07:10               36634
+<a href="at-tvh.m3u8">at-tvh.m3u8</a>                                        23-May-2024 07:10               56857
+<a href="at.html">at.html</a>                                            23-May-2024 07:10               22492
+<a href="at.m3u8">at.m3u8</a>                                            23-May-2024 07:10               33909
+<a href="at.xml">at.xml</a>                                             23-May-2024 07:10              645429
+<a href="at.xml.gz">at.xml.gz</a>                                          23-May-2024 07:31              139343
+<a href="ca-kodi.m3u8">ca-kodi.m3u8</a>                                       23-May-2024 07:11               47086
+<a href="ca-tvh.m3u8">ca-tvh.m3u8</a>                                        23-May-2024 07:11               72911
+<a href="ca.html">ca.html</a>                                            23-May-2024 07:11               27899
+<a href="ca.m3u8">ca.m3u8</a>                                            23-May-2024 07:11               43611
+<a href="ca.xml">ca.xml</a>                                             23-May-2024 07:11              641002
+<a href="ca.xml.gz">ca.xml.gz</a>                                          23-May-2024 07:31              123650
+<a href="ch-kodi.m3u8">ch-kodi.m3u8</a>                                       22-May-2024 16:07               47248
+<a href="ch-tvh.m3u8">ch-tvh.m3u8</a>                                        22-May-2024 16:07               73042
+<a href="ch.html">ch.html</a>                                            22-May-2024 16:07               28221
+<a href="ch.m3u8">ch.m3u8</a>                                            22-May-2024 16:07               43773
+<a href="ch.xml">ch.xml</a>                                             22-May-2024 16:07              803984
+<a href="ch.xml.gz">ch.xml.gz</a>                                          23-May-2024 07:31              177511
+<a href="de-kodi.m3u8">de-kodi.m3u8</a>                                       22-May-2024 16:07               42217
+<a href="de-tvh.m3u8">de-tvh.m3u8</a>                                        22-May-2024 16:07               65424
+<a href="de.html">de.html</a>                                            22-May-2024 16:07               26826
+<a href="de.m3u8">de.m3u8</a>                                            22-May-2024 16:07               39092
+<a href="de.xml">de.xml</a>                                             22-May-2024 16:07              786007
+<a href="de.xml.gz">de.xml.gz</a>                                          23-May-2024 07:31              165651
+<a href="es-kodi.m3u8">es-kodi.m3u8</a>                                       22-May-2024 16:07               40845
+<a href="es-tvh.m3u8">es-tvh.m3u8</a>                                        22-May-2024 16:07               62961
+<a href="es.html">es.html</a>                                            22-May-2024 16:07               25910
+<a href="es.m3u8">es.m3u8</a>                                            22-May-2024 16:07               37870
+<a href="es.xml">es.xml</a>                                             22-May-2024 16:07              689405
+<a href="es.xml.gz">es.xml.gz</a>                                          23-May-2024 07:31              122515
+<a href="fr-kodi.m3u8">fr-kodi.m3u8</a>                                       22-May-2024 16:08               44700
+<a href="fr-tvh.m3u8">fr-tvh.m3u8</a>                                        22-May-2024 16:08               68849
+<a href="fr.html">fr.html</a>                                            22-May-2024 16:08               27467
+<a href="fr.m3u8">fr.m3u8</a>                                            22-May-2024 16:08               41450
+<a href="fr.xml">fr.xml</a>                                             22-May-2024 16:08              786512
+<a href="fr.xml.gz">fr.xml.gz</a>                                          23-May-2024 07:31              150022
+<a href="gb-kodi.m3u8">gb-kodi.m3u8</a>                                       22-May-2024 16:08               53922
+<a href="gb-tvh.m3u8">gb-tvh.m3u8</a>                                        22-May-2024 16:08               83062
+<a href="gb.html">gb.html</a>                                            22-May-2024 16:08               33441
+<a href="gb.m3u8">gb.m3u8</a>                                            22-May-2024 16:08               49997
+<a href="gb.xml">gb.xml</a>                                             22-May-2024 16:08              757044
+<a href="gb.xml.gz">gb.xml.gz</a>                                          23-May-2024 07:31              141436
+<a href="in-kodi.m3u8">in-kodi.m3u8</a>                                       22-May-2024 16:08               37602
+<a href="in-tvh.m3u8">in-tvh.m3u8</a>                                        22-May-2024 16:08               58053
+<a href="in.html">in.html</a>                                            22-May-2024 16:08               22055
+<a href="in.m3u8">in.m3u8</a>                                            22-May-2024 16:08               34852
+<a href="in.xml">in.xml</a>                                             22-May-2024 16:08              486260
+<a href="in.xml.gz">in.xml.gz</a>                                          23-May-2024 07:31               62425
+<a href="it-kodi.m3u8">it-kodi.m3u8</a>                                       22-May-2024 14:09               45531
+<a href="it-tvh.m3u8">it-tvh.m3u8</a>                                        22-May-2024 14:09               70431
+<a href="it.html">it.html</a>                                            22-May-2024 14:09               28224
+<a href="it.m3u8">it.m3u8</a>                                            22-May-2024 14:09               42181
+<a href="it.xml">it.xml</a>                                             22-May-2024 14:09              660580
+<a href="it.xml.gz">it.xml.gz</a>                                          23-May-2024 07:31              125403
+<a href="kr-kodi.m3u8">kr-kodi.m3u8</a>                                       22-May-2024 14:09               38641
+<a href="kr-tvh.m3u8">kr-tvh.m3u8</a>                                        22-May-2024 14:09               59243
+<a href="kr.html">kr.html</a>                                            22-May-2024 14:09               27906
+<a href="kr.m3u8">kr.m3u8</a>                                            22-May-2024 14:09               35866
+<a href="kr.xml">kr.xml</a>                                             22-May-2024 14:09              838515
+<a href="kr.xml.gz">kr.xml.gz</a>                                          23-May-2024 07:31              228710
+<a href="us-kodi.m3u8">us-kodi.m3u8</a>                                       22-May-2024 14:09              111461
+<a href="us-tvh.m3u8">us-tvh.m3u8</a>                                        22-May-2024 14:09              174962
+<a href="us.html">us.html</a>                                            22-May-2024 14:09               65436
+<a href="us.m3u8">us.m3u8</a>                                            22-May-2024 14:09              102911
+<a href="us.xml">us.xml</a>                                             22-May-2024 14:09             1642682
+<a href="us.xml.gz">us.xml.gz</a>                                          23-May-2024 07:31              278187
+</pre><hr></body>
+</html>

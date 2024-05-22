@@ -1,0 +1,13 @@
+#EXTM3U
+#EXT-X-VERSION:1
+#EXT-X-MEDIA:LANGUAGE="en",AUTOSELECT=YES,FORCED=NO,TYPE=SUBTITLES,URI="https://a989acfcb3344ede95ad556e89dc31d3.mediatailor.us-east-1.amazonaws.com/v1/manifest/04fd913bb278d8775298c26fdca9d9841f37601f/Samsung-es_QuickTake-1/b5b957da-6148-4b63-9a7c-252972c29e77/5.m3u8",GROUP-ID="subtitles",DEFAULT=NO,NAME="English[VTT]"
+#EXT-X-STREAM-INF:CODECS="avc1.4d4028,mp4a.40.2",RESOLUTION=1920x1080,SUBTITLES="subtitles",BANDWIDTH=5280000
+https://a989acfcb3344ede95ad556e89dc31d3.mediatailor.us-east-1.amazonaws.com/v1/manifest/04fd913bb278d8775298c26fdca9d9841f37601f/Samsung-es_QuickTake-1/b5b957da-6148-4b63-9a7c-252972c29e77/0.m3u8
+#EXT-X-STREAM-INF:CODECS="avc1.4d4028,mp4a.40.2",RESOLUTION=1920x1080,SUBTITLES="subtitles",BANDWIDTH=3720000
+https://a989acfcb3344ede95ad556e89dc31d3.mediatailor.us-east-1.amazonaws.com/v1/manifest/04fd913bb278d8775298c26fdca9d9841f37601f/Samsung-es_QuickTake-1/b5b957da-6148-4b63-9a7c-252972c29e77/1.m3u8
+#EXT-X-STREAM-INF:CODECS="avc1.4d401f,mp4a.40.2",RESOLUTION=960x540,SUBTITLES="subtitles",BANDWIDTH=2520000
+https://a989acfcb3344ede95ad556e89dc31d3.mediatailor.us-east-1.amazonaws.com/v1/manifest/04fd913bb278d8775298c26fdca9d9841f37601f/Samsung-es_QuickTake-1/b5b957da-6148-4b63-9a7c-252972c29e77/2.m3u8
+#EXT-X-STREAM-INF:CODECS="avc1.4d401e,mp4a.40.2",RESOLUTION=640x360,SUBTITLES="subtitles",BANDWIDTH=1200000
+https://a989acfcb3344ede95ad556e89dc31d3.mediatailor.us-east-1.amazonaws.com/v1/manifest/04fd913bb278d8775298c26fdca9d9841f37601f/Samsung-es_QuickTake-1/b5b957da-6148-4b63-9a7c-252972c29e77/3.m3u8
+#EXT-X-STREAM-INF:CODECS="avc1.4d400d,mp4a.40.2",RESOLUTION=384x216,SUBTITLES="subtitles",BANDWIDTH=816000
+https://a989acfcb3344ede95ad556e89dc31d3.mediatailor.us-east-1.amazonaws.com/v1/manifest/04fd913bb278d8775298c26fdca9d9841f37601f/Samsung-es_QuickTake-1/b5b957da-6148-4b63-9a7c-252972c29e77/4.m3u8

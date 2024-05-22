@@ -1,0 +1,9 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-MEDIA:LANGUAGE="en",AUTOSELECT=NO,FORCED=NO,INSTREAM-ID="CC1",TYPE=CLOSED-CAPTIONS,GROUP-ID="captions",DEFAULT=NO,NAME="English"
+#EXT-X-STREAM-INF:CODECS="avc1.4d0029,mp4a.40.2",RESOLUTION=640x360,BANDWIDTH=921600,CLOSED-CAPTIONS="captions"
+https://ce5f4557c56845dbb21a7d4d4abf295d.mediatailor.us-east-1.amazonaws.com/v1/manifest/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung-es_YuGiOh/3c80de1f-6f8e-4bb6-b901-0d12403f5e87/0.m3u8
+#EXT-X-STREAM-INF:CODECS="avc1.4d0029,mp4a.40.2",RESOLUTION=960x540,BANDWIDTH=2048000,CLOSED-CAPTIONS="captions"
+https://ce5f4557c56845dbb21a7d4d4abf295d.mediatailor.us-east-1.amazonaws.com/v1/manifest/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung-es_YuGiOh/3c80de1f-6f8e-4bb6-b901-0d12403f5e87/1.m3u8
+#EXT-X-STREAM-INF:CODECS="avc1.4d0029,mp4a.40.2",RESOLUTION=1280x720,BANDWIDTH=3072000,CLOSED-CAPTIONS="captions"
+https://ce5f4557c56845dbb21a7d4d4abf295d.mediatailor.us-east-1.amazonaws.com/v1/manifest/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung-es_YuGiOh/3c80de1f-6f8e-4bb6-b901-0d12403f5e87/2.m3u8

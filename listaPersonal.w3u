@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 19/06/2024 13:26:19",
+    "author": "Vila - 19/06/2024 13:48:04",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -699,6 +699,11 @@
         {
             "name": "IPTV REFF",
             "url": "https://pastebin.com/tQmvLfLy",
+            "embed": "true"
+        },
+        {
+            "name": "Listas IPTV",
+            "url": "https://iptv-org.github.io/iptv/index.m3u",
             "embed": "true"
         },
         {

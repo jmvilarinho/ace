@@ -402,7 +402,7 @@ https://cartv-streaming.aranova.es/hls/live/adeportes_deporte5.m3u8
 https://cartv-streaming.aranova.es/hls/live/anoticias_canal3.m3u8
 #EXTINF:-1 tvg-id="AragonTV.TV" tvg-logo="https://graph.facebook.com/AragonTV/picture?width=200&height=200" group-title="Aragón" tvg-name="Aragón TV",Aragón TV
 https://cartv.streaming.aranova.es/hls/live/aragontv_canal1.m3u8
-#EXTINF:-1 tvg-id="Arirang.TV" tvg-logo="https://graph.facebook.com/arirangtv/picture?width=200&height=200" group-title="Int. Asia" tvg-name="Arirang TV Korea",Arirang TV Korea EN
+#EXTINF:-1 tvg-logo="https://graph.facebook.com/arirangtv/picture?width=200&height=200" group-title="Int. Asia" tvg-name="Arirang TV Korea",Arirang TV Korea EN
 https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/atresplayer/picture?width=200&height=200" group-title="Eventuales" tvg-name="Atresplayer Clásicos",Atresplayer Clásicos
 https://fast-channels.atresmedia.com/648ef12c2bfab0e4507e0d61/648ef12c2bfab0e4507e0d61.m3u8
@@ -882,7 +882,7 @@ https://bit.controlstreams.com:5443/LiveApp/streams/punt3.m3u8
 https://dpp-qmusicnl-live.akamaized.net/streamx/QmusicNL.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/televisionsaharaui/picture?width=200&height=200" group-title="Int. África" tvg-name="RASD TV",RASD TV
 https://cloud.streamingconnect.tv/hls/rasdtv/rasdtv.m3u8
-#EXTINF:-1 tvg-logo="https://graph.facebook.com/rmradio/picture?width=200&height=200" group-title="Musicales" tvg-name="RM TV España",RM TV España
+#EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/1227224148079980544/kkxXv9jL_200x200.jpg" group-title="Musicales" tvg-name="RM TV España",RM TV España
 https://limited43.todostreaming.es/live/simbana-livestream19.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/RTCG.me/picture?width=200&height=200" group-title="Int. Europa" tvg-name="RTCG SAT Montenegro",RTCG SAT Montenegro
 https://proxysat.ipradio.rs:1936/rtcg/smil:rtcg.smil/playlist.m3u8
@@ -978,7 +978,7 @@ https://live3.acangroup.org:1929/acanabr/sentv.stream_all/playlist.m3u8
 https://senadolive.akamaized.net/hls/live/2006589/punto7/master.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/senalcolombiapaginaoficial/picture?width=200&height=200" group-title="Int. América" tvg-name="Señal Colombia",Señal Colombia
 https://streaming.rtvc.gov.co/TV_Senal_Colombia_live/smil:live.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="SkyN.TV" tvg-logo="https://graph.facebook.com/skynews/picture?width=200&height=200" group-title="Int. Europa" tvg-name="Sky News UK",Sky News UK EN
+#EXTINF:-1 tvg-logo="https://graph.facebook.com/skynews/picture?width=200&height=200" group-title="Int. Europa" tvg-name="Sky News UK",Sky News UK EN
 https://linear417-gb-hls1-prd-ak.cdn.skycdp.com/100e/Content/HLS_001_1080_30/Live/channel(skynews)/index_1080-30.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/solmusica/picture?width=200&height=200" group-title="Musicales" tvg-name="Sol Música España",Sol Música España
 https://d2glyu450vvghm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-21u4g5cjglv02/sm.m3u8

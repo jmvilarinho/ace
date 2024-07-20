@@ -64,15 +64,20 @@ function createList(data,element) {
 
   var ubicacion = data["mareas"]["puerto"]
   var mareas='';
+  cont=0
 	for (var key in data['mareas']['datos']['marea']) {
+		cont += 1;
 	  // 👉 formatting JSON data
-	  if (mareas !=''){
+	  if (cont == 3 ){
+	  	mareas += '<br>'
+	  } else if (mareas !=''){
 	  	mareas += ', ';
 	  }
+
 	  mareas += data['mareas']['datos']['marea'][key]['tipo']+": "+data['mareas']['datos']['marea'][key]['hora']
 	}
   const keyDiv = document.createElement('div');
-	keyDiv.innerHTML = `Mareas en ${ubicacion}: ${mareas}`;
+	keyDiv.innerHTML = `Mareas en ${ubicacion}<br> ${mareas}`;
   mainDiv.appendChild(keyDiv);
 }
 

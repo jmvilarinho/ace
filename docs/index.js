@@ -77,7 +77,7 @@ function createList(data,element) {
 	  mareas += data['mareas']['datos']['marea'][key]['tipo']+": "+data['mareas']['datos']['marea'][key]['hora']
 	}
   const keyDiv = document.createElement('div');
-	keyDiv.innerHTML = `Mareas en ${ubicacion}<br> ${mareas}`;
+	keyDiv.innerHTML = `Mareas en ${ubicacion} (UTC)<br> ${mareas}`;
   mainDiv.appendChild(keyDiv);
 }
 

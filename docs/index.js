@@ -75,7 +75,8 @@ function getLocalTime(time) {
 function createList(data, element) {
 	const mainDiv = document.getElementById(element);
 
-	var ubicacion = data["mareas"]["puerto"]
+	var ubicacion = data["mareas"]["puerto"];
+	var fecha=getFechaES( data["mareas"]["fecha"]);
 	var datos = data['mareas']['datos']['marea'];
 	var mareas = ''
 		+ datos[0]['tipo'] + ": " + getLocalTime(datos[0]['hora'])
@@ -87,7 +88,7 @@ function createList(data, element) {
 		+ datos[3]['tipo'] + ": " + getLocalTime(datos[3]['hora'])
 
 	const keyDiv = document.createElement('div');
-	keyDiv.innerHTML = `Mareas en ${ubicacion}<br> ${mareas}`;
+	keyDiv.innerHTML = `Mareas en ${ubicacion} (${fecha})<br> ${mareas}`;
 	mainDiv.appendChild(keyDiv);
 }
 
@@ -121,23 +122,22 @@ function getPrevisionDatos(data, element) {
 	}
 }
 
-function createPrevision(data, element) {
-	const mainDiv = document.getElementById(element);
+function getFechaES(fecha) {
 	var options = { year: 'numeric', month: 'numeric', day: 'numeric' };
-	var pattern = /(\d{4})(\d{2})(\d{2})/;
+	var pattern = /(\d{4})[\-]*(\d{2})[\-]*(\d{2})/;
 
-
-	var tabla = '<table class="center">';
-	var datos = data[0]["prediccion"]["dia"][0];
-	var st = String(datos["fecha"]);
+	var st = String(fecha);
 	var dt = new Date(st.replace(pattern, '$2-$3-$1'));
 
-	var dtp = new Date(data[0]["elaborado"]);
-	var optionsp = { year: 'numeric', month: 'numeric', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: false };
+	return dt.toLocaleDateString("es-ES", options)
+}
+
+function createPrevision(data, element) {
+	var tabla = '<table class="center">';
+	var datos = data[0]["prediccion"]["dia"][0];
 
 	tabla += "<tr><th colspan=3>"
-		+ "Prevision en " + data[0]["nombre"] + " ( " + dt.toLocaleDateString("es-ES", options) + " )"
-		+ "<br><p style='font-size:10px; '>[data previsión: " + dtp.toLocaleDateString("es-ES", optionsp) + "]</p>"
+		+ "Prevision en " + data[0]["nombre"] + " ( " + getFechaES(datos["fecha"]) + " )"
 		+ "</th></tr>";
 
 	tabla += "<tr>"
@@ -163,14 +163,19 @@ function createPrevision(data, element) {
 		+ "<tr>"
 		+ "<th>Oleaxe</th><td style='text-align: left;'>" + datos["oleaje"]["descripcion2"] + "</td>"
 		+ "</tr><tr>";
-
-
-
-
 	tabla += "</table>";
+
+	var dt = new Date(data[0]["elaborado"]);
+	var options = { year: 'numeric', month: 'numeric', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: false };
+	document.getElementById("data_prevision").innerHTML = "<p style='font-size:12px;'>["
+	+"<a href='http://www.aemet.es' target='copyright'>"
+	+"Previsión meteorolóxica por AEMET: "
+		+ dt.toLocaleDateString("es-ES", options)
+		+ "</a>]</p>";
 
 	const keyDiv = document.createElement('div');
 	keyDiv.innerHTML = tabla
 	keyDiv.style.textAlign = "center";
+	const mainDiv = document.getElementById(element);
 	mainDiv.appendChild(keyDiv);
 }

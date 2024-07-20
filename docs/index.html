@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Webcam playas</title>
     <meta name="author" content="JM Vilariño" />
 	  <link rel="stylesheet" type="text/css" href="html5video.css" />
+	  
+	<meta http-equiv="content-type" content="text/html; charset==UTF-8"/>
 </head>
 <body>
   <script src="hls.js"></script>
@@ -19,10 +20,8 @@
 	  <div class="rt-container" id='mareas_fisterra'></div>
 	</section>
 	<script>
-		getMareas(23,'mareas_fisterra');		
+		getMareas(23,'mareas_fisterra');
 	</script>
-
-
 
 
 	<section style="text-align:center;">
@@ -34,12 +33,14 @@
           <source/>
           <p>Your browser does not support H.264/MP4.</p>
 	    	</video>
+				<div id='prevision_razo'></div>
 			</div>
 	  </div>
 	</section>
 	<script>
 		var url = 'https://wow.camaramar.com/camaramar/5_razo.stream/playlist.m3u8';
 		showVideo(url, 'Razo')
+		getPrevision(1501902,'prevision_razo');
 	</script>
 
 	<section style="text-align:center;">
@@ -51,12 +52,14 @@
           <source/>
           <p>Your browser does not support H.264/MP4.</p>
 	    	</video>
+	    	<div id='prevision_lapaman'></div>
 			</div>
 	  </div>
 	</section>
 	<script>
 		var url = 'https://wow.camaramar.com/camaramar/48_menduina.stream/playlist.m3u8';
 		showVideo(url, 'Menduina')
+		getPrevision(3602606,'prevision_lapaman');
 	</script>
 
 	<section style="text-align:center;">
@@ -68,13 +71,16 @@
           <source/>
           <p>Your browser does not support H.264/MP4.</p>
 	    	</video>
+	    	<div id='prevision_cabio'></div>
 			</div>
 	  </div>
 	</section>
 	<script>
 		var url = 'https://wow.camaramar.com/camaramar/9_caraminal.stream/playlist.m3u8';
 		showVideo(url, 'Pobra')
+		getPrevision(1506702,'prevision_cabio');
 	</script>
+
 
 	<section style="text-align:center;">
 	  <div class="rt-container">
@@ -170,12 +176,14 @@
           <source/>
           <p>Your browser does not support H.264/MP4.</p>
 	    	</video>
+	    	<div id='prevision_mino'></div>
 			</div>
 	  </div>
 	</section>
 	<script>
 		var url = 'https://wow.camaramar.com/camaramar/61_perbes.stream/playlist.m3u8';
 		showVideo(url, 'Perbes')
+		getPrevision(1504801,'prevision_mino');
 	</script>
 
 	<section style="text-align:center;">

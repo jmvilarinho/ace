@@ -127,13 +127,13 @@ function createPrevision(data,element) {
   var tabla = '<table class="center">';
   tabla += "<tr><th colspan=10>Prevision en "+ data[0]["nombre"] +" (elaborada o: "+data[0]["elaborado"]+")</th></tr>";
   tabla += "<tr><th><th colspan=3></th></th><th colspan=3>Mañá</th><th colspan=3>Tarde</th></tr>";
-  tabla += "<tr><th>Data</th><th>T. Max</th><th>Sensacion</th><th>T. Auga</th><th>Ceo</th><th>Vento</th><th>Oleaxe</th><th>Ceo</th><th>Vento</th><th>Oleaxe</th></tr>";
+  tabla += "<tr><th>Día</th><th>T. Max</th><th>Sensacion</th><th>T. Auga</th><th>Ceo</th><th>Vento</th><th>Oleaxe</th><th>Ceo</th><th>Vento</th><th>Oleaxe</th></tr>";
 
   var datos=data[0]["prediccion"]["dia"][0];
 	var st = String(datos["fecha"]);
 	var dt = new Date(st.replace(pattern,'$2-$3-$1'));
   tabla += "<tr>"
-  			+"<td>"+dt.toLocaleDateString("es-ES", options)+"</td>"
+  			+"<td>"+dt.getDate()+"</td>"
   			+"<td>"+datos["tMaxima"]["valor1"]+"&deg;</td>"
   			+"<td>"+datos["sTermica"]["descripcion1"]+"</td>"
   			+"<td>"+datos["tAgua"]["valor1"]+"&deg;</td>"
@@ -149,7 +149,7 @@ function createPrevision(data,element) {
 	var st = String(datos["fecha"]);
 	var dt = new Date(st.replace(pattern,'$2-$3-$1'));
   tabla += "<tr>"
-  			+"<td>"+dt.toLocaleDateString("es-ES", options)+"</td>"
+  			+"<td>"+dt.getDate()+"</td>"
   			+"<td>"+datos["tMaxima"]["valor1"]+"&deg;</td>"
   			+"<td>"+datos["sTermica"]["descripcion1"]+"</td>"
   			+"<td>"+datos["tAgua"]["valor1"]+"&deg;</td>"
@@ -165,7 +165,7 @@ function createPrevision(data,element) {
 	var st = String(datos["fecha"]);
 	var dt = new Date(st.replace(pattern,'$2-$3-$1'));
   tabla += "<tr>"
-  			+"<td>"+dt.toLocaleDateString("es-ES", options)+"</td>"
+  			+"<td>"+dt.getDate()+"</td>"
   			+"<td>"+datos["tMaxima"]["valor1"]+"&deg;</td>"
   			+"<td>"+datos["sTermica"]["descripcion1"]+"</td>"
   			+"<td>"+datos["tAgua"]["valor1"]+"&deg;</td>"

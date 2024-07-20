@@ -15,28 +15,52 @@
 
   <script src="hls.js"></script>
   <script>
-		function showVideo(url, videoid) {
+		async function validURL(url){
+		  try {
+		    const response = await fetch(url);
+		    console.log(url,' -> ', response.status); // 👉️ 200
+		    if (response.ok) {
+		      return true;
+		    }
+		  } catch (err) {
+		    console.log(err);
+		  }
+		  return false;
+		}
+ 
+
+		async function showVideo(url, videoid) {
       var video = document.getElementById(videoid);
-      if (Hls.isSupported()) {
-        var hls = new Hls({
-          debug: true,
-        });
-        hls.loadSource( url );
-        hls.attachMedia(video);
-        hls.on(Hls.Events.MEDIA_ATTACHED, function () {
-          video.muted = true;
-          video.play();
-        });
-      }
-      // hls.js is not supported on platforms that do not have Media Source Extensions (MSE) enabled.
-      // When the browser has built-in HLS support (check using `canPlayType`), we can provide an HLS manifest (i.e. .m3u8 URL) directly to the video element through the `src` property.
-      // This is using the built-in support of the plain video element, without using hls.js.
-      else if (video.canPlayType('application/vnd.apple.mpegurl')) {
-        video.src = url;
-        video.addEventListener('canplay', function () {
-          video.play();
-        });
-      }
+			var image = document.getElementById(videoid+"-unavailable");
+      exists = await validURL(url);
+
+			if (!exists) {			
+				video.remove();
+				image.style.visibility = "visible";
+			} else {
+				video.style.visibility = "visible";
+				image.remove();
+	      if (Hls.isSupported()) {
+	        var hls = new Hls({
+	          debug: false,
+	        });
+	        hls.loadSource( url );
+	        hls.attachMedia(video);
+	        hls.on(Hls.Events.MEDIA_ATTACHED, function () {
+	          video.muted = true;
+	          video.play();
+	        });
+	      }
+	      // hls.js is not supported on platforms that do not have Media Source Extensions (MSE) enabled.
+	      // When the browser has built-in HLS support (check using `canPlayType`), we can provide an HLS manifest (i.e. .m3u8 URL) directly to the video element through the `src` property.
+	      // This is using the built-in support of the plain video element, without using hls.js.
+	      else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+	        video.src = url;
+	        video.addEventListener('canplay', function () {
+	          video.play();
+	        });
+	      }
+	    }
 		}
 	</script>
 
@@ -45,7 +69,8 @@
 	<section style="text-align:center;">
 	  <div class="rt-container">
       <div class="col-rt-12">
-				<p>Razo</p>
+				<a href='https://www.camaramar.com/webcam/galicia_a-coruna_razo' target=camaramar><p>Razo</p></a>
+				<div id="Razo-unavailable"><img src=unavailable.png></div>
 	    	<video controls id="Razo" >
           <source/>
           <p>Your browser does not support H.264/MP4.</p>
@@ -61,7 +86,8 @@
 	<section style="text-align:center;">
 	  <div class="rt-container">
       <div class="col-rt-12">
-				<p>Menduiña (Ría de Aldan)</p>
+				<a href='https://www.camaramar.com/webcam/galicia_pontevedra_menduina' target=camaramar><p>Menduiña (Ría de Aldan)</p></a>				
+	    	<div id="Menduina-unavailable"><img src=unavailable.png></div>
 	    	<video controls id="Menduina" >
           <source/>
           <p>Your browser does not support H.264/MP4.</p>
@@ -77,8 +103,9 @@
 	<section style="text-align:center;">
 	  <div class="rt-container">
       <div class="col-rt-12">
-				<p>Pobra do Caramiñal</p>
-	    	<video controls id="caraminal" >
+				<a href='https://www.camaramar.com/webcam/galicia_a-coruna_caraminal' target=camaramar><p>Pobra do Caramiñal</p></a>				
+				<div id="Pobra-unavailable"><img src=unavailable.png></div>
+	    	<video controls id="Pobra" >
           <source/>
           <p>Your browser does not support H.264/MP4.</p>
 	    	</video>   
@@ -87,13 +114,14 @@
 	</section>
 	<script>
 		var url = 'https://wow.camaramar.com/camaramar/9_caraminal.stream/playlist.m3u8';
-		showVideo(url, 'caraminal')
+		showVideo(url, 'Pobra')
 	</script>
 
 	<section style="text-align:center;">
 	  <div class="rt-container">
       <div class="col-rt-12">
-				<p>Coroso - Ribeira</p>
+				<a href='https://www.camaramar.com/webcam/galicia_a-coruna_coroso' target=camaramar><p>Coroso - Ribeira</p></a>				
+				<div id="Coroso-unavailable"><img src=unavailable.png></div>
 	    	<video controls id="Coroso" >
           <source/>
           <p>Your browser does not support H.264/MP4.</p>
@@ -110,8 +138,9 @@
 	<section style="text-align:center;">
 	  <div class="rt-container">
       <div class="col-rt-12">
-				<p>Baiona</p>
-	    	<video controls id="Baiona" >
+				<a href='https://www.camaramar.com/webcam/galicia_pontevedra_lanzadanoalla' target=camaramar><p>Noalla - Sanxenxo</p></a>
+				<div id="Noalla-unavailable"><img src=unavailable.png></div>
+	    	<video controls id="Noalla" >
           <source/>
           <p>Your browser does not support H.264/MP4.</p>
 	    	</video>   
@@ -119,14 +148,15 @@
 	  </div>
 	</section>
 	<script>
-		var url = 'https://wow.camaramar.com/camaramar/sub.stream/playlist.m3u8';
-		showVideo(url, 'Baiona')
+		var url = 'https://wow.camaramar.com/directo/noalla.stream/playlist.m3u8';
+		showVideo(url, 'Noalla')
 	</script>
 
 	<section style="text-align:center;">
 	  <div class="rt-container">
       <div class="col-rt-12">
-				<p>A Lanzada</p>
+				<a href='https://www.camaramar.com/webcam/galicia_pontevedra_lanzada' target=camaramar><p>A Lanzada</p></a>
+				<div id="Lanzada-unavailable"><img src=unavailable.png></div>
 	    	<video controls id="Lanzada" >
           <source/>
           <p>Your browser does not support H.264/MP4.</p>
@@ -142,7 +172,8 @@
 	<section style="text-align:center;">
 	  <div class="rt-container">
       <div class="col-rt-12">
-				<p>Playa de Rodeira (Cangas do Morrazo)</p>
+				<a href='https://www.camaramar.com/webcam/galicia_pontevedra_rodeira' target=camaramar><p>Playa de Rodeira (Cangas do Morrazo)</p></a>
+				<div id="Rodeira-unavailable"><img src=unavailable.png></div>
 	    	<video controls id="Rodeira" >
           <source/>
           <p>Your browser does not support H.264/MP4.</p>
@@ -158,7 +189,8 @@
 	<section style="text-align:center;">
 	  <div class="rt-container">
       <div class="col-rt-12">
-				<p>Perbes</p>
+				<a href='https://www.camaramar.com/webcam/galicia_a-coruna_perbes' target=camaramar><p>Perbes</p></a>
+				<div id="Perbes-unavailable"><img src=unavailable.png></div>
 	    	<video controls id="Perbes" >
           <source/>
           <p>Your browser does not support H.264/MP4.</p>
@@ -174,7 +206,8 @@
 	<section style="text-align:center;">
 	  <div class="rt-container">
       <div class="col-rt-12">
-				<p>Riazor</p>
+				<a href='https://www.camaramar.com/webcam/galicia_a-coruna_riazor' target=camaramar><p>Riazor</p></a>				
+				<div id="Riazor-unavailable"><img src=unavailable.png></div>
 	    	<video controls id="Riazor" >
           <source/>
           <p>Your browser does not support H.264/MP4.</p>

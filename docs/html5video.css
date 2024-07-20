@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	background-image: url("beach.jpg");
+  background-size: cover;
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  font-size: 100%;
+  line-height: 1.25;
+  margin: 0;
+	padding:0;
+}
+a{
+	text-decoration: none;
+	outline: none;
+}
+a:hover, a:focus {
+	color: #373e18;
+}
+
+
+/* -------------------------------------------------------------------------------------------
+	ITEM DEMO Style -  SHOULD REQUIRE to add while implementing on your web page.
+---------------------------------------------------------------------------------------------- */
+
+video
+{
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+
+/* -------------------------------------------------------------------------------------------
+	PAGE LAYOUT PURPOSE ONLY - NOT REQUIRE TO ADD
+---------------------------------------------------------------------------------------------- */
+
+/* To Navigation Style */
+.cctop {
+	background:#e6ed1c;	
+	width: 100%;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 0.75em;
+	line-height: 3.2;
+	padding:7px;
+}
+
+.cctop a {
+	display: inline-block;
+	padding: 0 1.5em;
+	text-decoration: none;
+	letter-spacing: 1px;
+	color:#000;
+	font-size:15px;
+}
+.cctop a:hover{
+	color:#5e6105;
+}
+.cctop span.right {
+	float: right;
+}
+
+.cctop span.right a {
+	display: block;
+	float: left;
+}
+
+
+/* Header Style */
+.ccheader {
+	margin: 0 auto;
+	padding: 2em 12px;
+	text-align: center;
+}
+.ccheader h1 {
+    font-size: 1.5em;
+    font-weight: 700;
+    line-height: 1.3;
+    margin: 0;
+    text-transform: uppercase;
+    color: #5e5e5a;
+}
+.ccheader h1 span {
+	display: block;
+	padding: 0 0 0.6em 0.1em;
+	font-size: 60%;
+	opacity: 0.7;
+}
+.ccheader h2 {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.3;
+    margin: 5px 0;
+    color: #949909;
+}
+
+
+
+/* -------------------------------------------------------------------------------------------
+	Container & Responsive Style - May REQUIRE TO ADD if you need responsive layout
+---------------------------------------------------------------------------------------------- *
+
+/* Container*/
+.codecontainer {
+  padding-right: 12px;
+  padding-left: 12px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align:center;
+}
+
+/* Columns */
+.column{ float:left;}
+.colum_full{ width:100%;}
+.colum_6{ width:60%;}
+.colum_5{ width:50%;}
+.colum_4{ width:40%;}
+.colum_3{ width:30%;}
+.colum_2{ width:20%;}
+.colum_1{ width:10%;}
+.column_half{
+	float: left;
+    margin: 0 2%;
+    width: 46%;
+}
+
+@media (min-width: 768px) {
+  .codecontainer {
+    width: 750px;
+  }
+
+}
+@media (min-width: 992px) {
+  .codecontainer {
+    width: 970px;
+  }
+  
+}
+@media (min-width: 1200px) {
+  .codecontainer {
+    width: 1170px;
+  }
+}
+
+@media only screen and (min-width:240px) and (max-width: 768px){
+	section{
+		padding:0 15px;	
+	}
+	.cctop {
+	
+	text-align: center;
+	}
+	.cctop a{
+		display:block;	
+	}
+	.cctop span.right {
+	float: none;
+	}
+	.cctop span.right a {
+	float: none;
+	
+	}
+}
+
+

@@ -1,11 +1,20 @@
-<html><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <title>Webcams</title>
-  </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Webcam playas</title>
+    <meta name="author" content="Codeconvey" />
+    <!--Only for demo purpose - no need to add.-->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+	  <link rel="stylesheet" type="text/css" href="html5video.css" />
+</head>
+<body>
+		
 
-  <body>
-    <script src="hls.js"></script>
-    <script>
+  <script src="hls.js"></script>
+  <script>
 		function showVideo(url, videoid) {
       var video = document.getElementById(videoid);
       if (Hls.isSupported()) {
@@ -28,74 +37,159 @@
           video.play();
         });
       }
-}
-  </script>
+		}
+	</script>
 
-		<p>Razo</p>
-    <center>
-      <video   id="razo" controls="controls" src="blob:https://hlsjs.video-dev.org/ac8d6fc1-d190-4aa5-90aa-c721a6c45df8"></video>
-    </center>
-    <script>
-    	var url = 'https://wow.camaramar.com/camaramar/5_razo.stream/playlist.m3u8';
-    	showVideo(url, 'razo')
-    </script>
-    <br>
-    
-		<p>Menduiña</p>
-    <center>
-      <video   id="menduina" controls="controls" src="blob:https://hlsjs.video-dev.org/ac8d6fc1-d190-4aa5-90aa-c721a6c45df8"></video>
-    </center>
-    <script>
-    	var url = 'https://wow.camaramar.com/camaramar/48_menduina.stream/playlist.m3u8';
-    	showVideo(url, 'menduina')
-    </script>
-    <br>
-    
-		<p>Pobra do Caramiñal</p>
-    <center>
-      <video   id="caraminal" controls="controls" src="blob:https://hlsjs.video-dev.org/ac8d6fc1-d190-4aa5-90aa-c721a6c45df8"></video>
-    </center>
-    <script>
-    	var url = 'https://wow.camaramar.com/camaramar/9_caraminal.stream/playlist.m3u8';
-    	showVideo(url, 'caraminal')
-    </script>
-    <br>
+	<center><h3>Cortesía de J.M. Vilariño</h3></center>
+	
+	<section style="text-align:center;">
+	  <div class="rt-container">
+      <div class="col-rt-12">
+				<p>Razo</p>
+	    	<video controls id="Razo" >
+          <source/>
+          <p>Your browser does not support H.264/MP4.</p>
+	    	</video>   
+			</div>
+	  </div>
+	</section>
+	<script>
+		var url = 'https://wow.camaramar.com/camaramar/5_razo.stream/playlist.m3u8';
+		showVideo(url, 'Razo')
+	</script>
+
+	<section style="text-align:center;">
+	  <div class="rt-container">
+      <div class="col-rt-12">
+				<p>Menduiña (Ría de Aldan)</p>
+	    	<video controls id="Menduina" >
+          <source/>
+          <p>Your browser does not support H.264/MP4.</p>
+	    	</video>   
+			</div>
+	  </div>
+	</section>
+	<script>
+		var url = 'https://wow.camaramar.com/camaramar/48_menduina.stream/playlist.m3u8';
+		showVideo(url, 'Menduina')
+	</script>
+
+	<section style="text-align:center;">
+	  <div class="rt-container">
+      <div class="col-rt-12">
+				<p>Pobra do Caramiñal</p>
+	    	<video controls id="caraminal" >
+          <source/>
+          <p>Your browser does not support H.264/MP4.</p>
+	    	</video>   
+			</div>
+	  </div>
+	</section>
+	<script>
+		var url = 'https://wow.camaramar.com/camaramar/9_caraminal.stream/playlist.m3u8';
+		showVideo(url, 'caraminal')
+	</script>
+
+	<section style="text-align:center;">
+	  <div class="rt-container">
+      <div class="col-rt-12">
+				<p>Coroso - Ribeira</p>
+	    	<video controls id="Coroso" >
+          <source/>
+          <p>Your browser does not support H.264/MP4.</p>
+	    	</video>   
+			</div>
+	  </div>
+	</section>
+	<script>
+		var url = 'https://wow.camaramar.com/camaramar/31_coroso.stream/playlist.m3u8';
+		showVideo(url, 'Coroso')
+	</script>
+
+
+	<section style="text-align:center;">
+	  <div class="rt-container">
+      <div class="col-rt-12">
+				<p>Baiona</p>
+	    	<video controls id="Baiona" >
+          <source/>
+          <p>Your browser does not support H.264/MP4.</p>
+	    	</video>   
+			</div>
+	  </div>
+	</section>
+	<script>
+		var url = 'https://wow.camaramar.com/camaramar/sub.stream/playlist.m3u8';
+		showVideo(url, 'Baiona')
+	</script>
+
+	<section style="text-align:center;">
+	  <div class="rt-container">
+      <div class="col-rt-12">
+				<p>A Lanzada</p>
+	    	<video controls id="Lanzada" >
+          <source/>
+          <p>Your browser does not support H.264/MP4.</p>
+	    	</video>   
+			</div>
+	  </div>
+	</section>
+	<script>
+		var url = 'https://wow.camaramar.com/camaramar/68_lanzada.stream/playlist.m3u8';
+		showVideo(url, 'Lanzada')
+	</script>
+
+	<section style="text-align:center;">
+	  <div class="rt-container">
+      <div class="col-rt-12">
+				<p>Playa de Rodeira (Cangas do Morrazo)</p>
+	    	<video controls id="Rodeira" >
+          <source/>
+          <p>Your browser does not support H.264/MP4.</p>
+	    	</video>   
+			</div>
+	  </div>
+	</section>
+	<script>
+		var url = 'https://wow.camaramar.com/camaramar/57_rodeira.stream/playlist.m3u8';
+		showVideo(url, 'Rodeira')
+	</script>
+
+	<section style="text-align:center;">
+	  <div class="rt-container">
+      <div class="col-rt-12">
+				<p>Perbes</p>
+	    	<video controls id="Perbes" >
+          <source/>
+          <p>Your browser does not support H.264/MP4.</p>
+	    	</video>   
+			</div>
+	  </div>
+	</section>
+	<script>
+		var url = 'https://wow.camaramar.com/camaramar/61_perbes.stream/playlist.m3u8';
+		showVideo(url, 'Perbes')
+	</script>
+
+	<section style="text-align:center;">
+	  <div class="rt-container">
+      <div class="col-rt-12">
+				<p>Riazor</p>
+	    	<video controls id="Riazor" >
+          <source/>
+          <p>Your browser does not support H.264/MP4.</p>
+	    	</video>   
+			</div>
+	  </div>
+	</section>
+	<script>
+		var url = 'https://wow.camaramar.com/camaramar/23_riazor.stream/playlist.m3u8';
+		showVideo(url, 'Riazor')
+	</script>
+
+ 
 
 
 
-		<p>A Lanzada</p>
-    <center>
-      <video   id="lanzada" controls="controls" src="blob:https://hlsjs.video-dev.org/ac8d6fc1-d190-4aa5-90aa-c721a6c45df8"></video>
-    </center>
-    <script>
-    	var url = 'https://wow.camaramar.com/camaramar/68_lanzada.stream/playlist.m3u8';
-    	showVideo(url, 'lanzada')
-    </script>
-    <br>
-
-		<p>Perbes</p>
-    <center>
-      <video   id="perbes" controls="controls" src="blob:https://hlsjs.video-dev.org/ac8d6fc1-d190-4aa5-90aa-c721a6c45df8"></video>
-    </center>
-    <script>
-    	var url = 'https://wow.camaramar.com/camaramar/61_perbes.stream/playlist.m3u8';
-    	showVideo(url, 'perbes')
-    </script>
-    <br>
-
-		<p>Gandarío</p>
-    <center>
-      <video   id="gandario" controls="controls" src="blob:https://hlsjs.video-dev.org/ac8d6fc1-d190-4aa5-90aa-c721a6c45df8"></video>
-    </center>
-    <script>
-    	var url = 'https://wow.camaramar.com/camaramar/53_gandario.stream/playlist.m3u8';
-    	showVideo(url, 'gandario')
-    </script>
-    <br>    
-
-
-
-
-
-
-</body></html>
+	</body>
+</html>

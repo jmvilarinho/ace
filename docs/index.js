@@ -125,57 +125,37 @@ function createPrevision(data,element) {
 
 
   var tabla = '<table class="center">';
-  tabla += "<tr><th colspan=10>Prevision en "+ data[0]["nombre"] +" (elaborada o: "+data[0]["elaborado"]+")</th></tr>";
-  tabla += "<tr><th><th colspan=3></th></th><th colspan=3>Mañá</th><th colspan=3>Tarde</th></tr>";
-  tabla += "<tr><th>Día</th><th>T. Max</th><th>Sensacion</th><th>T. Auga</th><th>Ceo</th><th>Vento</th><th>Oleaxe</th><th>Ceo</th><th>Vento</th><th>Oleaxe</th></tr>";
-
   var datos=data[0]["prediccion"]["dia"][0];
 	var st = String(datos["fecha"]);
 	var dt = new Date(st.replace(pattern,'$2-$3-$1'));
-  tabla += "<tr>"
-  			+"<td>"+dt.getDate()+"</td>"
-  			+"<td>"+datos["tMaxima"]["valor1"]+"&deg;</td>"
-  			+"<td>"+datos["sTermica"]["descripcion1"]+"</td>"
-  			+"<td>"+datos["tAgua"]["valor1"]+"&deg;</td>"
-  			+"<td>"+datos["estadoCielo"]["descripcion1"]+"</td>"
-  			+"<td>"+datos["viento"]["descripcion1"]+"</td>"
-  			+"<td>"+datos["oleaje"]["descripcion1"]+"</td>"
-  			+"<td>"+datos["estadoCielo"]["descripcion2"]+"</td>"
-  			+"<td>"+datos["viento"]["descripcion2"]+"</td>"
-  			+"<td>"+datos["oleaje"]["descripcion2"]+"</td>"
-  			+"</tr>";
 
-  var datos=data[0]["prediccion"]["dia"][1];
-	var st = String(datos["fecha"]);
-	var dt = new Date(st.replace(pattern,'$2-$3-$1'));
+  tabla += "<tr><th colspan=3>Prevision en "+ data[0]["nombre"] +" ( "+dt.toLocaleDateString("es-ES", options)+" )</th></tr>";
+  
   tabla += "<tr>"
-  			+"<td>"+dt.getDate()+"</td>"
-  			+"<td>"+datos["tMaxima"]["valor1"]+"&deg;</td>"
-  			+"<td>"+datos["sTermica"]["descripcion1"]+"</td>"
-  			+"<td>"+datos["tAgua"]["valor1"]+"&deg;</td>"
-  			+"<td>"+datos["estadoCielo"]["descripcion1"]+"</td>"
-  			+"<td>"+datos["viento"]["descripcion1"]+"</td>"
-  			+"<td>"+datos["oleaje"]["descripcion1"]+"</td>"
-  			+"<td>"+datos["estadoCielo"]["descripcion2"]+"</td>"
-  			+"<td>"+datos["viento"]["descripcion2"]+"</td>"
-  			+"<td>"+datos["oleaje"]["descripcion2"]+"</td>"
-  			+"</tr>";
+  			+"<th>T. Max</th><td colspan=3>"+datos["tMaxima"]["valor1"]+"&deg;</td>"
+  			+"</tr><tr>"
+  			+"<th>Sensacion</th><td colspan=3>"+datos["sTermica"]["descripcion1"]+"</td>"
+  			+"</tr><tr>"
+  			+"<th>T. Auga</th><td colspan=3>"+datos["tAgua"]["valor1"]+"&deg;</td>"
+  			+"</tr><tr>"
+  			+"<th rowspan=4>Mañá</th>"
+  			+"<tr>"
+  			+"<th>Ceo</th><td>"+datos["estadoCielo"]["descripcion1"]+"</td>"
+  			+"<tr>"
+  			+"<th>Vento</th><td>"+datos["viento"]["descripcion1"]+"</td>"
+  			+"<tr>"
+  			+"<th>Oleaxe</th><td>"+datos["oleaje"]["descripcion1"]+"</td>"
+  			+"</tr><tr>"
+  			+"<th rowspan=4>Tarde</th>"
+  			+"<tr>"
+  			+"<th>Ceo</th><td>"+datos["estadoCielo"]["descripcion2"]+"</td>"
+  			+"<tr>"
+  			+"<th>Vento</th><td>"+datos["viento"]["descripcion2"]+"</td>"
+  			+"<tr>"
+  			+"<th>Oleaxe</th><td>"+datos["oleaje"]["descripcion2"]+"</td>"
+  			+"</tr><tr>";
 
-  var datos=data[0]["prediccion"]["dia"][2];
-	var st = String(datos["fecha"]);
-	var dt = new Date(st.replace(pattern,'$2-$3-$1'));
-  tabla += "<tr>"
-  			+"<td>"+dt.getDate()+"</td>"
-  			+"<td>"+datos["tMaxima"]["valor1"]+"&deg;</td>"
-  			+"<td>"+datos["sTermica"]["descripcion1"]+"</td>"
-  			+"<td>"+datos["tAgua"]["valor1"]+"&deg;</td>"
-  			+"<td>"+datos["estadoCielo"]["descripcion1"]+"</td>"
-  			+"<td>"+datos["viento"]["descripcion1"]+"</td>"
-  			+"<td>"+datos["oleaje"]["descripcion1"]+"</td>"
-  			+"<td>"+datos["estadoCielo"]["descripcion2"]+"</td>"
-  			+"<td>"+datos["viento"]["descripcion2"]+"</td>"
-  			+"<td>"+datos["oleaje"]["descripcion2"]+"</td>"
-  			+"</tr>";
+
 
 
   tabla += "</table>";

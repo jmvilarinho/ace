@@ -26,7 +26,7 @@ a:hover, a:focus {
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
-  padding: 3px;
+  padding: 0px;
   text-align: center;
   font-size: 12px;
 }

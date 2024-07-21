@@ -156,7 +156,7 @@ async function createPrevision(data, element, idmareas) {
 	tabla += "<tr>"
 		+ "<th>Temp. Max.</th><td>" + datos["tMaxima"]["valor1"] + "&deg;</td>"
 		+ "<th>Temp. Auga</th><td>" + datos["tAgua"]["valor1"] + "&deg;</td></tr><tr>"
-		+ "<th colspan=2>Sensacion</th><td colspan=2>" + datos["sTermica"]["descripcion1"] + "</td>"
+		+ "<th colspan=2>Sensacion térmica</th><td colspan=2>" + datos["sTermica"]["descripcion1"] + "</td>"
 		+ "</tr><tr>"
 		+ '<th rowspan=4>Mañá<br><img src="img/' + datos["estadoCielo"]["f1"] + '.png" height="50px"></th>'
 		+ "<tr>"

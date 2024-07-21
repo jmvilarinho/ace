@@ -144,7 +144,7 @@ function createPrevision(data, element, idmareas) {
 	var datos = data[0]["prediccion"]["dia"][0];
 
 	tabla += "<tr><th colspan=3>"
-		+ "Prevision en " + data[0]["nombre"] + " ( " + getFechaES(datos["fecha"]) + " )"
+		+ "Prevision para " + data[0]["nombre"] 
 		+ "</th></tr>";
 
 	tabla += "<tr>"

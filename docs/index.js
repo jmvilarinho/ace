@@ -64,14 +64,15 @@ function getLocalTime(time) {
 	return padTo2Digits(date.getHours()) + ':' + padTo2Digits(date.getMinutes());
 }
 
-function getMareas(id, element='') {
+async function getMareas(id, element = '') {
 	url = "https://ideihm.covam.es/api-ihm/getmarea?request=gettide&id=" + id + "&format=json"
 	console.log('Mareas: ' + url)
-	fetch(url)
+	let data = await fetch(url)
 		.then(response => response.json())
 		.then(data => {
 			return createList(data, element);
 		});
+	return data;
 }
 
 function createList(data, element) {
@@ -89,11 +90,16 @@ function createList(data, element) {
 		+ ", "
 		+ datos[3]['tipo'] + ": " + getLocalTime(datos[3]['hora'])
 
-	if ( element != ''){
+	if (element != '') {
 		const keyDiv = document.createElement('div');
 		keyDiv.innerHTML = `Mareas en ${ubicacion} (${fecha})<br> ${mareas}`;
 		mainDiv.appendChild(keyDiv);
 	}
+
+	document.getElementById("data_mareas").innerHTML = "<p style='font-size:12px;'>"
+		+ '<a href="https://ideihm.covam.es/portal/api-mareas/" target="copyright">Información mareas proporcionada por IHM, ' + fecha + '</a></p>'
+		+ "</a></p>";
+
 	return mareas;
 }
 
@@ -101,7 +107,7 @@ function createList(data, element) {
 
 var apikey = 'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqbXZpbGFyaW5ob0BnbWFpbC5jb20iLCJqdGkiOiJhZTdiYTgwOS1iOTQ3LTQxM2YtYmRmYy03ODEzZjMxOGM5ZDkiLCJpc3MiOiJBRU1FVCIsImlhdCI6MTcyMTQ4NDg2MiwidXNlcklkIjoiYWU3YmE4MDktYjk0Ny00MTNmLWJkZmMtNzgxM2YzMThjOWQ5Iiwicm9sZSI6IiJ9.7kqIc3ErJmp9MtGELp9C8SDUkZ-a9bAX2LeRw_aysRg';
 
-function getPrevision(id, element, idmareas=0) {
+function getPrevision(id, element, idmareas = 0) {
 	const ms = Date.now();
 	const url = 'https://opendata.aemet.es/opendata/api/prediccion/especifica/playa/' + id + '/?api_key=' + apikey + "&dummy=" + ms
 	console.log('Get prevision  playa: ' + url)
@@ -139,12 +145,12 @@ function getFechaES(fecha) {
 	return dt.toLocaleDateString("es-ES", options)
 }
 
-function createPrevision(data, element, idmareas) {
+async function createPrevision(data, element, idmareas) {
 	var tabla = '<table class="center">';
 	var datos = data[0]["prediccion"]["dia"][0];
 
 	tabla += "<tr><th colspan=4>"
-		+ "Prevision para " + data[0]["nombre"] 
+		+ "Prevision para " + data[0]["nombre"]
 		+ "</th></tr>";
 
 	tabla += "<tr>"
@@ -160,17 +166,18 @@ function createPrevision(data, element, idmareas) {
 		+ "<tr>"
 		+ "<th>Oleaxe</th><td style='text-align: left;' colspan=2>" + datos["oleaje"]["descripcion1"] + "</td>"
 		+ "</tr><tr>"
-		+ '<th rowspan=4>Tarde<br><img src="img/' + datos["estadoCielo"]["f2"] + '.png" height="50px"></th>'		+ "<tr>"
+		+ '<th rowspan=4>Tarde<br><img src="img/' + datos["estadoCielo"]["f2"] + '.png" height="50px"></th>' + "<tr>"
 		+ "<th>Ceo</th><td style='text-align: left;' colspan=2>" + datos["estadoCielo"]["descripcion2"] + "</td>"
 		+ "<tr>"
 		+ "<th>Vento</th><td style='text-align: left;' colspan=2>" + datos["viento"]["descripcion2"] + "</td>"
 		+ "<tr>"
 		+ "<th>Oleaxe</th><td style='text-align: left;' colspan=2>" + datos["oleaje"]["descripcion2"] + "</td>"
-		+ "</tr><tr>";
+		+ "</tr>";
 
-	// if ( idmareas > 0){
-	// 	tabla += '<tr><td colspan=3>'+getMareas(idmareas)+'</td></tr>';
-	// }
+	if (idmareas > 0) {
+		mareas = await getMareas(idmareas);
+		tabla += '<tr><td colspan=4>' + mareas + '</td></tr>';
+	}
 
 	tabla += "</table>";
 

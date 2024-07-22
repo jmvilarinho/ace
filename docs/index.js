@@ -1,30 +1,41 @@
 // --------------------------------------------------------------------------------------------------
 async function validURL(url) {
-	try {
-		const response = await fetch(url);
-		console.log('Camara: ' + url, ' -> ', response.status); // 👉️ 200
-		if (response.ok) {
+	result = await fetch(url, {
+	  })
+		.then(response => {
+		  if (response.ok) {
 			return true;
-		}
-	} catch (err) {
-		console.log(err);
-	}
-	return false;
+		  }
+		  return false;
+		})
+		.catch(error => {
+		  console.error('Error:', error);
+		  return false;
+		});
+
+	return result;
 }
 
+async function showAlternative(imageObj, alternative, alternativeurl) {
+	exists = await validURL(alternativeurl);
 
-function encode_utf8(s) {
-	return unescape(encodeURIComponent(s));
+		const keyDiv = document.createElement('div');
+		keyDiv.innerHTML = alternative+'<br><img width="680px" src="'+alternativeurl+'">';
+		imageObj.innerHTML ='';
+		imageObj.appendChild(keyDiv);
+
 }
 
-async function showVideo(url, videoid) {
+async function showVideo(url, videoid, alternative='', alternativeurl='') {
 	var video = document.getElementById(videoid);
 	var image = document.getElementById(videoid + "-unavailable");
 	exists = await validURL(url);
-
 	if (!exists) {
-		video.remove();
 		image.style.visibility = "visible";
+		video.remove();
+		if ( alternative != ''){
+			showAlternative( image, alternative, alternativeurl);
+		}
 	} else {
 		video.style.visibility = "visible";
 		image.remove();

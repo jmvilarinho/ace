@@ -1,40 +1,43 @@
 // --------------------------------------------------------------------------------------------------
 async function validURL(url) {
 	result = await fetch(url, {
-	  })
+	})
 		.then(response => {
-		  if (response.ok) {
-			return true;
-		  }
-		  return false;
+			if (response.ok) {
+				return true;
+			}
+			return false;
 		})
 		.catch(error => {
-		  console.error('Error:', error);
-		  return false;
+			console.error('Error:', error);
+			return false;
 		});
 
 	return result;
 }
 
-async function showAlternative(imageObj, alternative, alternativeurl) {
-	exists = await validURL(alternativeurl);
+async function showAlternative(videoid, alternative, alternativeurl) {
+	var alternativeObj = document.getElementById(videoid + "-alternative");
+	alternativeObj.innerHTML = '<p>' + alternative + '</p>';
 
-		const keyDiv = document.createElement('div');
-		keyDiv.innerHTML = alternative+'<br><img width="680px" src="'+alternativeurl+'">';
-		imageObj.innerHTML ='';
-		imageObj.appendChild(keyDiv);
+	var ms = new Date().getTime();
+	const keyDiv = document.createElement('div');
+	keyDiv.innerHTML = '<img  id="' + videoid + '-alternative" width="680px" style="width: 100%; height: auto; max-width: 1300px;" src="' + alternativeurl + '?nocache=' + ms + '">';
 
+	var imageObj = document.getElementById(videoid + "-unavailable");
+	imageObj.innerHTML = '';
+	imageObj.appendChild(keyDiv);
 }
 
-async function showVideo(url, videoid, alternative='', alternativeurl='') {
+async function showVideo(url, videoid, alternative = '', alternativeurl = '') {
 	var video = document.getElementById(videoid);
 	var image = document.getElementById(videoid + "-unavailable");
 	exists = await validURL(url);
 	if (!exists) {
 		image.style.visibility = "visible";
 		video.remove();
-		if ( alternative != ''){
-			showAlternative( image, alternative, alternativeurl);
+		if (alternative != '') {
+			showAlternative(videoid, alternative, alternativeurl);
 		}
 	} else {
 		video.style.visibility = "visible";
@@ -108,7 +111,7 @@ function createList(data, element) {
 	}
 
 	document.getElementById("data_mareas").innerHTML = "<p style='font-size:12px;'>"
-		+ '<a href="https://ideihm.covam.es/portal/api-mareas/" target="copyright">Información mareas proporcionada por IHM, ' + fecha + '</a></p>'
+		+ '<a href="https://ideihm.covam.es/portal/presentacion-geoportal/" target="copyright">Información mareas proporcionada por IHM, ' + fecha + '</a></p>'
 		+ "</a></p>";
 
 	return mareas;

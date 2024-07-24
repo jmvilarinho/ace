@@ -2,15 +2,15 @@
 <html lang="en">
 
 <head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-PMCWDDX565"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-PMCWDDX565"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
 
-  gtag('config', 'G-PMCWDDX565');
-</script>
+		gtag('config', 'G-PMCWDDX565');
+	</script>
 	<title>Webcam playas</title>
 	<meta name="author" content="JM Vilariño" />
 	<link rel="stylesheet" type="text/css" href="html5video.css" />
@@ -22,12 +22,19 @@
 	<link rel="shortcut icon" href="/ace/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="/ace/favicon.ico" type="image/x-icon">
 </head>
+
 <body>
 	<center>
 		<h3>Cortesía de J.M. Vilariño</h3>
 		<h4>(colaborador Iván Vilariño)</h4>
 	</center>
-	<div id='data_prevision'></div>
+
+	<p id="status"></p>
+	<a id="map-link" target="_blank"></a>
+	<script>
+		geoFindMe();
+	</script>
+
 	<hr>
 
 	<section style="text-align:center;">
@@ -43,15 +50,19 @@
 					<source />
 					<p>Your browser does not support H.264/MP4.</p>
 				</video>
-				<div id='prevision_razo'></div>
+				<div id='Razo-prevision'></div>
+				<div id='Razo-temperatura'></div>
 			</div>
 		</div>
 	</section>
 	<script>
 		var url = 'https://wow.camaramar.com/camaramar/5_razo.stream/playlist.m3u8';
 		showVideo(url, 'Razo')
-		getPrevision(1501902, 'prevision_razo', 70);
+		getTemperatura('Razo-temperatura', 43.290787, -8.701617);
+		getPrevision(1501902, 'Razo-prevision', 70);
 	</script>
+
+	<center><img width="200" style="width: 100%; height: auto; max-width: 1300px;" src=img/line.png></center>
 
 	<section style="text-align:center;">
 		<div class="rt-container">
@@ -66,7 +77,8 @@
 					<source />
 					<p>Your browser does not support H.264/MP4.</p>
 				</video>
-				<div id='prevision_lapaman'></div>
+				<div id='Lapaman-prevision'></div>
+				<div id='Lapaman-temperatura'></div>
 			</div>
 		</div>
 	</section>
@@ -74,8 +86,11 @@
 		var url = 'https://wow.camaramar.com/camaramar/48_menduina.stream/playlist.m3u8';
 		var alternativeuri = 'https://www.meteogalicia.gal/datosred/infoweb/clima/webcams/Aguete2/ultima.jpg';
 		showVideo(url, 'Menduina', 'Aguete (Ría de Aldan)', alternativeuri)
-		getPrevision(3602606, 'prevision_lapaman', 28);
+		getTemperatura('Lapaman-temperatura',42.342433, -8.752242);
+		getPrevision(1501902, 'Lapaman-prevision', 70);
 	</script>
+
+	<center><img width="200" style="width: 100%; height: auto; max-width: 1300px;" src=img/line.png></center>
 
 	<section style="text-align:center;">
 		<div class="rt-container">
@@ -90,7 +105,8 @@
 					<source />
 					<p>Your browser does not support H.264/MP4.</p>
 				</video>
-				<div id='prevision_cabio'></div>
+				<div id='Cabio-prevision'></div>
+				<div id='Cabio-temperatura'></div>
 			</div>
 		</div>
 	</section>
@@ -98,8 +114,11 @@
 		var url = 'https://wow.camaramar.com/camaramar/9_caraminal.stream/playlist.m3u8';
 		var alternativeuri = 'https://www.meteogalicia.gal/datosred/infoweb/clima/webcams/Coron/ultima.jpg';
 		showVideo(url, 'Pobra', 'Corón (Vilanova de Arousa)', alternativeuri)
-		getPrevision(1506702, 'prevision_cabio', 25);
+		getTemperatura('Cabio-temperatura', 42.586036, -8.932807);
+		getPrevision(1506702, 'Cabio-prevision', 25);
 	</script>
+
+	<center><img width="200" style="width: 100%; height: auto; max-width: 1300px;" src=img/line.png></center>
 
 	<section style="text-align:center;">
 		<div class="rt-container">
@@ -114,15 +133,19 @@
 					<source />
 					<p>Your browser does not support H.264/MP4.</p>
 				</video>
-				<div id='prevision_mino'></div>
+				<div id='Mino-prevision'></div>
+				<div id='Mino-temperatura'></div>
 			</div>
 		</div>
 	</section>
 	<script>
 		var url = 'https://wow.camaramar.com/camaramar/61_perbes.stream/playlist.m3u8';
 		showVideo(url, 'Perbes')
-		getPrevision(1504801, 'prevision_mino', 19);
+		getTemperatura('Mino-temperatura', 43.357382, -8.211300);
+		getPrevision(1504801, 'Mino-prevision', 19);
 	</script>
+
+	<center><img width="200" style="width: 100%; height: auto; max-width: 1300px;" src=img/line.png></center>
 
 	<section style="text-align:center;">
 		<div class="rt-container">
@@ -143,6 +166,8 @@
 		showVideo(url, 'Noalla')
 	</script>
 
+	<center><img width="200" style="width: 100%; height: auto; max-width: 1300px;" src=img/line.png></center>
+
 	<section style="text-align:center;">
 		<div class="rt-container">
 			<div class="col-rt-12">
@@ -161,6 +186,8 @@
 		var url = 'https://wow.camaramar.com/camaramar/68_lanzada.stream/playlist.m3u8';
 		showVideo(url, 'Lanzada')
 	</script>
+
+	<center><img width="200" style="width: 100%; height: auto; max-width: 1300px;" src=img/line.png></center>
 
 	<section style="text-align:center;">
 		<div class="rt-container">
@@ -181,6 +208,8 @@
 		showVideo(url, 'Rodeira')
 	</script>
 
+	<center><img width="200" style="width: 100%; height: auto; max-width: 1300px;" src=img/line.png></center>
+
 	<section style="text-align:center;">
 		<div class="rt-container">
 			<div class="col-rt-12">
@@ -200,6 +229,8 @@
 		showVideo(url, 'Cebreiro')
 	</script>
 
+	<center><img width="200" style="width: 100%; height: auto; max-width: 1300px;" src=img/line.png></center>
+
 	<section style="text-align:center;">
 		<div class="rt-container">
 			<div class="col-rt-12">
@@ -218,6 +249,8 @@
 		var url = 'https://www.crtvg.es:1554/hls/coruna/index.m3u8';
 		showVideo(url, 'Riazor')
 	</script>
+
+	<center><img width="200" style="width: 100%; height: auto; max-width: 1300px;" src=img/line.png></center>
 
 	<section style="text-align:center;">
 		<div class="rt-container">

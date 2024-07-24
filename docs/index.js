@@ -121,6 +121,68 @@ function createList(data, element) {
 
 var apikey = 'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqbXZpbGFyaW5ob0BnbWFpbC5jb20iLCJqdGkiOiJhZTdiYTgwOS1iOTQ3LTQxM2YtYmRmYy03ODEzZjMxOGM5ZDkiLCJpc3MiOiJBRU1FVCIsImlhdCI6MTcyMTQ4NDg2MiwidXNlcklkIjoiYWU3YmE4MDktYjk0Ny00MTNmLWJkZmMtNzgxM2YzMThjOWQ5Iiwicm9sZSI6IiJ9.7kqIc3ErJmp9MtGELp9C8SDUkZ-a9bAX2LeRw_aysRg';
 
+function getTemperatura(id, latitude, longitude) {
+
+	const ms = Date.now();
+	const url = "https://api.open-meteo.com/v1/forecast?latitude="+latitude+"&longitude="+longitude+"&current=temperature_2m,wind_speed_10m"
+	console.log('Get temperatura: ' + url)
+	fetch(url)
+		.then(response => response.json())
+		.then(data => getTemperaturanDatos(data,id));
+}
+
+function getTemperaturanDatos(data, element) {
+
+	const date = new Date(data["current"]["time"]+ ':00Z');
+	temp = padTo2Digits(date.getHours()) + ':' + padTo2Digits(date.getMinutes());
+
+	const keyDiv = document.createElement('div');
+	keyDiv.innerHTML = 'Temperatura actual '+data["current"]["temperature_2m"]+" &deg; ("+ temp +")";
+	keyDiv.style.textAlign = "center";
+	const mainDiv = document.getElementById(element);
+	mainDiv.appendChild(keyDiv);
+}
+
+
+// --------------------------------------------------------------------------------------------------
+function geoFindMe() {
+	const status = document.querySelector("#status");
+	const mapLink = document.querySelector("#map-link");
+
+	mapLink.href = "";
+	mapLink.textContent = "";
+
+	function success(position) {
+	  const latitude = position.coords.latitude;
+	  const longitude = position.coords.longitude;
+
+	  status.textContent = "";
+	  mapLink.href = `https://www.openstreetmap.org/#map=18/${latitude}/${longitude}`;
+	  mapLink.innerHTML = `<div id="your-temperature"></div>`;
+
+
+
+	  getTemperatura("your-temperature", latitude, longitude)
+	}
+
+	function error() {
+	  status.textContent = "Unable to retrieve your location";
+	}
+
+	if (!navigator.geolocation) {
+	  status.textContent = "Geolocation is not supported by your browser";
+	} else {
+	  status.textContent = "Locating…";
+	  navigator.geolocation.getCurrentPosition(success, error);
+	}
+
+
+  }
+
+// --------------------------------------------------------------------------------------------------
+
+var apikey = 'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqbXZpbGFyaW5ob0BnbWFpbC5jb20iLCJqdGkiOiJhZTdiYTgwOS1iOTQ3LTQxM2YtYmRmYy03ODEzZjMxOGM5ZDkiLCJpc3MiOiJBRU1FVCIsImlhdCI6MTcyMTQ4NDg2MiwidXNlcklkIjoiYWU3YmE4MDktYjk0Ny00MTNmLWJkZmMtNzgxM2YzMThjOWQ5Iiwicm9sZSI6IiJ9.7kqIc3ErJmp9MtGELp9C8SDUkZ-a9bAX2LeRw_aysRg';
+
 function getPrevision(id, element, idmareas = 0) {
 	// Playas : https://opendata.aemet.es/opendata/api/prediccion/especifica/playa/1501902/?api_key=eyJhbGciO
 	// Municipios : https://opendata.aemet.es/opendata/api/prediccion/especifica/municipio/diaria/27045/?api_key=eyJhb...
@@ -128,9 +190,28 @@ function getPrevision(id, element, idmareas = 0) {
 	const ms = Date.now();
 	const url = 'https://opendata.aemet.es/opendata/api/prediccion/especifica/playa/' + id + '/?api_key=' + apikey + "&nocache=" + ms
 	console.log('Get prevision  playa: ' + url)
+	try {
 	fetch(url)
 		.then(response => response.json())
-		.then(data => getPrevisionDatos(data, element, idmareas));
+		.then(data => getPrevisionDatos(data, element, idmareas))
+		.catch(error => {
+			console.error('Error:', error);
+			noPrevision(element);
+			return false;
+		});
+	}catch(e){
+		noPrevision(element);
+
+	}
+}
+
+function noPrevision( element) {
+	const keyDiv = document.createElement('div');
+
+	keyDiv.innerHTML = '(Sin datos de previsión meteorolóxica)';
+	keyDiv.style.textAlign = "center";
+	const mainDiv = document.getElementById(element);
+	mainDiv.appendChild(keyDiv);
 }
 
 function getPrevisionDatos(data, element, idmareas) {

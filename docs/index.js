@@ -81,12 +81,21 @@ function getLocalTime(time) {
 async function getMareas(id, element = '') {
 	url = "https://ideihm.covam.es/api-ihm/getmarea?request=gettide&id=" + id + "&format=json"
 	console.log('Mareas: ' + url)
+
 	let data = await fetch(url)
 		.then(response => response.json())
 		.then(data => {
 			return createList(data, element);
+		})
+		.catch(error => {
+			console.error('Error:', error);
+			return noMareas();
 		});
 	return data;
+}
+
+function noMareas(){
+	return '(Sin información sobre mareas)'
 }
 
 function createList(data, element) {
@@ -137,10 +146,16 @@ function getTemperaturanDatos(data, element) {
 	temp = padTo2Digits(date.getHours()) + ':' + padTo2Digits(date.getMinutes());
 
 	const keyDiv = document.createElement('div');
-	keyDiv.innerHTML = 'Temperatura actual '+data["current"]["temperature_2m"]+" &deg; ("+ temp +")";
+	keyDiv.innerHTML = 'Temperatura actual '+data["current"]["temperature_2m"]+"&deg;";
 	keyDiv.style.textAlign = "center";
 	const mainDiv = document.getElementById(element);
 	mainDiv.appendChild(keyDiv);
+
+	document.getElementById("data_temperatura").innerHTML = "<p style='font-size:12px;'>"
+		+ "<a href='https://open-meteo.com/' target='copyright'>"
+		+ "Temperatura actual por Open-Meteo: "
+		+ temp
+		+ "</a></p>";
 }
 
 
@@ -190,28 +205,32 @@ function getPrevision(id, element, idmareas = 0) {
 	const ms = Date.now();
 	const url = 'https://opendata.aemet.es/opendata/api/prediccion/especifica/playa/' + id + '/?api_key=' + apikey + "&nocache=" + ms
 	console.log('Get prevision  playa: ' + url)
-	try {
+
 	fetch(url)
 		.then(response => response.json())
 		.then(data => getPrevisionDatos(data, element, idmareas))
 		.catch(error => {
 			console.error('Error:', error);
-			noPrevision(element);
+			noPrevision(element,idmareas);
 			return false;
 		});
-	}catch(e){
-		noPrevision(element);
-
-	}
 }
 
-function noPrevision( element) {
-	const keyDiv = document.createElement('div');
+async function noPrevision( element, idmareas) {
+	var tabla = '<table class="center">';
+	tabla += '<tr><td>(Sin datos de previsión meteorolóxica)</td></tr>';
+	if (idmareas > 0) {
+		mareas = await getMareas(idmareas);
+		tabla += '<tr><td>' + mareas + '</td></tr>';
+	}
+	tabla += "</table>";
 
-	keyDiv.innerHTML = '(Sin datos de previsión meteorolóxica)';
+	const keyDiv = document.createElement('div');
+	keyDiv.innerHTML = tabla
 	keyDiv.style.textAlign = "center";
 	const mainDiv = document.getElementById(element);
 	mainDiv.appendChild(keyDiv);
+
 }
 
 function getPrevisionDatos(data, element, idmareas) {

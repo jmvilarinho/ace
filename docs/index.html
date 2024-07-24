@@ -35,6 +35,8 @@
 		geoFindMe();
 	</script>
 
+	<div id='data_prevision'></div>
+	<div id='data_temperatura'></div>
 	<hr>
 
 	<section style="text-align:center;">
@@ -86,7 +88,7 @@
 		var url = 'https://wow.camaramar.com/camaramar/48_menduina.stream/playlist.m3u8';
 		var alternativeuri = 'https://www.meteogalicia.gal/datosred/infoweb/clima/webcams/Aguete2/ultima.jpg';
 		showVideo(url, 'Menduina', 'Aguete (Ría de Aldan)', alternativeuri)
-		getTemperatura('Lapaman-temperatura',42.342433, -8.752242);
+		getTemperatura('Lapaman-temperatura', 42.342433, -8.752242);
 		getPrevision(1501902, 'Lapaman-prevision', 70);
 	</script>
 

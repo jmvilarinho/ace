@@ -30,13 +30,15 @@
 	</center>
 
 	<p id="your-temperature"></p>
-
+	<div id='Ordes-prevision'></div>
 	<script>
 		geoFindMe();
+		getPrevisionMunicipio(15059, 'Ordes-prevision');
 	</script>
 
 	<div id='data_prevision'></div>
 	<div id='data_temperatura'></div>
+
 	<hr>
 
 	<section style="text-align:center;">
@@ -252,12 +254,16 @@
 					<source />
 					<p>Your browser does not support H.264/MP4.</p>
 				</video>
+				<div id='Cebreiro-temperatura'></div>
+				<div id='Cebreiro-prevision'></div>
 			</div>
 		</div>
 	</section>
 	<script>
 		var url = 'https://www.crtvg.es:1555/hls/cebreiro/index.m3u8';
 		showVideo(url, 'Cebreiro')
+		getTemperatura('Cebreiro-temperatura', 42.707862, -7.042951);
+		getPrevisionMunicipio(27045, 'Cebreiro-prevision');
 	</script>
 
 	<center><img width="200" style="width: 100%; height: auto; max-width: 1300px;" src=img/line.png></center>

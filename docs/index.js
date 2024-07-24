@@ -190,7 +190,7 @@ function getPrevision(id, element, idmareas = 0) {
 
 	const ms = Date.now();
 	const url = 'https://opendata.aemet.es/opendata/api/prediccion/especifica/playa/' + id + '/?api_key=' + apikey + "&nocache=" + ms
-	console.log('Get prevision  playa: ' + url)
+	console.log('Get prevision playa: ' + url)
 
 	fetch(url)
 		.then(response => response.json())
@@ -202,7 +202,7 @@ function getPrevision(id, element, idmareas = 0) {
 		});
 }
 
-async function noPrevision(element, idmareas) {
+async function noPrevision(element, idmareas=0) {
 	var tabla = '<table class="center">';
 	tabla += '<tr><td>(Sin datos de previsión meteorolóxica)</td></tr>';
 	if (idmareas > 0) {
@@ -258,7 +258,8 @@ async function createPrevision(data, element, idmareas) {
 
 	tabla += "<tr>"
 		+ "<th>Temp. Max.</th><td>" + datos["tMaxima"]["valor1"] + "&deg;</td>"
-		+ "<th>Temp. Auga</th><td>" + datos["tAgua"]["valor1"] + "&deg;</td></tr><tr>"
+		+ "<th>Temp. Auga</th><td>" + datos["tAgua"]["valor1"] + "&deg;</td>"
+		+ "</tr><tr>"
 		+ "<th colspan=2>Sensacion térmica</th><td colspan=2>" + datos["sTermica"]["descripcion1"] + "</td>"
 		+ "</tr><tr>"
 		+ '<th rowspan=4>Mañá<br><img src="img/' + datos["estadoCielo"]["f1"] + '.png" height="50px"></th>'
@@ -269,7 +270,8 @@ async function createPrevision(data, element, idmareas) {
 		+ "<tr>"
 		+ "<th>Oleaxe</th><td style='text-align: left;' colspan=2>" + datos["oleaje"]["descripcion1"] + "</td>"
 		+ "</tr><tr>"
-		+ '<th rowspan=4>Tarde<br><img src="img/' + datos["estadoCielo"]["f2"] + '.png" height="50px"></th>' + "<tr>"
+		+ '<th rowspan=4>Tarde<br><img src="img/' + datos["estadoCielo"]["f2"] + '.png" height="50px"></th>'
+		+ "<tr>"
 		+ "<th>Ceo</th><td style='text-align: left;' colspan=2>" + datos["estadoCielo"]["descripcion2"] + "</td>"
 		+ "<tr>"
 		+ "<th>Vento</th><td style='text-align: left;' colspan=2>" + datos["viento"]["descripcion2"] + "</td>"
@@ -281,6 +283,102 @@ async function createPrevision(data, element, idmareas) {
 		mareas = await getMareas(idmareas);
 		tabla += '<tr><td colspan=4>' + mareas + '</td></tr>';
 	}
+
+	tabla += "</table>";
+
+	var dt = new Date(data[0]["elaborado"]);
+	var options = { year: 'numeric', month: 'numeric', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: false };
+	document.getElementById("data_prevision").innerHTML = "<p style='font-size:12px;'>"
+		+ "<a href='http://www.aemet.es' target='copyright'>"
+		+ "Previsión meteorolóxica por AEMET: "
+		+ dt.toLocaleDateString("es-ES", options)
+		+ "</a></p>";
+
+	const keyDiv = document.createElement('div');
+	keyDiv.innerHTML = tabla
+	keyDiv.style.textAlign = "center";
+	const mainDiv = document.getElementById(element);
+	mainDiv.appendChild(keyDiv);
+}
+
+
+function getPrevisionMunicipio(id, element) {
+	const ms = Date.now();
+	const url = 'https://opendata.aemet.es/opendata/api/prediccion/especifica/municipio/diaria/' + id + '/?api_key=' + apikey + "&nocache=" + ms
+	console.log('Get prevision municipio: ' + url)
+
+	fetch(url)
+		.then(response => response.json())
+		.then(data => getPrevisionDatosMunicipio(data, element))
+		.catch(error => {
+			console.error('Error:', error);
+			noPrevision(element);
+			return false;
+		});
+}
+
+function getPrevisionDatosMunicipio(data, element) {
+	if (data['estado'] == 200) {
+
+		console.log('Get prevision: ' + data['datos'])
+		var myHeaders = new Headers();
+		myHeaders.append('Content-Type', 'text/plain; charset=UTF-8');
+
+		fetch(data['datos'], myHeaders)
+			.then(function (response) {
+				return response.arrayBuffer();
+			})
+			.then(function (buffer) {
+				const decoder = new TextDecoder('iso-8859-1');
+				const text = decoder.decode(buffer);
+				createPrevisionMunicipio(JSON.parse(text), element);
+			});
+	}
+}
+
+async function createPrevisionMunicipio(data, element) {
+	var tabla = '<table class="center">';
+	var datos = data[0]["prediccion"]["dia"][0];
+
+	tabla += "<tr><th colspan=4>"
+		+ "Prevision para " + data[0]["nombre"]
+		+ "</th></tr>";
+
+	tabla += "<tr>"
+		+ "<th>Temp. Max.</th><td>" + datos["temperatura"]["maxima"] + "&deg;</td>"
+		+ "<th>Temp. Min.</th><td>" + datos["temperatura"]["minima"] + "&deg;</td>"
+		+ "</tr><tr>"
+		+ '<th rowspan=5>' + datos["estadoCielo"][4]["periodo"] + ' h<br><img src="img/' + datos["estadoCielo"][4]["value"] + '_g.png" height="50px"></th>'
+		+ "<tr>"
+		+ "<th>Ceo</th><td style='text-align: left;' colspan=2>" + datos["estadoCielo"][4]["descripcion"] + "</td>"
+		+ "<tr>"
+		+ "<th>Precip.</th><td style='text-align: left;' colspan=2>" + datos["probPrecipitacion"][4]["value"] + "%</td>"
+		+ "<tr>"
+		+ "<th>Vento</th><td style='text-align: left;' colspan=2>" + datos["viento"][4]["velocidad"] + "km/h, " + datos["viento"][4]["direccion"] + "</td>"
+		+ "<tr>"
+		+ "<th>Neve</th><td style='text-align: left;' colspan=2>" + datos["cotaNieveProv"][4]["value"] + "m.</td>"
+		+ "</tr><tr>"
+		+ '<th rowspan=5>' + datos["estadoCielo"][5]["periodo"] + ' h<br><img src="img/' + datos["estadoCielo"][5]["value"] + '_g.png" height="50px"></th>'
+		+ "<tr>"
+		+ "<th>Ceo</th><td style='text-align: left;' colspan=2>" + datos["estadoCielo"][5]["descripcion"] + "</td>"
+		+ "<tr>"
+		+ "<th>Precip.</th><td style='text-align: left;' colspan=2>" + datos["probPrecipitacion"][4]["value"] + "%</td>"
+		+ "<tr>"
+		+ "<th>Vento</th><td style='text-align: left;' colspan=2>" +  datos["viento"][4]["velocidad"] + "km/h, " + datos["viento"][4]["direccion"] + "</td>"
+		+ "<tr>"
+		+ "<th>Neve</th><td style='text-align: left;' colspan=2>" + datos["cotaNieveProv"][5]["value"] + "m.</td>"
+		+ "</tr><tr>"
+		+ '<th rowspan=5>' + datos["estadoCielo"][6]["periodo"] + ' h<br><img src="img/' + datos["estadoCielo"][6]["value"] + '_g.png" height="50px"></th>'
+		+ "<tr>"
+		+ "<th>Ceo</th><td style='text-align: left;' colspan=2>" + datos["estadoCielo"][6]["descripcion"] + "</td>"
+		+ "<tr>"
+		+ "<th>Precip.</th><td style='text-align: left;' colspan=2>" + datos["probPrecipitacion"][6]["value"] + "%</td>"
+		+ "<tr>"
+		+ "<th>Vento</th><td style='text-align: left;' colspan=2>" +  datos["viento"][6]["velocidad"] + "km/h, " + datos["viento"][4]["direccion"] + "</td>"
+		+ "<tr>"
+		+ "<th>Neve</th><td style='text-align: left;' colspan=2>" + datos["cotaNieveProv"][6]["value"] + "m.</td>"
+		+ "</tr>";
+
 
 	tabla += "</table>";
 

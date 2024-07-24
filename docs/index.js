@@ -67,17 +67,6 @@ async function showVideo(url, videoid, alternative = '', alternativeurl = '') {
 
 // --------------------------------------------------------------------------------------------------
 
-function padTo2Digits(num) {
-	return num.toString().padStart(2, '0');
-}
-function getLocalTime(time) {
-	const now = new Date();
-	const utcDate = now.getFullYear() + '-' + padTo2Digits(now.getMonth() + 1) + '-' + padTo2Digits(now.getDate()) + 'T' + time + ':00Z';
-	const date = new Date(utcDate);
-
-	return padTo2Digits(date.getHours()) + ':' + padTo2Digits(date.getMinutes());
-}
-
 async function getMareas(id, element = '') {
 	url = "https://ideihm.covam.es/api-ihm/getmarea?request=gettide&id=" + id + "&format=json"
 	console.log('Mareas: ' + url)
@@ -126,6 +115,18 @@ function createList(data, element) {
 	return mareas;
 }
 
+function padTo2Digits(num) {
+	return num.toString().padStart(2, '0');
+}
+
+function getLocalTime(time) {
+	const now = new Date();
+	const utcDate = now.getFullYear() + '-' + padTo2Digits(now.getMonth() + 1) + '-' + padTo2Digits(now.getDate()) + 'T' + time + ':00Z';
+	const date = new Date(utcDate);
+
+	return padTo2Digits(date.getHours()) + ':' + padTo2Digits(date.getMinutes());
+}
+
 // --------------------------------------------------------------------------------------------------
 
 var apikey = 'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqbXZpbGFyaW5ob0BnbWFpbC5jb20iLCJqdGkiOiJhZTdiYTgwOS1iOTQ3LTQxM2YtYmRmYy03ODEzZjMxOGM5ZDkiLCJpc3MiOiJBRU1FVCIsImlhdCI6MTcyMTQ4NDg2MiwidXNlcklkIjoiYWU3YmE4MDktYjk0Ny00MTNmLWJkZmMtNzgxM2YzMThjOWQ5Iiwicm9sZSI6IiJ9.7kqIc3ErJmp9MtGELp9C8SDUkZ-a9bAX2LeRw_aysRg';
@@ -136,15 +137,15 @@ function getTemperatura(id, latitude, longitude) {
 	console.log('Get temperatura: ' + url)
 	fetch(url)
 		.then(response => response.json())
-		.then(data => getTemperaturanDatos(data, id));
+		.then(data => getTemperaturanDatos(data, id, latitude, longitude));
 }
 
-function getTemperaturanDatos(data, element) {
+function getTemperaturanDatos(data, element, latitude, longitude) {
 	const date = new Date(data["current"]["time"] + ':00Z');
 	temp = padTo2Digits(date.getHours()) + ':' + padTo2Digits(date.getMinutes());
 
 	const keyDiv = document.createElement('div');
-	keyDiv.innerHTML = 'Temperatura actual ' + data["current"]["temperature_2m"] + "&deg;";
+	keyDiv.innerHTML = `<a href="https://www.google.com/maps/@${latitude},${longitude},1000m" target="mapa">Temperatura actual ` + data["current"]["temperature_2m"] + "&deg;</a>";
 	keyDiv.style.textAlign = "center";
 	const mainDiv = document.getElementById(element);
 	mainDiv.appendChild(keyDiv);
@@ -159,19 +160,10 @@ function getTemperaturanDatos(data, element) {
 
 // --------------------------------------------------------------------------------------------------
 function geoFindMe() {
-	const status = document.querySelector("#status");
-	const mapLink = document.querySelector("#map-link");
-
-	mapLink.href = "";
-	mapLink.textContent = "";
 
 	function success(position) {
 		const latitude = position.coords.latitude;
 		const longitude = position.coords.longitude;
-
-		status.textContent = "";
-		mapLink.href = `https://www.openstreetmap.org/#map=18/${latitude}/${longitude}`;
-		mapLink.innerHTML = `<div id="your-temperature"></div>`;
 
 		getTemperatura("your-temperature", latitude, longitude)
 	}

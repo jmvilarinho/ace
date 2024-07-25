@@ -145,7 +145,7 @@ function getTemperaturanDatos(data, element, latitude, longitude) {
 	temp = padTo2Digits(date.getHours()) + ':' + padTo2Digits(date.getMinutes());
 
 	const keyDiv = document.createElement('div');
-	keyDiv.innerHTML = `<a href="https://maps.google.com/?q=${latitude},${longitude}&z=8" target="mapa">Temperatura actual ` + data["current"]["temperature_2m"] + "&deg;</a>";
+	keyDiv.innerHTML = `<a href="https://maps.google.com/?q=${latitude},${longitude}&z=8" target="mapa">Temperatura actual ` + data["current"]["temperature_2m"] + "&deg;</a> <a href=https://waze.com/ul?ll="+latitude+","+longitude+"&z=10><img src=img/waze.png heigth='50px'></a>";
 	keyDiv.style.textAlign = "center";
 	const mainDiv = document.getElementById(element);
 	mainDiv.appendChild(keyDiv);

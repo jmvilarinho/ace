@@ -373,15 +373,14 @@ async function createPrevisionMunicipio(data, element) {
 				snowLine += "<tr>"
 					+ "<th>Neve</th><td style='text-align: left;' colspan=2>" + datos["cotaNieveProv"][4]["value"] + "m.</td>"
 			}
-
 			tabla += `<th rowspan=${rowspanLine}>` + datos["estadoCielo"][4]["periodo"] + ' h<br><img src="img/' + datos["estadoCielo"][4]["value"] + '_g.png" height="50px"></th>'
 				+ "<tr>"
 				+ "<th>Ceo</th><td style='text-align: left;' colspan=2>" + datos["estadoCielo"][4]["descripcion"] + "</td>"
 				+ "<tr>"
 				+ "<th>Vento</th><td style='text-align: left;' colspan=2>" + datos["viento"][4]["velocidad"] + "km/h, " + datos["viento"][4]["direccion"] + "</td>"
 				+ "<tr>"
-				+ "<th>Precip.</th><td style='text-align: left;' colspan=2>" + datos["probPrecipitacion"][4]["value"] + "%</td>";
-			tabla += snowLine;
+				+ "<th>Precip.</th><td style='text-align: left;' colspan=2>" + datos["probPrecipitacion"][4]["value"] + "%</td>"
+				+ snowLine;
 
 			rowspanLine = rowspan;
 			snowLine = '';
@@ -390,7 +389,6 @@ async function createPrevisionMunicipio(data, element) {
 				snowLine += "<tr>"
 					+ "<th>Neve</th><td style='text-align: left;' colspan=2>" + datos["cotaNieveProv"][5]["value"] + "m.</td>"
 			}
-
 			tabla += "</tr><tr>"
 				+ `<th rowspan=${rowspanLine}>` + datos["estadoCielo"][5]["periodo"] + ' h<br><img src="img/' + datos["estadoCielo"][5]["value"] + '_g.png" height="50px"></th>'
 				+ "<tr>"
@@ -398,8 +396,8 @@ async function createPrevisionMunicipio(data, element) {
 				+ "<tr>"
 				+ "<th>Vento</th><td style='text-align: left;' colspan=2>" + datos["viento"][4]["velocidad"] + "km/h, " + datos["viento"][4]["direccion"] + "</td>"
 				+ "<tr>"
-				+ "<th>Precip.</th><td style='text-align: left;' colspan=2>" + datos["probPrecipitacion"][4]["value"] + "%</td>";
-			tabla += snowLine;
+				+ "<th>Precip.</th><td style='text-align: left;' colspan=2>" + datos["probPrecipitacion"][4]["value"] + "%</td>"
+				+ snowLine;
 
 			rowspanLine = rowspan;
 			snowLine = '';
@@ -415,9 +413,8 @@ async function createPrevisionMunicipio(data, element) {
 				+ "<tr>"
 				+ "<th>Vento</th><td style='text-align: left;' colspan=2>" + datos["viento"][6]["velocidad"] + "km/h, " + datos["viento"][4]["direccion"] + "</td>"
 				+ "<tr>"
-				+ "<th>Precip.</th><td style='text-align: left;' colspan=2>" + datos["probPrecipitacion"][6]["value"] + "%</td>";
-
-			tabla += snowLine;
+				+ "<th>Precip.</th><td style='text-align: left;' colspan=2>" + datos["probPrecipitacion"][6]["value"] + "%</td>"
+				+ snowLine;
 
 			tabla += "</tr>";
 

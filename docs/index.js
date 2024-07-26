@@ -378,9 +378,9 @@ async function createPrevisionMunicipio(data, element) {
 				+ "<tr>"
 				+ "<th>Ceo</th><td style='text-align: left;' colspan=2>" + datos["estadoCielo"][4]["descripcion"] + "</td>"
 				+ "<tr>"
-				+ "<th>Precip.</th><td style='text-align: left;' colspan=2>" + datos["probPrecipitacion"][4]["value"] + "%</td>"
+				+ "<th>Vento</th><td style='text-align: left;' colspan=2>" + datos["viento"][4]["velocidad"] + "km/h, " + datos["viento"][4]["direccion"] + "</td>"
 				+ "<tr>"
-				+ "<th>Vento</th><td style='text-align: left;' colspan=2>" + datos["viento"][4]["velocidad"] + "km/h, " + datos["viento"][4]["direccion"] + "</td>";
+				+ "<th>Precip.</th><td style='text-align: left;' colspan=2>" + datos["probPrecipitacion"][4]["value"] + "%</td>";
 			tabla += snowLine;
 
 			rowspanLine = rowspan;
@@ -396,9 +396,9 @@ async function createPrevisionMunicipio(data, element) {
 				+ "<tr>"
 				+ "<th>Ceo</th><td style='text-align: left;' colspan=2>" + datos["estadoCielo"][5]["descripcion"] + "</td>"
 				+ "<tr>"
-				+ "<th>Precip.</th><td style='text-align: left;' colspan=2>" + datos["probPrecipitacion"][4]["value"] + "%</td>"
+				+ "<th>Vento</th><td style='text-align: left;' colspan=2>" + datos["viento"][4]["velocidad"] + "km/h, " + datos["viento"][4]["direccion"] + "</td>"
 				+ "<tr>"
-				+ "<th>Vento</th><td style='text-align: left;' colspan=2>" + datos["viento"][4]["velocidad"] + "km/h, " + datos["viento"][4]["direccion"] + "</td>";
+				+ "<th>Precip.</th><td style='text-align: left;' colspan=2>" + datos["probPrecipitacion"][4]["value"] + "%</td>";
 			tabla += snowLine;
 
 			rowspanLine = rowspan;
@@ -413,9 +413,9 @@ async function createPrevisionMunicipio(data, element) {
 				+ "<tr>"
 				+ "<th>Ceo</th><td style='text-align: left;' colspan=2>" + datos["estadoCielo"][6]["descripcion"] + "</td>"
 				+ "<tr>"
-				+ "<th>Precip.</th><td style='text-align: left;' colspan=2>" + datos["probPrecipitacion"][6]["value"] + "%</td>"
+				+ "<th>Vento</th><td style='text-align: left;' colspan=2>" + datos["viento"][6]["velocidad"] + "km/h, " + datos["viento"][4]["direccion"] + "</td>"
 				+ "<tr>"
-				+ "<th>Vento</th><td style='text-align: left;' colspan=2>" + datos["viento"][6]["velocidad"] + "km/h, " + datos["viento"][4]["direccion"] + "</td>";
+				+ "<th>Precip.</th><td style='text-align: left;' colspan=2>" + datos["probPrecipitacion"][6]["value"] + "%</td>";
 
 			tabla += snowLine;
 

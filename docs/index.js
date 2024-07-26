@@ -93,14 +93,17 @@ function createList(data, element) {
 	var ubicacion = data["mareas"]["puerto"];
 	var fecha = getFechaES(data["mareas"]["fecha"]);
 	var datos = data['mareas']['datos']['marea'];
-	var mareas = ''
-		+ datos[0]['tipo'] + ": " + getLocalTime(datos[0]['hora'])
-		+ ", "
-		+ datos[1]['tipo'] + ": " + getLocalTime(datos[1]['hora'])
-		+ "<br>"
-		+ datos[2]['tipo'] + ": " + getLocalTime(datos[2]['hora'])
-		+ ", "
-		+ datos[3]['tipo'] + ": " + getLocalTime(datos[3]['hora'])
+	var mareas = '';
+
+	var arrayLength = datos.length;
+	for (var i = 0; i < arrayLength; i++) {
+		if (i % 2) {
+			mareas += ', ';
+		} else if (i == 2) {
+			mareas += '<br>';
+		}
+		mareas += datos[i]['tipo'] + ": " + getLocalTime(datos[i]['hora'])
+	}
 
 	if (element != '') {
 		const keyDiv = document.createElement('div');
@@ -145,7 +148,7 @@ function getTemperaturanDatos(data, element, latitude, longitude) {
 	temp = padTo2Digits(date.getHours()) + ':' + padTo2Digits(date.getMinutes());
 
 	const keyDiv = document.createElement('div');
-	keyDiv.innerHTML = `<a href="https://maps.google.com/?q=${latitude},${longitude}&z=8" target="mapa">Temperatura actual ` + data["current"]["temperature_2m"] + "&deg;</a> - <a href=https://waze.com/ul?ll="+latitude+","+longitude+"&z=100><img src='img/waze.png' height='15px'></a>";
+	keyDiv.innerHTML = `<a href="https://maps.google.com/?q=${latitude},${longitude}&z=8" target="mapa">Temperatura actual ` + data["current"]["temperature_2m"] + "&deg;</a> - <a href=https://waze.com/ul?ll=" + latitude + "," + longitude + "&z=100><img src='img/waze.png' height='15px'></a>";
 	keyDiv.style.textAlign = "center";
 	const mainDiv = document.getElementById(element);
 	mainDiv.appendChild(keyDiv);
@@ -202,7 +205,7 @@ function getPrevision(id, element, idmareas = 0) {
 		});
 }
 
-async function noPrevision(element, idmareas=0) {
+async function noPrevision(element, idmareas = 0) {
 	var tabla = '<table class="center">';
 	tabla += '<tr><td>(Sin datos de previsión meteorolóxica)</td></tr>';
 	if (idmareas > 0) {
@@ -336,51 +339,94 @@ function getPrevisionDatosMunicipio(data, element) {
 	}
 }
 
+function isToday(d1) {
+	// 2024-07-25T00:00:00
+	var now = new Date();
+	var todayStr = now.getFullYear() + '-' + padTo2Digits(now.getMonth() + 1) + '-' + padTo2Digits(now.getDate()) + 'T00:00:00';
+
+
+	return (todayStr == d1);
+}
+
 async function createPrevisionMunicipio(data, element) {
 	var tabla = '<table class="center">';
-	var datos = data[0]["prediccion"]["dia"][0];
 
-	tabla += "<tr><th colspan=4>"
-		+ "Prevision para " + data[0]["nombre"]
-		+ "</th></tr>";
+	var arrayLength = data[0]["prediccion"]["dia"].length;
+	for (var i = 0; i < arrayLength; i++) {
+		var datos = data[0]["prediccion"]["dia"][i];
+		if (isToday(datos["fecha"])) {
+			tabla += "<tr><th colspan=4>"
+				+ "Prevision para " + data[0]["nombre"]
+				+ "</th></tr>";
 
-	tabla += "<tr>"
-		+ "<th>Temp. Max.</th><td>" + datos["temperatura"]["maxima"] + "&deg;</td>"
-		+ "<th>Temp. Min.</th><td>" + datos["temperatura"]["minima"] + "&deg;</td>"
-		+ "</tr><tr>"
-		+ '<th rowspan=5>' + datos["estadoCielo"][4]["periodo"] + ' h<br><img src="img/' + datos["estadoCielo"][4]["value"] + '_g.png" height="50px"></th>'
-		+ "<tr>"
-		+ "<th>Ceo</th><td style='text-align: left;' colspan=2>" + datos["estadoCielo"][4]["descripcion"] + "</td>"
-		+ "<tr>"
-		+ "<th>Precip.</th><td style='text-align: left;' colspan=2>" + datos["probPrecipitacion"][4]["value"] + "%</td>"
-		+ "<tr>"
-		+ "<th>Vento</th><td style='text-align: left;' colspan=2>" + datos["viento"][4]["velocidad"] + "km/h, " + datos["viento"][4]["direccion"] + "</td>"
-		+ "<tr>"
-		+ "<th>Neve</th><td style='text-align: left;' colspan=2>" + datos["cotaNieveProv"][4]["value"] + "m.</td>"
-		+ "</tr><tr>"
-		+ '<th rowspan=5>' + datos["estadoCielo"][5]["periodo"] + ' h<br><img src="img/' + datos["estadoCielo"][5]["value"] + '_g.png" height="50px"></th>'
-		+ "<tr>"
-		+ "<th>Ceo</th><td style='text-align: left;' colspan=2>" + datos["estadoCielo"][5]["descripcion"] + "</td>"
-		+ "<tr>"
-		+ "<th>Precip.</th><td style='text-align: left;' colspan=2>" + datos["probPrecipitacion"][4]["value"] + "%</td>"
-		+ "<tr>"
-		+ "<th>Vento</th><td style='text-align: left;' colspan=2>" +  datos["viento"][4]["velocidad"] + "km/h, " + datos["viento"][4]["direccion"] + "</td>"
-		+ "<tr>"
-		+ "<th>Neve</th><td style='text-align: left;' colspan=2>" + datos["cotaNieveProv"][5]["value"] + "m.</td>"
-		+ "</tr><tr>"
-		+ '<th rowspan=5>' + datos["estadoCielo"][6]["periodo"] + ' h<br><img src="img/' + datos["estadoCielo"][6]["value"] + '_g.png" height="50px"></th>'
-		+ "<tr>"
-		+ "<th>Ceo</th><td style='text-align: left;' colspan=2>" + datos["estadoCielo"][6]["descripcion"] + "</td>"
-		+ "<tr>"
-		+ "<th>Precip.</th><td style='text-align: left;' colspan=2>" + datos["probPrecipitacion"][6]["value"] + "%</td>"
-		+ "<tr>"
-		+ "<th>Vento</th><td style='text-align: left;' colspan=2>" +  datos["viento"][6]["velocidad"] + "km/h, " + datos["viento"][4]["direccion"] + "</td>"
-		+ "<tr>"
-		+ "<th>Neve</th><td style='text-align: left;' colspan=2>" + datos["cotaNieveProv"][6]["value"] + "m.</td>"
-		+ "</tr>";
+			rowspan = 4;
+
+			tabla += "<tr>"
+				+ "<th>Temp. Max.</th><td>" + datos["temperatura"]["maxima"] + "&deg;</td>"
+				+ "<th>Temp. Min.</th><td>" + datos["temperatura"]["minima"] + "&deg;</td>"
+				+ "</tr><tr>";
+
+			rowspanLine = rowspan;
+			snowLine = '';
+			if (datos["cotaNieveProv"][4]["value"] != "") {
+				rowspanLine += 1;
+				snowLine += "<tr>"
+					+ "<th>Neve</th><td style='text-align: left;' colspan=2>" + datos["cotaNieveProv"][4]["value"] + "m.</td>"
+			}
+
+			tabla += `<th rowspan=${rowspanLine}>` + datos["estadoCielo"][4]["periodo"] + ' h<br><img src="img/' + datos["estadoCielo"][4]["value"] + '_g.png" height="50px"></th>'
+				+ "<tr>"
+				+ "<th>Ceo</th><td style='text-align: left;' colspan=2>" + datos["estadoCielo"][4]["descripcion"] + "</td>"
+				+ "<tr>"
+				+ "<th>Precip.</th><td style='text-align: left;' colspan=2>" + datos["probPrecipitacion"][4]["value"] + "%</td>"
+				+ "<tr>"
+				+ "<th>Vento</th><td style='text-align: left;' colspan=2>" + datos["viento"][4]["velocidad"] + "km/h, " + datos["viento"][4]["direccion"] + "</td>";
+			tabla += snowLine;
+
+			rowspanLine = rowspan;
+			snowLine = '';
+			if (datos["cotaNieveProv"][5]["value"] != "") {
+				rowspanLine += 1;
+				snowLine += "<tr>"
+					+ "<th>Neve</th><td style='text-align: left;' colspan=2>" + datos["cotaNieveProv"][5]["value"] + "m.</td>"
+			}
+
+			tabla += "</tr><tr>"
+				+ `<th rowspan=${rowspanLine}>` + datos["estadoCielo"][5]["periodo"] + ' h<br><img src="img/' + datos["estadoCielo"][5]["value"] + '_g.png" height="50px"></th>'
+				+ "<tr>"
+				+ "<th>Ceo</th><td style='text-align: left;' colspan=2>" + datos["estadoCielo"][5]["descripcion"] + "</td>"
+				+ "<tr>"
+				+ "<th>Precip.</th><td style='text-align: left;' colspan=2>" + datos["probPrecipitacion"][4]["value"] + "%</td>"
+				+ "<tr>"
+				+ "<th>Vento</th><td style='text-align: left;' colspan=2>" + datos["viento"][4]["velocidad"] + "km/h, " + datos["viento"][4]["direccion"] + "</td>";
+			tabla += snowLine;
+
+			rowspanLine = rowspan;
+			snowLine = '';
+			if (datos["cotaNieveProv"][6]["value"] != "") {
+				rowspanLine += 1;
+				snowLine += "<tr>"
+					+ "<th>Neve</th><td style='text-align: left;' colspan=2>" + datos["cotaNieveProv"][6]["value"] + "m.</td>"
+			}
+			tabla += "</tr><tr>"
+				+ `<th rowspan=${rowspanLine}>` + datos["estadoCielo"][6]["periodo"] + ' h<br><img src="img/' + datos["estadoCielo"][6]["value"] + '_g.png" height="50px"></th>'
+				+ "<tr>"
+				+ "<th>Ceo</th><td style='text-align: left;' colspan=2>" + datos["estadoCielo"][6]["descripcion"] + "</td>"
+				+ "<tr>"
+				+ "<th>Precip.</th><td style='text-align: left;' colspan=2>" + datos["probPrecipitacion"][6]["value"] + "%</td>"
+				+ "<tr>"
+				+ "<th>Vento</th><td style='text-align: left;' colspan=2>" + datos["viento"][6]["velocidad"] + "km/h, " + datos["viento"][4]["direccion"] + "</td>";
+
+			tabla += snowLine;
+
+			tabla += "</tr>";
 
 
+		}
+	}
 	tabla += "</table>";
+
+
 
 	var dt = new Date(data[0]["elaborado"]);
 	var options = { year: 'numeric', month: 'numeric', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: false };

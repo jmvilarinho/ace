@@ -16,7 +16,7 @@ async function validURL(url) {
 	return result;
 }
 
-async function showAlternative(videoid, alternative, alternativeurl) {
+function showAlternative(videoid, alternative, alternativeurl) {
 	var alternativeObj = document.getElementById(videoid + "-alternative");
 	alternativeObj.innerHTML = '<p>' + alternative + '</p>';
 
@@ -27,6 +27,16 @@ async function showAlternative(videoid, alternative, alternativeurl) {
 	var imageObj = document.getElementById(videoid + "-unavailable");
 	imageObj.innerHTML = '';
 	imageObj.appendChild(keyDiv);
+}
+
+function showOnlyAlternative(videoid, alternative, alternativeurl) {
+	var video = document.getElementById(videoid);
+	var image = document.getElementById(videoid + "-unavailable");
+
+	image.style.visibility = "visible";
+	video.remove();
+console.log("ssssssssssssssss "+videoid);
+	showAlternative(videoid, alternative, alternativeurl);
 }
 
 async function showVideo(url, videoid, alternative = '', alternativeurl = '') {

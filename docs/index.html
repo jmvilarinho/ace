@@ -33,7 +33,7 @@
 	<div id='Ordes-prevision'></div>
 	<script>
 		geoFindMe();
-	//	getPrevisionMunicipio(15059, 'Ordes-prevision');
+		//	getPrevisionMunicipio(15059, 'Ordes-prevision');
 	</script>
 
 	<div id='data_temperatura'></div>
@@ -198,7 +198,7 @@
 	<script>
 		var url = 'https://www.crtvg.es:1556/hls/sanxenxo/index.m3u8';
 		showVideo(url, 'Sanxenxo')
-		getTemperatura('Sanxenxo-temperatura',42.401320, -8.812949);
+		getTemperatura('Sanxenxo-temperatura', 42.401320, -8.812949);
 		getPrevision(3605117, 'Sanxenxo-prevision', 27);
 	</script>
 
@@ -223,8 +223,8 @@
 	<script>
 		var url = 'https://wow.camaramar.com/camaramar/68_lanzada.stream/playlist.m3u8';
 		showVideo(url, 'Lanzada')
-		getTemperatura('Lanzada-temperatura',42.445864, -8.874364);
-		getPrevision(3602201 , 'Lanzada-prevision', 27);
+		getTemperatura('Lanzada-temperatura', 42.445864, -8.874364);
+		getPrevision(3602201, 'Lanzada-prevision', 27);
 	</script>
 
 	<center><img width="200" style="width: 100%; height: auto; max-width: 1300px;" src=img/line.png></center>
@@ -248,8 +248,8 @@
 	<script>
 		var url = 'https://wow.camaramar.com/camaramar/57_rodeira.stream/playlist.m3u8';
 		showVideo(url, 'Rodeira')
-		getTemperatura('Rodeira-temperatura',42.261714, -8.770230);
-		getPrevision(3600803 , 'Rodeira-prevision', 29);
+		getTemperatura('Rodeira-temperatura', 42.261714, -8.770230);
+		getPrevision(3600803, 'Rodeira-prevision', 29);
 	</script>
 
 	<center><img width="200" style="width: 100%; height: auto; max-width: 1300px;" src=img/line.png></center>
@@ -326,6 +326,35 @@
 		getTemperatura('Obradoiro-temperatura', 42.880464, -8.545735);
 		getPrevisionMunicipio(15078, 'Obradoiro-prevision');
 	</script>
+
+
+	<center><img width="200" style="width: 100%; height: auto; max-width: 1300px;" src=img/line.png></center>
+
+<section style="text-align:center;">
+	<div class="rt-container">
+		<div class="col-rt-12">
+			<div id="Ordes-alternative">
+				<a href='https://www.camaramar.com/webcam/playa-de-Ordes' target=camaramar>
+					<p>Sabón</p>
+				</a>
+			</div>
+			<div id="Ordes-unavailable"><img width="100" src=img/unavailable.png></div>
+			<video controls id="Ordes">
+				<source />
+				<p>Your browser does not support H.264/MP4.</p>
+			</video>
+			<div id='Ordes-temperatura'></div>
+			<div id='Ordes-prevision'></div>
+		</div>
+	</div>
+</section>
+<script>
+		var alternativeuri = 'https://infocar.dgt.es/etraffic/data/camaras/1294.jpg';
+		showOnlyAlternative('Ordes', 'AP9 - Ordes', alternativeuri);
+		getTemperatura('Ordes-temperatura', 43.076238, -8.407791);
+		getPrevisionMunicipio(15059, 'Ordes-prevision');
+</script>
+
 
 	<br><br>
 	<hr>

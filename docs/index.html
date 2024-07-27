@@ -36,7 +36,6 @@
 	//	getPrevisionMunicipio(15059, 'Ordes-prevision');
 	</script>
 
-	<div id='data_prevision'></div>
 	<div id='data_temperatura'></div>
 
 	<hr>
@@ -183,20 +182,24 @@
 	<section style="text-align:center;">
 		<div class="rt-container">
 			<div class="col-rt-12">
-				<a href='https://www.camaramar.com/webcam/galicia_pontevedra_lanzadanoalla' target=camaramar>
-					<p>Noalla - Sanxenxo</p>
+				<a href='https://www.g24.gal/-/sanxenxo' target=camaramar>
+					<p>Sanxenxo</p>
 				</a>
-				<div id="Noalla-unavailable"><img width="100" src=img/unavailable.png></div>
-				<video controls id="Noalla">
+				<div id="Sanxenxo-unavailable"><img width="100" src=img/unavailable.png></div>
+				<video controls id="Sanxenxo">
 					<source />
 					<p>Your browser does not support H.264/MP4.</p>
 				</video>
+				<div id='Sanxenxo-temperatura'></div>
+				<div id='Sanxenxo-prevision'></div>
 			</div>
 		</div>
 	</section>
 	<script>
-		var url = 'https://wow.camaramar.com/directo/noalla.stream/playlist.m3u8';
-		showVideo(url, 'Noalla')
+		var url = 'https://www.crtvg.es:1556/hls/sanxenxo/index.m3u8';
+		showVideo(url, 'Sanxenxo')
+		getTemperatura('Sanxenxo-temperatura',42.401320, -8.812949);
+		getPrevision(3605117, 'Sanxenxo-prevision', 27);
 	</script>
 
 	<center><img width="200" style="width: 100%; height: auto; max-width: 1300px;" src=img/line.png></center>
@@ -212,12 +215,16 @@
 					<source />
 					<p>Your browser does not support H.264/MP4.</p>
 				</video>
+				<div id='Lanzada-temperatura'></div>
+				<div id='Lanzada-prevision'></div>
 			</div>
 		</div>
 	</section>
 	<script>
 		var url = 'https://wow.camaramar.com/camaramar/68_lanzada.stream/playlist.m3u8';
 		showVideo(url, 'Lanzada')
+		getTemperatura('Lanzada-temperatura',42.445864, -8.874364);
+		getPrevision(3602201 , 'Lanzada-prevision', 27);
 	</script>
 
 	<center><img width="200" style="width: 100%; height: auto; max-width: 1300px;" src=img/line.png></center>
@@ -233,12 +240,16 @@
 					<source />
 					<p>Your browser does not support H.264/MP4.</p>
 				</video>
+				<div id='Rodeira-temperatura'></div>
+				<div id='Rodeira-prevision'></div>
 			</div>
 		</div>
 	</section>
 	<script>
 		var url = 'https://wow.camaramar.com/camaramar/57_rodeira.stream/playlist.m3u8';
 		showVideo(url, 'Rodeira')
+		getTemperatura('Rodeira-temperatura',42.261714, -8.770230);
+		getPrevision(3600803 , 'Rodeira-prevision', 29);
 	</script>
 
 	<center><img width="200" style="width: 100%; height: auto; max-width: 1300px;" src=img/line.png></center>
@@ -279,12 +290,16 @@
 					<source />
 					<p>Your browser does not support H.264/MP4.</p>
 				</video>
+				<div id='Riazor-temperatura'></div>
+				<div id='Riazor-prevision'></div>
 			</div>
 		</div>
 	</section>
 	<script>
 		var url = 'https://www.crtvg.es:1554/hls/coruna/index.m3u8';
 		showVideo(url, 'Riazor')
+		getTemperatura('Riazor-temperatura', 43.370865, -8.395928);
+		getPrevisionMunicipio(15030, 'Riazor-prevision');
 	</script>
 
 	<center><img width="200" style="width: 100%; height: auto; max-width: 1300px;" src=img/line.png></center>
@@ -300,17 +315,23 @@
 					<source />
 					<p>Your browser does not support H.264/MP4.</p>
 				</video>
+				<div id='Obradoiro-temperatura'></div>
+				<div id='Obradoiro-prevision'></div>
 			</div>
 		</div>
 	</section>
 	<script>
 		var url = 'https://www.crtvg.es:1554/hls/obradoiro/index.m3u8';
 		showVideo(url, 'Obradoiro')
+		getTemperatura('Obradoiro-temperatura', 42.880464, -8.545735);
+		getPrevisionMunicipio(15078, 'Obradoiro-prevision');
 	</script>
 
 	<br><br>
 	<hr>
 	<footer>
+		<div id='data_prevision'></div>
+		<div id='data_prevision_municipio'></div>
 		<div id='data_mareas'></div>
 		<div class="right-aligned">
 			<img width="100px" src="https://www.cutercounter.com/hits.php?id=hxpqdon&nd=6&style=103" border="0"

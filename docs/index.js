@@ -348,6 +348,36 @@ function isToday(d1) {
 	return (todayStr == d1);
 }
 
+function municipioRow(datos, index) {
+	if (datos["estadoCielo"][index]["value"] == "") {
+		row = "";
+	} else {
+		rowspan = 4;
+		snowLine = '';
+		if (datos["cotaNieveProv"][index]["value"] != "") {
+			rowspan += 1;
+			snowLine += "<tr>"
+				+ "<th>Neve</th><td style='text-align: left;' colspan=2>" + datos["cotaNieveProv"][index]["value"] + "m.</td>"
+		}
+
+		row = "<tr>"
+			+ `<th rowspan=${rowspan}>` + datos["estadoCielo"][index]["periodo"] + ' h<br><img src="img/' + datos["estadoCielo"][index]["value"] + '_g.png" height="50px"></th>'
+			+ "<tr>"
+			+ "<th>Ceo</th><td style='text-align: left;' colspan=2>" + datos["estadoCielo"][index]["descripcion"] + "</td>"
+			+ "<tr>"
+			+ "<th>Vento</th><td style='text-align: left;vertical-align:middle;border:0px;' colspan=2><div>" + datos["viento"][index]["velocidad"] + 'km/h <img style="vertical-align:middle"  height=20px src="img/wind-' + datos["viento"][index]["direccion"] + '.png"></div></td>'
+			+ "<tr>"
+			+ "<th>Precip.</th><td style='text-align: left;' colspan=2>" + datos["probPrecipitacion"][index]["value"] + "%</td>"
+			+ snowLine
+			+ "</tr>";
+
+
+
+	}
+	return row;
+
+}
+
 async function createPrevisionMunicipio(data, element) {
 	var tabla = '<table class="center">';
 
@@ -359,83 +389,29 @@ async function createPrevisionMunicipio(data, element) {
 				+ "Prevision para " + data[0]["nombre"]
 				+ "</th></tr>";
 
-			rowspan = 4;
-
 			tabla += "<tr>"
 				+ "<th>Temp. Max.</th><td>" + datos["temperatura"]["maxima"] + "&deg;</td>"
 				+ "<th>Temp. Min.</th><td>" + datos["temperatura"]["minima"] + "&deg;</td>"
-				+ "</tr><tr>";
+				+ "</tr>";
 
-			rowspanLine = rowspan;
-			snowLine = '';
-			if (datos["cotaNieveProv"][4]["value"] != "") {
-				rowspanLine += 1;
-				snowLine += "<tr>"
-					+ "<th>Neve</th><td style='text-align: left;' colspan=2>" + datos["cotaNieveProv"][4]["value"] + "m.</td>"
-			}
-			tabla += `<th rowspan=${rowspanLine}>` + datos["estadoCielo"][4]["periodo"] + ' h<br><img src="img/' + datos["estadoCielo"][4]["value"] + '_g.png" height="50px"></th>'
-				+ "<tr>"
-				+ "<th>Ceo</th><td style='text-align: left;' colspan=2>" + datos["estadoCielo"][4]["descripcion"] + "</td>"
-				+ "<tr>"
-				+ "<th>Vento</th><td style='text-align: left;' colspan=2>" + datos["viento"][4]["velocidad"] + "km/h, " + datos["viento"][4]["direccion"] + "</td>"
-				+ "<tr>"
-				+ "<th>Precip.</th><td style='text-align: left;' colspan=2>" + datos["probPrecipitacion"][4]["value"] + "%</td>"
-				+ snowLine;
-
-			rowspanLine = rowspan;
-			snowLine = '';
-			if (datos["cotaNieveProv"][5]["value"] != "") {
-				rowspanLine += 1;
-				snowLine += "<tr>"
-					+ "<th>Neve</th><td style='text-align: left;' colspan=2>" + datos["cotaNieveProv"][5]["value"] + "m.</td>"
-			}
-			tabla += "</tr><tr>"
-				+ `<th rowspan=${rowspanLine}>` + datos["estadoCielo"][5]["periodo"] + ' h<br><img src="img/' + datos["estadoCielo"][5]["value"] + '_g.png" height="50px"></th>'
-				+ "<tr>"
-				+ "<th>Ceo</th><td style='text-align: left;' colspan=2>" + datos["estadoCielo"][5]["descripcion"] + "</td>"
-				+ "<tr>"
-				+ "<th>Vento</th><td style='text-align: left;' colspan=2>" + datos["viento"][4]["velocidad"] + "km/h, " + datos["viento"][4]["direccion"] + "</td>"
-				+ "<tr>"
-				+ "<th>Precip.</th><td style='text-align: left;' colspan=2>" + datos["probPrecipitacion"][4]["value"] + "%</td>"
-				+ snowLine;
-
-			rowspanLine = rowspan;
-			snowLine = '';
-			if (datos["cotaNieveProv"][6]["value"] != "") {
-				rowspanLine += 1;
-				snowLine += "<tr>"
-					+ "<th>Neve</th><td style='text-align: left;' colspan=2>" + datos["cotaNieveProv"][6]["value"] + "m.</td>"
-			}
-			tabla += "</tr><tr>"
-				+ `<th rowspan=${rowspanLine}>` + datos["estadoCielo"][6]["periodo"] + ' h<br><img src="img/' + datos["estadoCielo"][6]["value"] + '_g.png" height="50px"></th>'
-				+ "<tr>"
-				+ "<th>Ceo</th><td style='text-align: left;' colspan=2>" + datos["estadoCielo"][6]["descripcion"] + "</td>"
-				+ "<tr>"
-				+ "<th>Vento</th><td style='text-align: left;' colspan=2>" + datos["viento"][6]["velocidad"] + "km/h, " + datos["viento"][4]["direccion"] + "</td>"
-				+ "<tr>"
-				+ "<th>Precip.</th><td style='text-align: left;' colspan=2>" + datos["probPrecipitacion"][6]["value"] + "%</td>"
-				+ snowLine;
-
-			tabla += "</tr>";
-
-
+			tabla += municipioRow(datos, 4);
+			tabla += municipioRow(datos, 5);
+			tabla += municipioRow(datos, 6);
 		}
 	}
 	tabla += "</table>";
-
-
-
-	var dt = new Date(data[0]["elaborado"]);
-	var options = { year: 'numeric', month: 'numeric', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: false };
-	document.getElementById("data_prevision").innerHTML = "<p style='font-size:12px;'>"
-		+ "<a href='http://www.aemet.es' target='copyright'>"
-		+ "Previsión meteorolóxica por AEMET: "
-		+ dt.toLocaleDateString("es-ES", options)
-		+ "</a></p>";
 
 	const keyDiv = document.createElement('div');
 	keyDiv.innerHTML = tabla
 	keyDiv.style.textAlign = "center";
 	const mainDiv = document.getElementById(element);
 	mainDiv.appendChild(keyDiv);
+
+	var dt = new Date(data[0]["elaborado"]);
+	var options = { year: 'numeric', month: 'numeric', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: false };
+	document.getElementById("data_prevision_municipio").innerHTML = "<p style='font-size:12px;'>"
+		+ "<a href='http://www.aemet.es' target='copyright'>"
+		+ "Previsión municipios xerada: "
+		+ dt.toLocaleDateString("es-ES", options)
+		+ "</a></p>";
 }

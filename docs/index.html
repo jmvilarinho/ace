@@ -35,6 +35,10 @@
 		//	getPrevisionMunicipio(15059, 'Ordes-prevision');
 	</script>
 
+<div style="display: flex; justify-content: flex-end">
+	<div><a href=poboacions.html>Poboacions</a></div>
+  </div>
+
 	<div id='data_temperatura'></div>
 
 	<hr>
@@ -250,110 +254,6 @@
 		getTemperatura('Rodeira-temperatura', 42.261714, -8.770230);
 		getPrevision(3600803, 'Rodeira-prevision', 29);
 	</script>
-
-	<center><img width="200" style="width: 100%; height: auto; max-width: 1300px;" src=img/line.png></center>
-
-	<section style="text-align:center;">
-		<div class="rt-container">
-			<div class="col-rt-12">
-				<a href='https://www.g24.gal/-/o-cebreiro' target=camaramar>
-					<p>O Cebreiro</p>
-				</a>
-				<div id="Cebreiro-unavailable"><img width="100" src=img/unavailable.png></div>
-				<video controls id="Cebreiro">
-					<source />
-					<p>Your browser does not support H.264/MP4.</p>
-				</video>
-				<div id='Cebreiro-temperatura'></div>
-				<div id='Cebreiro-prevision'></div>
-			</div>
-		</div>
-	</section>
-	<script>
-		var url = 'https://www.crtvg.es:1555/hls/cebreiro/index.m3u8';
-		showVideo(url, 'Cebreiro')
-		getTemperatura('Cebreiro-temperatura', 42.707862, -7.042951);
-		getPrevisionMunicipio(27045, 'Cebreiro-prevision');
-	</script>
-
-	<center><img width="200" style="width: 100%; height: auto; max-width: 1300px;" src=img/line.png></center>
-
-	<section style="text-align:center;">
-		<div class="rt-container">
-			<div class="col-rt-12">
-				<a href='https://www.g24.gal/-/a-coru%C3%B1a-fixa-' target=camaramar>
-					<p>A Coruña</p>
-				</a>
-				<div id="Riazor-unavailable"><img width="100" src=img/unavailable.png></div>
-				<video controls id="Riazor">
-					<source />
-					<p>Your browser does not support H.264/MP4.</p>
-				</video>
-				<div id='Riazor-temperatura'></div>
-				<div id='Riazor-prevision'></div>
-			</div>
-		</div>
-	</section>
-	<script>
-		var url = 'https://www.crtvg.es:1554/hls/coruna/index.m3u8';
-		showVideo(url, 'Riazor')
-		getTemperatura('Riazor-temperatura', 43.370865, -8.395928);
-		getPrevisionMunicipio(15030, 'Riazor-prevision');
-	</script>
-
-	<center><img width="200" style="width: 100%; height: auto; max-width: 1300px;" src=img/line.png></center>
-
-	<section style="text-align:center;">
-		<div class="rt-container">
-			<div class="col-rt-12">
-				<a href='https://www.g24.gal/-/praza-do-obradoiro' target=camaramar>
-					<p>Praza do Obradoiro</p>
-				</a>
-				<div id="Obradoiro-unavailable"><img width="100" src=img/unavailable.png></div>
-				<video controls id="Obradoiro">
-					<source />
-					<p>Your browser does not support H.264/MP4.</p>
-				</video>
-				<div id='Obradoiro-temperatura'></div>
-				<div id='Obradoiro-prevision'></div>
-			</div>
-		</div>
-	</section>
-	<script>
-		var url = 'https://www.crtvg.es:1554/hls/obradoiro/index.m3u8';
-		showVideo(url, 'Obradoiro')
-		getTemperatura('Obradoiro-temperatura', 42.880464, -8.545735);
-		getPrevisionMunicipio(15078, 'Obradoiro-prevision');
-	</script>
-
-
-	<center><img width="200" style="width: 100%; height: auto; max-width: 1300px;" src=img/line.png></center>
-
-<section style="text-align:center;">
-	<div class="rt-container">
-		<div class="col-rt-12">
-			<div id="Ordes-alternative">
-				<a href='https://www.camaramar.com/webcam/playa-de-Ordes' target=camaramar>
-					<p>Sabón</p>
-				</a>
-			</div>
-			<div id="Ordes-unavailable"><img width="100" src=img/unavailable.png></div>
-			<video controls id="Ordes">
-				<source />
-				<p>Your browser does not support H.264/MP4.</p>
-			</video>
-			<div id='Ordes-temperatura'></div>
-			<div id='Ordes-prevision'></div>
-		</div>
-	</div>
-</section>
-<script>
-		var alternativeuri = 'https://infocar.dgt.es/etraffic/data/camaras/1294.jpg';
-		showOnlyAlternative('Ordes', 'AP9 - Ordes', alternativeuri);
-		getTemperatura('Ordes-temperatura', 43.076238, -8.407791);
-		getPrevisionMunicipio(15059, 'Ordes-prevision');
-</script>
-
 
 	<br><br>
 	<hr>

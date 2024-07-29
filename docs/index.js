@@ -303,7 +303,7 @@ async function createPrevision(data, element, idmareas) {
 	var options = { year: 'numeric', month: 'numeric', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: false };
 	document.getElementById("data_prevision").innerHTML = "<p style='font-size:12px;'>"
 		+ "<a href='http://www.aemet.es' target='copyright'>"
-		+ "Previsión meteorolóxica por AEMET: "
+		+ "Previsión praias por AEMET: "
 		+ dt.toLocaleDateString("es-ES", options)
 		+ "</a></p>";
 
@@ -421,7 +421,7 @@ async function createPrevisionMunicipio(data, element) {
 	var options = { year: 'numeric', month: 'numeric', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: false };
 	document.getElementById("data_prevision_municipio").innerHTML = "<p style='font-size:12px;'>"
 		+ "<a href='http://www.aemet.es' target='copyright'>"
-		+ "Previsión municipios xerada: "
+		+ "Previsión poboacions xerada: "
 		+ dt.toLocaleDateString("es-ES", options)
 		+ "</a></p>";
 }

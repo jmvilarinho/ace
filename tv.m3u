@@ -484,8 +484,6 @@ https://mdstrm.com/live-stream-playlist/57b4dbf5dbbfc8f16bb63ce1.m3u8
 https://canalcoin.garjim.es/hls/directo.m3u8
 #EXTINF:-1 tvg-logo="https://yt3.ggpht.com/ytc/AAUvwniAZB2q-vXPojR8-s48qBkScsAsVmJBpZSs6ZkMwA=s200" group-title="Andalucía" tvg-name="Canal Doñana",Canal Doñana
 https://secure5.todostreaming.es/live/division-alm.m3u8
-#EXTINF:-1 tvg-id="Extremadura.TV" tvg-logo="https://graph.facebook.com/CanalExtremadura/picture?width=200&height=200" group-title="Extremadura" tvg-name="Canal Extremadura",Canal Extremadura
-https://cdnapi.kaltura.com/p/5581662/sp/558166200/playManifest/entryId/1_in8cxw3w/protocol/https/format/applehttp/a.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/canalluztelevision/picture?width=200&height=200" group-title="Andalucía" tvg-name="Canal Luz Televisión",Canal Luz Televisión
 https://5d8d85cf2c308.streamlock.net:1936/CanalLuz/enDirecto/playlist.m3u8
 #EXTINF:-1 tvg-id="CanalMalaga.TV" tvg-logo="https://graph.facebook.com/CanalMalagaRTVMunicipal/picture?width=200&height=200" group-title="Andalucía" tvg-name="Canal Málaga",Canal Málaga
@@ -525,7 +523,7 @@ https://5d8d85cf2c308.streamlock.net:1936/CanalcostaTV/endirecto/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://www.cancionero.es/portal/images/imagesweb/LogoTV_Trans.png" group-title="Andalucía" tvg-name="Cancionero TV",Cancionero TV
 http://89.140.229.5/hls1/cancionero.m3u8
 #EXTINF:-1 tvg-id="CMM.TV" tvg-logo="https://graph.facebook.com/CMMediaes/picture?width=200&height=200" group-title="Castilla-La Mancha" tvg-name="Castilla-La Mancha Media",Castilla-La Mancha Media
-https://cdnapisec.kaltura.com/p/2288691/sp/228869100/playManifest/entryId/1_01fn4ycl/protocol/https/format/applehttp/.m3u8
+https://cdnapisec.kaltura.com/p/2288691/sp/228869100/playManifest/entryId/1_71j3owtf/protocol/https/format/applehttp/a.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/cetelmon.television/picture?width=200&height=200" group-title="Religiosos" tvg-name="Cetelmon TV España",Cetelmon TV España
 http://player.cetelmon.tv/protecteddfd43c2f3a8b41f3f28582bf8993aca6/992_high.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/ChannelNewsAsia/picture?width=200&height=200" group-title="Int. Asia" tvg-name="Channel NewsAsia",Channel NewsAsia EN
@@ -1152,8 +1150,6 @@ https://d2ferbiwcx1539.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 https://tvradio-1-23-secure2.akamaized.net/master.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/xaloatb/picture?width=200&height=200" group-title="C. Foral de Navarra" tvg-name="Xaloa Telebista",Xaloa Telebista
 https://streaming.mediacast.pro:9443/hls/xaloa/playlist.m3u8
-#EXTINF:-1 tvg-id="BTV.TV" tvg-logo="https://graph.facebook.com/betevecat/picture?width=200&height=200" group-title="Cataluña" tvg-name="betevé",betevé
-https://cdnapisec.kaltura.com/p/2346171/sp/234617100/playManifest/entryId/1_n6442jz0/format/applehttp/.m3u8?referrer=aHR0cHM6Ly9iZXRldmUuY2F0
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/etv.llobregat/picture?width=200&height=200" group-title="Cataluña" tvg-name="etv",etv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/flooxer/picture?width=200&height=200" group-title="Eventuales" tvg-name="flooxer",flooxer
@@ -1163,4 +1159,4 @@ https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S62628868/uhdWBlkC1AoO/p
 #EXTINF:-1 tvg-logo="https://yt3.ggpht.com/ytc/AMLnZu_Hd2WYs49wYCBMAphVpvvpBzd-EJFU8XFQgccPIw=s200" group-title="Eventuales" tvg-name="¡HOLA! Play",¡HOLA! Play
 https://022d66c197dd4a1e9008e0134a74f34e.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung-es_HolaPlay/playlist.m3u8
 #EXTINF:-1 tvg-id="APUNT.TV" tvg-logo="https://graph.facebook.com/apuntmedia/picture?width=200&height=200" group-title="C. Valenciana" tvg-name="À Punt",À Punt
-https://bcovlive-a.akamaihd.net/a51c31c10f6e42b2bbb7c7649e9f305c/eu-west-1/6057955885001/playlist_dvr.m3u8
+https://bcovlive-a.akamaihd.net/8499d938ef904e39b58a4adec2ddeada/eu-west-1/6057955885001/playlist_dvr.m3u8

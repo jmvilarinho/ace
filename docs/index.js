@@ -153,12 +153,12 @@ function getTemperatura(id, latitude, longitude) {
 		.then(data => getTemperaturanDatos(data, id, latitude, longitude));
 }
 
-function getTemperaturanDatos(data, element, latitude, longitude) {
+function getTemperaturanDatos(data, element, latitude, longitude, texto="Temperatura actual") {
 	const date = new Date(data["current"]["time"] + ':00Z');
 	temp = padTo2Digits(date.getHours()) + ':' + padTo2Digits(date.getMinutes());
 
 	const keyDiv = document.createElement('div');
-	keyDiv.innerHTML = `Temperatura actual ` + data["current"]["temperature_2m"] + "&deg; - <a href=https://waze.com/ul?ll=" + latitude + "," + longitude + "&z=100><img src='img/waze.png' height='15px'></a>";
+	keyDiv.innerHTML = texto+" " + data["current"]["temperature_2m"] + "&deg; - <a href=https://waze.com/ul?ll=" + latitude + "," + longitude + "&z=100><img src='img/waze.png' height='15px'></a>";
 	keyDiv.style.textAlign = "center";
 	const mainDiv = document.getElementById(element);
 	mainDiv.appendChild(keyDiv);
@@ -178,7 +178,7 @@ function geoFindMe(divName) {
 		const latitude = position.coords.latitude;
 		const longitude = position.coords.longitude;
 
-		getTemperatura( divName , latitude, longitude)
+		getTemperatura( divName , latitude, longitude, "Temperatura na túa ubicación")
 	}
 
 	function error() {

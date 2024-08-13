@@ -29,18 +29,34 @@
 		<h4>(colaborador Iván Vilariño)</h4>
 	</center>
 
-	<p id="your-temperature"></p>
+	<table style="width:100%; border: none; border-collapse:collapse;}" cellspacing="0" cellpadding="0">
+		<tr colspan="2">
+			<td style="text-align: center; border: none;">
+				<div id='your-temperature'></div>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: left; border: none;">
+				<a target="meteogalicia" href="https://www.meteogalicia.gal/web/predicion/galicia/0">Meteogalicia</a>
+			</td>
+			<td style="text-align: right;border: none;">
+				<a href=poboacions.html>Poboacions</a>
+			</td>
+		</tr>
+		<tr colspan="2">
+			<td style="text-align: left; border: none;">
+				<div id='data_temperatura'></div>
+			</td>
+		</tr>
+	</table>
+
+
 	<script>
 		geoFindMe();
 		//	getPrevisionMunicipio(15059, 'Ordes-prevision');
 	</script>
 
-<div style="display: flex; justify-content: flex-end">
-	<div><a href=poboacions.html>Poboacions</a></div>
-  </div>
 
-  <a target="meteogalicia" href="https://www.meteogalicia.gal/web/predicion/galicia/0">Meteogalicia</a>
-  <div id='data_temperatura'></div>
 
 	<hr>
 
@@ -189,7 +205,8 @@
 				<a href='https://www.g24.gal/-/sanxenxo' target=camaramar>
 					<p>Sanxenxo</p>
 				</a>
-				<div style="visibility: hidden" id="Sanxenxo-unavailable"><img width="100" src=img/unavailable.png></div>
+				<div style="visibility: hidden" id="Sanxenxo-unavailable"><img width="100" src=img/unavailable.png>
+				</div>
 				<video controls id="Sanxenxo">
 					<source />
 					<p>Your browser does not support H.264/MP4.</p>

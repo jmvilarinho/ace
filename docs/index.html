@@ -29,10 +29,10 @@
 		<h4>(colaborador Iván Vilariño)</h4>
 	</center>
 
-	<table style="width:100%; border: none; border-collapse:collapse;}" cellspacing="0" cellpadding="0">
-		<tr colspan="2">
-			<td style="text-align: center; border: none;">
-				<div id='your-temperature'></div>
+	<table style="width:100%; border: none; border-collapse:collapse;" cellspacing="0" cellpadding="0">
+		<tr>
+			<td colspan="2" style="text-align: center; border: none;">
+				<div id='your_temperature'></div>
 			</td>
 		</tr>
 		<tr>
@@ -43,20 +43,11 @@
 				<a href=poboacions.html>Poboacions</a>
 			</td>
 		</tr>
-		<tr colspan="2">
-			<td style="text-align: left; border: none;">
-				<div id='data_temperatura'></div>
-			</td>
-		</tr>
 	</table>
-
-
 	<script>
-		geoFindMe();
+		geoFindMe("your_temperature");
 		//	getPrevisionMunicipio(15059, 'Ordes-prevision');
 	</script>
-
-
 
 	<hr>
 
@@ -276,6 +267,7 @@
 	<br><br>
 	<hr>
 	<footer>
+		<div id='data_temperatura'></div>
 		<div id='data_prevision'></div>
 		<div id='data_prevision_municipio'></div>
 		<div id='data_mareas'></div>

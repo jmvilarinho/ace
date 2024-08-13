@@ -172,13 +172,13 @@ function getTemperaturanDatos(data, element, latitude, longitude) {
 
 
 // --------------------------------------------------------------------------------------------------
-function geoFindMe() {
+function geoFindMe(divName) {
 
 	function success(position) {
 		const latitude = position.coords.latitude;
 		const longitude = position.coords.longitude;
 
-		getTemperatura("your-temperature", latitude, longitude)
+		getTemperatura( divName , latitude, longitude)
 	}
 
 	function error() {

@@ -356,8 +356,8 @@ https://streaming005.gestec-video.com/hls/canal24.m3u8
 https://5940924978228.streamlock.net/8289/smil:8289.smil/master.m3u8
 #EXTINF:-1 tvg-id="9LaLoma.TV" tvg-logo="https://graph.facebook.com/9laloma/picture?width=200&height=200" group-title="Andalucía" tvg-name="9 la Loma TV",9 la Loma TV
 https://9laloma.tv/live.m3u8
-#EXTINF:-1 tvg-logo="https://graph.facebook.com/abcnews.au/picture?width=200&height=200" group-title="Int. Otros" tvg-name="ABC Australia",ABC Australia EN
-https://abc-iview-mediapackagestreams-2.akamaized.net/out/v1/6e1cc6d25ec0480ea099a5399d73bc4b/index.m3u8
+#EXTINF:-1 tvg-logo="https://graph.facebook.com/abcnews.au/picture?width=200&height=200" group-title="Int. Otros" tvg-name="ABC News Australia",ABC News Australia EN
+https://abc-news-dmd-streams-1.akamaized.net/out/v1/abc83881886746b0802dc3e7ca2bc792/index.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/ABCNews/picture?width=200&height=200" group-title="Int. América" tvg-name="ABC News USA",ABC News USA EN
 https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/ABCTVpy/picture?width=200&height=200" group-title="Int. América" tvg-name="ABC TV Paraguay",ABC TV Paraguay
@@ -523,7 +523,7 @@ https://5d8d85cf2c308.streamlock.net:1936/CanalcostaTV/endirecto/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://www.cancionero.es/portal/images/imagesweb/LogoTV_Trans.png" group-title="Andalucía" tvg-name="Cancionero TV",Cancionero TV
 http://89.140.229.5/hls1/cancionero.m3u8
 #EXTINF:-1 tvg-id="CMM.TV" tvg-logo="https://graph.facebook.com/CMMediaes/picture?width=200&height=200" group-title="Castilla-La Mancha" tvg-name="Castilla-La Mancha Media",Castilla-La Mancha Media
-https://cdnapisec.kaltura.com/p/2288691/sp/228869100/playManifest/entryId/1_71j3owtf/protocol/https/format/applehttp/a.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/cetelmon.television/picture?width=200&height=200" group-title="Religiosos" tvg-name="Cetelmon TV España",Cetelmon TV España
 http://player.cetelmon.tv/protecteddfd43c2f3a8b41f3f28582bf8993aca6/992_high.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/ChannelNewsAsia/picture?width=200&height=200" group-title="Int. Asia" tvg-name="Channel NewsAsia",Channel NewsAsia EN
@@ -562,6 +562,8 @@ https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8
 https://d3pyjh3ffabib0.cloudfront.net/scheduler/scheduleMaster/388.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/DasErste/picture?width=200&height=200" group-title="Int. Europa" tvg-name="Das Erste Alemania",Das Erste Alemania DE
 https://daserste-live.ard-mcdn.de/daserste/live/hls/int/master.m3u8
+#EXTINF:-1 tvg-logo="https://graph.facebook.com/delaredulintv/picture?width=200&height=200" group-title="Cantabria" tvg-name="De Laredu Lin TV",De Laredu Lin TV
+https://eu1.servers10.com:8081/8034/index.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/del40al1/picture?width=200&height=200" group-title="Eventuales" tvg-name="Del 40 al 1",Del 40 al 1
 https://prisaradio-live.prisasd.com/live-content/directo40al1/master.m3u8
 #EXTINF:-1 tvg-id="DiezTV.TV" tvg-logo="https://graph.facebook.com/dieztv/picture?width=200&height=200" group-title="Andalucía" tvg-name="Diez TV Las Villas",Diez TV Las Villas
@@ -616,8 +618,6 @@ https://video3.lhdserver.es/empordatv2/live.m3u8
 #EXTVLCOPT:http-referrer=https://www.enlace.org/envivo/
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/EqInvestigacion/picture?width=200&height=200" group-title="Eventuales" tvg-name="Equipo de investigación",Equipo de investigación
 https://fast-channels.atresmedia.com/648ef5551756b0e429af83cc/648ef5551756b0e429af83cc.m3u8
-#EXTINF:-1 tvg-logo="https://graph.facebook.com/542582126141223/picture?width=200&height=200" group-title="País Vasco" tvg-name="Erlo TV",Erlo TV
-https://streaming.ukt.eus/hls/test.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/100146922067408/picture?width=200&height=200" group-title="C. de Madrid" tvg-name="EsTuTele",EsTuTele
 #EXTVLCOPT:http-referrer=https://player.streamingconnect.com/
 #EXTINF:-1 tvg-id="E3.TV" tvg-logo="https://graph.facebook.com/Esport3/picture?width=200&height=200" group-title="Deportivos" tvg-name="Esport 3",Esport 3 GEO CAT
@@ -656,6 +656,8 @@ https://fast-channels.atresmedia.com/648ef50a2bfab0e4607e0d61/648ef50a2bfab0e460
 https://amg01076-lightningintern-gbnews-samsunguk-0lu52.amagi.tv/playlist/amg01076-lightningintern-gbnews-samsunguk/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/1752299087402041344/eAHH3L02_200x200.jpg" group-title="Int. Europa" tvg-name="GCM Internacional",GCM Internacional
 #EXTVLCOPT:http-referrer=https://player.streamingconnect.com/
+#EXTINF:-1 tvg-logo="https://graph.facebook.com/guka.eus/picture?width=200&height=200" group-title="País Vasco" tvg-name="GUKA TB",GUKA TB
+https://streaming.ukt.eus/hls/test.m3u8
 #EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/1169992187314167808/TeabGtEB_200x200.jpg" group-title="Deportivos Int." tvg-name="Garage TV Argentina",Garage TV Argentina
 https://stream1.sersat.com/hls/garagetv.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/GeoUrduDotTv/picture?width=200&height=200" group-title="Int. Asia" tvg-name="Geo News Pakistan",Geo News Pakistan
@@ -846,8 +848,6 @@ https://streamer.zapitv.com/ptv-linarez/index.m3u8
 https://streamer.zapitv.com/PTV-malaga/index.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/SevillaPTV/picture?width=200&height=200" group-title="Andalucía" tvg-name="PTV Sevilla",PTV Sevilla
 https://streamer.zapitv.com/PTV_sevilla/index.m3u8
-#EXTINF:-1 tvg-logo="https://graph.facebook.com/canalpakapaka/picture?width=200&height=200" group-title="Infantiles" tvg-name="Paka Paka",Paka Paka
-https://538d0bde28ccf.streamlock.net/live-cont.ar/pakapaka/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/panamericana.pe/picture?width=200&height=200" group-title="Int. América" tvg-name="Panamericana Perú",Panamericana Perú
 https://cdnhd.iblups.com/hls/ptv5.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/parlamentodeandalucia.es/picture?width=200&height=200" group-title="Andalucía" tvg-name="Parlamento de Andalucía",Parlamento de Andalucía
@@ -1104,6 +1104,8 @@ https://5d8d85cf2c308.streamlock.net:1936/Teleonuba/endirecto/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://telepacifico.com/envivo/
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/Rtvalhaurin/picture?width=200&height=200" group-title="Andalucía" tvg-name="Televisión Alhaurín",Televisión Alhaurín
 https://5940924978228.streamlock.net/directo1-1/ngrp:directo1-1_all/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://static.wixstatic.com/media/4d3432_610170cea6c747a986bbea4137f5c15f~mv2.png/v1/fill/w_200,h_200,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/mosca%20logo%209_transparente.png" group-title="Musicales" tvg-name="Tevecan 9 España",Tevecan 9 España
+https://streamlov.alsolnet.com/jarbhouse/live/playlist.m3u8
 #EXTINF:-1 tvg-id="Torrevision.TV" tvg-logo="https://graph.facebook.com/torremolinostv/picture?width=200&height=200" group-title="Andalucía" tvg-name="Torrevisión",Torrevisión
 https://cdnlivevlc.codev8.net/canaltorremolinoslive/smil:channel1.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/trecepy/picture?width=200&height=200" group-title="Int. América" tvg-name="Trece Paraguay",Trece Paraguay

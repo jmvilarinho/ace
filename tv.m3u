@@ -832,6 +832,8 @@ https://ondacadiztv.es:30443/octv/24h/playlist.m3u8
 https://cloudvideo.servers10.com:8081/8116/index.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/onetveseuropa/picture?width=200&height=200" group-title="Musicales" tvg-name="One TV España",One TV España
 https://eu1.servers10.com:19360/onetv-1/onetv-1.m3u8
+#EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/1744385079093190704/Vm5ARMBs_200x200.jpg" group-title="Int. América" tvg-name="Oromar TV Ecuador",Oromar TV Ecuador
+https://stream.oromar.tv/hls/oromartv_hi/index.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/ottofm/picture?width=200&height=200" group-title="Musicales" tvg-name="Otto FM Italia",Otto FM Italia IT
 http://streaming.bitonlive.net:8080/hls/ottofm2/index.m3u8
 #EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/xpmtGgfJkNyRXmRDBCaI1UwgnNESJbc0edjazTUsNNdGPq_NvYz6quCiuJMwx-uF9pTWx5hcqQ=s200" group-title="Andalucía" tvg-name="PTV Almería",PTV Almería

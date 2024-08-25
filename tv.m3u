@@ -423,9 +423,9 @@ https://www.bloomberg.com/media-manifest/streams/qt.m3u8
 #EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/991792042094354432/DG1Ruupb_200x200.jpg" group-title="Int. América" tvg-name="Bloomberg USA",Bloomberg USA EN
 https://www.bloomberg.com/media-manifest/streams/us.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/BoliviaTvCanalOficial/picture?width=200&height=200" group-title="Int. América" tvg-name="Bolivia 7.1 TV",Bolivia 7.1 TV
-https://5ca39be538307.streamlock.net/boliviatv/videoboliviatv/playlist.m3u8
+https://5ca9af4645e15.streamlock.net/boliviatv/videoboliviatv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/BoliviaTvCanalOficial/picture?width=200&height=200" group-title="Int. América" tvg-name="Bolivia 7.2 TV",Bolivia 7.2 TV
-https://rumble.com/live-hls-dvr/54ppbh/playlist.m3u8
+https://rumble.com/live-hls-dvr/58mfdh/playlist.m3u8
 #EXTINF:-1 tvg-id="BonDiaTV_CAT.TV" tvg-logo="https://i2.wp.com/blocs.mesvilaweb.cat/wp-content/uploads/sites/1858/2018/11/BONDIA.png" group-title="Cataluña" tvg-name="Bon Dia TV",Bon Dia TV
 https://directes-tv-int.ccma.cat/live-origin/bondia-hls/master.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/burrianateve/picture?width=200&height=200" group-title="C. Valenciana" tvg-name="Burriana TV",Burriana TV
@@ -454,8 +454,6 @@ https://cmc-ono.amagi.tv/hls/amagi_hls_data_cmcAAAAAA-cmc-ono/CDN/playlist.m3u8?
 https://directo.tuwebtv.es/canal1.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/canal10emporda/picture?width=200&height=200" group-title="Cataluña" tvg-name="Canal 10 Empordà",Canal 10 Empordà
 https://ventdelnord.tv:8080/escala/directe.m3u8
-#EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/1715430427618385920/7M2WtIEE_200x200.jpg" group-title="Int. América" tvg-name="Canal 12 El Salvador",Canal 12 El Salvador
-https://alba-sv-c12-c12.stream.mediatiquestream.com/index.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/canal2000/picture?width=200&height=200" group-title="Castilla-La Mancha" tvg-name="Canal 2000",Canal 2000
 http://canal2000.berkano-systems.net/streaming/streams/canal2000-720p.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/tvbarbastro/picture?width=200&height=200" group-title="Aragón" tvg-name="Canal 25 Barbastro TV",Canal 25 Barbastro TV
@@ -737,7 +735,7 @@ https://1601580044.rsc.cdn77.org/live/_jcn_/amlst:Mariavision/master.m3u8
 #EXTINF:-1 tvg-id="MelillaTV.TV" tvg-logo="https://graph.facebook.com/TelevisionMelilla/picture?width=200&height=200" group-title="Melilla" tvg-name="Melilla TV",Melilla TV
 https://tvmelilla-hls-rm-lw.flumotion.com/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/miamitv/picture?width=200&height=200" group-title="Int. Otros" tvg-name="Miami TV",Miami TV
-https://59ec5453559f0.streamlock.net/miamitv/smil:WEB/playlist.m3u8
+https://668e2e5a0f5bb.streamlock.net/miamitv/smil:WEB4141/playlist.m3u8
 #EXTINF:-1 tvg-id="Mijas340TV.TV" tvg-logo="https://graph.facebook.com/Mijas340TV/picture?width=200&height=200" group-title="Andalucía" tvg-name="Mijas 3.40 TV",Mijas 3.40 TV
 https://streaming004.gestec-video.com/hls/MIJAS.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/molahitstv/picture?width=200&height=200" group-title="Musicales" tvg-name="Molahits TV España",Molahits TV España
@@ -855,7 +853,7 @@ https://broadcasting.parlamentodenavarra.es/live/canal1/playlist.m3u8?DVR
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/Pequeradio/picture?width=200&height=200" group-title="Infantiles" tvg-name="Pequeradio TV",Pequeradio TV
 https://canadaremar2.todostreaming.es/live/peque-pequetv.m3u8
 #EXTINF:-1 tvg-logo="https://yt3.ggpht.com/WtsIUXtvmo0QQFYhj9qbxpttucZF0ZElx8oju9r7ISrKfn9GHBuRR7s9JN4YRnzvbLr6GiUtWQ=s200" group-title="Cataluña" tvg-name="Piera TV",Piera TV
-http://51.254.47.72:1935/piera/smil:piera.smil/master.m3u8
+https://5d776b1861da1.streamlock.net/piera/smil:piera.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="PopularTV_S.TV" tvg-logo="https://graph.facebook.com/populartvcantabria/picture?width=200&height=200" group-title="Cantabria" tvg-name="Popular TV Cantabria",Popular TV Cantabria
 https://limited12.todostreaming.es/live/ptvcantabria-livestream.m3u8
 #EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/1269158662444060673/z6oX-wsR_200x200.jpg" group-title="Melilla" tvg-name="Popular TV Melilla",Popular TV Melilla
@@ -934,7 +932,7 @@ https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/patboliviahd/picture?width=200&height=200" group-title="Int. América" tvg-name="Red Pat Bolivia",Red Pat Bolivia
 https://w8.redpat.tv:7777/play/110/index.m3u8
-#EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/1631743657266085888/Yvr_xWLh_200x200.jpg" group-title="Int. América" tvg-name="Rede Massa Brasil",Rede Massa Brasil
+#EXTINF:-1 tvg-logo="https://graph.facebook.com/RedeMassa/picture?width=200&height=200" group-title="Int. América" tvg-name="Rede Massa Brasil",Rede Massa Brasil
 #EXTVLCOPT:http-referrer=https://www.redemassa.com.br/aovivo/
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/redevida/picture?width=200&height=200" group-title="Religiosos" tvg-name="Redevida Brasil",Redevida Brasil PT
 https://cvd1.cds.ebtcvd.net/live-redevida/smil:redevida.smil/playlist.m3u8
@@ -974,8 +972,6 @@ https://d2glyu450vvghm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 https://canadaremar2.todostreaming.es/live/solidariatv-webhd.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/sonusfmpage/picture?width=200&height=200" group-title="Musicales" tvg-name="Sonus FM Alemania",Sonus FM Alemania
 #EXTVLCOPT:http-referrer=https://www.sonus.fm
-#EXTINF:-1 tvg-logo="https://graph.facebook.com/SpektraTelevision/picture?width=200&height=200" group-title="Musicales" tvg-name="Spektra TV España",Spektra TV España
-https://cloudvideo.servers10.com:8081/8136/index.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/MySpirittv/picture?width=200&height=200" group-title="Musicales" tvg-name="Spirit TV USA",Spirit TV USA EN
 https://cdnlive.myspirit.tv/LS-ATL-43240-2/index.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/sportitaliatv/picture?width=200&height=200" group-title="Int. Europa" tvg-name="Sport Italia",Sport Italia IT
@@ -988,6 +984,8 @@ https://ingest1-video.streaming-pro.com/tac12_ABR/stream/playlist.m3u8
 https://edge.xn--tbnespaa-j3a.es/LiveApp/streams/tbnlive.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/TEFTV/picture?width=200&height=200" group-title="Illes Balears" tvg-name="TEF",TEF
 https://5940924978228.streamlock.net/EIVISSA_1/EIVISSA_1/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://graph.facebook.com/Tele10Nayarit/picture?width=200&height=200" group-title="Int. América" tvg-name="TELE 10 Nayarit Mexico",TELE 10 Nayarit Mexico
+https://live.iplanay.gob.mx/hls/nayarittv.m3u8
 #EXTINF:-1 tvg-id="TPA.TV" tvg-logo="https://graph.facebook.com/RTPAoficial/picture?width=200&height=200" group-title="P. de Asturias" tvg-name="TPA7",TPA7
 https://cdnlive.codev8.net/rtpalive/smil:directo/playlist.m3u8?DVR
 #EXTINF:-1 tvg-id="13.TV" tvg-logo="https://graph.facebook.com/TRECEtves/picture?width=200&height=200" group-title="Generalistas" tvg-name="TRECE",TRECE
@@ -1108,8 +1106,6 @@ https://rds3gen.desdeparaguay.net/trecetv/trecetv_alta/playlist.m3u8
 https://vdo.grupolimalive.com:3847/live/tuyatvlive.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/kanalfreedom/picture?width=200&height=200" group-title="Int. Europa" tvg-name="UATV Ucrania",UATV Ucrania
 https://freedom.cdn-01.cosmonova.net.ua/mobile-app/main/freedom/master.m3u8
-#EXTINF:-1 tvg-logo="https://graph.facebook.com/udlaspalmasoficial/picture?width=200&height=200" group-title="Deportivos" tvg-name="UD Las Palmas TV",UD Las Palmas TV
-https://cdn307.fractalmedia.es/live317/hls/cudtv/master.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/www.ukraine24.ua/picture?width=200&height=200" group-title="Int. Europa" tvg-name="Ukraine 24 Ucrania",Ukraine 24 Ucrania
 http://streamvideol1.luxnet.ua/news24/news24.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/UneVinalopo/picture?width=200&height=200" group-title="C. Valenciana" tvg-name="Une Vinalopó",Une Vinalopó

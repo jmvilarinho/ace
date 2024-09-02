@@ -1,3 +1,49 @@
+function includeHTML(file) {
+	var i, elmnt, file, xhttp;
+	/*loop through a collection of all HTML elements:*/
+	elmnt = document.getElementById("bodyPage");
+
+	/*search for elements with a certain atrribute:*/
+	if (file) {
+		/*make an HTTP request using the attribute value as the file name:*/
+		xhttp = new XMLHttpRequest();
+		xhttp.onreadystatechange = function () {
+			if (this.readyState == 4) {
+				if (this.status == 200) { elmnt.innerHTML = this.responseText; }
+				if (this.status == 404) { elmnt.innerHTML = "Page not found."; }
+			}
+		}
+		xhttp.open("GET", file, true);
+		xhttp.send();
+		/*exit the function:*/
+		return;
+	}
+
+};
+
+function setCookie(name, value, days) {
+	var expires = "";
+	if (days) {
+		var date = new Date();
+		date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+		expires = "; expires=" + date.toUTCString();
+	}
+	document.cookie = name + "=" + (value || "") + expires + "; path=/";
+}
+function getCookie(name) {
+	var nameEQ = name + "=";
+	var ca = document.cookie.split(';');
+	for (var i = 0; i < ca.length; i++) {
+		var c = ca[i];
+		while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+		if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+	}
+	return null;
+}
+function eraseCookie(name) {
+	document.cookie = name + '=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+}
+
 // --------------------------------------------------------------------------------------------------
 async function validURL(url) {
 	result = await fetch(url, {
@@ -144,7 +190,7 @@ function getLocalTime(time) {
 
 var apikey = 'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqbXZpbGFyaW5ob0BnbWFpbC5jb20iLCJqdGkiOiJhZTdiYTgwOS1iOTQ3LTQxM2YtYmRmYy03ODEzZjMxOGM5ZDkiLCJpc3MiOiJBRU1FVCIsImlhdCI6MTcyMTQ4NDg2MiwidXNlcklkIjoiYWU3YmE4MDktYjk0Ny00MTNmLWJkZmMtNzgxM2YzMThjOWQ5Iiwicm9sZSI6IiJ9.7kqIc3ErJmp9MtGELp9C8SDUkZ-a9bAX2LeRw_aysRg';
 
-function getTemperatura(id, latitude, longitude, texto="Temperatura actual") {
+function getTemperatura(id, latitude, longitude, texto = "Temperatura actual") {
 	const ms = Date.now();
 	const url = "https://api.open-meteo.com/v1/forecast?latitude=" + latitude + "&longitude=" + longitude + "&current=temperature_2m,wind_speed_10m"
 	console.log('Get temperatura: ' + url)
@@ -158,7 +204,7 @@ function getTemperaturanDatos(data, element, latitude, longitude, texto) {
 	temp = padTo2Digits(date.getHours()) + ':' + padTo2Digits(date.getMinutes());
 
 	const keyDiv = document.createElement('div');
-	keyDiv.innerHTML = texto+" " + data["current"]["temperature_2m"] + "&deg; - <a href=https://waze.com/ul?ll=" + latitude + "," + longitude + "&z=100><img src='img/waze.png' height='15px'></a>";
+	keyDiv.innerHTML = texto + " " + data["current"]["temperature_2m"] + "&deg; - <a href=https://waze.com/ul?ll=" + latitude + "," + longitude + "&z=100><img src='img/waze.png' height='15px'></a>";
 	keyDiv.style.textAlign = "center";
 	const mainDiv = document.getElementById(element);
 	mainDiv.appendChild(keyDiv);
@@ -178,7 +224,7 @@ function geoFindMe(divName) {
 		const latitude = position.coords.latitude;
 		const longitude = position.coords.longitude;
 
-		getTemperatura( divName , latitude, longitude, "Temperatura na túa ubicación")
+		getTemperatura(divName, latitude, longitude, "Temperatura na túa ubicación")
 	}
 
 	function error() {

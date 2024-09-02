@@ -223,13 +223,13 @@ function getTemperaturanDatos(data, element, latitude, longitude, texto, waze = 
 
 
 // --------------------------------------------------------------------------------------------------
-function geoFindMe(divName, waze = true) {
+function geoFindMe(divName) {
 
 	function success(position) {
 		const latitude = position.coords.latitude;
 		const longitude = position.coords.longitude;
 
-		getTemperatura(divName, latitude, longitude, "Temperatura na túa ubicación", waze )
+		getTemperatura(divName, latitude, longitude, "Temperatura na túa ubicación", false )
 	}
 
 	function error() {

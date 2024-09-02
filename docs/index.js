@@ -190,21 +190,26 @@ function getLocalTime(time) {
 
 var apikey = 'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqbXZpbGFyaW5ob0BnbWFpbC5jb20iLCJqdGkiOiJhZTdiYTgwOS1iOTQ3LTQxM2YtYmRmYy03ODEzZjMxOGM5ZDkiLCJpc3MiOiJBRU1FVCIsImlhdCI6MTcyMTQ4NDg2MiwidXNlcklkIjoiYWU3YmE4MDktYjk0Ny00MTNmLWJkZmMtNzgxM2YzMThjOWQ5Iiwicm9sZSI6IiJ9.7kqIc3ErJmp9MtGELp9C8SDUkZ-a9bAX2LeRw_aysRg';
 
-function getTemperatura(id, latitude, longitude, texto = "Temperatura actual") {
+function getTemperatura(id, latitude, longitude, texto = "Temperatura actual", waze = True) {
 	const ms = Date.now();
 	const url = "https://api.open-meteo.com/v1/forecast?latitude=" + latitude + "&longitude=" + longitude + "&current=temperature_2m,wind_speed_10m"
 	console.log('Get temperatura: ' + url)
 	fetch(url)
 		.then(response => response.json())
-		.then(data => getTemperaturanDatos(data, id, latitude, longitude, texto));
+		.then(data => getTemperaturanDatos(data, id, latitude, longitude, texto, waze));
 }
 
-function getTemperaturanDatos(data, element, latitude, longitude, texto) {
+function getTemperaturanDatos(data, element, latitude, longitude, texto, waze = True) {
 	const date = new Date(data["current"]["time"] + ':00Z');
 	temp = padTo2Digits(date.getHours()) + ':' + padTo2Digits(date.getMinutes());
 
 	const keyDiv = document.createElement('div');
-	keyDiv.innerHTML = texto + " " + data["current"]["temperature_2m"] + "&deg; - <a href=https://waze.com/ul?ll=" + latitude + "," + longitude + "&z=100><img src='img/waze.png' height='15px'></a>";
+	html = texto
+	if (waze) {
+		html += " " + data["current"]["temperature_2m"] + "&deg; - <a href=https://waze.com/ul?ll=" + latitude + "," + longitude + "&z=100><img src='img/waze.png' height='15px'></a>";
+	}
+
+	keyDiv.innerHTML = html
 	keyDiv.style.textAlign = "center";
 	const mainDiv = document.getElementById(element);
 	mainDiv.appendChild(keyDiv);
@@ -218,13 +223,13 @@ function getTemperaturanDatos(data, element, latitude, longitude, texto) {
 
 
 // --------------------------------------------------------------------------------------------------
-function geoFindMe(divName) {
+function geoFindMe(divName, waze = True) {
 
 	function success(position) {
 		const latitude = position.coords.latitude;
 		const longitude = position.coords.longitude;
 
-		getTemperatura(divName, latitude, longitude, "Temperatura na túa ubicación")
+		getTemperatura(divName, latitude, longitude, "Temperatura na túa ubicación", waze = True)
 	}
 
 	function error() {

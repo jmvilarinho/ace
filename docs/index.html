@@ -25,15 +25,25 @@
 </head>
 
 <body>
-	<center>
-		<h3>Cortesía de J.M. Vilariño</h3>
-		<h4>(colaborador Iván Vilariño)</h4>
-	</center>
-
 	<table style="width:100%; border: none; border-collapse:collapse;" cellspacing="0" cellpadding="0">
 		<tr>
 			<td colspan="2" style="text-align: center; border: none;">
+				<b>Cortesía de J.M. Vilariño</b>>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" style="text-align: center; border: none;">
+				<b>(colaborador Iván Vilariño)</b>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" style="text-align: center; border: none;">
 				<div id='your_temperature'></div>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" style="text-align: center; border: none;">
+				<br>
 			</td>
 		</tr>
 		<tr>
@@ -56,37 +66,31 @@
 	<div id="DivContent"></div>
 
 	<script>
-		var url, otherLink;
-
 		var pagina = getCookie('pagina');
 		if (!pagina) {
 			pagina = 'praias'
 		}
-
-		if (pagina == 'praias') {
-			pagina = 'praias'
-			otherLink = 'Poboacions'
-		} else {
-			pagina = 'poboacions'
-			otherLink = 'Praias'
-		}
-		CambiaVistaUpdate(pagina, otherLink);
+		CambiaVistaUpdate(pagina);
 
 		function CambiaVista() {
 			if (pagina == 'praias') {
 				pagina = 'poboacions'
-				otherLink = 'Praias'
 			} else {
 				pagina = 'praias'
-				otherLink = 'Poboacions'
 			}
-			CambiaVistaUpdate(pagina, otherLink);
+			CambiaVistaUpdate(pagina);
 		};
 
-		function CambiaVistaUpdate(pagina, link) {
-			contenido=pagina+'.html'
+		function CambiaVistaUpdate(pagina) {
+			contenido = pagina + '.html'
 			console.log('Cargando página: ' + contenido)
 			setCookie('pagina', pagina, 30);
+			if (pagina == 'praias') {
+				link = 'Poboacions'
+			} else {
+				link = 'Praias'
+			}
+
 			$(function () {
 				$("#DivContent").load(contenido);
 			});

@@ -61,36 +61,32 @@
 		var pagina = getCookie('pagina');
 		if (!pagina) {
 			pagina = 'praias'
-			setCookie('pagina', pagina, 30);
 		}
 
 		if (pagina == 'praias') {
 			pagina = 'praias'
-			url = pagina + '.html'
 			otherLink = 'Poboacions'
 		} else {
 			pagina = 'poboacions'
-			url = pagina + '.html'
 			otherLink = 'Praias'
 		}
-		CambiaVistaUpdate(url, otherLink);
+		CambiaVistaUpdate(pagina, otherLink);
 
 		function CambiaVista() {
 			if (pagina == 'praias') {
 				pagina = 'poboacions'
-				url = pagina + '.html'
 				otherLink = 'Praias'
 			} else {
 				pagina = 'praias'
-				url = pagina + '.html'
 				otherLink = 'Poboacions'
 			}
-			CambiaVistaUpdate(url, otherLink);
-			setCookie('pagina', pagina, 30);
+			CambiaVistaUpdate(pagina, otherLink);
 		};
 
-		function CambiaVistaUpdate(contenido, link) {
+		function CambiaVistaUpdate(pagina, link) {
+			contenido=pagina+'.html'
 			console.log('Cargando página: ' + contenido)
+			setCookie('pagina', pagina, 30);
 			$(function () {
 				$("#DivContent").load(contenido);
 			});

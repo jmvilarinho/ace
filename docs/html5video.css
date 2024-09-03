@@ -1,6 +1,9 @@
 
-a.updated:visited {
-    color: #00E;
+a:focus {
+	color: #00E;
+}
+a:hover {
+	color: #ff0000;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Roboto');
@@ -29,11 +32,6 @@ body {
 a {
 	text-decoration: none;
 	outline: none;
-}
-
-a:hover,
-a:focus {
-	color: #373e18;
 }
 
 table,

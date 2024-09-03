@@ -1,6 +1,7 @@
 
-a:visited { color: blue; }
-
+a.updated:visited {
+    color: #00E;
+}
 
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 

@@ -1,3 +1,34 @@
+function CambiaVista(e) {
+	if (pagina == 'praias') {
+		pagina = 'poboacions'
+	} else {
+		pagina = 'praias'
+	}
+	CambiaVistaUpdate(pagina);
+	e.preventDefault();
+	return false;
+};
+
+function CambiaVistaUpdate(pagina) {
+	if (!pagina) {
+		pagina = 'praias'
+	}
+
+	contenido = pagina + '.html'
+	console.log('Cargando página: ' + contenido)
+	setCookie('pagina', pagina, 30);
+	if (pagina == 'praias') {
+		link = 'Poboacions'
+	} else {
+		link = 'Praias'
+	}
+
+	$(function () {
+		$("#DivContent").load(contenido);
+	});
+	$("#OtherPage").html(link);
+};
+
 function includeHTML(file) {
 	var i, elmnt, file, xhttp;
 	/*loop through a collection of all HTML elements:*/
@@ -231,7 +262,7 @@ function geoFindMe(divName) {
 		const latitude = position.coords.latitude;
 		const longitude = position.coords.longitude;
 
-		getTemperatura(divName, latitude, longitude, "Temperatura na túa ubicación", false )
+		getTemperatura(divName, latitude, longitude, "Temperatura na túa ubicación", false)
 	}
 
 	function error() {

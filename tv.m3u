@@ -302,7 +302,7 @@ https://ztnr.rtve.es/ztnr/6108696.m3u8
 https://ztnr.rtve.es/ztnr/6712432.m3u8
 #EXTINF:-1 tvg-id="101Antequera.TV" tvg-logo="https://graph.facebook.com/101tvAntequera/picture?width=200&height=200" group-title="Andalucía" tvg-name="101TV Antequera",101TV Antequera
 https://www.streaming101tv.es:19360/antequera/antequera.m3u8
-#EXTINF:-1 tvg-id="101Axarquía.TV" tvg-logo="https://graph.facebook.com/101tvvelezmalaga/picture?width=200&height=200" group-title="Andalucía" tvg-name="101TV Axarquía",101TV Axarquía
+#EXTINF:-1 tvg-id="101Axarquía.TV" tvg-logo="https://graph.facebook.com/101tvmalaga/picture?width=200&height=200" group-title="Andalucía" tvg-name="101TV Axarquía",101TV Axarquía
 https://www.streaming101tv.es:19360/axarquia/axarquia.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/101tvmalaga/picture?width=200&height=200" group-title="Andalucía" tvg-name="101TV Costa del Sol",101TV Costa del Sol
 https://www.streaming101tv.es:19360/costadelsol/costadelsol.m3u8
@@ -735,7 +735,7 @@ https://1601580044.rsc.cdn77.org/live/_jcn_/amlst:Mariavision/master.m3u8
 #EXTINF:-1 tvg-id="MelillaTV.TV" tvg-logo="https://graph.facebook.com/TelevisionMelilla/picture?width=200&height=200" group-title="Melilla" tvg-name="Melilla TV",Melilla TV
 https://tvmelilla-hls-rm-lw.flumotion.com/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/miamitv/picture?width=200&height=200" group-title="Int. Otros" tvg-name="Miami TV",Miami TV
-https://668e2e5a0f5bb.streamlock.net/miamitv/smil:WEB4141/playlist.m3u8
+https://59ec5453559f0.streamlock.net/miamitv/smil:WEB/playlist.m3u8
 #EXTINF:-1 tvg-id="Mijas340TV.TV" tvg-logo="https://graph.facebook.com/Mijas340TV/picture?width=200&height=200" group-title="Andalucía" tvg-name="Mijas 3.40 TV",Mijas 3.40 TV
 https://streaming004.gestec-video.com/hls/MIJAS.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/molahitstv/picture?width=200&height=200" group-title="Musicales" tvg-name="Molahits TV España",Molahits TV España
@@ -986,14 +986,10 @@ https://edge.xn--tbnespaa-j3a.es/LiveApp/streams/tbnlive.m3u8
 https://5940924978228.streamlock.net/EIVISSA_1/EIVISSA_1/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/Tele10Nayarit/picture?width=200&height=200" group-title="Int. América" tvg-name="TELE 10 Nayarit Mexico",TELE 10 Nayarit Mexico
 https://live.iplanay.gob.mx/hls/nayarittv.m3u8
-#EXTINF:-1 tvg-id="TPA.TV" tvg-logo="https://graph.facebook.com/RTPAoficial/picture?width=200&height=200" group-title="P. de Asturias" tvg-name="TPA7",TPA7
-https://cdnlive.codev8.net/rtpalive/smil:directo/playlist.m3u8?DVR
 #EXTINF:-1 tvg-id="13.TV" tvg-logo="https://graph.facebook.com/TRECEtves/picture?width=200&height=200" group-title="Generalistas" tvg-name="TRECE",TRECE
 https://live-edge-ams-1.cdn.enetres.net/091DB7AFBD77442B9BA2F141DCC182F5021/liveld/index.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/trtworld/picture?width=200&height=200" group-title="Int. Europa" tvg-name="TRT World Turquía",TRT World Turquía EN
 https://tv-trtworld.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/O-uKbFM_PomDiTCVdBWJ5KktmjrmAQv9ovAHK9_jkJb0X1df9_qv5C4M08xt7vcGuwlE5pfIFWI=s200" group-title="C. Valenciana" tvg-name="TV Almassora",TV Almassora
-https://live.fullsport.es/hls/tvalmassora_src/index.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/575943555801687/picture?width=200&height=200" group-title="Castilla y León" tvg-name="TV Aranda",TV Aranda
 https://cloud.streamingconnect.tv/hls/telearanda/telearanda.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/tvArtequatre/picture?width=200&height=200" group-title="C. Valenciana" tvg-name="TV Artequatre",TV Artequatre

@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="utf-8">
   <script type="text/javascript" src="jquery-3.7.1.js"></script>
-  <title> jQuery Ajax headers </title>
+  <title>RFGF</title>
 </head>
 
 <body>
@@ -15,23 +15,23 @@
       $.ajax({
         type: 'GET',
         url: json_data,
+        contentType: "application/json; charset=utf-8",
         data: { nocache: '1' },
         dataType: 'json',
+
         success: function (data) {
+          $('#results').html('');
           $('#results').append('<hr>');
-
-          $('#results').append('<div class="name">Equipo: ' + data.nombre_equipo + '</>');
-
+          $('#results').append('<div class="name"><b>Equipo:</b> ' + data.nombre_equipo + '</>');
           jQuery.each(data.competiciones_equipo, function (index, item) {
-            $('#results').append('<div class="name">Competición: ' + item.competicion + '</>');
-            // do something with `item` (or `this` is also `item` if you like)
-            $('#results').append('<br><table border >');
+            $('#results').append('<div class="name"><b>Competición:</b> ' + item.competicion + '</>');
 
+            $('#results').append('<br><table border >');
             $('#results').append('<tr>'
               + '<th>Día</th>'
-              + '<th align="right">Equipo</th>'
-              + '<th align="center">________</th>'
-              + '<th align="left">Equipo</th>'
+              + '<th align="right"></th>'
+              + '<th align="center">Resultado</th>'
+              + '<th align="left"></th>'
               + '</tr>');
 
             cont = 0;
@@ -49,16 +49,10 @@
                 + '<td style="background-color:' + background + ';" align="center" >' + item.goles_casa + ' - ' + item.goles_fuera + '</td>'
                 + '<td style="background-color:' + background + ';" align="left" >' + item.equipo_fuera + '</td>'
                 + '</tr>');
-
-
             });
             $('#results').append('</table>');
 
-
           });
-
-
-
         }
       });
     }

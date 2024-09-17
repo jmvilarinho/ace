@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
   <link rel="icon" href="/ace/rfgf/favicon.ico" type="image/x-icon">
   <link rel="shortcut icon" href="/ace/rfgf/favicon.ico" type="image/x-icon">
-  <script src="index.js?nocache=3"></script>
+  <script src="index.js?nocache=4"></script>
 
   <style>
     table,
@@ -17,115 +17,64 @@
       border: 1px solid black;
       border-radius: 2px;
     }
+
+    .ntype {
+      font-size: 15px !important
+    }
+
+    .ntype2 {
+      font-size: 11px !important;
+      font-weight: 500 !important
+    }
+
+    .escudo_widget {
+      width: 20px !important
+    }
+
+
   </style>
 </head>
 
 <body style="background-color:#598381">
   <div>
-    <table>
-      <tr>
-        <td>
-          <button class="jogafan_senior" data-href="#contact">Jogafan Senior</button>
-          <script type="text/javascript">
-            $('button.jogafan_senior').click(function (e) {
-              load_data('jogafan_senior.json');
-            });
-          </script>
-        </td>
+    <br>&nbsp;&nbsp;
 
-        <td>
-          <button class="jogafan_juvenil" data-href="#contact">Jogafan Juvenil</button>
-          <script type="text/javascript">
-            $('button.jogafan_juvenil').click(function (e) {
-              load_data('jogafan_juvenil.json');
-            });
-          </script>
-        </td>
+    <button class="jogafan_senior" data-href="#contact">Jogafan Senior</button>
+    <script type="text/javascript">
+      $('button.jogafan_senior').click(function (e) {
+        load_data('jogafan_senior');
+      });
+    </script>
 
-        <td>
-          <button class="jogafan_cadete" data-href="#contact">Jogafan Cadete</button>
-          <script type="text/javascript">
-            $('button.jogafan_cadete').click(function (e) {
-              load_data('jogafan_cadete.json');
-            });
-          </script>
-        </td>
+    <button class="jogafan_juvenil" data-href="#contact">Jogafan Juvenil</button>
+    <script type="text/javascript">
+      $('button.jogafan_juvenil').click(function (e) {
+        load_data('jogafan_juvenil');
+      });
+    </script>
 
-        <td>
-          <button class="jogafan_infantil" data-href="#contact">Jogafan Infantil</button>
-          <script type="text/javascript">
-            $('button.jogafan_infantil').click(function (e) {
-              load_data('jogafan_infantil.json');
-            });
-          </script>
-        </td>
+    <button class="jogafan_cadete" data-href="#contact">Jogafan Cadete</button>
+    <script type="text/javascript">
+      $('button.jogafan_cadete').click(function (e) {
+        load_data('jogafan_cadete');
+      });
+    </script>
 
-        <td>
-          <button class="oroso_cadete" data-href="#contact">Oroso Cadete</button>
-          <script type="text/javascript">
-            $('button.oroso_cadete').click(function (e) {
-              load_data('oroso_cadete.json');
-            });
-          </script>
-        </td>
-      </tr>
+    <button class="jogafan_infantil" data-href="#contact">Jogafan Infantil</button>
+    <script type="text/javascript">
+      $('button.jogafan_infantil').click(function (e) {
+        load_data('jogafan_infantil');
+      });
+    </script>
 
-      <tr>
-        <td>
-          <button class="jogafan_senior" data-href="#contact">Clasificacion</button>
-          <script type="text/javascript">
-            $('button.jogafan_senior').click(function (e) {
-              load_data('jogafan_senior.json');
-            });
-          </script>
-        </td>
+    <button class="oroso_cadete" data-href="#contact">Oroso Cadete</button>
+    <script type="text/javascript">
+      $('button.oroso_cadete').click(function (e) {
+        load_data('oroso_cadete');
+      });
+    </script>
 
-        <td>
-          <button class="jogafan_juvenil" data-href="#contact">Clasificacion</button>
-          <script type="text/javascript">
-            $('button.jogafan_juvenil').click(function (e) {
-              load_data('jogafan_juvenil.json');
-            });
-          </script>
-        </td>
-
-        <td>
-          <button class="jogafan_cadete" data-href="#contact">Clasificacion</button>
-          <script type="text/javascript">
-            $('button.jogafan_cadete').click(function (e) {
-              load_data('jogafan_cadete.json');
-            });
-          </script>
-        </td>
-
-        <td>
-          <button class="jogafan_infantil" data-href="#contact">Clasificacion</button>
-          <script type="text/javascript">
-            $('button.jogafan_infantil').click(function (e) {
-              load_data('jogafan_infantil.json');
-            });
-          </script>
-        </td>
-
-        <td>
-          <button class="oroso_cadete" data-href="#contact">Clasificacion</button>
-          <script type="text/javascript">
-            $('button.oroso_cadete').click(function (e) {
-              load_data('oroso_cadete.json');
-            });
-          </script>
-        </td>
-      </tr>
-
-    </table>
-
-
-
-
-
-
-
-  </div>
+</div>
 
 
   <div id="results"></div>

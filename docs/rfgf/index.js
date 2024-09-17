@@ -43,7 +43,6 @@ function get_date() {
 }
 
 function load_data(json_data) {
-
 	$.ajax({
 		type: 'GET',
 		url: json_data,
@@ -55,56 +54,91 @@ function load_data(json_data) {
 			get_date()
 			setCookie('equipo', json_data, 30);
 
-			$('#results').html('');
-			$('#results').append('<hr>');
-			$('#results').append('<div class="name"><b>Equipo:</b> ' + data.nombre_equipo + '</>');
-			jQuery.each(data.competiciones_equipo, function (index, item) {
-				$('#results').append('<br><div class="name"><b>Competición:</b> ' + item.competicion + '</>');
-
-				$('#results').append('<table border >');
-				$('#results').append('<tr>'
-					+ '<th>Día</th>'
-					+ '<th align="right"></th>'
-					+ '<th align="center">Resultado</th>'
-					+ '<th align="left"></th>'
-					+ '<th>Día</th>'
-					+ '<th>Campo</th>'
-					+ '</tr>');
-
-				cont = 0;
-				jQuery.each(item.partidos, function (index, item) {
-					// do something with `item` (or `this` is also `item` if you like)
-					if (cont % 2)
-						background = '#ffffff';
-					else
-						background = '#e8e5e4';
-					cont += 1
-
-
-					var pattern = /(\d{2})\-(\d{2})\-(\d{4})/;
-					var dt = new Date(item.fecha.replace(pattern, '$3-$2-$1 12:00'));
-					if (isSameWeek(dt, new Date(Date.now())))
-						background = '#c05b39';
-
-
-					if (item.hora)
-						hora = ' - ' + item.hora;
-					else
-						hora = '';
-
-					$('#results').append('<tr>'
-						+ '<td style="background-color:' + background + ';" >' + item.fecha + hora + '</td>'
-						+ '<td style="background-color:' + background + ';" align="right" >' + item.equipo_casa + '</td>'
-						+ '<td style="background-color:' + background + ';" align="center" >' + item.goles_casa + ' - ' + item.goles_fuera + '</td>'
-						+ '<td style="background-color:' + background + ';" align="left" >' + item.equipo_fuera + '</td>'
-						+ '<td style="background-color:' + background + ';" >' + item.fecha + hora + '</td>'
-						+ '<td style="background-color:' + background + ';" >' + item.campo + '</td>'
-						+ '</tr>');
-				});
-				$('#results').append('</table>');
-
-			});
+			if (json_data.includes('clasificacion'))
+				show_clasificacion(data);
+			else
+				show_tabla(data);
 		}
+	});
+}
+
+function show_clasificacion(data) {
+	$('#results').html('');
+	$('#results').append('<hr>');
+	$('#results').append('<div class="name"><b>Equipo:</b> ' + data.competicion + '</>');
+	jQuery.each(data.clasificacion, function (index, item) {
+		$('#results').append('<table border >');
+		$('#results').append('<tr>'
+			+ '<th>Nombre</th>'
+			+ '</tr>');
+
+		cont = 0;
+		jQuery.each(item.partidos, function (index, item) {
+			// do something with `item` (or `this` is also `item` if you like)
+			if (cont % 2)
+				background = '#ffffff';
+			else
+				background = '#e8e5e4';
+			cont += 1
+
+			$('#results').append('<tr>'
+				+ '<td style="background-color:' + background + ';" >' + item.nombre + '</td>'
+				+ '</tr>');
+		});
+		$('#results').append('</table>');
+
+	});
+}
+
+function show_tabla(data) {
+	$('#results').html('');
+	$('#results').append('<hr>');
+	$('#results').append('<div class="name"><b>Equipo:</b> ' + data.nombre_equipo + '</>');
+	jQuery.each(data.competiciones_equipo, function (index, item) {
+		$('#results').append('<br><div class="name"><b>Competición:</b> ' + item.competicion + '</>');
+
+		$('#results').append('<table border >');
+		$('#results').append('<tr>'
+			+ '<th>Día</th>'
+			+ '<th align="right"></th>'
+			+ '<th align="center">Resultado</th>'
+			+ '<th align="left"></th>'
+			+ '<th>Día</th>'
+			+ '<th>Campo</th>'
+			+ '</tr>');
+
+		cont = 0;
+		jQuery.each(item.partidos, function (index, item) {
+			// do something with `item` (or `this` is also `item` if you like)
+			if (cont % 2)
+				background = '#ffffff';
+			else
+				background = '#e8e5e4';
+			cont += 1
+
+
+			var pattern = /(\d{2})\-(\d{2})\-(\d{4})/;
+			var dt = new Date(item.fecha.replace(pattern, '$3-$2-$1 12:00'));
+			if (isSameWeek(dt, new Date(Date.now())))
+				background = '#c05b39';
+
+
+			if (item.hora)
+				hora = ' - ' + item.hora;
+			else
+				hora = '';
+
+			$('#results').append('<tr>'
+				+ '<td style="background-color:' + background + ';" >' + item.fecha + hora + '</td>'
+				+ '<td style="background-color:' + background + ';" align="right" >' + item.equipo_casa + '</td>'
+				+ '<td style="background-color:' + background + ';" align="center" >' + item.goles_casa + ' - ' + item.goles_fuera + '</td>'
+				+ '<td style="background-color:' + background + ';" align="left" >' + item.equipo_fuera + '</td>'
+				+ '<td style="background-color:' + background + ';" >' + item.fecha + hora + '</td>'
+				+ '<td style="background-color:' + background + ';" >' + item.campo + '</td>'
+				+ '</tr>');
+		});
+		$('#results').append('</table>');
+
 	});
 }
 

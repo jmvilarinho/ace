@@ -220,9 +220,11 @@ function show_partidos(json_page, data) {
 
 			$('#results').append('<tr>'
 				+ '<td style="background-color:' + background + ';" >' + item.fecha + hora + '</td>'
-				+ '<td style="background-color:' + background + ';" align="right" >' + item.equipo_casa + '&nbsp;<img src="https://www.futgal.es' + item.escudo_equipo_casa + '" align="absmiddle" class="escudo_widget"></td>'
+				//+ '<td style="background-color:' + background + ';" align="right" >' + item.equipo_casa + '&nbsp;<img src="https://www.futgal.es' + item.escudo_equipo_casa + '" align="absmiddle" class="escudo_widget"></td>'
+				+ '<td style="background-color:' + background + ';" align="right" >' + item.equipo_casa + '</td>'
 				+ '<td style="background-color:' + background + ';" align="center" >' + item.goles_casa + ' - ' + item.goles_fuera + '</td>'
-				+ '<td style="background-color:' + background + ';" align="left" ><img src="https://www.futgal.es' + item.escudo_equipo_fuera + '" align="absmiddle" class="escudo_widget">&nbsp;' + item.equipo_fuera + '</td>'
+				//+ '<td style="background-color:' + background + ';" align="left" ><img src="https://www.futgal.es' + item.escudo_equipo_fuera + '" align="absmiddle" class="escudo_widget">&nbsp;' + item.equipo_fuera + '</td>'
+				+ '<td style="background-color:' + background + ';" align="left" >' + item.equipo_fuera + '</td>'
 				+ '<td style="background-color:' + background + ';" >' + item.fecha + hora + '</td>'
 				+ '<td style="background-color:' + background + ';" >' + item.campo + '</td>'
 				+ '</tr>');

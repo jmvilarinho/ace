@@ -7,7 +7,7 @@
   <title>RFGF</title>
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
   <link rel="icon" href="/ace/rfgf/favicon.ico" type="image/x-icon">
-	<link rel="shortcut icon" href="/ace/rfgf/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="/ace/rfgf/favicon.ico" type="image/x-icon">
 
   <style>
     table,
@@ -46,6 +46,17 @@
       return year1 === year2 && week1 === week2;
     }
 
+    $.ajax({
+      type: 'GET',
+      url: "fecha.json",
+      contentType: "application/json; charset=utf-8",
+      data: { nocache: '1' },
+      dataType: 'json',
+
+      success: function (data) {
+        $('#fecha').html('Actualizado: ' + data.fecha);
+      }
+    });
 
     function load_data(json_data) {
 
@@ -152,6 +163,7 @@
 
 
     <div id="results"></div>
+    <div id="fecha"></div>
 
 </body>
 

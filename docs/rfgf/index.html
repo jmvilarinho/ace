@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang = "en">
+<head>
+    <meta charset = "utf-8">
+    <script type = "text/javascript" src = "jquery-3.7.1.js"></script>
+    <title> jQuery Ajax headers </title>
+</head>
+<body>
+  <div>
+    <h3> jQuery ajax headers : </h3>
+
+    <script type = "text/javascript">
+
+
+$.ajax({
+  type: 'GET',
+  url: 'jogafan_juvenil.json',
+  data: {nocache: '1'},
+  dataType: 'json',
+  success: function (data) {
+
+     //data downloaded so we call parseJSON function
+        //and pass downloaded data
+
+        //now json variable contains data in json format
+        //let's display a few items
+
+        $('#results').append('<div class="name">'+data.nombre_equipo+'</>');
+
+          jQuery.each(data.competiciones_equipo, function(index, item) {
+            $('#results').append('<div class="name">'+item.competicion+'</>');
+              // do something with `item` (or `this` is also `item` if you like)
+    $('#results').append('<table border >');
+
+      $('#results').append('<tr>'
+      +'<th>Día</th>'
+      +'<th align="right">Equipo</th>'
+      +'<th align="center">________</th>'
+      +'<th align="left">Equipo</th>'
+      +'</tr>');
+
+
+      jQuery.each(item.partidos, function(index, item) {
+    // do something with `item` (or `this` is also `item` if you like)
+
+
+      $('#results').append('<tr>'
+      +'<td>'+item.fecha+' - '+item.hora+'</td>'
+      +'<td align="right" >'+item.equipo_casa+'</td>'
+      +'<td align="center" >'+item.goles_casa+' - '+item.goles_fuera+'</td>'
+      +'<td align="left" >'+item.equipo_fuera+'</td>'
+      +'</tr>');
+
+
+  });
+  $('#results').append('</table>');
+
+
+  });
+
+
+
+  }
+});
+
+    </script>
+
+<div id="results">aaa</div>
+
+</body>
+</html>

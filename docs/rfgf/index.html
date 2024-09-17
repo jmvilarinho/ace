@@ -1,71 +1,88 @@
 <!doctype html>
-<html lang = "en">
+<html lang="en">
+
 <head>
-    <meta charset = "utf-8">
-    <script type = "text/javascript" src = "jquery-3.7.1.js"></script>
-    <title> jQuery Ajax headers </title>
+  <meta charset="utf-8">
+  <script type="text/javascript" src="jquery-3.7.1.js"></script>
+  <title> jQuery Ajax headers </title>
 </head>
+
 <body>
-  <div>
-    <h3> jQuery ajax headers : </h3>
 
-    <script type = "text/javascript">
+  <script type="text/javascript">
+    function load_data(json_data) {
 
+      $.ajax({
+        type: 'GET',
+        url: json_data,
+        data: { nocache: '1' },
+        dataType: 'json',
+        success: function (data) {
+          $('#results').append('<hr>');
 
-$.ajax({
-  type: 'GET',
-  url: 'jogafan_juvenil.json',
-  data: {nocache: '1'},
-  dataType: 'json',
-  success: function (data) {
+          $('#results').append('<div class="name">Equipo: ' + data.nombre_equipo + '</>');
 
-     //data downloaded so we call parseJSON function
-        //and pass downloaded data
+          jQuery.each(data.competiciones_equipo, function (index, item) {
+            $('#results').append('<div class="name">Competición: ' + item.competicion + '</>');
+            // do something with `item` (or `this` is also `item` if you like)
+            $('#results').append('<br><table border >');
 
-        //now json variable contains data in json format
-        //let's display a few items
+            $('#results').append('<tr>'
+              + '<th>Día</th>'
+              + '<th align="right">Equipo</th>'
+              + '<th align="center">________</th>'
+              + '<th align="left">Equipo</th>'
+              + '</tr>');
 
-        $('#results').append('<div class="name">'+data.nombre_equipo+'</>');
-
-          jQuery.each(data.competiciones_equipo, function(index, item) {
-            $('#results').append('<div class="name">'+item.competicion+'</>');
+            cont = 0;
+            jQuery.each(item.partidos, function (index, item) {
               // do something with `item` (or `this` is also `item` if you like)
-    $('#results').append('<table border >');
+              if (cont % 2)
+                background = '#ffffff';
+              else
+                background = '#e8e5e4';
+              cont += 1
 
-      $('#results').append('<tr>'
-      +'<th>Día</th>'
-      +'<th align="right">Equipo</th>'
-      +'<th align="center">________</th>'
-      +'<th align="left">Equipo</th>'
-      +'</tr>');
-
-
-      jQuery.each(item.partidos, function(index, item) {
-    // do something with `item` (or `this` is also `item` if you like)
-
-
-      $('#results').append('<tr>'
-      +'<td>'+item.fecha+' - '+item.hora+'</td>'
-      +'<td align="right" >'+item.equipo_casa+'</td>'
-      +'<td align="center" >'+item.goles_casa+' - '+item.goles_fuera+'</td>'
-      +'<td align="left" >'+item.equipo_fuera+'</td>'
-      +'</tr>');
+              $('#results').append('<tr>'
+                + '<td style="background-color:' + background + ';" >' + item.fecha + ' - ' + item.hora + '</td>'
+                + '<td style="background-color:' + background + ';" align="right" >' + item.equipo_casa + '</td>'
+                + '<td style="background-color:' + background + ';" align="center" >' + item.goles_casa + ' - ' + item.goles_fuera + '</td>'
+                + '<td style="background-color:' + background + ';" align="left" >' + item.equipo_fuera + '</td>'
+                + '</tr>');
 
 
-  });
-  $('#results').append('</table>');
+            });
+            $('#results').append('</table>');
 
 
-  });
+          });
 
 
 
-  }
-});
+        }
+      });
+    }
+  </script>
 
+
+  <div>
+    <button class="jogafan_juvenil" data-href="#contact">Jogafan Juvenil</button>
+    <script type="text/javascript">
+      $('button.jogafan_juvenil').click(function (e) {
+        load_data('jogafan_juvenil.json');
+      });
     </script>
 
-<div id="results">aaa</div>
+    <button class="oroso_cadete" data-href="#contact">Oroso Cadete</button>
+    <script type="text/javascript">
+      $('button.oroso_cadete').click(function (e) {
+        load_data('oroso_cadete.json');
+      });
+    </script>
+
+
+    <div id="results"></div>
 
 </body>
+
 </html>

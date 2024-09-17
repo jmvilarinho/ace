@@ -5,6 +5,11 @@
   <meta charset="utf-8">
   <script type="text/javascript" src="jquery-3.7.1.js"></script>
   <title>RFGF</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
+  <link rel="icon" href="/ace/rfgf/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="/ace/rfgf/favicon.ico" type="image/x-icon">
+
   <style>
     table,
     th,
@@ -19,28 +24,28 @@
 
   <script type="text/javascript">
 
-function getWeekNumber(date) {
-    const tempDate = new Date(date.getFullYear(), date.getMonth(), date.getDate());
-    // Set the day to Thursday (the middle of the week) to avoid edge cases near year boundaries
-    tempDate.setDate(tempDate.getDate() + 4 - (tempDate.getDay() || 7));
-    
-    // Calculate the first day of the year
-    const yearStart = new Date(tempDate.getFullYear(), 0, 1);
-    
-    // Calculate the week number
-    const weekNo = Math.ceil(((tempDate - yearStart) / 86400000 + 1) / 7);
-    return weekNo;
-}
+    function getWeekNumber(date) {
+      const tempDate = new Date(date.getFullYear(), date.getMonth(), date.getDate());
+      // Set the day to Thursday (the middle of the week) to avoid edge cases near year boundaries
+      tempDate.setDate(tempDate.getDate() + 4 - (tempDate.getDay() || 7));
 
-function isSameWeek(date1, date2) {
-    const year1 = date1.getFullYear();
-    const year2 = date2.getFullYear();
-    
-    const week1 = getWeekNumber(date1);
-    const week2 = getWeekNumber(date2);
-    
-    return year1 === year2 && week1 === week2;
-}
+      // Calculate the first day of the year
+      const yearStart = new Date(tempDate.getFullYear(), 0, 1);
+
+      // Calculate the week number
+      const weekNo = Math.ceil(((tempDate - yearStart) / 86400000 + 1) / 7);
+      return weekNo;
+    }
+
+    function isSameWeek(date1, date2) {
+      const year1 = date1.getFullYear();
+      const year2 = date2.getFullYear();
+
+      const week1 = getWeekNumber(date1);
+      const week2 = getWeekNumber(date2);
+
+      return year1 === year2 && week1 === week2;
+    }
 
 
     function load_data(json_data) {

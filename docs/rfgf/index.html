@@ -5,11 +5,44 @@
   <meta charset="utf-8">
   <script type="text/javascript" src="jquery-3.7.1.js"></script>
   <title>RFGF</title>
+  <style>
+    table,
+    th,
+    td {
+      border: 1px solid black;
+      border-radius: 2px;
+    }
+  </style>
 </head>
 
-<body>
+<body style="background-color:#598381">
 
   <script type="text/javascript">
+
+function getWeekNumber(date) {
+    const tempDate = new Date(date.getFullYear(), date.getMonth(), date.getDate());
+    // Set the day to Thursday (the middle of the week) to avoid edge cases near year boundaries
+    tempDate.setDate(tempDate.getDate() + 4 - (tempDate.getDay() || 7));
+    
+    // Calculate the first day of the year
+    const yearStart = new Date(tempDate.getFullYear(), 0, 1);
+    
+    // Calculate the week number
+    const weekNo = Math.ceil(((tempDate - yearStart) / 86400000 + 1) / 7);
+    return weekNo;
+}
+
+function isSameWeek(date1, date2) {
+    const year1 = date1.getFullYear();
+    const year2 = date2.getFullYear();
+    
+    const week1 = getWeekNumber(date1);
+    const week2 = getWeekNumber(date2);
+    
+    return year1 === year2 && week1 === week2;
+}
+
+
     function load_data(json_data) {
 
       $.ajax({
@@ -24,14 +57,16 @@
           $('#results').append('<hr>');
           $('#results').append('<div class="name"><b>Equipo:</b> ' + data.nombre_equipo + '</>');
           jQuery.each(data.competiciones_equipo, function (index, item) {
-            $('#results').append('<div class="name"><b>Competición:</b> ' + item.competicion + '</>');
+            $('#results').append('<br><div class="name"><b>Competición:</b> ' + item.competicion + '</>');
 
-            $('#results').append('<br><table border >');
+            $('#results').append('<table border >');
             $('#results').append('<tr>'
               + '<th>Día</th>'
               + '<th align="right"></th>'
               + '<th align="center">Resultado</th>'
               + '<th align="left"></th>'
+              + '<th>Día</th>'
+              + '<th>Campo</th>'
               + '</tr>');
 
             cont = 0;
@@ -43,11 +78,25 @@
                 background = '#e8e5e4';
               cont += 1
 
+
+              var pattern = /(\d{2})\-(\d{2})\-(\d{4})/;
+              var dt = new Date(item.fecha.replace(pattern, '$3-$2-$1 12:00'));
+              if (isSameWeek(dt, new Date(Date.now())))
+                background = '#c05b39';
+
+
+              if (item.hora)
+                hora = ' - ' + item.hora;
+              else
+                hora = '';
+
               $('#results').append('<tr>'
-                + '<td style="background-color:' + background + ';" >' + item.fecha + ' - ' + item.hora + '</td>'
+                + '<td style="background-color:' + background + ';" >' + item.fecha + hora + '</td>'
                 + '<td style="background-color:' + background + ';" align="right" >' + item.equipo_casa + '</td>'
                 + '<td style="background-color:' + background + ';" align="center" >' + item.goles_casa + ' - ' + item.goles_fuera + '</td>'
                 + '<td style="background-color:' + background + ';" align="left" >' + item.equipo_fuera + '</td>'
+                + '<td style="background-color:' + background + ';" >' + item.fecha + hora + '</td>'
+                + '<td style="background-color:' + background + ';" >' + item.campo + '</td>'
                 + '</tr>');
             });
             $('#results').append('</table>');
@@ -60,10 +109,33 @@
 
 
   <div>
+
+    <button class="jogafan_senior" data-href="#contact">Jogafan Senior</button>
+    <script type="text/javascript">
+      $('button.jogafan_senior').click(function (e) {
+        load_data('jogafan_senior.json');
+      });
+    </script>
+
+
     <button class="jogafan_juvenil" data-href="#contact">Jogafan Juvenil</button>
     <script type="text/javascript">
       $('button.jogafan_juvenil').click(function (e) {
         load_data('jogafan_juvenil.json');
+      });
+    </script>
+
+    <button class="jogafan_cadete" data-href="#contact">Jogafan Cadete</button>
+    <script type="text/javascript">
+      $('button.jogafan_cadete').click(function (e) {
+        load_data('jogafan_cadete.json');
+      });
+    </script>
+
+    <button class="jogafan_infantil" data-href="#contact">Jogafan Infantil</button>
+    <script type="text/javascript">
+      $('button.jogafan_infantil').click(function (e) {
+        load_data('jogafan_infantil.json');
       });
     </script>
 

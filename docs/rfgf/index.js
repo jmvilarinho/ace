@@ -98,8 +98,6 @@ function show_clasificacion(data, cod_equipo = -1) {
 		else
 			background = '#e8e5e4';
 		cont += 1
-		if (item.codequipo == cod_equipo)
-			background = '#a78183';
 
 		$('#results').append('<tr>');
 
@@ -129,6 +127,8 @@ function show_clasificacion(data, cod_equipo = -1) {
 			$('#results').append(
 				'<td width="12px" align="left" bgcolor="' + background + '">&nbsp;</td>'
 			);
+		if (item.codequipo == cod_equipo)
+			background = '#a78183';
 
 		if (item.puntos_sancion != "0")
 			puntos = item.puntos + ' (' + item.puntos_sancion + ')';

@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <script type="text/javascript" src="../jquery-3.7.1.min.js"></script>
+</head>
+
+<body style="background-color:#598381">
+
+  <div id="results">test</div>
+
+  <iframe id="an_iframe"></iframe>
+  <iframe id="an_iframe2"></iframe>
+
+
+
+  <script>
+    function show(data) {
+      $("#results").append('<br><hr>');
+      $("#results").append(data);
+    }
+
+
+    function iframeform(url) {
+      var object = this;
+      object.time = new Date().getTime();
+      object.form = $('<form action="' + url + '" target="iframe' + object.time + '" method="post" style="display:none;" id="form' + object.time + '" name="form' + object.time + '"></form>');
+
+      object.addParameter = function (parameter, value) {
+        $("<input type='hidden' />")
+          .attr("name", parameter)
+          .attr("value", value)
+          .appendTo(object.form);
+      }
+
+      object.send = function () {
+        var iframe = $('<iframe data-time="' + object.time + '" style="display:none;" id="iframe' + object.time + '"></iframe>');
+        $("body").append(iframe);
+        $("body").append(object.form);
+        object.form.submit();
+        iframe.load(function () { $('#form' + $(this).data('time')).remove(); $(this).remove(); });
+      }
+    }
+
+    function postToIframe(data,url,target){
+    $('body').append('<form action="'+url+'" method="post" target="'+target+'" id="postToIframe"></form>');
+    $.each(data,function(n,v){
+        $('#postToIframe').append('<input type="hidden" name="'+n+'" value="'+v+'" />');
+    });
+    $('#postToIframe').submit().remove();
+}
+
+    // let headers = new Headers();
+
+    // headers.append('Content-Type', 'application/json');
+    // headers.append('Accept', 'application/json, text/plain, */*');
+    // headers.append('User-Agent', 'okhttp/4.11.0');
+    // headers.append('Cookie', 'JSESSIONID=$JSESSIONID');
+    // headers.append('authorization', '4f4a25d3e9f1ec32371afef904478c2f90fc2fc7');
+
+    // var url = new URL("http://appweb.futgal.es/pnfg/NLogin?codcliente=1&key=04c886166b0ba1cc267eedcba81aa806eb81ee3e&token=ExponentPushToken%5BvQvnFlHB7T7rywcx31GecP%5D&version=3.0.35");
+
+    // show("que tal");
+
+    // fetch(url, {
+    //   mode: 'no-cors',
+    //   method: 'POST',
+
+    //   headers: headers
+    // })
+    //   .then(it => {
+    //     if (!it.ok) {
+    //       throw `Server error: [${it.status}] [${it.statusText}] [${it.url}]`;
+    //     }
+    //     return it.json();
+    //   })
+    //   .then(receivedJson => {
+    //     // your code with json here...
+    //     show(json)
+    //   })
+    //   .catch(err => {
+    //     console.debug("Error in fetch", err);
+    //     show(err);
+    //   });
+
+
+
+
+    var url = "http://appweb.futgal.es/pnfg/NLogin?codcliente=1&key=04c886166b0ba1cc267eedcba81aa806eb81ee3e&token=ExponentPushToken%5BvQvnFlHB7T7rywcx31GecP%5D&version=3.0.35";
+    var target = 'an_iframe';
+
+    iframeform(url);
+
+    postToIframe({},url,'an_iframe2');
+
+    $('body').append('<form action="' + url + '" method="post" target="' + target + '" id="postToIframe"></form>');
+    // $.each(data,function(n,v){
+    //     $('#postToIframe').append('<input type="hidden" name="'+n+'" value="'+v+'" />');
+    // });
+    $('#postToIframe').submit().remove();
+
+
+
+    //     $.ajax({
+    //     type: "POST",
+    //     url: "http://appweb.futgal.es/pnfg/NLogin",
+    //     crossDomain: true,
+    //     data: 'codcliente=1&key=04c886166b0ba1cc267eedcba81aa806eb81ee3e&token=ExponentPushToken%5BvQvnFlHB7T7rywcx31GecP%5D&version=3.0.35',
+    //     success: function (data) {
+    //         // do something with server response data
+    //         show(data);
+    //     },
+    //     error: function (err) {
+    //         // handle your error logic here
+    //         show(err);
+    //     }
+    // });
+
+    //   url = 'http://appweb.futgal.es/pnfg/NLogin';
+    // data = {
+    //   codcliente: '1',
+    //   key: '04c886166b0ba1cc267eedcba81aa806eb81ee3e',
+    //   token: 'ExponentPushToken%5BvQvnFlHB7T7rywcx31GecP%5D',
+    //   version: '3.0.35'
+    // };
+    // $.ajax({
+    //   type: "POST",
+    //   url: url,
+    //   data: data,
+
+    //   success: function (data) {
+    //     $(".results").html(data);
+    //   }
+
+    // });
+
+  </script>
+
+<form id="login" target="frame" method="post"
+action="http://appweb.futgal.es/pnfg/NLogin?codcliente=1&key=04c886166b0ba1cc267eedcba81aa806eb81ee3e&token=ExponentPushToken%5BvQvnFlHB7T7rywcx31GecP%5D&version=3.0.35">
+</form>
+
+<iframe id="frame" name="frame"></iframe>
+
+<script type="text/javascript">
+  // submit the form into iframe for login into remote site
+  document.getElementById('login').submit();
+  document.getElementById('login').submit();
+
+  // once you're logged in, change the source url (if needed)
+  var iframe = document.getElementById('frame');
+
+  var iframeWindow = iframe.contentWindow;
+  iframe.onload = function() {
+    iframeContent = iframeWindow.jQuery('#frameBody');
+    alert(iframeContent);
+
+  }
+</script>
+
+</body>
+
+</html>

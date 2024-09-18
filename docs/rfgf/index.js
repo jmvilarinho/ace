@@ -72,26 +72,33 @@ function show_clasificacion(data, cod_equipo = -1) {
 	$('#results').append('<div class="name"><b>Competición:</b> ' + data.competicion + ' (jornada '+data.jornada+')</>');
 	$('#results').append('<table border >');
 	$('#results').append(
-		'<tr>'
-		+ '<th colspan=4></th>'
-		+ '<th colspan=2>Goles</th>'
-		+ '<th colspan=3>Partidos</th>'
-		+ '<th colspan=2></th>'
-		+ '</tr><tr>'
-		+ '<th colspan=2></th>'
-		+ '<th>Equipo</th>'
-		+ '<th>Puntos</th>'
+		 '<tr>'
+		+ '<th rowspan="2"></th>'
+		+ '<th rowspan="2">Equipo</th>'
+		+ '<th rowspan="2">Puntos</th>'
+		+ '<th colspan="2">Goles</th>'
+		+ '<th colspan="3">Partidos</th>'
+		+ '<th rowspan="2">Racha</th>'
+		+ '<th rowspan="2">Coeficiente</th>'
+		+ '</tr>'
+		+ '<tr>'
 		+ '<th>Favor</th>'
 		+ '<th>Contra</th>'
 		+ '<th>G</th>'
 		+ '<th>E</th>'
 		+ '<th>P</th>'
-		+ '<th>Racha</th>'
-		+ '<th>Coeficiente</th>'
 		+ '</tr>'
 	);
 	cont = 0;
 
+
+
+
+
+		<br>
+		<br>
+		<table border>
+  
 	jQuery.each(data.clasificacion, function (index, item) {
 		if (cont % 2)
 			background = '#ffffff';

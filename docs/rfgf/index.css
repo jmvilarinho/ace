@@ -4,6 +4,7 @@ td {
 	border: 1px solid black;
 	white-space: nowrap;
 	border-radius: 2px;
+	vertical-align:middle;
 }
 
 .ntype {

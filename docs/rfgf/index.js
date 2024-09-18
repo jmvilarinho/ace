@@ -232,7 +232,7 @@ function show_partidos(json_page, data) {
 				+ '<td style="background-color:' + background + ';" align="left" ><img src="https://www.futgal.es' + item.escudo_equipo_fuera + '" align="absmiddle" class="escudo_widget">&nbsp;' + item.equipo_fuera + '</td>'
 				//+ '<td style="background-color:' + background + ';" align="left" >' + item.equipo_fuera + '</td>'
 				+ '<td style="background-color:' + background + ';" >' + item.fecha + hora + '</td>'
-				+ '<td style="background-color:' + background + ';" >' + item.campo + '</td>'
+				+ '<td style="background-color:' + background + ';" ><a href="https://maps.google.com?q=' + item.campo + '" target=maps>' + item.campo + '</a></td>'
 				+ '</tr>');
 		});
 		$('#results').append('</table>');

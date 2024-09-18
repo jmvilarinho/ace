@@ -33,9 +33,9 @@ function get_date() {
 	var timestamp = new Date().getTime();
 	$.ajax({
 		type: 'GET',
-		url: "data/fecha.json?nocache=" + timestamp,
+		url: "data/fecha.json",
 		contentType: "application/json; charset=utf-8",
-		data: { nocache: '1' },
+		data: { nocache: timestamp },
 		dataType: 'json',
 
 		success: function (data) {
@@ -48,9 +48,9 @@ function load_data(json_page, cod_equipo = -1) {
 	var timestamp = new Date().getTime();
 	$.ajax({
 		type: 'GET',
-		url: 'data/' + json_page + '.json?nocache=' + timestamp,
+		url: 'data/' + json_page + '.json',
 		contentType: "application/json; charset=utf-8",
-		data: { nocache: '1' },
+		data: { nocache: timestamp },
 		dataType: 'json',
 
 		success: function (data) {

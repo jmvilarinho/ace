@@ -129,7 +129,7 @@ function show_clasificacion(data, cod_equipo = -1) {
 				);
 		}
 		catch (error) {
-			console.error(error);
+			//console.error(error);
 			$('#results').append(
 				'<td width="12px" align="left" bgcolor="' + background + '">&nbsp;</td>'
 			);

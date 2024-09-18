@@ -100,33 +100,40 @@ function show_clasificacion(data, cod_equipo = -1) {
 		cont += 1
 
 		$('#results').append('<tr>');
+		try {
+			if (parseInt(item.posicion) <= parseInt(data.promociones[0].orden))
+				$('#results').append(
+					'<td width="12px" align="left" bgcolor="' + data.promociones[0].color_promocion + '">&nbsp;</td>'
+				);
+			else if (data.promociones.length == 2)
+				if (parseInt(item.posicion) >= parseInt(data.promociones[1].orden))
+					$('#results').append(
+						'<td width="12px" align="left" bgcolor="' + data.promociones[1].color_promocion + '">&nbsp;</td>'
+					);
+				else
+					$('#results').append(
+						'<td width="12px" align="left" bgcolor="' + background + '">&nbsp;</td>'
+					);
 
-		if (parseInt(item.posicion) <= parseInt(data.promociones[0].orden))
-			$('#results').append(
-				'<td width="12px" align="left" bgcolor="' + data.promociones[0].color_promocion + '">&nbsp;</td>'
-			);
-		else if (data.promociones.length == 2)
-			if (parseInt(item.posicion) >= parseInt(data.promociones[1].orden))
+			else if (parseInt(item.posicion) <= parseInt(data.promociones[1].orden))
 				$('#results').append(
 					'<td width="12px" align="left" bgcolor="' + data.promociones[1].color_promocion + '">&nbsp;</td>'
+				);
+			else if (parseInt(item.posicion) >= parseInt(data.promociones[2].orden))
+				$('#results').append(
+					'<td width="12px" align="left" bgcolor="' + data.promociones[2].color_promocion + '">&nbsp;</td>'
 				);
 			else
 				$('#results').append(
 					'<td width="12px" align="left" bgcolor="' + background + '">&nbsp;</td>'
 				);
-
-		else if (parseInt(item.posicion) <= parseInt(data.promociones[1].orden))
-			$('#results').append(
-				'<td width="12px" align="left" bgcolor="' + data.promociones[1].color_promocion + '">&nbsp;</td>'
-			);
-		else if (parseInt(item.posicion) >= parseInt(data.promociones[2].orden))
-			$('#results').append(
-				'<td width="12px" align="left" bgcolor="' + data.promociones[2].color_promocion + '">&nbsp;</td>'
-			);
-		else
+		}
+		catch (e) {
+			console.error(error);
 			$('#results').append(
 				'<td width="12px" align="left" bgcolor="' + background + '">&nbsp;</td>'
 			);
+		}
 		if (item.codequipo == cod_equipo)
 			background = '#a78183';
 

@@ -33,7 +33,7 @@ function get_date() {
 	var timestamp = new Date().getTime();
 	$.ajax({
 		type: 'GET',
-		url: "fecha.json?nocache=" + timestamp,
+		url: "data/fecha.json?nocache=" + timestamp,
 		contentType: "application/json; charset=utf-8",
 		data: { nocache: '1' },
 		dataType: 'json',
@@ -48,7 +48,7 @@ function load_data(json_page, cod_equipo = -1) {
 	var timestamp = new Date().getTime();
 	$.ajax({
 		type: 'GET',
-		url: json_page + '.json?nocache=' + timestamp,
+		url: 'data/'+json_page + '.json?nocache=' + timestamp,
 		contentType: "application/json; charset=utf-8",
 		data: { nocache: '1' },
 		dataType: 'json',
@@ -57,6 +57,8 @@ function load_data(json_page, cod_equipo = -1) {
 			get_date()
 			setCookie('equipo', json_page, 30);
 			setCookie('codigo_equipo', cod_equipo, 30);
+
+			$('#results').html('<br>');
 
 			if (json_page.includes('clasificacion'))
 				show_clasificacion(data, cod_equipo);
@@ -67,30 +69,25 @@ function load_data(json_page, cod_equipo = -1) {
 }
 
 function show_clasificacion(data, cod_equipo = -1) {
-
-	$('#results').html('');
-	$('#results').append('<hr>');
 	$('#results').append('<div class="name"><b>Competición:</b> ' + data.competicion + '</>');
-
 	$('#results').append('<table border >');
 	$('#results').append(
 		'<tr>'
-		+ '<th colspan=5></th>'
-		+ '<th colspan=3>Partidos</th>'
+		+ '<th colspan=4></th>'
 		+ '<th colspan=2>Goles</th>'
+		+ '<th colspan=3>Partidos</th>'
 		+ '<th colspan=2></th>'
 		+ '</tr><tr>'
 		+ '<th colspan=2></th>'
 		+ '<th>Equipo</th>'
 		+ '<th>Puntos</th>'
-		+ '<th>Sancion</th>'
-		+ '<th>Ganados</th>'
-		+ '<th>Empatados</th>'
-		+ '<th>Perdidos</th>'
-		+ '<th>G. favor</th>'
-		+ '<th>G. contra</th>'
+		+ '<th>Favor</th>'
+		+ '<th>Contra</th>'
+		+ '<th>G</th>'
+		+ '<th>E</th>'
+		+ '<th>P</th>'
 		+ '<th>Coeficiente</th>'
-		+ '<th>Racha Partidos</th>'
+		+ '<th>Racha</th>'
 		+ '</tr>'
 	);
 	cont = 0;
@@ -133,16 +130,20 @@ function show_clasificacion(data, cod_equipo = -1) {
 				'<td width="12px" align="left" bgcolor="' + background + '">&nbsp;</td>'
 			);
 
+		if (item.puntos_sancion != "0")
+			puntos = item.puntos + ' ('+item.puntos_sancion+')';
+		else
+			puntos = item.puntos;
+
 		$('#results').append(
-			'<td style="background-color:' + background + ';" align="left" >' + item.posicion + '</td>'
+			'<td style="background-color:' + background + ';" align="center" >&nbsp;' + item.posicion + '</td>'
 			+ '<td style="background-color:' + background + ';" align="left" ><img src="https://www.futgal.es' + item.url_img + '" align="absmiddle" class="escudo_widget">&nbsp;' + item.nombre + '</td>'
 			+ '<td style="background-color:' + background + ';" align="center" >' + item.puntos + '</td>'
-			+ '<td style="background-color:' + background + ';" align="center" >' + item.puntos_sancion + '</td>'
+			+ '<td style="background-color:' + background + ';" align="center" >' + item.goles_a_favor + '</td>'
+			+ '<td style="background-color:' + background + ';" align="center" >' + item.goles_en_contra + '</td>'
 			+ '<td style="background-color:' + background + ';" align="center" >' + item.ganados + '</td>'
 			+ '<td style="background-color:' + background + ';" align="center" >' + item.empatados + '</td>'
 			+ '<td style="background-color:' + background + ';" align="center" >' + item.perdidos + '</td>'
-			+ '<td style="background-color:' + background + ';" align="center" >' + item.goles_a_favor + '</td>'
-			+ '<td style="background-color:' + background + ';" align="center" >' + item.goles_en_contra + '</td>'
 			+ '<td style="background-color:' + background + ';" align="center" >' + item.coeficiente + '</td>');
 
 		var str = '';
@@ -154,13 +155,9 @@ function show_clasificacion(data, cod_equipo = -1) {
 
 		$('#results').append('</tr>');
 	});
-
 	$('#results').append('</table>');
 
-
 	$('#results').append('<table border="0" cellspacing="0" cellpadding="2"><tbody><tr height="6px">');
-
-
 	jQuery.each(data.promociones, function (index, item) {
 		$('#results').append(
 			'<td width="12px" align="left" bgcolor="' + item.color_promocion + '">&nbsp;</td>'
@@ -168,23 +165,20 @@ function show_clasificacion(data, cod_equipo = -1) {
 		);
 	});
 	$('#results').append('</tr> </tbody></table>');
-
 }
 
 function show_partidos(json_page, data) {
-	$('#results').html('');
-	$('#results').append('<hr>');
-	$('#results').append('<div class="name"><b>Equipo:</b> ' + data.nombre_equipo + '</>');
 	jQuery.each(data.competiciones_equipo, function (index, item) {
-		$('#results').append('<br>');
-
-		var r = $('<input/>').attr({
+		var boton_clasificacion = $('<input/>').attr({
 			type: "button",
 			id: "field",
 			value: item.competicion,
 			onclick: "load_data('" + json_page + "_clasificacion_" + item.cod_grupo + "','" + data.codigo_equipo + "')"
 		});
-		$('#results').append(r);
+
+		$('#results').append('<b>Equipo:</b> ' + data.nombre_equipo + ' ');
+		$('#results').append(boton_clasificacion);
+
 
 
 		$('#results').append('<table border >');

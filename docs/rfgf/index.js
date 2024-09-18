@@ -90,14 +90,6 @@ function show_clasificacion(data, cod_equipo = -1) {
 		+ '</tr>'
 	);
 	cont = 0;
-
-
-
-
-
-		<br>
-		<br>
-		<table border>
   
 	jQuery.each(data.clasificacion, function (index, item) {
 		if (cont % 2)

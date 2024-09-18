@@ -69,7 +69,7 @@ function load_data(json_page, cod_equipo = -1) {
 }
 
 function show_clasificacion(data, cod_equipo = -1) {
-	$('#results').append('<div class="name"><b>Competición:</b> ' + data.competicion + '</>');
+	$('#results').append('<div class="name"><b>Competición:</b> ' + data.competicion + ' (jornada '+data.jornada+')</>');
 	$('#results').append('<table border >');
 	$('#results').append(
 		'<tr>'

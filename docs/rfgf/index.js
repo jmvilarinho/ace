@@ -48,7 +48,7 @@ function load_data(json_page, cod_equipo = -1) {
 	var timestamp = new Date().getTime();
 	$.ajax({
 		type: 'GET',
-		url: 'data/'+json_page + '.json?nocache=' + timestamp,
+		url: 'data/' + json_page + '.json?nocache=' + timestamp,
 		contentType: "application/json; charset=utf-8",
 		data: { nocache: '1' },
 		dataType: 'json',
@@ -86,8 +86,8 @@ function show_clasificacion(data, cod_equipo = -1) {
 		+ '<th>G</th>'
 		+ '<th>E</th>'
 		+ '<th>P</th>'
-		+ '<th>Coeficiente</th>'
 		+ '<th>Racha</th>'
+		+ '<th>Coeficiente</th>'
 		+ '</tr>'
 	);
 	cont = 0;
@@ -131,27 +131,28 @@ function show_clasificacion(data, cod_equipo = -1) {
 			);
 
 		if (item.puntos_sancion != "0")
-			puntos = item.puntos + ' ('+item.puntos_sancion+')';
+			puntos = item.puntos + ' (' + item.puntos_sancion + ')';
 		else
 			puntos = item.puntos;
 
 		$('#results').append(
-			'<td style="background-color:' + background + ';" align="center" >&nbsp;' + item.posicion + '</td>'
+			'<td style="background-color:' + background + ';" align="center" >&nbsp;' + item.posicion + '&nbsp;</td>'
 			+ '<td style="background-color:' + background + ';" align="left" ><img src="https://www.futgal.es' + item.url_img + '" align="absmiddle" class="escudo_widget">&nbsp;' + item.nombre + '</td>'
-			+ '<td style="background-color:' + background + ';" align="center" >' + item.puntos + '</td>'
+			+ '<td style="background-color:' + background + ';" align="center" >' + puntos + '</td>'
 			+ '<td style="background-color:' + background + ';" align="center" >' + item.goles_a_favor + '</td>'
 			+ '<td style="background-color:' + background + ';" align="center" >' + item.goles_en_contra + '</td>'
 			+ '<td style="background-color:' + background + ';" align="center" >' + item.ganados + '</td>'
 			+ '<td style="background-color:' + background + ';" align="center" >' + item.empatados + '</td>'
-			+ '<td style="background-color:' + background + ';" align="center" >' + item.perdidos + '</td>'
-			+ '<td style="background-color:' + background + ';" align="center" >' + item.coeficiente + '</td>');
+			+ '<td style="background-color:' + background + ';" align="center" >' + item.perdidos + '</td>');
 
 		var str = '';
 		jQuery.each(item.racha_partidos, function (indexr, itemr) {
-				str += '<span style="background-color:' + itemr.color + ';" padding:0 2px 0 2px; color:white; font-size:10px; font-weight:bolder;">' + itemr.tipo + '</span>';
+			str += '<span style="background-color:' + itemr.color + ';" padding:0 2px 0 2px; color:white; font-size:10px; font-weight:bolder;">' + itemr.tipo + '</span>';
 		});
 
-		$('#results').append('<td style="background-color:' + background + ';" align="center">'+str+'</td>');
+		$('#results').append('<td style="background-color:' + background + ';" align="center">' + str + '</td>');
+		$('#results').append(
+			'<td style="background-color:' + background + ';" align="center" >' + item.coeficiente + '</td>');
 
 		$('#results').append('</tr>');
 	});
@@ -160,15 +161,20 @@ function show_clasificacion(data, cod_equipo = -1) {
 	$('#results').append('<table border="0" cellspacing="0" cellpadding="2"><tbody><tr height="6px">');
 	jQuery.each(data.promociones, function (index, item) {
 		$('#results').append(
-			'<td width="12px" align="left" bgcolor="' + item.color_promocion + '">&nbsp;</td>'
-			+ '<td style="background-color:#e8e5e4; align="right" class="" style="color:#999">' + item.nombre_promocion + '</td>'
+			'<td width="12px" align="left" style="font-size: x-small;"  bgcolor="' + item.color_promocion + '">&nbsp;</td>'
+			+ '<td style="background-color:#e8e5e4;font-size: x-small;" align="right" style="color:#999">' + item.nombre_promocion + '</td>'
 		);
 	});
 	$('#results').append('</tr> </tbody></table>');
 }
 
 function show_partidos(json_page, data) {
+	lineas = 0;
 	jQuery.each(data.competiciones_equipo, function (index, item) {
+		lineas += 1;
+		if (lineas > 1)
+			$('#results').append('<br><hr>');
+
 		var boton_clasificacion = $('<input/>').attr({
 			type: "button",
 			id: "field",

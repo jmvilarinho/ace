@@ -73,7 +73,7 @@ function show_clasificacion(data, cod_equipo = -1) {
 	$('#results').append('<table border >');
 	$('#results').append(
 		 '<tr>'
-		+ '<th rowspan="2"></th>'
+		+ '<th colspan="2" rowspan="2"></th>'
 		+ '<th rowspan="2">Equipo</th>'
 		+ '<th rowspan="2">Puntos</th>'
 		+ '<th colspan="2">Goles</th>'

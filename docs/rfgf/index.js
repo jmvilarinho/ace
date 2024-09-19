@@ -1,4 +1,32 @@
 
+// showing loading
+function displayLoading() {
+	loader = document.querySelector("#loading");
+	loader.classList.add("display");
+	// to stop loading after some time
+	setTimeout(() => {
+		loader.classList.remove("display");
+	}, 5000);
+}
+
+// hiding loading
+function hideLoading() {
+	loader = document.querySelector("#loading");
+	loader.classList.remove("display");
+}
+
+/* Set the width of the side navigation to 250px */
+function openNav() {
+	document.getElementById("mySidenav").style.width = "250px";
+}
+
+/* Set the width of the side navigation to 0 */
+function closeNav(id = '0') {
+	if (id != '0')
+		load_equipo(id);
+	document.getElementById("mySidenav").style.width = "0";
+}
+
 function getWeekNumber(date) {
 	const tempDate = new Date(date.getFullYear(), date.getMonth(), date.getDate());
 	// Set the day to Thursday (the middle of the week) to avoid edge cases near year boundaries
@@ -29,80 +57,111 @@ function update_vista() {
 	if (searchParams.has('cod_equipo')) {
 		load_equipo(searchParams.get('cod_equipo'))
 	}
-	else {
-		var codigo_equipo = getCookie('codigo_equipo');
-		if (codigo_equipo) {
-			load_equipo(codigo_equipo)
+	else if (searchParams.has('cod_grupo')) {
+		load_clasificacion(searchParams.get('cod_grupo'))
+	} else {
+		var cod_equipo = getCookie('cod_equipo');
+		if (cod_equipo) {
+			load_equipo(searchParams.get('cod_equipo'))
+		} else {
+			var cod_grupo = getCookie('cod_grupo');
+		if (cod_equipo) {
+			load_clasificacion(searchParams.get('cod_grupo'))
+		}
 		}
 	}
+
+
+}
+
+function add_back() {
+	var boton_clasificacion = $('<input/>').attr({
+		type: "button",
+		class: "back_button",
+		id: "field",
+		value: 'Menú',
+		onclick: "openNav()"
+	});
+
+	$('#results').append(boton_clasificacion);
+	$('#results').append('&nbsp;&nbsp;&nbsp;&nbsp;');
 }
 
 function load_equipo(cod_equipo) {
-	console.log("Load equipo " + cod_equipo)
-	var timestamp = new Date().getTime();
+	displayLoading();
 
 	var JSESSIONID = getCookie('JSESSIONID');
-	session=''
+	session = ''
 	if (JSESSIONID) {
-		session='&JSESSIONID='+JSESSIONID
+		session = '&JSESSIONID=' + JSESSIONID
 	}
-	var url = "https://pevbxmstzqkdtno6y4ocsumnz40kbdac.lambda-url.eu-west-1.on.aws/?type=getequipo&codequipo=" + cod_equipo+session;
+	var url = "https://pevbxmstzqkdtno6y4ocsumnz40kbdac.lambda-url.eu-west-1.on.aws/?type=getequipo&codequipo=" + cod_equipo + session;
 
 	console.log("GET " + url);
-
 	fetch(url)
 		.then(response => {
 			if (!response.ok) {
+				hideLoading();
 				throw new Error('Network response was not ok');  // Handle HTTP errors
 			}
 			return response.json();
 		})
 		.then(data => {
 			if (data) {
-				$('#results').html('<br>');
-				console.log('Response Data:', data.is_ok);
-				setCookie('JSESSIONID', data.JSESSIONID,30)
+				setCookie('JSESSIONID', data.JSESSIONID, 30)
+				setCookie('cod_equipo', cod_equipo, 30)
+				console.log('JSESSIONID: ', data.JSESSIONID);
+				$('#results').html('');
+				add_back();
 				show_partidos(data.data, cod_equipo);
-
+				add_back();
 			} else {
 				throw new Error('No data found in response');
 			}
+			hideLoading();
 		})
 		.catch(error => {
+			hideLoading();
 			console.error('Fetch error:', error.message);  // Log the error
 		});
+
 }
 
 function load_clasificacion(cod_grupo, cod_equipo) {
-	var timestamp = new Date().getTime();
+	displayLoading();
+
 	var JSESSIONID = getCookie('JSESSIONID');
-	session=''
+	session = ''
 	if (JSESSIONID) {
-		session='&JSESSIONID='+JSESSIONID
+		session = '&JSESSIONID=' + JSESSIONID
 	}
-	var url = "https://pevbxmstzqkdtno6y4ocsumnz40kbdac.lambda-url.eu-west-1.on.aws/?type=getclasificacion&cod_grupo=" + cod_grupo+session;
+	var url = "https://pevbxmstzqkdtno6y4ocsumnz40kbdac.lambda-url.eu-west-1.on.aws/?type=getclasificacion&cod_grupo=" + cod_grupo + session;
 
 	console.log("GET " + url);
-
 	fetch(url)
 		.then(response => {
 			if (!response.ok) {
+				hideLoading();
 				throw new Error('Network response was not ok');  // Handle HTTP errors
 			}
 			return response.json();
 		})
 		.then(data => {
 			if (data) {
-				$('#results').html('<br>');
-				console.log('Response Data:', data.is_ok);
-				setCookie('JSESSIONID', data.JSESSIONID,30)
+				setCookie('JSESSIONID', data.JSESSIONID, 30)
+				setCookie('cod_grupo', cod_grupo, 30)
+				console.log('JSESSIONID: ', data.JSESSIONID);
+				$('#results').html('');
+				add_back();
 				show_clasificacion(data.data, cod_grupo, cod_equipo);
-
+				add_back();
 			} else {
 				throw new Error('No data found in response');
 			}
+			hideLoading();
 		})
 		.catch(error => {
+			hideLoading();
 			console.error('Fetch error:', error.message);  // Log the error
 		});
 }
@@ -228,6 +287,7 @@ function show_partidos(data, cod_equipo) {
 
 		var boton_clasificacion = $('<input/>').attr({
 			type: "button",
+			class: "back_button",
 			id: "field",
 			value: item.competicion,
 			onclick: "load_clasificacion('" + item.cod_grupo + "','" + data.codigo_equipo + "')"
@@ -296,6 +356,10 @@ function show_partidos(data, cod_equipo) {
 		$('#results').append('</table>');
 
 	});
+
+	if (lineas == 0)
+		$('#results').append('<b>Equipo:</b> ' + data.nombre_equipo + '<br><br><br><b>Non hai datos</b><br><br><br>');
+
 }
 
 function setCookie(name, value, days) {

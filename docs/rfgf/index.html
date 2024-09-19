@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>RFGF</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
   <link rel="icon" href="favicon.ico" type="image/x-icon">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -12,27 +13,30 @@
   <script type="text/javascript" src="../jquery-3.7.1.min.js"></script>
 </head>
 
-<body style="background-color:#598381">
-  <!-- Tab links -->
-  <div class="tab">
-    <button class="tablinks" onclick="load_equipo('13810265')">Jogafan Juvenil</button>
-    <button class="tablinks" onclick="load_equipo('10293316')">Jogafan Infantil</button>
-    <button class="tablinks" onclick="load_equipo('2747')">Oroso Cadete</button>
-    <button class="tablinks" onclick="load_equipo('5514262')">Jogafan Senior</button>
-    <button class="tablinks" onclick="load_equipo('10293250')">Jogafan Cadete</button>
-    <button class="tablinks" onclick="load_equipo('7098295')">Jogafan Alevin</button>
-    <button class="tablinks" onclick="load_equipo('750')">Ordenes Cadete</button>
-    <button class="tablinks" onclick="load_equipo('172')">Victoria Infantil</button>
+<body style="background-color:#598381; margin:4px; padding:4px">
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="javascript:closeNav('13810265')">Jogafan Juvenil</a>
+    <a href="javascript:closeNav('10293316')">Jogafan Infantil</a>
+    <a href="javascript:closeNav('2747')">Oroso Cadete</a>
+    <a href="javascript:closeNav('5514262')">Jogafan Senior</a>
+    <a href="javascript:closeNav('10293250')">Jogafan Cadete</a>
+    <a href="javascript:closeNav('7098295')">Jogafan Alevin</a>
+    <a href="javascript:closeNav('750')">Ordenes Cadete</a>
+    <a href="javascript:closeNav('750')">Victoria Infantil</a>
   </div>
 
-  <div id="results"></div>
-  <hr>
-  <div id="fecha"></div>
+  <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+  <div id="loading"></div>
+  <div id="results">
+  <!-- Use any element to open the sidenav -->
+  <input type="button" class="back_button" id="field" value="Menú" onclick="openNav()">
 
+  </div>
   <script>
     update_vista();
   </script>
-
 </body>
 
 </html>

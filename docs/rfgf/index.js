@@ -206,7 +206,7 @@ function load_goleadores(codcompeticion, codgrupo, cod_equipo) {
 
 
 function show_goleadores(data, cod_equipo) {
-	$('#results').append('<b>Competición:</b> ' + data.competicion + ' (' + data.grupo + ')');
+	$('#results').append(data.competicion + ' (' + data.grupo + ')');
 
 	var boton_clasificacion = $('<input/>').attr({
 		type: "button",
@@ -262,7 +262,7 @@ function show_goleadores(data, cod_equipo) {
 
 
 function show_clasificacion(data, cod_grupo, cod_equipo) {
-	$('#results').append('<b>Competición:</b> ' + data.competicion + ' (jornada ' + data.jornada + ')');
+	$('#results').append(data.competicion + ' (jornada ' + data.jornada + ')');
 
 	var boton_clasificacion = $('<input/>').attr({
 		type: "button",
@@ -387,7 +387,7 @@ function show_partidos(data, cod_equipo) {
 		if (lineas > 1)
 			$('#results').append('<br><hr>');
 
-		$('#results').append('<b>Equipo:</b> ' + data.nombre_equipo + ' - <b>' + item.competicion + '</b>');
+		$('#results').append(data.nombre_equipo + ' - <b>' + item.competicion + '</b>');
 
 		var boton_clasificacion = $('<input/>').attr({
 			type: "button",

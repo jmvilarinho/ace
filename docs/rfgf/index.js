@@ -62,11 +62,11 @@ function update_vista() {
 	} else {
 		var cod_equipo = getCookie('cod_equipo');
 		if (cod_equipo) {
-			load_equipo(searchParams.get('cod_equipo'))
+			load_equipo(cod_equipo)
 		} else {
 			var cod_grupo = getCookie('cod_grupo');
-			if (cod_equipo) {
-				load_clasificacion(searchParams.get('cod_grupo'))
+			if (cod_grupo) {
+				load_clasificacion(cod_grupo)
 			}
 		}
 	}

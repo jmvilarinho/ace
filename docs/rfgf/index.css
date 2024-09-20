@@ -4,6 +4,14 @@
     white-space: nowrap;
 }
 
+.float_center{
+    float: left;
+	position:absolute;
+    left:50% ;
+    top:50% ;
+	z-index:2
+}
+
 table,
 th,
 td {

@@ -50,8 +50,6 @@ function isSameWeek(date1, date2) {
 	return year1 === year2 && week1 === week2;
 }
 
-
-
 function update_vista() {
 	let searchParams = new URLSearchParams(window.location.search)
 	if (searchParams.has('cod_equipo')) {
@@ -70,8 +68,6 @@ function update_vista() {
 			}
 		}
 	}
-
-
 }
 
 function add_back() {
@@ -165,7 +161,6 @@ function load_clasificacion(cod_grupo, cod_equipo) {
 		});
 }
 
-
 function load_goleadores(codcompeticion, codgrupo, cod_equipo) {
 	displayLoading();
 
@@ -206,6 +201,7 @@ function load_goleadores(codcompeticion, codgrupo, cod_equipo) {
 
 
 function show_goleadores(data, cod_equipo) {
+	$('#results').append('<br>');
 	$('#results').append(data.competicion + ' (' + data.grupo + ')');
 
 	var boton_clasificacion = $('<input/>').attr({
@@ -257,11 +253,10 @@ function show_goleadores(data, cod_equipo) {
 		$('#results').append('</tr>');
 	});
 	$('#results').append('</table>');
-
 }
 
-
 function show_clasificacion(data, cod_grupo, cod_equipo) {
+	$('#results').append('<br>');
 	$('#results').append(data.competicion + ' (jornada ' + data.jornada + ')');
 
 	var boton_clasificacion = $('<input/>').attr({
@@ -303,12 +298,33 @@ function show_clasificacion(data, cod_grupo, cod_equipo) {
 
 		$('#results').append('<tr>');
 		try {
-			if (parseInt(item.posicion) <= parseInt(data.promociones[0].orden))
-				$('#results').append(
-					'<td width="12px" align="left" bgcolor="' + data.promociones[0].color_promocion + '">&nbsp;</td>'
-				);
-			else if (data.promociones.length == 2)
-				if (parseInt(item.posicion) >= parseInt(data.promociones[1].orden))
+			if (cont == 1) {
+				console.log(data.promociones);
+			}
+
+			if (parseInt(data.promociones[0].orden) == 0 && data.promociones[0].nombre_promocion == 'ASCENSO') {
+				if (parseInt(item.posicion) <= 1)
+					$('#results').append(
+						'<td width="12px" align="left" bgcolor="' + data.promociones[0].color_promocion + '">&nbsp;</td>'
+					);
+				else if (parseInt(item.posicion) <= 5)
+					$('#results').append(
+						'<td width="12px" align="left" bgcolor="' + data.promociones[1].color_promocion + '">&nbsp;</td>'
+					);
+				else if (parseInt(item.posicion) >= (data.clasificacion.length - 3))
+					$('#results').append(
+						'<td width="12px" align="left" bgcolor="' + data.promociones[2].color_promocion + '">&nbsp;</td>'
+					);
+				else
+					$('#results').append(
+						'<td width="12px" align="left" bgcolor="' + background + '">&nbsp;</td>'
+					);
+			} else if (parseInt(data.promociones[0].orden) == 1 && data.promociones[0].nombre_promocion != 'CAMPEON' && data.promociones[0].nombre_promocion != 'ASCENSO') {
+				if (parseInt(item.posicion) <= 4)
+					$('#results').append(
+						'<td width="12px" align="left" bgcolor="' + data.promociones[0].color_promocion + '">&nbsp;</td>'
+					);
+				else if (parseInt(item.posicion) >= parseInt(data.promociones[1].orden))
 					$('#results').append(
 						'<td width="12px" align="left" bgcolor="' + data.promociones[1].color_promocion + '">&nbsp;</td>'
 					);
@@ -317,21 +333,37 @@ function show_clasificacion(data, cod_grupo, cod_equipo) {
 						'<td width="12px" align="left" bgcolor="' + background + '">&nbsp;</td>'
 					);
 
-			else if (parseInt(item.posicion) <= parseInt(data.promociones[1].orden))
-				$('#results').append(
-					'<td width="12px" align="left" bgcolor="' + data.promociones[1].color_promocion + '">&nbsp;</td>'
-				);
-			else if (parseInt(item.posicion) >= parseInt(data.promociones[2].orden))
-				$('#results').append(
-					'<td width="12px" align="left" bgcolor="' + data.promociones[2].color_promocion + '">&nbsp;</td>'
-				);
-			else
-				$('#results').append(
-					'<td width="12px" align="left" bgcolor="' + background + '">&nbsp;</td>'
-				);
+			} else {
+				if (parseInt(item.posicion) <= parseInt(data.promociones[0].orden) || (parseInt(data.promociones[0].orden) == 0 && parseInt(item.posicion) <= 1))
+					$('#results').append(
+						'<td width="12px" align="left" bgcolor="' + data.promociones[0].color_promocion + '">&nbsp;</td>'
+					);
+				else if (data.promociones.length == 2)
+					if (parseInt(item.posicion) >= parseInt(data.promociones[1].orden))
+						$('#results').append(
+							'<td width="12px" align="left" bgcolor="' + data.promociones[1].color_promocion + '">&nbsp;</td>'
+						);
+					else
+						$('#results').append(
+							'<td width="12px" align="left" bgcolor="' + background + '">&nbsp;</td>'
+						);
+
+				else if (parseInt(item.posicion) <= parseInt(data.promociones[1].orden || (parseInt(data.promociones[0].orden) == 0 && parseInt(item.posicion) <= 5)))
+					$('#results').append(
+						'<td width="12px" align="left" bgcolor="' + data.promociones[1].color_promocion + '">&nbsp;</td>'
+					);
+				else if (parseInt(item.posicion) >= parseInt(data.promociones[2].orden || (parseInt(data.promociones[0].orden) == 0 && parseInt(item.posicion) >= (len(data.clasificacion) - 4))))
+					$('#results').append(
+						'<td width="12px" align="left" bgcolor="' + data.promociones[2].color_promocion + '">&nbsp;</td>'
+					);
+				else
+					$('#results').append(
+						'<td width="12px" align="left" bgcolor="' + background + '">&nbsp;</td>'
+					);
+			}
 		}
 		catch (error) {
-			//console.error(error);
+			console.error(error);
 			$('#results').append(
 				'<td width="12px" align="left" bgcolor="' + background + '">&nbsp;</td>'
 			);
@@ -382,6 +414,7 @@ function show_clasificacion(data, cod_grupo, cod_equipo) {
 
 function show_partidos(data, cod_equipo) {
 	lineas = 0;
+	$('#results').append('<br>');
 	jQuery.each(data.competiciones_equipo, function (index, item) {
 		lineas += 1;
 		if (lineas > 1)
@@ -426,23 +459,24 @@ function show_partidos(data, cod_equipo) {
 			else
 				background = '#e8e5e4';
 			cont += 1
-
-
 			var pattern = /(\d{2})\-(\d{2})\-(\d{4})/;
 			var dt = new Date(item.fecha.replace(pattern, '$3-$2-$1 12:00'));
 			if (isSameWeek(dt, new Date(Date.now())))
 				background = '#a78183';
-
 
 			if (item.hora)
 				hora = ' - ' + item.hora;
 			else
 				hora = '';
 
-			if (item.codequipo_casa == cod_equipo)
+			if (item.codequipo_casa == cod_equipo) {
 				casa = item.equipo_casa;
-			else
+				campo = item.campo;
+			}
+			else {
 				casa = '<a href="?cod_equipo=' + item.codequipo_casa + '">' + item.equipo_casa + '</a>';
+				campo = '<a href="https://maps.google.com?q=' + item.campo + '" target="_new">' + item.campo + '</a>';
+			}
 			casa = casa + '&nbsp;<img src="https://www.futgal.es' + item.escudo_equipo_casa + '" align="absmiddle" class="escudo_widget">';
 
 			if (item.codequipo_fuera == cod_equipo)
@@ -450,7 +484,6 @@ function show_partidos(data, cod_equipo) {
 			else
 				fuera = '<a href="?cod_equipo=' + item.codequipo_fuera + '">' + item.equipo_fuera + '</a>';
 			fuera = '<img src="https://www.futgal.es' + item.escudo_equipo_fuera + '" align="absmiddle" class="escudo_widget">&nbsp;' + fuera;
-
 
 			$('#results').append('<tr>'
 				+ '<td style="background-color:' + background + ';" >' + item.fecha + hora + '</td>'
@@ -460,7 +493,7 @@ function show_partidos(data, cod_equipo) {
 				+ '<td style="background-color:' + background + ';" align="left" >' + fuera + '</td>'
 				//+ '<td style="background-color:' + background + ';" align="left" >' + item.equipo_fuera + '</td>'
 				+ '<td style="background-color:' + background + ';" >' + item.fecha + hora + '</td>'
-				+ '<td style="background-color:' + background + ';" ><a href="https://maps.google.com?q=' + item.campo + '" target="_new">' + item.campo + '</a></td>'
+				+ '<td style="background-color:' + background + ';" >' + campo + '</td>'
 				+ '</tr>');
 		});
 		$('#results').append('</table>');

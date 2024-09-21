@@ -75,7 +75,7 @@ function add_back() {
 		type: "button",
 		class: "back_button",
 		id: "field",
-		value: 'Menú',
+		value: 'Equipos',
 		onclick: "openNav()"
 	});
 

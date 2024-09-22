@@ -1,24 +1,33 @@
-.table_wrapper{
-    display: block;
-    overflow-x: auto;
-    white-space: nowrap;
+.table_wrapper {
+	display: block;
+	overflow-x: auto;
+	white-space: nowrap;
 }
 
-.float_center{
-    float: left;
-	position:absolute;
-    left:50% ;
-    top:50% ;
-	z-index:2
+.float_center {
+	float: left;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	z-index: 2
 }
 
-table,
+.partidos table,
 th,
 td {
 	border: 1px solid black;
 	white-space: nowrap;
 	border-radius: 2px;
-	vertical-align:middle;
+	vertical-align: middle;
+}
+
+.portada {
+	border: none;
+	border-radius: 2px;
+	white-space: nowrap;
+	vertical-align: middle;
+	border-spacing: 3px;
+	margin: 4px 2px;
 }
 
 .ntype {
@@ -33,7 +42,7 @@ td {
 	display: inline-block;
 	margin: 4px 2px;
 	cursor: pointer;
-  }
+}
 
 .ntype2 {
 	font-size: 11px !important;
@@ -43,6 +52,10 @@ td {
 .escudo_widget {
 	width: 20px !important;
 	height: 20px;
+}
+
+.escudo_logo {
+	width: 60px !important;
 }
 
 /* Style the tab */
@@ -81,76 +94,93 @@ td {
 	border-top: none;
 }
 
- /* The side navigation menu */
- .sidenav {
-	height: 100%; /* 100% Full-height */
-	width: 0; /* 0 width - change this with JavaScript */
-	position: fixed; /* Stay in place */
-	z-index: 1; /* Stay on top */
-	top: 0; /* Stay at the top */
+/* The side navigation menu */
+.sidenav {
+	height: 100%;
+	/* 100% Full-height */
+	width: 0;
+	/* 0 width - change this with JavaScript */
+	position: fixed;
+	/* Stay in place */
+	z-index: 1;
+	/* Stay on top */
+	top: 0;
+	/* Stay at the top */
 	left: 0;
-	background-color: #111; /* Black*/
-	overflow-x: hidden; /* Disable horizontal scroll */
-	padding-top: 60px; /* Place content 60px from the top */
-	transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-  }
+	background-color: #111;
+	/* Black*/
+	overflow-x: hidden;
+	/* Disable horizontal scroll */
+	padding-top: 60px;
+	/* Place content 60px from the top */
+	transition: 0.5s;
+	/* 0.5 second transition effect to slide in the sidenav */
+}
 
-  /* The navigation menu links */
-  .sidenav a {
+/* The navigation menu links */
+.sidenav a {
 	padding: 8px 8px 8px 32px;
 	text-decoration: none;
 	font-size: 25px;
 	color: #818181;
 	display: block;
 	transition: 0.3s;
-  }
+}
 
-  /* When you mouse over the navigation links, change their color */
-  .sidenav a:hover {
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
 	color: #f1f1f1;
-  }
+}
 
-  /* Position and style the close button (top right corner) */
-  .sidenav .closebtn {
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
 	position: absolute;
 	top: 0;
 	right: 25px;
 	font-size: 36px;
 	margin-left: 50px;
-  }
+}
 
-  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-  #main {
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
 	transition: margin-left .5s;
 	padding: 20px;
-  }
+}
 
-  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-  @media screen and (max-height: 450px) {
-	.sidenav {padding-top: 15px;}
-	.sidenav a {font-size: 18px;}
-  }
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+	.sidenav {
+		padding-top: 15px;
+	}
 
-  /* creating css loader */
+	.sidenav a {
+		font-size: 18px;
+	}
+}
+
+/* creating css loader */
 
 #loading {
-    width: 2rem;
-    height: 2rem;
-    border: 5px solid #f3f3f3;
-    border-top: 6px solid #9c41f2;
-    border-radius: 100%;
-    margin: auto;
-    visibility: hidden;
-    animation: spin 1s infinite linear;
+	width: 2rem;
+	height: 2rem;
+	border: 5px solid #f3f3f3;
+	border-top: 6px solid #9c41f2;
+	border-radius: 100%;
+	margin: auto;
+	visibility: hidden;
+	animation: spin 1s infinite linear;
 }
+
 #loading.display {
-    visibility: visible;
+	visibility: visible;
 }
+
 @keyframes spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(360deg);
+	}
 }

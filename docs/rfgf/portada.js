@@ -102,16 +102,11 @@ function show_portada_equipo(data, cod_equipo) {
 				if (previous)
 					$('#results').append('<br><br>');
 				show_portada_data('Xornada anterior', previous);
-
-
+				$('#results').append('<br>');
 				return false;
 			}
-
 			previous = item;
-
 		});
-
-
 	});
 
 	if (lineas == 0)

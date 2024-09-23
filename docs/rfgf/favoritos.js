@@ -3,8 +3,12 @@ async function load_favoritos() {
 	setCookie('pagina', 'favoritos', 30)
 
 	favoritos = getCookieArray('favoritosItems');
+	if ( favoritos.length <= 0){
+		favoritos = [13810265,10293316];
+	}
 
 	var arrayLength = favoritos.length;
+	
 	$('#results').html('');
 	var arr = [];
 	add_back('favoritos');

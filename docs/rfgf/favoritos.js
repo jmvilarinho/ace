@@ -4,7 +4,7 @@ async function load_favoritos() {
 
 	favoritos = getCookieArray('favoritosItems');
 	if ( favoritos.length <= 0){
-		favoritos = [13810265,10293316];
+		favoritos = ['13810265','10293316'];
 	}
 
 	var arrayLength = favoritos.length;

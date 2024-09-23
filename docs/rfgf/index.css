@@ -197,12 +197,13 @@ escudo_logo_medio
 	border: 5px solid #f3f3f3;
 	border-top: 6px solid #9c41f2;
 	border-radius: 100%;
-	margin: auto;
 	visibility: hidden;
 	animation: spin 1s infinite linear;
 	transform: scale(1.2);
 	transform-origin: center center;
-
+	position: absolute;
+	top: 10px;
+	left: 30px;
 }
 
 #loading.display {

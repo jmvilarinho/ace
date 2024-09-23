@@ -10,6 +10,7 @@ async function load_favoritos() {
 		console.log(favoritos[i]);
 		//Do something
 		data = await get_data_equipo(favoritos[i])
+		console.log(data)
 
 		show_portada_equipo_favoritos(data.data, favoritos[i]);
 	}

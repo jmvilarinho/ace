@@ -77,7 +77,7 @@ function show_portada_equipo_favoritos(data, cod_equipo) {
 				if (item.hora)
 					hora += ' ' + item.hora;
 				else
-					hora += ' 12:00'
+					hora += ' 22:00'
 				var date_obj = new Date(hora.replace(pattern, '$3-$2-$1 $4:$5'));
 				var date_now_obj = new Date(Date.now())
 				if (isSameWeek(date_obj, date_now_obj)) {

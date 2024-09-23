@@ -1,14 +1,13 @@
 
-function load_equipo_home(cod_equipo) {
+async function load_equipo_home(cod_equipo) {
 	displayLoading();
 
 	var url = "https://pevbxmstzqkdtno6y4ocsumnz40kbdac.lambda-url.eu-west-1.on.aws/?type=getequipo&codequipo=" + cod_equipo;
 
 	console.log("GET " + url);
-	fetch(url)
+	await fetch(url)
 		.then(response => {
 			if (!response.ok) {
-				hideLoading();
 				throw new Error('Network response was not ok');  // Handle HTTP errors
 			}
 			return response.json();
@@ -23,12 +22,11 @@ function load_equipo_home(cod_equipo) {
 			} else {
 				throw new Error('No data found in response');
 			}
-			hideLoading();
 		})
 		.catch(error => {
-			hideLoading();
 			console.error('Fetch error:', error.message);  // Log the error
 		});
+	hideLoading();
 }
 
 function show_partidos_home(data, cod_equipo) {

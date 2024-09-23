@@ -38,24 +38,23 @@ function crea_botons(pagina, codigo_equipo, cod_grupo, cod_competicion) {
 }
 
 
-function load_portada_equipo(cod_equipo) {
+async function load_portada_equipo(cod_equipo) {
 	displayLoading();
+	setCookie('pagina', 'portada', 30)
+	setCookie('cod_equipo', cod_equipo, 30)
 
 	var url = "https://pevbxmstzqkdtno6y4ocsumnz40kbdac.lambda-url.eu-west-1.on.aws/?type=getequipo&codequipo=" + cod_equipo;
 
 	console.log("GET " + url);
-	fetch(url)
+	await fetch(url)
 		.then(response => {
 			if (!response.ok) {
-				hideLoading();
 				throw new Error('Network response was not ok');  // Handle HTTP errors
 			}
 			return response.json();
 		})
 		.then(data => {
 			if (data) {
-				setCookie('cod_equipo', cod_equipo, 30)
-				setCookie('pagina', 'portada', 30)
 				$('#results').html('');
 				add_back();
 				show_portada_equipo(data.data, cod_equipo);
@@ -63,12 +62,11 @@ function load_portada_equipo(cod_equipo) {
 			} else {
 				throw new Error('No data found in response');
 			}
-			hideLoading();
 		})
 		.catch(error => {
-			hideLoading();
 			console.error('Fetch error:', error.message);  // Log the error
 		});
+	hideLoading();
 }
 
 function show_portada_equipo(data, cod_equipo) {

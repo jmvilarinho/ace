@@ -1,5 +1,6 @@
 async function load_favoritos() {
 	displayLoading();
+	setCookie('pagina', 'favoritos', 30)
 
 	favoritos = ['13810265', '10293316', '2747']
 

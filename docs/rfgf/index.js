@@ -1,3 +1,40 @@
+function update_vista() {
+	let searchParams = new URLSearchParams(window.location.search)
+	if (searchParams.has('cod_equipo')) {
+		load_equipo(searchParams.get('cod_equipo'))
+	}
+	else if (searchParams.has('cod_grupo')) {
+		load_clasificacion(searchParams.get('cod_grupo'))
+	} else {
+		var pagina = getCookie('pagina');
+		if (pagina) {
+			switch (pagina) {
+				case 'favoritos':
+					load_favoritos();
+					break;
+				case 'portada':
+					var cod_equipo = getCookie('cod_equipo');
+					load_portada_equipo(cod_equipo);
+					break;
+				case 'partidos':
+					var cod_equipo = getCookie('cod_equipo');
+					load_equipo(cod_equipo);
+					break;
+				case 'clasificacion':
+					var cod_equipo = getCookie('cod_equipo');
+					var cod_grupo = getCookie('cod_grupo');
+					load_clasificacion(cod_grupo, cod_equipo);
+					break;
+				case 'goleadores':
+					var cod_equipo = getCookie('cod_equipo');
+					var cod_grupo = getCookie('cod_grupo');
+					var cod_competicion = getCookie('cod_competicion');
+					load_goleadores(cod_competicion, cod_grupo, cod_equipo);
+					break;
+			}
+		}
+	}
+}
 
 // showing loading
 function displayLoading() {
@@ -50,33 +87,11 @@ function isSameWeek(date1, date2) {
 	return year1 === year2 && week1 === week2;
 }
 
-function update_vista() {
-	let searchParams = new URLSearchParams(window.location.search)
-	if (searchParams.has('cod_equipo')) {
-		load_equipo(searchParams.get('cod_equipo'))
-	}
-	else if (searchParams.has('cod_grupo')) {
-		load_clasificacion(searchParams.get('cod_grupo'))
-	} else {
-		var cod_equipo = getCookie('cod_equipo');
-		if (cod_equipo) {
-			var pagina = getCookie('pagina');
-			if (pagina && pagina == 'portada')
-				load_portada_equipo(cod_equipo);
-			else
-				load_equipo(cod_equipo)
-		} else {
-			var cod_grupo = getCookie('cod_grupo');
-			if (cod_grupo) {
-				load_clasificacion(cod_grupo)
-			}
-		}
-	}
-}
+
 
 function add_back(pagina) {
-	if ( !pagina)
-		pagina ='';
+	if (!pagina)
+		pagina = '';
 
 	var boton_menu = $('<input/>').attr({
 		type: "button",
@@ -97,23 +112,23 @@ function add_back(pagina) {
 	$('#results').append(boton_favoritos);
 }
 
-function load_equipo(cod_equipo) {
+async function load_equipo(cod_equipo) {
 	displayLoading();
+	setCookie('pagina', 'partidos', 30)
+	setCookie('cod_equipo', cod_equipo, 30)
 
 	var url = "https://pevbxmstzqkdtno6y4ocsumnz40kbdac.lambda-url.eu-west-1.on.aws/?type=getequipo&codequipo=" + cod_equipo;
 
 	console.log("GET " + url);
-	fetch(url)
+	await fetch(url)
 		.then(response => {
 			if (!response.ok) {
-				hideLoading();
 				throw new Error('Network response was not ok');  // Handle HTTP errors
 			}
 			return response.json();
 		})
 		.then(data => {
 			if (data) {
-				setCookie('cod_equipo', cod_equipo, 30)
 				$('#results').html('');
 				add_back();
 				show_partidos(data.data, cod_equipo);
@@ -121,31 +136,31 @@ function load_equipo(cod_equipo) {
 			} else {
 				throw new Error('No data found in response');
 			}
-			hideLoading();
 		})
 		.catch(error => {
-			hideLoading();
 			console.error('Fetch error:', error.message);  // Log the error
 		});
+	hideLoading();
 }
 
-function load_clasificacion(cod_grupo, cod_equipo) {
+async function load_clasificacion(cod_grupo, cod_equipo) {
 	displayLoading();
+	setCookie('pagina', 'clasificacion', 30)
+	setCookie('cod_equipo', cod_equipo, 30)
+	setCookie('cod_grupo', cod_grupo, 30)
 
 	var url = "https://pevbxmstzqkdtno6y4ocsumnz40kbdac.lambda-url.eu-west-1.on.aws/?type=getclasificacion&cod_grupo=" + cod_grupo;
 
 	console.log("GET " + url);
-	fetch(url)
+	await fetch(url)
 		.then(response => {
 			if (!response.ok) {
-				hideLoading();
 				throw new Error('Network response was not ok');  // Handle HTTP errors
 			}
 			return response.json();
 		})
 		.then(data => {
 			if (data) {
-				setCookie('cod_grupo', cod_grupo, 30)
 				$('#results').html('');
 				add_back();
 				show_clasificacion(data.data, cod_grupo, cod_equipo);
@@ -153,24 +168,26 @@ function load_clasificacion(cod_grupo, cod_equipo) {
 			} else {
 				throw new Error('No data found in response');
 			}
-			hideLoading();
 		})
 		.catch(error => {
-			hideLoading();
 			console.error('Fetch error:', error.message);  // Log the error
 		});
-}
+		hideLoading();
+	}
 
-function load_goleadores(codcompeticion, codgrupo, cod_equipo) {
+async function load_goleadores(codcompeticion, codgrupo, cod_equipo) {
 	displayLoading();
+	setCookie('pagina', 'goleadores', 30)
+	setCookie('cod_equipo', cod_equipo, 30)
+	setCookie('cod_grupo', codgrupo, 30)
+	setCookie('cod_competicion', codcompeticion, 30)
 
 	var url = "https://pevbxmstzqkdtno6y4ocsumnz40kbdac.lambda-url.eu-west-1.on.aws/?type=getgoleadores&codcompeticion=" + codcompeticion + "&codgrupo=" + codgrupo;
 
 	console.log("GET " + url);
-	fetch(url)
+	await fetch(url)
 		.then(response => {
 			if (!response.ok) {
-				hideLoading();
 				throw new Error('Network response was not ok');  // Handle HTTP errors
 			}
 			return response.json();
@@ -179,24 +196,24 @@ function load_goleadores(codcompeticion, codgrupo, cod_equipo) {
 			if (data) {
 				$('#results').html('');
 				add_back();
-				show_goleadores(data.data, codgrupo,cod_equipo);
+				show_goleadores(data.data, codgrupo, cod_equipo);
 				add_back();
 			} else {
 				throw new Error('No data found in response');
 			}
-			hideLoading();
 		})
 		.catch(error => {
-			hideLoading();
 			console.error('Fetch error:', error.message);  // Log the error
 		});
+	hideLoading();
+
 }
 
 
 function show_goleadores(data, cod_grupo, cod_equipo) {
 	$('#results').append('<br>');
 	$('#results').append(data.competicion + ' (' + data.grupo + ')<br>');
-	crea_botons( 'goleadores', cod_equipo, cod_grupo, data.codigo_competicion);
+	crea_botons('goleadores', cod_equipo, cod_grupo, data.codigo_competicion);
 
 	$('#results').append('<table border >');
 	$('#results').append(
@@ -243,7 +260,7 @@ function show_goleadores(data, cod_grupo, cod_equipo) {
 function show_clasificacion(data, cod_grupo, cod_equipo) {
 	$('#results').append('<br>');
 	$('#results').append(data.competicion + ' (jornada ' + data.jornada + ')<br>');
-	crea_botons( 'clasificacion', cod_equipo, cod_grupo, data.codigo_competicion);
+	crea_botons('clasificacion', cod_equipo, cod_grupo, data.codigo_competicion);
 
 	$('#results').append('<table border >');
 	$('#results').append(
@@ -398,7 +415,7 @@ function show_partidos(data, cod_equipo) {
 			$('#results').append('<br><hr>');
 
 		$('#results').append(data.nombre_equipo + ' - <b>' + item.competicion + '</b><br>');
-		crea_botons( 'partidos', data.codigo_equipo, item.cod_grupo, item.cod_competicion);
+		crea_botons('partidos', data.codigo_equipo, item.cod_grupo, item.cod_competicion);
 
 		$('#results').append('<table class="partidos" >');
 		$('#results').append('<tr>'

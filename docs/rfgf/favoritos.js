@@ -5,6 +5,7 @@ async function load_favoritos() {
 	favoritos = getCookieArray('favoritosItems');
 	if ( favoritos.length <= 0){
 		favoritos = ["13810265","10293316"];
+		setCookie('favoritosItems', JSON.stringify(favoritos), 30);
 	}
 
 	var arrayLength = favoritos.length;

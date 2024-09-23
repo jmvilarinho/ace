@@ -32,8 +32,10 @@ function update_vista() {
 					load_goleadores(cod_competicion, cod_grupo, cod_equipo);
 					break;
 				default:
-					load_favoritos();   
+					load_favoritos();
 			}
+		} else {
+			load_favoritos();
 		}
 	}
 }

@@ -10,7 +10,7 @@ async function load_favoritos() {
 	for (var i = 0; i < arrayLength; i++) {
 		//Do something
 		data = await get_data_equipo(favoritos[i])
-		show_portada_equipo_favoritos(data.data, favoritos[i]);
+		show_portada_equipo_favoritos( data.nombre_equipo + ' - <b>' + item.competicion, data.data, favoritos[i]);
 	}
 	add_back('favoritos');
 	end_page();
@@ -42,12 +42,11 @@ async function get_data_equipo(cod_equipo) {
 	return data
 }
 
-function show_portada_equipo_favoritos(data, cod_equipo) {
+function show_portada_equipo_favoritos(title, data, cod_equipo) {
 	lineas = 0;
 	$('#results').append('<br>');
-	jQuery.each(data.competiciones_equipo, function (index, item) {
-		title = data.nombre_equipo + ' - <b>' + item.competicion
 
+	jQuery.each(data.competiciones_equipo, function (index, item) {
 		cont = 0;
 		jQuery.each(item.partidos, function (index, item) {
 			cont += 1

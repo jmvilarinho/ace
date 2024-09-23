@@ -74,7 +74,10 @@ function update_vista() {
 	}
 }
 
-function add_back() {
+function add_back(pagina) {
+	if ( !pagina)
+		pagina ='';
+
 	var boton_menu = $('<input/>').attr({
 		type: "button",
 		class: "back_button",
@@ -86,7 +89,7 @@ function add_back() {
 
 	var boton_favoritos = $('<input/>').attr({
 		type: "button",
-		class: "back_button",
+		class: (pagina == 'favoritos') ? 'none' : "back_button",
 		id: "field",
 		value: 'Favoritos',
 		onclick: "load_favoritos()"

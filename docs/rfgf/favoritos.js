@@ -5,16 +5,13 @@ async function load_favoritos() {
 
 	var arrayLength = favoritos.length;
 	$('#results').html('');
-	add_back();
+	add_back('favoritos');
 	for (var i = 0; i < arrayLength; i++) {
-		console.log(favoritos[i]);
 		//Do something
 		data = await get_data_equipo(favoritos[i])
-		console.log(data)
-
 		show_portada_equipo_favoritos(data.data, favoritos[i]);
 	}
-	add_back();
+	add_back('favoritos');
 	hideLoading();
 }
 

@@ -75,16 +75,23 @@ function update_vista() {
 }
 
 function add_back() {
-	var boton_clasificacion = $('<input/>').attr({
+	var boton_menu = $('<input/>').attr({
 		type: "button",
 		class: "back_button",
 		id: "field",
 		value: 'Equipos',
 		onclick: "openNav()"
 	});
+	$('#results').append(boton_menu);
 
-	$('#results').append(boton_clasificacion);
-	$('#results').append('&nbsp;&nbsp;&nbsp;&nbsp;');
+	var boton_favoritos = $('<input/>').attr({
+		type: "button",
+		class: "back_button",
+		id: "field",
+		value: 'Favoritos',
+		onclick: "load_favoritos()"
+	});
+	$('#results').append(boton_favoritos);
 }
 
 function load_equipo(cod_equipo) {

@@ -1,4 +1,4 @@
-function crea_botons(pagina,codigo_equipo, cod_grupo, cod_competicion) {
+function crea_botons(pagina, codigo_equipo, cod_grupo, cod_competicion) {
 
 	var boton_partidos = $('<input/>').attr({
 		type: "button",
@@ -41,12 +41,7 @@ function crea_botons(pagina,codigo_equipo, cod_grupo, cod_competicion) {
 function load_portada_equipo(cod_equipo) {
 	displayLoading();
 
-	var JSESSIONID = getCookie('JSESSIONID');
-	session = ''
-	if (JSESSIONID) {
-		session = '&JSESSIONID=' + JSESSIONID
-	}
-	var url = "https://pevbxmstzqkdtno6y4ocsumnz40kbdac.lambda-url.eu-west-1.on.aws/?type=getequipo&codequipo=" + cod_equipo + session;
+	var url = "https://pevbxmstzqkdtno6y4ocsumnz40kbdac.lambda-url.eu-west-1.on.aws/?type=getequipo&codequipo=" + cod_equipo;
 
 	console.log("GET " + url);
 	fetch(url)
@@ -59,10 +54,8 @@ function load_portada_equipo(cod_equipo) {
 		})
 		.then(data => {
 			if (data) {
-				setCookie('JSESSIONID', data.JSESSIONID, 30)
 				setCookie('cod_equipo', cod_equipo, 30)
 				setCookie('pagina', 'portada', 30)
-				console.log('JSESSIONID: ', data.JSESSIONID);
 				$('#results').html('');
 				add_back();
 				show_portada_equipo(data.data, cod_equipo);
@@ -87,7 +80,7 @@ function show_portada_equipo(data, cod_equipo) {
 			$('#results').append('<br><hr>');
 
 		$('#results').append(data.nombre_equipo + ' - <b>' + item.competicion + '</b><br>');
-		crea_botons( 'portada',data.codigo_equipo, item.cod_grupo, item.cod_competicion);
+		crea_botons('portada', data.codigo_equipo, item.cod_grupo, item.cod_competicion);
 
 		ultima = item.ultima_jornada_jugada;
 		cont = 0;
@@ -97,12 +90,12 @@ function show_portada_equipo(data, cod_equipo) {
 			var pattern = /(\d{2})\-(\d{2})\-(\d{4})/;
 			var dt = new Date(item.fecha.replace(pattern, '$3-$2-$1 12:00'));
 			if (isSameWeek(dt, new Date(Date.now()))) {
-				show_portada_data('Xornada actual (#' + ultima + ')', item);
+				show_portada_data('Xornada actual', item);
 
-				if (previous)
-					$('#results').append('<br><br>');
-				show_portada_data('Xornada anterior', previous);
-				$('#results').append('');
+				if (previous) {
+					$('#results').append('<br>');
+					show_portada_data('Xornada anterior', previous);
+				}
 				return false;
 			}
 			previous = item;
@@ -116,8 +109,6 @@ function show_portada_equipo(data, cod_equipo) {
 function dia_str(fecha) {
 	var pattern = /(\d{2})\-(\d{2})\-(\d{4})/;
 	var dt = new Date(fecha.replace(pattern, '$3-$2-$1 12:00'));
-
-
 	days = ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'];
 
 	return days[dt.getDay()]; // "Friday"
@@ -130,30 +121,43 @@ function show_portada_data(title, item) {
 	else
 		hora = '';
 
-	campo = '<a href="https://maps.google.com?q=' + item.campo + '" target="_new">' + item.campo + '</a>';
-	campo += ' <a href=https://maps.google.com?q=' + item.campo + '" target="_new"><img src="../img/dot.png" height="20px"></a>';
+	campo = '<a href="https://maps.google.com?q=' + item.campo + '" target="_maps">' + item.campo + '</a>';
+	campo += ' <a href=https://maps.google.com?q=' + item.campo + '" target="_maps"><img src="../img/dot.png" height="20px"></a>';
 
 	casa = '<a href="javascript:load_portada_equipo(\'' + item.codequipo_casa + '\')">' + item.equipo_casa + '</a>';
-	casa = '<img src="https://www.futgal.es' + item.escudo_equipo_casa + '" align="absmiddle" class="escudo_logo">&nbsp;&nbsp;' + casa;
+	casa = '<img src="https://www.futgal.es' + item.escudo_equipo_casa + '" align="absmiddle" class="escudo_logo">&nbsp;&nbsp;' + casa + '&nbsp;';
 	fuera = '<a href="javascript:load_portada_equipo(\'' + item.codequipo_fuera + '\')">' + item.equipo_fuera + '</a>';
-	fuera = '<img src="https://www.futgal.es' + item.escudo_equipo_fuera + '" align="absmiddle" class="escudo_logo">&nbsp;&nbsp;' + fuera;
+	fuera = '<img src="https://www.futgal.es' + item.escudo_equipo_fuera + '" align="absmiddle" class="escudo_logo">&nbsp;&nbsp;' + fuera + '&nbsp;';
+
+	if (item.goles_casa == "" && item.goles_fuera == "") {
+		datos = '<tr>'
+			+ '<td bgcolor="white" colspan=2>' + casa + '</td>'
+			+ '</tr>'
+			+ '<tr>'
+			+ '<td bgcolor="white" colspan=2>' + fuera + '</td>'
+			+ '</tr>';
+
+	} else {
+		datos =  '<tr>'
+			+ '<td bgcolor="white">' + casa + '</td>'
+			+ '<td bgcolor="white" align="center">&nbsp;' + item.goles_casa + '&nbsp;</td>'
+			+ '</tr>'
+			+ '<tr>'
+			+ '<td bgcolor="white">' + fuera + '</td>'
+			+ '<td bgcolor="white" align="center">&nbsp;' + item.goles_fuera + '&nbsp;</td>'
+			+ '</tr>';
+	}
 
 	$('#results').append('<table class="portada">'
 		+ '<tr>'
 		+ '<th colspan=2  align="absmiddle">' + title + '</th>'
 		+ '</tr>'
 		+ '<tr>'
-		+ '<td bgcolof="#e8e5e4" colspan=2><b>Data:</b>&nbsp;' + item.fecha + hora + ' ('+dia_str( item.fecha ) +')</td>'
+		+ '<td bgcolor="#e8e5e4" colspan=2><b>Data:</b>&nbsp;' + item.fecha + hora + ' (' + dia_str(item.fecha) + ')</td>'
 		+ '</tr>'
 		+ '<tr>'
-		+ '<td bgcolof="#e8e5e4" colspan=2><b>Campo:</b>&nbsp;' + campo + '</td>'
+		+ '<td bgcolor="#e8e5e4" colspan=2><b>Campo:</b>&nbsp;' + campo + '</td>'
 		+ '</tr>'
-		+ '<tr>'
-		+ '<td bgcolor="white">' + casa + '</td>'
-		+ '<td bgcolor="white" align="center">&nbsp;' + item.goles_casa + '&nbsp;</td>'
-		+ '</tr>'
-		+ '<tr>'
-		+ '<td bgcolor="white">' + fuera + '</td>'
-		+ '<td bgcolor="white" align="center">&nbsp;' + item.goles_fuera + '&nbsp;</td>'
-		+ '</tr></table>');
+		+ datos
+		+ '</table>');
 }

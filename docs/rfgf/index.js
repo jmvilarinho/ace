@@ -90,12 +90,7 @@ function add_back() {
 function load_equipo(cod_equipo) {
 	displayLoading();
 
-	var JSESSIONID = getCookie('JSESSIONID');
-	session = ''
-	if (JSESSIONID) {
-		session = '&JSESSIONID=' + JSESSIONID
-	}
-	var url = "https://pevbxmstzqkdtno6y4ocsumnz40kbdac.lambda-url.eu-west-1.on.aws/?type=getequipo&codequipo=" + cod_equipo + session;
+	var url = "https://pevbxmstzqkdtno6y4ocsumnz40kbdac.lambda-url.eu-west-1.on.aws/?type=getequipo&codequipo=" + cod_equipo;
 
 	console.log("GET " + url);
 	fetch(url)
@@ -108,9 +103,7 @@ function load_equipo(cod_equipo) {
 		})
 		.then(data => {
 			if (data) {
-				setCookie('JSESSIONID', data.JSESSIONID, 30)
 				setCookie('cod_equipo', cod_equipo, 30)
-				console.log('JSESSIONID: ', data.JSESSIONID);
 				$('#results').html('');
 				add_back();
 				show_partidos(data.data, cod_equipo);
@@ -129,12 +122,7 @@ function load_equipo(cod_equipo) {
 function load_clasificacion(cod_grupo, cod_equipo) {
 	displayLoading();
 
-	var JSESSIONID = getCookie('JSESSIONID');
-	session = ''
-	if (JSESSIONID) {
-		session = '&JSESSIONID=' + JSESSIONID
-	}
-	var url = "https://pevbxmstzqkdtno6y4ocsumnz40kbdac.lambda-url.eu-west-1.on.aws/?type=getclasificacion&cod_grupo=" + cod_grupo + session;
+	var url = "https://pevbxmstzqkdtno6y4ocsumnz40kbdac.lambda-url.eu-west-1.on.aws/?type=getclasificacion&cod_grupo=" + cod_grupo;
 
 	console.log("GET " + url);
 	fetch(url)
@@ -147,9 +135,7 @@ function load_clasificacion(cod_grupo, cod_equipo) {
 		})
 		.then(data => {
 			if (data) {
-				setCookie('JSESSIONID', data.JSESSIONID, 30)
 				setCookie('cod_grupo', cod_grupo, 30)
-				console.log('JSESSIONID: ', data.JSESSIONID);
 				$('#results').html('');
 				add_back();
 				show_clasificacion(data.data, cod_grupo, cod_equipo);
@@ -168,12 +154,7 @@ function load_clasificacion(cod_grupo, cod_equipo) {
 function load_goleadores(codcompeticion, codgrupo, cod_equipo) {
 	displayLoading();
 
-	var JSESSIONID = getCookie('JSESSIONID');
-	session = ''
-	if (JSESSIONID) {
-		session = '&JSESSIONID=' + JSESSIONID
-	}
-	var url = "https://pevbxmstzqkdtno6y4ocsumnz40kbdac.lambda-url.eu-west-1.on.aws/?type=getgoleadores&codcompeticion=" + codcompeticion + "&codgrupo=" + codgrupo + session;
+	var url = "https://pevbxmstzqkdtno6y4ocsumnz40kbdac.lambda-url.eu-west-1.on.aws/?type=getgoleadores&codcompeticion=" + codcompeticion + "&codgrupo=" + codgrupo;
 
 	console.log("GET " + url);
 	fetch(url)
@@ -186,8 +167,6 @@ function load_goleadores(codcompeticion, codgrupo, cod_equipo) {
 		})
 		.then(data => {
 			if (data) {
-				setCookie('JSESSIONID', data.JSESSIONID, 30)
-				console.log('JSESSIONID: ', data.JSESSIONID);
 				$('#results').html('');
 				add_back();
 				show_goleadores(data.data, codgrupo,cod_equipo);
@@ -235,7 +214,7 @@ function show_goleadores(data, cod_grupo, cod_equipo) {
 			background = '#a78183';
 
 
-		equipo = '<a href="?cod_equipo=' + item.codigo_equipo + '">' + item.nombre_equipo + '</a>';
+		equipo = '<a href="javascript:load_portada_equipo(\'' + item.codigo_equipo + '\')">' + item.nombre_equipo + '</a>';
 		equipo = '<img src="https://www.futgal.es' + item.escudo_equipo + '" align="absmiddle" class="escudo_widget">&nbsp;' + equipo
 
 		$('#results').append(

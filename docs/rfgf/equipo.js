@@ -2,11 +2,6 @@
 function load_equipo_home(cod_equipo) {
 	displayLoading();
 
-	var JSESSIONID = getCookie('JSESSIONID');
-	session = ''
-	if (JSESSIONID) {
-		session = '&JSESSIONID=' + JSESSIONID
-	}
 	var url = "https://pevbxmstzqkdtno6y4ocsumnz40kbdac.lambda-url.eu-west-1.on.aws/?type=getequipo&codequipo=" + cod_equipo + session;
 
 	console.log("GET " + url);
@@ -20,9 +15,7 @@ function load_equipo_home(cod_equipo) {
 		})
 		.then(data => {
 			if (data) {
-				setCookie('JSESSIONID', data.JSESSIONID, 30)
 				setCookie('cod_equipo', cod_equipo, 30)
-				console.log('JSESSIONID: ', data.JSESSIONID);
 				$('#results').html('');
 				add_back();
 				show_partidos_home(data.data, cod_equipo);

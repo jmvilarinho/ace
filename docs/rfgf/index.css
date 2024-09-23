@@ -169,6 +169,8 @@ td {
 	margin: auto;
 	visibility: hidden;
 	animation: spin 1s infinite linear;
+	transform: scale(1.2);
+    transform-origin: center center;
 }
 
 #loading.display {

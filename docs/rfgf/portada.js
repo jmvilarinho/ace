@@ -102,7 +102,7 @@ function show_portada_equipo(data, cod_equipo) {
 				if (previous)
 					$('#results').append('<br><br>');
 				show_portada_data('Xornada anterior', previous);
-				$('#results').append('<br>');
+				$('#results').append('');
 				return false;
 			}
 			previous = item;
@@ -140,13 +140,13 @@ function show_portada_data(title, item) {
 
 	$('#results').append('<table class="portada">'
 		+ '<tr>'
-		+ '<td colspan=2  align="absmiddle"><b>' + title + '</b></td>'
+		+ '<th colspan=2  align="absmiddle">' + title + '</th>'
 		+ '</tr>'
 		+ '<tr>'
-		+ '<td colspan=2><b>Data:</b>&nbsp;' + item.fecha + hora + ' ('+dia_str( item.fecha ) +')</td>'
+		+ '<td bgcolof="#e8e5e4" colspan=2><b>Data:</b>&nbsp;' + item.fecha + hora + ' ('+dia_str( item.fecha ) +')</td>'
 		+ '</tr>'
 		+ '<tr>'
-		+ '<td colspan=2><b>Campo:</b>&nbsp;' + campo + '</td>'
+		+ '<td bgcolof="#e8e5e4" colspan=2><b>Campo:</b>&nbsp;' + campo + '</td>'
 		+ '</tr>'
 		+ '<tr>'
 		+ '<td bgcolor="white">' + casa + '</td>'

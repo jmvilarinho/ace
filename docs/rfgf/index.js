@@ -31,6 +31,8 @@ function update_vista() {
 					var cod_competicion = getCookie('cod_competicion');
 					load_goleadores(cod_competicion, cod_grupo, cod_equipo);
 					break;
+				default:
+					load_favoritos();   
 			}
 		}
 	}

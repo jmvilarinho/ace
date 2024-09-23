@@ -38,22 +38,6 @@ function update_vista() {
 	}
 }
 
-// showing loading
-function displayLoading() {
-	loader = document.querySelector("#loading");
-	loader.classList.add("display");
-	// to stop loading after some time
-	setTimeout(() => {
-		loader.classList.remove("display");
-	}, 5000);
-}
-
-// hiding loading
-function hideLoading() {
-	loader = document.querySelector("#loading");
-	loader.classList.remove("display");
-}
-
 /* Set the width of the side navigation to 250px */
 function openNav() {
 	document.getElementById("mySidenav").style.width = "250px";
@@ -90,29 +74,6 @@ function isSameWeek(date1, date2) {
 }
 
 
-
-function add_back(pagina) {
-	if (!pagina)
-		pagina = '';
-
-	var boton_menu = $('<input/>').attr({
-		type: "button",
-		class: "back_button",
-		id: "field",
-		value: 'Equipos',
-		onclick: "openNav()"
-	});
-	$('#results').append(boton_menu);
-
-	var boton_favoritos = $('<input/>').attr({
-		type: "button",
-		class: (pagina == 'favoritos') ? 'none' : "back_button",
-		id: "field",
-		value: 'Favoritos',
-		onclick: "load_favoritos()"
-	});
-	$('#results').append(boton_favoritos);
-}
 
 async function load_equipo(cod_equipo) {
 	displayLoading();

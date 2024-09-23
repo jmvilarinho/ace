@@ -13,6 +13,7 @@ async function load_favoritos() {
 		show_portada_equipo_favoritos(data.data, favoritos[i]);
 	}
 	add_back('favoritos');
+	end_page();
 	hideLoading();
 }
 

@@ -1,19 +1,25 @@
-
-.left, .right {
-  float: left;
-  width: 20%; /* The width is 20%, by default */
+.left,
+.right {
+	float: left;
+	width: 20%;
+	/* The width is 20%, by default */
 }
 
 .main {
-  float: left;
-  width: 60%; /* The width is 60%, by default */
+	float: left;
+	width: 60%;
+	/* The width is 60%, by default */
 }
 
 /* Use a media query to add a breakpoint at 800px: */
 @media screen and (max-width: 800px) {
-  .left, .main, .right {
-    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
-  }
+
+	.left,
+	.main,
+	.right {
+		width: 100%;
+		/* The width is 100%, when the viewport is 800px or smaller */
+	}
 }
 
 
@@ -77,8 +83,7 @@ td {
 	width: 60px !important;
 }
 
-.escudo_logo_medio
- {
+.escudo_logo_medio {
 	width: 30px !important;
 }
 
@@ -196,7 +201,8 @@ escudo_logo_medio
 	visibility: hidden;
 	animation: spin 1s infinite linear;
 	transform: scale(1.2);
-    transform-origin: center center;
+	transform-origin: center center;
+
 }
 
 #loading.display {
@@ -212,3 +218,17 @@ escudo_logo_medio
 		transform: rotate(360deg);
 	}
 }
+
+/* Zoom-in effect on load */
+@keyframes zoomIn {
+	0% {
+		transform: scale(0);
+		opacity: 0;
+	}
+
+	100% {
+		transform: scale(1);
+		opacity: 1;
+	}
+}
+

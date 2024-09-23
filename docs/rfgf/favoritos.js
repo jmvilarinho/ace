@@ -2,7 +2,7 @@ async function load_favoritos() {
 	displayLoading();
 	setCookie('pagina', 'favoritos', 30)
 
-	favoritos = ['13810265', '10293316', '2747']
+	favoritos = getCookieArray('favoritosItems');
 
 	var arrayLength = favoritos.length;
 	$('#results').html('');
@@ -10,8 +10,23 @@ async function load_favoritos() {
 	add_back('favoritos');
 	for (var i = 0; i < arrayLength; i++) {
 		//Do something
-		data = await get_data_equipo(favoritos[i])
-		arr = arr.concat(show_portada_equipo_favoritos(data.data, favoritos[i]));
+		try {
+			data = await get_data_equipo(favoritos[i])
+			arr = arr.concat(show_portada_equipo_favoritos(data.data, favoritos[i]));
+		} catch (e) {
+			// statements to handle any exceptions
+			logMyErrors(e); // pass exception object to error handler
+			arr = arr.concat({
+				data: 33284008833000,
+				html: '<table class="portada">'
+					+ '<tr>'
+					+ '<th colspan=2  align="absmiddle">Error: ' + favoritos[i] + '</th>'
+					+ '</tr>'
+					+ '<tr>'
+					+ '<td bgcolor="#e8e5e4" colspan=2>Non hai datos</td>'
+					+ '</table>'
+			});
+		}
 	}
 
 	arr.sort((a, b) => {
@@ -30,9 +45,46 @@ async function load_favoritos() {
 			$('#results').append('<br>');
 		$('#results').append(arr[i].html);
 	}
+
+	var arrayLength = equipos.length;
+	$('#results').append('<hr><b>Lista Favoritos</b><br>');
+	for (var i = 0; i < arrayLength; i++) {
+		checked='';
+		if ( favoritos.indexOf(''+equipos[i].id) >= 0 ){
+			checked = 'checked';
+		}
+		$('#results').append('<label>'
+			+ '<input type="checkbox" '+checked+' value="' + equipos[i].id + '" onclick="setArrayCookie(this)">' + equipos[i].name
+			+ '&nbsp;</label><br>'
+		);
+	}
+	$('#results').append('<hr>');
+
+
 	add_back('favoritos');
 	end_page();
 	hideLoading();
+}
+
+// Function to update the cookie when checkboxes are clicked
+function setArrayCookie(checkbox) {
+	// Get the current cookie values as an array
+	var selectedItems = getCookieArray('favoritosItems');
+
+	if (checkbox.checked) {
+		// Add the checkbox value to the array if checked
+		selectedItems.push(checkbox.value);
+	} else {
+		// Remove the checkbox value from the array if unchecked
+		var index = selectedItems.indexOf(checkbox.value);
+		if (index > -1) {
+			selectedItems.splice(index, 1);
+		}
+	}
+
+	// Set the updated array as a cookie
+	console.log(JSON.stringify(selectedItems));
+	setCookie('favoritosItems', JSON.stringify(selectedItems), 30);
 }
 
 
@@ -77,7 +129,7 @@ function show_portada_equipo_favoritos(data, cod_equipo) {
 				if (item.hora)
 					hora += ' ' + item.hora;
 				else
-					hora += ' 22:00'
+					hora += ' 12:00'
 				var date_obj = new Date(hora.replace(pattern, '$3-$2-$1 $4:$5'));
 				var date_now_obj = new Date(Date.now())
 				if (isSameWeek(date_obj, date_now_obj)) {

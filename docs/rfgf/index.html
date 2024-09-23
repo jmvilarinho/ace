@@ -2,6 +2,49 @@
 <html lang="es">
 
 <head>
+  <script>
+    equipos = [
+      {
+        id: 5514262,
+        name: 'Jogafan Senior'
+      },
+      {
+        id: 13810265,
+        name: 'Jogafan Juvenil'
+      },
+      {
+        id: 10293250,
+        name: 'Jogafan Cadete'
+      },
+      {
+        id: 10293316,
+        name: 'Jogafan Infantil'
+      },
+      {
+        id: 7098295,
+        name: 'Jogafan Alevin'
+      },
+      {
+        id: 748,
+        name: 'Ordenes Senior'
+      },
+      {
+        id: 750,
+        name: 'Ordenes Cadete'
+      },
+      {
+        id: 2747,
+        name: 'Oroso Cadete'
+      },
+      {
+        id: 172,
+        name: 'Victoria Infantil'
+      }
+
+    ]
+
+  </script>
+
   <meta charset="utf-8">
   <title>RFGF</title>
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
@@ -19,24 +62,18 @@
 
   <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="javascript:closeNav('5514262')">Jogafan Senior</a>
-    <a href="javascript:closeNav('13810265')">Jogafan Juvenil</a>
-    <a href="javascript:closeNav('10293250')">Jogafan Cadete</a>
-    <a href="javascript:closeNav('10293316')">Jogafan Infantil</a>
-    <a href="javascript:closeNav('7098295')">Jogafan Alevin</a>
-    <a href="javascript:closeNav('748')">Ordenes Senior</a>
-    <a href="javascript:closeNav('750')">Ordenes Cadete</a>
-    <a href="javascript:closeNav('2747')">Oroso Cadete</a>
-    <a href="javascript:closeNav('172')">Victoria Infantil</a>
   </div>
 
   <div id="loading" class="float_center"></div>
   <div id="results" style="overflow-x: auto;white-space: nowrap;">
-  <!-- Use any element to open the sidenav -->
-  <input type="button" class="back_button" id="field" value="Menú" onclick="openNav()">
-
+    <!-- Use any element to open the sidenav -->
+    <input type="button" class="back_button" id="field" value="Menú" onclick="openNav()">
   </div>
   <script>
+    var arrayLength = equipos.length;
+    for (var i = 0; i < arrayLength; i++) {
+      $('#mySidenav').append('<a href="javascript:closeNav(\'' + equipos[i].id + '\')">' + equipos[i].name + '</a>');
+    }
     update_vista();
   </script>
 </body>

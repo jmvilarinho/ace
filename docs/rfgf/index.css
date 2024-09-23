@@ -58,6 +58,13 @@ td {
 	width: 60px !important;
 }
 
+.escudo_logo_medio
+ {
+	width: 30px !important;
+}
+
+escudo_logo_medio
+
 /* Style the tab */
 .tab {
 	overflow: hidden;

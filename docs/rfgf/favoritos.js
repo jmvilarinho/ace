@@ -6,16 +6,35 @@ async function load_favoritos() {
 
 	var arrayLength = favoritos.length;
 	$('#results').html('');
+	var arr = [];
 	add_back('favoritos');
 	for (var i = 0; i < arrayLength; i++) {
 		//Do something
 		data = await get_data_equipo(favoritos[i])
-		show_portada_equipo_favoritos( data.nombre_equipo + ' - <b>' + item.competicion, data.data, favoritos[i]);
+		arr = arr.concat(show_portada_equipo_favoritos(data.data, favoritos[i]));
+	}
+
+	arr.sort((a, b) => {
+		if (a.data < b.data) {
+			return -1;
+		}
+		if (a.data > b.data) {
+			return 1;
+		}
+		// dates must be equal
+		return 0;
+	});
+	var arrayLength = arr.length;
+	for (var i = 0; i < arrayLength; i++) {
+		if (1 > 0)
+			$('#results').append('<br>');
+		$('#results').append(arr[i].html);
 	}
 	add_back('favoritos');
 	end_page();
 	hideLoading();
 }
+
 
 async function get_data_equipo(cod_equipo) {
 	var url = "https://pevbxmstzqkdtno6y4ocsumnz40kbdac.lambda-url.eu-west-1.on.aws/?type=getequipo&codequipo=" + cod_equipo;
@@ -42,33 +61,52 @@ async function get_data_equipo(cod_equipo) {
 	return data
 }
 
-function show_portada_equipo_favoritos(title, data, cod_equipo) {
+function show_portada_equipo_favoritos(data, cod_equipo) {
 	lineas = 0;
-	$('#results').append('<br>');
+	map = {}
+	var arr = [];
 
-	jQuery.each(data.competiciones_equipo, function (index, item) {
-		cont = 0;
-		jQuery.each(item.partidos, function (index, item) {
-			cont += 1
-			var pattern = /(\d{2})\-(\d{2})\-(\d{4})/;
-			var dt = new Date(item.fecha.replace(pattern, '$3-$2-$1 12:00'));
-			if (isSameWeek(dt, new Date(Date.now()))) {
-				lineas += 1;
-				show_portada_data_favoritos(title, item);
-				return false;
-			}
-			previous = item;
+	if (data.competiciones_equipo.length > 0)
+		jQuery.each(data.competiciones_equipo, function (index, item) {
+			title = data.nombre_equipo + ' - ' + item.categoria;
+			cont = 0;
+			jQuery.each(item.partidos, function (index, item) {
+				cont += 1
+				var pattern = /(\d{2})\-(\d{2})\-(\d{4}) (\d{2})\:(\d{2})/;
+				hora = item.fecha;
+				if (item.hora)
+					hora += ' ' + item.hora;
+				else
+					hora += ' 12:00'
+				var date_obj = new Date(hora.replace(pattern, '$3-$2-$1 $4:$5'));
+				var date_now_obj = new Date(Date.now())
+				if (isSameWeek(date_obj, date_now_obj)) {
+					lineas += 1;
+					arr.push({
+						data: date_obj.getTime(),
+						html: show_portada_data_favoritos(title, item)
+					});
+					return false;
+				}
+				previous = item;
+			});
 		});
-	});
+	else
+		title = data.nombre_equipo;
 
 	if (lineas == 0)
-		$('#results').append('<table class="portada">'
-			+ '<tr>'
-			+ '<th colspan=2  align="absmiddle">' + title + '</th>'
-			+ '</tr>'
-			+ '<tr>'
-			+ '<td bgcolor="#e8e5e4" colspan=2>Non hai datos</td>'
-			+ '</table>');
+		arr.push({
+			data: 33284008833000,
+			html: '<table class="portada">'
+				+ '<tr>'
+				+ '<th colspan=2  align="absmiddle">' + title + '</th>'
+				+ '</tr>'
+				+ '<tr>'
+				+ '<td bgcolor="#e8e5e4" colspan=2>Non hai datos</td>'
+				+ '</table>'
+		});
+
+	return arr;
 
 }
 
@@ -106,7 +144,7 @@ function show_portada_data_favoritos(title, item) {
 			+ '</tr>';
 	}
 
-	$('#results').append('<table class="portada">'
+	return '<table class="portada">'
 		+ '<tr>'
 		+ '<th colspan=2  align="absmiddle">' + title + '</th>'
 		+ '</tr>'
@@ -117,5 +155,5 @@ function show_portada_data_favoritos(title, item) {
 		+ '<td bgcolor="#e8e5e4" colspan=2><b>Campo:</b>&nbsp;' + campo + '</td>'
 		+ '</tr>'
 		+ datos
-		+ '</table>');
+		+ '</table>';
 }

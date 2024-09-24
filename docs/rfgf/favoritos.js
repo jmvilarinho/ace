@@ -1,6 +1,6 @@
 var favorite_load = [];
 
-function load_favoritos() {
+async function load_favoritos() {
 	displayLoading();
 	setCookie('paginaRFGF', 'favoritos', 30)
 
@@ -41,6 +41,14 @@ function load_favoritos() {
 	add_back('favoritos');
 	end_page();
 
+	var x = 0;
+	while (x < 60000) {
+		if (favorite_load.length <= 0)
+			break
+		// sleep 500 ms
+		await new Promise(r => setTimeout(r, 500));
+		x += 500;
+	}
 	hideLoading();
 }
 

@@ -1,11 +1,12 @@
+var favorite_load = [];
 
 function load_favoritos() {
 	displayLoading();
 	setCookie('paginaRFGF', 'favoritos', 30)
 
 	favoritos = getCookieArray('favoritosItems');
-	if ( favoritos.length <= 0){
-		favoritos = ["13810265","10293316"];
+	if (favoritos.length <= 0) {
+		favoritos = ["13810265", "10293316"];
 		setCookie('favoritosItems', JSON.stringify(favoritos), 30);
 	}
 
@@ -15,20 +16,22 @@ function load_favoritos() {
 	var arr = [];
 	add_back('favoritos');
 	$('#results').append('<div id="favoritos_tabla"></div><div id="favoritos_list"></div>');
+	favorite_load = [];
 	for (var i = 0; i < arrayLength; i++) {
 		//Do something
+		favorite_load.push(favoritos[i]);
 		get_data_equipo_async(favoritos[i])
 	}
 
 	var arrayLength = equipos.length;
 	$('#favoritos_list').append('<hr><b>Lista Favoritos</b><br>');
 	for (var i = 0; i < arrayLength; i++) {
-		checked='';
-		if ( favoritos.indexOf(''+equipos[i].id) >= 0 ){
+		checked = '';
+		if (favoritos.indexOf('' + equipos[i].id) >= 0) {
 			checked = 'checked';
 		}
 		$('#favoritos_list').append('<label>'
-			+ '<input type="checkbox" '+checked+' value="' + equipos[i].id + '" onclick="setArrayCookie(this)">' + equipos[i].name
+			+ '<input type="checkbox" ' + checked + ' value="' + equipos[i].id + '" onclick="setArrayCookie(this)">' + equipos[i].name
 			+ '&nbsp;</label><br>'
 		);
 	}
@@ -37,6 +40,7 @@ function load_favoritos() {
 
 	add_back('favoritos');
 	end_page();
+
 	hideLoading();
 }
 
@@ -45,8 +49,8 @@ async function load_favoritos_sorted() {
 	setCookie('paginaRFGF', 'favoritos', 30)
 
 	favoritos = getCookieArray('favoritosItems');
-	if ( favoritos.length <= 0){
-		favoritos = ["13810265","10293316"];
+	if (favoritos.length <= 0) {
+		favoritos = ["13810265", "10293316"];
 		setCookie('favoritosItems', JSON.stringify(favoritos), 30);
 	}
 
@@ -96,12 +100,12 @@ async function load_favoritos_sorted() {
 	var arrayLength = equipos.length;
 	$('#results').append('<hr><b>Lista Favoritos</b><br>');
 	for (var i = 0; i < arrayLength; i++) {
-		checked='';
-		if ( favoritos.indexOf(''+equipos[i].id) >= 0 ){
+		checked = '';
+		if (favoritos.indexOf('' + equipos[i].id) >= 0) {
 			checked = 'checked';
 		}
 		$('#results').append('<label>'
-			+ '<input type="checkbox" '+checked+' value="' + equipos[i].id + '" onclick="setArrayCookie(this)">' + equipos[i].name
+			+ '<input type="checkbox" ' + checked + ' value="' + equipos[i].id + '" onclick="setArrayCookie(this)">' + equipos[i].name
 			+ '&nbsp;</label><br>'
 		);
 	}
@@ -111,6 +115,14 @@ async function load_favoritos_sorted() {
 	add_back('favoritos');
 	end_page();
 	hideLoading();
+	var x = 0;
+	while (x < 60000) {
+		if (favorite_load.length <= 0)
+			break
+		// sleep 500 ms
+		await new Promise(r => setTimeout(r, 500));
+		x += 500;
+	}
 }
 
 // Function to update the cookie when checkboxes are clicked
@@ -142,6 +154,7 @@ async function get_data_equipo_async(cod_equipo) {
 	fetch(url)
 		.then(response => {
 			if (!response.ok) {
+				favorite_load.pop();
 				throw new Error('Network response was not ok');  // Handle HTTP errors
 			}
 			return response.json();
@@ -150,13 +163,15 @@ async function get_data_equipo_async(cod_equipo) {
 			if (data) {
 				show_portada_equipo_favoritos(data.data, cod_equipo).forEach((element) => {
 					$('#favoritos_tabla').append(element['html']);
-			});
-
+				});
+				favorite_load.pop();
 			} else {
+				favorite_load.pop();
 				throw new Error('No data found in response');
 			}
 		})
 		.catch(error => {
+			favorite_load.pop();
 			console.error('Fetch error:', error.message);  // Log the error
 		});
 }
@@ -222,10 +237,10 @@ function show_portada_equipo_favoritos(data, cod_equipo) {
 	if (lineas == 0) {
 		head = title;
 		var arrayLength = equipos.length;
-    for (var i = 0; i < arrayLength; i++) {
-    	if ( equipos[i].id == cod_equipo )
-    		head = equipos[i].name;
-    }
+		for (var i = 0; i < arrayLength; i++) {
+			if (equipos[i].id == cod_equipo)
+				head = equipos[i].name;
+		}
 		arr.push({
 			data: 33284008833000,
 			html: '<table class="portada">'

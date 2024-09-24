@@ -220,11 +220,17 @@ function show_portada_equipo_favoritos(data, cod_equipo) {
 		title = data.nombre_equipo;
 
 	if (lineas == 0)
+		head = title;
+		var arrayLength = equipos.length;
+    for (var i = 0; i < arrayLength; i++) {
+    	if ( equipos[i].id == cod_equipo )
+    	head = equipos[i].name;
+    }
 		arr.push({
 			data: 33284008833000,
 			html: '<table class="portada">'
 				+ '<tr>'
-				+ '<th colspan=2  align="absmiddle">' + title + '</th>'
+				+ '<th colspan=2  align="absmiddle">' + head + '</th>'
 				+ '</tr>'
 				+ '<tr>'
 				+ '<td bgcolor="#e8e5e4" colspan=2>Non hai datos</td>'

@@ -1,7 +1,7 @@
 
 function load_favoritos() {
 	displayLoading();
-	setCookie('pagina', 'favoritos', 30)
+	setCookie('paginaRFGF', 'favoritos', 30)
 
 	favoritos = getCookieArray('favoritosItems');
 	if ( favoritos.length <= 0){
@@ -42,7 +42,7 @@ function load_favoritos() {
 
 async function load_favoritos_sorted() {
 	displayLoading();
-	setCookie('pagina', 'favoritos', 30)
+	setCookie('paginaRFGF', 'favoritos', 30)
 
 	favoritos = getCookieArray('favoritosItems');
 	if ( favoritos.length <= 0){

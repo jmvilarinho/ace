@@ -1,6 +1,7 @@
 
 async function load_equipo_home(cod_equipo) {
 	displayLoading();
+	setCookie('paginaRFGF', 'favoritos', 30)
 
 	var url = remote_url + "?type=getequipo&codequipo=" + cod_equipo;
 

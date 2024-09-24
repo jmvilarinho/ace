@@ -6,7 +6,7 @@ function update_vista() {
 	else if (searchParams.has('cod_grupo')) {
 		load_clasificacion(searchParams.get('cod_grupo'))
 	} else {
-		var pagina = getCookie('pagina');
+		var pagina = getCookie('paginaRFGF');
 		if (pagina) {
 			switch (pagina) {
 				case 'favoritos':
@@ -79,7 +79,7 @@ function isSameWeek(date1, date2) {
 
 async function load_equipo(cod_equipo) {
 	displayLoading();
-	setCookie('pagina', 'partidos', 30)
+	setCookie('paginaRFGF', 'partidos', 30)
 	setCookie('cod_equipo', cod_equipo, 30)
 
 	var url = remote_url + "?type=getequipo&codequipo=" + cod_equipo;
@@ -110,7 +110,7 @@ async function load_equipo(cod_equipo) {
 
 async function load_clasificacion(cod_grupo, cod_equipo) {
 	displayLoading();
-	setCookie('pagina', 'clasificacion', 30)
+	setCookie('paginaRFGF', 'clasificacion', 30)
 	setCookie('cod_equipo', cod_equipo, 30)
 	setCookie('cod_grupo', cod_grupo, 30)
 
@@ -142,7 +142,7 @@ async function load_clasificacion(cod_grupo, cod_equipo) {
 
 async function load_goleadores(codcompeticion, codgrupo, cod_equipo) {
 	displayLoading();
-	setCookie('pagina', 'goleadores', 30)
+	setCookie('paginaRFGF', 'goleadores', 30)
 	setCookie('cod_equipo', cod_equipo, 30)
 	setCookie('cod_grupo', codgrupo, 30)
 	setCookie('cod_competicion', codcompeticion, 30)

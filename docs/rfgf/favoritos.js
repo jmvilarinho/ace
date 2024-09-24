@@ -46,8 +46,26 @@ async function load_favoritos() {
 		if (favorite_load.length <= 0)
 			break
 		// sleep 300 ms
-		await new Promise(r => setTimeout(r, 500));
+		await new Promise(r => setTimeout(r, 300));
 		x += 500;
+	}
+
+	//Ordenar resultados
+	try {
+		var toSort = document.getElementById('favoritos_tabla').children;
+		console.log(toSort);
+		toSort = Array.prototype.slice.call(toSort, 0);
+		toSort.sort(function (a, b) {
+			var aord = +a.id;
+			var bord = +b.id;
+			return aord - bord;
+		});
+		console.log(toSort);
+
+		const parentElement = document.getElementById('favoritos_tabla');
+		toSort.forEach(element => parentElement.appendChild(element));
+	} catch (e) {
+		console.log(e);
 	}
 	hideLoading();
 }
@@ -232,7 +250,7 @@ function show_portada_equipo_favoritos(data, cod_equipo) {
 					lineas += 1;
 					arr.push({
 						data: date_obj.getTime(),
-						html: show_portada_data_favoritos(title, item)
+						html: show_portada_data_favoritos(title, item, date_obj.getTime())
 					});
 					return false;
 				}
@@ -251,7 +269,7 @@ function show_portada_equipo_favoritos(data, cod_equipo) {
 		}
 		arr.push({
 			data: 33284008833000,
-			html: '<table class="portada">'
+			html: '<table id="33284008833000" class="portada">'
 				+ '<tr>'
 				+ '<th colspan=2  align="absmiddle">' + head + '</th>'
 				+ '</tr>'
@@ -266,7 +284,7 @@ function show_portada_equipo_favoritos(data, cod_equipo) {
 }
 
 
-function show_portada_data_favoritos(title, item) {
+function show_portada_data_favoritos(title, item, id) {
 	if (item.hora)
 		hora = ' - ' + item.hora;
 	else
@@ -299,7 +317,7 @@ function show_portada_data_favoritos(title, item) {
 			+ '</tr>';
 	}
 
-	return '<table class="portada">'
+	return '<table id="' + id + '" class="portada">'
 		+ '<tr>'
 		+ '<th colspan=2  align="absmiddle">' + title + '</th>'
 		+ '</tr>'

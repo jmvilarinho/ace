@@ -45,7 +45,7 @@ async function load_favoritos() {
 	while (x < 60000) {
 		if (favorite_load.length <= 0)
 			break
-		// sleep 500 ms
+		// sleep 300 ms
 		await new Promise(r => setTimeout(r, 500));
 		x += 500;
 	}

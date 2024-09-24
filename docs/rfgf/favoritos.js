@@ -219,7 +219,7 @@ function show_portada_equipo_favoritos(data, cod_equipo) {
 	else
 		title = data.nombre_equipo;
 
-	if (lineas == 0)
+	if (lineas == 0) {
 		head = title;
 		var arrayLength = equipos.length;
     for (var i = 0; i < arrayLength; i++) {
@@ -236,6 +236,7 @@ function show_portada_equipo_favoritos(data, cod_equipo) {
 				+ '<td bgcolor="#e8e5e4" colspan=2>Non hai datos</td>'
 				+ '</table>'
 		});
+	}
 
 	return arr;
 

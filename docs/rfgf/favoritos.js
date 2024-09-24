@@ -1,4 +1,5 @@
-async function load_favoritos() {
+
+function load_favoritos() {
 	displayLoading();
 	setCookie('pagina', 'favoritos', 30)
 
@@ -9,7 +10,48 @@ async function load_favoritos() {
 	}
 
 	var arrayLength = favoritos.length;
-	
+
+	$('#results').html('');
+	var arr = [];
+	add_back('favoritos');
+	$('#results').append('<div id="favoritos_tabla"></div><div id="favoritos_list"></div>');
+	for (var i = 0; i < arrayLength; i++) {
+		//Do something
+		get_data_equipo_async(favoritos[i])
+	}
+
+	var arrayLength = equipos.length;
+	$('#favoritos_list').append('<hr><b>Lista Favoritos</b><br>');
+	for (var i = 0; i < arrayLength; i++) {
+		checked='';
+		if ( favoritos.indexOf(''+equipos[i].id) >= 0 ){
+			checked = 'checked';
+		}
+		$('#favoritos_list').append('<label>'
+			+ '<input type="checkbox" '+checked+' value="' + equipos[i].id + '" onclick="setArrayCookie(this)">' + equipos[i].name
+			+ '&nbsp;</label><br>'
+		);
+	}
+	$('#results').append('<hr>');
+
+
+	add_back('favoritos');
+	end_page();
+	hideLoading();
+}
+
+async function load_favoritos_sorted() {
+	displayLoading();
+	setCookie('pagina', 'favoritos', 30)
+
+	favoritos = getCookieArray('favoritosItems');
+	if ( favoritos.length <= 0){
+		favoritos = ["13810265","10293316"];
+		setCookie('favoritosItems', JSON.stringify(favoritos), 30);
+	}
+
+	var arrayLength = favoritos.length;
+
 	$('#results').html('');
 	var arr = [];
 	add_back('favoritos');
@@ -92,9 +134,35 @@ function setArrayCookie(checkbox) {
 	setCookie('favoritosItems', JSON.stringify(selectedItems), 30);
 }
 
+async function get_data_equipo_async(cod_equipo) {
+	var url = remote_url + "?type=getequipo&codequipo=" + cod_equipo;
+
+	console.log("GET " + url);
+
+	fetch(url)
+		.then(response => {
+			if (!response.ok) {
+				throw new Error('Network response was not ok');  // Handle HTTP errors
+			}
+			return response.json();
+		})
+		.then(data => {
+			if (data) {
+				show_portada_equipo_favoritos(data.data, cod_equipo).forEach((element) => {
+					$('#favoritos_tabla').append(element['html']);
+			});
+
+			} else {
+				throw new Error('No data found in response');
+			}
+		})
+		.catch(error => {
+			console.error('Fetch error:', error.message);  // Log the error
+		});
+}
 
 async function get_data_equipo(cod_equipo) {
-	var url = "https://pevbxmstzqkdtno6y4ocsumnz40kbdac.lambda-url.eu-west-1.on.aws/?type=getequipo&codequipo=" + cod_equipo;
+	var url = remote_url + "?type=getequipo&codequipo=" + cod_equipo;
 
 	console.log("GET " + url);
 

@@ -2,7 +2,7 @@
 async function load_equipo_home(cod_equipo) {
 	displayLoading();
 
-	var url = "https://pevbxmstzqkdtno6y4ocsumnz40kbdac.lambda-url.eu-west-1.on.aws/?type=getequipo&codequipo=" + cod_equipo;
+	var url = remote_url + "?type=getequipo&codequipo=" + cod_equipo;
 
 	console.log("GET " + url);
 	await fetch(url)

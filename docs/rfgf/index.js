@@ -82,7 +82,7 @@ async function load_equipo(cod_equipo) {
 	setCookie('pagina', 'partidos', 30)
 	setCookie('cod_equipo', cod_equipo, 30)
 
-	var url = "https://pevbxmstzqkdtno6y4ocsumnz40kbdac.lambda-url.eu-west-1.on.aws/?type=getequipo&codequipo=" + cod_equipo;
+	var url = remote_url + "?type=getequipo&codequipo=" + cod_equipo;
 
 	console.log("GET " + url);
 	await fetch(url)
@@ -114,7 +114,7 @@ async function load_clasificacion(cod_grupo, cod_equipo) {
 	setCookie('cod_equipo', cod_equipo, 30)
 	setCookie('cod_grupo', cod_grupo, 30)
 
-	var url = "https://pevbxmstzqkdtno6y4ocsumnz40kbdac.lambda-url.eu-west-1.on.aws/?type=getclasificacion&cod_grupo=" + cod_grupo;
+	var url = remote_url + "/?type=getclasificacion&codgrupo=" + cod_grupo;
 
 	console.log("GET " + url);
 	await fetch(url)
@@ -147,7 +147,7 @@ async function load_goleadores(codcompeticion, codgrupo, cod_equipo) {
 	setCookie('cod_grupo', codgrupo, 30)
 	setCookie('cod_competicion', codcompeticion, 30)
 
-	var url = "https://pevbxmstzqkdtno6y4ocsumnz40kbdac.lambda-url.eu-west-1.on.aws/?type=getgoleadores&codcompeticion=" + codcompeticion + "&codgrupo=" + codgrupo;
+	var url = remote_url + "?type=getgoleadores&codcompeticion=" + codcompeticion + "&codgrupo=" + codgrupo;
 
 	console.log("GET " + url);
 	await fetch(url)

@@ -33,14 +33,14 @@ function isSameWeek(date1, date2) {
 	return year1 === year2 && week1 === week2;
 }
 
-
 // showing loading
 function displayLoading() {
 	loader = document.querySelector("#loading");
 	loader.classList.add("display");
+	$("#spinner-div").show()
 	// to stop loading after some time
 	setTimeout(() => {
-		loader.classList.remove("display");
+		hideLoading();
 	}, 300000);
 }
 
@@ -49,6 +49,7 @@ async function hideLoading() {
 	//const element = await waitForElementToExist('#endPage');
 	loader = document.querySelector("#loading");
 	loader.classList.remove("display");
+	$("#spinner-div").hide();
 }
 
 
@@ -137,7 +138,7 @@ function getCookie(name) {
 function getCookieArray(cname) {
 	var cookieValue = getCookie(cname);
 	return cookieValue ? JSON.parse(cookieValue) : [];
-  }
+}
 
 function eraseCookie(name) {
 	document.cookie = name + '=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';

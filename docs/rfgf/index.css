@@ -201,7 +201,7 @@ escudo_logo_medio
 	animation: spin 1s infinite linear;
 	transform: scale(1.2);
 	transform-origin: center center;
-	position: absolute;
+	position: relative;
 }
 
 #loading.display {

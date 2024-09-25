@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
+.back_button {
+	background-color: #52570f;
+	border: none;
+	color: white;
+	text-align: center;
+	display: inline-block;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
 a {
 	text-decoration: none;
 	outline: none;

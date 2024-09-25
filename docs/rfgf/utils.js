@@ -95,6 +95,19 @@ function add_back(pagina) {
 		onclick: "load_favoritos()"
 	});
 	$('#results').append(boton_favoritos);
+
+	var boton_favoritos = $('<input/>').attr({
+		type: "button",
+		class: "back_button",
+		id: "field",
+		value: 'Meteo',
+		onclick: "openInNewTab('../')"
+	});
+	$('#results').append(boton_favoritos);
+}
+
+function openInNewTab(url) {
+	window.open(url, '_blank').focus();
 }
 
 function end_page() {

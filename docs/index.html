@@ -6,7 +6,7 @@
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-PMCWDDX565"></script>
 	<script src="jquery-3.7.1.min.js"></script>
 	<script src="hls.light.min.js"></script>
-	<script src="index.js?nocache=2"></script>
+	<script src="index.js?nocache=3"></script>
 	<title>Webcam Galicia</title>
 	<meta name="author" content="JM Vilariño" />
 	<link rel="icon" href="/ace/favicon.ico" type="image/x-icon">
@@ -25,6 +25,7 @@
 </head>
 
 <body>
+
 	<table style="width:100%; border: none; border-collapse:collapse;" cellspacing="0" cellpadding="0">
 		<tr>
 			<td colspan="2" style="text-align: center; border: none;">
@@ -35,12 +36,13 @@
 		</tr>
 		<tr>
 			<td style="text-align: left; border: none;">
-				<a target="meteogalicia" href="https://www.meteogalicia.gal/web/predicion/galicia/0">Meteogalicia</a>
+				<input type="button" class="back_button" id="field" value="Meteogalicia"
+					onclick="openInNewTab('https://www.meteogalicia.gal/web/predicion/galicia/0')">
+				<input type="button" class="back_button" id="field" value="Fútbol"
+					onclick="openInNewTab('/rfgf/')">
 			</td>
 			<td style="text-align: right;border: none;">
-				<a class="updated" id="myLink" href="javascript:void(0)" onclick="CambiaVista(event);">
-					<div id="OtherPage"></div>
-				</a>
+				<div id="OtherPage"></div>
 			</td>
 		</tr>
 	</table>

@@ -9,6 +9,11 @@ function CambiaVista(e) {
 	return false;
 };
 
+function openInNewTab(url) {
+	window.open(url, '_blank').focus();
+}
+
+
 function CambiaVistaUpdate(pagina) {
 	if (!pagina) {
 		pagina = 'praias'
@@ -17,16 +22,30 @@ function CambiaVistaUpdate(pagina) {
 	contenido = pagina + '.html'
 	console.log('Cargando página: ' + contenido)
 	setCookie('pagina', pagina, 30);
-	if (pagina == 'praias') {
-		link = 'Poboacions'
-	} else {
-		link = 'Praias'
-	}
+
 
 	$(function () {
 		$("#DivContent").load(contenido);
 	});
-	$("#OtherPage").html(link);
+	$("#OtherPage").html('');
+
+	var boton_favoritos = $('<input/>').attr({
+		type: "button",
+		class: (pagina == 'praias') ? 'none' : "back_button",
+		id: "field",
+		value: 'Praias',
+		onclick: "CambiaVistaUpdate('praias')"
+	});
+	$('#OtherPage').append(boton_favoritos);
+
+	var boton_favoritos = $('<input/>').attr({
+		type: "button",
+		class: (pagina == 'poboacions') ? 'none' : "back_button",
+		id: "field",
+		value: 'Poboacions',
+		onclick: "CambiaVistaUpdate('poboacions')"
+	});
+	$('#OtherPage').append(boton_favoritos);
 };
 
 function includeHTML(file) {

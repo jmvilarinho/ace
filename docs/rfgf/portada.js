@@ -43,7 +43,7 @@ async function load_portada_equipo(cod_equipo) {
 	setCookie('paginaRFGF', 'portada', 30)
 	setCookie('cod_equipo', cod_equipo, 30)
 
-	var url = remote_url+"/?type=getequipo&codequipo=" + cod_equipo;
+	var url = remote_url+"?type=getequipo&codequipo=" + cod_equipo;
 
 	console.log("GET " + url);
 	await fetch(url)

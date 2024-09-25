@@ -77,7 +77,7 @@ async function load_clasificacion(cod_grupo, cod_equipo) {
 	setCookie('cod_equipo', cod_equipo, 30)
 	setCookie('cod_grupo', cod_grupo, 30)
 
-	var url = remote_url + "/?type=getclasificacion&codgrupo=" + cod_grupo;
+	var url = remote_url + "?type=getclasificacion&codgrupo=" + cod_grupo;
 
 	console.log("GET " + url);
 	await fetch(url)

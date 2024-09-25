@@ -2,7 +2,7 @@
 <html lang="es">
 
 <head>
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-PMCWDDX565"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PMCWDDX565"></script>
   <script>
     equipos = [
       {
@@ -61,7 +61,7 @@
   <link rel="icon" href="favicon.ico" type="image/x-icon">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link rel="stylesheet" type="text/css" href="index.css" />
-  <script type="text/javascript" src="../jquery-3.7.1.min.js"></script>
+  <script type="text/javascript" src="jquery-3.7.1.min.js"></script>
   <script type="text/javascript" src="utils.js?nocache=14"></script>
   <script type="text/javascript" src="index.js?nocache=13"></script>
   <script type="text/javascript" src="portada.js?nocache=13"></script>
@@ -69,15 +69,14 @@
 </head>
 
 <body style="background-color:#598381; margin:4px; padding:4px">
-
   <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   </div>
-<div id="spinner-div" class="pt-5">
-  <div class="spinner-border text-primary" role="status">
+  <div id="spinner-div" class="pt-5">
+    <div id="loading" class="float_center"></div>
+    <div class="spinner-border text-primary" role="status">
+    </div>
   </div>
-</div>
-  <div id="loading" class="float_center"></div>
   <div id="results" style="overflow-x: auto;white-space: nowrap;">
     <!-- Use any element to open the sidenav -->
     <input type="button" class="back_button" id="field" value="Menú" onclick="openNav()">

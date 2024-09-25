@@ -189,19 +189,27 @@ escudo_logo_medio
 	}
 }
 
+
+
 /* creating css loader */
 
+#pt-5 {
+	position: relative;
+  }
+
 #loading {
+	visibility: hidden;
 	width: 2rem;
 	height: 2rem;
 	border: 5px solid #f3f3f3;
 	border-top: 6px solid #9c41f2;
+	border-left: 6px solid #9c41f2;
 	border-radius: 100%;
-	visibility: hidden;
 	animation: spin 1s infinite linear;
 	transform: scale(1.2);
 	transform-origin: center center;
 	position: relative;
+	display:inline-block;
 }
 
 #loading.display {

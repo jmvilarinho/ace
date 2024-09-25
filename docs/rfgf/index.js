@@ -40,43 +40,6 @@ function update_vista() {
 	}
 }
 
-/* Set the width of the side navigation to 250px */
-function openNav() {
-	document.getElementById("mySidenav").style.width = "250px";
-}
-
-/* Set the width of the side navigation to 0 */
-function closeNav(id = '0') {
-	if (id != '0')
-		load_portada_equipo(id);
-	document.getElementById("mySidenav").style.width = "0";
-}
-
-function getWeekNumber(date) {
-	const tempDate = new Date(date.getFullYear(), date.getMonth(), date.getDate());
-	// Set the day to Thursday (the middle of the week) to avoid edge cases near year boundaries
-	tempDate.setDate(tempDate.getDate() + 4 - (tempDate.getDay() || 7));
-
-	// Calculate the first day of the year
-	const yearStart = new Date(tempDate.getFullYear(), 0, 1);
-
-	// Calculate the week number
-	const weekNo = Math.ceil(((tempDate - yearStart) / 86400000 + 1) / 7);
-	return weekNo;
-}
-
-function isSameWeek(date1, date2) {
-	const year1 = date1.getFullYear();
-	const year2 = date2.getFullYear();
-
-	const week1 = getWeekNumber(date1);
-	const week2 = getWeekNumber(date2);
-
-	return year1 === year2 && week1 === week2;
-}
-
-
-
 async function load_equipo(cod_equipo) {
 	displayLoading();
 	setCookie('paginaRFGF', 'partidos', 30)
@@ -257,9 +220,6 @@ function show_clasificacion(data, cod_grupo, cod_equipo) {
 
 		$('#results').append('<tr>');
 		try {
-			if (cont == 1) {
-				console.log(data.promociones);
-			}
 
 			if (parseInt(data.promociones[0].orden) == 0 && data.promociones[0].nombre_promocion == 'ASCENSO') {
 				if (parseInt(item.posicion) <= 1)

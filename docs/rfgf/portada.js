@@ -101,7 +101,13 @@ function show_portada_equipo(data, cod_equipo) {
 	});
 
 	if (lineas == 0)
-		$('#results').append('<b>Equipo:</b> ' + data.nombre_equipo + '<br><br><br><b>Non hai datos</b><br><br><br>');
+		var arrayLength = equipos.length;
+		nombre=''
+		for (var i = 0; i < arrayLength; i++) {
+			if (equipos[i].id == cod_equipo)
+				nombre = ' para '+equipos[i].name;
+		}
+		$('#results').append('<b>Equipo:</b> ' + data.nombre_equipo + '<br><br><br><b>Non hai datos'+nombre+'</b><br><br><br>');
 
 }
 function dia_str(fecha) {

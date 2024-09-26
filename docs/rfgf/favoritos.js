@@ -166,8 +166,7 @@ function show_portada_data_favoritos(title, item, id) {
 	else
 		hora = '';
 
-	campo = '<a href="https://maps.google.com?q=' + item.campo + '" target="_maps">' + item.campo + '</a>';
-	campo += ' <a href=https://maps.google.com?q=' + item.campo + '" target="_maps"><img src="../img/dot.png" height="20px"></a>';
+	campo = '<a href="https://maps.google.com?q=' + item.campo + '" target="_maps">' + item.campo + ' <img src="../img/dot.png" height="20px"></a>';
 
 	casa = '<a href="javascript:load_portada_equipo(\'' + item.codequipo_casa + '\')">' + item.equipo_casa + '</a>';
 	casa = '<img src="https://www.futgal.es' + item.escudo_equipo_casa + '" align="absmiddle" class="escudo_logo_medio">&nbsp;&nbsp;' + casa + '&nbsp;';

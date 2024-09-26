@@ -43,7 +43,7 @@ async function load_portada_equipo(cod_equipo) {
 	setCookie('paginaRFGF', 'portada', 30)
 	setCookie('cod_equipo', cod_equipo, 30)
 
-	var url = remote_url+"?type=getequipo&codequipo=" + cod_equipo;
+	var url = remote_url + "?type=getequipo&codequipo=" + cod_equipo;
 
 	console.log("GET " + url);
 	await fetch(url)
@@ -87,7 +87,8 @@ function show_portada_equipo(data, cod_equipo) {
 			cont += 1
 			var pattern = /(\d{2})\-(\d{2})\-(\d{4})/;
 			var dt = new Date(item.fecha.replace(pattern, '$3-$2-$1 12:00'));
-			if (isSameWeek(dt, new Date(Date.now()))) {
+			var now = new Date(Date.now());
+			if (isSameWeek(dt, now)) {
 				show_portada_data('Xornada actual', item);
 
 				if (previous) {
@@ -100,14 +101,14 @@ function show_portada_equipo(data, cod_equipo) {
 		});
 	});
 
-	if (lineas == 0){
+	if (lineas == 0) {
 		var arrayLength = equipos.length;
-		nombre=''
+		nombre = ''
 		for (var i = 0; i < arrayLength; i++) {
 			if (equipos[i].id == cod_equipo)
-				nombre = ' para '+equipos[i].name;
+				nombre = ' para ' + equipos[i].name;
 		}
-		$('#results').append('<b>Equipo:</b> ' + data.nombre_equipo + '<br><br><br><b>Non hai datos'+nombre+'</b><br><br><br>');
+		$('#results').append('<b>Equipo:</b> ' + data.nombre_equipo + '<br><br><br><b>Non hai datos' + nombre + '</b><br><br><br>');
 	}
 
 }
@@ -126,13 +127,22 @@ function show_portada_data(title, item) {
 	else
 		hora = '';
 
-	campo = '<a href="https://maps.google.com?q=' + item.campo + '" target="_maps">' + item.campo + '</a>';
-	campo += ' <a href=https://maps.google.com?q=' + item.campo + '" target="_maps"><img src="../img/dot.png" height="20px"></a>';
+	if (item.equipo_casa == 'Descansa' || item.equipo_fuera == 'Descansa')
+		campo = '';
+	else
+	campo = '<a href="https://maps.google.com?q=' + item.campo + '" target="maps">' + item.campo + ' <img src="../img/dot.png" height="20px"></a>';
 
 	casa = '<a href="javascript:load_portada_equipo(\'' + item.codequipo_casa + '\')">' + item.equipo_casa + '</a>';
-	casa = '<img src="https://www.futgal.es' + item.escudo_equipo_casa + '" align="absmiddle" class="escudo_logo">&nbsp;&nbsp;' + casa + '&nbsp;';
+	if (item.equipo_casa != 'Descansa')
+		casa = '<img src="https://www.futgal.es' + item.escudo_equipo_casa + '" align="absmiddle" class="escudo_logo">&nbsp;&nbsp;' + casa + '&nbsp;';
+	else
+		casa = '&nbsp;&nbsp;' + casa + '&nbsp;';
+
 	fuera = '<a href="javascript:load_portada_equipo(\'' + item.codequipo_fuera + '\')">' + item.equipo_fuera + '</a>';
-	fuera = '<img src="https://www.futgal.es' + item.escudo_equipo_fuera + '" align="absmiddle" class="escudo_logo">&nbsp;&nbsp;' + fuera + '&nbsp;';
+	if (item.equipo_fuera != 'Descansa')
+		fuera = '<img src="https://www.futgal.es' + item.escudo_equipo_fuera + '" align="absmiddle" class="escudo_logo">&nbsp;&nbsp;' + fuera + '&nbsp;';
+	else
+		fuera = '&nbsp;&nbsp;' + fuera + '&nbsp;';
 
 	if (item.goles_casa == "" && item.goles_fuera == "") {
 		datos = '<tr>'
@@ -143,7 +153,7 @@ function show_portada_data(title, item) {
 			+ '</tr>';
 
 	} else {
-		datos =  '<tr>'
+		datos = '<tr>'
 			+ '<td bgcolor="white">' + casa + '</td>'
 			+ '<td bgcolor="white" align="center">&nbsp;' + item.goles_casa + '&nbsp;</td>'
 			+ '</tr>'

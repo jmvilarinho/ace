@@ -100,8 +100,8 @@ async function load_clasificacion(cod_grupo, cod_equipo) {
 		.catch(error => {
 			console.error('Fetch error:', error.message);  // Log the error
 		});
-		hideLoading();
-	}
+	hideLoading();
+}
 
 async function load_goleadores(codcompeticion, codgrupo, cod_equipo) {
 	displayLoading();
@@ -370,21 +370,28 @@ function show_partidos(data, cod_equipo) {
 			else
 				hora = '';
 
-			if (item.codequipo_casa == cod_equipo) {
+			if (item.codequipo_casa == cod_equipo || item.equipo_casa == 'Descansa') {
 				casa = item.equipo_casa;
 				campo = item.campo;
-			}
-			else {
+			} else {
 				casa = '<a href="javascript:load_equipo(\'' + item.codequipo_casa + '\')">' + item.equipo_casa + '</a>';
-				campo = '<a href="https://maps.google.com?q=' + item.campo + '" target="_new">' + item.campo + '</a>';
+				campo = '<a href="https://maps.google.com?q=' + item.campo + '" target="_new">' + item.campo + ' <img src="../img/dot.png" height="15px"></a>';
 			}
-			casa = casa + '&nbsp;<img src="https://www.futgal.es' + item.escudo_equipo_casa + '" align="absmiddle" class="escudo_widget">';
 
-			if (item.codequipo_fuera == cod_equipo)
+			if (item.equipo_casa != 'Descansa')
+				casa = casa + '&nbsp;<img src="https://www.futgal.es' + item.escudo_equipo_casa + '" align="absmiddle" class="escudo_widget">';
+
+			if (item.codequipo_fuera == cod_equipo || item.equipo_fuera == 'Descansa') {
 				fuera = item.equipo_fuera;
-			else
+			} else {
 				fuera = '<a href="javascript:load_equipo(\'' + item.codequipo_fuera + '\')">' + item.equipo_fuera + '</a>';
-			fuera = '<img src="https://www.futgal.es' + item.escudo_equipo_fuera + '" align="absmiddle" class="escudo_widget">&nbsp;' + fuera;
+
+			}
+			if (item.equipo_fuera != 'Descansa')
+				fuera = '<img src="https://www.futgal.es' + item.escudo_equipo_fuera + '" align="absmiddle" class="escudo_widget">&nbsp;' + fuera;
+
+			if (item.equipo_casa == 'Descansa' || item.equipo_fuera == 'Descansa')
+				campo = '';
 
 			$('#results').append('<tr>'
 				+ '<td style="background-color:' + background + ';" >' + item.fecha + hora + '</td>'

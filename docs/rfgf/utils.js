@@ -102,13 +102,17 @@ function add_back(pagina) {
 		class: "back_button",
 		id: "field",
 		value: 'Meteo',
-		onclick: "openInNewTab('../')"
+		onclick: "openUrl('../')"
 	});
 	$('#results').append(boton_favoritos);
 }
 
 function openInNewTab(url) {
 	window.open(url, '_blank').focus();
+}
+
+function openUrl(url) {
+	window.open(url).focus();
 }
 
 function end_page() {

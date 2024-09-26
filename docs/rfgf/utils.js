@@ -166,5 +166,5 @@ function setArrayCookie(checkbox) {
 
 	// Set the updated array as a cookie
 	console.log(JSON.stringify(selectedItems));
-	setCookie('favoritosItems', JSON.stringify(selectedItems), 30);
+	setCookie('favoritosItems', JSON.stringify(selectedItems), 365);
 }

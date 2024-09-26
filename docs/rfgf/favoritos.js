@@ -6,10 +6,9 @@ async function load_favoritos() {
 
 	favoritos = getCookieArray('favoritosItems');
 	if (favoritos.length <= 0) {
-		favoritos = ["13810265", "10293316"];
-		setCookie('favoritosItems', JSON.stringify(favoritos), 30);
+		favoritos = ["13810265", "10293316"];		
 	}
-
+	setCookie('favoritosItems', JSON.stringify(favoritos), 365);
 	var arrayLength = favoritos.length;
 
 	$('#results').html('');
@@ -199,111 +198,3 @@ function show_portada_data_favoritos(title, item, id) {
 		+ '</table>';
 }
 
-// ########################################################################################
-// no usado
-
-async function load_favoritos_sorted() {
-	displayLoading();
-	setCookie('paginaRFGF', 'favoritos', 30)
-
-	favoritos = getCookieArray('favoritosItems');
-	if (favoritos.length <= 0) {
-		favoritos = ["13810265", "10293316"];
-		setCookie('favoritosItems', JSON.stringify(favoritos), 30);
-	}
-
-	var arrayLength = favoritos.length;
-
-	$('#results').html('');
-	var arr = [];
-	add_back('favoritos');
-	for (var i = 0; i < arrayLength; i++) {
-		//Do something
-		try {
-			data = await get_data_equipo(favoritos[i])
-			arr = arr.concat(show_portada_equipo_favoritos(data.data, favoritos[i]));
-		} catch (e) {
-			// statements to handle any exceptions
-			logMyErrors(e); // pass exception object to error handler
-			arr = arr.concat({
-				data: 33284008833000,
-				html: '<table class="portada">'
-					+ '<tr>'
-					+ '<th colspan=2  align="absmiddle">Error: ' + favoritos[i] + '</th>'
-					+ '</tr>'
-					+ '<tr>'
-					+ '<td bgcolor="#e8e5e4" colspan=2>Non hai datos</td>'
-					+ '</table>'
-			});
-		}
-	}
-
-	arr.sort((a, b) => {
-		if (a.data < b.data) {
-			return -1;
-		}
-		if (a.data > b.data) {
-			return 1;
-		}
-		// dates must be equal
-		return 0;
-	});
-	var arrayLength = arr.length;
-	for (var i = 0; i < arrayLength; i++) {
-		if (1 > 0)
-			$('#results').append('<br>');
-		$('#results').append(arr[i].html);
-	}
-
-	var arrayLength = equipos.length;
-	$('#results').append('<hr><b>Lista Favoritos</b><br>');
-	for (var i = 0; i < arrayLength; i++) {
-		checked = '';
-		if (favoritos.indexOf('' + equipos[i].id) >= 0) {
-			checked = 'checked';
-		}
-		$('#results').append('<label>'
-			+ '<input type="checkbox" ' + checked + ' value="' + equipos[i].id + '" onclick="setArrayCookie(this)">' + equipos[i].name
-			+ '&nbsp;</label><br>'
-		);
-	}
-	$('#results').append('<hr>');
-
-
-	add_back('favoritos');
-	end_page();
-	hideLoading();
-	var x = 0;
-	while (x < 60000) {
-		if (favorite_load.length <= 0)
-			break
-		// sleep 500 ms
-		await new Promise(r => setTimeout(r, 500));
-		x += 500;
-	}
-}
-
-async function get_data_equipo(cod_equipo) {
-	var url = remote_url + "?type=getequipo&codequipo=" + cod_equipo;
-
-	console.log("GET " + url);
-
-	let data = await fetch(url)
-		.then(response => {
-			if (!response.ok) {
-				throw new Error('Network response was not ok');  // Handle HTTP errors
-			}
-			return response.json();
-		})
-		.then(data => {
-			if (data) {
-				return data;
-			} else {
-				throw new Error('No data found in response');
-			}
-		})
-		.catch(error => {
-			console.error('Fetch error:', error.message);  // Log the error
-		});
-	return data
-}

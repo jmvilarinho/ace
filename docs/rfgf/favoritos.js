@@ -6,7 +6,7 @@ async function load_favoritos() {
 
 	favoritos = getCookieArray('favoritosItems');
 	if (favoritos.length <= 0) {
-		favoritos = ["13810265", "10293316"];		
+		favoritos = ["13810265", "10293316"];
 	}
 	setCookie('favoritosItems', JSON.stringify(favoritos), 365);
 	var arrayLength = favoritos.length;
@@ -23,18 +23,27 @@ async function load_favoritos() {
 	}
 
 	var arrayLength = equipos.length;
-	$('#favoritos_list').append('<hr><b>Lista Favoritos</b><br>');
+	var html_fav = '<hr><table class="table_noborder"><tr><th colspan=2 class="table_noborder">Lista Favoritos</th></tr>';
 	for (var i = 0; i < arrayLength; i++) {
-		checked = '';
+		var start = '';
+		var end = '';
+		if (!i % 2)
+			start = '<tr>';
+		if (i % 2)
+			end = '</tr>'
+
+		var checked = '';
 		if (favoritos.indexOf('' + equipos[i].id) >= 0) {
 			checked = 'checked';
 		}
-		$('#favoritos_list').append('<label>'
+		html_fav += start + '<td class="table_noborder"><label>'
 			+ '<input type="checkbox" ' + checked + ' value="' + equipos[i].id + '" onclick="setArrayCookie(this)">' + equipos[i].name
-			+ '&nbsp;</label><br>'
-		);
+			+ '&nbsp;</label></td>' + end;
+
 	}
-	$('#results').append('<hr>');
+	if (arrayLength%2)
+		html_fav += '</tr>'
+	$('#results').append(html_fav+'</table><hr>');
 
 
 	add_back('favoritos');

@@ -13,6 +13,7 @@
 
 /* Use a media query to add a breakpoint at 800px: */
 @media screen and (max-width: 800px) {
+
 	.left,
 	.main,
 	.right {
@@ -20,6 +21,11 @@
 		/* The width is 100%, when the viewport is 800px or smaller */
 	}
 }
+
+.table_noborder {
+	border: none;
+}
+
 
 .table_wrapper {
 	display: block;
@@ -132,7 +138,7 @@ escudo_logo_medio
 	/* Black*/
 	overflow-x: hidden;
 	/* Disable horizontal scroll */
-	padding-top: 60px;
+	padding-top: 40px;
 	/* Place content 60px from the top */
 	transition: 0.5s;
 	/* 0.5 second transition effect to slide in the sidenav */
@@ -140,7 +146,7 @@ escudo_logo_medio
 
 /* The navigation menu links */
 .sidenav a {
-	padding: 8px 8px 8px 12px;
+	padding: 5px 5px 8px 8px;
 	text-decoration: none;
 	font-size: 22px;
 	color: #818181;
@@ -180,11 +186,15 @@ escudo_logo_medio
 }
 
 
-
 /* creating css loader */
-
 #pt-5 {
-	position: relative;
+
+	display: flex;
+	justify-content: center;
+	/* Centers horizontally */
+	align-items: center;
+	/* Centers vertically */
+	height: 100vh;
 }
 
 #loading {
@@ -231,18 +241,14 @@ escudo_logo_medio
 }
 
 .float_center {
-
 	width: 100px;
-    height: 100px;
-    background-color: rgb(3, 3, 3);
+	height: 100px;
+	background-color: rgb(3, 3, 3);
 
-    position: absolute;
-    top:0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-
-    margin: auto;
+	top: 50px;
+	bottom: 0;
+	left: 50;
+	right: 0;
 }
 
 #spinner-div {

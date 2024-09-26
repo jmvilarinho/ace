@@ -13,7 +13,7 @@ function openInNewTab(url) {
 	window.open(url, '_blank').focus();
 }
 function openUrl(url) {
-	window.open(url).focus();
+	window.open(url, '_self').focus();
 }
 
 function CambiaVistaUpdate(pagina) {

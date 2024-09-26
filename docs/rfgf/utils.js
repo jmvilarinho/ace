@@ -112,7 +112,7 @@ function openInNewTab(url) {
 }
 
 function openUrl(url) {
-	window.open(url).focus();
+	window.open(url, '_self').focus();
 }
 
 function end_page() {

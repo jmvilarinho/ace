@@ -83,21 +83,21 @@ function show_portada_equipo(data, cod_equipo) {
 		ultima = item.ultima_jornada_jugada;
 		cont = 0;
 		previous = undefined;
-		jQuery.each(item.partidos, function (index, item) {
+		jQuery.each(item.partidos, function (index, item2) {
 			cont += 1
 			var pattern = /(\d{2})\-(\d{2})\-(\d{4})/;
-			var dt = new Date(item.fecha.replace(pattern, '$3-$2-$1 12:00'));
+			var dt = new Date(item2.fecha.replace(pattern, '$3-$2-$1 12:00'));
 			var now = new Date(Date.now());
 			if (isSameWeek(dt, now)) {
-				show_portada_data('Xornada actual', item);
+				show_portada_data('Xornada actual', item2, item.cod_competicion, item.cod_grupo);
 
 				if (previous) {
 					$('#results').append('<br>');
-					show_portada_data('Xornada anterior', previous);
+					show_portada_data('Xornada anterior', previous, undefined, undefined);
 				}
 				return false;
 			}
-			previous = item;
+			previous = item2;
 		});
 	});
 
@@ -121,7 +121,7 @@ function dia_str(fecha) {
 }
 
 
-function show_portada_data(title, item) {
+function show_portada_data(title, item, codcompeticion, codgrupo) {
 	if (item.hora)
 		hora = ' - ' + item.hora;
 	else
@@ -130,7 +130,7 @@ function show_portada_data(title, item) {
 	if (item.equipo_casa == 'Descansa' || item.equipo_fuera == 'Descansa')
 		campo = '';
 	else
-	campo = '<a href="https://maps.google.com?q=' + item.campo + '" target="maps">' + item.campo + ' <img src="../img/dot.png" height="20px"></a>';
+		campo = '<a href="https://maps.google.com?q=' + item.campo + '" target="maps">' + item.campo + ' <img src="../img/dot.png" height="20px"></a>';
 
 	casa = '<a href="javascript:load_portada_equipo(\'' + item.codequipo_casa + '\')">' + item.equipo_casa + '</a>';
 	if (item.equipo_casa != 'Descansa')
@@ -144,35 +144,98 @@ function show_portada_data(title, item) {
 	else
 		fuera = '&nbsp;&nbsp;' + fuera + '&nbsp;';
 
+	if (codcompeticion) {
+		data1 = '<td bgcolor="white"><div id="data_casa"></div></td>';
+		data2 = '<td bgcolor="white"><div id="data_fuera"></div></td>';
+		span = 1;
+	} else {
+		data1 = '';
+		data2 = ''
+		span = 2;
+	}
+
 	if (item.goles_casa == "" && item.goles_fuera == "") {
 		datos = '<tr>'
-			+ '<td bgcolor="white" colspan=2>' + casa + '</td>'
+			+ '<td bgcolor="white" colspan=' + span + '>' + casa + '</td>'
+			+ data1
 			+ '</tr>'
 			+ '<tr>'
-			+ '<td bgcolor="white" colspan=2>' + fuera + '</td>'
+			+ '<td bgcolor="white" colspan=' + span + '>' + fuera + '</td>'
+			+ data2
 			+ '</tr>';
 
 	} else {
 		datos = '<tr>'
-			+ '<td bgcolor="white">' + casa + '</td>'
+			+ '<td bgcolor="white" colspan=' + span + '>' + casa + '</td>'
+			+ data1
 			+ '<td bgcolor="white" align="center">&nbsp;' + item.goles_casa + '&nbsp;</td>'
 			+ '</tr>'
 			+ '<tr>'
-			+ '<td bgcolor="white">' + fuera + '</td>'
+			+ '<td bgcolor="white" colspan=' + span + '>' + fuera + '</td>'
+			+ data2
 			+ '<td bgcolor="white" align="center">&nbsp;' + item.goles_fuera + '&nbsp;</td>'
 			+ '</tr>';
 	}
 
 	$('#results').append('<table class="portada">'
 		+ '<tr>'
-		+ '<th colspan=2  align="absmiddle">' + title + '</th>'
+		+ '<th colspan=3  align="absmiddle">' + title + '</th>'
 		+ '</tr>'
 		+ '<tr>'
-		+ '<td bgcolor="#e8e5e4" colspan=2><b>Data:</b>&nbsp;' + item.fecha + hora + ' (' + dia_str(item.fecha) + ')</td>'
+		+ '<td bgcolor="#e8e5e4" colspan=3><b>Data:</b>&nbsp;' + item.fecha + hora + ' (' + dia_str(item.fecha) + ')</td>'
 		+ '</tr>'
 		+ '<tr>'
-		+ '<td bgcolor="#e8e5e4" colspan=2><b>Campo:</b>&nbsp;' + campo + '</td>'
+		+ '<td bgcolor="#e8e5e4" colspan=3><b>Campo:</b>&nbsp;' + campo + '</td>'
 		+ '</tr>'
 		+ datos
 		+ '</table>');
+
+	if (codcompeticion)
+		load_comparativa(codcompeticion, codgrupo, item.codequipo_casa, item.codequipo_fuera)
+}
+
+
+
+async function load_comparativa(codcompeticion, codgrupo, equipo1, equipo2) {
+	var url = remote_url + "?type=getcomparativa&codcompeticion=" + codcompeticion + "&codgrupo=" + codgrupo + "&equipo1=" + equipo1 + "&equipo2=" + equipo2;
+
+	console.log("GET " + url);
+	await fetch(url)
+		.then(response => {
+			if (!response.ok) {
+				throw new Error('Network response was not ok');  // Handle HTTP errors
+			}
+			return response.json();
+		})
+		.then(data => {
+			if (data) {
+				show_comparativa(data.data);
+			} else {
+				throw new Error('No data found in response');
+			}
+		})
+		.catch(error => {
+			console.error('Fetch error:', error.message);  // Log the error
+		});
+}
+
+function show_comparativa(data) {
+
+	$('#data_casa').append('<table class="table_noborder" >'
+		+ '<tr><th class="table_noborder" align="center" colspan=2 >' + data.posicion_equipo1 + "º (" + data.puntos_equipo1 + ' pts) </th></tr>'
+		+ '<tr><td class="table_noborder">Derrotas</td><td class="table_noborder">' + data.total_derrotas_porcentaje_equipo1 + '</td></tr>'
+		+ '<tr><td class="table_noborder">Empates</td><td class="table_noborder">' + data.total_empates_porcentaje_equipo1 + '</td></tr>'
+		+ '<tr><td class="table_noborder">Victorias</td><td class="table_noborder">' + data.total_victorias_porcentaje_equipo1 + '</td></tr>'
+		+ '</table>'
+	);
+
+	$('#data_fuera').append('<table class="table_noborder" >'
+		+ '<tr><th class="table_noborder" align="center" colspan=2 >' + data.posicion_equipo2 + "º (" + data.puntos_equipo2 + ' pts) </th></tr>'
+		+ '<tr><td class="table_noborder">Derrotas</td><td class="table_noborder">' + data.total_derrotas_porcentaje_equipo2 + '</td></tr>'
+		+ '<tr><td class="table_noborder">Empates</td><td class="table_noborder">' + data.total_empates_porcentaje_equipo2 + '</td></tr>'
+		+ '<tr><td class="table_noborder">Victorias</td><td class="table_noborder">' + data.total_victorias_porcentaje_equipo2 + '</td></tr>'
+		+ '</table>'
+	);
+
+
 }

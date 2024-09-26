@@ -128,8 +128,8 @@ function show_portada_data(title, item, codcompeticion, codgrupo) {
 		hora = '';
 	if (codcompeticion)
 		br='<br><br><br>';
-		else
-			br='';
+	else
+		br='';
 
 	if (item.equipo_casa == 'Descansa' || item.equipo_fuera == 'Descansa')
 		campo = '';

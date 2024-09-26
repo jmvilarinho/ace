@@ -13,7 +13,6 @@
 
 /* Use a media query to add a breakpoint at 800px: */
 @media screen and (max-width: 800px) {
-
 	.left,
 	.main,
 	.right {
@@ -216,6 +215,14 @@ escudo_logo_medio
 	visibility: visible;
 }
 
+/* Responsive adjustments for small screens */
+@media (max-width: 600px) {
+	.float_center {
+	  width: 80px;
+	  height: 80px;
+	  border-width: 12px;
+	}
+  }
 
 @keyframes spin {
 	from {

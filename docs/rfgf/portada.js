@@ -126,6 +126,10 @@ function show_portada_data(title, item, codcompeticion, codgrupo) {
 		hora = ' - ' + item.hora;
 	else
 		hora = '';
+	if (codcompeticion){
+		br='<br>';
+		else
+			br='';
 
 	if (item.equipo_casa == 'Descansa' || item.equipo_fuera == 'Descansa')
 		campo = '';
@@ -134,13 +138,13 @@ function show_portada_data(title, item, codcompeticion, codgrupo) {
 
 	casa = '<a href="javascript:load_portada_equipo(\'' + item.codequipo_casa + '\')">' + item.equipo_casa + '</a>';
 	if (item.equipo_casa != 'Descansa')
-		casa = '<img src="https://www.futgal.es' + item.escudo_equipo_casa + '" align="absmiddle" class="escudo_logo">&nbsp;&nbsp;<br>' + casa + '&nbsp;';
+		casa = '<img src="https://www.futgal.es' + item.escudo_equipo_casa + '" align="absmiddle" class="escudo_logo">&nbsp;&nbsp;'+br + casa + '&nbsp;';
 	else
 		casa = '&nbsp;&nbsp;' + casa + '&nbsp;';
 
 	fuera = '<a href="javascript:load_portada_equipo(\'' + item.codequipo_fuera + '\')">' + item.equipo_fuera + '</a>';
 	if (item.equipo_fuera != 'Descansa')
-		fuera = '<img src="https://www.futgal.es' + item.escudo_equipo_fuera + '" align="absmiddle" class="escudo_logo">&nbsp;&nbsp;<br>' + fuera + '&nbsp;';
+		fuera = '<img src="https://www.futgal.es' + item.escudo_equipo_fuera + '" align="absmiddle" class="escudo_logo">&nbsp;&nbsp;'+br + fuera + '&nbsp;';
 	else
 		fuera = '&nbsp;&nbsp;' + fuera + '&nbsp;';
 

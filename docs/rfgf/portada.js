@@ -126,7 +126,7 @@ function show_portada_data(title, item, codcompeticion, codgrupo) {
 		hora = ' - ' + item.hora;
 	else
 		hora = '';
-	if (codcompeticion){
+	if (codcompeticion)
 		br='<br>';
 		else
 			br='';

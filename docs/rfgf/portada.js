@@ -160,22 +160,22 @@ function show_portada_data(title, item, codcompeticion, codgrupo) {
 
 	if (item.goles_casa == "" && item.goles_fuera == "") {
 		datos = '<tr>'
-			+ '<td bgcolor="white" colspan=' + span + '>' + casa + '</td>'
+			+ '<td style="text-align:center;" bgcolor="white" colspan=' + span + '>' + casa + '</td>'
 			+ data1
 			+ '</tr>'
 			+ '<tr>'
-			+ '<td bgcolor="white" colspan=' + span + '>' + fuera + '</td>'
+			+ '<td style="text-align:center;" bgcolor="white" colspan=' + span + '>' + fuera + '</td>'
 			+ data2
 			+ '</tr>';
 
 	} else {
 		datos = '<tr>'
-			+ '<td bgcolor="white" colspan=' + span + '>' + casa + '</td>'
+			+ '<td style="text-align:center;" bgcolor="white" colspan=' + span + '>' + casa + '</td>'
 			+ data1
 			+ '<td bgcolor="white" align="center">&nbsp;' + item.goles_casa + '&nbsp;</td>'
 			+ '</tr>'
 			+ '<tr>'
-			+ '<td bgcolor="white" colspan=' + span + '>' + fuera + '</td>'
+			+ '<td style="text-align:center;" bgcolor="white" colspan=' + span + '>' + fuera + '</td>'
 			+ data2
 			+ '<td bgcolor="white" align="center">&nbsp;' + item.goles_fuera + '&nbsp;</td>'
 			+ '</tr>';

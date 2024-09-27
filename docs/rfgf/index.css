@@ -1,3 +1,7 @@
+.right-aligned {
+	float: right;
+}
+
 .left,
 .right {
 	float: left;

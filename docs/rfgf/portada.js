@@ -238,11 +238,11 @@ function show_comparativa(data) {
 	});
 
 	$('#data_casa').append('<table class="table_noborder" >'
-		+ '<tr><th class="table_noborder" align="center" colspan=4 >' + data.posicion_equipo1 + "º (" + data.puntos_equipo1 + ' pts) </th></tr>'
+		+ '<tr><th class="table_noborder" align="center" colspan=2 >' + data.posicion_equipo1 + "º (" + data.puntos_equipo1 + ' pts) </th></tr>'
 		+ '<tr><td class="table_noborder">Derrotas</td><td class="table_noborder">' + data.total_derrotas_porcentaje_equipo1 + '</td><td class="table_noborder">Local</td><td class="table_noborder">'+data.total_derrotas_porcentaje_equipo1_local	+'</td><td class="table_noborder">Visit.</td><td class="table_noborder">'+data.total_derrotas_porcentaje_equipo1_visitante	+'</td></tr>'
 		+ '<tr><td class="table_noborder">Empates</td><td class="table_noborder">' + data.total_empates_porcentaje_equipo1 + '</td><td class="table_noborder">Local</td><td class="table_noborder">'+data.total_empates_porcentaje_equipo1_local	+'</td><td class="table_noborder">Visit.</td><td class="table_noborder">'+data.total_empates_porcentaje_equipo1_visitante	+'</td></tr>'
 		+ '<tr><td class="table_noborder">Victorias</td><td class="table_noborder">' + data.total_victorias_porcentaje_equipo1 + '</td><td class="table_noborder">Local</td><td class="table_noborder">'+data.total_victorias_porcentaje_equipo1_local	+'</td><td class="table_noborder">Visit.</td><td class="table_noborder">'+data.total_victorias_porcentaje_equipo1_visitante	+'</td></tr>'
-		+ '<tr><td class="table_noborder" colspan=3>'+racha1+'</td></tr>'
+		+ '<tr><td class="table_noborder" colspan=6>'+racha1+'</td></tr>'
 		+ '<tr><td class="table_noborder" align="center" >Goles/partido</td><td class="table_noborder">' + data.total_goles_media_equipo1	+ '</td><td class="table_noborder">Local</td><td class="table_noborder">'+data.total_goles_media_equipo1_local +'</td><td class="table_noborder">Visit.</td><td class="table_noborder">'+data.total_goles_media_equipo1_visitante+'</td></tr>'
 		+ '</table>'
 	);
@@ -250,11 +250,11 @@ function show_comparativa(data) {
 
 
 	$('#data_fuera').append('<table class="table_noborder" >'
-		+ '<tr><th class="table_noborder" align="center" colspan=4 >' + data.posicion_equipo2 + "º (" + data.puntos_equipo2 + ' pts) </th></tr>'
+		+ '<tr><th class="table_noborder" align="center" colspan=2 >' + data.posicion_equipo2 + "º (" + data.puntos_equipo2 + ' pts) </th></tr>'
 		+ '<tr><td  class="table_noborder">Derrotas</td><td class="table_noborder">' + data.total_derrotas_porcentaje_equipo2 + '</td><td class="table_noborder">Local</td><td class="table_noborder">'+data.total_derrotas_porcentaje_equipo2_local	+'</td><td class="table_noborder">Visit.</td><td class="table_noborder">'+data.total_derrotas_porcentaje_equipo2_visitante	+'</td></tr>'
 		+ '<tr><td class="table_noborder">Empates</td><td class="table_noborder">' + data.total_empates_porcentaje_equipo2 + '</td><td class="table_noborder">Local</td><td class="table_noborder">'+data.total_empates_porcentaje_equipo2_local	+'</td><td class="table_noborder">Visit.</td><td class="table_noborder">'+data.total_empates_porcentaje_equipo2_visitante	+'</td></tr>'
 		+ '<tr><td  class="table_noborder">Victorias</td><td class="table_noborder">' + data.total_victorias_porcentaje_equipo2 + '</td><td class="table_noborder">Local</td><td class="table_noborder">'+data.total_victorias_porcentaje_equipo2_local	+'</td><td class="table_noborder">Visit.</td><td class="table_noborder">'+data.total_victorias_porcentaje_equipo2_visitante	+'</td></tr>'
-		+ '<tr><td class="table_noborder" colspan=4>'+racha2+'</td></tr>'
+		+ '<tr><td class="table_noborder" colspan=6>'+racha2+'</td></tr>'
 		+ '<tr><td class="table_noborder" align="center" >Goles/partido</td><td class="table_noborder">' + data.total_goles_media_equipo2	+ '</td><td class="table_noborder">Local</td><td class="table_noborder">'+data.total_goles_media_equipo2_local +'</td><td class="table_noborder">Visit.</td><td class="table_noborder">'+data.total_goles_media_equipo2_visitante+'</td></tr>'
 		+ '</table>'
 	);

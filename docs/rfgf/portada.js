@@ -72,6 +72,7 @@ async function load_portada_equipo(cod_equipo) {
 function show_portada_equipo(data, cod_equipo) {
 	lineas = 0;
 	$('#results').append('<br>');
+	mostrado=false;
 	jQuery.each(data.competiciones_equipo, function (index, item) {
 		lineas += 1;
 		if (lineas > 1)
@@ -88,8 +89,9 @@ function show_portada_equipo(data, cod_equipo) {
 			var pattern = /(\d{2})\-(\d{2})\-(\d{4})/;
 			var dt = new Date(item2.fecha.replace(pattern, '$3-$2-$1 12:00'));
 			var now = new Date(Date.now());
-			//now = new Date('18-09-2024'.replace(pattern, '$3-$2-$1 12:00'));
+			//now = new Date('18-03-2024'.replace(pattern, '$3-$2-$1 12:00'));
 			if (isSameWeek(dt, now)) {
+				mostrado=true;
 				show_portada_data('Xornada actual', item2, item.cod_competicion, item.cod_grupo, data.nombre_equipo);
 
 				if (previous) {
@@ -107,10 +109,19 @@ function show_portada_equipo(data, cod_equipo) {
 		nombre = ''
 		for (var i = 0; i < arrayLength; i++) {
 			if (equipos[i].id == cod_equipo)
-				nombre = ' para ' + equipos[i].name;
+				nombre = 'para ' + equipos[i].name;
 		}
-		$('#results').append('<b>Equipo:</b> ' + data.nombre_equipo + '<br><br><br><b>Non hai datos' + nombre + '</b><br><br><br>');
+		$('#results').append('<b>Equipo:</b> ' + data.nombre_equipo + '<br><br><br><b>Non hai datos ' + nombre + '</b><br><br><br>');
+	} else	if (! mostrado) {
+		var arrayLength = equipos.length;
+		nombre = ''
+		for (var i = 0; i < arrayLength; i++) {
+			if (equipos[i].id == cod_equipo)
+				nombre = 'para ' + equipos[i].name;
+		}
+		$('#results').append('<b>Equipo:</b> ' + data.nombre_equipo + '<br><br><br><b>Non hai competición esta semán ' + nombre + '</b><br><br><br>');
 	}
+
 
 }
 function dia_str(fecha) {

@@ -13,6 +13,7 @@
 
 /* Use a media query to add a breakpoint at 800px: */
 @media screen and (max-width: 800px) {
+
 	.left,
 	.main,
 	.right {
@@ -25,6 +26,27 @@
 	border: none;
 }
 
+.table_noborder_simple {
+	border: none;
+	border: 0px solid black;
+	white-space: nowrap;
+	vertical-align: middle;
+	border-radius: 0px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.racha {
+	padding: 0 2px 0 2px;
+	color: white;
+	font-size: 14px;
+	font-weight: bolder;
+	border-radius: 5px;
+	margin-right: 2px;
+}
 
 .table_wrapper {
 	display: block;
@@ -218,11 +240,11 @@ escudo_logo_medio
 /* Responsive adjustments for small screens */
 @media (max-width: 600px) {
 	.float_center {
-	  width: 80px;
-	  height: 80px;
-	  border-width: 12px;
+		width: 80px;
+		height: 80px;
+		border-width: 12px;
 	}
-  }
+}
 
 @keyframes spin {
 	from {

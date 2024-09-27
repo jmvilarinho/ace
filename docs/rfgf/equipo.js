@@ -93,7 +93,7 @@ function show_partidos_home(data, cod_equipo) {
 			}
 			else {
 				casa = '<a href="?cod_equipo=' + item.codequipo_casa + '">' + item.equipo_casa + '</a>';
-				campo = '<a href="https://maps.google.com?q=' + item.campo + '" target="maps">' + item.campo + ' <img src="../img/dot.png" height="20px"></a>';
+				campo = '<a href="https://maps.google.com?q=' + item.campo + '" target="_blank">' + item.campo + ' <img src="../img/dot.png" height="20px"></a>';
 			}
 			casa = casa + '&nbsp;<img src="https://www.futgal.es' + item.escudo_equipo_casa + '" align="absmiddle" class="escudo_widget">';
 
@@ -104,13 +104,13 @@ function show_partidos_home(data, cod_equipo) {
 			fuera = '<img src="https://www.futgal.es' + item.escudo_equipo_fuera + '" align="absmiddle" class="escudo_widget">&nbsp;' + fuera;
 
 			$('#results').append('<tr>'
-				+ '<td style="background-color:' + background + ';" >' + item.fecha + hora + '</td>'
+				+ '<td style="background-color:' + background + ';" >' + item.fecha.replace(/-/g, "/") + hora + '</td>'
 				+ '<td style="background-color:' + background + ';" align="right" >' + casa + '</td>'
 				//+ '<td style="background-color:' + background + ';" align="right" >' + item.equipo_casa + '</td>'
 				+ '<td style="background-color:' + background + ';" align="center" >' + item.goles_casa + ' - ' + item.goles_fuera + '</td>'
 				+ '<td style="background-color:' + background + ';" align="left" >' + fuera + '</td>'
 				//+ '<td style="background-color:' + background + ';" align="left" >' + item.equipo_fuera + '</td>'
-				+ '<td style="background-color:' + background + ';" >' + item.fecha + hora + '</td>'
+				+ '<td style="background-color:' + background + ';" >' + item.fecha.replace(/-/g, "/") + hora + '</td>'
 				+ '<td style="background-color:' + background + ';" >' + campo + '</td>'
 				+ '</tr>');
 		});

@@ -166,7 +166,7 @@ function show_portada_data_favoritos(title, item, id) {
 	else
 		hora = '';
 
-	campo = '<a href="https://maps.google.com?q=' + item.campo + '" target="_maps">' + item.campo + ' <img src="../img/dot.png" height="20px"></a>';
+	campo = '<a href="https://maps.google.com?q=' + item.campo + '" target="_blank">' + item.campo + ' <img src="../img/dot.png" height="20px"></a>';
 
 	casa = '<a href="javascript:load_portada_equipo(\'' + item.codequipo_casa + '\')">' + item.equipo_casa + '</a>';
 	casa = '<img src="https://www.futgal.es' + item.escudo_equipo_casa + '" align="absmiddle" class="escudo_logo_medio">&nbsp;&nbsp;' + casa + '&nbsp;';
@@ -197,7 +197,7 @@ function show_portada_data_favoritos(title, item, id) {
 		+ '<th colspan=2  align="absmiddle">' + title + '</th>'
 		+ '</tr>'
 		+ '<tr>'
-		+ '<td bgcolor="#e8e5e4" colspan=2><b>Data:</b>&nbsp;' + item.fecha + hora + ' (' + dia_str(item.fecha) + ')</td>'
+		+ '<td bgcolor="#e8e5e4" colspan=2><b>Data:</b>&nbsp;' + item.fecha.replace(/-/g, "/") + hora + ' (' + dia_str(item.fecha) + ')</td>'
 		+ '</tr>'
 		+ '<tr>'
 		+ '<td bgcolor="#e8e5e4" colspan=2><b>Campo:</b>&nbsp;' + campo + '</td>'

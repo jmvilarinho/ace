@@ -88,6 +88,7 @@ function show_portada_equipo(data, cod_equipo) {
 			var pattern = /(\d{2})\-(\d{2})\-(\d{4})/;
 			var dt = new Date(item2.fecha.replace(pattern, '$3-$2-$1 12:00'));
 			var now = new Date(Date.now());
+			//now = new Date('18-09-2024'.replace(pattern, '$3-$2-$1 12:00'));
 			if (isSameWeek(dt, now)) {
 				show_portada_data('Xornada actual', item2, item.cod_competicion, item.cod_grupo, data.nombre_equipo);
 
@@ -139,17 +140,13 @@ function show_portada_data(title, item, codcompeticion, codgrupo, nombre_equipo)
 	else
 		campo = '<a href="https://maps.google.com?q=' + item.campo + '" target="_blank">' + item.campo + ' <img src="../img/dot.png" height="20px"></a>';
 
-	casa = '<a href="javascript:load_portada_equipo(\'' + item.codequipo_casa + '\')">' + item.equipo_casa + '</a>';
+	casa = '&nbsp;<a href="javascript:load_portada_equipo(\'' + item.codequipo_casa + '\')">' + item.equipo_casa + '</a>&nbsp;';
 	if (item.equipo_casa != 'Descansa')
 		casa = '<img src="https://www.futgal.es' + item.escudo_equipo_casa + '" align="absmiddle" class="escudo_logo">' + br + casa;
-	else
-		casa = '&nbsp;' + casa + '&nbsp;';
 
-	fuera = '<a href="javascript:load_portada_equipo(\'' + item.codequipo_fuera + '\')">' + item.equipo_fuera + '</a>';
+	fuera = '&nbsp;<a href="javascript:load_portada_equipo(\'' + item.codequipo_fuera + '\')">' + item.equipo_fuera + '</a>&nbsp;';
 	if (item.equipo_fuera != 'Descansa')
 		fuera = '<img src="https://www.futgal.es' + item.escudo_equipo_fuera + '" align="absmiddle" class="escudo_logo">' + br + fuera;
-	else
-		fuera = '&nbsp;' + fuera + '&nbsp;';
 
 	if (codcompeticion) {
 		span = 1;
@@ -191,7 +188,7 @@ function show_portada_data(title, item, codcompeticion, codgrupo, nombre_equipo)
 		+ '<th colspan=3  align="absmiddle">' + title + '</th>'
 		+ '</tr>'
 		+ '<tr>'
-		+ '<td bgcolor="#e8e5e4" colspan=3><b>Data:</b>&nbsp;' + item.fecha + hora + ' (' + dia_str(item.fecha) + ')</td>'
+		+ '<td bgcolor="#e8e5e4" colspan=3><b>Data:</b>&nbsp;' + item.fecha.replace(/-/g, "/") + hora + ' (' + dia_str(item.fecha) + ')</td>'
 		+ '</tr>'
 		+ '<tr>'
 		+ '<td bgcolor="#e8e5e4" colspan=3><b>Campo:</b>&nbsp;' + campo + '</td>'
@@ -233,15 +230,15 @@ function show_comparativa(data, nombre_equipo) {
 
 	racha1 = '';
 	jQuery.each(data.racha_partidos_equipo1, function (indexr, itemr) {
-		racha1 += '<span style="background-color:' + itemr.color + ';" padding:0 2px 0 2px; color:white; font-size:10px; font-weight:bolder;">' + itemr.tipo + '</span>';
+		racha1 += '<span style="background-color:' + itemr.color + ';" class="racha">' + itemr.tipo + '</span>';
 	});
 	racha2 = '';
 	jQuery.each(data.racha_partidos_equipo2, function (indexr, itemr) {
-		racha2 += '<span style="background-color:' + itemr.color + ';" padding:0 2px 0 2px; color:white; font-size:10px; font-weight:bolder;">' + itemr.tipo + '</span>';
+		racha2 += '<span style="background-color:' + itemr.color + ';" class="racha">' + itemr.tipo + '</span>';
 	});
 
 	if (data.historico_enfrentamientos.length > 0) {
-		historico = '<table class="table_noborder" style="width:100%;">';
+		historico = '<table class="table_noborder_simple" style="width:100%;">';
 		cont = 0;
 		jQuery.each(data.historico_enfrentamientos, function (indexr, itemr) {
 			if (cont % 2)
@@ -260,9 +257,9 @@ function show_comparativa(data, nombre_equipo) {
 				fuera = itemr.equipo_fuera
 
 			historico += '<tr>';
-			historico += '<td bgcolor="' + background + '" class="table_noborder" align="right">' + casa + '</td><td bgcolor="' + background + '" class="table_noborder" align="center" >&nbsp;&nbsp;' + itemr.goles_casa + '&nbsp;&nbsp;</td>';
-			historico += '<td align="center" bgcolor="' + background + '" class="table_noborder">-</td>';
-			historico += '<td bgcolor="' + background + '" class="table_noborder" align="center">&nbsp;&nbsp;' + itemr.goles_fuera + '&nbsp;&nbsp;</td><td bgcolor="' + background + '" class="table_noborder">' + fuera + '</td>';
+			historico += '<td bgcolor="' + background + '" class="table_noborder_simple" align="right">' + casa + '</td><td bgcolor="' + background + '" class="table_noborder_simple" align="center" >&nbsp;&nbsp;' + itemr.goles_casa + '&nbsp;&nbsp;</td>';
+			historico += '<td align="center" bgcolor="' + background + '" class="table_noborder_simple">-</td>';
+			historico += '<td bgcolor="' + background + '" class="table_noborder_simple" align="center">&nbsp;&nbsp;' + itemr.goles_fuera + '&nbsp;&nbsp;</td><td bgcolor="' + background + '" class="table_noborder_simple">' + fuera + '</td>';
 			historico += '</tr>';
 		});
 		historico += '</table>';

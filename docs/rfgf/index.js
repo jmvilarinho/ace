@@ -310,7 +310,7 @@ function show_clasificacion(data, cod_grupo, cod_equipo) {
 
 		var str = '';
 		jQuery.each(item.racha_partidos, function (indexr, itemr) {
-			str += '<span style="background-color:' + itemr.color + ';" padding:0 2px 0 2px; color:white; font-size:10px; font-weight:bolder;">' + itemr.tipo + '</span>';
+			str += '<span style="background-color:' + itemr.color + ';" class="racha">' + itemr.tipo + '</span>';
 		});
 
 		$('#results').append('<td style="background-color:' + background + ';" align="center">' + str + '</td>');
@@ -344,11 +344,11 @@ function show_partidos(data, cod_equipo) {
 
 		$('#results').append('<table class="partidos" >');
 		$('#results').append('<tr>'
-			+ '<th>Día</th>'
+			+ '<th>Data</th>'
 			+ '<th align="right"></th>'
 			+ '<th align="center">Resultado</th>'
 			+ '<th align="left"></th>'
-			+ '<th>Día</th>'
+			+ '<th>Data</th>'
 			+ '<th>Campo</th>'
 			+ '</tr>');
 
@@ -394,13 +394,13 @@ function show_partidos(data, cod_equipo) {
 				campo = '';
 
 			$('#results').append('<tr>'
-				+ '<td style="background-color:' + background + ';" >' + item.fecha + hora + '</td>'
+				+ '<td style="background-color:' + background + ';" >' + item.fecha.replace(/-/g, "/") + hora + '</td>'
 				+ '<td style="background-color:' + background + ';" align="right" >' + casa + '</td>'
 				//+ '<td style="background-color:' + background + ';" align="right" >' + item.equipo_casa + '</td>'
 				+ '<td style="background-color:' + background + ';" align="center" >' + item.goles_casa + ' - ' + item.goles_fuera + '</td>'
 				+ '<td style="background-color:' + background + ';" align="left" >' + fuera + '</td>'
 				//+ '<td style="background-color:' + background + ';" align="left" >' + item.equipo_fuera + '</td>'
-				+ '<td style="background-color:' + background + ';" >' + item.fecha + hora + '</td>'
+				+ '<td style="background-color:' + background + ';" >' + item.fecha.replace(/-/g, "/") + hora + '</td>'
 				+ '<td style="background-color:' + background + ';" >' + campo + '</td>'
 				+ '</tr>');
 		});

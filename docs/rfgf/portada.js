@@ -126,10 +126,13 @@ function show_portada_data(title, item, codcompeticion, codgrupo) {
 		hora = ' - ' + item.hora;
 	else
 		hora = '';
-	if (codcompeticion)
+	if (codcompeticion){
 		br='<br><br><br>';
-	else
+		align='center';
+	}else{
 		br='';
+		align='left';
+	}
 
 	if (item.equipo_casa == 'Descansa' || item.equipo_fuera == 'Descansa')
 		campo = '';
@@ -160,11 +163,11 @@ function show_portada_data(title, item, codcompeticion, codgrupo) {
 
 	if (item.goles_casa == "" && item.goles_fuera == "") {
 		datos = '<tr>'
-			+ '<td style="text-align:center;" bgcolor="white" colspan=' + span + '>' + casa + '</td>'
+			+ '<td style="text-align:'+align+';" bgcolor="white" colspan=' + span + '>' + casa + '</td>'
 			+ data1
 			+ '</tr>'
 			+ '<tr>'
-			+ '<td style="text-align:center;" bgcolor="white" colspan=' + span + '>' + fuera + '</td>'
+			+ '<td style="text-align:'+align+';" bgcolor="white" colspan=' + span + '>' + fuera + '</td>'
 			+ data2
 			+ '</tr>';
 
@@ -236,11 +239,11 @@ function show_comparativa(data) {
 
 	$('#data_casa').append('<table class="table_noborder" >'
 		+ '<tr><th class="table_noborder" align="center" colspan=4 >' + data.posicion_equipo1 + "º (" + data.puntos_equipo1 + ' pts) </th></tr>'
-		+ '<tr><td rowspan=2 class="table_noborder">Derrotas</td><td rowspan=2 class="table_noborder">' + data.total_derrotas_porcentaje_equipo1 + '</td><td class="table_noborder">Local</td><td class="table_noborder">'+data.total_derrotas_porcentaje_equipo1_local	+'</td><tr><td class="table_noborder">Visit.</td><td class="table_noborder">'+data.total_derrotas_porcentaje_equipo1_visitante	+'</td></tr>'
-		+ '<tr><td rowspan=2 class="table_noborder">Empates</td><td rowspan=2 class="table_noborder">' + data.total_empates_porcentaje_equipo1 + '</td><td class="table_noborder">Local</td><td class="table_noborder">'+data.total_empates_porcentaje_equipo1_local	+'</td><tr><td class="table_noborder">Visit.</td><td class="table_noborder">'+data.total_empates_porcentaje_equipo1_visitante	+'</td></tr>'
-		+ '<tr><td rowspan=2 class="table_noborder">Victorias</td><td rowspan=2 class="table_noborder">' + data.total_victorias_porcentaje_equipo1 + '</td><td class="table_noborder">Local</td><td class="table_noborder">'+data.total_victorias_porcentaje_equipo1_local	+'</td><tr><td class="table_noborder">Visit.</td><td class="table_noborder">'+data.total_victorias_porcentaje_equipo1_visitante	+'</td></tr>'
+		+ '<tr><td rowspan=2 class="table_noborder">Derrotas</td><td rowspan=2 class="table_noborder">' + data.total_derrotas_porcentaje_equipo1 + '</td><td class="table_noborder">Local</td><td class="table_noborder">'+data.total_derrotas_porcentaje_equipo1_local	+'</td><td class="table_noborder">Visit.</td><td class="table_noborder">'+data.total_derrotas_porcentaje_equipo1_visitante	+'</td></tr>'
+		+ '<tr><td rowspan=2 class="table_noborder">Empates</td><td rowspan=2 class="table_noborder">' + data.total_empates_porcentaje_equipo1 + '</td><td class="table_noborder">Local</td><td class="table_noborder">'+data.total_empates_porcentaje_equipo1_local	+'</td><td class="table_noborder">Visit.</td><td class="table_noborder">'+data.total_empates_porcentaje_equipo1_visitante	+'</td></tr>'
+		+ '<tr><td rowspan=2 class="table_noborder">Victorias</td><td rowspan=2 class="table_noborder">' + data.total_victorias_porcentaje_equipo1 + '</td><td class="table_noborder">Local</td><td class="table_noborder">'+data.total_victorias_porcentaje_equipo1_local	+'</td><td class="table_noborder">Visit.</td><td class="table_noborder">'+data.total_victorias_porcentaje_equipo1_visitante	+'</td></tr>'
 		+ '<tr><td class="table_noborder" colspan=3>'+racha1+'</td></tr>'
-		+ '<tr><td class="table_noborder" align="center" rowspan=2>Goles/partido</td><td rowspan=2 class="table_noborder">' + data.total_goles_media_equipo1	+ '</td><td class="table_noborder">Local</td><td class="table_noborder">'+data.total_goles_media_equipo1_local +'</td><tr><td class="table_noborder">Visit.</td><td class="table_noborder">'+data.total_goles_media_equipo1_visitante+'</td></tr>'
+		+ '<tr><td class="table_noborder" align="center" rowspan=2>Goles/partido</td><td rowspan=2 class="table_noborder">' + data.total_goles_media_equipo1	+ '</td><td class="table_noborder">Local</td><td class="table_noborder">'+data.total_goles_media_equipo1_local +'</td><td class="table_noborder">Visit.</td><td class="table_noborder">'+data.total_goles_media_equipo1_visitante+'</td></tr>'
 		+ '</table>'
 	);
 
@@ -248,11 +251,11 @@ function show_comparativa(data) {
 
 	$('#data_fuera').append('<table class="table_noborder" >'
 		+ '<tr><th class="table_noborder" align="center" colspan=4 >' + data.posicion_equipo2 + "º (" + data.puntos_equipo2 + ' pts) </th></tr>'
-		+ '<tr><td rowspan=2 class="table_noborder">Derrotas</td><td rowspan=2 class="table_noborder">' + data.total_derrotas_porcentaje_equipo2 + '</td><td class="table_noborder">Local</td><td class="table_noborder">'+data.total_derrotas_porcentaje_equipo2_local	+'</td><tr><td class="table_noborder">Visit.</td><td class="table_noborder">'+data.total_derrotas_porcentaje_equipo2_visitante	+'</td></tr>'
-		+ '<tr><td rowspan=2 class="table_noborder">Empates</td><td rowspan=2 class="table_noborder">' + data.total_empates_porcentaje_equipo2 + '</td><td class="table_noborder">Local</td><td class="table_noborder">'+data.total_empates_porcentaje_equipo2_local	+'</td><tr><td class="table_noborder">Visit.</td><td class="table_noborder">'+data.total_empates_porcentaje_equipo2_visitante	+'</td></tr>'
-		+ '<tr><td rowspan=2 class="table_noborder">Victorias</td><td rowspan=2 class="table_noborder">' + data.total_victorias_porcentaje_equipo2 + '</td><td class="table_noborder">Local</td><td class="table_noborder">'+data.total_victorias_porcentaje_equipo2_local	+'</td><tr><td class="table_noborder">Visit.</td><td class="table_noborder">'+data.total_victorias_porcentaje_equipo2_visitante	+'</td></tr>'
+		+ '<tr><td  class="table_noborder">Derrotas</td><td class="table_noborder">' + data.total_derrotas_porcentaje_equipo2 + '</td><td class="table_noborder">Local</td><td class="table_noborder">'+data.total_derrotas_porcentaje_equipo2_local	+'</td><tr><td class="table_noborder">Visit.</td><td class="table_noborder">'+data.total_derrotas_porcentaje_equipo2_visitante	+'</td></tr>'
+		+ '<tr><td class="table_noborder">Empates</td><td class="table_noborder">' + data.total_empates_porcentaje_equipo2 + '</td><td class="table_noborder">Local</td><td class="table_noborder">'+data.total_empates_porcentaje_equipo2_local	+'</td><tr><td class="table_noborder">Visit.</td><td class="table_noborder">'+data.total_empates_porcentaje_equipo2_visitante	+'</td></tr>'
+		+ '<tr><td  class="table_noborder">Victorias</td><td class="table_noborder">' + data.total_victorias_porcentaje_equipo2 + '</td><td class="table_noborder">Local</td><td class="table_noborder">'+data.total_victorias_porcentaje_equipo2_local	+'</td><tr><td class="table_noborder">Visit.</td><td class="table_noborder">'+data.total_victorias_porcentaje_equipo2_visitante	+'</td></tr>'
 		+ '<tr><td class="table_noborder" colspan=4>'+racha2+'</td></tr>'
-		+ '<tr><td class="table_noborder" align="center" rowspan=2>Goles/partido</td><td rowspan=2 class="table_noborder">' + data.total_goles_media_equipo2	+ '</td><td class="table_noborder">Local</td><td class="table_noborder">'+data.total_goles_media_equipo2_local +'</td><tr><td class="table_noborder">Visit.</td><td class="table_noborder">'+data.total_goles_media_equipo2_visitante+'</td></tr>'
+		+ '<tr><td class="table_noborder" align="center" >Goles/partido</td><td class="table_noborder">' + data.total_goles_media_equipo2	+ '</td><td class="table_noborder">Local</td><td class="table_noborder">'+data.total_goles_media_equipo2_local +'</td><td class="table_noborder">Visit.</td><td class="table_noborder">'+data.total_goles_media_equipo2_visitante+'</td></tr>'
 		+ '</table>'
 	);
 

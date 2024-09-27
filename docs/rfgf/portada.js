@@ -130,7 +130,7 @@ function show_portada_data(title, item, codcompeticion, codgrupo) {
 		br='<br><br>';
 		align='center';
 	}else{
-		br='';
+		br='&nbsp;&nbsp;';
 		align='left';
 	}
 
@@ -173,12 +173,12 @@ function show_portada_data(title, item, codcompeticion, codgrupo) {
 
 	} else {
 		datos = '<tr>'
-			+ '<td style="text-align:center;" bgcolor="white" colspan=' + span + '>' + casa + '</td>'
+			+ '<td style="text-align:'+align+';" bgcolor="white" colspan=' + span + '>' + casa + '</td>'
 			+ data1
 			+ '<td bgcolor="white" align="center">&nbsp;' + item.goles_casa + '&nbsp;</td>'
 			+ '</tr>'
 			+ '<tr>'
-			+ '<td style="text-align:center;" bgcolor="white" colspan=' + span + '>' + fuera + '</td>'
+			+ '<td style="text-align:'+align+';" bgcolor="white" colspan=' + span + '>' + fuera + '</td>'
 			+ data2
 			+ '<td bgcolor="white" align="center">&nbsp;' + item.goles_fuera + '&nbsp;</td>'
 			+ '</tr>';

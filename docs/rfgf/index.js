@@ -375,7 +375,7 @@ function show_partidos(data, cod_equipo) {
 				campo = item.campo;
 			} else {
 				casa = '<a href="javascript:load_equipo(\'' + item.codequipo_casa + '\')">' + item.equipo_casa + '</a>';
-				campo = '<a href="https://maps.google.com?q=' + item.campo + '" target="_new">' + item.campo + ' <img src="../img/dot.png" height="15px"></a>';
+				campo = '<a href="https://maps.google.com?q=' + item.campo + '" target="_blank">' + item.campo + ' <img src="../img/dot.png" height="15px"></a>';
 			}
 
 			if (item.equipo_casa != 'Descansa')

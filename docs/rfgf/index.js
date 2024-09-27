@@ -147,10 +147,10 @@ function show_goleadores(data, cod_grupo, cod_equipo) {
 	$('#results').append(
 		'<tr>'
 		+ '<th>Jugador</th>'
-		+ '<th>PG</th>'
 		+ '<th>Goles</th>'
-		+ '<th>Penalti</th>'
 		+ '<th>Gol/Partido</th>'
+		+ '<th>PG</th>'
+		+ '<th>Penalti</th>'
 		+ '<th>Equipo</th>'
 		+ '</tr>'
 	);
@@ -174,10 +174,10 @@ function show_goleadores(data, cod_grupo, cod_equipo) {
 
 		$('#results').append(
 			'<td style="background-color:' + background + ';" align="left" >' + item.jugador + '</td>'
-			+ '<td style="background-color:' + background + ';" align="center" >' + item.partidos_jugados + '</td>'
 			+ '<td style="background-color:' + background + ';" align="center" >' + item.goles + '</td>'
-			+ '<td style="background-color:' + background + ';" align="center" >' + item.goles_penalti + '</td>'
 			+ '<td style="background-color:' + background + ';" align="center" >' + item.goles_por_partidos + '</td>'
+			+ '<td style="background-color:' + background + ';" align="center" >' + item.partidos_jugados + '</td>'
+			+ '<td style="background-color:' + background + ';" align="center" >' + item.goles_penalti + '</td>'
 			+ '<td style="background-color:' + background + ';" align="left" >' + equipo + '</td>');
 
 		$('#results').append('</tr>');
@@ -196,12 +196,13 @@ function show_clasificacion(data, cod_grupo, cod_equipo) {
 		+ '<th colspan="2" rowspan="2"></th>'
 		+ '<th rowspan="2">Equipo</th>'
 		+ '<th rowspan="2">Puntos</th>'
-		+ '<th colspan="2">Goles</th>'
+		+ '<th colspan="3">Goles</th>'
 		+ '<th colspan="3">Partidos</th>'
 		+ '<th rowspan="2">Racha</th>'
 		+ '<th rowspan="2">Coeficiente</th>'
 		+ '</tr>'
 		+ '<tr>'
+		+ '<th>Diff</th>'
 		+ '<th>Favor</th>'
 		+ '<th>Contra</th>'
 		+ '<th>G</th>'
@@ -298,10 +299,13 @@ function show_clasificacion(data, cod_grupo, cod_equipo) {
 		equipo = '<a href="javascript:load_portada_equipo(\'' + item.codequipo + '\')">' + item.nombre + '</a>';
 		equipo = '<img src="https://www.futgal.es' + item.url_img + '" align="absmiddle" class="escudo_widget">&nbsp;' + equipo
 
+		diff =item.goles_a_favor - item.goles_en_contra;
+
 		$('#results').append(
 			'<td style="background-color:' + background + ';" align="center" >&nbsp;' + item.posicion + '&nbsp;</td>'
 			+ '<td style="background-color:' + background + ';" align="left" >' + equipo + '</td>'
 			+ '<td style="background-color:' + background + ';" align="center" >' + puntos + '</td>'
+			+ '<td style="background-color:' + background + ';" align="center" >' + diff + '</td>'
 			+ '<td style="background-color:' + background + ';" align="center" >' + item.goles_a_favor + '</td>'
 			+ '<td style="background-color:' + background + ';" align="center" >' + item.goles_en_contra + '</td>'
 			+ '<td style="background-color:' + background + ';" align="center" >' + item.ganados + '</td>'

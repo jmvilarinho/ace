@@ -149,7 +149,7 @@ function show_portada_data(title, item, codcompeticion, codgrupo, nombre_equipo)
 	if (item.equipo_casa == 'Descansa' || item.equipo_fuera == 'Descansa')
 		campo = '';
 	else
-		campo = '<a href="https://maps.google.com?q=' + item.campo + '" target="_blank">' + item.campo + ' <img src="../img/dot.png" height="20px"></a>';
+		campo = '<a href="https://maps.google.com?q=' + item.campo + '" target="_blank">' + item.campo + '</a> <img src="../img/dot.png" height="20px">';
 
 	casa = '&nbsp;<a href="javascript:load_portada_equipo(\'' + item.codequipo_casa + '\')">' + item.equipo_casa + '</a>&nbsp;';
 	if (item.equipo_casa != 'Descansa')

@@ -38,6 +38,8 @@ function show_resultados(data, codgrupo, cod_equipo) {
 	j = parseInt(data.jornada);
 	if ((j - 1) > 0) {
 		back = "<a href=\"javascript:load_resultados('" + codgrupo + "','" + cod_equipo + "','" + (j - 1) + "')\"><img class=\"escudo_widget\" src=../img/back.png></a>&nbsp;&nbsp;&nbsp;";
+	} else {
+		back ='';
 	}
 	forward = "&nbsp;&nbsp;&nbsp;<a href=\"javascript:load_resultados('" + codgrupo + "','" + cod_equipo + "','" + (j + 1) + "')\"><img class=\"escudo_widget\" src=../img/forward.png></a>";
 

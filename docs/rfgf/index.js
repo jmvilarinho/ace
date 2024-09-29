@@ -187,12 +187,14 @@ function show_goleadores(data, cod_grupo, cod_equipo) {
 
 function show_clasificacion(data, cod_grupo, cod_equipo) {
 	$('#results').append('<br>');
-	$('#results').append(data.competicion + ' (jornada ' + data.jornada + ')<br>');
+	$('#results').append(data.competicion + ' ( ' + data.grupo + ')<br>');
 	crea_botons('clasificacion', cod_equipo, cod_grupo, data.codigo_competicion);
 
 	$('#results').append('<table border >');
 	$('#results').append(
 		'<tr>'
+		+ '<th colspan="13">Jornada ' + data.jornada + ' - ' + data.fecha_jornada.replace(/-/g, "/") + '</th>'
+		+ '</tr><tr>'
 		+ '<th colspan="2" rowspan="2"></th>'
 		+ '<th rowspan="2">Equipo</th>'
 		+ '<th rowspan="2">Puntos</th>'
@@ -300,7 +302,7 @@ function show_clasificacion(data, cod_grupo, cod_equipo) {
 		equipo = '<a href="javascript:load_portada_equipo(\'' + item.codequipo + '\')">' + item.nombre + '</a>';
 		equipo = '<img src="https://www.futgal.es' + item.url_img + '" align="absmiddle" class="escudo_widget">&nbsp;' + equipo
 
-		diff =item.goles_a_favor - item.goles_en_contra;
+		diff = item.goles_a_favor - item.goles_en_contra;
 
 		$('#results').append(
 			'<td style="background-color:' + background + ';" align="center" >&nbsp;' + item.posicion + '&nbsp;</td>'

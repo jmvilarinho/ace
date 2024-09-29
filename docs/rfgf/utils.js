@@ -1,3 +1,52 @@
+function crea_botons(pagina, codigo_equipo, cod_grupo, cod_competicion) {
+
+	var boton_partidos = $('<input/>').attr({
+		type: "button",
+		class: (pagina == 'portada') ? 'none' : "back_button",
+		id: "field",
+		value: 'Portada',
+		onclick: "load_portada_equipo('" + codigo_equipo + "')"
+	});
+	$('#results').append(boton_partidos);
+
+	var boton_partidos = $('<input/>').attr({
+		type: "button",
+		class: (pagina == 'partidos') ? 'none' : "back_button",
+		id: "field",
+		value: 'Xornadas',
+		onclick: "load_equipo('" + codigo_equipo + "')"
+	});
+	$('#results').append(boton_partidos);
+
+	var boton_resultados = $('<input/>').attr({
+		type: "button",
+		class: (pagina == 'resultados') ? 'none' : "back_button",
+		id: "field",
+		value: 'Resultados',
+		onclick: "load_resultados('" + cod_grupo + "','" + codigo_equipo + "','')"
+	});
+	$('#results').append(boton_resultados);
+
+	var boton_clasificacion = $('<input/>').attr({
+		type: "button",
+		class: (pagina == 'clasificacion') ? 'none' : "back_button",
+		id: "field",
+		value: 'Clasificación',
+		onclick: "load_clasificacion('" + cod_grupo + "','" + codigo_equipo + "')"
+	});
+	$('#results').append(boton_clasificacion);
+
+	var boton_goleadores = $('<input/>').attr({
+		type: "button",
+		class: (pagina == 'goleadores') ? 'none' : "back_button",
+		id: "field",
+		value: 'Goleadores',
+		onclick: "load_goleadores('" + cod_competicion + "','" + cod_grupo + "','" + codigo_equipo + "')"
+	});
+	$('#results').append(boton_goleadores);
+}
+
+
 /* Set the width of the side navigation to 250px */
 function openNav() {
 	document.getElementById("mySidenav").style.width = "270px";

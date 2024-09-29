@@ -25,6 +25,13 @@ function update_vista() {
 					var cod_grupo = getCookie('cod_grupo');
 					load_clasificacion(cod_grupo, cod_equipo);
 					break;
+
+case 'resultados':                                                                                   var cod_equipo = getCookie('cod_equipo');                                                       var cod_grupo = getCookie('cod_grupo');                                                         load_resultados(cod_grupo, cod_equipo,'');                                                      break;
+
+
+
+
+
 				case 'goleadores':
 					var cod_equipo = getCookie('cod_equipo');
 					var cod_grupo = getCookie('cod_grupo');

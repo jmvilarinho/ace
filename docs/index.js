@@ -17,7 +17,7 @@ function openUrl(url) {
 }
 
 function CambiaVistaUpdate(pagina) {
-	if (!pagina) {
+	if (!pagina || !(pagina == 'praias' || pagina == 'poboacions')) {
 		pagina = 'praias'
 	}
 

@@ -72,7 +72,7 @@ async function load_portada_equipo(cod_equipo) {
 function show_portada_equipo(data, cod_equipo) {
 	lineas = 0;
 	$('#results').append('<br>');
-	mostrado=false;
+	mostrado = false;
 	jQuery.each(data.competiciones_equipo, function (index, item) {
 		lineas += 1;
 		if (lineas > 1)
@@ -91,7 +91,7 @@ function show_portada_equipo(data, cod_equipo) {
 			var now = new Date(Date.now());
 			//now = new Date('18-03-2024'.replace(pattern, '$3-$2-$1 12:00'));
 			if (isSameWeek(dt, now)) {
-				mostrado=true;
+				mostrado = true;
 				show_portada_data('Xornada actual', item2, item.cod_competicion, item.cod_grupo, data.nombre_equipo);
 
 				if (previous) {
@@ -112,7 +112,7 @@ function show_portada_equipo(data, cod_equipo) {
 				nombre = 'para ' + equipos[i].name;
 		}
 		$('#results').append('<b>Equipo:</b> ' + data.nombre_equipo + '<br><br><br><b>Non hai datos ' + nombre + '</b><br><br><br>');
-	} else	if (! mostrado) {
+	} else if (!mostrado) {
 		var arrayLength = equipos.length;
 		nombre = ''
 		for (var i = 0; i < arrayLength; i++) {
@@ -148,9 +148,9 @@ function show_portada_data(title, item, codcompeticion, codgrupo, nombre_equipo)
 
 	if (item.equipo_casa == 'Descansa' || item.equipo_fuera == 'Descansa')
 		campo = '';
-	else{
-		htmlmap = ' <a href="https://waze.com/ul?q=' + encodeURIComponent(item.campo)  + '&navigate=yes" target="_blank"><img src="../img/waze.png" height="15px"></a>';
-		campo = '<a href="https://maps.google.com?q=' + item.campo + '" target="_blank">' + item.campo + '</a> '+htmlmap;
+	else {
+		htmlmap = ' <a href="https://waze.com/ul?q=' + encodeURIComponent(item.campo) + '&navigate=yes" target="_blank"><img src="../img/waze.png" height="15px"></a>';
+		campo = '<a href="https://maps.google.com?q=' + item.campo + '" target="_blank">' + item.campo + '</a> ' + htmlmap;
 	}
 
 
@@ -185,15 +185,20 @@ function show_portada_data(title, item, codcompeticion, codgrupo, nombre_equipo)
 			+ '</tr>';
 
 	} else {
+		if (item.partido_en_juego == '1')
+			xogo = '<br>(en xogo)';
+		else
+			xogo = '';
+
 		datos = '<tr>'
 			+ '<td style="text-align:' + align + ';" bgcolor="white" colspan=' + span + '>' + casa + '</td>'
 			+ data1
-			+ '<td bgcolor="white" align="center">&nbsp;' + item.goles_casa + '&nbsp;</td>'
+			+ '<td bgcolor="white" align="center">&nbsp;' + item.goles_casa + xogo + '&nbsp;</td>'
 			+ '</tr>'
 			+ '<tr>'
 			+ '<td style="text-align:' + align + ';" bgcolor="white" colspan=' + span + '>' + fuera + '</td>'
 			+ data2
-			+ '<td bgcolor="white" align="center">&nbsp;' + item.goles_fuera + '&nbsp;</td>'
+			+ '<td bgcolor="white" align="center">&nbsp;' + item.goles_fuera + xogo + '&nbsp;</td>'
 			+ '</tr>';
 	}
 
@@ -271,6 +276,7 @@ function show_comparativa(data, nombre_equipo) {
 				fuera = itemr.equipo_fuera
 
 			historico += '<tr>';
+			historico += '<td align="center" bgcolor="' + background + '" class="table_noborder_simple">' + itemr.temporada + ',</td>';
 			historico += '<td bgcolor="' + background + '" class="table_noborder_simple" align="right">' + casa + '</td><td bgcolor="' + background + '" class="table_noborder_simple" align="center" >&nbsp;&nbsp;' + itemr.goles_casa + '&nbsp;&nbsp;</td>';
 			historico += '<td align="center" bgcolor="' + background + '" class="table_noborder_simple">-</td>';
 			historico += '<td bgcolor="' + background + '" class="table_noborder_simple" align="center">&nbsp;&nbsp;' + itemr.goles_fuera + '&nbsp;&nbsp;</td><td bgcolor="' + background + '" class="table_noborder_simple">' + fuera + '</td>';

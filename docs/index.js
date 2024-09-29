@@ -258,7 +258,7 @@ function getTemperaturanDatos(data, element, latitude, longitude, texto, waze = 
 	const keyDiv = document.createElement('div');
 	html = texto + " " + data["current"]["temperature_2m"] + "&deg;";
 	if (waze) {
-		html += " <a href=waze://waze.com/ul?ll=" + latitude + "," + longitude + "&z=100 target=_new><img src='img/waze.png' height='15px'></a>";
+		html += " <a href=http://waze.com/ul?ll=" + latitude + "," + longitude + "&z=100 target=_new><img src='img/waze.png' height='15px'></a>";
 	} else {
 		html += " <a href=https://maps.google.com?q=" + latitude + "," + longitude + " target=_new><img src='img/dot.png' height='15px'></a>";
 	}

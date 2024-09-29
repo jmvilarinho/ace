@@ -109,7 +109,7 @@ function show_portada_data(title, item, codcompeticion, codgrupo, nombre_equipo)
 	if (item.equipo_casa == 'Descansa' || item.equipo_fuera == 'Descansa')
 		campo = '';
 	else {
-		htmlmap = ' <a href="https://waze.com/ul?q=' + encodeURIComponent(item.campo) + '&navigate=yes" target="_blank"><img src="../img/waze.png" height="15px"></a>';
+		htmlmap = ' <img src="../img/waze.png" height="15px"><a href="https://waze.com/ul?q=' + encodeURIComponent(item.campo) + '&navigate=yes" target="_blank">waze</a>';
 		campo = '<a href="https://maps.google.com?q=' + item.campo + '" target="_blank">' + item.campo + '</a> ' + htmlmap;
 	}
 

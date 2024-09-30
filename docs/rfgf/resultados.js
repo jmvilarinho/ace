@@ -87,6 +87,8 @@ function show_resultados(data, codgrupo, cod_equipo) {
 			xogo = '<br>(en xogo)';
 		else
 			xogo = '';
+		xogo += '<br>situacion_juego: "'+item.situacion_juego+'"';
+
 		if (item.hora)
 			hora = ' - ' + item.hora;
 		else

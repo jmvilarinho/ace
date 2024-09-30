@@ -46,7 +46,7 @@ function show_resultados(data, codgrupo, cod_equipo) {
 	$('#results').append('<table border >');
 	$('#results').append(
 		'<tr>'
-		+ '<th colspan="4" align="center">' + back + 'Jornada ' + data.jornada + ' - ' + data.fecha_jornada.replace(/-/g, "/") + forward + '</th>'
+		+ '<th colspan="4" align="center">' + back + 'Xornada ' + data.jornada + ' - ' + data.fecha_jornada.replace(/-/g, "/") + forward + '</th>'
 		+ '</tr><tr>'
 		+ '<th>Data</th>'
 		+ '<th align="right"></th>'

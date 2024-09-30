@@ -41,9 +41,9 @@ async function load_favoritos() {
 			+ '&nbsp;</label></td>' + end;
 
 	}
-	if (arrayLength%2)
+	if (arrayLength % 2)
 		html_fav += '</tr>'
-	$('#results').append(html_fav+'</table><hr>');
+	$('#results').append(html_fav + '</table><hr>');
 
 
 	add_back('favoritos');
@@ -166,8 +166,8 @@ function show_portada_data_favoritos(title, item, id) {
 	else
 		hora = '';
 
-	htmlmap = ' <a href="https://waze.com/ul?q=' + encodeURIComponent(item.campo)  + '&navigate=yes" target="_blank"><img src="../img/waze.png" height="15px"></a>';
-	campo = '<a href="https://maps.google.com?q=' + item.campo + '" target="_blank">' + item.campo + '</a> '+htmlmap;
+	//campo = '<a href="https://waze.com/ul?q=' + encodeURIComponent(item.campo) + '&navigate=yes" target="_blank">' + item.campo + '</a> <img src="../img/waze.png" height="15px">';
+	campo = '<a href="https://maps.google.com?q=' + encodeURIComponent(item.campo) + '" target="_blank">' + item.campo + '</a> <img src="../img/dot.png" height="15px">';
 
 	casa = '<a href="javascript:load_portada_equipo(\'' + item.codequipo_casa + '\')">' + item.equipo_casa + '</a>';
 	casa = '<img src="https://www.futgal.es' + item.escudo_equipo_casa + '" align="absmiddle" class="escudo_logo_medio">&nbsp;&nbsp;' + casa + '&nbsp;';

@@ -26,7 +26,7 @@ function update_vista() {
 					load_clasificacion(cod_grupo, cod_equipo);
 					break;
 
-case 'resultados':                                                                                   var cod_equipo = getCookie('cod_equipo');                                                       var cod_grupo = getCookie('cod_grupo');                                                         load_resultados(cod_grupo, cod_equipo,'');                                                      break;
+				case 'resultados': var cod_equipo = getCookie('cod_equipo'); var cod_grupo = getCookie('cod_grupo'); load_resultados(cod_grupo, cod_equipo, ''); break;
 
 
 
@@ -390,7 +390,8 @@ function show_partidos(data, cod_equipo) {
 				campo = item.campo;
 			} else {
 				casa = '<a href="javascript:load_equipo(\'' + item.codequipo_casa + '\')">' + item.equipo_casa + '</a>';
-				campo = '<a href="https://maps.google.com?q=' + item.campo + '" target="_blank">' + item.campo + '</a> <img src="../img/dot.png" height="15px">';
+				//campo = '<a href="https://maps.google.com?q=' + encodeURIComponent(item.campo) + '" target="_blank">' + item.campo + '</a> <img src="../img/dot.png" height="15px">';
+				campo = '<a href="https://waze.com/ul?q=' + encodeURIComponent(item.campo) + '&navigate=yes" target="_blank">' + item.campo + '</a> <img src="../img/waze.png" height="15px">';
 			}
 
 			if (item.equipo_casa != 'Descansa')

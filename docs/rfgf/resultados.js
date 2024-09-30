@@ -39,7 +39,7 @@ function show_resultados(data, codgrupo, cod_equipo) {
 	if ((j - 1) > 0) {
 		back = "<a href=\"javascript:load_resultados('" + codgrupo + "','" + cod_equipo + "','" + (j - 1) + "')\"><img class=\"escudo_widget\" src=../img/back.png></a>&nbsp;&nbsp;&nbsp;";
 	} else {
-		back ='';
+		back = '';
 	}
 	forward = "&nbsp;&nbsp;&nbsp;<a href=\"javascript:load_resultados('" + codgrupo + "','" + cod_equipo + "','" + (j + 1) + "')\"><img class=\"escudo_widget\" src=../img/forward.png></a>";
 
@@ -87,7 +87,8 @@ function show_resultados(data, codgrupo, cod_equipo) {
 			xogo = '<br>(en xogo)';
 		else
 			xogo = '';
-		xogo += '<br>situacion_juego: "'+item.situacion_juego+'"';
+		if (!(item.situacion_juego == '1' || item.situacion_juego == ''))
+			xogo += '<br>situacion_juego: "' + item.situacion_juego + '"';
 
 		if (item.hora)
 			hora = ' - ' + item.hora;

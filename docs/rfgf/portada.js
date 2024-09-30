@@ -56,7 +56,7 @@ function show_portada_equipo(data, cod_equipo) {
 
 				if (previous) {
 					$('#results').append('<br>');
-					show_portada_data('Xornada anterior (#'+item2.nombre_jornada+')', previous, undefined, undefined, undefined);
+					show_portada_data('Xornada anterior (#'+previous.nombre_jornada+')', previous, undefined, undefined, undefined);
 				}
 				return false;
 			}

@@ -50,7 +50,7 @@ function show_portada_equipo(data, cod_equipo) {
 			var dt = new Date(item2.fecha.replace(pattern, '$3-$2-$1 12:00'));
 			var now = new Date(Date.now());
 			//now = new Date('18-03-2024'.replace(pattern, '$3-$2-$1 12:00'));
-			if (isSameWeek(dt, now)) {
+			if (isSameWeek(dt, now) && 1==0) {
 				mostrado = true;
 				show_portada_data('Xornada actual', item2, item.cod_competicion, item.cod_grupo, data.nombre_equipo);
 

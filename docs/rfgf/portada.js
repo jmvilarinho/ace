@@ -52,7 +52,7 @@ function show_portada_equipo(data, cod_equipo) {
 			//now = new Date('18-03-2024'.replace(pattern, '$3-$2-$1 12:00'));
 			if (isSameWeek(dt, now)) {
 				mostrado = true;
-				show_portada_data('Xornada actual (#'+item.nombre_jornada+')', item2, item.cod_competicion, item.cod_grupo, data.nombre_equipo);
+				show_portada_data('Xornada actual (#'+item2.nombre_jornada+')', item2, item.cod_competicion, item.cod_grupo, data.nombre_equipo);
 
 				if (previous) {
 					$('#results').append('<br>');

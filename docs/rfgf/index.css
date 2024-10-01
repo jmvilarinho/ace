@@ -213,7 +213,6 @@ escudo_logo_medio
 
 /* creating css loader */
 #pt-5 {
-
 	display: flex;
 	justify-content: center;
 	/* Centers horizontally */
@@ -233,8 +232,11 @@ escudo_logo_medio
 	animation: spin 1s infinite linear;
 	transform: scale(1.2);
 	transform-origin: center center;
-	position: relative;
 	display: inline-block;
+
+	position: absolute;
+	top: 8px;
+	left: 220px;
 }
 
 #loading.display {
@@ -274,28 +276,25 @@ escudo_logo_medio
 }
 
 .float_center {
-	width: 100px;
-	height: 100px;
 	background-color: rgb(3, 3, 3);
 
-	top: 50px;
-	bottom: 0;
-	left: 50;
-	right: 0;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+
 }
 
 #spinner-div {
 	display: none;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
+
 	text-align: center;
 	background-color: rgba(199, 195, 207, 0.8);
 	z-index: 1;
 
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+	/* transform: translate(-50%, -50%); */
+	position: fixed;
+	height: 100%;
+	width:  100%;
+	left: 0;
+    top: 0;
 }

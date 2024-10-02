@@ -249,7 +249,7 @@ function show_comparativa(data, nombre_equipo) {
 
 	$('#data_casa').append('<table class="table_noborder" >'
 		+ '<tr>'
-		+ '<th class="table_noborder" align="center" colspan=2 >' + data.posicion_equipo1 + "º (" + data.puntos_equipo1 + ' pts) </th></tr>'
+		+ '<th class="table_noborder" align="center" colspan=2 >' + data.posicion_equipo1 + "º (" + data.puntos_equipo1 + ' pts)<br> </th></tr>'
 		+ '<tr><td class="table_noborder" colspan=6>' + racha1 + '</td></tr>'
 		+ '<tr>'
 		+ '<td class="table_noborder" align="right">Total Goles:</td><td class="table_noborder">' + data.total_goles_equipo1 + '</td>'
@@ -268,7 +268,7 @@ function show_comparativa(data, nombre_equipo) {
 
 	$('#data_fuera').append('<table class="table_noborder" >'
 		+ '<tr>'
-		+ '<th class="table_noborder" align="center" colspan=2 >' + data.posicion_equipo2 + "º (" + data.puntos_equipo2 + ' pts) </th></tr>'
+		+ '<th class="table_noborder" align="center" colspan=2 >' + data.posicion_equipo2 + "º (" + data.puntos_equipo2 + ' pts) <br></th></tr>'
 		+ '<td class="table_noborder" align="right">Total Goles:</td><td class="table_noborder">' + data.total_goles_equipo2 + '</td>'
 		+ '<td class="table_noborder" align="right">Local:</td><td class="table_noborder">' + data.total_goles_equipo2_local + '</td>'
 		+ '<td class="table_noborder" align="right">Visit.:</td><td class="table_noborder">' + data.total_goles_equipo2_visitante + '</td>'

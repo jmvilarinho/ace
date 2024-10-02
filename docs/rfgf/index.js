@@ -230,143 +230,17 @@ function show_clasificacion(data, cod_grupo, cod_equipo) {
 		cont += 1
 
 		$('#results').append('<tr>');
-		try {
-			mark = false;
-			if (data.promociones.length > 0) {
-				if ((
-					data.promociones[0].nombre_promocion == 'ASCIENDE'
-					|| data.promociones[0].nombre_promocion == 'CAMPEON'
-					|| data.promociones[0].nombre_promocion == 'SG ASCENSO'
-					|| data.promociones[0].nombre_promocion == 'ASCENSO'
-				)
-					&& parseInt(item.posicion) <= parseInt(data.promociones[0].orden)) {
-					mark = true;
-					$('#results').append(
-						'<td width="12px" align="left" bgcolor="' + data.promociones[0].color_promocion + '">&nbsp;</td>'
-					);
-				} else if (data.promociones[0].nombre_promocion == 'PROM. TÍTULO' &&
-					parseInt(item.posicion) <= 4) {
-					mark = true;
-					$('#results').append(
-						'<td width="12px" align="left" bgcolor="' + data.promociones[0].color_promocion + '">&nbsp;</td>'
-					);
-				} else if (data.promociones[1].nombre_promocion == 'PROM. ASCENSO' &&
-					(parseInt(item.posicion) <= (parseInt(data.promociones[0].orden) + parseInt(data.promociones[1].orden)))) {
-					mark = true;
-					$('#results').append(
-						'<td width="12px" align="left" bgcolor="' + data.promociones[1].color_promocion + '">&nbsp;</td>'
-					);
-				} else if (data.promociones[1].nombre_promocion.startsWith('SG ASCENSO (MEJOR') &&
-					(parseInt(item.posicion) <= (parseInt(parseInt(data.promociones[1].orden))))) {
-					mark = true;
-					$('#results').append(
-						'<td width="12px" align="left" bgcolor="' + data.promociones[1].color_promocion + '">&nbsp;</td>'
-					);
-				} else if (data.promociones[1].nombre_promocion == 'PROMOCIÓN' &&
-					(parseInt(item.posicion) <= (parseInt(data.promociones[1].orden)))) {
-					mark = true;
-					$('#results').append(
-						'<td width="12px" align="left" bgcolor="' + data.promociones[1].color_promocion + '">&nbsp;</td>'
-					);
-				} else if ((data.promociones[1].nombre_promocion == 'DESCIENDEN' || data.promociones[1].nombre_promocion == 'DESCENSO') &&
-					(parseInt(item.posicion) >= (parseInt(data.promociones[1].orden)))) {
-					mark = true;
-					$('#results').append(
-						'<td width="12px" align="left" bgcolor="' + data.promociones[1].color_promocion + '">&nbsp;</td>'
-					);
-				} else if (data.promociones.length > 2 && (
-					data.promociones[2].nombre_promocion == 'DESCIENDEN'
-					|| data.promociones[2].nombre_promocion == 'SG DESCENSO'
-				) &&
-					(parseInt(item.posicion) >= (parseInt(data.promociones[2].orden)))) {
-					mark = true;
-					$('#results').append(
-						'<td width="12px" align="left" bgcolor="' + data.promociones[2].color_promocion + '">&nbsp;</td>'
-					);
-				} else if (data.promociones.length > 2 && (
-					data.promociones[2].nombre_promocion == 'DESCENSO'
-				) &&
-					(parseInt(item.posicion) > (parseInt(data.clasificacion.length)-3))) {
-					mark = true;
-					$('#results').append(
-						'<td width="12px" align="left" bgcolor="' + data.promociones[2].color_promocion + '">&nbsp;</td>'
-					);
-				}
-			}
 
-
-
-			if (!mark)
-				$('#results').append(
-					'<td width="12px" align="left" bgcolor="' + background + '">&nbsp;</td>'
-				);
-
-			// if (parseInt(data.promociones[0].orden) == 0 && data.promociones[0].nombre_promocion == 'ASCENSO') {
-			// 	if (parseInt(item.posicion) <= 1)
-			// 		$('#results').append(
-			// 			'<td width="12px" align="left" bgcolor="' + data.promociones[0].color_promocion + '">&nbsp;</td>'
-			// 		);
-			// 	else if (parseInt(item.posicion) <= 5)
-			// 		$('#results').append(
-			// 			'<td width="12px" align="left" bgcolor="' + data.promociones[1].color_promocion + '">&nbsp;</td>'
-			// 		);
-			// 	else if (parseInt(item.posicion) >= (data.clasificacion.length - 3))
-			// 		$('#results').append(
-			// 			'<td width="12px" align="left" bgcolor="' + data.promociones[2].color_promocion + '">&nbsp;</td>'
-			// 		);
-			// 	else
-			// 		$('#results').append(
-			// 			'<td width="12px" align="left" bgcolor="' + background + '">&nbsp;</td>'
-			// 		);
-			// } else if (parseInt(data.promociones[0].orden) == 1 && data.promociones[0].nombre_promocion != 'CAMPEON' && data.promociones[0].nombre_promocion != 'ASCENSO') {
-			// 	if (parseInt(item.posicion) <= 4)
-			// 		$('#results').append(
-			// 			'<td width="12px" align="left" bgcolor="' + data.promociones[0].color_promocion + '">&nbsp;</td>'
-			// 		);
-			// 	else if (parseInt(item.posicion) >= parseInt(data.promociones[1].orden))
-			// 		$('#results').append(
-			// 			'<td width="12px" align="left" bgcolor="' + data.promociones[1].color_promocion + '">&nbsp;</td>'
-			// 		);
-			// 	else
-			// 		$('#results').append(
-			// 			'<td width="12px" align="left" bgcolor="' + background + '">&nbsp;</td>'
-			// 		);
-
-			// } else {
-			// 	if (parseInt(item.posicion) <= parseInt(data.promociones[0].orden) || (parseInt(data.promociones[0].orden) == 0 && parseInt(item.posicion) <= 1))
-			// 		$('#results').append(
-			// 			'<td width="12px" align="left" bgcolor="' + data.promociones[0].color_promocion + '">&nbsp;</td>'
-			// 		);
-			// 	else if (data.promociones.length == 2)
-			// 		if (parseInt(item.posicion) >= parseInt(data.promociones[1].orden))
-			// 			$('#results').append(
-			// 				'<td width="12px" align="left" bgcolor="' + data.promociones[1].color_promocion + '">&nbsp;</td>'
-			// 			);
-			// 		else
-			// 			$('#results').append(
-			// 				'<td width="12px" align="left" bgcolor="' + background + '">&nbsp;</td>'
-			// 			);
-
-			// 	else if (parseInt(item.posicion) <= parseInt(data.promociones[1].orden || (parseInt(data.promociones[0].orden) == 0 && parseInt(item.posicion) <= 5)))
-			// 		$('#results').append(
-			// 			'<td width="12px" align="left" bgcolor="' + data.promociones[1].color_promocion + '">&nbsp;</td>'
-			// 		);
-			// 	else if (parseInt(item.posicion) >= parseInt(data.promociones[2].orden || (parseInt(data.promociones[0].orden) == 0 && parseInt(item.posicion) >= (len(data.clasificacion) - 4))))
-			// 		$('#results').append(
-			// 			'<td width="12px" align="left" bgcolor="' + data.promociones[2].color_promocion + '">&nbsp;</td>'
-			// 		);
-			// 	else
-			// 		$('#results').append(
-			// 			'<td width="12px" align="left" bgcolor="' + background + '">&nbsp;</td>'
-			// 		);
-			// }
-		}
-		catch (error) {
-			console.error(error);
+		if (item.color != '') {
+			$('#results').append(
+				'<td width="12px" align="left" bgcolor="' + item.color + '">&nbsp;</td>'
+			);
+		} else {
 			$('#results').append(
 				'<td width="12px" align="left" bgcolor="' + background + '">&nbsp;</td>'
 			);
 		}
+
 		if (item.codequipo == cod_equipo)
 			background = '#a78183';
 

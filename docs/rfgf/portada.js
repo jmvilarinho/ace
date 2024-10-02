@@ -279,7 +279,7 @@ function show_comparativa(data, nombre_equipo) {
 		+ '<td class="table_noborder" align="right">Empates:</td><td class="table_noborder">' + data.total_empates_porcentaje_equipo2 + '</td>'
 		+ '<td class="table_noborder" align="right">Victorias:</td><td class="table_noborder">' + data.total_victorias_porcentaje_equipo2 + '</td>'
 		+ '</tr>'
-		+ '<tr><td class="table_noborder" colspan=6>' + racha1 + '</td></tr>'
+		+ '<tr><td class="table_noborder" colspan=6>' + racha2 + '</td></tr>'
 		+ '<tr>'
 		+ '<td class="table_noborder" align="right">Total Goles:</td><td class="table_noborder">' + data.total_goles_equipo2 + '</td>'
 		+ '<td class="table_noborder" align="right">Local:</td><td class="table_noborder">' + data.total_goles_equipo2_local + '</td>'

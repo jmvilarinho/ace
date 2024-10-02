@@ -273,6 +273,7 @@ function show_comparativa(data, nombre_equipo) {
 		+ '<td class="table_noborder" align="right">Local:</td><td class="table_noborder">' + data.total_goles_equipo2_local + '</td>'
 		+ '<td class="table_noborder" align="right">Visit.:</td><td class="table_noborder">' + data.total_goles_equipo2_visitante + '</td>'
 		+ '</tr>'
+		+ '<tr><td class="table_noborder" colspan=6>' + racha2 + '</td></tr>'
 		+ '<tr>'
 		+ '<td class="table_noborder" align="right">Media:</td><td class="table_noborder">' + data.total_goles_media_equipo2 + '</td>'
 		+ '<td class="table_noborder" align="right">Local:</td><td class="table_noborder">' + data.total_goles_media_equipo2_local + '</td>'

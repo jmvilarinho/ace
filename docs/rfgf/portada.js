@@ -110,9 +110,9 @@ function show_portada_data(title, item, codcompeticion, codgrupo, nombre_equipo)
 		campo = '';
 	else {
 		//campo = '<a href="https://waze.com/ul?q=' + encodeURIComponent(item.campo) + '&navigate=yes" target="_blank">' + item.campo + '</a> <img src="../img/waze.png" height="15px">';
-		campo = '<a href="https://www.google.com/maps/dir/?api=1&destination=' + encodeURIComponent(item.campo) + '" target="_blank">' + item.campo + '</a> <img src="../img/dot.png" height="15px">';
+		//campo = '<a href="https://www.google.com/maps/dir/?api=1&destination=' + encodeURIComponent(item.campo) + '" target="_blank">' + item.campo + '</a> <img src="../img/dot.png" height="15px">';
+		campo = '<a href="https://maps.google.com?q=' + encodeURIComponent(item.campo) + '" target="_blank">' + item.campo + '</a> <img src="../img/dot.png" height="15px">';
 	}
-
 
 	casa = '&nbsp;<a href="javascript:load_portada_equipo(\'' + item.codequipo_casa + '\')">' + item.equipo_casa + '</a>&nbsp;';
 	if (item.equipo_casa != 'Descansa')
@@ -246,41 +246,78 @@ function show_comparativa(data, nombre_equipo) {
 		$('#historico').html(historico);
 	}
 
+	stats1 = '<table><thead>'
+		+ '<tr>'
+		+ '<td class="table_noborder"></th>'
+		+ '<td class="table_noborder">Total</th>'
+		+ '<td class="table_noborder">&nbsp;&nbsp;&nbsp;</th>'
+		+ '<td class="table_noborder">Local&nbsp;&nbsp;</th>'
+		+ '<td class="table_noborder">Visitante</th>'
+		+ '</tr></thead>'
+		+ '<tbody>'
+		+ '  <tr>'
+		+ '<th class="table_noborder" align="center">Goles</td>'
+		+ '<td class="table_noborder" align="center">' + data.total_goles_equipo1 + '</td>'
+		+ '<td class="table_noborder" align="center"></td>'
+		+ '<td class="table_noborder" align="center">' + data.total_goles_equipo1_local + '</td>'
+		+ '<td class="table_noborder" align="center">' + data.total_goles_equipo1_visitante + '</td>'
+		+ '</tr>'
+		+ '<tr>'
+		+ '    <th class="table_noborder" align="center">Media</td>'
+		+ '<td class="table_noborder" align="center">' + data.total_goles_media_equipo1 + '</td>'
+		+ '<td class="table_noborder" align="center"></td>'
+		+ '<td class="table_noborder" align="center">' + data.total_goles_media_equipo1_local + '</td>'
+		+ '<td class="table_noborder" align="center">' + data.total_goles_media_equipo1_visitante + '</td>'
+		+ '</tr>'
+		+ '</tbody>'
+		+ '</table>';
 
 	$('#data_casa').append('<table class="table_noborder" >'
 		+ '<tr>'
-		+ '<th class="table_noborder" align="center" colspan=2 >' + data.posicion_equipo1 + "º (" + data.puntos_equipo1 + ' pts)<br><br></th></tr>'
-		+ '<tr><td class="table_noborder" colspan=6>' + racha1 + '</td></tr>'
-		+ '<tr>'
-		+ '<td class="table_noborder" align="right">Total Goles:</td><td class="table_noborder">' + data.total_goles_equipo1 + '</td>'
-		+ '<td class="table_noborder" align="right">Local:</td><td class="table_noborder">' + data.total_goles_equipo1_local + '</td>'
-		+ '<td class="table_noborder" align="right">Visit.:</td><td class="table_noborder">' + data.total_goles_equipo1_visitante + '</td>'
+		+ '<th class="table_noborder" align="center">' + data.posicion_equipo1 + "º (" + data.puntos_equipo1 + ' pts)<br><br></th>'
 		+ '</tr>'
+		+ '<tr><td class="table_noborder">' + racha1 + '</td></tr>'
 		+ '<tr>'
-		+ '<td class="table_noborder" align="right">Media:</td><td class="table_noborder">' + data.total_goles_media_equipo1 + '</td>'
-		+ '<td class="table_noborder" align="right">Local:</td><td class="table_noborder">' + data.total_goles_media_equipo1_local + '</td>'
-		+ '<td class="table_noborder" align="right">Visit.:</td><td class="table_noborder">' + data.total_goles_media_equipo1_visitante + '</td>'
+		+ '<td class="table_noborder">' + stats1 + '</td>'
 		+ '</tr>'
 		+ '</table>'
 	);
 
-
+	stats2 = '<table><thead>'
+		+ '<tr>'
+		+ '<td class="table_noborder"></th>'
+		+ '<td class="table_noborder">Total</th>'
+		+ '<td class="table_noborder">&nbsp;&nbsp;&nbsp;</th>'
+		+ '<td class="table_noborder">Local&nbsp;&nbsp;</th>'
+		+ '<td class="table_noborder">Visitante</th>'
+		+ '</tr></thead>'
+		+ '<tbody>'
+		+ '  <tr>'
+		+ '<th class="table_noborder" align="center">Goles</td>'
+		+ '<td class="table_noborder" align="center">' + data.total_goles_equipo2 + '</td>'
+		+ '<td class="table_noborder" align="center"></td>'
+		+ '<td class="table_noborder" align="center">' + data.total_goles_equipo2_local + '</td>'
+		+ '<td class="table_noborder" align="center">' + data.total_goles_equipo2_visitante + '</td>'
+		+ '</tr>'
+		+ '<tr>'
+		+ '    <th class="table_noborder" align="center">Media</td>'
+		+ '<td class="table_noborder" align="center">' + data.total_goles_media_equipo2 + '</td>'
+		+ '<td class="table_noborder" align="center"></td>'
+		+ '<td class="table_noborder" align="center">' + data.total_goles_media_equipo2_local + '</td>'
+		+ '<td class="table_noborder" align="center">' + data.total_goles_media_equipo2_visitante + '</td>'
+		+ '</tr>'
+		+ '</tbody>'
+		+ '</table>';
 
 	$('#data_fuera').append('<table class="table_noborder" >'
 		+ '<tr>'
-		+ '<th class="table_noborder" align="center" colspan=2 >' + data.posicion_equipo2 + "º (" + data.puntos_equipo2 + ' pts)<br><br></th></tr>'
-		+ '<tr><td class="table_noborder" colspan=6>' + racha2 + '</td></tr>'
+		+ '<th class="table_noborder" align="center">' + data.posicion_equipo2 + "º (" + data.puntos_equipo2 + ' pts)<br><br></th>'
+		+ '</tr>'
+		+ '<tr><td class="table_noborder">' + racha2 + '</td></tr>'
 		+ '<tr>'
-		+ '<td class="table_noborder" align="right">Total Goles:</td><td class="table_noborder">' + data.total_goles_equipo2 + '</td>'
-		+ '<td class="table_noborder" align="right">Local:</td><td class="table_noborder">' + data.total_goles_equipo2_local + '</td>'
-		+ '<td class="table_noborder" align="right">Visit.:</td><td class="table_noborder">' + data.total_goles_equipo2_visitante + '</td>'
-		+ '</tr><tr>'
-		+ '<td class="table_noborder" align="right">Media:</td><td class="table_noborder">' + data.total_goles_media_equipo2 + '</td>'
-		+ '<td class="table_noborder" align="right">Local:</td><td class="table_noborder">' + data.total_goles_media_equipo2_local + '</td>'
-		+ '<td class="table_noborder" align="right">Visit.:</td><td class="table_noborder">' + data.total_goles_media_equipo2_visitante + '</td>'
+		+ '<td class="table_noborder">' + stats2 + '</td>'
 		+ '</tr>'
 		+ '</table>'
 	);
-
 
 }

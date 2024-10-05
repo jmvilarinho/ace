@@ -83,11 +83,11 @@ function show_resultados(data, codgrupo, cod_equipo) {
 		if (item.Nombre_equipo_visitante != 'Descansa')
 			fuera = '<img src="https://www.futgal.es' + item.url_img_visitante + '" align="absmiddle" class="escudo_widget">&nbsp;' + fuera;
 
-		if (item.situacion_juego == '0')
+		if (item.situacion_juego == '2')
 			xogo = '<br>(en xogo)';
 		else
 			xogo = '';
-		if (!(item.situacion_juego == '1' || item.situacion_juego == ''))
+		if (!(item.situacion_juego == '1' || item.situacion_juego == '' || item.situacion_juego == '2'))
 			xogo += '<br>situacion_juego: "' + item.situacion_juego + '"';
 
 		if (item.hora)

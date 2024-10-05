@@ -367,11 +367,17 @@ function show_partidos(data, cod_equipo) {
 				}
 			}
 
+
+if (item.partido_en_juego == '1'
+)                                                                       xogo = '<br>(en xogo)';                 else                                                    xogo = '';
+
+
+
 			$('#results').append('<tr>'
 				+ '<td style="background-color:' + background + ';" >' + item.fecha.replace(/-/g, "/") + hora + '</td>'
 				+ '<td style="background-color:' + background + ';" align="right" >' + casa + '</td>'
 				//+ '<td style="background-color:' + background + ';" align="right" >' + item.equipo_casa + '</td>'
-				+ '<td style="background-color:' + color_resultado + ';" align="center" >' + item.goles_casa + ' - ' + item.goles_fuera + '</td>'
+				+ '<td style="background-color:' + color_resultado + ';" align="center" >' + item.goles_casa + ' - ' + item.goles_fuera + xogo + '</td>'
 				+ '<td style="background-color:' + background + ';" align="left" >' + fuera + '</td>'
 				//+ '<td style="background-color:' + background + ';" align="left" >' + item.equipo_fuera + '</td>'
 				+ '<td style="background-color:' + background + ';" >' + item.fecha.replace(/-/g, "/") + hora + '</td>'

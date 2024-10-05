@@ -28,10 +28,6 @@ function update_vista() {
 
 				case 'resultados': var cod_equipo = getCookie('cod_equipo'); var cod_grupo = getCookie('cod_grupo'); load_resultados(cod_grupo, cod_equipo, ''); break;
 
-
-
-
-
 				case 'goleadores':
 					var cod_equipo = getCookie('cod_equipo');
 					var cod_grupo = getCookie('cod_grupo');
@@ -352,11 +348,30 @@ function show_partidos(data, cod_equipo) {
 			if (item.equipo_casa == 'Descansa' || item.equipo_fuera == 'Descansa')
 				campo = '';
 
+			color_resultado = background;
+			if (item.goles_casa != "" && item.goles_fuera != "") {
+				if (item.codequipo_casa == cod_equipo) {
+					if (item.goles_casa > item.goles_fuera)
+						color_resultado = "#04B431";
+					else if (item.goles_casa < item.goles_fuera)
+						color_resultado = "#F78181";
+					else
+						color_resultado = "#D7DF01";
+				} else if (item.codequipo_fuera == cod_equipo) {
+					if (item.goles_fuera > item.goles_casa)
+						color_resultado = "#04B431";
+					else if (item.goles_fuera < item.goles_casa)
+						color_resultado = "#F78181";
+					else
+						color_resultado = "#D7DF01";
+				}
+			}
+
 			$('#results').append('<tr>'
 				+ '<td style="background-color:' + background + ';" >' + item.fecha.replace(/-/g, "/") + hora + '</td>'
 				+ '<td style="background-color:' + background + ';" align="right" >' + casa + '</td>'
 				//+ '<td style="background-color:' + background + ';" align="right" >' + item.equipo_casa + '</td>'
-				+ '<td style="background-color:' + background + ';" align="center" >' + item.goles_casa + ' - ' + item.goles_fuera + '</td>'
+				+ '<td style="background-color:' + color_resultado + ';" align="center" >' + item.goles_casa + ' - ' + item.goles_fuera + '</td>'
 				+ '<td style="background-color:' + background + ';" align="left" >' + fuera + '</td>'
 				//+ '<td style="background-color:' + background + ';" align="left" >' + item.equipo_fuera + '</td>'
 				+ '<td style="background-color:' + background + ';" >' + item.fecha.replace(/-/g, "/") + hora + '</td>'

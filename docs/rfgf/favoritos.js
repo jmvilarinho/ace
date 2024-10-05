@@ -183,13 +183,18 @@ function show_portada_data_favoritos(title, item, id) {
 			+ '</tr>';
 
 	} else {
+
+if (item.partido_en_juego == '1'
+)                                                                       xogo = '<br>(en xogo)';                 else                                                    xogo = '';
+
+
 		datos = '<tr>'
 			+ '<td bgcolor="white">' + casa + '</td>'
-			+ '<td bgcolor="white" align="center">&nbsp;' + item.goles_casa + '&nbsp;</td>'
+			+ '<td bgcolor="white" align="center">&nbsp;' + item.goles_casa + '&nbsp;'+xogo+'</td>'
 			+ '</tr>'
 			+ '<tr>'
 			+ '<td bgcolor="white">' + fuera + '</td>'
-			+ '<td bgcolor="white" align="center">&nbsp;' + item.goles_fuera + '&nbsp;</td>'
+			+ '<td bgcolor="white" align="center">&nbsp;' + item.goles_fuera + '&nbsp;'+xogo+'</td>'
 			+ '</tr>';
 	}
 

@@ -219,28 +219,47 @@ function show_comparativa(data, nombre_equipo) {
 	if (data.historico_enfrentamientos.length > 0) {
 		historico = '<table class="table_noborder_simple" style="width:100%;">';
 		cont = 0;
-		jQuery.each(data.historico_enfrentamientos, function (indexr, itemr) {
+		jQuery.each(data.historico_enfrentamientos, function (index, item) {
 			if (cont % 2)
 				background = '#ffffff';
 			else
 				background = '#e8e5e4';
 			cont += 1
 
-			if (itemr.equipo_casa == nombre_equipo)
-				casa = '<b>' + itemr.equipo_casa + '</b>';
+			if (item.equipo_casa == nombre_equipo)
+				casa = '<b>' + item.equipo_casa + '</b>';
 			else
-				casa = itemr.equipo_casa
-			if (itemr.equipo_fuera == nombre_equipo)
-				fuera = '<b>' + itemr.equipo_fuera + '</b>';
+				casa = item.equipo_casa
+			if (item.equipo_fuera == nombre_equipo)
+				fuera = '<b>' + item.equipo_fuera + '</b>';
 			else
-				fuera = itemr.equipo_fuera
+				fuera = item.equipo_fuera
 
-			historico += '<tr>';
-			historico += '<td align="center" bgcolor="' + background + '" class="table_noborder_simple">' + itemr.temporada + ',</td>';
-			historico += '<td bgcolor="' + background + '" class="table_noborder_simple" align="right">' + casa + '</td><td bgcolor="' + background + '" class="table_noborder_simple" align="center" >&nbsp;&nbsp;' + itemr.goles_casa + '&nbsp;&nbsp;</td>';
-			historico += '<td align="center" bgcolor="' + background + '" class="table_noborder_simple">-</td>';
-			historico += '<td bgcolor="' + background + '" class="table_noborder_simple" align="center">&nbsp;&nbsp;' + itemr.goles_fuera + '&nbsp;&nbsp;</td><td bgcolor="' + background + '" class="table_noborder_simple">' + fuera + '</td>';
-			historico += '</tr>';
+			color_resultado = background;
+			if (item.goles_casa != "" && item.goles_fuera != "") {
+				if (item.equipo_casa == nombre_equipo) {
+					if (item.goles_casa > item.goles_fuera)
+						color_resultado = "#04B431";
+					else if (item.goles_casa < item.goles_fuera)
+						color_resultado = "#F78181";
+					else
+						color_resultado = "#D7DF01";
+				} else if (item.equipo_fuera == nombre_equipo) {
+					if (item.goles_fuera > item.goles_casa)
+						color_resultado = "#04B431";
+					else if (item.goles_fuera < item.goles_casa)
+						color_resultado = "#F78181";
+					else
+						color_resultado = "#D7DF01";
+				}
+			}
+
+			historico += '<tr>'
+				+ '<td align="center" bgcolor="' + background + '" class="table_noborder_simple">' + item.temporada + ':&nbsp;&nbsp;</td>'
+				+ '<td bgcolor="' + background + '" class="table_noborder_simple" align="right">' + casa + '</td>'
+				+ '<td bgcolor="' + color_resultado + '" class="table_noborder_simple" align="center" >&nbsp;&nbsp;' + item.goles_casa + '&nbsp;&nbsp;-&nbsp;&nbsp;' + item.goles_fuera + '&nbsp;&nbsp;</td>'
+				+ '<td bgcolor="' + background + '" class="table_noborder_simple">' + fuera + '</td>'
+				+ '</tr>';
 		});
 		historico += '</table>';
 		$('#historico').html(historico);

@@ -329,21 +329,28 @@ function show_partidos(data, cod_equipo) {
 				campo = item.campo;
 			} else {
 				casa = '<a href="javascript:load_equipo(\'' + item.codequipo_casa + '\')">' + item.equipo_casa + '</a>';
+				if (item.codequipo_casa != cod_equipo)
+					casa += '&nbsp;(' + item.posicion_equipo_casa + 'º)';
 				//campo = '<a href="https://maps.google.com?q=' + encodeURIComponent(item.campo) + '" target="_blank">' + item.campo + '</a> <img src="../img/dot.png" height="15px">';
 				campo = '<a href="https://waze.com/ul?q=' + encodeURIComponent(item.campo) + '&navigate=yes" target="_blank">' + item.campo + '</a> <img src="../img/waze.png" height="15px">';
 			}
 
-			if (item.equipo_casa != 'Descansa')
-				casa = casa + '&nbsp;<img src="https://www.futgal.es' + item.escudo_equipo_casa + '" align="absmiddle" class="escudo_widget">';
+			if (item.equipo_casa != 'Descansa') {
+				casa += '&nbsp;<img src="https://www.futgal.es' + item.escudo_equipo_casa + '" align="absmiddle" class="escudo_widget">';
+			}
+
 
 			if (item.codequipo_fuera == cod_equipo || item.equipo_fuera == 'Descansa') {
 				fuera = item.equipo_fuera;
 			} else {
-				fuera = '<a href="javascript:load_equipo(\'' + item.codequipo_fuera + '\')">' + item.equipo_fuera + '</a>';
-
+				fuera ='';
+				if (item.equipo_fuera != cod_equipo)
+					fuera += '(' + item.posicion_equipo_fuera + 'º)&nbsp;';
+				fuera += '<a href="javascript:load_equipo(\'' + item.codequipo_fuera + '\')">' + item.equipo_fuera + '</a>';
 			}
-			if (item.equipo_fuera != 'Descansa')
+			if (item.equipo_fuera != 'Descansa') {
 				fuera = '<img src="https://www.futgal.es' + item.escudo_equipo_fuera + '" align="absmiddle" class="escudo_widget">&nbsp;' + fuera;
+			}
 
 			if (item.equipo_casa == 'Descansa' || item.equipo_fuera == 'Descansa')
 				campo = '';
@@ -367,19 +374,16 @@ function show_partidos(data, cod_equipo) {
 				}
 			}
 
-
-if (item.partido_en_juego == '1'
-)                                                                       xogo = '<br>(en xogo)';                 else                                                    xogo = '';
-
-
+			if (item.partido_en_juego == '1')
+				xogo = '<br>(en xogo)';
+			else
+				xogo = '';
 
 			$('#results').append('<tr>'
 				+ '<td style="background-color:' + background + ';" >' + item.fecha.replace(/-/g, "/") + hora + '</td>'
 				+ '<td style="background-color:' + background + ';" align="right" >' + casa + '</td>'
-				//+ '<td style="background-color:' + background + ';" align="right" >' + item.equipo_casa + '</td>'
 				+ '<td style="background-color:' + color_resultado + ';" align="center" >' + item.goles_casa + ' - ' + item.goles_fuera + xogo + '</td>'
 				+ '<td style="background-color:' + background + ';" align="left" >' + fuera + '</td>'
-				//+ '<td style="background-color:' + background + ';" align="left" >' + item.equipo_fuera + '</td>'
 				+ '<td style="background-color:' + background + ';" >' + item.fecha.replace(/-/g, "/") + hora + '</td>'
 				+ '<td style="background-color:' + background + ';" >' + campo + '</td>'
 				+ '</tr>');

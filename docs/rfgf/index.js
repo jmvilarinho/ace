@@ -358,16 +358,16 @@ function show_partidos(data, cod_equipo) {
 			color_resultado = background;
 			if (item.goles_casa != "" && item.goles_fuera != "") {
 				if (item.codequipo_casa == cod_equipo) {
-					if (item.goles_casa > item.goles_fuera)
+					if (int(item.goles_casa) > int(item.goles_fuera))
 						color_resultado = "#04B431";
-					else if (item.goles_casa < item.goles_fuera)
+					else if (int(item.goles_casa) < int(item.goles_fuera))
 						color_resultado = "#F78181";
 					else
 						color_resultado = "#D7DF01";
 				} else if (item.codequipo_fuera == cod_equipo) {
-					if (item.goles_fuera > item.goles_casa)
+					if (int(item.goles_fuera) > int(item.goles_casa))
 						color_resultado = "#04B431";
-					else if (item.goles_fuera < item.goles_casa)
+					else if (int(item.goles_fuera) < int(item.goles_casa))
 						color_resultado = "#F78181";
 					else
 						color_resultado = "#D7DF01";

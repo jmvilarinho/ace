@@ -114,11 +114,11 @@ function show_portada_data(title, item, codcompeticion, codgrupo, nombre_equipo)
 		campo = '<a href="https://maps.google.com?q=' + encodeURIComponent(item.campo) + '" target="_blank">' + item.campo + '</a> <img src="../img/dot.png" height="15px">';
 	}
 
-	casa = '&nbsp;<a href="javascript:load_portada_equipo(\'' + item.codequipo_casa + '\')">' + item.equipo_casa + '</a>&nbsp;';
+	casa = '&nbsp;<a href="javascript:load_equipo(\'' + item.codequipo_casa + '\')">' + item.equipo_casa + '</a>&nbsp;';
 	if (item.equipo_casa != 'Descansa')
 		casa = '<img src="https://www.futgal.es' + item.escudo_equipo_casa + '" align="absmiddle" class="escudo_logo">' + br + casa;
 
-	fuera = '&nbsp;<a href="javascript:load_portada_equipo(\'' + item.codequipo_fuera + '\')">' + item.equipo_fuera + '</a>&nbsp;';
+	fuera = '&nbsp;<a href="javascript:load_equipo(\'' + item.codequipo_fuera + '\')">' + item.equipo_fuera + '</a>&nbsp;';
 	if (item.equipo_fuera != 'Descansa')
 		fuera = '<img src="https://www.futgal.es' + item.escudo_equipo_fuera + '" align="absmiddle" class="escudo_logo">' + br + fuera;
 

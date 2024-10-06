@@ -238,16 +238,16 @@ function show_comparativa(data, nombre_equipo) {
 			color_resultado = background;
 			if (item.goles_casa != "" && item.goles_fuera != "") {
 				if (item.equipo_casa == nombre_equipo) {
-					if (item.goles_casa > item.goles_fuera)
+					if (Number(item.goles_casa) > Number(item.goles_fuera))
 						color_resultado = "#04B431";
-					else if (item.goles_casa < item.goles_fuera)
+					else if (Number(item.goles_casa) < Number(item.goles_fuera))
 						color_resultado = "#F78181";
 					else
 						color_resultado = "#D7DF01";
 				} else if (item.equipo_fuera == nombre_equipo) {
-					if (item.goles_fuera > item.goles_casa)
+					if (Number(item.goles_fuera) > Number(item.goles_casa))
 						color_resultado = "#04B431";
-					else if (item.goles_fuera < item.goles_casa)
+					else if (Number(item.goles_fuera) < Number(item.goles_casa))
 						color_resultado = "#F78181";
 					else
 						color_resultado = "#D7DF01";

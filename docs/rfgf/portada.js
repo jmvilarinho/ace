@@ -71,7 +71,7 @@ function show_portada_equipo(data, cod_equipo) {
 			if (equipos[i].id == cod_equipo)
 				nombre = 'para ' + equipos[i].name;
 		}
-		$('#results').append('<b>Equipo:</b> ' + data.nombre_equipo + '<br><br><br><b>Non hai datos ' + nombre + '</b><br><br><br>');
+		$('#results').append('<br><br><b>Equipo:</b> ' + data.nombre_equipo + '<br><br><b>Non hai datos ' + nombre + '</b><br><br><br>');
 	} else if (!mostrado) {
 		var arrayLength = equipos.length;
 		nombre = ''
@@ -79,7 +79,7 @@ function show_portada_equipo(data, cod_equipo) {
 			if (equipos[i].id == cod_equipo)
 				nombre = 'para ' + equipos[i].name;
 		}
-		$('#results').append('<b>Equipo:</b> ' + data.nombre_equipo + '<br><br><br><b>Non hai competición esta semán ' + nombre + '</b><br><br><br>');
+		$('#results').append('<br><br><b>Equipo:</b> ' + data.nombre_equipo + '<br><br><b>Non hai competición esta semán ' + nombre + '</b><br><br><br>');
 	}
 
 

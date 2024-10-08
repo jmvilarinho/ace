@@ -166,7 +166,7 @@ function show_goleadores(data, cod_grupo, cod_equipo) {
 			background = '#e8e5e4';
 		cont += 1
 		if (item.codigo_equipo == cod_equipo)
-			background = '#a78183';
+			background = '#cbb4b5';
 
 		$('#results').append('<tr>');
 

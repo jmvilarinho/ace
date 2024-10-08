@@ -97,7 +97,7 @@ function show_portada_data(title, item, codcompeticion, codgrupo, nombre_equipo)
 	if (item.hora)
 		hora = ' - ' + item.hora;
 	else
-		hora = '';
+		hora = ' ???';
 	if (codcompeticion) {
 		br = '<br><br>';
 		align = 'center';

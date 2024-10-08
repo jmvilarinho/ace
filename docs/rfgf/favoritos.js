@@ -164,7 +164,7 @@ function show_portada_data_favoritos(title, item, id) {
 	if (item.hora)
 		hora = ' - ' + item.hora;
 	else
-		hora = '';
+		hora = ' ???';
 
 	//campo = '<a href="https://waze.com/ul?q=' + encodeURIComponent(item.campo) + '&navigate=yes" target="_blank">' + item.campo + '</a> <img src="../img/waze.png" height="15px">';
 	campo = '<a href="https://maps.google.com?q=' + encodeURIComponent(item.campo) + '" target="_blank">' + item.campo + '</a> <img src="../img/dot.png" height="15px">';

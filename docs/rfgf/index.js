@@ -223,7 +223,7 @@ function show_clasificacion(data, cod_grupo, cod_equipo) {
 			background = '#e8e5e4';
 		cont += 1
 		if (item.codequipo == cod_equipo)
-			background = '#a78183';
+			background = '#cbb4b5';
 
 		$('#results').append('<tr>');
 
@@ -314,7 +314,7 @@ function show_partidos(data, cod_equipo) {
 			var pattern = /(\d{2})\-(\d{2})\-(\d{4})/;
 			var dt = new Date(item.fecha.replace(pattern, '$3-$2-$1 12:00'));
 			if (isSameWeek(dt, new Date(Date.now())))
-				background = '#a78183';
+				background = '#cbb4b5';
 
 			if (item.hora)
 				hora = ' - ' + item.hora;

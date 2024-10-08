@@ -255,7 +255,7 @@ function show_comparativa(data, nombre_equipo) {
 			}
 
 			historico += '<tr>'
-				+ '<td align="center" bgcolor="' + background + '" class="table_noborder_simple">' + item.temporada + ':&nbsp;&nbsp;</td>'
+				+ '<td align="center" bgcolor="' + background + '" class="table_noborder_simple">' + item.temporada + ',&nbsp;</td>'
 				+ '<td bgcolor="' + background + '" class="table_noborder_simple" align="right">' + casa + '</td>'
 				+ '<td bgcolor="' + color_resultado + '" class="table_noborder_simple" align="center" >&nbsp;&nbsp;' + item.goles_casa + '&nbsp;&nbsp;-&nbsp;&nbsp;' + item.goles_fuera + '&nbsp;&nbsp;</td>'
 				+ '<td bgcolor="' + background + '" class="table_noborder_simple">' + fuera + '</td>'

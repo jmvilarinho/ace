@@ -62,6 +62,8 @@ function show_resultados(data, codgrupo, cod_equipo) {
 		else
 			background = '#e8e5e4';
 		cont += 1
+		if (item.CodEquipo_local == cod_equipo || item.CodEquipo_visitante == cod_equipo)
+			background = '#a78183';
 
 		$('#results').append('<tr>');
 

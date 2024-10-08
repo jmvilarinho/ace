@@ -165,12 +165,10 @@ function show_goleadores(data, cod_grupo, cod_equipo) {
 		else
 			background = '#e8e5e4';
 		cont += 1
-
-		$('#results').append('<tr>');
-
 		if (item.codigo_equipo == cod_equipo)
 			background = '#a78183';
 
+		$('#results').append('<tr>');
 
 		equipo = '<a href="javascript:load_portada_equipo(\'' + item.codigo_equipo + '\')">' + item.nombre_equipo + '</a>';
 		equipo = '<img src="https://www.futgal.es' + item.escudo_equipo + '" align="absmiddle" class="escudo_widget">&nbsp;' + equipo
@@ -224,6 +222,8 @@ function show_clasificacion(data, cod_grupo, cod_equipo) {
 		else
 			background = '#e8e5e4';
 		cont += 1
+		if (item.codequipo == cod_equipo)
+			background = '#a78183';
 
 		$('#results').append('<tr>');
 
@@ -236,9 +236,6 @@ function show_clasificacion(data, cod_grupo, cod_equipo) {
 				'<td width="12px" align="left" bgcolor="' + background + '">&nbsp;</td>'
 			);
 		}
-
-		if (item.codequipo == cod_equipo)
-			background = '#a78183';
 
 		if (item.puntos_sancion != "0")
 			puntos = item.puntos + ' (' + item.puntos_sancion + ')';

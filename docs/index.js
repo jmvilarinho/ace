@@ -517,8 +517,8 @@ async function createPrevisionMunicipio(data, element) {
 				+ "</th></tr>";
 
 			tabla += "<tr>"
-				+ "<th>Temp. Max.</th><td>" + datos["temperatura"]["maxima"] + "&deg;</td>"
 				+ "<th>Temp. Min.</th><td>" + datos["temperatura"]["minima"] + "&deg;</td>"
+				+ "<th>Temp. Max.</th><td>" + datos["temperatura"]["maxima"] + "&deg;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>"
 				+ "</tr>";
 
 			tabla += municipioRow(datos, 4);

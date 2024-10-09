@@ -482,7 +482,7 @@ function municipioRow(datos, index) {
 			+ "<tr>"
 			+ "<th>Vento</th><td style='text-align: left;vertical-align:middle;border:0px;' colspan=2><div>" + datos["viento"][index]["velocidad"] + 'km/h <img style="vertical-align:middle"  height=20px src="img/wind-' + datos["viento"][index]["direccion"] + '.png"></div></td>'
 			+ "<tr>"
-			+ "<th>Precip.</th><td style='text-align: left;' colspan=2>" + datos["probPrecipitacion"][index]["value"] + "% probab.</td>"
+			+ "<th>Precip.</th><td style='text-align: left;' colspan=2>" + datos["probPrecipitacion"][index]["value"] + "% probab. de lluvia</td>"
 			+ snowLine
 			+ "</tr>";
 

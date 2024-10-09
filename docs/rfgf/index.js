@@ -160,13 +160,8 @@ function show_goleadores(data, cod_grupo, cod_equipo) {
 	cont = 0;
 
 	jQuery.each(data.goles, function (index, item) {
-		if (cont % 2)
-			background = '#ffffff';
-		else
-			background = '#e8e5e4';
+		background = getBackgroundColor(cont,(item.codigo_equipo == cod_equipo));
 		cont += 1
-		if (item.codigo_equipo == cod_equipo)
-			background = '#cbb4b5';
 
 		$('#results').append('<tr>');
 
@@ -214,16 +209,11 @@ function show_clasificacion(data, cod_grupo, cod_equipo) {
 		+ '<th>P</th>'
 		+ '</tr>'
 	);
-	cont = 0;
 
+	cont = 0;
 	jQuery.each(data.clasificacion, function (index, item) {
-		if (cont % 2)
-			background = '#ffffff';
-		else
-			background = '#e8e5e4';
+		background = getBackgroundColor(cont,(item.codequipo == cod_equipo));
 		cont += 1
-		if (item.codequipo == cod_equipo)
-			background = '#cbb4b5';
 
 		$('#results').append('<tr>');
 
@@ -305,16 +295,10 @@ function show_partidos(data, cod_equipo) {
 
 		cont = 0;
 		jQuery.each(item.partidos, function (index, item) {
-			// do something with `item` (or `this` is also `item` if you like)
-			if (cont % 2)
-				background = '#ffffff';
-			else
-				background = '#e8e5e4';
-			cont += 1
 			var pattern = /(\d{2})\-(\d{2})\-(\d{4})/;
 			var dt = new Date(item.fecha.replace(pattern, '$3-$2-$1 12:00'));
-			if (isSameWeek(dt, new Date(Date.now())))
-				background = '#cbb4b5';
+			background = getBackgroundColor(cont,(isSameWeek(dt, new Date(Date.now()))));
+			cont += 1
 
 			if (item.hora)
 				hora = ' - ' + item.hora;

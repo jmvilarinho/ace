@@ -76,6 +76,15 @@ td {
 	margin: 4px 2px;
 }
 
+.favoritos {
+	border: none;
+	border-radius: 2px;
+	white-space: nowrap;
+	vertical-align: middle;
+	border-spacing: 0px;
+	margin: 4px 2px;
+}
+
 .ntype {
 	font-size: 15px !important
 }

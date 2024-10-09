@@ -47,6 +47,18 @@ function crea_botons(pagina, codigo_equipo, cod_grupo, cod_competicion) {
 }
 
 
+function getBackgroundColor(cont,isMy) {
+		if (cont % 2)
+			background = '#ffffff';
+		else
+			background = '#e8e5e4';
+		if (isMy)
+			background = '#c78554';
+	return background;
+}
+
+
+
 /* Set the width of the side navigation to 250px */
 function openNav() {
 	document.getElementById("mySidenav").style.width = "270px";

@@ -184,21 +184,22 @@ function show_portada_data_favoritos(title, item, id) {
 
 	} else {
 
-if (item.partido_en_juego == '1'
-)                                                                       xogo = '<br>(en xogo)';                 else                                                    xogo = '';
-
+		if (item.partido_en_juego == '1')
+			xogo = '<br>(en xogo)';
+		else
+			xogo = '';
 
 		datos = '<tr>'
 			+ '<td bgcolor="white">' + casa + '</td>'
-			+ '<td bgcolor="white" align="center">&nbsp;' + item.goles_casa + '&nbsp;'+xogo+'</td>'
+			+ '<td bgcolor="white" align="center">&nbsp;' + item.goles_casa + '&nbsp;' + xogo + '</td>'
 			+ '</tr>'
 			+ '<tr>'
 			+ '<td bgcolor="white">' + fuera + '</td>'
-			+ '<td bgcolor="white" align="center">&nbsp;' + item.goles_fuera + '&nbsp;'+xogo+'</td>'
+			+ '<td bgcolor="white" align="center">&nbsp;' + item.goles_fuera + '&nbsp;' + xogo + '</td>'
 			+ '</tr>';
 	}
 
-	return '<table id="' + id + '" class="portada">'
+	return '<table id="' + id + '" class="favoritos">'
 		+ '<tr>'
 		+ '<th colspan=2  align="absmiddle">' + title + '</th>'
 		+ '</tr>'
@@ -209,6 +210,9 @@ if (item.partido_en_juego == '1'
 		+ '<td bgcolor="#e8e5e4" colspan=2><b>Campo:</b>&nbsp;' + campo + '</td>'
 		+ '</tr>'
 		+ datos
+		+ '<tr>'
+		+ '<td class="table_noborder">&nbsp;</td>'
+		+ '</tr>'
 		+ '</table>';
 }
 

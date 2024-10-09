@@ -57,13 +57,8 @@ function show_resultados(data, codgrupo, cod_equipo) {
 	cont = 0;
 
 	jQuery.each(data.partidos, function (index, item) {
-		if (cont % 2)
-			background = '#ffffff';
-		else
-			background = '#e8e5e4';
+		background = getBackgroundColor(cont,(item.CodEquipo_local == cod_equipo || item.CodEquipo_visitante == cod_equipo));
 		cont += 1
-		if (item.CodEquipo_local == cod_equipo || item.CodEquipo_visitante == cod_equipo)
-			background = '#cbb4b5';
 
 		$('#results').append('<tr>');
 

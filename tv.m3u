@@ -380,6 +380,8 @@ https://live-hls-web-aje.getaj.net/AJE/index.m3u8
 https://streaming01.gestec-video.com/hls/artequatreAlacanti.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/AlcarriaTV/picture?width=200&height=200" group-title="Castilla-La Mancha" tvg-name="Alcarria TV",Alcarria TV
 https://cls.alcarria.tv/live/alcarriatv-livestream.m3u8
+#EXTINF:-1 tvg-logo="https://graph.facebook.com/Alfafartv/picture?width=200&height=200" group-title="C. Valenciana" tvg-name="Alfafar TV",Alfafar TV
+https://streamtv2.elitecomunicacion.cloud:3576/live/alfafartvlive.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/americateve/picture?width=200&height=200" group-title="Int. América" tvg-name="America TeVe USA",America TeVe USA
 https://live.gideo.video/americateve2/master.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/RealAmericasVoice/picture?width=200&height=200" group-title="Int. América" tvg-name="America's Voice USA",America's Voice USA EN
@@ -528,6 +530,8 @@ http://89.140.229.5/hls1/cancionero.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/cetelmon.television/picture?width=200&height=200" group-title="Religiosos" tvg-name="Cetelmon TV España",Cetelmon TV España
 http://player.cetelmon.tv/protecteddfd43c2f3a8b41f3f28582bf8993aca6/992_high.m3u8
+#EXTINF:-1 tvg-logo="https://graph.facebook.com/news24ukraine/picture?width=200&height=200" group-title="Int. Europa" tvg-name="Channel 24 Ucrania",Channel 24 Ucrania
+http://streamvideol1.luxnet.ua/news24/news24.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/ChannelNewsAsia/picture?width=200&height=200" group-title="Int. Asia" tvg-name="Channel NewsAsia",Channel NewsAsia EN
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/cheddar/picture?width=200&height=200" group-title="Int. América" tvg-name="Cheddar USA",Cheddar USA EN
@@ -568,8 +572,6 @@ https://d3pyjh3ffabib0.cloudfront.net/scheduler/scheduleMaster/388.m3u8
 https://daserste-live.ard-mcdn.de/daserste/live/hls/int/master.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/delaredulintv/picture?width=200&height=200" group-title="Cantabria" tvg-name="De Laredu Lin TV",De Laredu Lin TV
 https://eu1.servers10.com:8081/8034/index.m3u8
-#EXTINF:-1 tvg-logo="https://graph.facebook.com/del40al1/picture?width=200&height=200" group-title="Eventuales" tvg-name="Del 40 al 1",Del 40 al 1
-https://prisaradio-live.prisasd.com/live-content/directo40al1/master.m3u8
 #EXTINF:-1 tvg-id="DiezTV.TV" tvg-logo="https://graph.facebook.com/dieztv/picture?width=200&height=200" group-title="Andalucía" tvg-name="Diez TV Las Villas",Diez TV Las Villas
 https://streaming.cloud.innovasur.es/mmj2/index.m3u8
 #EXTINF:-1 tvg-id="DiezTV.TV" tvg-logo="https://graph.facebook.com/dieztv/picture?width=200&height=200" group-title="Andalucía" tvg-name="Diez TV Úbeda",Diez TV Úbeda
@@ -739,7 +741,7 @@ https://stream.maestrat.tv/hls/stream.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/rtvmanilva/picture?width=200&height=200" group-title="Andalucía" tvg-name="Manilva TV",Manilva TV
 #EXTVLCOPT:http-referrer=https://player.castr.com/
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/martelevisio/picture?width=200&height=200" group-title="Cataluña" tvg-name="Mar TV",Mar TV
-http://iptv.services.everywan.net:8080/martv-web/video.m3u8
+https://iptv.services.everywan.net/martv-live/index.fmp4.m3u8
 #EXTINF:-1 tvg-id="MarbellaTV.TV" tvg-logo="https://graph.facebook.com/RTVMarbella/picture?width=200&height=200" group-title="Andalucía" tvg-name="Marbella TV",Marbella TV
 https://streaming.rtvmarbella.tv/hls/streamingweb.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/mariavision/picture?width=200&height=200" group-title="Religiosos" tvg-name="María Visión Mexico",María Visión Mexico
@@ -960,8 +962,6 @@ http://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8
 https://scl.edge.grupoz.cl/retroplus16@grupoz.cl_retrolive/live/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/grup.televisio/picture?width=200&height=200" group-title="C. Valenciana" tvg-name="Ribera TV",Ribera TV
 https://common01.todostreaming.es/live/ribera-livestream.m3u8
-#EXTINF:-1 tvg-logo="https://graph.facebook.com/RockFM/picture?width=200&height=200" group-title="Eventuales" tvg-name="Rock FM",Rock FM
-https://hls-directo03-cope-stream.flumotion.com/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/RUVohf/picture?width=200&height=200" group-title="Int. Europa" tvg-name="RÚV Islandia",RÚV Islandia
 https://ruv-web-live.akamaized.net/streymi/ruverl/ruverl.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/Radio4RNE/picture?width=200&height=200" group-title="Eventuales" tvg-name="Ràdio 4",Ràdio 4
@@ -1062,7 +1062,7 @@ https://crtvg-xabarinr3-schlive.flumotion.cloud/crtvglive/smil:channel8PRG.smil/
 https://crtvg-xabarinr1-schlive.flumotion.cloud/crtvglive/smil:channel6PRG.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/oxabarinclub/picture?width=200&height=200" group-title="Galicia" tvg-name="TVG Xabarin",TVG Xabarin
 https://crtvg-infantil-schlive.flumotion.cloud/crtvglive/smil:channel5PRG.smil/playlist.m3u8
-#EXTINF:-1 tvg-logo="http://www.tvgelive.gq/images/logo-dark.png" group-title="Int. África" tvg-name="TVGE 1 Guinea Ecuatorial",TVGE 1 Guinea Ecuatorial
+#EXTINF:-1 tvg-logo="https://www.tvgelive.gq/images/logo-dark.png" group-title="Int. África" tvg-name="TVGE 1 Guinea Ecuatorial",TVGE 1 Guinea Ecuatorial
 https://rrsatrtmp.tulix.tv/tvge1/tvge1multi.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/cambodiatvk/picture?width=200&height=200" group-title="Int. Asia" tvg-name="TVK Camboya",TVK Camboya
 https://live.kh.malimarcdn.com/live/tvk.stream/playlist.m3u8
@@ -1122,8 +1122,6 @@ https://rds3gen.desdeparaguay.net/trecetv/trecetv_alta/playlist.m3u8
 https://vdo.grupolimalive.com:3847/live/tuyatvlive.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/kanalfreedom/picture?width=200&height=200" group-title="Int. Europa" tvg-name="UATV Ucrania",UATV Ucrania
 https://freedom.cdn-01.cosmonova.net.ua/mobile-app/main/freedom/master.m3u8
-#EXTINF:-1 tvg-logo="https://graph.facebook.com/www.ukraine24.ua/picture?width=200&height=200" group-title="Int. Europa" tvg-name="Ukraine 24 Ucrania",Ukraine 24 Ucrania
-http://streamvideol1.luxnet.ua/news24/news24.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/UneVinalopo/picture?width=200&height=200" group-title="C. Valenciana" tvg-name="Une Vinalopó",Une Vinalopó
 https://streamingtvi.gestec-video.com/hls/unesd.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/Unicanal/picture?width=200&height=200" group-title="Int. América" tvg-name="Unicanal Paraguay",Unicanal Paraguay

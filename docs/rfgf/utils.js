@@ -53,7 +53,7 @@ function getBackgroundColor(cont,isMy) {
 		else
 			background = '#e8e5e4';
 		if (isMy)
-			background = '#c78554';
+			background = '#B28E90';
 	return background;
 }
 

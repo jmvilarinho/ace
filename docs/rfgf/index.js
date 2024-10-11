@@ -212,8 +212,9 @@ function show_clasificacion(data, cod_grupo, cod_equipo) {
 
 	cont = 0;
 	jQuery.each(data.clasificacion, function (index, item) {
+		background0 = getBackgroundColor(cont,(1==0));
 		background = getBackgroundColor(cont,(item.codequipo == cod_equipo));
-		background0 = getBackgroundColor(cont,1==0);
+
 		cont += 1
 
 		$('#results').append('<tr>');

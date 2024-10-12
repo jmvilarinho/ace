@@ -12,6 +12,9 @@ function update_vista() {
 				case 'favoritos':
 					load_favoritos();
 					break;
+				case 'calendario':
+					load_calendario();
+					break;
 				case 'portada':
 					var cod_equipo = getCookie('cod_equipo');
 					load_portada_equipo(cod_equipo);
@@ -160,7 +163,7 @@ function show_goleadores(data, cod_grupo, cod_equipo) {
 	cont = 0;
 
 	jQuery.each(data.goles, function (index, item) {
-		background = getBackgroundColor(cont,(item.codigo_equipo == cod_equipo));
+		background = getBackgroundColor(cont, (item.codigo_equipo == cod_equipo));
 		cont += 1
 
 		$('#results').append('<tr>');
@@ -212,8 +215,8 @@ function show_clasificacion(data, cod_grupo, cod_equipo) {
 
 	cont = 0;
 	jQuery.each(data.clasificacion, function (index, item) {
-		background0 = getBackgroundColor(cont,(1==0));
-		background = getBackgroundColor(cont,(item.codequipo == cod_equipo));
+		background0 = getBackgroundColor(cont, (1 == 0));
+		background = getBackgroundColor(cont, (item.codequipo == cod_equipo));
 
 		cont += 1
 
@@ -299,7 +302,7 @@ function show_partidos(data, cod_equipo) {
 		jQuery.each(item.partidos, function (index, item) {
 			var pattern = /(\d{2})\-(\d{2})\-(\d{4})/;
 			var dt = new Date(item.fecha.replace(pattern, '$3-$2-$1 12:00'));
-			background = getBackgroundColor(cont,(isSameWeek(dt, new Date(Date.now()))));
+			background = getBackgroundColor(cont, (isSameWeek(dt, new Date(Date.now()))));
 			cont += 1
 
 			if (item.hora)
@@ -326,7 +329,7 @@ function show_partidos(data, cod_equipo) {
 			if (item.codequipo_fuera == cod_equipo || item.equipo_fuera == 'Descansa') {
 				fuera = item.equipo_fuera;
 			} else {
-				fuera ='';
+				fuera = '';
 				if (item.equipo_fuera != cod_equipo)
 					fuera += '(' + item.posicion_equipo_fuera + 'º)&nbsp;';
 				fuera += '<a href="javascript:load_equipo(\'' + item.codequipo_fuera + '\')">' + item.equipo_fuera + '</a>';

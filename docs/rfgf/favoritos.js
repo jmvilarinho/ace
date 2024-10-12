@@ -37,7 +37,7 @@ async function load_favoritos() {
 			checked = 'checked';
 		}
 		html_fav += start + '<td class="table_noborder"><label>'
-			+ '<input type="checkbox" ' + checked + ' value="' + equipos[i].id + '" onclick="setArrayCookie(this)">' + equipos[i].name
+			+ '<input type="checkbox" ' + checked + ' value="' + equipos[i].id + '" onclick="setArrayCookie(\'favoritosItems\',this)">' + equipos[i].name
 			+ '&nbsp;</label></td>' + end;
 
 	}

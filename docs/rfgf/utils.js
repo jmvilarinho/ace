@@ -158,14 +158,23 @@ function add_back(pagina) {
 	});
 	$('#results').append(boton_favoritos);
 
-	var boton_favoritos = $('<input/>').attr({
+	var boton_calendario = $('<input/>').attr({
+		type: "button",
+		class: (pagina == 'calendario') ? 'none' : "back_button",
+		id: "field",
+		value: 'Calendario',
+		onclick: "load_calendario()"
+	});
+	$('#results').append(boton_calendario);
+
+	var boton_meteo = $('<input/>').attr({
 		type: "button",
 		class: "back_button",
 		id: "field",
 		value: 'Meteo',
 		onclick: "openUrl('../')"
 	});
-	$('#results').append(boton_favoritos);
+	$('#results').append(boton_meteo);
 }
 
 function openInNewTab(url) {
@@ -210,9 +219,9 @@ function eraseCookie(name) {
 }
 
 // Function to update the cookie when checkboxes are clicked
-function setArrayCookie(checkbox) {
+function setArrayCookie(name, checkbox) {
 	// Get the current cookie values as an array
-	var selectedItems = getCookieArray('favoritosItems');
+	var selectedItems = getCookieArray(name);
 
 	if (checkbox.checked) {
 		// Add the checkbox value to the array if checked
@@ -227,5 +236,5 @@ function setArrayCookie(checkbox) {
 
 	// Set the updated array as a cookie
 	console.log(JSON.stringify(selectedItems));
-	setCookie('favoritosItems', JSON.stringify(selectedItems), 365);
+	setCookie(name, JSON.stringify(selectedItems), 365);
 }

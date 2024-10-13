@@ -61,12 +61,12 @@ async function load_calendario() {
 			end = '</tr>'
 
 		var checked = '';
-		var bgcolor ='';
+		var bgcolor = '';
 		if (calendario.indexOf('' + equipos[i].id) >= 0) {
 			checked = 'checked';
-			bgcolor='bgcolor="'+equipos[i].color+'"';
+			bgcolor = 'bgcolor="' + equipos[i].color + '"';
 		}
-		html_fav += start + '<td class="table_noborder" '+bgcolor+'><label>'
+		html_fav += start + '<td class="table_noborder" ' + bgcolor + '><label>'
 			+ '<input type="checkbox" ' + checked + ' value="' + equipos[i].id + '" onclick="setArrayCookie(\'calendarioItems\',this)">' + equipos[i].name
 			+ '&nbsp;</label></td>' + end;
 
@@ -119,10 +119,9 @@ function creaCalendario() {
 			}
 		},
 		eventClick: function (info) {
-			console.log(info.event.id)
 			load_portada_equipo(info.event.id);
 		},
-		flexibleSlotTimeLimits:true,
+		flexibleSlotTimeLimits: true,
 		dayMaxEvents: true,
 		nowIndicator: true,
 		selectable: false,
@@ -196,9 +195,8 @@ function show_portada_equipo_calendario(data, cod_equipo) {
 							title: {
 								html: nombre_equipo
 							},
-							styles: ['font-size: 10px'],
+							styles: ['font-size: 8px'],
 							color: getEquipoColor(cod_equipo),
-							style: 'font-size: 10px;'
 						};
 
 

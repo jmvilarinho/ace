@@ -260,6 +260,5 @@ function setArrayCookie(name, checkbox) {
 	}
 
 	// Set the updated array as a cookie
-	console.log(JSON.stringify(selectedItems));
 	setCookie(name, JSON.stringify(selectedItems), 365);
 }

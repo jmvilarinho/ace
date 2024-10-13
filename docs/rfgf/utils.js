@@ -47,16 +47,35 @@ function crea_botons(pagina, codigo_equipo, cod_grupo, cod_competicion) {
 }
 
 
-function getBackgroundColor(cont,isMy) {
-		if (cont % 2)
-			background = '#ffffff';
-		else
-			background = '#e8e5e4';
-		if (isMy)
-			background = '#B28E90';
+function getBackgroundColor(cont, isMy) {
+	if (cont % 2)
+		background = '#ffffff';
+	else
+		background = '#e8e5e4';
+	if (isMy)
+		background = '#B28E90';
 	return background;
 }
 
+function getEquipoName(cod_equipo, defaultName) {
+	var arrayLength = equipos.length;
+	for (var i = 0; i < arrayLength; i++) {
+		if (equipos[i].id == cod_equipo)
+			return equipos[i].name;
+	}
+	if (typeof (defaultName) !== "undefined" && defaultName !== null && defaultName != "")
+		return defaultName;
+	else
+		return 'undef';
+}
+function getEquipoColor(cod_equipo) {
+	var arrayLength = equipos.length;
+	for (var i = 0; i < arrayLength; i++) {
+		if (equipos[i].id == cod_equipo)
+			return equipos[i].color;
+	}
+	return 'Black';
+}
 
 
 /* Set the width of the side navigation to 250px */

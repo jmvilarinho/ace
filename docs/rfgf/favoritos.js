@@ -139,12 +139,7 @@ function show_portada_equipo_favoritos(data, cod_equipo) {
 		title = data.nombre_equipo;
 
 	if (lineas == 0) {
-		head = title;
-		var arrayLength = equipos.length;
-		for (var i = 0; i < arrayLength; i++) {
-			if (equipos[i].id == cod_equipo)
-				head = equipos[i].name;
-		}
+		head = getEquipoName(cod_equipo,title);
 		arr.push({
 			data: 33284008833000,
 			html: '<table id="33284008833000" class="portada">'

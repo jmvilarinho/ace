@@ -5,8 +5,8 @@ var ec;
 const colorNames = [
 	"AliceBlue",
 	"Black", "Blue", "BlueViolet",
-	"Brown",   "Chocolate", "Coral", "CornflowerBlue",
-	"Crimson",  "DarkBlue", "DarkCyan", "DarkGoldenRod", "DarkGray", "DarkGreen", "DarkKhaki",
+	"Brown", "Chocolate", "Coral", "CornflowerBlue",
+	"Crimson", "DarkBlue", "DarkCyan", "DarkGoldenRod", "DarkGray", "DarkGreen", "DarkKhaki",
 	"DarkMagenta", "DarkOliveGreen", "DarkOrange", "DarkOrchid", "DarkRed", "DarkSalmon", "DarkSeaGreen",
 	"DarkSlateBlue", "DarkSlateGray", "DarkTurquoise", "DarkViolet", "DeepPink", "DeepSkyBlue", "DimGray",
 	"DodgerBlue", "FireBrick", "FloralWhite", "ForestGreen", "Fuchsia", "Gainsboro", "GhostWhite", "Gold",
@@ -61,10 +61,12 @@ async function load_calendario() {
 			end = '</tr>'
 
 		var checked = '';
+		var bgcolor ='';
 		if (calendario.indexOf('' + equipos[i].id) >= 0) {
 			checked = 'checked';
+			bgcolor='bgcolor="'+equipos[i].color+'"';
 		}
-		html_fav += start + '<td class="table_noborder"><label>'
+		html_fav += start + '<td class="table_noborder" '+bgcolor+'><label>'
 			+ '<input type="checkbox" ' + checked + ' value="' + equipos[i].id + '" onclick="setArrayCookie(\'calendarioItems\',this)">' + equipos[i].name
 			+ '&nbsp;</label></td>' + end;
 
@@ -104,7 +106,7 @@ function creaCalendario() {
 		//],
 		//scrollTime: '09:00:00',
 		slotMinTime: '09:00:00',
-		hiddenDays: [1,2,3,4],
+		hiddenDays: [1, 2, 3, 4],
 		views: {
 			timeGridWeek: { pointer: true },
 			resourceTimeGridWeek: { pointer: true },
@@ -116,9 +118,14 @@ function creaCalendario() {
 
 			}
 		},
+		eventClick: function (info) {
+			console.log(info.event.id)
+			load_portada_equipo(info.event.id);
+		},
+		flexibleSlotTimeLimits:true,
 		dayMaxEvents: true,
 		nowIndicator: true,
-		selectable: true,
+		selectable: false,
 		firstDay: 1,
 		allDaySlot: false,
 		displayEventEnd: false,
@@ -164,10 +171,8 @@ function show_portada_equipo_calendario(data, cod_equipo) {
 
 	if (data.competiciones_equipo.length > 0)
 		jQuery.each(data.competiciones_equipo, function (index, item) {
-			title = '<a href="javascript:load_portada_equipo(\'' + cod_equipo + '\')">'
-			//+ '<p style="font-size:8px;">'+ data.nombre_equipo + '<br>' + item.categoria +'</p>'
-			+ '<p style="font-size:10px;">'+ data.nombre_equipo + '<br>' + item.categoria +'</p>'
-			+ '</a>';
+			nombre_equipo = getEquipoName(cod_equipo, data.nombre_equipo);
+
 			cont = 0;
 			jQuery.each(item.partidos, function (index, item) {
 				cont += 1
@@ -184,14 +189,15 @@ function show_portada_equipo_calendario(data, cod_equipo) {
 						eventCalendar = {
 							start: date_obj,
 							end: end,
+							id: cod_equipo,
 							editable: false,
 							startEditable: false,
 							durationEditable: false,
 							title: {
-								html:  title
-								//html: colorNames[favorite_load.length]
+								html: nombre_equipo
 							},
-							color: colorNames[favorite_load.length],
+							styles: ['font-size: 10px'],
+							color: getEquipoColor(cod_equipo),
 							style: 'font-size: 10px;'
 						};
 

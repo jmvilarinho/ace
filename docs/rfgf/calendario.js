@@ -184,6 +184,8 @@ function show_portada_equipo_calendario(data, cod_equipo) {
 							color: getEquipoColor(cod_equipo),
 						};
 						ec.addEvent(eventCalendar);
+
+				$('#label_color' + cod_equipo).css({ 'color': 'white' })
 					}
 				}
 				$('#label_color' + cod_equipo).css({ 'color': 'white' })

@@ -100,7 +100,7 @@ function displayLoading() {
 	loader.classList.add("display");
 
 	window.scrollTo(0, 0);
-	$("#results").scrollTo(0,0);
+	//$("#results").scrollTo(0,0);
 
 
 

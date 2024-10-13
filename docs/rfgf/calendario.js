@@ -99,10 +99,10 @@ function creaCalendario() {
 			center: 'title',
 			end: ''
 		},
-		resources: [
-			{ id: 1, title: 'Resource A' }
-		],
-		scrollTime: '09:00:00',
+		//resources: [
+		//	{ id: 1, title: 'Resource A' }
+		//],
+		//scrollTime: '09:00:00',
 		slotMinTime: '09:00:00',
 		hiddenDays: [1,2,3,4],
 		views: {

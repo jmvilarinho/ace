@@ -76,6 +76,14 @@ function getEquipoColor(cod_equipo) {
 	}
 	return 'Black';
 }
+function getEquipoDuracion(cod_equipo) {
+	var arrayLength = equipos.length;
+	for (var i = 0; i < arrayLength; i++) {
+		if (equipos[i].id == cod_equipo)
+			return equipos[i].duracion_min;
+	}
+	return 90;
+}
 
 
 /* Set the width of the side navigation to 250px */

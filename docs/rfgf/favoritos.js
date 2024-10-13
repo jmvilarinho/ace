@@ -17,8 +17,10 @@ async function load_favoritos() {
 	$('#results').append('<div id="favoritos_tabla"></div><div id="favoritos_list"></div>');
 	favorite_load = [];
 	for (var i = 0; i < arrayLength; i++) {
-		//Do something
 		favorite_load.push(favoritos[i]);
+		// limita concurrencia a 6
+		while (favorite_load.length > 6)
+			await new Promise(r => setTimeout(r, 300));
 		get_data_equipo_async(favoritos[i])
 	}
 

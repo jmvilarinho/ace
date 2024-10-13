@@ -2,27 +2,13 @@ var favorite_load = [];
 
 var ec;
 
-const colorNames = [
-	"AliceBlue",
-	"Black", "Blue", "BlueViolet",
-	"Brown", "Chocolate", "Coral", "CornflowerBlue",
-	"Crimson", "DarkBlue", "DarkCyan", "DarkGoldenRod", "DarkGray", "DarkGreen", "DarkKhaki",
-	"DarkMagenta", "DarkOliveGreen", "DarkOrange", "DarkOrchid", "DarkRed", "DarkSalmon", "DarkSeaGreen",
-	"DarkSlateBlue", "DarkSlateGray", "DarkTurquoise", "DarkViolet", "DeepPink", "DeepSkyBlue", "DimGray",
-	"DodgerBlue", "FireBrick", "FloralWhite", "ForestGreen", "Fuchsia", "Gainsboro", "GhostWhite", "Gold",
-	"GoldenRod", "Gray", "Green", "GreenYellow", "HoneyDew", "HotPink", "IndianRed", "Indigo", "Ivory",
-	"Khaki", "Lavender", "LavenderBlush", "LawnGreen", "LemonChiffon", "LightBlue", "LightCoral", "LightCyan",
-	"LightGoldenRodYellow", "LightGray", "LightGreen", "LightPink", "LightSalmon", "LightSeaGreen", "LightSkyBlue",
-	"LightSlateGray", "LightSteelBlue", "LightYellow", "Lime", "LimeGreen", "Linen", "Magenta", "Maroon",
-	"MediumAquaMarine", "MediumBlue", "MediumOrchid", "MediumPurple", "MediumSeaGreen", "MediumSlateBlue",
-	"MediumSpringGreen", "MediumTurquoise", "MediumVioletRed", "MidnightBlue", "MintCream", "MistyRose",
-	"Moccasin", "NavajoWhite", "Navy", "OldLace", "Olive", "OliveDrab", "Orange", "OrangeRed", "Orchid",
-	"PaleGoldenRod", "PaleGreen", "PaleTurquoise", "PaleVioletRed", "PapayaWhip", "PeachPuff", "Peru", "Pink",
-	"Plum", "PowderBlue", "Purple", "RebeccaPurple", "Red", "RosyBrown", "RoyalBlue", "SaddleBrown", "Salmon",
-	"SandyBrown", "SeaGreen", "SeaShell", "Sienna", "Silver", "SkyBlue", "SlateBlue", "SlateGray", "Snow",
-	"SpringGreen", "SteelBlue", "Tan", "Teal", "Thistle", "Tomato", "Turquoise", "Violet", "Wheat", "White",
-	"WhiteSmoke", "Yellow", "YellowGreen"
-];
+function getSaturday(d) {
+	d = new Date(d);
+	var day = d.getDay(),
+		diff = d.getDate() - day + (day == 0 ? -1 : 1); // adjust when day is sunday
+	return new Date(d.setDate(diff));
+}
+firstEvent = getSaturday(new Date());
 
 async function load_calendario() {
 	displayLoading();
@@ -41,12 +27,12 @@ async function load_calendario() {
 	$('#results').append('<main class="row" style="white-space: wrap;" ><div id="ec" class="col"></div></main>');
 	creaCalendario();
 
-
-	$('#results').append('<div id="calendario_tabla"></div><div id="calendario_list"></div>');
 	favorite_load = [];
 	for (var i = 0; i < arrayLength; i++) {
-		//Do something
 		favorite_load.push(calendario[i]);
+		// limita concurrencia a 6
+		while (favorite_load.length > 6)
+			await new Promise(r => setTimeout(r, 300));
 		get_data_equipo_async_calendario(calendario[i])
 	}
 
@@ -68,18 +54,12 @@ async function load_calendario() {
 		}
 		html_fav += start + '<td class="table_noborder" ' + bgcolor + '><label>'
 			+ '<input type="checkbox" ' + checked + ' value="' + equipos[i].id + '" onclick="setArrayCookie(\'calendarioItems\',this)">'
-			+ '<font color="white">'+equipos[i].name+'</font>'
-
+			+ '<font color="black" id="label_color' + equipos[i].id + '">' + equipos[i].name + '</font>'
 			+ '&nbsp;</label></td>' + end;
-
 	}
 	if (arrayLength % 2)
 		html_fav += '</tr>'
-	$('#results').append(html_fav + '</table><hr>');
-
-
-	add_back('calendario');
-	end_page();
+	$('#results').append(html_fav + '<tr><td class="table_noborder" colspan=2 align="center">(Nome en cor branco si hai datos)</td></tr></table><hr>');
 
 	var x = 0;
 	while (x < 60000) {
@@ -90,7 +70,15 @@ async function load_calendario() {
 		x += 500;
 	}
 
+	// Ocultar en el calendario los días hasta sabado si no hay eventos
+	hiddenDays = [];
+	for (var x = 1; x < firstEvent.getDay(); x++) {
+		hiddenDays.push(x);
+	}
+	ec.setOption('hiddenDays', hiddenDays);
 
+	add_back('calendario');
+	end_page();
 	hideLoading();
 }
 
@@ -108,7 +96,7 @@ function creaCalendario() {
 		//],
 		//scrollTime: '09:00:00',
 		slotMinTime: '09:00:00',
-		hiddenDays: [1, 2, 3, 4],
+		//hiddenDays: [1, 2, 3, 4],
 		views: {
 			timeGridWeek: { pointer: true },
 			resourceTimeGridWeek: { pointer: true },
@@ -151,9 +139,7 @@ async function get_data_equipo_async_calendario(cod_equipo) {
 		})
 		.then(data => {
 			if (data) {
-				show_portada_equipo_calendario(data.data, cod_equipo).forEach((element) => {
-					$('#calendario_tabla').append(element['html']);
-				});
+				show_portada_equipo_calendario(data.data, cod_equipo);
 				favorite_load.pop();
 			} else {
 				favorite_load.pop();
@@ -162,14 +148,11 @@ async function get_data_equipo_async_calendario(cod_equipo) {
 		})
 		.catch(error => {
 			favorite_load.pop();
-			console.error('Fetch error:', error.message);  // Log the error
+			console.error('Get equipo "' + cod_equipo + '" error:', error.message);  // Log the error
 		});
 }
 
 function show_portada_equipo_calendario(data, cod_equipo) {
-	map = {}
-	var arr = [];
-
 	if (data.competiciones_equipo.length > 0)
 		jQuery.each(data.competiciones_equipo, function (index, item) {
 			nombre_equipo = getEquipoName(cod_equipo, data.nombre_equipo);
@@ -184,9 +167,9 @@ function show_portada_equipo_calendario(data, cod_equipo) {
 					var date_obj = new Date(hora.replace(pattern, '$3-$2-$1 $4:$5'));
 					var date_now_obj = new Date(Date.now())
 					if (isSameWeek(date_obj, date_now_obj)) {
-
-						end = new Date(date_obj.getTime() + 105 * 60000);
-
+						if (date_obj < firstEvent)
+							firstEvent = date_obj;
+						end = new Date(date_obj.getTime() + getEquipoDuracion(cod_equipo) * 60000);
 						eventCalendar = {
 							start: date_obj,
 							end: end,
@@ -200,19 +183,14 @@ function show_portada_equipo_calendario(data, cod_equipo) {
 							styles: ['font-size: 8px;'],
 							color: getEquipoColor(cod_equipo),
 						};
-
-
-						ec.addEvent(eventCalendar)
-
-						return false;
+						ec.addEvent(eventCalendar);
 					}
 				}
+				$('#label_color' + cod_equipo).css({ 'color': 'white' })
 			});
 		});
-	else
-		title = data.nombre_equipo;
 
+	return true;
 
-	return arr;
 }
 

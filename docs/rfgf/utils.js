@@ -98,6 +98,12 @@ function isSameWeek(date1, date2) {
 function displayLoading() {
 	loader = document.querySelector("#loading");
 	loader.classList.add("display");
+
+	window.scrollTo(0, 0);
+	$("#results").scrollTo(0,0);
+
+
+
 	$("#spinner-div").show()
 	// to stop loading after some time
 	setTimeout(() => {

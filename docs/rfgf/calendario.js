@@ -51,7 +51,7 @@ async function load_calendario() {
 	}
 
 	var arrayLength = equipos.length;
-	var html_fav = '<hr><table class="table_noborder"><tr><th colspan=2 class="table_noborder">Lista Calendario</th></tr>';
+	var html_fav = '<hr><table class="table_noborder"><tr><th colspan=2 class="table_noborder">Equipos</th></tr>';
 	for (var i = 0; i < arrayLength; i++) {
 		var start = '';
 		var end = '';

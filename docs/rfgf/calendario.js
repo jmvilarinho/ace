@@ -67,7 +67,9 @@ async function load_calendario() {
 			bgcolor = 'bgcolor="' + equipos[i].color + '"';
 		}
 		html_fav += start + '<td class="table_noborder" ' + bgcolor + '><label>'
-			+ '<input type="checkbox" ' + checked + ' value="' + equipos[i].id + '" onclick="setArrayCookie(\'calendarioItems\',this)">' + equipos[i].name
+			+ '<input type="checkbox" ' + checked + ' value="' + equipos[i].id + '" onclick="setArrayCookie(\'calendarioItems\',this)">'
+			+ '<font color="white">'+equipos[i].name+'</font>'
+
 			+ '&nbsp;</label></td>' + end;
 
 	}

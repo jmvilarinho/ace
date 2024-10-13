@@ -1,3 +1,7 @@
+h4 {
+	font-size: 12px;
+}
+
 .right-aligned {
 	float: right;
 }
@@ -303,7 +307,7 @@ escudo_logo_medio
 	/* transform: translate(-50%, -50%); */
 	position: fixed;
 	height: 100%;
-	width:  100%;
+	width: 100%;
 	left: 0;
-    top: 0;
+	top: 0;
 }

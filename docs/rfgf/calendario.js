@@ -195,7 +195,7 @@ function show_portada_equipo_calendario(data, cod_equipo) {
 							title: {
 								html: nombre_equipo
 							},
-							styles: ['font-size: 8px'],
+							styles: ['font-size: 8px;'],
 							color: getEquipoColor(cod_equipo),
 						};
 

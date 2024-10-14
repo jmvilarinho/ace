@@ -18,6 +18,7 @@ async function load_portada_equipo(cod_equipo) {
 				$('#results').html('');
 				add_back();
 				show_portada_equipo(data.data, cod_equipo);
+				$('#results').append('<br>');
 				add_back();
 			} else {
 				throw new Error('No data found in response');

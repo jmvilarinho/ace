@@ -1,6 +1,7 @@
 var favorite_load = [];
 
 var ec;
+var hay_datos =false;
 
 function getSaturday(d) {
 	d = new Date(d);
@@ -153,7 +154,9 @@ async function get_data_equipo_async_calendario(cod_equipo) {
 }
 
 function show_portada_equipo_calendario(data, cod_equipo) {
-	if (data.competiciones_equipo.length > 0)
+	if (data.competiciones_equipo.length > 0){
+		hay_datos=true;
+		$('#label_color' + cod_equipo).css({ 'color': 'white' })
 		jQuery.each(data.competiciones_equipo, function (index, item) {
 			nombre_equipo = getEquipoName(cod_equipo, data.nombre_equipo);
 
@@ -185,13 +188,11 @@ function show_portada_equipo_calendario(data, cod_equipo) {
 						};
 						ec.addEvent(eventCalendar);
 
-				$('#label_color' + cod_equipo).css({ 'color': 'white' })
 					}
 				}
-				$('#label_color' + cod_equipo).css({ 'color': 'white' })
 			});
 		});
-
+	}
 	return true;
 
 }

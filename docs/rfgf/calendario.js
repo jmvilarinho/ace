@@ -1,6 +1,6 @@
-var favorite_load = [];
-
 var ec;
+var favorite_load = [];
+var arr_datos = [];
 var hay_datos = false;
 
 function getSaturday(d) {
@@ -11,12 +11,10 @@ function getSaturday(d) {
 }
 firstEvent = getSaturday(new Date());
 
+
 async function load_calendario() {
 	displayLoading();
 	setCookie('paginaRFGF', 'calendario', 30)
-
-	hay_datos = false;
-	firstEvent = getSaturday(new Date());
 
 	calendario = getCookieArray('calendarioItems');
 	if (calendario.length <= 0) {
@@ -25,12 +23,14 @@ async function load_calendario() {
 	setCookie('calendarioItems', JSON.stringify(calendario), 365);
 	var arrayLength = calendario.length;
 
-	$('#results').html('');
-	var arr = [];
 	add_back('calendario');
+	$('#results').html('');
 	$('#results').append('<main class="row" style="white-space: wrap;" ><div id="ec" class="col"></div></main>');
-	creaCalendario();
 
+	creaCalendario();
+	hay_datos = false;
+	firstEvent = getSaturday(new Date());
+	arr_datos = [];
 	favorite_load = [];
 	for (var i = 0; i < arrayLength; i++) {
 		favorite_load.push(calendario[i]);
@@ -53,7 +53,7 @@ async function load_calendario() {
 		var checked = '';
 		var bgcolor = '';
 		if (calendario.indexOf('' + equipos[i].id) >= 0) {
-			checked = 'checked';
+			checked = 'checked="true"';
 			bgcolor = 'bgcolor="' + equipos[i].color + '"';
 		}
 		html_fav += start + '<td class="table_noborder" ' + bgcolor + '>'
@@ -73,6 +73,16 @@ async function load_calendario() {
 		await new Promise(r => setTimeout(r, 300));
 		x += 500;
 	}
+
+	var arrayLength = arr_datos.length;
+	for (var i = 0; i < arrayLength; i++) {
+		var html = $(arr_datos[i]).html();
+		$(arr_datos[i]).css('color', 'white');
+		$(arr_datos[i]).html(html);
+		console.log('Set white: #label_color: "' + i + '" ' + html);
+		//Do something
+	}
+
 
 	// Ocultar en el calendario los días hasta sabado si no hay eventos
 	if (hay_datos) {
@@ -161,9 +171,7 @@ async function get_data_equipo_async_calendario(cod_equipo) {
 function show_portada_equipo_calendario(data, cod_equipo) {
 	if (data.competiciones_equipo.length > 0) {
 
-		html = $('#label_' + cod_equipo+'_color').html();
-		$('#label_' + cod_equipo+'_color').css('color', 'white');
-		$('#label_' + cod_equipo+'_color').html(html);
+		arr_datos.push('#label_' + cod_equipo + '_color');
 
 		jQuery.each(data.competiciones_equipo, function (index, item) {
 			nombre_equipo = getEquipoName(cod_equipo, data.nombre_equipo);

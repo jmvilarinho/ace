@@ -23,8 +23,8 @@ async function load_calendario() {
 	setCookie('calendarioItems', JSON.stringify(calendario), 365);
 	var arrayLength = calendario.length;
 
-	add_back('calendario');
 	$('#results').html('');
+	add_back('calendario');
 	$('#results').append('<main class="row" style="white-space: wrap;" ><div id="ec" class="col"></div></main>');
 
 	creaCalendario();

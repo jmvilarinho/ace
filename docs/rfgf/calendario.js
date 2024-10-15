@@ -5,12 +5,11 @@ var hay_datos = false;
 
 function getSaturday(d) {
 	d = new Date(d);
-	var day = d.getDay(),
-		diff = d.getDate() - day + (day == 1 ? -1 : 1); // adjust when day is sunday
-	return new Date(d.setDate(diff));
+	suma = 6 - d.getDay();
+	d.setDate(d.getDate() + suma);
+	return d;
 }
 firstEvent = getSaturday(new Date());
-
 
 async function load_calendario() {
 	displayLoading();
@@ -51,12 +50,10 @@ async function load_calendario() {
 			end = '</tr>'
 
 		var checked = '';
-		var bgcolor = '';
 		if (calendario.indexOf('' + equipos[i].id) >= 0) {
 			checked = 'checked="true"';
-			//bgcolor = 'bgcolor="' + equipos[i].color + '"';
 		}
-		html_fav += start + '<td class="table_noborder" ' + bgcolor + '>'
+		html_fav += start + '<td class="table_noborder" id="td_' + equipos[i].id + '_color">'
 			+ '<div  id="label_' + equipos[i].id + '_color">'
 			+ '<input type="checkbox" ' + checked + ' value="' + equipos[i].id + '" onclick="setArrayCookie(\'calendarioItems\',this)">' + equipos[i].name + '&nbsp;'
 			+ '</div></td>' + end;
@@ -76,13 +73,14 @@ async function load_calendario() {
 
 	var arrayLength = arr_datos.length;
 	for (var i = 0; i < arrayLength; i++) {
-		var html = $(arr_datos[i]).html();
-		$(arr_datos[i]).css('color', 'white');
-		$(arr_datos[i]).html(html);
-		console.log('Set white: #label_color: "' + i + '" ' + html);
-		//Do something
+		td = '#td_' + arr_datos[i] + '_color';
+		$(td).css('backgroundColor', getEquipoColor(arr_datos[i]));
+		label = '#label_' + arr_datos[i] + '_color';
+		//var html = $(label).html();
+		//$(label).css('color', 'white');
+		//$(label).html(html);
+		//console.log('Set white: #label_color: "' + i + '" ' + html);
 	}
-
 
 	// Ocultar en el calendario los días hasta sabado si no hay eventos
 	if (hay_datos) {
@@ -113,17 +111,6 @@ function creaCalendario() {
 		//scrollTime: '09:00:00',
 		slotMinTime: '09:00:00',
 		//hiddenDays: [1, 2, 3, 4],
-		views: {
-			timeGridWeek: { pointer: true },
-			resourceTimeGridWeek: { pointer: true },
-			resourceTimelineWeek: {
-				pointer: true,
-				slotMinTime: '09:00',
-				slotMaxTime: '21:00',
-				slotWidth: 80,
-
-			}
-		},
 		eventClick: function (info) {
 			load_portada_equipo(info.event.id);
 		},
@@ -142,7 +129,6 @@ function creaCalendario() {
 
 async function get_data_equipo_async_calendario(cod_equipo) {
 	var url = remote_url + "?type=getequipo&codequipo=" + cod_equipo;
-
 	console.log("GET " + url);
 
 	fetch(url)
@@ -171,7 +157,7 @@ async function get_data_equipo_async_calendario(cod_equipo) {
 function show_portada_equipo_calendario(data, cod_equipo) {
 	if (data.competiciones_equipo.length > 0) {
 
-		arr_datos.push('#label_' + cod_equipo + '_color');
+		arr_datos.push(cod_equipo);
 
 		jQuery.each(data.competiciones_equipo, function (index, item) {
 			nombre_equipo = getEquipoName(cod_equipo, data.nombre_equipo);

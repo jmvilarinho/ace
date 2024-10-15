@@ -1,6 +1,7 @@
 var ec;
 var favorite_load = [];
 var arr_datos = [];
+var arr_event = [];
 var hay_datos = false;
 
 function getSaturday(d) {
@@ -30,6 +31,7 @@ async function load_calendario() {
 	hay_datos = false;
 	firstEvent = getSaturday(new Date());
 	arr_datos = [];
+	arr_event = [];
 	favorite_load = [];
 	for (var i = 0; i < arrayLength; i++) {
 		favorite_load.push(calendario[i]);
@@ -76,9 +78,12 @@ async function load_calendario() {
 		td = '#td_' + arr_datos[i] + '_color';
 		$(td).css('backgroundColor', getEquipoColor(arr_datos[i]));
 		label = '#label_' + arr_datos[i] + '_color';
-		//var html = $(label).html();
-		//$(label).css('color', 'white');
-		//$(label).html(html);
+		if (arr_event.includes(arr_datos[i])){
+			label = '#label_' + arr_datos[i] + '_color';
+			var html = $(label).html();
+			$(label).css('color', 'white');
+			$(label).html(html);
+		}
 		//console.log('Set white: #label_color: "' + i + '" ' + html);
 	}
 
@@ -189,6 +194,7 @@ function show_portada_equipo_calendario(data, cod_equipo) {
 							color: getEquipoColor(cod_equipo),
 						};
 						ec.addEvent(eventCalendar);
+						arr_event.push(cod_equipo);
 						hay_datos = true;
 					}
 				}

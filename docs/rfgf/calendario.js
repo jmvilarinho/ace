@@ -54,7 +54,7 @@ async function load_calendario() {
 		var bgcolor = '';
 		if (calendario.indexOf('' + equipos[i].id) >= 0) {
 			checked = 'checked="true"';
-			bgcolor = 'bgcolor="' + equipos[i].color + '"';
+			//bgcolor = 'bgcolor="' + equipos[i].color + '"';
 		}
 		html_fav += start + '<td class="table_noborder" ' + bgcolor + '>'
 			+ '<div  id="label_' + equipos[i].id + '_color">'
@@ -63,7 +63,7 @@ async function load_calendario() {
 	}
 	if (arrayLength % 2)
 		html_fav += '</tr>'
-	$('#results').append(html_fav + '<tr><td class="table_noborder" colspan=2 align="center">(Nome en cor branco si hai datos)</td></tr></table><hr>');
+	$('#results').append(html_fav + '<tr><td class="table_noborder" colspan=2 align="center">(Resaltado si hai datos)</td></tr></table><hr>');
 
 	var x = 0;
 	while (x < 60000) {

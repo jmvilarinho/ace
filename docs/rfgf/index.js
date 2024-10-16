@@ -236,7 +236,7 @@ function show_clasificacion(data, cod_grupo, cod_equipo) {
 		}
 
 		if (item.puntos_sancion != "0")
-			puntos = item.puntos + ' (' + item.puntos_sancion + ')';
+			puntos = item.puntos + ' (-' + item.puntos_sancion + ')';
 		else
 			puntos = item.puntos;
 

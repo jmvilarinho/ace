@@ -92,6 +92,7 @@ async function get_data_equipo_async(cod_equipo) {
 		})
 		.then(data => {
 			if (data) {
+				show_error(data);
 				show_portada_equipo_favoritos(data.data, cod_equipo).forEach((element) => {
 					$('#favoritos_tabla').append(element['html']);
 				});

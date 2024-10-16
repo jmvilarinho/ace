@@ -16,6 +16,7 @@ async function load_resultados(cod_grupo, cod_equipo, jornada) {
 		})
 		.then(data => {
 			if (data) {
+				show_error(data);
 				$('#results').html('');
 				add_back();
 				show_resultados(data.data, cod_grupo, cod_equipo, jornada);

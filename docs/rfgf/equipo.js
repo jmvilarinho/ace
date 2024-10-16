@@ -15,6 +15,7 @@ async function load_equipo_home(cod_equipo) {
 		})
 		.then(data => {
 			if (data) {
+				show_error(data);
 				setCookie('cod_equipo', cod_equipo, 30)
 				$('#results').html('');
 				add_back();

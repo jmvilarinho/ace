@@ -15,6 +15,7 @@ async function load_portada_equipo(cod_equipo) {
 		})
 		.then(data => {
 			if (data) {
+				show_error(data);
 				$('#results').html('');
 				add_back();
 				show_portada_equipo(data.data, cod_equipo);
@@ -196,6 +197,7 @@ async function load_comparativa(codcompeticion, codgrupo, equipo1, equipo2, nomb
 		})
 		.then(data => {
 			if (data) {
+				show_error(data);
 				show_comparativa(data.data, nombre_equipo);
 			} else {
 				throw new Error('No data found in response');

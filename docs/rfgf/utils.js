@@ -167,6 +167,17 @@ function waitForElementToExist(selector) {
 		});
 	});
 }
+function show_error(data) {
+	$('#error_msg').html('');
+	try {
+		if (data['is_ok'] != 'true') {
+			console.error("Error : " + data['error']);
+			$('#error_msg').html(' <font color="red">(erro obtendo información)</font>');
+		}
+	} catch (ex) {
+		console.error("outer", ex.message);
+	}
+}
 
 
 function add_back(pagina) {

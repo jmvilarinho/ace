@@ -146,6 +146,7 @@ async function get_data_equipo_async_calendario(cod_equipo) {
 		})
 		.then(data => {
 			if (data) {
+				show_error(data);
 				show_portada_equipo_calendario(data.data, cod_equipo);
 				favorite_load.pop();
 			} else {

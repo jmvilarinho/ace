@@ -63,6 +63,7 @@ async function load_equipo(cod_equipo) {
 		})
 		.then(data => {
 			if (data) {
+				show_error(data);
 				$('#results').html('');
 				add_back();
 				show_partidos(data.data, cod_equipo);
@@ -95,6 +96,7 @@ async function load_clasificacion(cod_grupo, cod_equipo) {
 		})
 		.then(data => {
 			if (data) {
+				show_error(data);
 				$('#results').html('');
 				add_back();
 				show_clasificacion(data.data, cod_grupo, cod_equipo);
@@ -128,6 +130,7 @@ async function load_goleadores(codcompeticion, codgrupo, cod_equipo) {
 		})
 		.then(data => {
 			if (data) {
+				show_error(data);
 				$('#results').html('');
 				add_back();
 				show_goleadores(data.data, codgrupo, cod_equipo);

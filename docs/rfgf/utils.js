@@ -172,13 +172,20 @@ function show_error(data) {
 	try {
 		if (data['is_ok'] != 'true') {
 			console.error("Error : " + data['error']);
-			$('#error_msg').html(' <font color="red">(erro obtendo información)</font>');
+			timestr = getTimestamp(data['timestamp'] );
+			$('#error_msg').html(' <font color="red">(Erro obtendo información, datos do '+timestr+')</font>');
 		}
 	} catch (ex) {
 		console.error("outer", ex.message);
 	}
 }
 
+function getTimestamp (timestamp) {
+	const pad = (n,s=2) => (`${new Array(s).fill(0)}${n}`).slice(-s);
+	const d = new Date(timestamp *1000);
+
+	return `${pad(d.getDate())}/${pad(d.getMonth()+1)}/${pad(d.getFullYear(),4)} ${pad(d.getHours())}:${pad(d.getMinutes())}:${pad(d.getSeconds())}`;
+  }
 
 function add_back(pagina) {
 	if (!pagina)

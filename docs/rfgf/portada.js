@@ -100,8 +100,7 @@ function show_portada_data(title, item, codcompeticion, codgrupo, nombre_equipo)
 		hora = ' - ' + item.hora;
 	else
 		hora = ' ???';
-	dia_str = item.fecha.replace(/-/g, "/") + hora + ' (' + dia_semana(item.fecha) + ')'
-		;
+	dia_str = item.fecha.replace(/-/g, "/") + hora + ' (' + dia_semana(item.fecha) + ')';
 	if (codcompeticion) {
 		br = '<br><br>';
 		align = 'center';

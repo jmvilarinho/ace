@@ -163,7 +163,7 @@ function show_portada_data_favoritos(title, item, id) {
 		hora = ' - ' + item.hora;
 	else
 		hora = ' ???';
-	dia_str = item.fecha.replace(/-/g, "/") + hora + ' (' + dia_semana(item.fecha) + ')'
+	dia_str = item.fecha.replace(/-/g, "/") + hora + ' (' + dia_semana(item.fecha) + ')';
 
 	if (item.equipo_casa == 'Descansa' || item.equipo_fuera == 'Descansa') {
 		campo = '';

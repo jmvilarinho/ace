@@ -142,7 +142,7 @@ function show_portada_equipo_favoritos(data, cod_equipo) {
 		title = data.nombre_equipo;
 
 	if (lineas == 0) {
-		head = getEquipoName(cod_equipo,title);
+		head = getEquipoName(cod_equipo, title);
 		arr.push({
 			data: 33284008833000,
 			html: '<table id="33284008833000" class="portada">'
@@ -185,7 +185,6 @@ function show_portada_data_favoritos(title, item, id) {
 		casa = '&nbsp;' + item.equipo_fuera + '&nbsp;';
 	}
 
-
 	if (item.goles_casa == "" && item.goles_fuera == "") {
 		datos = '<tr>'
 			+ '<td bgcolor="white" colspan=2>' + casa + '</td>'
@@ -195,7 +194,6 @@ function show_portada_data_favoritos(title, item, id) {
 			+ '</tr>';
 
 	} else {
-
 		if (item.partido_en_juego == '1')
 			xogo = '<br>(en xogo)';
 		else

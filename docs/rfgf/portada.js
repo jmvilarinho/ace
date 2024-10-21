@@ -86,7 +86,7 @@ function show_portada_equipo(data, cod_equipo) {
 
 
 }
-function dia_str(fecha) {
+function dia_semana(fecha) {
 	var pattern = /(\d{2})\-(\d{2})\-(\d{4})/;
 	var dt = new Date(fecha.replace(pattern, '$3-$2-$1 12:00'));
 	days = ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'];
@@ -100,6 +100,8 @@ function show_portada_data(title, item, codcompeticion, codgrupo, nombre_equipo)
 		hora = ' - ' + item.hora;
 	else
 		hora = ' ???';
+	dia_str = item.fecha.replace(/-/g, "/") + hora + ' (' + dia_semana(item.fecha) + ')'
+		;
 	if (codcompeticion) {
 		br = '<br><br>';
 		align = 'center';
@@ -108,22 +110,23 @@ function show_portada_data(title, item, codcompeticion, codgrupo, nombre_equipo)
 		align = 'left';
 	}
 
-	if (item.equipo_casa == 'Descansa' || item.equipo_fuera == 'Descansa')
+	if (item.equipo_casa == 'Descansa' || item.equipo_fuera == 'Descansa') {
 		campo = '';
-	else {
+		dia_str = 'Descansa';
+	} else {
 		//campo = '<a href="https://waze.com/ul?q=' + encodeURIComponent(item.campo) + '&navigate=yes" target="_blank">' + item.campo + '</a> <img src="../img/waze.png" height="15px">';
 		//campo = '<a href="https://www.google.com/maps/dir/?api=1&destination=' + encodeURIComponent(item.campo) + '" target="_blank">' + item.campo + '</a> <img src="../img/dot.png" height="15px">';
 		campo = '<a href="https://maps.google.com?q=' + encodeURIComponent(item.campo) + '" target="_blank">' + item.campo + '</a> <img src="../img/dot.png" height="15px">';
 	}
 
-	if (item.equipo_casa != 'Descansa'){
+	if (item.equipo_casa != 'Descansa') {
 		casa = '&nbsp;<a href="javascript:load_equipo(\'' + item.codequipo_casa + '\')">' + item.equipo_casa + '</a>&nbsp;';
 		casa = '<img src="https://www.futgal.es' + item.escudo_equipo_casa + '" align="absmiddle" class="escudo_logo">' + br + casa;
-	} else{
+	} else {
 		casa = '&nbsp;' + item.equipo_casa + '&nbsp;';
 	}
 
-	if (item.equipo_fuera != 'Descansa'){
+	if (item.equipo_fuera != 'Descansa') {
 		fuera = '&nbsp;<a href="javascript:load_equipo(\'' + item.codequipo_fuera + '\')">' + item.equipo_fuera + '</a>&nbsp;';
 		fuera = '<img src="https://www.futgal.es' + item.escudo_equipo_fuera + '" align="absmiddle" class="escudo_logo">' + br + fuera;
 	} else {
@@ -175,7 +178,7 @@ function show_portada_data(title, item, codcompeticion, codgrupo, nombre_equipo)
 		+ '<th colspan=3  align="absmiddle">' + title + '</th>'
 		+ '</tr>'
 		+ '<tr>'
-		+ '<td bgcolor="#e8e5e4" colspan=3><b>Data:</b>&nbsp;' + item.fecha.replace(/-/g, "/") + hora + ' (' + dia_str(item.fecha) + ')</td>'
+		+ '<td bgcolor="#e8e5e4" colspan=3><b>Data:</b>&nbsp;' + dia_str + '</td>'
 		+ '</tr>'
 		+ '<tr>'
 		+ '<td bgcolor="#e8e5e4" colspan=3><b>Campo:</b>&nbsp;' + campo + '</td>'

@@ -163,12 +163,13 @@ function show_portada_data_favoritos(title, item, id) {
 		hora = ' - ' + item.hora;
 	else
 		hora = ' ???';
-	dia_str = item.fecha.replace(/-/g, "/") + hora + ' (' + dia_semana(item.fecha) + ')';
 
 	if (item.equipo_casa == 'Descansa' || item.equipo_fuera == 'Descansa') {
 		campo = '';
 		dia_str = 'Descansa';
 	} else {
+		//campo = '<a href="https://waze.com/ul?q=' + encodeURIComponent(item.campo) + '&navigate=yes" target="_blank">' + item.campo + '</a> <img src="../img/waze.png" height="15px">';
+		//campo = '<a href="https://www.google.com/maps/dir/?api=1&destination=' + encodeURIComponent(item.campo) + '" target="_blank">' + item.campo + '</a> <img src="../img/dot.png" height="15px">';
 		campo = '<a href="https://maps.google.com?q=' + encodeURIComponent(item.campo) + '" target="_blank">' + item.campo + '</a> <img src="../img/dot.png" height="15px">';
 	}
 
@@ -178,6 +179,7 @@ function show_portada_data_favoritos(title, item, id) {
 	} else {
 		casa = '&nbsp;' + item.equipo_casa + '&nbsp;';
 	}
+
 	if (item.equipo_fuera != 'Descansa') {
 		fuera = '<a href="javascript:load_portada_equipo(\'' + item.codequipo_fuera + '\')">' + item.equipo_fuera + '</a>';
 		fuera = '<img src="https://www.futgal.es' + item.escudo_equipo_fuera + '" align="absmiddle" class="escudo_logo_medio">&nbsp;&nbsp;' + fuera + '&nbsp;';
@@ -194,6 +196,7 @@ function show_portada_data_favoritos(title, item, id) {
 			+ '</tr>';
 
 	} else {
+
 		if (item.partido_en_juego == '1')
 			xogo = '<br>(en xogo)';
 		else

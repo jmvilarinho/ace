@@ -182,7 +182,7 @@ function show_portada_data_favoritos(title, item, id) {
 		fuera = '<a href="javascript:load_portada_equipo(\'' + item.codequipo_fuera + '\')">' + item.equipo_fuera + '</a>';
 		fuera = '<img src="https://www.futgal.es' + item.escudo_equipo_fuera + '" align="absmiddle" class="escudo_logo_medio">&nbsp;&nbsp;' + fuera + '&nbsp;';
 	} else {
-		casa = '&nbsp;' + item.equipo_fuera + '&nbsp;';
+		fuera = '&nbsp;' + item.equipo_fuera + '&nbsp;';
 	}
 
 	if (item.goles_casa == "" && item.goles_fuera == "") {

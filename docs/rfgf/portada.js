@@ -35,6 +35,7 @@ function show_portada_equipo(data, cod_equipo) {
 	lineas = 0;
 	$('#results').append('<br>');
 	mostrado = false;
+
 	jQuery.each(data.competiciones_equipo, function (index, item) {
 		lineas += 1;
 		if (lineas > 1)
@@ -54,17 +55,20 @@ function show_portada_equipo(data, cod_equipo) {
 			//now = new Date('18-03-2024'.replace(pattern, '$3-$2-$1 12:00'));
 			if (isSameWeek(dt, now)) {
 				mostrado = true;
-				show_portada_data('Xornada actual (#' + item2.nombre_jornada + ')', item2, item.cod_competicion, item.cod_grupo, data.nombre_equipo);
+				show_portada_data('Xornada actual (#' + item2.nombre_jornada + ')', 'main_table_1', item2, item.cod_competicion, item.cod_grupo, data.nombre_equipo);
 
 				if (previous) {
 					$('#results').append('<br>');
-					show_portada_data('Xornada anterior (#' + previous.nombre_jornada + ')', previous, undefined, undefined, undefined);
+					show_portada_data('Xornada anterior (#' + previous.nombre_jornada + ')', 'main_table_2', previous, undefined, undefined, undefined);
 				}
 				return false;
 			}
 			previous = item2;
 		});
 	});
+
+	updatewitdh();
+
 
 	if (lineas == 0) {
 		var arrayLength = equipos.length;
@@ -83,9 +87,20 @@ function show_portada_equipo(data, cod_equipo) {
 		}
 		$('#results').append('<br><br><b>Equipo:</b> ' + data.nombre_equipo + '<br><br><b>Non hai competición esta semán ' + nombre + '</b><br><br><br>');
 	}
-
-
 }
+
+function updatewitdh() {
+	if ($("#main_table_2").length) {
+		if ($("#main_table_1").width() > $("#main_table_2").width())
+			maxWitdh = $("#main_table_1").width();
+		else
+			maxWitdh = $("#main_table_2").width();
+
+		$("#main_table_1").css("width", maxWitdh + "px");
+		$("#main_table_2").css("width", maxWitdh + "px");
+	}
+}
+
 function dia_semana(fecha) {
 	var pattern = /(\d{2})\-(\d{2})\-(\d{4})/;
 	var dt = new Date(fecha.replace(pattern, '$3-$2-$1 12:00'));
@@ -95,7 +110,7 @@ function dia_semana(fecha) {
 }
 
 
-function show_portada_data(title, item, codcompeticion, codgrupo, nombre_equipo) {
+function show_portada_data(title, id_tabla, item, codcompeticion, codgrupo, nombre_equipo) {
 	if (codcompeticion) {
 		br = '<br><br>';
 		align = 'center';
@@ -173,7 +188,7 @@ function show_portada_data(title, item, codcompeticion, codgrupo, nombre_equipo)
 			+ '</tr>';
 	}
 
-	$('#results').append('<table class="portada">'
+	$('#results').append('<table id="' + id_tabla + '" class="portada">'
 		+ '<tr>'
 		+ '<th colspan=3  align="absmiddle">' + title + '</th>'
 		+ '</tr>'
@@ -208,6 +223,7 @@ async function load_comparativa(codcompeticion, codgrupo, equipo1, equipo2, nomb
 			if (data) {
 				show_error(data);
 				show_comparativa(data.data, nombre_equipo);
+				updatewitdh();
 			} else {
 				throw new Error('No data found in response');
 			}

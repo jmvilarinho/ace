@@ -71,6 +71,16 @@ async function load_favoritos() {
 		});
 		const parentElement = document.getElementById('favoritos_tabla');
 		toSort.forEach(element => parentElement.appendChild(element));
+		maxWitdh = 100;
+		toSort.forEach(function(item) {
+			if ( $(item).width() > maxWitdh )
+				maxWitdh =$(item).width();
+		});
+		toSort.forEach(function(item) {
+			$(item).css("width",maxWitdh+"px");
+		});
+
+
 	} catch (e) {
 		console.log(e);
 	}

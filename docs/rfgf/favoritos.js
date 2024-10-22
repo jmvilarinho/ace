@@ -159,17 +159,18 @@ function show_portada_equipo_favoritos(data, cod_equipo) {
 }
 
 function show_portada_data_favoritos(title, item, id) {
-	if (item.hora)
-		hora = ' - ' + item.hora;
-	else
-		hora = ' ???';
-	dia_str = item.fecha.replace(/-/g, "/") + hora + ' (' + dia_semana(item.fecha) + ')';
 
 	if (item.equipo_casa == 'Descansa' || item.equipo_fuera == 'Descansa') {
 		campo = '';
 		dia_str = 'Descansa';
 		id = "33284008833000";
 	} else {
+		if (item.hora)
+			hora = ' - ' + item.hora;
+		else
+			hora = ' ???';
+		dia_str = item.fecha.replace(/-/g, "/") + hora + ' (' + dia_semana(item.fecha) + ')';
+
 		//campo = '<a href="https://waze.com/ul?q=' + encodeURIComponent(item.campo) + '&navigate=yes" target="_blank">' + item.campo + '</a> <img src="../img/waze.png" height="15px">';
 		//campo = '<a href="https://www.google.com/maps/dir/?api=1&destination=' + encodeURIComponent(item.campo) + '" target="_blank">' + item.campo + '</a> <img src="../img/dot.png" height="15px">';
 		campo = '<a href="https://maps.google.com?q=' + encodeURIComponent(item.campo) + '" target="_blank">' + item.campo + '</a> <img src="../img/dot.png" height="15px">';

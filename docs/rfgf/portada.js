@@ -106,7 +106,7 @@ function show_portada_data(title, item, codcompeticion, codgrupo, nombre_equipo)
 
 	if (item.equipo_casa == 'Descansa' || item.equipo_fuera == 'Descansa') {
 		campo = '';
-		dia_str = 'Descansa';
+		dia_str = item.fecha.replace(/-/g, "/");
 	} else {
 		if (item.hora)
 			hora = ' - ' + item.hora;

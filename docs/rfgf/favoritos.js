@@ -162,7 +162,7 @@ function show_portada_data_favoritos(title, item, id) {
 
 	if (item.equipo_casa == 'Descansa' || item.equipo_fuera == 'Descansa') {
 		campo = '';
-		dia_str = 'Descansa';
+		dia_str = item.fecha.replace(/-/g, "/");
 		id = "33284008833000";
 	} else {
 		if (item.hora)

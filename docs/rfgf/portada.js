@@ -188,7 +188,7 @@ function show_portada_data(title, id_tabla, item, codcompeticion, codgrupo, nomb
 			+ '</tr>';
 	}
 
-	$('#results').append('<table id="' + id_tabla + '" class="portada">'
+	$('#results').append('<table id="' + id_tabla + '" class="table_noborder">'
 		+ '<tr>'
 		+ '<th colspan=3  align="absmiddle">' + title + '</th>'
 		+ '</tr>'

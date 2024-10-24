@@ -57,7 +57,7 @@ async function load_calendario() {
 		}
 		html_fav += start + '<td class="table_noborder" id="td_' + equipos[i].id + '_color">'
 			+ '<div  id="label_' + equipos[i].id + '_color">'
-			+ '<input type="checkbox" ' + checked + ' value="' + equipos[i].id + '" onclick="setArrayCookie(\'calendarioItems\',this)">' + equipos[i].name + '&nbsp;'
+			+ '<input type="checkbox" ' + checked + ' value="' + equipos[i].id + '" onclick="setArrayCookie(\'calendarioItems\',this)">&nbsp;' + equipos[i].name + '&nbsp;'
 			+ '</div></td>' + end;
 	}
 	if (arrayLength % 2)

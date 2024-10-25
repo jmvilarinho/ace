@@ -90,7 +90,12 @@ async function load_calendario() {
 	// Ocultar en el calendario los días hasta sabado si no hay eventos
 	if (hay_datos) {
 		hiddenDays = [];
-		for (var x = 1; x < firstEvent.getDay(); x++) {
+		last_idx = firstEvent.getDay();
+		//var date_now_obj = new Date(Date.now())
+		//if (last_idx < date_now_obj.getDay())
+		//	last_idx =date_now_obj.getDay();
+
+		for (var x = 1; x < last_idx; x++) {
 			hiddenDays.push(x);
 		}
 		ec.setOption('hiddenDays', hiddenDays);

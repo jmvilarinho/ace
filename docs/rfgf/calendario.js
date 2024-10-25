@@ -115,6 +115,7 @@ function creaCalendario() {
 		//],
 		//scrollTime: '09:00:00',
 		slotMinTime: '09:00:00',
+		slotMaxTime: '23:00:00',
 		//hiddenDays: [1, 2, 3, 4],
 		eventClick: function (info) {
 			load_portada_equipo(info.event.id);

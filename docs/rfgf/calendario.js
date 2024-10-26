@@ -173,8 +173,6 @@ function show_portada_equipo_calendario(data, cod_equipo) {
 
 		jQuery.each(data.competiciones_equipo, function (index, item) {
 			nombre_equipo = getEquipoName(cod_equipo, data.nombre_equipo);
-			if (data.codequipo_casa ==cod_equipo)
-				nombre_equipo ='<img src=home.png  class="escudo_logo"> '+nombre_equipo;
 
 			cont = 0;
 			jQuery.each(item.partidos, function (index, item) {
@@ -186,6 +184,14 @@ function show_portada_equipo_calendario(data, cod_equipo) {
 					var date_obj = new Date(hora.replace(pattern, '$3-$2-$1 $4:$5'));
 					var date_now_obj = new Date(Date.now())
 					if (isSameWeek(date_obj, date_now_obj)) {
+
+
+if (item.codequipo_casa ==cod_equipo)                                     nombre_equipo ='<img src=home.png  class="escudo_logo"> '+nombre_equipo;
+
+
+
+
+
 						if (date_obj < firstEvent)
 							firstEvent = date_obj;
 						end = new Date(date_obj.getTime() + getEquipoDuracion(cod_equipo) * 60000);

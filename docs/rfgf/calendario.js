@@ -173,6 +173,8 @@ function show_portada_equipo_calendario(data, cod_equipo) {
 
 		jQuery.each(data.competiciones_equipo, function (index, item) {
 			nombre_equipo = getEquipoName(cod_equipo, data.nombre_equipo);
+			if (data.codequipo_casa ==cod_equipo)
+				nombre_equipo ='<img src=home.png  class="escudo_logo"> '+nombre_equipo;
 
 			cont = 0;
 			jQuery.each(item.partidos, function (index, item) {

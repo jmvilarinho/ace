@@ -113,6 +113,8 @@ td {
 	height: 20px;
 }
 
+.home_widget {                                                          width: 15px !important;                                           height: 15px;                                             }
+
 .escudo_logo {
 	width: 60px !important;
 }

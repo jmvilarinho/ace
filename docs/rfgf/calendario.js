@@ -186,7 +186,7 @@ function show_portada_equipo_calendario(data, cod_equipo) {
 					if (isSameWeek(date_obj, date_now_obj)) {
 
 
-if (item.codequipo_casa ==cod_equipo)                                     nombre_equipo ='<img src=home.png  class="escudo_widget"> '+nombre_equipo;
+if (item.codequipo_casa ==cod_equipo)                                     nombre_equipo ='<img src=home.png  class="home_widget"> '+nombre_equipo;
 
 
 

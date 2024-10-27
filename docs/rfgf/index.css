@@ -6,6 +6,19 @@ h4 {
 	float: right;
 }
 
+.ec-event-time-home {
+	flex-shrink: 0;
+	margin: 0 0 1px;
+	overflow: hidden;
+	white-space: nowrap;
+
+	background-image: url("home.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 10px;
+	background-position: 30px;
+}
+
 .left,
 .right {
 	float: left;
@@ -113,7 +126,10 @@ td {
 	height: 20px;
 }
 
-.home_widget {                                                          width: 15px !important;                                           height: 15px;                                             }
+.home_widget {
+	width: 15px !important;
+	height: 15px;
+}
 
 .escudo_logo {
 	width: 60px !important;

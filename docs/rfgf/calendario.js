@@ -78,7 +78,7 @@ async function load_calendario() {
 		td = '#td_' + arr_datos[i] + '_color';
 		$(td).css('backgroundColor', getEquipoColor(arr_datos[i]));
 		label = '#label_' + arr_datos[i] + '_color';
-		if (arr_event.includes(arr_datos[i])){
+		if (arr_event.includes(arr_datos[i])) {
 			label = '#label_' + arr_datos[i] + '_color';
 			var html = $(label).html();
 			$(label).css('color', 'white');
@@ -125,6 +125,14 @@ function creaCalendario() {
 		eventClick: function (info) {
 			load_portada_equipo(info.event.id);
 		},
+
+		eventDidMount: function (info) {
+			if (info.event.extendedProps.home)
+				info.el.firstChild.firstChild.className = "ec-event-time-home";
+		},
+		// eventContent: function (info) {
+		// 	console.log(info);
+		// },
 		flexibleSlotTimeLimits: true,
 		dayMaxEvents: true,
 		nowIndicator: true,
@@ -185,15 +193,16 @@ function show_portada_equipo_calendario(data, cod_equipo) {
 					var date_now_obj = new Date(Date.now())
 					if (isSameWeek(date_obj, date_now_obj)) {
 
+						isHome = false;
+						if (item.codequipo_casa == cod_equipo) {
+							//nombre_equipo = '<img src=home.png  class="home_widget"> ' + nombre_equipo;
+							isHome = true;
+						}
 
-if (item.codequipo_casa ==cod_equipo)                                     nombre_equipo ='<img src=home.png  class="home_widget"> '+nombre_equipo;
-
-
-
-
-
-						if (date_obj < firstEvent)
+						if (date_obj < firstEvent) {
 							firstEvent = date_obj;
+						}
+
 						end = new Date(date_obj.getTime() + getEquipoDuracion(cod_equipo) * 60000);
 						eventCalendar = {
 							start: date_obj,
@@ -204,6 +213,9 @@ if (item.codequipo_casa ==cod_equipo)                                     nombre
 							durationEditable: false,
 							title: {
 								html: nombre_equipo
+							},
+							extendedProps: {
+								home: isHome
 							},
 							styles: ['font-size: 8px;'],
 							color: getEquipoColor(cod_equipo),

@@ -486,6 +486,8 @@ https://canalcoin.garjim.es/hls/directo.m3u8
 https://secure5.todostreaming.es/live/division-alm.m3u8
 #EXTINF:-1 tvg-id="Extremadura.TV" tvg-logo="https://graph.facebook.com/CanalExtremadura/picture?width=200&height=200" group-title="Extremadura" tvg-name="Canal Extremadura",Canal Extremadura
 https://cdnapisec.kaltura.com/p/5581662/sp/5581662/playManifest/entryId/1_1u7ssdy3/protocol/https/format/applehttp/a.m3u8
+#EXTINF:-1 tvg-logo="https://graph.facebook.com/canalipe/picture?width=200&height=200" group-title="Int. América" tvg-name="Canal IPe Perú",Canal IPe Perú
+https://cdnhd.iblups.com/hls/3f2cb1658d114f2693eff18d83199e67.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/canalluztelevision/picture?width=200&height=200" group-title="Andalucía" tvg-name="Canal Luz Televisión",Canal Luz Televisión
 https://5d8d85cf2c308.streamlock.net:1936/CanalLuz/enDirecto/playlist.m3u8
 #EXTINF:-1 tvg-id="CanalMalaga.TV" tvg-logo="https://graph.facebook.com/CanalMalagaRTVMunicipal/picture?width=200&height=200" group-title="Andalucía" tvg-name="Canal Málaga",Canal Málaga
@@ -516,7 +518,7 @@ https://ingest1-video.streaming-pro.com/esportsteABR/etestream/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 CrKey/1.44.191160
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/TaronjaTV/picture?width=200&height=200" group-title="Cataluña" tvg-name="Canal Taronja Osona i Moianés",Canal Taronja Osona i Moianés
 https://ingest1-video.streaming-pro.com/canaltaronja/osona/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/1847685731428220928/HHHx7VM5_200x200.jpg" group-title="Int. América" tvg-name="Canal Telecaribe Colombia",Canal Telecaribe Colombia
+#EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/1850052710403342336/m-om6omY_200x200.jpg" group-title="Int. América" tvg-name="Canal Telecaribe Colombia",Canal Telecaribe Colombia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 CrKey/1.44.191160
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/canalterrassa/picture?width=200&height=200" group-title="Cataluña" tvg-name="Canal Terrassa",Canal Terrassa
 https://ingest2-video.streaming-pro.com/canalterrassa/stream/playlist.m3u8
@@ -885,7 +887,7 @@ https://bit.controlstreams.com:5443/LiveApp/streams/punt3.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/QmusicNL/picture?width=200&height=200" group-title="Musicales" tvg-name="QMusic Holanda",QMusic Holanda NL
 https://dpp-qmusicnl-live.akamaized.net/streamx/QmusicNL.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/televisionsaharaui/picture?width=200&height=200" group-title="Int. África" tvg-name="RASD TV",RASD TV
-https://cloud.streamingconnect.tv/hls/rasdtv/rasdtv.m3u8
+https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=12830
 #EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/1227224148079980544/kkxXv9jL_200x200.jpg" group-title="Musicales" tvg-name="RM TV España",RM TV España
 https://limited43.todostreaming.es/live/simbana-livestream19.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/radionacionalrne/picture?width=200&height=200" group-title="Generalistas" tvg-name="RNE para todos",RNE para todos

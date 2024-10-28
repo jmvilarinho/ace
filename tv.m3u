@@ -1157,7 +1157,7 @@ https://tigocloud.desdeparaguay.net/venusmedia/venusmedia/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/1463159511133442059/uVV15n4k_200x200.jpg" group-title="Musicales" tvg-name="Verbena TV España",Verbena TV España
 https://streamtv2.elitecomunicacion.cloud:3144/live/verbenatvlive.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/VinxTV/picture?width=200&height=200" group-title="Deportivos" tvg-name="Vinx TV Asturias",Vinx TV Asturias
-https://tv.radiocast.es:5443/vinxtv/streams/vinxtvlive.m3u8
+https://live.astreaming.media/Vinx/index.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/104927246235553/picture?width=200&height=200" group-title="Castilla-La Mancha" tvg-name="Visión 6 TV",Visión 6 TV
 https://streaming.proceso.info:8888/vision6-web/stream.m3u8
 #EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/1401880197578870789/_8jMKpKE_200x200.jpg" group-title="Andalucía" tvg-name="Vivamóvil TV",Vivamóvil TV

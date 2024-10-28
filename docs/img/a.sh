@@ -3,5 +3,5 @@
 
 for i in $(seq 1 200); do
 	echo $i
-	wget "https://www.aemet.es/imagenes/png/estado_cielo/${i}_g.png"
+	wget "https://www.aemet.es/imagenes/png/estado_cielo/${i}n_g.png"
 done

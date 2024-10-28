@@ -125,7 +125,6 @@ function creaCalendario() {
 		eventClick: function (info) {
 			load_portada_equipo(info.event.id);
 		},
-
 		eventDidMount: function (info) {
 			if (info.event.extendedProps.home)
 				info.el.firstChild.firstChild.className = "ec-event-time-home";
@@ -192,17 +191,14 @@ function show_portada_equipo_calendario(data, cod_equipo) {
 					var date_obj = new Date(hora.replace(pattern, '$3-$2-$1 $4:$5'));
 					var date_now_obj = new Date(Date.now())
 					if (isSameWeek(date_obj, date_now_obj)) {
-
 						isHome = false;
 						if (item.codequipo_casa == cod_equipo) {
 							//nombre_equipo = '<img src=home.png  class="home_widget"> ' + nombre_equipo;
 							isHome = true;
 						}
-
 						if (date_obj < firstEvent) {
 							firstEvent = date_obj;
 						}
-
 						end = new Date(date_obj.getTime() + getEquipoDuracion(cod_equipo) * 60000);
 						eventCalendar = {
 							start: date_obj,
@@ -229,6 +225,5 @@ function show_portada_equipo_calendario(data, cod_equipo) {
 		});
 	}
 	return true;
-
 }
 

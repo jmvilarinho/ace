@@ -1,55 +1,8 @@
-function update_vista() {
-	let searchParams = new URLSearchParams(window.location.search)
-	if (searchParams.has('cod_equipo')) {
-		load_equipo(searchParams.get('cod_equipo'))
-	}
-	else if (searchParams.has('cod_grupo')) {
-		load_clasificacion(searchParams.get('cod_grupo'))
-	} else {
-		var pagina = getCookie('paginaRFGF');
-		if (pagina) {
-			switch (pagina) {
-				case 'favoritos':
-					load_favoritos();
-					break;
-				case 'calendario':
-					load_calendario();
-					break;
-				case 'portada':
-					var cod_equipo = getCookie('cod_equipo');
-					load_portada_equipo(cod_equipo);
-					break;
-				case 'partidos':
-					var cod_equipo = getCookie('cod_equipo');
-					load_equipo(cod_equipo);
-					break;
-				case 'clasificacion':
-					var cod_equipo = getCookie('cod_equipo');
-					var cod_grupo = getCookie('cod_grupo');
-					load_clasificacion(cod_grupo, cod_equipo);
-					break;
-
-				case 'resultados': var cod_equipo = getCookie('cod_equipo'); var cod_grupo = getCookie('cod_grupo'); load_resultados(cod_grupo, cod_equipo, ''); break;
-
-				case 'goleadores':
-					var cod_equipo = getCookie('cod_equipo');
-					var cod_grupo = getCookie('cod_grupo');
-					var cod_competicion = getCookie('cod_competicion');
-					load_goleadores(cod_competicion, cod_grupo, cod_equipo);
-					break;
-				default:
-					load_favoritos();
-			}
-		} else {
-			load_favoritos();
-		}
-	}
-}
-
 async function load_equipo(cod_equipo) {
 	displayLoading();
 	setCookie('paginaRFGF', 'partidos', 30)
 	setCookie('cod_equipo', cod_equipo, 30)
+	history.pushState(null, "", '#paginaRFGF=partidos&cod_equipo=' + cod_equipo);
 
 	var url = remote_url + "?type=getequipo&codequipo=" + cod_equipo;
 
@@ -83,6 +36,7 @@ async function load_clasificacion(cod_grupo, cod_equipo) {
 	setCookie('paginaRFGF', 'clasificacion', 30)
 	setCookie('cod_equipo', cod_equipo, 30)
 	setCookie('cod_grupo', cod_grupo, 30)
+	history.pushState(null, "", '#paginaRFGF=clasificacion&cod_equipo=' + cod_equipo + '&cod_grupo=' + cod_grupo);
 
 	var url = remote_url + "?type=getclasificacion&codgrupo=" + cod_grupo;
 
@@ -117,6 +71,7 @@ async function load_goleadores(codcompeticion, codgrupo, cod_equipo) {
 	setCookie('cod_equipo', cod_equipo, 30)
 	setCookie('cod_grupo', codgrupo, 30)
 	setCookie('cod_competicion', codcompeticion, 30)
+	history.pushState(null, "", '#paginaRFGF=goleadores&cod_equipo=' + cod_equipo + '&cod_grupo=' + cod_grupo + '&cod_competicion=' + codcompeticion);
 
 	var url = remote_url + "?type=getgoleadores&codcompeticion=" + codcompeticion + "&codgrupo=" + codgrupo;
 

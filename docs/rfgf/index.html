@@ -68,6 +68,14 @@
     for (var i = 0; i < arrayLength; i++) {
       $('#mySidenav').append('<a href="javascript:closeNav(\'' + equipos[i].id + '\')">' + equipos[i].name + '</a>');
     }
+
+    // forzar recarga pinchar boton "back"
+    (function (window, location) {
+      window.addEventListener("popstate", function () {
+        location.reload(true);
+      }, false);
+    }(window, location));
+
     update_vista();
   </script>
 </body>

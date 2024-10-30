@@ -3,6 +3,7 @@ var favorite_load = [];
 async function load_favoritos() {
 	displayLoading();
 	setCookie('paginaRFGF', 'favoritos', 30)
+	history.pushState(null, "", '#paginaRFGF=favoritos');
 
 	favoritos = getCookieArray('favoritosItems');
 	if (favoritos.length <= 0) {

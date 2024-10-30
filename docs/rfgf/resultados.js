@@ -3,6 +3,7 @@ async function load_resultados(cod_grupo, cod_equipo, jornada) {
 	setCookie('paginaRFGF', 'resultados', 30)
 	setCookie('cod_equipo', cod_equipo, 30)
 	setCookie('cod_grupo', cod_grupo, 30)
+	history.pushState(null, "", '#paginaRFGF=resultados&cod_equipo=' + cod_equipo + '&cod_grupo=' + cod_grupo );
 
 	var url = remote_url + "?type=getresultados&codgrupo=" + cod_grupo + '&jornada=' + jornada;
 

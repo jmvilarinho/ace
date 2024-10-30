@@ -1,3 +1,65 @@
+function update_vista() {
+	let searchParams = new URLSearchParams(window.location.search);
+
+	var myUrl = new URL(window.location.href.replace(/#/g, "?"));
+	var searchHashParams = new URLSearchParams(myUrl.searchParams);
+
+	if (searchParams.has('cod_equipo')) {
+		load_equipo(searchParams.get('cod_equipo'))
+	}
+	else if (searchParams.has('cod_grupo')) {
+		load_clasificacion(searchParams.get('cod_grupo'))
+	} else {
+		var pagina = getCookie('paginaRFGF');
+		if (searchHashParams.has('paginaRFGF'))
+			pagina = searchHashParams.get('paginaRFGF');
+
+		var cod_equipo = getCookie('cod_equipo');
+		if (searchHashParams.has('cod_equipo'))
+			cod_equipo = searchHashParams.get('cod_equipo');
+
+		var cod_grupo = getCookie('cod_grupo');
+		if (searchHashParams.has('cod_grupo'))
+			cod_grupo = searchHashParams.get('cod_grupo');
+
+		var cod_competicion = getCookie('cod_competicion');
+		if (searchHashParams.has('cod_competicion'))
+			cod_competicion = searchHashParams.get('cod_competicion');
+
+		if (pagina) {
+			switch (pagina) {
+				case 'favoritos':
+					load_favoritos();
+					break;
+				case 'calendario':
+					load_calendario();
+					break;
+				case 'portada':
+					load_portada_equipo(cod_equipo);
+					break;
+				case 'partidos':
+					load_equipo(cod_equipo);
+					break;
+				case 'clasificacion':
+					load_clasificacion(cod_grupo, cod_equipo);
+					break;
+
+				case 'resultados':
+					load_resultados(cod_grupo, cod_equipo, '');
+					break;
+
+				case 'goleadores':
+					load_goleadores(cod_competicion, cod_grupo, cod_equipo);
+					break;
+				default:
+					load_favoritos();
+			}
+		} else {
+			load_favoritos();
+		}
+	}
+}
+
 function crea_botons(pagina, codigo_equipo, cod_grupo, cod_competicion) {
 
 	var boton_partidos = $('<input/>').attr({
@@ -172,20 +234,20 @@ function show_error(data) {
 	try {
 		if (data['is_ok'] != 'true') {
 			console.error("Error : " + data['error']);
-			timestr = getTimestamp(data['timestamp'] );
-			$('#error_msg').html(' <font color="red">(Erro obtendo información, datos do '+timestr+')</font>');
+			timestr = getTimestamp(data['timestamp']);
+			$('#error_msg').html(' <font color="red">(Erro obtendo información, datos do ' + timestr + ')</font>');
 		}
 	} catch (ex) {
 		console.error("outer", ex.message);
 	}
 }
 
-function getTimestamp (timestamp) {
-	const pad = (n,s=2) => (`${new Array(s).fill(0)}${n}`).slice(-s);
-	const d = new Date(timestamp *1000);
+function getTimestamp(timestamp) {
+	const pad = (n, s = 2) => (`${new Array(s).fill(0)}${n}`).slice(-s);
+	const d = new Date(timestamp * 1000);
 
-	return `${pad(d.getDate())}/${pad(d.getMonth()+1)}/${pad(d.getFullYear(),4)} ${pad(d.getHours())}:${pad(d.getMinutes())}:${pad(d.getSeconds())}`;
-  }
+	return `${pad(d.getDate())}/${pad(d.getMonth() + 1)}/${pad(d.getFullYear(), 4)} ${pad(d.getHours())}:${pad(d.getMinutes())}:${pad(d.getSeconds())}`;
+}
 
 function add_back(pagina) {
 	if (!pagina)

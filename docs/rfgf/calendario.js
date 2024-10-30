@@ -15,6 +15,7 @@ firstEvent = getSaturday(new Date());
 async function load_calendario() {
 	displayLoading();
 	setCookie('paginaRFGF', 'calendario', 30)
+	history.pushState(null, "", '#paginaRFGF=calendario');
 
 	calendario = getCookieArray('calendarioItems');
 	if (calendario.length <= 0) {

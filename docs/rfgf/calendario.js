@@ -12,10 +12,11 @@ function getSaturday(d) {
 }
 firstEvent = getSaturday(new Date());
 
-async function load_calendario() {
+async function load_calendario(addHistory = true) {
 	displayLoading();
 	setCookie('paginaRFGF', 'calendario', 30)
-	history.pushState(null, "", '#paginaRFGF=calendario');
+	if (addHistory)
+		history.pushState(null, "Calendario", '#paginaRFGF=calendario');
 
 	calendario = getCookieArray('calendarioItems');
 	if (calendario.length <= 0) {

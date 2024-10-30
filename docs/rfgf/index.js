@@ -1,8 +1,9 @@
-async function load_equipo(cod_equipo) {
+async function load_equipo(cod_equipo, addHistory = true) {
 	displayLoading();
 	setCookie('paginaRFGF', 'partidos', 30)
 	setCookie('cod_equipo', cod_equipo, 30)
-	history.pushState(null, "", '#paginaRFGF=partidos&cod_equipo=' + cod_equipo);
+	if (addHistory)
+		history.pushState(null, "", '#paginaRFGF=partidos&cod_equipo=' + cod_equipo);
 
 	var url = remote_url + "?type=getequipo&codequipo=" + cod_equipo;
 
@@ -31,12 +32,13 @@ async function load_equipo(cod_equipo) {
 	hideLoading();
 }
 
-async function load_clasificacion(cod_grupo, cod_equipo) {
+async function load_clasificacion(cod_grupo, cod_equipo, addHistory = true) {
 	displayLoading();
 	setCookie('paginaRFGF', 'clasificacion', 30)
 	setCookie('cod_equipo', cod_equipo, 30)
 	setCookie('cod_grupo', cod_grupo, 30)
-	history.pushState(null, "", '#paginaRFGF=clasificacion&cod_equipo=' + cod_equipo + '&cod_grupo=' + cod_grupo);
+	if (addHistory)
+		history.pushState(null, "", '#paginaRFGF=clasificacion&cod_equipo=' + cod_equipo + '&cod_grupo=' + cod_grupo);
 
 	var url = remote_url + "?type=getclasificacion&codgrupo=" + cod_grupo;
 
@@ -65,13 +67,14 @@ async function load_clasificacion(cod_grupo, cod_equipo) {
 	hideLoading();
 }
 
-async function load_goleadores(codcompeticion, codgrupo, cod_equipo) {
+async function load_goleadores(codcompeticion, codgrupo, cod_equipo, addHistory = true) {
 	displayLoading();
 	setCookie('paginaRFGF', 'goleadores', 30)
 	setCookie('cod_equipo', cod_equipo, 30)
 	setCookie('cod_grupo', codgrupo, 30)
 	setCookie('cod_competicion', codcompeticion, 30)
-	history.pushState(null, "", '#paginaRFGF=goleadores&cod_equipo=' + cod_equipo + '&cod_grupo=' + cod_grupo + '&cod_competicion=' + codcompeticion);
+	if (addHistory)
+		history.pushState(null, "", '#paginaRFGF=goleadores&cod_equipo=' + cod_equipo + '&cod_grupo=' + codgrupo + '&cod_competicion=' + codcompeticion);
 
 	var url = remote_url + "?type=getgoleadores&codcompeticion=" + codcompeticion + "&codgrupo=" + codgrupo;
 

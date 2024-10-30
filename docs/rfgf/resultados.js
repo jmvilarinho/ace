@@ -1,9 +1,10 @@
-async function load_resultados(cod_grupo, cod_equipo, jornada) {
+async function load_resultados(cod_grupo, cod_equipo, jornada, addHistory = true) {
 	displayLoading();
 	setCookie('paginaRFGF', 'resultados', 30)
 	setCookie('cod_equipo', cod_equipo, 30)
 	setCookie('cod_grupo', cod_grupo, 30)
-	history.pushState(null, "", '#paginaRFGF=resultados&cod_equipo=' + cod_equipo + '&cod_grupo=' + cod_grupo );
+	if (addHistory)
+		history.pushState(null, "", '#paginaRFGF=resultados&cod_equipo=' + cod_equipo + '&cod_grupo=' + cod_grupo);
 
 	var url = remote_url + "?type=getresultados&codgrupo=" + cod_grupo + '&jornada=' + jornada;
 
@@ -59,7 +60,7 @@ function show_resultados(data, codgrupo, cod_equipo) {
 	cont = 0;
 
 	jQuery.each(data.partidos, function (index, item) {
-		background = getBackgroundColor(cont,(item.CodEquipo_local == cod_equipo || item.CodEquipo_visitante == cod_equipo));
+		background = getBackgroundColor(cont, (item.CodEquipo_local == cod_equipo || item.CodEquipo_visitante == cod_equipo));
 		cont += 1
 
 		$('#results').append('<tr>');

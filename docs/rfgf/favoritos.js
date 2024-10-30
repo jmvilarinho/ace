@@ -1,9 +1,10 @@
 var favorite_load = [];
 
-async function load_favoritos() {
+async function load_favoritos(addHistory = true) {
 	displayLoading();
 	setCookie('paginaRFGF', 'favoritos', 30)
-	history.pushState(null, "", '#paginaRFGF=favoritos');
+	if (addHistory)
+		history.pushState(null, "", '#paginaRFGF=favoritos');
 
 	favoritos = getCookieArray('favoritosItems');
 	if (favoritos.length <= 0) {
@@ -73,12 +74,12 @@ async function load_favoritos() {
 		const parentElement = document.getElementById('favoritos_tabla');
 		toSort.forEach(element => parentElement.appendChild(element));
 		maxWitdh = 100;
-		toSort.forEach(function(item) {
-			if ( $(item).width() > maxWitdh )
-				maxWitdh =$(item).width();
+		toSort.forEach(function (item) {
+			if ($(item).width() > maxWitdh)
+				maxWitdh = $(item).width();
 		});
-		toSort.forEach(function(item) {
-			$(item).css("width",maxWitdh+"px");
+		toSort.forEach(function (item) {
+			$(item).css("width", maxWitdh + "px");
 		});
 
 

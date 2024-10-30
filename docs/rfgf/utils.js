@@ -1,7 +1,9 @@
-function update_vista() {
+function update_vista(url = '') {
 	let searchParams = new URLSearchParams(window.location.search);
 
-	var myUrl = new URL(window.location.href.replace(/#/g, "?"));
+	if (url == '')
+		url = window.location.href;
+	var myUrl = new URL(url.replace(/#/g, "?"));
 	var searchHashParams = new URLSearchParams(myUrl.searchParams);
 
 	if (searchParams.has('cod_equipo')) {
@@ -29,33 +31,33 @@ function update_vista() {
 		if (pagina) {
 			switch (pagina) {
 				case 'favoritos':
-					load_favoritos();
+					load_favoritos(false);
 					break;
 				case 'calendario':
-					load_calendario();
+					load_calendario(false);
 					break;
 				case 'portada':
-					load_portada_equipo(cod_equipo);
+					load_portada_equipo(cod_equipo, false);
 					break;
 				case 'partidos':
-					load_equipo(cod_equipo);
+					load_equipo(cod_equipo, false);
 					break;
 				case 'clasificacion':
-					load_clasificacion(cod_grupo, cod_equipo);
+					load_clasificacion(cod_grupo, cod_equipo, false);
 					break;
 
 				case 'resultados':
-					load_resultados(cod_grupo, cod_equipo, '');
+					load_resultados(cod_grupo, cod_equipo, '', false);
 					break;
 
 				case 'goleadores':
-					load_goleadores(cod_competicion, cod_grupo, cod_equipo);
+					load_goleadores(cod_competicion, cod_grupo, cod_equipo, false);
 					break;
 				default:
-					load_favoritos();
+					load_favoritos(false);
 			}
 		} else {
-			load_favoritos();
+			load_favoritos(false);
 		}
 	}
 }

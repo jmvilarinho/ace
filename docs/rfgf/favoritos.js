@@ -92,7 +92,7 @@ async function load_favoritos(addHistory = true) {
 async function get_data_equipo_async(cod_equipo) {
 	var url = remote_url + "?type=getequipo&codequipo=" + cod_equipo;
 
-	console.log("GET " + url);
+	//console.log("GET " + url);
 
 	fetch(url)
 		.then(response => {

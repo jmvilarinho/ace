@@ -5,7 +5,7 @@ async function load_equipo_home(cod_equipo) {
 
 	var url = remote_url + "?type=getequipo&codequipo=" + cod_equipo;
 
-	console.log("GET " + url);
+	//console.log("GET " + url);
 	await fetch(url)
 		.then(response => {
 			if (!response.ok) {
@@ -19,7 +19,7 @@ async function load_equipo_home(cod_equipo) {
 				setCookie('cod_equipo', cod_equipo, 30)
 				$('#results').html('');
 				add_back();
-				show_partidos_home(data.data, cod_equipo);
+				show_xornadas_home(data.data, cod_equipo);
 				add_back();
 			} else {
 				throw new Error('No data found in response');
@@ -31,7 +31,7 @@ async function load_equipo_home(cod_equipo) {
 	hideLoading();
 }
 
-function show_partidos_home(data, cod_equipo) {
+function show_xornadas_home(data, cod_equipo) {
 	lineas = 0;
 	$('#results').append('<br>');
 	jQuery.each(data.competiciones_equipo, function (index, item) {

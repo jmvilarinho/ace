@@ -41,7 +41,7 @@ function update_vista(url = '') {
 				case 'portada':
 					load_portada_equipo(cod_equipo, false);
 					break;
-				case 'partidos':
+				case 'xornadas':
 					load_equipo(cod_equipo, false);
 					break;
 				case 'clasificacion':
@@ -66,23 +66,23 @@ function update_vista(url = '') {
 
 function crea_botons(pagina, codigo_equipo, cod_grupo, cod_competicion) {
 
-	var boton_partidos = $('<input/>').attr({
+	var boton_portada = $('<input/>').attr({
 		type: "button",
 		class: (pagina == 'portada') ? 'none' : "back_button",
 		id: "field",
 		value: 'Portada',
 		onclick: "load_portada_equipo('" + codigo_equipo + "')"
 	});
-	$('#results').append(boton_partidos);
+	$('#results').append(boton_portada);
 
-	var boton_partidos = $('<input/>').attr({
+	var boton_xornadas = $('<input/>').attr({
 		type: "button",
-		class: (pagina == 'partidos') ? 'none' : "back_button",
+		class: (pagina == 'xornadas') ? 'none' : "back_button",
 		id: "field",
 		value: 'Xornadas',
 		onclick: "load_equipo('" + codigo_equipo + "')"
 	});
-	$('#results').append(boton_partidos);
+	$('#results').append(boton_xornadas);
 
 	var boton_resultados = $('<input/>').attr({
 		type: "button",

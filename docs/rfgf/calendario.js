@@ -16,7 +16,7 @@ async function load_calendario(addHistory = true) {
 	displayLoading();
 	setCookie('paginaRFGF', 'calendario', 30)
 	if (addHistory)
-		history.pushState(null, "Calendario", '#calendario');
+		history.pushState(null, "", '#calendario');
 
 	calendario = getCookieArray('calendarioItems');
 	if (calendario.length <= 0) {
@@ -149,7 +149,7 @@ function creaCalendario() {
 
 async function get_data_equipo_async_calendario(cod_equipo) {
 	var url = remote_url + "?type=getequipo&codequipo=" + cod_equipo;
-	console.log("GET " + url);
+	//console.log("GET " + url);
 
 	fetch(url)
 		.then(response => {

@@ -7,7 +7,7 @@ async function load_portada_equipo(cod_equipo, addHistory = true) {
 
 	var url = remote_url + "?type=getequipo&codequipo=" + cod_equipo;
 
-	console.log("GET " + url);
+	//console.log("GET " + url);
 	await fetch(url)
 		.then(response => {
 			if (!response.ok) {
@@ -213,7 +213,7 @@ function show_portada_data(title, id_tabla, item, codcompeticion, codgrupo, nomb
 async function load_comparativa(codcompeticion, codgrupo, equipo1, equipo2, nombre_equipo) {
 	var url = remote_url + "?type=getcomparativa&codcompeticion=" + codcompeticion + "&codgrupo=" + codgrupo + "&equipo1=" + equipo1 + "&equipo2=" + equipo2;
 
-	console.log("GET " + url);
+	//console.log("GET " + url);
 	await fetch(url)
 		.then(response => {
 			if (!response.ok) {

@@ -1,13 +1,13 @@
 async function load_equipo(cod_equipo, addHistory = true) {
 	displayLoading();
-	setCookie('paginaRFGF', 'partidos', 30)
+	setCookie('paginaRFGF', 'xornadas', 30)
 	setCookie('cod_equipo', cod_equipo, 30)
 	if (addHistory)
-		history.pushState(null, "", '#partidos/' + cod_equipo);
+		history.pushState(null, "", '#xornadas/' + cod_equipo);
 
 	var url = remote_url + "?type=getequipo&codequipo=" + cod_equipo;
 
-	console.log("GET " + url);
+	//console.log("GET " + url);
 	await fetch(url)
 		.then(response => {
 			if (!response.ok) {
@@ -20,7 +20,7 @@ async function load_equipo(cod_equipo, addHistory = true) {
 				show_error(data);
 				$('#results').html('');
 				add_back();
-				show_partidos(data.data, cod_equipo);
+				show_xornadas(data.data, cod_equipo);
 				add_back();
 			} else {
 				throw new Error('No data found in response');
@@ -42,7 +42,7 @@ async function load_clasificacion(cod_grupo, cod_equipo, addHistory = true) {
 
 	var url = remote_url + "?type=getclasificacion&codgrupo=" + cod_grupo;
 
-	console.log("GET " + url);
+	//console.log("GET " + url);
 	await fetch(url)
 		.then(response => {
 			if (!response.ok) {
@@ -78,7 +78,7 @@ async function load_goleadores(codcompeticion, codgrupo, cod_equipo, addHistory 
 
 	var url = remote_url + "?type=getgoleadores&codcompeticion=" + codcompeticion + "&codgrupo=" + codgrupo;
 
-	console.log("GET " + url);
+	//console.log("GET " + url);
 	await fetch(url)
 		.then(response => {
 			if (!response.ok) {
@@ -238,7 +238,7 @@ function show_clasificacion(data, cod_grupo, cod_equipo) {
 	$('#results').append('</tr> </tbody></table>');
 }
 
-function show_partidos(data, cod_equipo) {
+function show_xornadas(data, cod_equipo) {
 	lineas = 0;
 	$('#results').append('<br>');
 	jQuery.each(data.competiciones_equipo, function (index, item) {
@@ -247,7 +247,7 @@ function show_partidos(data, cod_equipo) {
 			$('#results').append('<br><hr>');
 
 		$('#results').append(data.nombre_equipo + ' - <b>' + item.competicion + '</b><br>');
-		crea_botons('partidos', data.codigo_equipo, item.cod_grupo, item.cod_competicion);
+		crea_botons('xornadas', data.codigo_equipo, item.cod_grupo, item.cod_competicion);
 
 		$('#results').append('<table class="partidos" >');
 		$('#results').append('<tr>'

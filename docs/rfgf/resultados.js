@@ -8,7 +8,7 @@ async function load_resultados(cod_grupo, cod_equipo, jornada, addHistory = true
 
 	var url = remote_url + "?type=getresultados&codgrupo=" + cod_grupo + '&jornada=' + jornada;
 
-	console.log("GET " + url);
+	//console.log("GET " + url);
 	await fetch(url)
 		.then(response => {
 			if (!response.ok) {

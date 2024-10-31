@@ -3,7 +3,7 @@ async function load_portada_equipo(cod_equipo, addHistory = true) {
 	setCookie('paginaRFGF', 'portada', 30)
 	setCookie('cod_equipo', cod_equipo, 30)
 	if (addHistory)
-		history.pushState(null, "", '#paginaRFGF=portada&cod_equipo=' + cod_equipo);
+		history.pushState(null, "", '#portada/' + cod_equipo);
 
 	var url = remote_url + "?type=getequipo&codequipo=" + cod_equipo;
 

@@ -16,7 +16,7 @@ async function load_calendario(addHistory = true) {
 	displayLoading();
 	setCookie('paginaRFGF', 'calendario', 30)
 	if (addHistory)
-		history.pushState(null, "Calendario", '#paginaRFGF=calendario');
+		history.pushState(null, "Calendario", '#calendario');
 
 	calendario = getCookieArray('calendarioItems');
 	if (calendario.length <= 0) {

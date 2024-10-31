@@ -4,7 +4,7 @@ async function load_favoritos(addHistory = true) {
 	displayLoading();
 	setCookie('paginaRFGF', 'favoritos', 30)
 	if (addHistory)
-		history.pushState(null, "", '#paginaRFGF=favoritos');
+		history.pushState(null, "", '#favoritos');
 
 	favoritos = getCookieArray('favoritosItems');
 	if (favoritos.length <= 0) {

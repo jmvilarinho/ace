@@ -3,7 +3,7 @@ async function load_equipo(cod_equipo, addHistory = true) {
 	setCookie('paginaRFGF', 'partidos', 30)
 	setCookie('cod_equipo', cod_equipo, 30)
 	if (addHistory)
-		history.pushState(null, "", '#paginaRFGF=partidos&cod_equipo=' + cod_equipo);
+		history.pushState(null, "", '#partidos/' + cod_equipo);
 
 	var url = remote_url + "?type=getequipo&codequipo=" + cod_equipo;
 
@@ -38,7 +38,7 @@ async function load_clasificacion(cod_grupo, cod_equipo, addHistory = true) {
 	setCookie('cod_equipo', cod_equipo, 30)
 	setCookie('cod_grupo', cod_grupo, 30)
 	if (addHistory)
-		history.pushState(null, "", '#paginaRFGF=clasificacion&cod_equipo=' + cod_equipo + '&cod_grupo=' + cod_grupo);
+		history.pushState(null, "", '#clasificacion/' + cod_equipo + '/' + cod_grupo);
 
 	var url = remote_url + "?type=getclasificacion&codgrupo=" + cod_grupo;
 
@@ -74,7 +74,7 @@ async function load_goleadores(codcompeticion, codgrupo, cod_equipo, addHistory 
 	setCookie('cod_grupo', codgrupo, 30)
 	setCookie('cod_competicion', codcompeticion, 30)
 	if (addHistory)
-		history.pushState(null, "", '#paginaRFGF=goleadores&cod_equipo=' + cod_equipo + '&cod_grupo=' + codgrupo + '&cod_competicion=' + codcompeticion);
+		history.pushState(null, "", '#goleadores/' + cod_equipo + '/' + codgrupo + '/' + codcompeticion);
 
 	var url = remote_url + "?type=getgoleadores&codcompeticion=" + codcompeticion + "&codgrupo=" + codgrupo;
 

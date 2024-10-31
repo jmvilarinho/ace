@@ -4,7 +4,7 @@ async function load_resultados(cod_grupo, cod_equipo, jornada, addHistory = true
 	setCookie('cod_equipo', cod_equipo, 30)
 	setCookie('cod_grupo', cod_grupo, 30)
 	if (addHistory)
-		history.pushState(null, "", '#paginaRFGF=resultados&cod_equipo=' + cod_equipo + '&cod_grupo=' + cod_grupo);
+		history.pushState(null, "", '#resultados/' + cod_equipo + '/' + cod_grupo);
 
 	var url = remote_url + "?type=getresultados&codgrupo=" + cod_grupo + '&jornada=' + jornada;
 
@@ -40,11 +40,11 @@ function show_resultados(data, codgrupo, cod_equipo) {
 
 	j = parseInt(data.jornada);
 	if ((j - 1) > 0) {
-		back = "<a href=\"javascript:load_resultados('" + codgrupo + "','" + cod_equipo + "','" + (j - 1) + "')\"><img class=\"escudo_widget\" src=../img/back.png></a>&nbsp;&nbsp;&nbsp;";
+		back = "<a href=\"javascript:load_resultados('" + codgrupo + "','" + cod_equipo + "','" + (j - 1) + "',false)\"><img class=\"escudo_widget\" src=../img/back.png></a>&nbsp;&nbsp;&nbsp;";
 	} else {
 		back = '';
 	}
-	forward = "&nbsp;&nbsp;&nbsp;<a href=\"javascript:load_resultados('" + codgrupo + "','" + cod_equipo + "','" + (j + 1) + "')\"><img class=\"escudo_widget\" src=../img/forward.png></a>";
+	forward = "&nbsp;&nbsp;&nbsp;<a href=\"javascript:load_resultados('" + codgrupo + "','" + cod_equipo + "','" + (j + 1) + "',false)\"><img class=\"escudo_widget\" src=../img/forward.png></a>";
 
 	$('#results').append('<table border >');
 	$('#results').append(

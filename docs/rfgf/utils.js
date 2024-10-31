@@ -3,8 +3,25 @@ function update_vista(url = '') {
 
 	if (url == '')
 		url = window.location.href;
-	var myUrl = new URL(url.replace(/#/g, "?"));
-	var searchHashParams = new URLSearchParams(myUrl.searchParams);
+
+	const myArray = url.split("#");
+
+	if (myArray.length >= 2) {
+		const myArrayValues = myArray[1].split("/");
+		pagina = myArrayValues[0];
+		cod_equipo = myArrayValues[1];
+		cod_grupo = myArrayValues[2];
+		cod_competicion = myArrayValues[3];
+	}
+
+	if (typeof (pagina) == "undefined")
+		pagina = getCookie('pagina');
+	if (typeof (cod_equipo) == "undefined")
+		cod_equipo = getCookie('cod_equipo');
+	if (typeof (cod_grupo) == "undefined")
+		cod_grupo = getCookie('cod_grupo');
+	if (typeof (cod_competicion) == "undefined")
+		cod_competicion = getCookie('cod_competicion');
 
 	if (searchParams.has('cod_equipo')) {
 		load_equipo(searchParams.get('cod_equipo'))
@@ -12,21 +29,6 @@ function update_vista(url = '') {
 	else if (searchParams.has('cod_grupo')) {
 		load_clasificacion(searchParams.get('cod_grupo'))
 	} else {
-		var pagina = getCookie('paginaRFGF');
-		if (searchHashParams.has('paginaRFGF'))
-			pagina = searchHashParams.get('paginaRFGF');
-
-		var cod_equipo = getCookie('cod_equipo');
-		if (searchHashParams.has('cod_equipo'))
-			cod_equipo = searchHashParams.get('cod_equipo');
-
-		var cod_grupo = getCookie('cod_grupo');
-		if (searchHashParams.has('cod_grupo'))
-			cod_grupo = searchHashParams.get('cod_grupo');
-
-		var cod_competicion = getCookie('cod_competicion');
-		if (searchHashParams.has('cod_competicion'))
-			cod_competicion = searchHashParams.get('cod_competicion');
 
 		if (pagina) {
 			switch (pagina) {

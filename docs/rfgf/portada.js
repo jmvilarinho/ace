@@ -107,7 +107,13 @@ function dia_semana(fecha) {
 	var pattern = /(\d{2})\-(\d{2})\-(\d{4})/;
 	var dt = new Date(fecha.replace(pattern, '$3-$2-$1 12:00'));
 	days = ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'];
+	return days[dt.getDay()]; // "Friday"
+}
 
+function dia_semana_sp(fecha) {
+	var pattern = /(\d{2})\/(\d{2})\/(\d{4})/;
+	var dt = new Date(fecha.replace(pattern, '$3-$2-$1 12:00'));
+	days = ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'];
 	return days[dt.getDay()]; // "Friday"
 }
 

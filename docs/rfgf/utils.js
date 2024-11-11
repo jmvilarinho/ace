@@ -5,13 +5,14 @@ function update_vista(url = '') {
 		url = window.location.href;
 
 	const myArray = url.split("#");
-
 	if (myArray.length >= 2) {
 		const myArrayValues = myArray[1].split("/");
 		pagina = myArrayValues[0];
 		cod_equipo = myArrayValues[1];
 		cod_grupo = myArrayValues[2];
 		cod_competicion = myArrayValues[3];
+		cod_club = myArrayValues[4];
+		cod_campo = myArrayValues[5];
 	}
 
 	if (typeof (pagina) == "undefined")
@@ -22,6 +23,10 @@ function update_vista(url = '') {
 		cod_grupo = getCookie('cod_grupo');
 	if (typeof (cod_competicion) == "undefined")
 		cod_competicion = getCookie('cod_competicion');
+	if (typeof (cod_club) == "undefined")
+		cod_club = getCookie('cod_club');
+	if (typeof (cod_campo) == "undefined")
+		cod_campo = getCookie('cod_campo');
 
 	if (searchParams.has('cod_equipo')) {
 		load_equipo(searchParams.get('cod_equipo'))
@@ -47,13 +52,17 @@ function update_vista(url = '') {
 				case 'clasificacion':
 					load_clasificacion(cod_grupo, cod_equipo, false);
 					break;
-
 				case 'resultados':
 					load_resultados(cod_grupo, cod_equipo, '', false);
 					break;
-
 				case 'goleadores':
 					load_goleadores(cod_competicion, cod_grupo, cod_equipo, false);
+					break;
+				case 'club':
+					load_club(cod_club, false);
+					break;
+				case 'campo':
+					load_campo(cod_campo, false);
 					break;
 				default:
 					load_favoritos(false);
@@ -151,10 +160,26 @@ function getEquipoDuracion(cod_equipo) {
 	return 90;
 }
 
+function getClubName(cod_club, defaultName) {
+	var arrayLength = clubs.length;
+	for (var i = 0; i < arrayLength; i++) {
+		if (clubs[i].id == cod_club)
+			return clubs[i].name;
+	}
+	if (typeof (defaultName) !== "undefined" && defaultName !== null && defaultName != "")
+		return defaultName;
+	else
+		return 'undef';
+}
+
 
 /* Set the width of the side navigation to 250px */
 function openNav() {
 	document.getElementById("mySidenav").style.width = "270px";
+}
+
+function openNav2() {
+	document.getElementById("mySidenav2").style.width = "270px";
 }
 
 /* Set the width of the side navigation to 0 */
@@ -162,6 +187,12 @@ function closeNav(id = '0') {
 	if (id != '0')
 		load_portada_equipo(id);
 	document.getElementById("mySidenav").style.width = "0";
+}
+/* Set the width of the side navigation to 0 */
+function closeNav2(id = '0') {
+	if (id != '0')
+		load_club(id);
+	document.getElementById("mySidenav2").style.width = "0";
 }
 
 function getWeekNumber(date) {
@@ -256,6 +287,15 @@ function getTimestamp(timestamp) {
 function add_back(pagina) {
 	if (!pagina)
 		pagina = '';
+
+	var boton_club = $('<input/>').attr({
+		type: "button",
+		class: (pagina == 'clubs') ? 'none' : "back_button",
+		id: "field",
+		value: 'Clubs',
+		onclick: "openNav2()"
+	});
+	$('#results').append(boton_club);
 
 	var boton_menu = $('<input/>').attr({
 		type: "button",

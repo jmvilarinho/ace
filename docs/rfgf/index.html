@@ -23,6 +23,16 @@
       { id: 172, name: 'Victoria Infantil', color: '#247475', duracion_min: 90 },
       { id: 11292338, name: 'Ural Juvenil B', color: '#32288a', duracion_min: 95 },
     ]
+    clubs = [
+    { id: 5240062, name: 'Jogafan FS'},
+    { id: 1065, name: 'Ordenes'},
+    { id: 1779, name: 'Oroso'},
+    { id: 1373, name: 'Abellá'},
+    { id: 1370, name: 'Montaos'},
+
+
+
+    ]
     // https://tutorialehtml.com/es/tabla-de-colores-html/
     // https://www.w3schools.com/colors/colors_picker.asp
 
@@ -37,12 +47,14 @@
   <script src="event-calendar.min.js"></script>
   <link rel="stylesheet" type="text/css" href="index.css?nocache=53" />
   <script type="text/javascript" src="jquery-3.7.1.min.js"></script>
-  <script type="text/javascript" src="utils.js?nocache=53"></script>
-  <script type="text/javascript" src="index.js?nocache=53"></script>
-  <script type="text/javascript" src="portada.js?nocache=53"></script>
-  <script type="text/javascript" src="favoritos.js?nocache=53"></script>
-  <script type="text/javascript" src="calendario.js?nocache=53"></script>
-  <script type="text/javascript" src="resultados.js?nocache=53"></script>
+  <script type="text/javascript" src="utils.js?nocache=54"></script>
+  <script type="text/javascript" src="index.js?nocache=54"></script>
+  <script type="text/javascript" src="portada.js?nocache=54"></script>
+  <script type="text/javascript" src="club.js?nocache=54"></script>
+  <script type="text/javascript" src="campo.js?nocache=54"></script>
+  <script type="text/javascript" src="favoritos.js?nocache=54"></script>
+  <script type="text/javascript" src="calendario.js?nocache=54"></script>
+  <script type="text/javascript" src="resultados.js?nocache=54"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
@@ -54,6 +66,9 @@
 <body style="background-color:#598381; margin:4px; padding:4px">
   <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  </div>
+  <div id="mySidenav2" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav2()">&times;</a>
   </div>
   <div id="spinner-div" class="pt-5">
     <div id="loading" class="float_center"></div>
@@ -67,6 +82,10 @@
     var arrayLength = equipos.length;
     for (var i = 0; i < arrayLength; i++) {
       $('#mySidenav').append('<a href="javascript:closeNav(\'' + equipos[i].id + '\')">' + equipos[i].name + '</a>');
+    }
+    var arrayLength = clubs.length;
+    for (var i = 0; i < arrayLength; i++) {
+      $('#mySidenav2').append('<a href="javascript:closeNav2(\'' + clubs[i].id + '\')">' + clubs[i].name + '</a>');
     }
 
     window.onpopstate = (event) => {

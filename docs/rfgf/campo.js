@@ -88,6 +88,31 @@ function show_campo(data, cod_campo, current_date) {
 		+ '</table><br>');
 
 
+		var dictionary = {};
+		jQuery.each(data.partidos, function (index, item) {
+			if (item.escudo_equipo_local.trim() != '') {
+				if (dictionary[item.escudo_equipo_local] > 0)
+					dictionary[item.escudo_equipo_local] += 1;
+				else
+					dictionary[item.escudo_equipo_local] = 1;
+			}
+			if (item.escudo_equipo_visitante.trim() != '') {
+				if (dictionary[item.escudo_equipo_visitante] > 0)
+					dictionary[item.escudo_equipo_visitante] += 1;
+				else
+					dictionary[item.escudo_equipo_visitante] = 1;
+			}
+		});
+		local = 'none';
+		max = 0;
+		for (var i in dictionary) {
+			value = dictionary[i];
+			if (value > max) {
+				max = value;
+				local = i;
+			}
+		}
+
 
 	lineas = 0;
 	$('#results').append('<br>');
@@ -109,7 +134,7 @@ function show_campo(data, cod_campo, current_date) {
 			hora += ' 23:55'
 		var date_obj = new Date(hora.replace(pattern, '$3-$2-$1 $4:$5'));
 
-		table = show_partido(title, item, date_obj.getTime())
+		table = show_partido(title, item, date_obj.getTime(),local)
 		$('#campo_tabla').append(table);
 	});
 
@@ -140,7 +165,7 @@ function show_campo(data, cod_campo, current_date) {
 
 }
 
-function show_partido(title, item, id) {
+function show_partido(title, item, id,local) {
 
 	if (item.hora) {
 		hora = ' - ' + item.hora;
@@ -153,13 +178,25 @@ function show_partido(title, item, id) {
 
 	title = '<a href="https://maps.google.com?q=' + encodeURIComponent(title) + '" target="_blank">' + title + '</a> <img src="../img/dot.png" height="15px">';
 
+	if (item.equipo_local.trim() != '') {
+		casa = '<a href="javascript:load_portada_equipo(\'' + item.codigo_equipo_local + '\')">' + item.equipo_local + '</a>';
+		casa = '<img src="https://www.futgal.es' + item.escudo_equipo_local + '" align="absmiddle" class="escudo_logo_medio">&nbsp;&nbsp;' + casa + '&nbsp;';
+	} else {
+		casa = 'Descansa';
+		campo = '';
+	}
 
-	casa = '<a href="javascript:load_portada_equipo(\'' + item.codigo_equipo_local	 + '\')">' + item.equipo_local + '</a>';
-	casa = '<img src="https://www.futgal.es' + item.escudo_equipo_local + '" align="absmiddle" class="escudo_logo_medio">&nbsp;&nbsp;' + casa + '&nbsp;';
+	if (item.equipo_visitante.trim() != '') {
+		fuera = '<a href="javascript:load_portada_equipo(\'' + item.codigo_equipo_visitante + '\')">' + item.equipo_visitante + '</a>';
+		fuera = '<img src="https://www.futgal.es' + item.escudo_equipo_visitante + '" align="absmiddle" class="escudo_logo_medio">&nbsp;&nbsp;' + fuera + '&nbsp;';
+	} else {
+		casa = 'Descansa';
+		campo = '';
+	}
 
-	fuera = '<a href="javascript:load_portada_equipo(\'' + item.codigo_equipo_visitante	 + '\')">' + item.equipo_visitante + '</a>';
-	fuera = '<img src="https://www.futgal.es' + item.escudo_equipo_visitante + '" align="absmiddle" class="escudo_logo_medio">&nbsp;&nbsp;' + fuera + '&nbsp;';
 
+
+	color_resultado = 'white';
 	if (item.goles_casa == "" && item.goles_visitante == "") {
 		datos = '<tr>'
 			+ '<td bgcolor="white" colspan=2>' + casa + '</td>'
@@ -169,6 +206,21 @@ function show_partido(title, item, id) {
 			+ '</tr>';
 
 	} else {
+		if (item.escudo_equipo_local == local) {
+			if (Number(item.goles_casa) > Number(item.goles_visitante))
+				color_resultado = "#04B431";
+			else if (Number(item.goles_casa) < Number(item.goles_visitante))
+				color_resultado = "#F78181";
+			else
+				color_resultado = "#D7DF01";
+		} else if (item.escudo_equipo_visitante == local) {
+			if (Number(item.goles_visitante) > Number(item.goles_casa))
+				color_resultado = "#04B431";
+			else if (Number(item.goles_visitante) < Number(item.goles_casa))
+				color_resultado = "#F78181";
+			else
+				color_resultado = "#D7DF01";
+		}
 
 		if (item.partido_en_juego == '1')
 			xogo = '<br>(en xogo)';
@@ -177,11 +229,11 @@ function show_partido(title, item, id) {
 
 		datos = '<tr>'
 			+ '<td bgcolor="white">' + casa + '</td>'
-			+ '<td bgcolor="white" align="center">&nbsp;' + item.goles_casa + '&nbsp;' + xogo + '</td>'
+			+ '<td style="background-color:' + color_resultado + ';" align="center">&nbsp;' + item.goles_casa + '&nbsp;' + xogo + '</td>'
 			+ '</tr>'
 			+ '<tr>'
 			+ '<td bgcolor="white">' + fuera + '</td>'
-			+ '<td bgcolor="white" align="center">&nbsp;' + item.goles_visitante + '&nbsp;' + xogo + '</td>'
+			+ '<td style="background-color:' + color_resultado + ';" align="center">&nbsp;' + item.goles_visitante + '&nbsp;' + xogo + '</td>'
 			+ '</tr>';
 	}
 

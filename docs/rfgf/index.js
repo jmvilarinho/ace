@@ -266,9 +266,10 @@ function show_xornadas(data, cod_equipo) {
 			background = getBackgroundColor(cont, (isSameWeek(dt, new Date(Date.now()))));
 			cont += 1
 
-			if (item.hora)
+			if (item.hora){
 				hora = ' - ' + item.hora;
-			else
+				hora += ' (' + dia_semana(item.fecha) + ')';
+			} else
 				hora = '';
 
 			if (item.codequipo_casa == cod_equipo || item.equipo_casa == 'Descansa') {

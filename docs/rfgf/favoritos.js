@@ -177,11 +177,11 @@ function show_portada_data_favoritos(title, item, id) {
 		dia_str = item.fecha.replace(/-/g, "/");
 		id = "33284008833000";
 	} else {
-		if (item.hora)
-			hora = ' - ' + item.hora;
-		else
-			hora = ' ???';
-		dia_str = item.fecha.replace(/-/g, "/") + hora + ' (' + dia_semana(item.fecha) + ')';
+		if (item.hora) {
+			dia_str = item.fecha.replace(/-/g, "/") + ' - ' + item.hora + ' (' + dia_semana(item.fecha) + ')';
+		} else {
+			dia_str = item.fecha.replace(/-/g, "/") + ' ???';
+		}
 
 		//campo = '<a href="https://waze.com/ul?q=' + encodeURIComponent(item.campo) + '&navigate=yes" target="_blank">' + item.campo + '</a> <img src="../img/waze.png" height="15px">';
 		//campo = '<a href="https://www.google.com/maps/dir/?api=1&destination=' + encodeURIComponent(item.campo) + '" target="_blank">' + item.campo + '</a> <img src="../img/dot.png" height="15px">';

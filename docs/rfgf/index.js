@@ -268,9 +268,14 @@ function show_xornadas(data, cod_equipo) {
 
 			if (item.hora){
 				hora = ' - ' + item.hora;
-				hora += ' (' + dia_semana(item.fecha) + ')';
-			} else
+				hora2=hora;
+				if (item.codequipo_casa == cod_equipo && item.equipo_casa != 'Descansa')
+					hora2 += ' (' + dia_semana(item.fecha) + ')';
+			} else {
 				hora = '';
+				hora2=hora;
+			}
+
 
 			if (item.codequipo_casa == cod_equipo || item.equipo_casa == 'Descansa') {
 				casa = item.equipo_casa;
@@ -332,7 +337,7 @@ function show_xornadas(data, cod_equipo) {
 				+ '<td style="background-color:' + background + ';" align="right" >' + casa + '</td>'
 				+ '<td style="background-color:' + color_resultado + ';" align="center" >' + item.goles_casa + ' - ' + item.goles_fuera + xogo + '</td>'
 				+ '<td style="background-color:' + background + ';" align="left" >' + fuera + '</td>'
-				+ '<td style="background-color:' + background + ';" >' + item.fecha.replace(/-/g, "/") + hora + '</td>'
+				+ '<td style="background-color:' + background + ';" >' + item.fecha.replace(/-/g, "/") + hora2 + '</td>'
 				+ '<td style="background-color:' + background + ';" >' + campo + '</td>'
 				+ '</tr>');
 		});

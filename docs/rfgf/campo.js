@@ -76,14 +76,22 @@ function show_campo(data, cod_campo, current_date) {
 	week_before =  current_date - (7 * 1000 * 3600 * 24);
 	week_after = current_date.addDays(7);
 
+	campo='';
+	if (data.partidos.length ) {
+		campo = '<tr><th colspan=3  align="absmiddle">'
+		+'<a href="https://maps.google.com?q=' + encodeURIComponent(data.partidos[0].campo) + '" target="_blank">' + data.partidos[0].campo + '</a> <img src="../img/dot.png" height="15px">'
+		+'</th></tr>';
+	}
+
 
 	back = "<a href=\"javascript:load_campo('" + cod_campo + "','" + week_before + "',false)\"><img class=\"escudo_widget\" src=../img/back.png></a>&nbsp;&nbsp;&nbsp;";
 	forward = "&nbsp;&nbsp;&nbsp;<a href=\"javascript:load_campo('" + cod_campo + "','" + week_after + "',false)\"><img class=\"escudo_widget\" src=../img/forward.png></a>";
 	$('#campo_tabla').append('<table id="0" class="favoritos">'
+		+campo
 		+ '<tr>'
-		+ '<th align="absmiddle">' + back + '</th>'
-		+ '<th align="absmiddle">Semán do ' + firstEvent_str + ' ó ' + lastEvent_str + '</th>'
-		+ '<th align="absmiddle">' + forward + '</th>'
+		+ '<td align="absmiddle">' + back + '</td>'
+		+ '<td align="absmiddle">Semán do ' + firstEvent_str + ' ó ' + lastEvent_str + '</td>'
+		+ '<td align="absmiddle">' + forward + '</td>'
 		+ '</tr>'
 		+ '</table><br>');
 
@@ -124,8 +132,6 @@ function show_campo(data, cod_campo, current_date) {
 		background = getBackgroundColor(cont, (isSameWeek(dt, new Date(Date.now()))));
 		cont += 1
 
-		title = item.campo;
-
 		var pattern = /(\d{2})\/(\d{2})\/(\d{4}) (\d{2})\:(\d{2})/;
 		hora = item.fecha;
 		if (item.hora)
@@ -134,7 +140,7 @@ function show_campo(data, cod_campo, current_date) {
 			hora += ' 23:55'
 		var date_obj = new Date(hora.replace(pattern, '$3-$2-$1 $4:$5'));
 
-		table = show_partido(title, item, date_obj.getTime(),local)
+		table = show_partido( item, date_obj.getTime(),local)
 		$('#campo_tabla').append(table);
 	});
 
@@ -165,7 +171,7 @@ function show_campo(data, cod_campo, current_date) {
 
 }
 
-function show_partido(title, item, id,local) {
+function show_partido( item, id,local) {
 
 	if (item.hora) {
 		hora = ' - ' + item.hora;
@@ -175,8 +181,6 @@ function show_partido(title, item, id,local) {
 		hora = ' ???';
 		dia_str = item.fecha.replace(/-/g, "/") + hora;
 	}
-
-	title = '<a href="https://maps.google.com?q=' + encodeURIComponent(title) + '" target="_blank">' + title + '</a> <img src="../img/dot.png" height="15px">';
 
 	if (item.equipo_local.trim() != '') {
 		casa = '<a href="javascript:load_portada_equipo(\'' + item.codigo_equipo_local + '\')">' + item.equipo_local + '</a>';
@@ -238,9 +242,6 @@ function show_partido(title, item, id,local) {
 	}
 
 	return '<table id="' + id + '" class="favoritos">'
-		+ '<tr>'
-		+ '<th colspan=2  align="absmiddle">' + title + '</th>'
-		+ '</tr>'
 		+ '<tr>'
 		+ '<td bgcolor="#e8e5e4" colspan=2><b>Data:</b>&nbsp;' + dia_str + '</td>'
 		+ '</tr>'

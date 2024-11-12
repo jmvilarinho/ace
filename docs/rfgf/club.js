@@ -81,12 +81,12 @@ function show_club(data, cod_club, current_date) {
 	forward = "&nbsp;&nbsp;&nbsp;<a href=\"javascript:load_club('" + cod_club + "','" + week_after + "',false)\"><img class=\"escudo_widget\" src=../img/forward.png></a>";
 	$('#club_tabla').append('<table id="0" class="favoritos">'
 		+ '<tr>'
-		+ '<th align="absmiddle">' + back + '</th>'
-		+ '<th align="absmiddle">' + club_name + '</th>'
-		+ '<th align="absmiddle">' + forward + '</th>'
+		+ '<th colspan=3 align="absmiddle">' + club_name + '</th>'
 		+ '</tr>'
 		+ '<tr>'
-		+ '<th colspan=3  align="absmiddle">Semán do ' + firstEvent_str + ' ó ' + lastEvent_str + '</th>'
+		+ '<td align="absmiddle">' + back + '</td>'
+		+ '<td   align="absmiddle">Semán do ' + firstEvent_str + ' ó ' + lastEvent_str + '</td>'
+		+ '<td align="absmiddle">' + forward + '</td>'
 		+ '</tr>'
 		+ '</table><br>');
 

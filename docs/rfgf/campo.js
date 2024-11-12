@@ -57,10 +57,10 @@ async function load_campo(cod_campo, timestamp = '', addHistory = true) {
 	hideLoading();
 }
 
-Date.prototype.addDays = function(days) {
-    var date = new Date(this.valueOf());
-    date.setDate(date.getDate() + days);
-    return  date.getTime();
+Date.prototype.addDays = function (days) {
+	var date = new Date(this.valueOf());
+	date.setDate(date.getDate() + days);
+	return date.getTime();
 }
 
 
@@ -71,23 +71,23 @@ function show_campo(data, cod_campo, current_date) {
 	lastEvent = getSunday(current_date);
 	var pattern = /(\d{4})\-(\d{2})\-(\d{2})/;
 	firstEvent_str = firstEvent.replace(pattern, '$3/$2/$1');
-	lastEvent_str = lastEvent.replace(pattern,  '$3/$2/$1');
+	lastEvent_str = lastEvent.replace(pattern, '$3/$2/$1');
 
-	week_before =  current_date - (7 * 1000 * 3600 * 24);
+	week_before = current_date - (7 * 1000 * 3600 * 24);
 	week_after = current_date.addDays(7);
 
-	campo='';
-	if (data.partidos.length ) {
+	campo = '';
+	if (data.partidos.length) {
 		campo = '<tr><th colspan=3  align="absmiddle">'
-		+'<a href="https://maps.google.com?q=' + encodeURIComponent(data.partidos[0].campo) + '" target="_blank">' + data.partidos[0].campo + '</a> <img src="../img/dot.png" height="15px">'
-		+'</th></tr>';
+			+ '<a href="https://maps.google.com?q=' + encodeURIComponent(data.partidos[0].campo) + '" target="_blank">' + data.partidos[0].campo + '</a> <img src="../img/dot.png" height="15px">'
+			+ '</th></tr>';
 	}
 
 
 	back = "<a href=\"javascript:load_campo('" + cod_campo + "','" + week_before + "',false)\"><img class=\"escudo_widget\" src=../img/back.png></a>&nbsp;&nbsp;&nbsp;";
 	forward = "&nbsp;&nbsp;&nbsp;<a href=\"javascript:load_campo('" + cod_campo + "','" + week_after + "',false)\"><img class=\"escudo_widget\" src=../img/forward.png></a>";
 	$('#campo_tabla').append('<table id="0" class="favoritos">'
-		+campo
+		+ campo
 		+ '<tr>'
 		+ '<td align="absmiddle">' + back + '</td>'
 		+ '<td align="absmiddle">Semán do ' + firstEvent_str + ' ó ' + lastEvent_str + '</td>'
@@ -96,30 +96,30 @@ function show_campo(data, cod_campo, current_date) {
 		+ '</table><br>');
 
 
-		var dictionary = {};
-		jQuery.each(data.partidos, function (index, item) {
-			if (item.escudo_equipo_local.trim() != '') {
-				if (dictionary[item.escudo_equipo_local] > 0)
-					dictionary[item.escudo_equipo_local] += 1;
-				else
-					dictionary[item.escudo_equipo_local] = 1;
-			}
-			if (item.escudo_equipo_visitante.trim() != '') {
-				if (dictionary[item.escudo_equipo_visitante] > 0)
-					dictionary[item.escudo_equipo_visitante] += 1;
-				else
-					dictionary[item.escudo_equipo_visitante] = 1;
-			}
-		});
-		local = 'none';
-		max = 0;
-		for (var i in dictionary) {
-			value = dictionary[i];
-			if (value > max) {
-				max = value;
-				local = i;
-			}
+	var dictionary = {};
+	jQuery.each(data.partidos, function (index, item) {
+		if (item.escudo_equipo_local.trim() != '') {
+			if (dictionary[item.escudo_equipo_local] > 0)
+				dictionary[item.escudo_equipo_local] += 1;
+			else
+				dictionary[item.escudo_equipo_local] = 1;
 		}
+		if (item.escudo_equipo_visitante.trim() != '') {
+			if (dictionary[item.escudo_equipo_visitante] > 0)
+				dictionary[item.escudo_equipo_visitante] += 1;
+			else
+				dictionary[item.escudo_equipo_visitante] = 1;
+		}
+	});
+	local = 'none';
+	max = 0;
+	for (var i in dictionary) {
+		value = dictionary[i];
+		if (value > max) {
+			max = value;
+			local = i;
+		}
+	}
 
 
 	lineas = 0;
@@ -140,7 +140,7 @@ function show_campo(data, cod_campo, current_date) {
 			hora += ' 23:55'
 		var date_obj = new Date(hora.replace(pattern, '$3-$2-$1 $4:$5'));
 
-		table = show_partido( item, date_obj.getTime(),local)
+		table = show_partido(item, date_obj.getTime(), local)
 		$('#campo_tabla').append(table);
 	});
 
@@ -171,7 +171,7 @@ function show_campo(data, cod_campo, current_date) {
 
 }
 
-function show_partido( item, id,local) {
+function show_partido(item, id, local) {
 
 	if (item.hora) {
 		hora = ' - ' + item.hora;
@@ -243,10 +243,10 @@ function show_partido( item, id,local) {
 
 	return '<table id="' + id + '" class="favoritos">'
 		+ '<tr>'
-		+ '<td bgcolor="#e8e5e4" colspan=2><b>Data:</b>&nbsp;' + dia_str + '</td>'
+		+ '<th colspan=2>' + item.competicion + ' - ' + item.grupo + '</th>'
 		+ '</tr>'
 		+ '<tr>'
-		+ '<td bgcolor="#e8e5e4" colspan=2><b>Competición:</b>&nbsp;' + item.competicion + ' - ' + item.grupo + '</td>'
+		+ '<td bgcolor="#e8e5e4" colspan=2><b>Data:</b>&nbsp;' + dia_str + '</td>'
 		+ '</tr>'
 		+ datos
 		+ '<tr>'

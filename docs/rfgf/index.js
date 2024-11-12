@@ -6,7 +6,6 @@ async function load_equipo(cod_equipo, addHistory = true) {
 		history.pushState(null, "", '#xornadas/' + cod_equipo);
 
 	var url = remote_url + "?type=getequipo&codequipo=" + cod_equipo;
-
 	//console.log("GET " + url);
 	await fetch(url)
 		.then(response => {
@@ -77,7 +76,6 @@ async function load_goleadores(codcompeticion, codgrupo, cod_equipo, addHistory 
 		history.pushState(null, "", '#goleadores/' + cod_equipo + '/' + codgrupo + '/' + codcompeticion);
 
 	var url = remote_url + "?type=getgoleadores&codcompeticion=" + codcompeticion + "&codgrupo=" + codgrupo;
-
 	//console.log("GET " + url);
 	await fetch(url)
 		.then(response => {

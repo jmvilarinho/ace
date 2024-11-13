@@ -241,16 +241,19 @@ function show_partido(item, id, local) {
 			+ '</tr>';
 	}
 
-	return '<table id="' + id + '" class="favoritos">'
-		+ '<tr>'
-		+ '<th colspan=2>' + item.competicion + ' - ' + item.grupo + '</th>'
-		+ '</tr>'
-		+ '<tr>'
-		+ '<td bgcolor="#e8e5e4" colspan=2><b>Data:</b>&nbsp;' + dia_str + '</td>'
-		+ '</tr>'
-		+ datos
-		+ '<tr>'
-		+ '<td class="table_noborder">&nbsp;</td>'
-		+ '</tr>'
-		+ '</table>';
+	if (casa != 'Descansa')
+		return '<table id="' + id + '" class="favoritos">'
+			+ '<tr>'
+			+ '<th colspan=2>' + item.competicion + ' - ' + item.grupo + '</th>'
+			+ '</tr>'
+			+ '<tr>'
+			+ '<td bgcolor="#e8e5e4" colspan=2><b>Data:</b>&nbsp;' + dia_str + '</td>'
+			+ '</tr>'
+			+ datos
+			+ '<tr>'
+			+ '<td class="table_noborder">&nbsp;</td>'
+			+ '</tr>'
+			+ '</table>';
+	else
+		return '';
 }

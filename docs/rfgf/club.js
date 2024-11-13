@@ -193,7 +193,7 @@ function show_partidos_club(title, item, id, local) {
 		fuera = '<a href="javascript:load_portada_equipo(\'' + item.codigo_equipo_visitante + '\')">' + item.equipo_visitante + '</a>';
 		fuera = '<img src="https://www.futgal.es' + item.escudo_equipo_visitante + '" align="absmiddle" class="escudo_logo_medio">&nbsp;&nbsp;' + fuera + '&nbsp;';
 	} else {
-		casa = 'Descansa';
+		fuera = 'Descansa';
 		campo = '';
 	}
 
@@ -239,19 +239,22 @@ function show_partidos_club(title, item, id, local) {
 			+ '</tr>';
 	}
 
-	return '<table id="' + id + '" class="favoritos">'
-		+ '<tr>'
-		+ '<th colspan=2  align="absmiddle">' + title + '</th>'
-		+ '</tr>'
-		+ '<tr>'
-		+ '<td bgcolor="#e8e5e4" colspan=2><b>Data:</b>&nbsp;' + dia_str + '</td>'
-		+ '</tr>'
-		+ '<tr>'
-		+ '<td bgcolor="#e8e5e4" colspan=2><b>Campo:</b>&nbsp;' + campo + '</td>'
-		+ '</tr>'
-		+ datos
-		+ '<tr>'
-		+ '<td class="table_noborder">&nbsp;</td>'
-		+ '</tr>'
-		+ '</table>';
+	if (casa != 'Descansa')
+		return '<table id="' + id + '" class="favoritos">'
+			+ '<tr>'
+			+ '<th colspan=2  align="absmiddle">' + title + '</th>'
+			+ '</tr>'
+			+ '<tr>'
+			+ '<td bgcolor="#e8e5e4" colspan=2><b>Data:</b>&nbsp;' + dia_str + '</td>'
+			+ '</tr>'
+			+ '<tr>'
+			+ '<td bgcolor="#e8e5e4" colspan=2><b>Campo:</b>&nbsp;' + campo + '</td>'
+			+ '</tr>'
+			+ datos
+			+ '<tr>'
+			+ '<td class="table_noborder">&nbsp;</td>'
+			+ '</tr>'
+			+ '</table>';
+	else
+		return '';
 }

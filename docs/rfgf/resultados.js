@@ -100,10 +100,15 @@ function show_resultados(data, codgrupo, cod_equipo) {
 		else
 			hora = '';
 
+		goles_html = item.Goles_casa + ' - ' + item.Goles_visitante + xogo;
+		if (item.codacta != '') {
+			goles_html = '<a href="javascript:load_acta(\'' + item.codacta + '\')">' + goles_html + '</a>';
+		}
+
 		$('#results').append('<tr>'
 			+ '<td style="background-color:' + background + ';" >' + item.fecha.replace(/-/g, "/") + hora + '</td>'
 			+ '<td style="background-color:' + background + ';" align="right" >' + casa + '</td>'
-			+ '<td style="background-color:' + background + ';" align="center" >' + item.Goles_casa + ' - ' + item.Goles_visitante + xogo + '</td>'
+			+ '<td style="background-color:' + background + ';" align="center" >' + goles_html + '</td>'
 			+ '<td style="background-color:' + background + ';" align="left" >' + fuera + '</td>'
 			+ '</tr>');
 	});

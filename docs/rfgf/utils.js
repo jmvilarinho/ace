@@ -13,6 +13,7 @@ function update_vista(url = '') {
 		cod_competicion = myArrayValues[3];
 		cod_club = myArrayValues[4];
 		cod_campo = myArrayValues[5];
+		cod_acta = myArrayValues[6];
 	}
 
 	if (typeof (pagina) == "undefined")
@@ -27,6 +28,8 @@ function update_vista(url = '') {
 		cod_club = getCookie('cod_club');
 	if (typeof (cod_campo) == "undefined")
 		cod_campo = getCookie('cod_campo');
+	if (typeof (cod_acta) == "undefined")
+		cod_acta = getCookie('cod_acta');
 
 	if (searchParams.has('cod_equipo')) {
 		load_equipo(searchParams.get('cod_equipo'))
@@ -64,6 +67,9 @@ function update_vista(url = '') {
 				case 'campo':
 					load_campo(cod_campo, false);
 					break;
+				case 'acta':
+					load_acta(cod_acta, false);
+					break;
 				default:
 					load_favoritos(false);
 			}
@@ -74,6 +80,17 @@ function update_vista(url = '') {
 }
 
 function crea_botons(pagina, codigo_equipo, cod_grupo, cod_competicion) {
+	if ( pagina == 'back'){
+		var boton_back = $('<input/>').attr({
+			type: "button",
+			class: 'back_button',
+			id: "field",
+			value: 'Volver',
+			onclick: "history.back();"
+		});
+		$('#results').append(boton_back);
+		return;
+	}
 
 	var boton_portada = $('<input/>').attr({
 		type: "button",

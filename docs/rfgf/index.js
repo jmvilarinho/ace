@@ -264,14 +264,14 @@ function show_xornadas(data, cod_equipo) {
 			background = getBackgroundColor(cont, (isSameWeek(dt, new Date(Date.now()))));
 			cont += 1
 
-			if (item.hora){
+			if (item.hora) {
 				hora = ' - ' + item.hora;
-				hora2=hora;
+				hora2 = hora;
 				if (item.codequipo_casa == cod_equipo && item.equipo_casa != 'Descansa')
 					hora2 += ' (' + dia_semana(item.fecha) + ')';
 			} else {
 				hora = '';
-				hora2=hora;
+				hora2 = hora;
 			}
 
 
@@ -330,10 +330,19 @@ function show_xornadas(data, cod_equipo) {
 			else
 				xogo = '';
 
+			goles_html = item.goles_casa + ' - ' + item.goles_fuera + xogo;
+
+			if (item.codacta != '') {
+				goles_html = '<a href="javascript:load_acta(\'' + item.codacta + '\')">' + goles_html + '</a>';
+			}
+
+
+
+
 			$('#results').append('<tr>'
 				+ '<td style="background-color:' + background + ';" >' + item.fecha.replace(/-/g, "/") + hora + '</td>'
 				+ '<td style="background-color:' + background + ';" align="right" >' + casa + '</td>'
-				+ '<td style="background-color:' + color_resultado + ';" align="center" >' + item.goles_casa + ' - ' + item.goles_fuera + xogo + '</td>'
+				+ '<td style="background-color:' + color_resultado + ';" align="center" >' + goles_html + '</td>'
 				+ '<td style="background-color:' + background + ';" align="left" >' + fuera + '</td>'
 				+ '<td style="background-color:' + background + ';" >' + item.fecha.replace(/-/g, "/") + hora2 + '</td>'
 				+ '<td style="background-color:' + background + ';" >' + campo + '</td>'

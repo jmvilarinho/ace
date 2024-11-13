@@ -44,7 +44,8 @@ async function load_campo(cod_campo, timestamp = '', addHistory = true) {
 				$('#results').html('');
 				add_back();
 				$('#results').append('<div id="campo_list"></div><div id="campo_tabla"></div>');
-				show_campo(data.data, cod_campo, current_date);
+				console.log(data);
+				show_campo(data.data, cod_campo, current_date, data.campo_data.data);
 				$('#results').append('<br>');
 				add_back();
 			} else {
@@ -64,7 +65,7 @@ Date.prototype.addDays = function (days) {
 }
 
 
-function show_campo(data, cod_campo, current_date) {
+function show_campo(data, cod_campo, current_date, data_campo) {
 	date_curent = new Date();
 
 	firstEvent = getMonday(current_date);
@@ -79,7 +80,9 @@ function show_campo(data, cod_campo, current_date) {
 	campo = '';
 	if (data.partidos.length) {
 		campo = '<tr><th colspan=3  align="absmiddle">'
-			+ '<a href="https://maps.google.com?q=' + encodeURIComponent(data.partidos[0].campo) + '" target="_blank">' + data.partidos[0].campo + '</a> <img src="../img/dot.png" height="15px">'
+			+ '<img src="https://www.futgal.es' + data_campo.imagen_campo + '" align="absmiddle" class="escudo_logo_medio">&nbsp;&nbsp;'
+			+ '<a href="https://maps.google.com?q=' + encodeURIComponent(data_campo.codigo_postal	+ ' ' +data_campo.direccion+' '+data.partidos[0].campo) + '" target="_blank">' + data.partidos[0].campo + '</a> '
+			+ '<a href=https://maps.google.com?q=' + data_campo.latitud + ',' + data_campo.longitud + ' target=_blank><img src="../img/dot.png" height="15px"></a> '
 			+ '</th></tr>';
 	}
 
@@ -194,7 +197,7 @@ function show_partido(item, id, local) {
 		fuera = '<a href="javascript:load_portada_equipo(\'' + item.codigo_equipo_visitante + '\')">' + item.equipo_visitante + '</a>';
 		fuera = '<img src="https://www.futgal.es' + item.escudo_equipo_visitante + '" align="absmiddle" class="escudo_logo_medio">&nbsp;&nbsp;' + fuera + '&nbsp;';
 	} else {
-		casa = 'Descansa';
+		fuera = 'Descansa';
 		campo = '';
 	}
 

@@ -92,6 +92,9 @@ function show_campo(data, cod_campo, current_date, data_campo) {
 	$('#campo_tabla').append('<table id="0" class="favoritos">'
 		+ campo
 		+ '<tr>'
+		+ '<td colspan=3 align="absmiddle">' + data_campo.tipo_campo	 + ', ' + data_campo.superficie_juego	 + ' - ' + data_campo.localidad		+ ' (' + data_campo.provincia			+ ')' 			 + '</td>'
+		+ '</tr>'
+		+ '<tr>'
 		+ '<td align="absmiddle">' + back + '</td>'
 		+ '<td align="absmiddle">Semán do ' + firstEvent_str + ' ó ' + lastEvent_str + '</td>'
 		+ '<td align="absmiddle">' + forward + '</td>'

@@ -139,7 +139,7 @@ function show_portada_data(title, id_tabla, item, codcompeticion, codgrupo, nomb
 
 		//campo = '<a href="https://waze.com/ul?q=' + encodeURIComponent(item.campo) + '&navigate=yes" target="_blank">' + item.campo + '</a> <img src="../img/waze.png" height="15px">';
 		//campo = '<a href="https://www.google.com/maps/dir/?api=1&destination=' + encodeURIComponent(item.campo) + '" target="_blank">' + item.campo + '</a> <img src="../img/dot.png" height="15px">';
-		campo = '<a href="https://maps.google.com?q=' + encodeURIComponent(item.campo) + '" target="_blank">' + item.campo + '</a> <img src="../img/dot.png" height="15px">';
+		campo = '<a href="https://maps.google.com?q=' + encodeURIComponent(item.codigo_postal_campo	+ ' '+ item.direccion_campo	 +' ' + item.campo) + '" target="_blank">' + item.campo + '</a> <img src="../img/dot.png" height="15px">';
 	}
 
 	if (item.equipo_casa != 'Descansa') {

@@ -29,7 +29,7 @@ async function load_club(cod_club, timestamp = '', addHistory = true) {
 	firstEvent = getMonday(current_date);
 	lastEvent = getSunday(current_date);
 
-	var url = remote_url + "?type=getclub&fecha_desde=" + firstEvent + "&fecha_hasta=" + lastEvent + "&codclub=" + cod_club;
+	var url = remote_url + "?type=getpartidos&fecha_desde=" + firstEvent + "&fecha_hasta=" + lastEvent + "&codclub=" + cod_club;
 	console.log("GET " + url);
 	await fetch(url)
 		.then(response => {

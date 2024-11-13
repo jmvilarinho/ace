@@ -29,7 +29,7 @@ async function load_campo(cod_campo, timestamp = '', addHistory = true) {
 	firstEvent = getMonday(current_date);
 	lastEvent = getSunday(current_date);
 
-	var url = remote_url + "?type=getcampo&fecha_desde=" + firstEvent + "&fecha_hasta=" + lastEvent + "&codcampo=" + cod_campo;
+	var url = remote_url + "?type=getpartidos&fecha_desde=" + firstEvent + "&fecha_hasta=" + lastEvent + "&codcampo=" + cod_campo;
 	console.log("GET " + url);
 	await fetch(url)
 		.then(response => {
@@ -44,8 +44,8 @@ async function load_campo(cod_campo, timestamp = '', addHistory = true) {
 				$('#results').html('');
 				add_back();
 				$('#results').append('<div id="campo_list"></div><div id="campo_tabla"></div>');
-				console.log(data);
-				show_campo(data.data, cod_campo, current_date, data.campo_data.data);
+
+				show_campo(data.data, cod_campo, current_date);
 				$('#results').append('<br>');
 				add_back();
 			} else {
@@ -65,7 +65,7 @@ Date.prototype.addDays = function (days) {
 }
 
 
-function show_campo(data, cod_campo, current_date, data_campo) {
+async function show_campo(data, cod_campo, current_date) {
 	date_curent = new Date();
 
 	firstEvent = getMonday(current_date);
@@ -80,10 +80,8 @@ function show_campo(data, cod_campo, current_date, data_campo) {
 	campo = '';
 	if (data.partidos.length) {
 		campo = '<tr><th colspan=3  align="absmiddle">'
-			+ '<img src="https://www.futgal.es' + data_campo.imagen_campo + '" align="absmiddle" class="escudo_logo_medio">&nbsp;&nbsp;'
-			+ '<a href="https://maps.google.com?q=' + encodeURIComponent(data_campo.codigo_postal	+ ' ' +data_campo.direccion+' '+data.partidos[0].campo) + '" target="_blank">' + data.partidos[0].campo + '</a> '
-			+ '<a href=https://maps.google.com?q=' + data_campo.latitud + ',' + data_campo.longitud + ' target=_blank><img src="../img/dot.png" height="15px"></a> '
-			+ '</th></tr>';
+			+ '<div id="campo_name">' + data.partidos[0].campo + '</div>' +
+			'</th></tr>';
 	}
 
 
@@ -92,15 +90,44 @@ function show_campo(data, cod_campo, current_date, data_campo) {
 	$('#campo_tabla').append('<table id="0" class="favoritos">'
 		+ campo
 		+ '<tr>'
-		+ '<td colspan=3 align="absmiddle">' + data_campo.tipo_campo	 + ', ' + data_campo.superficie_juego	 + ' - ' + data_campo.localidad		+ ' (' + data_campo.provincia			+ ')' 			 + '</td>'
-		+ '</tr>'
-		+ '<tr>'
 		+ '<td align="absmiddle">' + back + '</td>'
 		+ '<td align="absmiddle">Semán do ' + firstEvent_str + ' ó ' + lastEvent_str + '</td>'
 		+ '<td align="absmiddle">' + forward + '</td>'
 		+ '</tr>'
 		+ '</table><br>');
 
+
+	var url = remote_url + "?type=getcampo&codcampo=" + cod_campo;
+	await fetch(url)
+		.then(response => {
+			if (!response.ok) {
+				throw new Error('Network response was not ok');  // Handle HTTP errors
+			}
+			return response.json();
+		})
+		.then(data => {
+			if (data) {
+				nombre = $('#campo_name').html();
+				if (data.data.imagen_campo != "https://files.futgal.es/pnfg/img/web_responsive/ESP/campo_generico.jpg")
+					image = '<img src="https://www.futgal.es' + data.data.imagen_campo + '" align="absmiddle" class="campo_img">&nbsp;&nbsp;'
+				else
+					image = '';
+
+				campo = image
+					+ '<a href="https://maps.google.com?q=' + encodeURIComponent(data.data.codigo_postal + ' ' + data.data.direccion + ' ' + nombre) + '" target="_blank">' + nombre + '</a>'
+					+ '&nbsp;&nbsp;<a href=https://maps.google.com?q=' + data.data.latitud + ',' + data.data.longitud + ' target=_blank><img src="../img/dot.png" height="15px"></a><br>'
+					+ data.data.tipo_campo + ', ' + data.data.superficie_juego + ' - ' + data.data.localidad + ' (' + data.data.provincia + ')'
+					+ '</th></tr>';
+
+
+				$('#campo_name').html(campo);
+			} else {
+				throw new Error('No data found in response');
+			}
+		})
+		.catch(error => {
+			console.error('Fetch error:', error.message);  // Log the error
+		});
 
 	var dictionary = {};
 	jQuery.each(data.partidos, function (index, item) {

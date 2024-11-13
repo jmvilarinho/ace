@@ -139,7 +139,11 @@ td {
 	width: 30px !important;
 }
 
-escudo_logo_medio
+.campo_img {
+	width: 256px !important;
+}
+
+
 
 /* Style the tab */
 .tab {

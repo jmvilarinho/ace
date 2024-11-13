@@ -7,8 +7,7 @@ async function load_resultados(cod_grupo, cod_equipo, jornada, addHistory = true
 		history.pushState(null, "", '#resultados/' + cod_equipo + '/' + cod_grupo);
 
 	var url = remote_url + "?type=getresultados&codgrupo=" + cod_grupo + '&jornada=' + jornada;
-
-	//console.log("GET " + url);
+	console.log("GET " + url);
 	await fetch(url)
 		.then(response => {
 			if (!response.ok) {
@@ -44,7 +43,13 @@ function show_resultados(data, codgrupo, cod_equipo) {
 	} else {
 		back = '';
 	}
-	forward = "&nbsp;&nbsp;&nbsp;<a href=\"javascript:load_resultados('" + codgrupo + "','" + cod_equipo + "','" + (j + 1) + "',false)\"><img class=\"escudo_widget\" src=../img/forward.png></a>";
+
+	if (data.jornada < data.listado_jornadas[0].jornadas.length)
+		forward = "&nbsp;&nbsp;&nbsp;<a href=\"javascript:load_resultados('" + codgrupo + "','" + cod_equipo + "','" + (j + 1) + "',false)\"><img class=\"escudo_widget\" src=../img/forward.png></a>";
+	else
+		forward = '';
+
+
 
 	$('#results').append('<table border >');
 	$('#results').append(

@@ -6,7 +6,7 @@ async function load_equipo(cod_equipo, addHistory = true) {
 		history.pushState(null, "", '#xornadas/' + cod_equipo);
 
 	var url = remote_url + "?type=getequipo&codequipo=" + cod_equipo;
-	//console.log("GET " + url);
+	console.log("GET " + url);
 	await fetch(url)
 		.then(response => {
 			if (!response.ok) {

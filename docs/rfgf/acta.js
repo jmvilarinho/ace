@@ -165,8 +165,7 @@ function show_acta_equipo(data) {
 		+ '</tr>'
 		+ '<tr>'
 		+ '<tr>'
-                + '<th colspan=5 class="table_noborder"><br
-></th>'
+                + '<th colspan=5 class="table_noborder"><br></th>'
                 + '</tr>'
 		+ '<th colspan=5 align="left">Equipo técnico</th>'
 		+ '</tr>'

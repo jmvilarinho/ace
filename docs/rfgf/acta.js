@@ -34,11 +34,11 @@ async function load_acta(cod_acta, addHistory = true) {
 
 function show_acta_equipo(data) {
 	lineas = 0;
-	$('#results').append('<br><br>');
+	$('#results').append('<br><br><b>');
 	$('#results').append(data.fecha.replace(/-/g, "/") + ' ' + data.hora + ', ' + data.campo);
 	$('#results').append('<br><br>');
 	crea_botons('back');
-	$('#results').append('<br><br>');
+	$('#results').append('</b><br><br>');
 
 	arbitros_partido = 'Árbitro/s:<br>';
 	jQuery.each(data.arbitros_partido, function (index, item) {
@@ -104,11 +104,11 @@ function show_acta_equipo(data) {
 
 		sucesos_str += '<tr>';
 
-		sucesos_str += '<td  class="table_noborder" align="right">' + nombre_local + '</td>';
+		sucesos_str += '<td  bgcolor=white class="table_noborder" align="right">' + nombre_local + '</td>';
 		sucesos_str += '<td align="center" class="table_noborder" >&nbsp;' + str_local + '</td>'
 			+ '<td align="center" class="table_noborder" >&nbsp;<small>' + item.minuto + '\'</small>&nbsp;</td>'
 			+ '<td align="center" class="table_noborder" >' + str_visitante + '&nbsp;</td>'
-		sucesos_str += '<td  class="table_noborder" align="left">' + nombre_visitante + '</td>';
+		sucesos_str += '<td  bgcolor=white class="table_noborder" align="left">' + nombre_visitante + '</td>';
 
 		sucesos_str += '</tr>';
 

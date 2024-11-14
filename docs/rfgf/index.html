@@ -1,111 +1,85 @@
-<!doctype html>
-<html lang="es">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PMCWDDX565"></script>
-  <meta name="viewport" content="width=device-width, initial-scale=0.5" />
-  <script>
-    equipos = [
-      { id: 5514262, name: 'Jogafan Senior', color: '#c01b19', duracion_min: 95 },
-      { id: 22579953, name: 'Jogafan Senior B', color: '#cb1d1a', duracion_min: 90 },
-      { id: 22580125, name: 'Jogafan Senior Fem', color: '#ed7a78', duracion_min: 90 },
-      { id: 13810265, name: 'Jogafan Juvenil', color: '#e53734', duracion_min: 90 },
-      { id: 10293250, name: 'Jogafan Cadete', color: '#e84d4a', duracion_min: 65 },
-      { id: 10293316, name: 'Jogafan Infantil', color: '#e2211d', duracion_min: 50 },
-      { id: 7098295, name: 'Jogafan Alevin', color: '#ea6361', duracion_min: 50 },
-      { id: 748, name: 'Ordenes Senior', color: '#2fa83b', duracion_min: 105 },
-      { id: 749, name: 'Ordenes Juvenil', color: '#32b33f', duracion_min: 95 },
-      { id: 761, name: 'Ordenes Juvenil B', color: '#38c746', duracion_min: 95 },
-      { id: 750, name: 'Ordenes Cadete', color: '#4ccd59', duracion_min: 95 },
-      { id: 364530, name: 'Ordenes Cadete B', color: '#60d26b', duracion_min: 95 },
-      { id: 2747, name: 'Oroso Cadete', color: '#6fbffe', duracion_min: 95 },
-      { id: 2761, name: 'Oroso Alevin B', color: '#80c8fe', duracion_min: 65 },
-      { id: 172, name: 'Victoria Infantil', color: '#247475', duracion_min: 90 },
-      { id: 11292338, name: 'Ural Juvenil B', color: '#32288a', duracion_min: 95 },
-    ]
-    clubs = [
-      { id: 5240062, name: 'Jogafan FS' },
-      { id: 1065, name: 'Ordenes' },
-      { id: 1779, name: 'Oroso' },
-      { id: 1373, name: 'Abellá' },
-    ]
-    // https://tutorialehtml.com/es/tabla-de-colores-html/
-    // https://www.w3schools.com/colors/colors_picker.asp
-
-    remote_url = 'https://yjnqlran63v4nhsh5qznvoshgu0ptptz.lambda-url.eu-west-1.on.aws/';
-  </script>
-  <meta charset="utf-8">
-  <title>Info Fútbol</title>
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
-  <link rel="icon" href="/ace/rfgf/favicon.ico" type="image/x-icon">
-  <link rel="shortcut icon" href="/ace/rfgf/favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="event-calendar.min.css">
-  <script src="event-calendar.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="index.css?nocache=56" />
-  <script type="text/javascript" src="jquery-3.7.1.min.js"></script>
-  <script type="text/javascript" src="utils.js?nocache=59"></script>
-  <script type="text/javascript" src="index.js?nocache=59"></script>
-  <script type="text/javascript" src="portada.js?nocache=59"></script>
-  <script type="text/javascript" src="club.js?nocache=59"></script>
-  <script type="text/javascript" src="campo.js?nocache=59"></script>
-  <script type="text/javascript" src="favoritos.js?nocache=59"></script>
-  <script type="text/javascript" src="calendario.js?nocache=59"></script>
-  <script type="text/javascript" src="resultados.js?nocache=59"></script>
-  <script type="text/javascript" src="acta.js?nocache=59"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'G-PMCWDDX565');
-  </script>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-PMCWDDX565"></script>
+	<script src="jquery-3.7.1.min.js"></script>
+	<script src="hls.light.min.js"></script>
+	<script src="index.js?nocache=6"></script>
+	<title>Webcam Galicia</title>
+	<meta name="author" content="JM Vilariño" />
+	<link rel="icon" href="/ace/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="/ace/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="html5video.css" />
+	<link rel="stylesheet" type="text/css" href="index.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+		gtag('config', 'G-PMCWDDX565');
+	</script>
 </head>
 
-<body style="background-color:#598381; margin:4px; padding:4px">
-  <div id="mySidenav" class="sidenav">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  </div>
-  <div id="mySidenav2" class="sidenav">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav2()">&times;</a>
-  </div>
-  <div id="spinner-div" class="pt-5">
-    <div id="loading" class="float_center"></div>
-    <div class="spinner-border text-primary" role="status"></div>
-  </div>
-  <div id="results" style="overflow-x: auto;white-space: nowrap;">
-    <!-- Use any element to open the sidenav -->
-    <input type="button" class="back_button" id="field" value="Menú" onclick="openNav()">
-  </div>
-  <script>
-    var arrayLength = equipos.length;
-    for (var i = 0; i < arrayLength; i++) {
-      $('#mySidenav').append('<a href="javascript:closeNav(\'' + equipos[i].id + '\')">' + equipos[i].name + '</a>');
-    }
-    var arrayLength = clubs.length;
-    for (var i = 0; i < arrayLength; i++) {
-      $('#mySidenav2').append('<a href="javascript:closeNav2(\'' + clubs[i].id + '\')">' + clubs[i].name + '</a>');
-    }
+<body>
 
-    window.onpopstate = (event) => {
-      update_vista(document.location.href);
-    };
+	<table style="width:100%; border: none; border-collapse:collapse;" cellspacing="0" cellpadding="0">
+		<tr>
+			<td colspan="2" style="text-align: center; border: none;">
+				<br>
+				<div id='yourTemperature'></div>
+				<br>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: left; border: none;">
+				<div id="OtherPage"></div>
+			</td>
+			<td style="text-align: right;border: none;">
+				<input type="button" class="back_button" id="field" value="Meteogalicia"
+					onclick="openInNewTab('https://www.meteogalicia.gal/web/predicion/galicia/0')">
+					<input type="button" class="back_button" id="field2" value="RFGF"
+					onclick="openUrl('rfgf/')">
+			</td>
+		</tr>
+	</table>
 
-    update_vista();
-  </script>
+	<hr>
+	<div id="DivContent"></div>
+	<br>
+	<hr>
+
+	<table style="width:100%; border: none; border-collapse:collapse;" cellspacing="0" cellpadding="0">
+		<tr>
+			<td colspan="2" style="text-align: center; border: none;">
+				<b>Cortesía de J.M. Vilariño</b>
+				<br>
+				<b>(colaborador Iván Vilariño)</b>
+			</td>
+		</tr>
+	</table>
+
+	<footer>
+		<div id='data_temperatura'></div>
+		<div id='data_prevision'></div>
+		<div id='data_prevision_municipio'></div>
+		<div id='data_mareas'></div>
+		<div class="right-aligned">
+			<img width="100px" src="https://www.cutercounter.com/hits.php?id=hxpqdon&nd=6&style=103" border="0"
+				alt="counter for page">
+		</div>
+		<p id="copyright" class="copyright">&copy; 2024</p>
+	</footer>
+
+	<script>
+		geoFindMe("yourTemperature");
+		var pagina = getCookie('pagina');
+		CambiaVistaUpdate(pagina);
+	</script>
+
 </body>
-<footer>
-  <div>
-    <p style='font-size:12px;'>
-      <a href='https://www.futgal.es' target='copyright' rel="noopener">Información obtida de RFGF</a>
-    <div id="error_msg"></div>
-    </p>
-  </div>
-  <div class="right-aligned">
-
-<img src="https://smallcounter.com/count.php?c_style=2&id=1731567163" border=0 alt="web counter">
-
-
-  </div>
-  <p id="copyright" class="copyright">&copy; 2024</p>
-</footer>
 
 </html>

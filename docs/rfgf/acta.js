@@ -49,7 +49,7 @@ function show_acta_equipo(data) {
 	jugadores_equipo_local = get_jugador(data.jugadores_equipo_local);
 
 	sucesos = [];
-	entrenadores = [data.cod_entrenador_local, data.cod_entrenador_local2, data.cod_entrenador_visitante, data.cod_entrenador_visitante2,data.delegadolocal, data.delegadocampo,data.delegado_visitante]
+	entrenadores = [data.cod_entrenador_local, data.cod_entrenador_local2, data.cod_entrenador_visitante, data.cod_entrenador_visitante2, data.delegadolocal, data.delegadocampo, data.delegado_visitante]
 	get_goles(data.goles_equipo_local, true);
 	get_tarjetas(data.tarjetas_equipo_local, true, entrenadores);
 	get_goles(data.goles_equipo_visitante, false);
@@ -70,8 +70,15 @@ function show_acta_equipo(data) {
 		if (item.is_local) {
 			nombre_local = item.nombre;
 			if (item.tipo == 'GOL') {
-				gol_local += 1;
-				str_local = '<b>' + gol_local + '</b>';
+				if (item.tipo_gol == '100') {
+					gol_local += 1;
+					str_local = '<b>' + gol_local + '</b>';
+				} else {
+					gol_visitante += 1;
+					str_local = '';
+					str_visitante = '<b>' + gol_visitante + '</b>';
+				}
+
 			} else {
 				str_local = item.html;
 				str_visitante = '';
@@ -80,8 +87,14 @@ function show_acta_equipo(data) {
 		if (!item.is_local) {
 			nombre_visitante = item.nombre;
 			if (item.tipo == 'GOL') {
-				gol_visitante += 1;
-				str_visitante = '<b>' + gol_visitante + '</b>';
+				if (item.tipo_gol == '100') {
+					gol_visitante += 1;
+					str_visitante = '<b>' + gol_visitante + '</b>';
+				} else {
+					gol_local += 1;
+					str_local = '<b>' + str_local + '</b>';
+					str_visitante = '';
+				}
 			} else {
 				str_local = '';
 				str_visitante = item.html;
@@ -106,19 +119,19 @@ function show_acta_equipo(data) {
 	if (data.entrenador2_local != '')
 		tecnicos_local += '<img class="escudo_widget" src=../img/entrenador.png>' + data.entrenador2_local + '<br>';
 	if (data.delegadolocal != '')
-		tecnicos_local +=  data.delegadolocal + '<br>';
+		tecnicos_local += data.delegadolocal + '<br>';
 
 	tecnicos_visitante = '<img class="escudo_widget" src=../img/entrenador.png>' + data.entrenador_visitante + '<br>';
 	if (data.entrenador2_visitante != '')
 		tecnicos_visitante += '<img class="escudo_widget" src=../img/entrenador.png>' + data.entrenador2_visitante + '<br>';
 	if (data.delegado_visitante != '')
-		tecnicos_visitante +=  data.delegado_visitante + '<br>';
+		tecnicos_visitante += data.delegado_visitante + '<br>';
 
 
 
 	$('#results').append('<table id="main_table_1" class="table_noborder">'
 		+ '<tr>'
-		+ '<th colspan=5 align="left">Jornada '+data.jornada+', acta número: ' + data.codacta + (data.acta_cerrada == '1' ? ' (cerrada)' : ' (abierta)')+ (data.suspendido == '0' ? '' : ' (suspendido)') + '</td>'
+		+ '<th colspan=5 align="left">Jornada ' + data.jornada + ', acta número: ' + data.codacta + (data.acta_cerrada == '1' ? ' (cerrada)' : ' (abierta)') + (data.suspendido == '0' ? '' : ' (suspendido)') + '</td>'
 		+ '</tr>'
 		+ '<tr>'
 		+ '<td colspan=5 align="left">' + arbitros_partido + '</td>'

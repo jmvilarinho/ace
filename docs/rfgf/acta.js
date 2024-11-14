@@ -75,7 +75,7 @@ function show_acta_equipo(data) {
 					str_local = '<b>' + gol_local + '</b>';
 				} else {
 					gol_visitante += 1;
-					str_local = '';
+					str_local = gol_local;
 					str_visitante = '<b>' + gol_visitante + '</b>';
 				}
 
@@ -93,7 +93,7 @@ function show_acta_equipo(data) {
 				} else {
 					gol_local += 1;
 					str_local = '<b>' + str_local + '</b>';
-					str_visitante = '';
+					str_visitante = gol_visitante;
 				}
 			} else {
 				str_local = '';

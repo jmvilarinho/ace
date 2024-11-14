@@ -307,6 +307,7 @@ function show_xornadas(data, cod_equipo) {
 				campo = '';
 
 			color_resultado = background;
+			goles_html = '';
 			if (item.goles_casa != "" && item.goles_fuera != "") {
 				if (item.codequipo_casa == cod_equipo) {
 					if (Number(item.goles_casa) > Number(item.goles_fuera))
@@ -323,21 +324,19 @@ function show_xornadas(data, cod_equipo) {
 					else
 						color_resultado = "#D7DF01";
 				}
+
+				goles_html = item.goles_casa + ' - ' + item.goles_fuera + xogo;
+
+				if (item.codacta != '') {
+					goles_html = '<a href="javascript:load_acta(\'' + item.codacta + '\')">' + goles_html + '</a>';
+				}
+
 			}
 
 			if (item.partido_en_juego == '1')
 				xogo = '<br>(en xogo)';
 			else
 				xogo = '';
-
-			goles_html = item.goles_casa + ' - ' + item.goles_fuera + xogo;
-
-			if (item.codacta != '') {
-				goles_html = '<a href="javascript:load_acta(\'' + item.codacta + '\')">' + goles_html + '</a>';
-			}
-
-
-
 
 			$('#results').append('<tr>'
 				+ '<td style="background-color:' + background + ';" >' + item.fecha.replace(/-/g, "/") + hora + '</td>'

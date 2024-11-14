@@ -136,7 +136,10 @@ function show_acta_equipo(data) {
 		+ '<tr>'
 		+ '<td colspan=5 align="left">' + arbitros_partido + '</td>'
 		+ '</tr>'
-		+ '<tr>'                                                   + '<th colspan=5 align="left">Alineación</th>'                                                                        + '</tr>'
+		+ '<tr>'
+                + '<th colspan=5 class="table_noborder"><br
+></th>'
+                + '</tr>'
 		+ '<tr>'
 		+ '<th >' + data.equipo_local + '</th>'
 		+ '<th class="table_noborder" >' + data.goles_local + '</th>'
@@ -161,7 +164,10 @@ function show_acta_equipo(data) {
 		+ '<td style="vertical-align:top">' + jugadores_equipo_visitante + '</td>'
 		+ '</tr>'
 		+ '<tr>'
-		+ '<tr>'                                                   + '<th colspan=5 align="left">Alineación</th>'                                                                        + '</tr>'
+		+ '<tr>'
+                + '<th colspan=5 class="table_noborder"><br
+></th>'
+                + '</tr>'
 		+ '<th colspan=5 align="left">Equipo técnico</th>'
 		+ '</tr>'
 		+ '<tr>'

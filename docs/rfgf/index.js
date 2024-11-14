@@ -325,6 +325,11 @@ function show_xornadas(data, cod_equipo) {
 						color_resultado = "#D7DF01";
 				}
 
+				if (item.partido_en_juego == '1')
+					xogo = '<br>(en xogo)';
+				else
+					xogo = '';
+
 				goles_html = item.goles_casa + ' - ' + item.goles_fuera + xogo;
 
 				if (item.codacta != '') {
@@ -333,10 +338,6 @@ function show_xornadas(data, cod_equipo) {
 
 			}
 
-			if (item.partido_en_juego == '1')
-				xogo = '<br>(en xogo)';
-			else
-				xogo = '';
 
 			$('#results').append('<tr>'
 				+ '<td style="background-color:' + background + ';" >' + item.fecha.replace(/-/g, "/") + hora + '</td>'

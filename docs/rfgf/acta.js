@@ -35,12 +35,12 @@ async function load_acta(cod_acta, addHistory = true) {
 function show_acta_equipo(data) {
 	lineas = 0;
 	$('#results').append('<br><br>');
-	$('#results').append('<b>'+data.fecha.replace(/-/g, "/") + ' ' + data.hora + ', ' + data.campo+'</b>');
+	$('#results').append('<b>' + data.fecha.replace(/-/g, "/") + ' ' + data.hora + ', ' + data.campo + '</b>');
 	$('#results').append('<br><br>');
 	crea_botons('back');
 	$('#results').append('<br><br>');
 
-	arbitros_partido='';
+	arbitros_partido = '';
 	jQuery.each(data.arbitros_partido, function (index, item) {
 		arbitros_partido += item.nombre_arbitro + '<br>';
 	});
@@ -68,13 +68,19 @@ function show_acta_equipo(data) {
 		if (item.is_local) {
 			nombre_local = item.nombre;
 			if (item.tipo == 'GOL') {
-				if (item.tipo_gol == '100') {
+				if (item.tipo_gol == '100') { // gol
 					gol_local += 1;
 					str_local = '<b>' + gol_local + '</b>';
-				} else {
+				} else if (item.tipo_gol == '101') { // gol penalti
+					gol_local += 1;
+					str_local = '<b>' + gol_local + '</b> <img class="escudo_widget" src=../img/penalty.png>';
+				} else if (item.tipo_gol == '102') { // gol en propia
 					gol_visitante += 1;
 					str_local = gol_local;
 					str_visitante = '<b>' + gol_visitante + '</b>';
+				} else {
+					gol_local += 1;
+					str_local = gol_local ;
 				}
 
 			} else {
@@ -85,12 +91,18 @@ function show_acta_equipo(data) {
 		if (!item.is_local) {
 			nombre_visitante = item.nombre;
 			if (item.tipo == 'GOL') {
-				if (item.tipo_gol == '100') {
+				if (item.tipo_gol == '100') { // gol
 					gol_visitante += 1;
 					str_visitante = '<b>' + gol_visitante + '</b>';
-				} else {
+				} else if (item.tipo_gol == '101') { // gol penalti
+					gol_visitante += 1;
+					str_visitante = '<b>' + gol_visitante + '</b> <img class="escudo_widget" src=../img/penalty.png>';
+				} else if (item.tipo_gol == '102') { // gol en propia
 					gol_local += 1;
-					str_local = '<b>' + str_local + '</b>';
+					str_visitante = gol_visitante;
+					str_local = '<b>' + gol_local + '</b>';
+				} else {
+					gol_visitante += 1;
 					str_visitante = gol_visitante;
 				}
 			} else {
@@ -129,29 +141,29 @@ function show_acta_equipo(data) {
 
 	$('#results').append('<table id="main_table_1" class="table_noborder">'
 		+ '<tr>'
-		+ '<th colspan=5 align="left">'+data.nombre_competicion	+ ' - '+data.nombre_grupo	+ '</th>'
+		+ '<th  bgcolor="#e8e5e4" colspan=5 align="left">' + data.nombre_competicion + ' - ' + data.nombre_grupo + '</th>'
 		+ '</tr>'
 		+ '<tr>'
-		+ '<td colspan=5 align="left">Jornada ' + data.jornada + ', acta número: ' + data.codacta + (data.acta_cerrada == '1' ? ' (cerrada)' : ' (abierta)') + (data.suspendido == '0' ? '' : ' (suspendido)') + '</td>'
+		+ '<td bgcolor=white colspan=5 align="left">Jornada ' + data.jornada + ', acta número: ' + data.codacta + (data.acta_cerrada == '1' ? ' (cerrada)' : ' (abierta)') + (data.suspendido == '0' ? '' : ' (suspendido)') + '</td>'
 		+ '</tr>'
 		+ '<tr>'
 		+ '<th colspan=5 class="table_noborder"><br></th>'
 		+ '</tr>'
 		+ '<tr>'
-		+ '<th colspan=5 align="left">Árbitro/s</th>'
+		+ '<th  bgcolor="#e8e5e4" colspan=5 align="left">Árbitro/s</th>'
 		+ '</tr>'
 		+ '<tr>'
-		+ '<td colspan=5 align="left" bgcolor="#e8e5e4">' + arbitros_partido + '</td>'
+		+ '<td colspan=5 align="left" bgcolor="white">' + arbitros_partido + '</td>'
 		+ '</tr>'
 		+ '<tr>'
 		+ '<th colspan=5 class="table_noborder"><br></th > '
 		+ '</tr>'
 		+ '<tr>'
-		+ '<th>' + data.equipo_local + '</th>'
-		+ '<th>&nbsp;' + data.goles_local + '&nbsp;</th>'
-		+ '<th>&nbsp;-&nbsp;</td>'
-		+ '<th>&nbsp;' + data.goles_visitante + '&nbsp;</th>'
-		+ '<th>' + data.equipo_visitante + '</th>'
+		+ '<th bgcolor="#e8e5e4">' + data.equipo_local + '</th>'
+		+ '<th bgcolor="#e8e5e4">&nbsp;' + data.goles_local + '&nbsp;</th>'
+		+ '<th bgcolor="#e8e5e4">&nbsp;-&nbsp;</td>'
+		+ '<th bgcolor="#e8e5e4">&nbsp;' + data.goles_visitante + '&nbsp;</th>'
+		+ '<th bgcolor="#e8e5e4">' + data.equipo_visitante + '</th>'
 		+ '</tr>'
 		+ '<tr>'
 		+ sucesos_str
@@ -159,22 +171,22 @@ function show_acta_equipo(data) {
 		+ '<th colspan=5 class="table_noborder"><br></th>'
 		+ '</tr>'
 		+ '<tr>'
-		+ '<th colspan=5 align="left">Alineación</th>'
+		+ '<th bgcolor="#e8e5e4" colspan=5 align="left">Alineación</th>'
 		+ '</tr>'
 		+ '<tr>'
-		+ '<td style="vertical-align:top" bgcolor="#e8e5e4">' + jugadores_equipo_local + '</td>'
+		+ '<td style="vertical-align:top" bgcolor="white">' + jugadores_equipo_local + '</td>'
 		+ '<th colspan=3 class="table_noborder"></td>'
-		+ '<td style="vertical-align:top" bgcolor="#e8e5e4">' + jugadores_equipo_visitante + '</td>'
+		+ '<td style="vertical-align:top" bgcolor="white">' + jugadores_equipo_visitante + '</td>'
 		+ '</tr>'
 		+ '<tr>'
 		+ '<th colspan=5 class="table_noborder"><br></th>'
 		+ '</tr>'
-		+ '<th colspan=5 align="left">Equipo técnico</th>'
+		+ '<th bgcolor="#e8e5e4" colspan=5 align="left">Equipo técnico</th>'
 		+ '</tr>'
 		+ '<tr>'
-		+ '<td style="vertical-align:top" bgcolor="#e8e5e4">' + tecnicos_local + '</td>'
+		+ '<td style="vertical-align:top" bgcolor="white">' + tecnicos_local + '</td>'
 		+ '<th colspan=3 class="table_noborder"></td>'
-		+ '<td style="vertical-align:top" bgcolor="#e8e5e4">' + tecnicos_visitante + '</td>'
+		+ '<td style="vertical-align:top" bgcolor="white">' + tecnicos_visitante + '</td>'
 		+ '</tr>'
 		+ '</table>');
 

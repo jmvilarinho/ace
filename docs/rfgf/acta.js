@@ -73,7 +73,7 @@ function show_acta_equipo(data) {
 					str_local = '<b>' + gol_local + '</b>';
 				} else if (item.tipo_gol == '101') { // gol penalti
 					gol_local += 1;
-					str_local = '<b>' + gol_local + '</b> <img class="escudo_widget" src=../img/penalty.png>';
+					str_local = '<img class="escudo_widget" src=../img/penalty.png> <b>' + gol_local + '</b>';
 				} else if (item.tipo_gol == '102') { // gol en propia
 					gol_visitante += 1;
 					str_local = gol_local;

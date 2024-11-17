@@ -6,8 +6,7 @@ async function load_portada_equipo(cod_equipo, addHistory = true) {
 		history.pushState(null, "", '#portada/' + cod_equipo);
 
 	var url = remote_url + "?type=getequipo&codequipo=" + cod_equipo;
-
-	//console.log("GET " + url);
+	console.log("GET " + url);
 	await fetch(url)
 		.then(response => {
 			if (!response.ok) {
@@ -179,6 +178,9 @@ function show_portada_data(title, id_tabla, item, codcompeticion, codgrupo, nomb
 			+ '</tr>';
 
 	} else {
+		color_resultado = color_goles('white', cod_equipo, item.codequipo_casa, item.codequipo_fuera, item.goles_casa, item.goles_fuera);
+
+
 		if (item.partido_en_juego == '1')
 			xogo = '<br>(en xogo)';
 		else
@@ -187,12 +189,12 @@ function show_portada_data(title, id_tabla, item, codcompeticion, codgrupo, nomb
 		datos = '<tr>'
 			+ '<td style="text-align:' + align + ';" bgcolor="white" colspan=' + span + '>' + casa + '</td>'
 			+ data1
-			+ '<td bgcolor="white" align="center">&nbsp;' + item.goles_casa + xogo + '&nbsp;</td>'
+			+ '<td bgcolor="white" style="background-color:' + color_resultado + ';" align="center">&nbsp;' + item.goles_casa + xogo + '&nbsp;</td>'
 			+ '</tr>'
 			+ '<tr>'
 			+ '<td style="text-align:' + align + ';" bgcolor="white" colspan=' + span + '>' + fuera + '</td>'
 			+ data2
-			+ '<td bgcolor="white" align="center">&nbsp;' + item.goles_fuera + xogo + '&nbsp;</td>'
+			+ '<td bgcolor="white" style="background-color:' + color_resultado + ';" align="center">&nbsp;' + item.goles_fuera + xogo + '&nbsp;</td>'
 			+ '</tr>';
 	}
 

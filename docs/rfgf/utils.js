@@ -79,8 +79,31 @@ function update_vista(url = '') {
 	}
 }
 
+function color_goles(background, cod_equipo, codequipo_casa, codequipo_fuera, goles_casa, goles_fuera) {
+	color_resultado = background;
+	if (goles_casa != "" && goles_fuera != "") {
+		if (codequipo_casa == cod_equipo) {
+			if (Number(goles_casa) > Number(goles_fuera))
+				color_resultado = "#04B431";
+			else if (Number(goles_casa) < Number(goles_fuera))
+				color_resultado = "#F78181";
+			else
+				color_resultado = "#D7DF01";
+		} else if (codequipo_fuera == cod_equipo) {
+			if (Number(goles_fuera) > Number(goles_casa))
+				color_resultado = "#04B431";
+			else if (Number(goles_fuera) < Number(goles_casa))
+				color_resultado = "#F78181";
+			else
+				color_resultado = "#D7DF01";
+		}
+	}
+	return color_resultado;
+}
+
+
 function crea_botons(pagina, codigo_equipo, cod_grupo, cod_competicion) {
-	if ( pagina == 'back'){
+	if (pagina == 'back') {
 		var boton_back = $('<input/>').attr({
 			type: "button",
 			class: 'back_button',

@@ -70,6 +70,9 @@ function update_vista(url = '') {
 				case 'acta':
 					load_acta(cod_acta, false);
 					break;
+				case 'plantilla':
+					load_plantilla(cod_equipo, false);
+					break;
 				default:
 					load_favoritos(false);
 			}
@@ -123,6 +126,15 @@ function crea_botons(pagina, codigo_equipo, cod_grupo, cod_competicion) {
 		onclick: "load_portada_equipo('" + codigo_equipo + "')"
 	});
 	$('#results').append(boton_portada);
+
+	var boton_plantilla = $('<input/>').attr({
+		type: "button",
+		class: (pagina == 'plantilla') ? 'none' : "back_button",
+		id: "field",
+		value: 'Plantilla',
+		onclick: "load_plantilla('" + codigo_equipo + "')"
+	});
+	$('#results').append(boton_plantilla);
 
 	var boton_xornadas = $('<input/>').attr({
 		type: "button",

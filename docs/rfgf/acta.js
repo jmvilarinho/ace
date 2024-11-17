@@ -241,7 +241,7 @@ function get_tarjetas(arr, local, entrenadores) {
 		} else if (item.codigo_tipo_amonestacion == '100') {
 			html = icon + '<img class="escudo_widget" src=../img/amarilla.png>';
 			if (item.segunda_amarilla == '1')
-				html += '<img class="escudo_widget" src=../img/amarilla.png>';
+				html += '<img class="escudo_widget" src=../img/dobleamarilla.png>';
 		} else {
 			html = '(tarjeta)';
 		}

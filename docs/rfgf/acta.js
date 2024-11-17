@@ -239,9 +239,11 @@ function get_tarjetas(arr, local, entrenadores) {
 		if (item.codigo_tipo_amonestacion == '101') {
 			html = icon + '<img class="escudo_widget" src=../img/roja.png>';
 		} else if (item.codigo_tipo_amonestacion == '100') {
-			html = icon + '<img class="escudo_widget" src=../img/amarilla.png>';
 			if (item.segunda_amarilla == '1')
-				html += '<img class="escudo_widget" src=../img/dobleamarilla.png>';
+				html = icon + '<img class="escudo_widget" src=../img/dobleamarilla.png>';
+			else
+				html = icon + '<img class="escudo_widget" src=../img/amarilla.png>';
+
 		} else {
 			html = '(tarjeta)';
 		}

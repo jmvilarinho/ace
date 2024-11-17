@@ -53,7 +53,7 @@ function show_plantilla(data, cod_equipo) {
 		+ '</tr><tr>'
 		+ '<th align="center">Dorsal</th>'
 		+ '<th>Nombre</th>'
-		+ '<th>Edat</th>'
+		+ '<th>Edad</th>'
 		+ '<th>Sancions</th>'
 		+ '<th>Minutos</th>'
 		+ '</tr>'
@@ -75,9 +75,9 @@ function show_plantilla(data, cod_equipo) {
 		$('#results').append('<tr>'
 			+ '<td style="background-color:' + background + ';" align="center">' + item.dorsal + '</td>'
 			+ '<td style="background-color:' + background + ';" >' + item.nombre + '</td>'
-			+ '<td style="background-color:' + background + ';" >' + item.edad + '</td>'
+			+ '<td style="background-color:' + background + ';" ><div id="edad_' + item.codjugador + '"></div></td>'
 			+ '<td style="background-color:' + background + ';" ><div id="sanciones_' + item.codjugador + '"></div></td>'
-			+ '<td style="background-color:' + background + ';" >' + item.minutos_totales_jugados + '</td>'
+			+ '<td style="background-color:' + background + ';" ><div id="minutos_' + item.codjugador + '"></div></td>'
 			+ '</tr>');
 
 		arr.push(item.codjugador);
@@ -123,25 +123,31 @@ async function get_extra_data(arr) {
 function show_jugador(data, cod_jugador) {
 	sanciones = '';
 
+	cont=0;
 	jQuery.each(data.tarjetas, function (index, item) {
 		if (item.codigo_tipo_tarjeta == '100') {
 			for (var x = 0; x < Number(item.valor); x++) {
+				cont+=1;
 				sanciones += '<img class="escudo_widget" src=../img/amarilla.png>';
 			}
 		}
 		if (item.codigo_tipo_tarjeta == '102') {
 			for (var x = 0; x < Number(item.valor); x++) {
+				cont+=1;
 				sanciones += '<img class="escudo_widget" src=../img/dobleamarilla.png>';
 			}
 		}
 		if (item.codigo_tipo_tarjeta == '101') {
 			for (var x = 0; x < Number(item.valor); x++) {
+				cont+=1;
 				sanciones += '<img class="escudo_widget" src=../img/roja.png>';
 			}
 		}
 	});
 
+	$('#edad_' + cod_jugador).append(data.edad);
 	$('#sanciones_' + cod_jugador).append(sanciones);
+	$('#minutos_' + cod_jugador).append(data.minutos_totales_jugados);
 
 	favorite_load.pop();
 	if (favorite_load.length > 0)

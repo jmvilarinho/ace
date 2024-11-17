@@ -244,6 +244,7 @@ function show_xornadas(data, cod_equipo) {
 		if (lineas > 1)
 			$('#results').append('<br><hr>');
 
+		setCookie('nombre_equipo', data.nombre_equipo, 30)
 		$('#results').append(data.nombre_equipo + ' - <b>' + item.competicion + '</b><br>');
 		crea_botons('xornadas', data.codigo_equipo, item.cod_grupo, item.cod_competicion);
 
@@ -306,37 +307,19 @@ function show_xornadas(data, cod_equipo) {
 			if (item.equipo_casa == 'Descansa' || item.equipo_fuera == 'Descansa')
 				campo = '';
 
-			color_resultado = background;
-			goles_html = '';
-			if (item.goles_casa != "" && item.goles_fuera != "") {
-				if (item.codequipo_casa == cod_equipo) {
-					if (Number(item.goles_casa) > Number(item.goles_fuera))
-						color_resultado = "#04B431";
-					else if (Number(item.goles_casa) < Number(item.goles_fuera))
-						color_resultado = "#F78181";
-					else
-						color_resultado = "#D7DF01";
-				} else if (item.codequipo_fuera == cod_equipo) {
-					if (Number(item.goles_fuera) > Number(item.goles_casa))
-						color_resultado = "#04B431";
-					else if (Number(item.goles_fuera) < Number(item.goles_casa))
-						color_resultado = "#F78181";
-					else
-						color_resultado = "#D7DF01";
-				}
+			color_resultado = color_goles(background, cod_equipo, item.codequipo_casa, item.codequipo_fuera, item.goles_casa, item.goles_fuera);
 
-				if (item.partido_en_juego == '1')
-					xogo = '<br>(en xogo)';
-				else
-					xogo = '';
+			if (item.partido_en_juego == '1')
+				xogo = '<br>(en xogo)';
+			else
+				xogo = '';
 
-				goles_html = item.goles_casa + ' - ' + item.goles_fuera + xogo;
-
-				if (item.codacta != '') {
-					goles_html = '<a href="javascript:load_acta(\'' + item.codacta + '\')">' + goles_html + '</a>';
-				}
-
+			goles_html = item.goles_casa + ' - ' + item.goles_fuera + xogo;
+			if (item.codacta != '') {
+				goles_html = '<a href="javascript:load_acta(\'' + item.codacta + '\')">' + goles_html + '</a>';
 			}
+
+
 
 
 			$('#results').append('<tr>'

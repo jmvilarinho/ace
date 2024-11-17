@@ -42,6 +42,7 @@ function show_portada_equipo(data, cod_equipo) {
 		if (lineas > 1)
 			$('#results').append('<br><hr>');
 
+		setCookie('nombre_equipo', data.nombre_equipo, 30)
 		$('#results').append(data.nombre_equipo + ' - <b>' + item.competicion + '</b><br>');
 		crea_botons('portada', data.codigo_equipo, item.cod_grupo, item.cod_competicion);
 

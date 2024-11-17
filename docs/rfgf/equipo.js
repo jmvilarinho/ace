@@ -39,6 +39,7 @@ function show_equipo(data, cod_equipo) {
 		if (lineas > 1)
 			$('#results').append('<br><hr>');
 
+		setCookie('nombre_equipo', data.nombre_equipo, 30)
 		$('#results').append(data.nombre_equipo + ' - <b>' + item.competicion + '</b>');
 
 		var boton_clasificacion = $('<input/>').attr({

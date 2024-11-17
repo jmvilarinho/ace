@@ -143,7 +143,7 @@ function show_portada_equipo_favoritos(data, cod_equipo) {
 					lineas += 1;
 					arr.push({
 						data: date_obj.getTime(),
-						html: show_portada_data_favoritos(title,cod_equipo, item, date_obj.getTime())
+						html: show_portada_data_favoritos(title, cod_equipo, item, date_obj.getTime())
 					});
 					return false;
 				}
@@ -218,13 +218,19 @@ function show_portada_data_favoritos(title, cod_equipo, item, id) {
 		else
 			xogo = '';
 
+		if (item.codacta != '')
+			click = ' onclick="javascript:load_acta(\'' + item.codacta + '\');" ';
+		else
+			click = '';
+
+
 		datos = '<tr>'
 			+ '<td bgcolor="white">' + casa + '</td>'
-			+ '<td bgcolor="white" style="background-color:' + color_resultado + ';" align="center">&nbsp;' + item.goles_casa + '&nbsp;' + xogo + '</td>'
+			+ '<td ' + click + ' bgcolor="white" style="background-color:' + color_resultado + ';" align="center">&nbsp;' + item.goles_casa + '&nbsp;' + xogo + '</td>'
 			+ '</tr>'
 			+ '<tr>'
 			+ '<td bgcolor="white">' + fuera + '</td>'
-			+ '<td bgcolor="white" style="background-color:' + color_resultado + ';" align="center">&nbsp;' + item.goles_fuera + '&nbsp;' + xogo + '</td>'
+			+ '<td ' + click + ' bgcolor="white" style="background-color:' + color_resultado + ';" align="center">&nbsp;' + item.goles_fuera + '&nbsp;' + xogo + '</td>'
 			+ '</tr>';
 	}
 

@@ -187,15 +187,21 @@ function show_portada_data(title, id_tabla, item, codcompeticion, codgrupo, nomb
 		else
 			xogo = '';
 
+			if (item.codacta != '')
+				click = ' onclick="javascript:load_acta(\'' + item.codacta + '\');" ';
+			else
+				click = '';
+
+
 		datos = '<tr>'
 			+ '<td style="text-align:' + align + ';" bgcolor="white" colspan=' + span + '>' + casa + '</td>'
 			+ data1
-			+ '<td bgcolor="white" style="background-color:' + color_resultado + ';" align="center">&nbsp;' + item.goles_casa + xogo + '&nbsp;</td>'
+			+ '<td ' + click + ' bgcolor="white" style="background-color:' + color_resultado + ';" align="center">&nbsp;' + item.goles_casa + xogo + '&nbsp;</td>'
 			+ '</tr>'
 			+ '<tr>'
 			+ '<td style="text-align:' + align + ';" bgcolor="white" colspan=' + span + '>' + fuera + '</td>'
 			+ data2
-			+ '<td bgcolor="white" style="background-color:' + color_resultado + ';" align="center">&nbsp;' + item.goles_fuera + xogo + '&nbsp;</td>'
+			+ '<td ' + click + ' bgcolor="white" style="background-color:' + color_resultado + ';" align="center">&nbsp;' + item.goles_fuera + xogo + '&nbsp;</td>'
 			+ '</tr>';
 	}
 

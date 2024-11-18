@@ -41,9 +41,9 @@ async function show_plantilla(data, cod_equipo) {
 	$('#results').append('<br>');
 	nome = getCookie('nombre_equipo');
 	if (nome != '')
-		$('#results').append('<b>Plantilla de ' + nome + '</b> <div id="equipo_load"></div>');
+		$('#results').append('<div id="equipo_name">' + nome + '</div><b><div id="equipo_load"></div>');
 	else
-		$('#results').append('<b>Plantilla </b><div id="equipo_load"></div>');
+		$('#results').append('<div id="equipo_name">Plantilla</div><div id="equipo_load"></div>');
 	$('#results').append('');
 	crea_botons('back');
 	$('#results').append('<br>');
@@ -169,6 +169,11 @@ function show_jugador(data, cod_jugador) {
 		nombre = $('#nombre_' + cod_jugador).html();
 		$('#nombre_' + cod_jugador).html('<img class="escudo_widget" src=../img/portero.png> ' + nombre);
 	}
+
+	if (data.competiciones_participa.categoria_equipo != '') {
+		$('#equipo_name').html(data.competiciones_participa.categoria_equipo);
+	}
+	console.log(data.competiciones_participa);
 
 	$('#edad_' + cod_jugador).html(data.edad + '&nbsp;&nbsp;');
 	$('#sanciones_' + cod_jugador).html(sanciones);

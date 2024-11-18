@@ -113,7 +113,7 @@ function show_xornadas(data, cod_equipo) {
 			if (item.goles_casa != '' && item.goles_fuera != '') {
 				goles_html = item.goles_casa + ' - ' + item.goles_fuera + xogo;
 				if (item.codacta != '') {
-					goles_html = '<a href="javascript:load_acta(\'' + item.codacta + '\')">' + goles_html + '</a>';
+					goles_html = '<a href="javascript:load_acta(\'' + item.codacta + '\')" title="Acta">' + goles_html + '</a>';
 				}
 			} else {
 				goles_html = ' ';

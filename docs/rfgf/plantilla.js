@@ -41,9 +41,9 @@ async function show_plantilla(data, cod_equipo) {
 	$('#results').append('<br>');
 	nome = getCookie('nombre_equipo');
 	if (nome != '')
-		$('#results').append('<div id="equipo_name">' + nome + '</div><b><div id="equipo_load"></div>');
+		$('#results').append('<b><div id="equipo_name">' + nome + '</div></b><div id="equipo_load"></div>');
 	else
-		$('#results').append('<div id="equipo_name">Plantilla</div><div id="equipo_load"></div>');
+		$('#results').append('<b><div id="equipo_name">Plantilla</div></b><div id="equipo_load"></div>');
 	$('#results').append('');
 	crea_botons('back');
 	$('#results').append('<br>');

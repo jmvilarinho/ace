@@ -125,7 +125,7 @@ function creaCalendario() {
 		slotMaxTime: '23:00:00',
 		//hiddenDays: [1, 2, 3, 4],
 		eventClick: function (info) {
-			load_portada_equipo(info.event.id);
+			load_portada(info.event.id);
 		},
 		eventDidMount: function (info) {
 			if (info.event.extendedProps.home)

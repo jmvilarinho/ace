@@ -73,7 +73,7 @@ function show_resultados(data, codgrupo, cod_equipo) {
 		if (item.Nombre_equipo_local == 'Descansa') {
 			casa = item.Nombre_equipo_local;
 		} else {
-			casa = '<a href="javascript:load_equipo(\'' + item.CodEquipo_local + '\')">' + item.Nombre_equipo_local + '</a>';
+			casa = '<a href="javascript:load_xornadas(\'' + item.CodEquipo_local + '\')">' + item.Nombre_equipo_local + '</a>';
 		}
 
 		if (item.Nombre_equipo_local != 'Descansa')
@@ -82,7 +82,7 @@ function show_resultados(data, codgrupo, cod_equipo) {
 		if (item.Nombre_equipo_visitante == 'Descansa') {
 			fuera = item.Nombre_equipo_visitante;
 		} else {
-			fuera = '<a href="javascript:load_equipo(\'' + item.CodEquipo_visitante + '\')">' + item.Nombre_equipo_visitante + '</a>';
+			fuera = '<a href="javascript:load_xornadas(\'' + item.CodEquipo_visitante + '\')">' + item.Nombre_equipo_visitante + '</a>';
 
 		}
 		if (item.Nombre_equipo_visitante != 'Descansa')

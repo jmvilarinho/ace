@@ -38,7 +38,7 @@ function show_acta_equipo(data) {
 	$('#results').append('<b>' + data.fecha.replace(/-/g, "/") + ' ' + data.hora + ', ' + data.campo + '</b>');
 	$('#results').append('<br>');
 	crea_botons('back');
-	$('#results').append('<br><br>');
+	$('#results').append('<br>');
 
 	arbitros_partido = '';
 	jQuery.each(data.arbitros_partido, function (index, item) {
@@ -190,7 +190,6 @@ function show_acta_equipo(data) {
 		+ '</tr>'
 		+ '</table>');
 
-	$('#results').append('<br>');
 	crea_botons('back');
 	$('#results').append('<br>');
 

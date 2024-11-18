@@ -1,4 +1,4 @@
-async function load_portada_equipo(cod_equipo, addHistory = true) {
+async function load_portada(cod_equipo, addHistory = true) {
 	displayLoading();
 	setCookie('paginaRFGF', 'portada', 30)
 	setCookie('cod_equipo', cod_equipo, 30)
@@ -44,6 +44,14 @@ function show_portada_equipo(data, cod_equipo) {
 
 		setCookie('nombre_equipo', data.nombre_equipo, 30)
 		$('#results').append(data.nombre_equipo + ' - <b>' + item.competicion + '</b><br>');
+		var boton_plantilla = $('<input/>').attr({
+			type: "button",
+			class:  "back_button",
+			id: "field",
+			value: 'Plantilla',
+			onclick: "load_plantilla('" + cod_equipo + "')"
+		});
+		$('#results').append(boton_plantilla);
 		crea_botons('portada', data.codigo_equipo, item.cod_grupo, item.cod_competicion);
 
 		ultima = item.ultima_jornada_jugada;
@@ -57,11 +65,11 @@ function show_portada_equipo(data, cod_equipo) {
 			//now = new Date('18-03-2024'.replace(pattern, '$3-$2-$1 12:00'));
 			if (isSameWeek(dt, now)) {
 				mostrado = true;
-				show_portada_data('Xornada actual (#' + item2.nombre_jornada + ')', 'main_table_1', item2, item.cod_competicion, item.cod_grupo, data.nombre_equipo);
+				show_portada_data('Xornada actual (#' + item2.nombre_jornada + ')', 'main_table_1', item2, item.cod_competicion, item.cod_grupo, data.nombre_equipo, cod_equipo);
 
 				if (previous) {
 					$('#results').append('<br>');
-					show_portada_data('Xornada anterior (#' + previous.nombre_jornada + ')', 'main_table_2', previous, undefined, undefined, undefined);
+					show_portada_data('Xornada anterior (#' + previous.nombre_jornada + ')', 'main_table_2', previous, undefined, undefined, undefined, cod_equipo);
 				}
 				return false;
 			}
@@ -118,7 +126,7 @@ function dia_semana_sp(fecha) {
 }
 
 
-function show_portada_data(title, id_tabla, item, codcompeticion, codgrupo, nombre_equipo) {
+function show_portada_data(title, id_tabla, item, codcompeticion, codgrupo, nombre_equipo, cod_equipo) {
 	if (codcompeticion) {
 		br = '<br><br>';
 		align = 'center';
@@ -139,19 +147,21 @@ function show_portada_data(title, id_tabla, item, codcompeticion, codgrupo, nomb
 
 		//campo = '<a href="https://waze.com/ul?q=' + encodeURIComponent(item.campo) + '&navigate=yes" target="_blank">' + item.campo + '</a> <img src="../img/waze.png" height="15px">';
 		//campo = '<a href="https://www.google.com/maps/dir/?api=1&destination=' + encodeURIComponent(item.campo) + '" target="_blank">' + item.campo + '</a> <img src="../img/dot.png" height="15px">';
-		campo = '<a href="https://maps.google.com?q=' + encodeURIComponent(item.codigo_postal_campo	+ ' '+ item.direccion_campo	 +' ' + item.campo) + '" target="_blank">' + item.campo + '</a> <img src="../img/dot.png" height="15px">';
+		campo = '<a href="https://maps.google.com?q=' + encodeURIComponent(item.codigo_postal_campo + ' ' + item.direccion_campo + ' ' + item.campo) + '" target="_blank">' + item.campo + '</a> <img src="../img/dot.png" height="15px">';
 	}
 
 	if (item.equipo_casa != 'Descansa') {
-		casa = '&nbsp;<a href="javascript:load_equipo(\'' + item.codequipo_casa + '\')">' + item.equipo_casa + '</a>&nbsp;';
-		casa = '<img src="https://www.futgal.es' + item.escudo_equipo_casa + '" align="absmiddle" class="escudo_logo">' + br + casa;
+		casa = '<a href="javascript:load_plantilla(\'' + item.codequipo_casa + '\')">'
+			+ '<img src="https://www.futgal.es' + item.escudo_equipo_casa + '" align="absmiddle" class="escudo_logo"></a>' + br
+			+ '&nbsp;<a href="javascript:load_xornadas(\'' + item.codequipo_casa + '\')">' + item.equipo_casa + '</a>&nbsp;';
 	} else {
 		casa = '&nbsp;' + item.equipo_casa + '&nbsp;';
 	}
 
 	if (item.equipo_fuera != 'Descansa') {
-		fuera = '&nbsp;<a href="javascript:load_equipo(\'' + item.codequipo_fuera + '\')">' + item.equipo_fuera + '</a>&nbsp;';
-		fuera = '<img src="https://www.futgal.es' + item.escudo_equipo_fuera + '" align="absmiddle" class="escudo_logo">' + br + fuera;
+		fuera = '<a href="javascript:load_plantilla(\'' + item.codequipo_fuera + '\')">'
+		+'<img src="https://www.futgal.es' + item.escudo_equipo_fuera + '" align="absmiddle" class="escudo_logo"></a>' + br
+		+ '&nbsp;<a href="javascript:load_xornadas(\'' + item.codequipo_fuera + '\')">' + item.equipo_fuera + '</a>&nbsp;';
 	} else {
 		fuera = '&nbsp;' + item.equipo_fuera + '&nbsp;';
 	}
@@ -187,10 +197,10 @@ function show_portada_data(title, id_tabla, item, codcompeticion, codgrupo, nomb
 		else
 			xogo = '';
 
-			if (item.codacta != '')
-				click = ' onclick="javascript:load_acta(\'' + item.codacta + '\');" ';
-			else
-				click = '';
+		if (item.codacta != '')
+			click = ' onclick="javascript:load_acta(\'' + item.codacta + '\');" ';
+		else
+			click = '';
 
 
 		datos = '<tr>'

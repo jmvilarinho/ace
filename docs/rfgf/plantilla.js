@@ -45,8 +45,8 @@ async function show_plantilla(data, cod_equipo) {
 	else
 		$('#results').append('<b>Plantilla </b><div id="equipo_load"></div>');
 	$('#results').append('');
-	crea_botons('plantilla', cod_equipo);
-	$('#results').append('<br><br>');
+	crea_botons('back');
+	$('#results').append('<br>');
 
 	table = '<table id="main_table_1" class="table_noborder">';
 	table += '<tr>'
@@ -101,6 +101,8 @@ async function show_plantilla(data, cod_equipo) {
 	});
 	table += '</table>';
 	$('#results').append(table);
+	crea_botons('back');
+	$('#results').append('<br><br>');
 
 	$('#sanciones').html('Sancions');
 	favorite_load = [];
@@ -111,16 +113,9 @@ async function show_plantilla(data, cod_equipo) {
 		// limita concurrencia a 3
 		while (favorite_load.length > 3)
 			await new Promise(r => setTimeout(r, 300));
-
 		get_extra_data(arr[i]);
 	}
-
-	$('#results').append('<br><br>');
-	crea_botons('plantilla', cod_equipo);
-	$('#results').append('<br><br>');
-
 	updatewitdh_plantilla();
-
 }
 
 async function get_extra_data(cod_jugador) {

@@ -1,6 +1,4 @@
 function update_vista(url = '') {
-	let searchParams = new URLSearchParams(window.location.search);
-
 	if (url == '')
 		url = window.location.href;
 
@@ -31,79 +29,49 @@ function update_vista(url = '') {
 	if (typeof (cod_acta) == "undefined")
 		cod_acta = getCookie('cod_acta');
 
-	if (searchParams.has('cod_equipo')) {
-		load_equipo(searchParams.get('cod_equipo'))
-	}
-	else if (searchParams.has('cod_grupo')) {
-		load_clasificacion(searchParams.get('cod_grupo'))
+	if (pagina) {
+		switch (pagina) {
+			case 'favoritos':
+				load_favoritos(false);
+				break;
+			case 'calendario':
+				load_calendario(false);
+				break;
+			case 'portada':
+				load_portada(cod_equipo, false);
+				break;
+			case 'xornadas':
+				load_xornadas(cod_equipo, false);
+				break;
+			case 'clasificacion':
+				load_clasificacion(cod_grupo, cod_equipo, false);
+				break;
+			case 'resultados':
+				load_resultados(cod_grupo, cod_equipo, '', false);
+				break;
+			case 'goleadores':
+				load_goleadores(cod_competicion, cod_grupo, cod_equipo, false);
+				break;
+			case 'club':
+				load_club(cod_club, false);
+				break;
+			case 'campo':
+				load_campo(cod_campo, false);
+				break;
+			case 'acta':
+				load_acta(cod_acta, false);
+				break;
+			case 'plantilla':
+				load_plantilla(cod_equipo, false);
+				break;
+			default:
+				load_favoritos(false);
+		}
 	} else {
-
-		if (pagina) {
-			switch (pagina) {
-				case 'favoritos':
-					load_favoritos(false);
-					break;
-				case 'calendario':
-					load_calendario(false);
-					break;
-				case 'portada':
-					load_portada_equipo(cod_equipo, false);
-					break;
-				case 'xornadas':
-					load_equipo(cod_equipo, false);
-					break;
-				case 'clasificacion':
-					load_clasificacion(cod_grupo, cod_equipo, false);
-					break;
-				case 'resultados':
-					load_resultados(cod_grupo, cod_equipo, '', false);
-					break;
-				case 'goleadores':
-					load_goleadores(cod_competicion, cod_grupo, cod_equipo, false);
-					break;
-				case 'club':
-					load_club(cod_club, false);
-					break;
-				case 'campo':
-					load_campo(cod_campo, false);
-					break;
-				case 'acta':
-					load_acta(cod_acta, false);
-					break;
-				case 'plantilla':
-					load_plantilla(cod_equipo, false);
-					break;
-				default:
-					load_favoritos(false);
-			}
-		} else {
-			load_favoritos(false);
-		}
+		load_favoritos(false);
 	}
-}
 
-function color_goles(background, cod_equipo, codequipo_casa, codequipo_fuera, goles_casa, goles_fuera) {
-	color_resultado = background;
-	if (goles_casa != "" && goles_fuera != "") {
-		if (codequipo_casa == cod_equipo) {
-			if (Number(goles_casa) > Number(goles_fuera))
-				color_resultado = "#04B431";
-			else if (Number(goles_casa) < Number(goles_fuera))
-				color_resultado = "#F78181";
-			else
-				color_resultado = "#D7DF01";
-		} else if (codequipo_fuera == cod_equipo) {
-			if (Number(goles_fuera) > Number(goles_casa))
-				color_resultado = "#04B431";
-			else if (Number(goles_fuera) < Number(goles_casa))
-				color_resultado = "#F78181";
-			else
-				color_resultado = "#D7DF01";
-		}
-	}
-	return color_resultado;
 }
-
 
 function crea_botons(pagina, codigo_equipo, cod_grupo, cod_competicion) {
 	if (pagina == 'back') {
@@ -123,25 +91,16 @@ function crea_botons(pagina, codigo_equipo, cod_grupo, cod_competicion) {
 		class: (pagina == 'portada') ? 'none' : "back_button",
 		id: "field",
 		value: 'Portada',
-		onclick: "load_portada_equipo('" + codigo_equipo + "')"
+		onclick: "load_portada('" + codigo_equipo + "')"
 	});
 	$('#results').append(boton_portada);
-
-	var boton_plantilla = $('<input/>').attr({
-		type: "button",
-		class: (pagina == 'plantilla') ? 'none' : "back_button",
-		id: "field",
-		value: 'Plantilla',
-		onclick: "load_plantilla('" + codigo_equipo + "')"
-	});
-	$('#results').append(boton_plantilla);
 
 	var boton_xornadas = $('<input/>').attr({
 		type: "button",
 		class: (pagina == 'xornadas') ? 'none' : "back_button",
 		id: "field",
 		value: 'Xornadas',
-		onclick: "load_equipo('" + codigo_equipo + "')"
+		onclick: "load_xornadas('" + codigo_equipo + "')"
 	});
 	$('#results').append(boton_xornadas);
 
@@ -172,6 +131,30 @@ function crea_botons(pagina, codigo_equipo, cod_grupo, cod_competicion) {
 	});
 	$('#results').append(boton_goleadores);
 }
+
+
+function color_goles(background, cod_equipo, codequipo_casa, codequipo_fuera, goles_casa, goles_fuera) {
+	color_resultado = background;
+	if (goles_casa != "" && goles_fuera != "") {
+		if (codequipo_casa == cod_equipo) {
+			if (Number(goles_casa) > Number(goles_fuera))
+				color_resultado = "#04B431";
+			else if (Number(goles_casa) < Number(goles_fuera))
+				color_resultado = "#F78181";
+			else
+				color_resultado = "#D7DF01";
+		} else if (codequipo_fuera == cod_equipo) {
+			if (Number(goles_fuera) > Number(goles_casa))
+				color_resultado = "#04B431";
+			else if (Number(goles_fuera) < Number(goles_casa))
+				color_resultado = "#F78181";
+			else
+				color_resultado = "#D7DF01";
+		}
+	}
+	return color_resultado;
+}
+
 
 
 function getBackgroundColor(cont, isMy) {
@@ -237,7 +220,7 @@ function openNav2() {
 /* Set the width of the side navigation to 0 */
 function closeNav(id = '0') {
 	if (id != '0')
-		load_portada_equipo(id);
+		load_portada(id);
 	document.getElementById("mySidenav").style.width = "0";
 }
 /* Set the width of the side navigation to 0 */

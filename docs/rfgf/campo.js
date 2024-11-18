@@ -216,7 +216,7 @@ function show_partido(item, id, local) {
 	}
 
 	if (item.equipo_local.trim() != '') {
-		casa = '<a href="javascript:load_portada_equipo(\'' + item.codigo_equipo_local + '\')">' + item.equipo_local + '</a>';
+		casa = '<a href="javascript:load_portada(\'' + item.codigo_equipo_local + '\')">' + item.equipo_local + '</a>';
 		casa = '<img src="https://www.futgal.es' + item.escudo_equipo_local + '" align="absmiddle" class="escudo_logo_medio">&nbsp;&nbsp;' + casa + '&nbsp;';
 	} else {
 		casa = 'Descansa';
@@ -224,7 +224,7 @@ function show_partido(item, id, local) {
 	}
 
 	if (item.equipo_visitante.trim() != '') {
-		fuera = '<a href="javascript:load_portada_equipo(\'' + item.codigo_equipo_visitante + '\')">' + item.equipo_visitante + '</a>';
+		fuera = '<a href="javascript:load_portada(\'' + item.codigo_equipo_visitante + '\')">' + item.equipo_visitante + '</a>';
 		fuera = '<img src="https://www.futgal.es' + item.escudo_equipo_visitante + '" align="absmiddle" class="escudo_logo_medio">&nbsp;&nbsp;' + fuera + '&nbsp;';
 	} else {
 		fuera = 'Descansa';

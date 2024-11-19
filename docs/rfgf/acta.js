@@ -264,7 +264,7 @@ function get_jugador(arr) {
 		if (item.titular == '1') {
 			if (item.capitan == '1')
 				jugador += '<img class="escudo_widget" src=../img/capitan.png> ';
-			if (item.posicion == 'Portero/a')
+			if (item.posicion == 'Portero/a' || item.portero == '1')
 				jugador += '<img class="escudo_widget" src=../img/portero.png> ';
 
 			jugador += item.nombre_jugador;
@@ -276,7 +276,7 @@ function get_jugador(arr) {
 			jugador += '<img class="escudo_widget" src=../img/silla.png> ';
 			if (item.capitan == '1')
 				jugador += '<img class="escudo_widget" src=../img/capitan.png> ';
-			if (item.posicion == 'Portero/a')
+			if (item.posicion == 'Portero/a' || item.portero == '1')
 				jugador += '<img class="escudo_widget" src=../img/portero.png> ';
 
 			jugador += item.nombre_jugador;

@@ -144,7 +144,7 @@ function show_acta_equipo(data) {
 		+ '<th  bgcolor="#e8e5e4" colspan=5 align="left">' + data.nombre_competicion + ' - ' + data.nombre_grupo + '</th>'
 		+ '</tr>'
 		+ '<tr>'
-		+ '<td bgcolor=white colspan=5 align="left">Jornada ' + data.jornada + ', acta número: ' + data.codacta + (data.acta_cerrada == '1' ? ' (cerrada)' : ' (abierta)') + (data.suspendido == '0' ? '' : ' (suspendido)') + '</td>'
+		+ '<td bgcolor=white colspan=5 align="left">Jornada ' + data.jornada + ', acta número: ' + data.codacta + (data.acta_cerrada == '1' || data.estado == '1' ? ' (cerrada)' : ' (abierta)') + (data.suspendido == '0' ? '' : ' (suspendido)') + '</td>'
 		+ '</tr>'
 		+ '<tr>'
 		+ '<th colspan=5 class="table_noborder"><br></th>'

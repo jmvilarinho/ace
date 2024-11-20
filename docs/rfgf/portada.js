@@ -77,8 +77,7 @@ function show_portada_equipo(data, cod_equipo) {
 		});
 	});
 
-	updatewitdh();
-
+	updatewitdh("main_table_1", "main_table_2");
 
 	if (lineas == 0) {
 		var arrayLength = equipos.length;
@@ -96,18 +95,6 @@ function show_portada_equipo(data, cod_equipo) {
 				nombre = 'para ' + equipos[i].name;
 		}
 		$('#results').append('<br><br><b>Equipo:</b> ' + data.nombre_equipo + '<br><br><b>Non hai competición esta semán ' + nombre + '</b><br><br><br>');
-	}
-}
-
-function updatewitdh() {
-	if ($("#main_table_2").length) {
-		if ($("#main_table_1").width() > $("#main_table_2").width())
-			maxWitdh = $("#main_table_1").width();
-		else
-			maxWitdh = $("#main_table_2").width();
-
-		$("#main_table_1").css("width", maxWitdh + "px");
-		$("#main_table_2").css("width", maxWitdh + "px");
 	}
 }
 
@@ -250,7 +237,7 @@ async function load_comparativa(codcompeticion, codgrupo, equipo1, equipo2, nomb
 			if (data) {
 				show_error(data);
 				show_comparativa(data.data, nombre_equipo);
-				updatewitdh();
+				updatewitdh("main_table_1", "main_table_2");
 			} else {
 				throw new Error('No data found in response');
 			}

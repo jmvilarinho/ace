@@ -117,7 +117,8 @@ async function show_plantilla(data, cod_equipo) {
 			await new Promise(r => setTimeout(r, 300));
 		get_extra_data(arr[i]);
 	}
-	updatewitdh_plantilla();
+
+	updatewitdh("main_table_1", "main_table_2");
 }
 
 async function get_extra_data(cod_jugador) {
@@ -198,18 +199,6 @@ function show_jugador(data, cod_jugador) {
 		$('#equipo_load').html(' (Cargando datos, pendientes ' + (cont_total - cont_cargados) + ')');
 	else {
 		$('#equipo_load').html('');
-		updatewitdh_plantilla();
-	}
-}
-
-function updatewitdh_plantilla() {
-	if ($("#main_table_2").length) {
-		if ($("#main_table_1").width() > $("#main_table_2").width())
-			maxWitdh = $("#main_table_1").width();
-		else
-			maxWitdh = $("#main_table_2").width();
-
-		$("#main_table_1").css("width", maxWitdh + "px");
-		$("#main_table_2").css("width", maxWitdh + "px");
+		updatewitdh("main_table_1", "main_table_2");
 	}
 }

@@ -50,10 +50,11 @@ function show_acta_equipo(data) {
 
 	sucesos = [];
 	entrenadores = [data.cod_entrenador_local, data.cod_entrenador_local2, data.cod_entrenador_visitante, data.cod_entrenador_visitante2, data.delegadolocal, data.delegadocampo, data.delegado_visitante]
+	porteros = get_porteros(data.jugadores_equipo_local, data.jugadores_equipo_visitante);
 	get_goles(data.goles_equipo_local, true);
-	get_tarjetas(data.tarjetas_equipo_local, true, entrenadores);
+	get_tarjetas(data.tarjetas_equipo_local, true);
 	get_goles(data.goles_equipo_visitante, false);
-	get_tarjetas(data.tarjetas_equipo_visitante, false, entrenadores);
+	get_tarjetas(data.tarjetas_equipo_visitante, false);
 
 	sucesos.sort(sort_by('minuto', false, parseInt));
 
@@ -66,7 +67,14 @@ function show_acta_equipo(data) {
 		str_local = gol_local;
 		str_visitante = gol_visitante;
 		if (item.is_local) {
-			nombre_local = item.nombre;
+			if (entrenadores.includes(item.codjugador) || entrenadores.includes(item.nombre))
+				nombre_local = item.nombre + ' <img class="escudo_widget" src=../img/entrenador.png>';
+			else
+				if (porteros.includes(item.codjugador) || porteros.includes(item.nombre))
+					nombre_local = item.nombre + ' <img class="escudo_widget" src=../img/portero.png>';
+				else
+					nombre_local = item.nombre;
+
 			if (item.tipo == 'GOL') {
 				if (item.tipo_gol == '100') { // gol
 					gol_local += 1;
@@ -80,7 +88,7 @@ function show_acta_equipo(data) {
 					str_visitante = '<b>' + gol_visitante + '</b>';
 				} else {
 					gol_local += 1;
-					str_local = gol_local ;
+					str_local = gol_local;
 				}
 
 			} else {
@@ -89,7 +97,15 @@ function show_acta_equipo(data) {
 			}
 		}
 		if (!item.is_local) {
-			nombre_visitante = item.nombre;
+			if (entrenadores.includes(item.codjugador) || entrenadores.includes(item.nombre))
+				nombre_visitante = '<img class="escudo_widget" src=../img/entrenador.png> ' + item.nombre;
+			else
+				if (porteros.includes(item.codjugador) || porteros.includes(item.nombre))
+					nombre_visitante = '<img class="escudo_widget" src=../img/portero.png> ' + item.nombre ;
+				else
+					nombre_visitante = item.nombre;
+
+
 			if (item.tipo == 'GOL') {
 				if (item.tipo_gol == '100') { // gol
 					gol_visitante += 1;
@@ -193,12 +209,10 @@ function show_acta_equipo(data) {
 	crea_botons('back');
 	$('#results').append('<br>');
 
-
-	updatewitdh();
+	updatewitdh("main_table_1", "main_table_2");
 }
 
 const sort_by = (field, reverse, primer) => {
-
 	const key = primer ?
 		function (x) {
 			return primer(x[field])
@@ -223,25 +237,21 @@ function get_goles(arr, local) {
 				is_local: local,
 				tipo_gol: item.tipo_gol,
 				nombre: item.nombre_jugador,
+				codjugador: item.codjugador,
 			});
 
 	});
 }
 
-function get_tarjetas(arr, local, entrenadores) {
+function get_tarjetas(arr, local) {
 	jQuery.each(arr, function (index, item) {
-		if (entrenadores.includes(item.codjugador) || entrenadores.includes(item.nombre_jugador))
-			icon = '<img class="escudo_widget" src=../img/entrenador.png>';
-		else
-			icon = '';
-
 		if (item.codigo_tipo_amonestacion == '101') {
-			html = icon + '<img class="escudo_widget" src=../img/roja.png>';
+			html = '<img class="escudo_widget" src=../img/roja.png>';
 		} else if (item.codigo_tipo_amonestacion == '100') {
 			if (item.segunda_amarilla == '1')
-				html = icon + '<img class="escudo_widget" src=../img/dobleamarilla.png>';
+				html = '<img class="escudo_widget" src=../img/dobleamarilla.png>';
 			else
-				html = icon + '<img class="escudo_widget" src=../img/amarilla.png>';
+				html = '<img class="escudo_widget" src=../img/amarilla.png>';
 
 		} else {
 			html = '(tarjeta)';
@@ -252,7 +262,8 @@ function get_tarjetas(arr, local, entrenadores) {
 				tipo: 'TARJETA',
 				is_local: local,
 				nombre: item.nombre_jugador,
-				html: html
+				codjugador: item.codjugador,
+				html: html,
 			});
 
 	});
@@ -286,17 +297,19 @@ function get_jugador(arr) {
 	return jugador;
 }
 
-
-function updatewitdh() {
-	if ($("#main_table_2").length) {
-		if ($("#main_table_1").width() > $("#main_table_2").width())
-			maxWitdh = $("#main_table_1").width();
-		else
-			maxWitdh = $("#main_table_2").width();
-
-		$("#main_table_1").css("width", maxWitdh + "px");
-		$("#main_table_2").css("width", maxWitdh + "px");
-	}
+function get_porteros(arr1, arr2) {
+	porteros = [];
+	jQuery.each(arr1, function (index, item) {
+		if (item.posicion == 'Portero/a' || item.portero == '1') {
+			porteros.push(item.codjugador);
+			porteros.push(item.nombre_jugador);
+		}
+	});
+	jQuery.each(arr2, function (index, item) {
+		if (item.posicion == 'Portero/a' || item.portero == '1') {
+			porteros.push(item.codjugador);
+			porteros.push(item.nombre_jugador);
+		}
+	});
+	return porteros;
 }
-
-

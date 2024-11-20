@@ -155,7 +155,17 @@ function color_goles(background, cod_equipo, codequipo_casa, codequipo_fuera, go
 	return color_resultado;
 }
 
+function updatewitdh(id_table_1, id_table_2) {
+	if ($("#" + id_table_2).length) {
+		if ($("#" + id_table_1).width() > $("#" + id_table_2).width())
+			maxWitdh = $("#" + id_table_1).width();
+		else
+			maxWitdh = $("#" + id_table_2).width();
 
+		$("#" + id_table_1).css("width", maxWitdh + "px");
+		$("#" + id_table_2).css("width", maxWitdh + "px");
+	}
+}
 
 function getBackgroundColor(cont, isMy) {
 	if (cont % 2)

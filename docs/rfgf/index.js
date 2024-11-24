@@ -7,6 +7,8 @@ async function load_xornadas(cod_equipo, addHistory = true) {
 		history.pushState(null, "", '#xornadas/' + cod_equipo);
 
 	var url = remote_url + "?type=getequipo&codequipo=" + cod_equipo;
+	url =  "test/calendario-" + cod_equipo+'.json';
+
 	console.log("GET " + url);
 	await fetch(url)
 		.then(response => {
@@ -42,7 +44,7 @@ function show_xornadas(data, cod_equipo) {
 
 		setCookie('nombre_equipo', data.nombre_equipo, 30)
 		$('#results').append(data.nombre_equipo + ' - <b>' + item.competicion + '</b><br>');
-		crea_botons('xornadas', data.codigo_equipo, item.cod_grupo, item.cod_competicion);
+		crea_botons('xornadas', cod_equipo, item.cod_grupo, item.cod_competicion);
 
 		$('#results').append('<table class="partidos" >');
 		$('#results').append('<tr>'
@@ -77,14 +79,15 @@ function show_xornadas(data, cod_equipo) {
 				campo = item.campo;
 			} else {
 				casa = '<a href="javascript:load_xornadas(\'' + item.codequipo_casa + '\')">' + item.equipo_casa + '</a>';
-				if (item.codequipo_casa != cod_equipo)
+				if (item.codequipo_casa != cod_equipo && item.posicion_equipo_casa !='')
 					casa += '&nbsp;(' + item.posicion_equipo_casa + 'º)';
 				//campo = '<a href="https://maps.google.com?q=' + encodeURIComponent(item.campo) + '" target="_blank">' + item.campo + '</a> <img src="../img/dot.png" height="15px">';
 				campo = '<a href="https://waze.com/ul?q=' + encodeURIComponent(item.campo) + '&navigate=yes" target="_blank">' + item.campo + '</a> <img src="../img/waze.png" height="15px">';
 			}
 
 			if (item.equipo_casa != 'Descansa') {
-				casa += '&nbsp;<img src="https://www.futgal.es' + item.escudo_equipo_casa + '" align="absmiddle" class="escudo_widget">';
+				if (  item.escudo_equipo_casa != '' )
+					casa += '&nbsp;<img src="https://www.futgal.es' + item.escudo_equipo_casa + '" align="absmiddle" class="escudo_widget">';
 			}
 
 
@@ -92,12 +95,13 @@ function show_xornadas(data, cod_equipo) {
 				fuera = item.equipo_fuera;
 			} else {
 				fuera = '';
-				if (item.equipo_fuera != cod_equipo)
+				if (item.equipo_fuera != cod_equipo && item.posicion_equipo_fuera != '')
 					fuera += '(' + item.posicion_equipo_fuera + 'º)&nbsp;';
 				fuera += '<a href="javascript:load_xornadas(\'' + item.codequipo_fuera + '\')">' + item.equipo_fuera + '</a>';
 			}
 			if (item.equipo_fuera != 'Descansa') {
-				fuera = '<img src="https://www.futgal.es' + item.escudo_equipo_fuera + '" align="absmiddle" class="escudo_widget">&nbsp;' + fuera;
+				if (  item.escudo_equipo_fuera != '' )
+					fuera = '<img src="https://www.futgal.es' + item.escudo_equipo_fuera + '" align="absmiddle" class="escudo_widget">&nbsp;' + fuera;
 			}
 
 			if (item.equipo_casa == 'Descansa' || item.equipo_fuera == 'Descansa')
@@ -120,15 +124,13 @@ function show_xornadas(data, cod_equipo) {
 			}
 
 
-
-
 			$('#results').append('<tr>'
 				+ '<td style="background-color:' + background + ';" >' + item.fecha.replace(/-/g, "/") + hora + '</td>'
 				+ '<td style="background-color:' + background + ';" align="right" >' + casa + '</td>'
 				+ '<td style="background-color:' + color_resultado + ';" align="center" >' + goles_html + '</td>'
 				+ '<td style="background-color:' + background + ';" align="left" >' + fuera + '</td>'
 				+ '<td style="background-color:' + background + ';" >' + item.fecha.replace(/-/g, "/") + hora2 + '</td>'
-				+ '<td style="background-color:' + background + ';" >' + campo + '</td>'
+				+ '<td style="background-color:' + background + ';" >' + (item.campo != '' ? campo : '')+ '</td>'
 				+ '</tr>');
 		});
 		$('#results').append('</table>');

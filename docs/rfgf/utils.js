@@ -104,34 +104,87 @@ function crea_botons(pagina, codigo_equipo, cod_grupo, cod_competicion) {
 	});
 	$('#results').append(boton_xornadas);
 
-	var boton_resultados = $('<input/>').attr({
-		type: "button",
-		class: (pagina == 'resultados') ? 'none' : "back_button",
-		id: "field",
-		value: 'Resultados',
-		onclick: "load_resultados('" + cod_grupo + "','" + codigo_equipo + "','')"
-	});
-	$('#results').append(boton_resultados);
+	if (!version_reducida) {
+		var boton_resultados = $('<input/>').attr({
+			type: "button",
+			class: (pagina == 'resultados') ? 'none' : "back_button",
+			id: "field",
+			value: 'Resultados',
+			onclick: "load_resultados('" + cod_grupo + "','" + codigo_equipo + "','')"
+		});
+		$('#results').append(boton_resultados);
 
-	var boton_clasificacion = $('<input/>').attr({
-		type: "button",
-		class: (pagina == 'clasificacion') ? 'none' : "back_button",
-		id: "field",
-		value: 'Clasificación',
-		onclick: "load_clasificacion('" + cod_grupo + "','" + codigo_equipo + "')"
-	});
-	$('#results').append(boton_clasificacion);
+		var boton_clasificacion = $('<input/>').attr({
+			type: "button",
+			class: (pagina == 'clasificacion') ? 'none' : "back_button",
+			id: "field",
+			value: 'Clasificación',
+			onclick: "load_clasificacion('" + cod_grupo + "','" + codigo_equipo + "')"
+		});
+		$('#results').append(boton_clasificacion);
 
-	var boton_goleadores = $('<input/>').attr({
-		type: "button",
-		class: (pagina == 'goleadores') ? 'none' : "back_button",
-		id: "field",
-		value: 'Goleadores',
-		onclick: "load_goleadores('" + cod_competicion + "','" + cod_grupo + "','" + codigo_equipo + "')"
-	});
-	$('#results').append(boton_goleadores);
+		var boton_goleadores = $('<input/>').attr({
+			type: "button",
+			class: (pagina == 'goleadores') ? 'none' : "back_button",
+			id: "field",
+			value: 'Goleadores',
+			onclick: "load_goleadores('" + cod_competicion + "','" + cod_grupo + "','" + codigo_equipo + "')"
+		});
+		$('#results').append(boton_goleadores);
+	}
 }
 
+
+function add_back(pagina) {
+	if (!pagina)
+		pagina = '';
+	if (!version_reducida) {
+		var boton_club = $('<input/>').attr({
+			type: "button",
+			class: (pagina == 'clubs') ? 'none' : "back_button",
+			id: "field",
+			value: 'Clubs',
+			onclick: "openNav2()"
+		});
+		$('#results').append(boton_club);
+
+		var boton_menu = $('<input/>').attr({
+			type: "button",
+			class: "back_button",
+			id: "field",
+			value: 'Equipos',
+			onclick: "openNav()"
+		});
+		$('#results').append(boton_menu);
+	}
+
+	var boton_favoritos = $('<input/>').attr({
+		type: "button",
+		class: (pagina == 'favoritos') ? 'none' : "back_button",
+		id: "field",
+		value: 'Favoritos',
+		onclick: "load_favoritos()"
+	});
+	$('#results').append(boton_favoritos);
+
+	var boton_calendario = $('<input/>').attr({
+		type: "button",
+		class: (pagina == 'calendario') ? 'none' : "back_button",
+		id: "field",
+		value: 'Calendario',
+		onclick: "load_calendario()"
+	});
+	$('#results').append(boton_calendario);
+
+	var boton_meteo = $('<input/>').attr({
+		type: "button",
+		class: "back_button",
+		id: "field",
+		value: 'Meteo',
+		onclick: "openUrl('../')"
+	});
+	$('#results').append(boton_meteo);
+}
 
 function color_goles(background, cod_equipo, codequipo_casa, codequipo_fuera, goles_casa, goles_fuera) {
 	color_resultado = background;
@@ -327,56 +380,6 @@ function getTimestamp(timestamp) {
 	const d = new Date(timestamp * 1000);
 
 	return `${pad(d.getDate())}/${pad(d.getMonth() + 1)}/${pad(d.getFullYear(), 4)} ${pad(d.getHours())}:${pad(d.getMinutes())}:${pad(d.getSeconds())}`;
-}
-
-function add_back(pagina) {
-	if (!pagina)
-		pagina = '';
-
-	var boton_club = $('<input/>').attr({
-		type: "button",
-		class: (pagina == 'clubs') ? 'none' : "back_button",
-		id: "field",
-		value: 'Clubs',
-		onclick: "openNav2()"
-	});
-	$('#results').append(boton_club);
-
-	var boton_menu = $('<input/>').attr({
-		type: "button",
-		class: "back_button",
-		id: "field",
-		value: 'Equipos',
-		onclick: "openNav()"
-	});
-	$('#results').append(boton_menu);
-
-	var boton_favoritos = $('<input/>').attr({
-		type: "button",
-		class: (pagina == 'favoritos') ? 'none' : "back_button",
-		id: "field",
-		value: 'Favoritos',
-		onclick: "load_favoritos()"
-	});
-	$('#results').append(boton_favoritos);
-
-	var boton_calendario = $('<input/>').attr({
-		type: "button",
-		class: (pagina == 'calendario') ? 'none' : "back_button",
-		id: "field",
-		value: 'Calendario',
-		onclick: "load_calendario()"
-	});
-	$('#results').append(boton_calendario);
-
-	var boton_meteo = $('<input/>').attr({
-		type: "button",
-		class: "back_button",
-		id: "field",
-		value: 'Meteo',
-		onclick: "openUrl('../')"
-	});
-	$('#results').append(boton_meteo);
 }
 
 function openInNewTab(url) {

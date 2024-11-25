@@ -142,26 +142,24 @@ function show_portada_data(title, id_tabla, item, codcompeticion, codgrupo, nomb
 		}
 	}
 
+	casa = ''
+	fuera = ''
 	if (item.equipo_casa != 'Descansa') {
 		if (item.escudo_equipo_casa != '')
-			escudo = '<img src="https://www.futgal.es' + item.escudo_equipo_casa + '" align="absmiddle" class="escudo_logo">';
-		else
-			escudo = '';
-		casa = '<a href="javascript:load_plantilla(\'' + item.codequipo_casa + '\')" title="Plantilla">'
-			+ escudo +'</a>' + br
-			+ '&nbsp;<a href="javascript:load_xornadas(\'' + item.codequipo_casa + '\')">' + item.equipo_casa + '</a>&nbsp;';
+			casa = '<a href="javascript:load_plantilla(\'' + item.codequipo_casa + '\')" title="Plantilla">'
+				+ '<img src="https://www.futgal.es' + item.escudo_equipo_casa + '" align="absmiddle" class="escudo_logo">' + '</a>' + br;
+
+		casa += '&nbsp;<a href="javascript:load_xornadas(\'' + item.codequipo_casa + '\')">' + item.equipo_casa + '</a>&nbsp;';
 	} else {
 		casa = '&nbsp;' + item.equipo_casa + '&nbsp;';
 	}
 
 	if (item.equipo_fuera != 'Descansa') {
-		if (item.escudo_equipo_fuera != '')
-			escudo = '<img src="https://www.futgal.es' + item.escudo_equipo_fuera + '" align="absmiddle" class="escudo_logo">';
-		else
-			escudo = '';
-		fuera = '<a href="javascript:load_plantilla(\'' + item.codequipo_fuera + '\')" title="Plantilla">'
-			+ escudo + '</a>' + br
-			+ '&nbsp;<a href="javascript:load_xornadas(\'' + item.codequipo_fuera + '\')">' + item.equipo_fuera + '</a>&nbsp;';
+		if (item.escudo_equipo_casa != '')
+			fuera = '<a href="javascript:load_plantilla(\'' + item.codequipo_fuera + '\')" title="Plantilla">'
+				+ '<img src="https://www.futgal.es' + item.escudo_equipo_fuera + '" align="absmiddle" class="escudo_logo">' + '</a>' + br;
+
+		fuera += '&nbsp;<a href="javascript:load_xornadas(\'' + item.codequipo_fuera + '\')">' + item.equipo_fuera + '</a>&nbsp;';
 	} else {
 		fuera = '&nbsp;' + item.equipo_fuera + '&nbsp;';
 	}
@@ -229,7 +227,7 @@ function show_portada_data(title, id_tabla, item, codcompeticion, codgrupo, nomb
 		+ data3
 		+ '</table>');
 
-	if (codcompeticion && !(item.equipo_casa == 'Descansa' || item.equipo_fuera == 'Descansa') && !version_reducida )
+	if (codcompeticion && !(item.equipo_casa == 'Descansa' || item.equipo_fuera == 'Descansa') && !version_reducida)
 		load_comparativa(codcompeticion, codgrupo, item.codequipo_casa, item.codequipo_fuera, nombre_equipo)
 }
 

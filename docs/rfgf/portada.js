@@ -6,7 +6,6 @@ async function load_portada(cod_equipo, addHistory = true) {
 		history.pushState(null, "", '#portada/' + cod_equipo);
 
 	var url = remote_url + "?type=getequipo&codequipo=" + cod_equipo;
-	url = "test/calendario-" + cod_equipo + '.json';
 
 	console.log("GET " + url);
 	await fetch(url)
@@ -230,7 +229,7 @@ function show_portada_data(title, id_tabla, item, codcompeticion, codgrupo, nomb
 		+ data3
 		+ '</table>');
 
-	if (codcompeticion && !(item.equipo_casa == 'Descansa' || item.equipo_fuera == 'Descansa'))
+	if (codcompeticion && !(item.equipo_casa == 'Descansa' || item.equipo_fuera == 'Descansa') && !version_reducida )
 		load_comparativa(codcompeticion, codgrupo, item.codequipo_casa, item.codequipo_fuera, nombre_equipo)
 }
 

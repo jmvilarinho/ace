@@ -7,7 +7,6 @@ async function load_xornadas(cod_equipo, addHistory = true) {
 		history.pushState(null, "", '#xornadas/' + cod_equipo);
 
 	var url = remote_url + "?type=getequipo&codequipo=" + cod_equipo;
-	url =  "test/calendario-" + cod_equipo+'.json';
 
 	console.log("GET " + url);
 	await fetch(url)

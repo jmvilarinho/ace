@@ -147,16 +147,16 @@ function add_back(pagina) {
 			onclick: "openNav2()"
 		});
 		$('#results').append(boton_club);
-
-		var boton_menu = $('<input/>').attr({
-			type: "button",
-			class: "back_button",
-			id: "field",
-			value: 'Equipos',
-			onclick: "openNav()"
-		});
-		$('#results').append(boton_menu);
 	}
+
+	var boton_menu = $('<input/>').attr({
+		type: "button",
+		class: "back_button",
+		id: "field",
+		value: 'Equipos',
+		onclick: "openNav()"
+	});
+	$('#results').append(boton_menu);
 
 	var boton_favoritos = $('<input/>').attr({
 		type: "button",

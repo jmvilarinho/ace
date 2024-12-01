@@ -44,7 +44,7 @@ function update_vista(url = '') {
 				load_xornadas(cod_equipo, false);
 				break;
 			case 'clasificacion':
-				load_clasificacion(cod_grupo, cod_equipo, false);
+				load_clasificacion(cod_grupo, cod_equipo, cod_competicion, false);
 				break;
 			case 'resultados':
 				load_resultados(cod_grupo, cod_equipo, '', false);
@@ -131,6 +131,19 @@ function crea_botons(pagina, codigo_equipo, cod_grupo, cod_competicion) {
 			onclick: "load_goleadores('" + cod_competicion + "','" + cod_grupo + "','" + codigo_equipo + "')"
 		});
 		$('#results').append(boton_goleadores);
+	} else {
+		if ( cod_competicion != ''){
+			var boton_clasificacion = $('<input/>').attr({
+				type: "button",
+				class: (pagina == 'clasificacion') ? 'none' : "back_button",
+				id: "field",
+				value: 'Clasificación',
+				onclick: "load_clasificacion('" + cod_grupo + "','" + codigo_equipo + "','" + cod_competicion + "')"
+			});
+			$('#results').append(boton_clasificacion);
+
+		}
+
 	}
 }
 
@@ -187,6 +200,7 @@ function add_back(pagina) {
 }
 
 function color_goles(background, cod_equipo, codequipo_casa, codequipo_fuera, goles_casa, goles_fuera) {
+	//console.log(background, cod_equipo, codequipo_casa, codequipo_fuera, goles_casa, goles_fuera)
 	color_resultado = background;
 	if (goles_casa != "" && goles_fuera != "") {
 		if (codequipo_casa == cod_equipo) {

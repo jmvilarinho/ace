@@ -193,11 +193,8 @@ function show_clasificacion(data, cod_grupo, cod_equipo) {
 
 	if (data.html != '') {
 		html = $.base64('decode', data.html)
-		console.log(html)
-
+		//console.log(html)
 		$('#results').append('<br><br>' + html + '<br>');
-
-
 		return
 	}
 

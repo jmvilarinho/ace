@@ -186,16 +186,27 @@ async function load_clasificacion(cod_grupo, cod_equipo, cod_competicion, addHis
 	hideLoading();
 }
 
+
+function base64_decode(s) {
+	//return $.base64('decode', data.html);
+	return decodeURIComponent(escape(atob(s)));
+}
+
 function show_clasificacion(data, cod_grupo, cod_equipo) {
 	$('#results').append('<br>');
 	$('#results').append(data.competicion + ' ( ' + data.grupo + ')<br>');
 	crea_botons('clasificacion', cod_equipo, cod_grupo, data.codigo_competicion);
 
 	if (data.html != '') {
-		html = $.base64('decode', data.html)
+		html = '<link href="css/all.css" rel=stylesheet>'
+			+ '<link href="css/bootstrap.min.css" rel=stylesheet type="text/css" /> '
+			+ '<link href="css/novaweb.css" rel=stylesheet type="text/css" /> ';
+
+
+		html += base64_decode(data.html);
 		//console.log(html)
 		$('#results').append('<br><br>' + html + '<br>');
-		return
+		return;
 	}
 
 	$('#results').append('<table border >');

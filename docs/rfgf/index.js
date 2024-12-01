@@ -195,7 +195,7 @@ function show_clasificacion(data, cod_grupo, cod_equipo) {
 		html = $.base64('decode', data.html)
 		console.log(html)
 
-		$('#results').append(html + '<br>');
+		$('#results').append('<br><br>' + html + '<br>');
 
 
 		return

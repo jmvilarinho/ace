@@ -149,25 +149,17 @@ function show_portada_data(title, id_tabla, item, codcompeticion, codgrupo, nomb
 			casa = '<a href="javascript:load_plantilla(\'' + item.codequipo_casa + '\')" title="Plantilla">'
 				+ '<img src="https://www.futgal.es' + item.escudo_equipo_casa + '" align="absmiddle" class="escudo_logo">' + '</a>' + br;
 
-		if (item.codequipo_casa != '')
-			casa += '&nbsp;<a href="javascript:load_xornadas(\'' + item.codequipo_casa + '\')">' + item.equipo_casa + '</a>&nbsp;';
-		else
-			casa += '&nbsp;' + item.equipo_casa + '&nbsp;';
-
+		casa += '&nbsp;<a href="javascript:load_xornadas(\'' + item.codequipo_casa + '\')">' + item.equipo_casa + '</a>&nbsp;';
 	} else {
 		casa = '&nbsp;' + item.equipo_casa + '&nbsp;';
 	}
 
 	if (item.equipo_fuera != 'Descansa') {
-		if (item.escudo_equipo_fuera != '')
+		if (item.escudo_equipo_casa != '')
 			fuera = '<a href="javascript:load_plantilla(\'' + item.codequipo_fuera + '\')" title="Plantilla">'
 				+ '<img src="https://www.futgal.es' + item.escudo_equipo_fuera + '" align="absmiddle" class="escudo_logo">' + '</a>' + br;
 
-		if (item.codequipo_fuera != '')
-			fuera += '&nbsp;<a href="javascript:load_xornadas(\'' + item.codequipo_fuera + '\')">' + item.equipo_fuera + '</a>&nbsp;';
-		else
-			fuera += '&nbsp;' + item.equipo_fuera + '&nbsp;';
-
+		fuera += '&nbsp;<a href="javascript:load_xornadas(\'' + item.codequipo_fuera + '\')">' + item.equipo_fuera + '</a>&nbsp;';
 	} else {
 		fuera = '&nbsp;' + item.equipo_fuera + '&nbsp;';
 	}

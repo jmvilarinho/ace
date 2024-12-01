@@ -195,10 +195,7 @@ function show_portada_data_favoritos(title, cod_equipo, item, id) {
 		casa = '<a href="javascript:load_plantilla(\'' + item.codequipo_casa + '\')" title="Plantilla">'
 			+ '<img src="https://www.futgal.es' + item.escudo_equipo_casa + '" align="absmiddle" class="escudo_logo_medio"></a>&nbsp;&nbsp;' + casa + '&nbsp;';
 	} else {
-		if ( item.codequipo_casa != '')
-			casa = '<a href="javascript:load_portada(\'' + item.codequipo_casa + '\')">' + item.equipo_casa + '</a>';
-		else
-			casa = '&nbsp;' + item.equipo_casa + '&nbsp;';
+		casa = '&nbsp;' + item.equipo_casa + '&nbsp;';
 	}
 
 	if (item.equipo_fuera != 'Descansa' && item.escudo_equipo_fuera != '') {
@@ -206,10 +203,7 @@ function show_portada_data_favoritos(title, cod_equipo, item, id) {
 		fuera = '<a href="javascript:load_plantilla(\'' + item.codequipo_fuera + '\')" title="Plantilla">'
 			+ '<img src="https://www.futgal.es' + item.escudo_equipo_fuera + '" align="absmiddle" class="escudo_logo_medio"></a>&nbsp;&nbsp;' + fuera + '&nbsp;';
 	} else {
-		if ( item.codequipo_fuera != '')
-			fuera = '<a href="javascript:load_portada(\'' + item.codequipo_fuera + '\')">' + item.equipo_fuera + '</a>';
-		else
-			fuera = '&nbsp;' + item.equipo_fuera + '&nbsp;';
+		fuera = '&nbsp;' + item.equipo_fuera + '&nbsp;';
 	}
 
 	if (item.goles_casa == "" && item.goles_fuera == "") {

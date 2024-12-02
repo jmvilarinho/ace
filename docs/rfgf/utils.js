@@ -388,13 +388,21 @@ function show_error(data) {
 		console.error("outer", ex.message);
 	}
 
-	console.log(data);
-
+	//console.log(data);
 	$('#other_msg').html('');
 	try {
-		if (data['data']['src_origin'] != '') {
-			$('#other_msg').html('<small>'+data['data']['src_date'] + ', ' + data['data']['src_origin']+'</small>');
+		var msg = '<small>'
+		if ( 'src_origin' in data['data']) {
+			msg += data['data']['src_origin'];
+			if ('src_date' in data['data']) {
+				msg += ', ' + data['data']['src_date'];
+			}
 		}
+		if ( 'source' in data) {
+			msg += ' (' + data['source'] + ')';
+		}
+		msg += '</small>';
+		$('#other_msg').html(msg);
 	} catch (ex) {
 		console.error("outer", ex.message);
 	}

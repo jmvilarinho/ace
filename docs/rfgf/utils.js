@@ -132,7 +132,7 @@ function crea_botons(pagina, codigo_equipo, cod_grupo, cod_competicion) {
 		});
 		$('#results').append(boton_goleadores);
 	} else {
-		if ( cod_competicion != ''){
+		if (cod_competicion != '') {
 			var boton_clasificacion = $('<input/>').attr({
 				type: "button",
 				class: (pagina == 'clasificacion') ? 'none' : "back_button",
@@ -387,6 +387,19 @@ function show_error(data) {
 	} catch (ex) {
 		console.error("outer", ex.message);
 	}
+
+	console.log(data);
+
+	$('#other_msg').html('');
+	try {
+		if (data['data']['src_origin'] != '') {
+			$('#other_msg').html(data['data']['src_date'] + ', ' + data['data']['src_origin']);
+		}
+	} catch (ex) {
+		console.error("outer", ex.message);
+	}
+
+
 }
 
 function getTimestamp(timestamp) {

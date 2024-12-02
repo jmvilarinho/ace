@@ -393,7 +393,7 @@ function show_error(data) {
 	$('#other_msg').html('');
 	try {
 		if (data['data']['src_origin'] != '') {
-			$('#other_msg').html(data['data']['src_date'] + ', ' + data['data']['src_origin']);
+			$('#other_msg').html('<small>'+data['data']['src_date'] + ', ' + data['data']['src_origin']+'</small>');
 		}
 	} catch (ex) {
 		console.error("outer", ex.message);

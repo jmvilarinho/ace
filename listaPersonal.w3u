@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 03/12/2024 16:00:40",
+    "author": "Vila - 03/12/2024 20:00:24",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -333,6 +333,12 @@
                     "url": "acestream://835639b89db00cc0d94660da3c10b6e38bfbcdc1",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-3.png",
                     "embed": "false"
+                },
+                {
+                    "name": "M. LaLiga 4 1080",
+                    "url": "acestream://68697ea4f261289d97bbc3418ad3cbc4180aa32f",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-4.png",
+                    "embed": "false"
                 }
             ]
         },
@@ -360,12 +366,6 @@
                 },
                 {
                     "name": "La Liga BAR 1080",
-                    "url": "acestream://608b0faf7d3d25f6fe5dba13d5e4b4142949990e",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "La Liga BAR 1080 - b53f",
                     "url": "acestream://94d34491106e00394835c8cb68aa94481339b53f",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"

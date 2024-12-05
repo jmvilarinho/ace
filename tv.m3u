@@ -670,7 +670,7 @@ https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=12689
 https://cdn3.wowza.com/1/RERMR282dnU5eE5Z/OHY0dVFs/hls/live/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/1645382928422109184/lUdeHBAs_200x200.jpg" group-title="Int. Asia" tvg-name="Hispan TV Iran",Hispan TV Iran
 https://cdnlive.presstv.ir/live/smil:live.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="HuelvaTV.TV" tvg-logo="https://graph.facebook.com/Huelvatv/picture?width=200&height=200" group-title="Andalucía" tvg-name="Huelva TV",Huelva TV
+#EXTINF:-1 tvg-id="HuelvaTV.TV" tvg-logo="https://pbs.twimg.com/profile_images/1861683669838049280/ovQd2ShK_200x200.jpg" group-title="Andalucía" tvg-name="Huelva TV",Huelva TV
 https://5d8d85cf2c308.streamlock.net:1936/huelvatv/htvdirecto/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/ibizaglobaltv/picture?width=200&height=200" group-title="Musicales" tvg-name="Ibiza Global TV",Ibiza Global TV EN
 https://ibgrtv.streaming-pro.com/hls/ibgrlive.m3u8
@@ -790,6 +790,8 @@ https://ntv2.akamaized.net/hls/live/2013923/NASA-NTV2-HLS/master.m3u8
 https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/ndrniedersachsen/picture?width=200&height=200" group-title="Int. Europa" tvg-name="NDR Niedersachsen Alemania",NDR Niedersachsen Alemania DE
 https://ndrint.akamaized.net/hls/live/2020766/ndr_int/master.m3u8
+#EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/1839572220722454528/2u2sUAeY_200x200.jpg" group-title="Int. América" tvg-name="NET Channel Perú",NET Channel Perú
+https://media.streambrothers.com:19360/8158/8158.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/nhkworld/picture?width=200&height=200" group-title="Int. Asia" tvg-name="NHK World Japan",NHK World Japan EN
 https://cdn.nhkworld.jp/www11/nhkworld-tv/domestic/2003459/live.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/aljoamyvisual/picture?width=200&height=200" group-title="Canarias" tvg-name="NORTEvisión",NORTEvisión

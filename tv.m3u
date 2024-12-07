@@ -338,7 +338,7 @@ https://stream.4fun.tv:8888/hls/4f_high/index.m3u8
 https://abr.de1se01.v2beat.live/playlist.m3u8
 #EXTINF:-1 tvg-id="7RM.TV" tvg-logo="https://graph.facebook.com/la7tele/picture?width=200&height=200" group-title="R. de Murcia" tvg-name="7 R. de Murcia",7 R. de Murcia
 https://rtv-murcia-live.globalmest.com/principal/smil:principal.smil/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/1851560108687245312/m31qkwaq_200x200.jpg" group-title="C. Valenciana" tvg-name="7 TeleValencia",7 TeleValencia
+#EXTINF:-1 tvg-id="7Televalencia.TV" tvg-logo="https://pbs.twimg.com/profile_images/1851560108687245312/m31qkwaq_200x200.jpg" group-title="C. Valenciana" tvg-name="7 TeleValencia",7 TeleValencia
 https://play.cdn.enetres.net/9E9557EFCEBB43A89CEC8FBD3C500247022/028/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/8lamarinatelevision/picture?width=200&height=200" group-title="C. Valenciana" tvg-name="8 La Marina TV",8 La Marina TV
 https://streaming005.gestec-video.com/hls/canal24.m3u8
@@ -598,11 +598,11 @@ https://cdn3.wowza.com/1/SmVrQmZCUXZhVDgz/b3J3MFJv/hls/live/playlist.m3u8
 https://cope-religion-video.flumotion.com/playlist.m3u8
 #EXTINF:-1 tvg-id="Xarxa_El_9_TV.TV" tvg-logo="https://graph.facebook.com/el9nou/picture?width=200&height=200" group-title="Cataluña" tvg-name="El 9 TV",El 9 TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 CrKey/1.44.191160
-#EXTINF:-1 tvg-logo="https://graph.facebook.com/elconfidencial/picture?width=200&height=200" group-title="Informativos" tvg-name="El Confidencial",El Confidencial
+#EXTINF:-1 tvg-id="ElConfidencial.TV" tvg-logo="https://graph.facebook.com/elconfidencial/picture?width=200&height=200" group-title="Informativos" tvg-name="El Confidencial",El Confidencial
 https://daqnsnf5phf17.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-sde7fypd1420w-prod/fast-channel-elconfidencial/fast-channel-elconfidencial.m3u8
 #EXTINF:-1 tvg-id="A3P_Hormiguero.TV" tvg-logo="https://graph.facebook.com/elhormiguero/picture?width=200&height=200" group-title="Eventuales" tvg-name="El Hormiguero",El Hormiguero
 https://fast-channels.atresmedia.com/648ef5882bfab0e4627e0d61/648ef5882bfab0e4627e0d61.m3u8
-#EXTINF:-1 tvg-logo="https://graph.facebook.com/elpais/picture?width=200&height=200" group-title="Informativos" tvg-name="El País",El País
+#EXTINF:-1 tvg-id="ElPais.TV" tvg-logo="https://graph.facebook.com/elpais/picture?width=200&height=200" group-title="Informativos" tvg-name="El País",El País
 https://d2xqbi89ghm9hh.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-79fx3huimw4xc-ssai-prd/fast-channel-el-pais.m3u8
 #EXTINF:-1 tvg-id="ElToroTV.TV" tvg-logo="https://graph.facebook.com/eltorotv.es/picture?width=200&height=200" group-title="Generalistas" tvg-name="El Toro TV",El Toro TV
 https://streaming-1.eltorotv.com/lb0/eltorotv-streaming-web/index.m3u8

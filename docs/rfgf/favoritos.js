@@ -16,7 +16,7 @@ async function load_favoritos(addHistory = true) {
 	$('#results').html('');
 	var arr = [];
 	add_back('favoritos');
-	$('#results').append('<div id="favoritos_tabla"></div><div id="favoritos_list"></div>');
+	$('#results').append('<div id="equipo_load">(Cargando datos ...)</div><div id="favoritos_tabla"></div><div id="favoritos_list"></div>');
 	favorite_load = [];
 	for (var i = 0; i < arrayLength; i++) {
 		favorite_load.push(favoritos[i]);
@@ -52,15 +52,18 @@ async function load_favoritos(addHistory = true) {
 
 	add_back('favoritos');
 	end_page();
+	hideLoading();
 
 	var x = 0;
 	while (x < 60000) {
+		$('#equipo_load').html(' (Cargando datos, pendientes ' + favorite_load.length + ')');
 		if (favorite_load.length <= 0)
 			break
 		// sleep 300 ms
 		await new Promise(r => setTimeout(r, 300));
 		x += 500;
 	}
+	$('#equipo_load').html('');
 
 	//Ordenar resultados
 	try {
@@ -86,7 +89,6 @@ async function load_favoritos(addHistory = true) {
 	} catch (e) {
 		console.log(e);
 	}
-	hideLoading();
 }
 
 async function get_data_equipo_async(cod_equipo) {

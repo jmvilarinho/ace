@@ -27,7 +27,7 @@ async function load_calendario(addHistory = true) {
 
 	$('#results').html('');
 	add_back('calendario');
-	$('#results').append('<main class="row" style="white-space: wrap;" ><div id="ec" class="col"></div></main>');
+	$('#results').append('<div id="equipo_load">(Cargando datos ...)</div><main class="row" style="white-space: wrap;" ><div id="ec" class="col"></div></main>');
 
 	creaCalendario();
 	hay_datos = false;
@@ -66,14 +66,20 @@ async function load_calendario(addHistory = true) {
 		html_fav += '</tr>'
 	$('#results').append(html_fav + '<tr><td class="table_noborder" colspan=2 align="center">(Resaltado si hai datos)</td></tr></table><hr>');
 
+	add_back('calendario');
+	end_page();
+	hideLoading();
+
 	var x = 0;
 	while (x < 60000) {
+		$('#equipo_load').html(' (Cargando datos, pendientes ' + favorite_load.length + ')');
 		if (favorite_load.length <= 0)
 			break
 		// sleep 300 ms
 		await new Promise(r => setTimeout(r, 300));
 		x += 500;
 	}
+	$('#equipo_load').html('');
 
 	var arrayLength = arr_datos.length;
 	for (var i = 0; i < arrayLength; i++) {
@@ -103,9 +109,6 @@ async function load_calendario(addHistory = true) {
 		ec.setOption('hiddenDays', hiddenDays);
 	}
 
-	add_back('calendario');
-	end_page();
-	hideLoading();
 }
 
 function creaCalendario() {

@@ -393,7 +393,7 @@ https://cartv-streaming.aranova.es/hls/live/anoticias_canal3.m3u8
 #EXTINF:-1 tvg-id="AragonTV.TV" tvg-logo="https://graph.facebook.com/AragonTV/picture?width=200&height=200" group-title="Aragón" tvg-name="Aragón TV",Aragón TV
 https://cartv.streaming.aranova.es/hls/live/aragontv_canal1.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/arirangtv/picture?width=200&height=200" group-title="Int. Asia" tvg-name="Arirang TV Korea",Arirang TV Korea EN
-https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
+https://amdlive-ch01-g-ctnd-com.akamaized.net/arirang_1gch/smil:arirang_1gch.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="A3P_Clasicos.TV" tvg-logo="https://graph.facebook.com/atresplayer/picture?width=200&height=200" group-title="Eventuales" tvg-name="Atresplayer Clásicos",Atresplayer Clásicos
 https://fast-channels.atresmedia.com/648ef12c2bfab0e4507e0d61/648ef12c2bfab0e4507e0d61.m3u8
 #EXTINF:-1 tvg-id="A3P_Comedia.TV" tvg-logo="https://graph.facebook.com/atresplayer/picture?width=200&height=200" group-title="Eventuales" tvg-name="Atresplayer Comedia",Atresplayer Comedia
@@ -848,8 +848,6 @@ https://streamer.zapitv.com/ptv_almeria/index.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 CrKey/1.44.191160
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/SevillaPTV/picture?width=200&height=200" group-title="Andalucía" tvg-name="PTV Sevilla",PTV Sevilla
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 CrKey/1.44.191160
-#EXTINF:-1 tvg-logo="https://graph.facebook.com/panamericana.pe/picture?width=200&height=200" group-title="Int. América" tvg-name="Panamericana Perú",Panamericana Perú
-https://cdnhd.iblups.com/hls/ptv5.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/parlamentodeandalucia.es/picture?width=200&height=200" group-title="Andalucía" tvg-name="Parlamento de Andalucía",Parlamento de Andalucía
 https://stream1.parlamentodeandalucia.es/realizacion1/realizacion1/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/ParlamentodeLaRioja/picture?width=200&height=200" group-title="La Rioja" tvg-name="Parlamento de La Rioja",Parlamento de La Rioja
@@ -1011,7 +1009,7 @@ https://tv-trtworld.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/TV4LaVall/picture?width=200&height=200" group-title="C. Valenciana" tvg-name="TV 4 La Vall",TV 4 La Vall
 https://valldeuxo.gestec-video.com/hls/lavall.m3u8
 #EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/O-uKbFM_PomDiTCVdBWJ5KktmjrmAQv9ovAHK9_jkJb0X1df9_qv5C4M08xt7vcGuwlE5pfIFWI=s200" group-title="C. Valenciana" tvg-name="TV Almassora",TV Almassora
-https://rumble.com/live-hls/5ibe58/playlist.m3u8
+https://rumble.com/live-hls-dvr/5ros9w/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/575943555801687/picture?width=200&height=200" group-title="Castilla y León" tvg-name="TV Aranda",TV Aranda
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=12686
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/tvArtequatre/picture?width=200&height=200" group-title="C. Valenciana" tvg-name="TV Artequatre",TV Artequatre
@@ -1022,6 +1020,8 @@ https://video0.rogohosting.com:19360/8050/8050.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 CrKey/1.44.191160
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/tvferrol/picture?width=200&height=200" group-title="Galicia" tvg-name="TV Ferrol",TV Ferrol
 https://directo.tvferrol.es/tv.m3u8
+#EXTINF:-1 tvg-logo="https://graph.facebook.com/1397103013646307/picture?width=200&height=200" group-title="Cataluña" tvg-name="TV Gran Vía Radio",TV Gran Vía Radio
+https://streamlov.alsolnet.com/granviaradiofm/live/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/tvhellin/picture?width=200&height=200" group-title="Castilla-La Mancha" tvg-name="TV Hellín",TV Hellín
 https://5940924978228.streamlock.net/directohellin/directohellin/playlist.m3u8
 #EXTINF:-1 tvg-id="Xarxa_Televisio_Hospitalet.TV" tvg-logo="https://graph.facebook.com/lhdigital/picture?width=200&height=200" group-title="Cataluña" tvg-name="TV L'Hospitalet",TV L'Hospitalet
@@ -1117,7 +1117,7 @@ https://5d8d85cf2c308.streamlock.net:1936/Teleonuba/endirecto/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/TelepacificoTV/picture?width=200&height=200" group-title="Int. América" tvg-name="Telepacifico Colombia",Telepacifico Colombia
 #EXTVLCOPT:http-referrer=https://telepacifico.com/envivo/
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/Rtvalhaurin/picture?width=200&height=200" group-title="Andalucía" tvg-name="Televisión Alhaurín",Televisión Alhaurín
-https://5940924978228.streamlock.net/directo1-1/ngrp:directo1-1_all/playlist.m3u8
+https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=13354
 #EXTINF:-1 tvg-logo="https://static.wixstatic.com/media/4d3432_610170cea6c747a986bbea4137f5c15f~mv2.png/v1/fill/w_200,h_200,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/mosca%20logo%209_transparente.png" group-title="Cantabria" tvg-name="Tevecan 9",Tevecan 9
 https://streamlov.alsolnet.com/jarbhouse/live/playlist.m3u8
 #EXTINF:-1 tvg-id="Torrevision.TV" tvg-logo="https://graph.facebook.com/torremolinostv/picture?width=200&height=200" group-title="Andalucía" tvg-name="Torrevisión",Torrevisión

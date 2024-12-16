@@ -19,6 +19,9 @@ async function load_portada(cod_equipo, addHistory = true) {
 			if (data) {
 				show_error(data);
 				$('#results').html('');
+				if ('src_url' in data['data']) {
+					$('#ref_msg').html('<div id="ref_msg"><p style="font-size:12px;"><a href="'+data['data']['src_url']+'" target="copyright" rel="noopener">Información obtida de RFGF</a></p></div>');
+				}
 				add_back();
 				show_portada_equipo(data.data, cod_equipo);
 				$('#results').append('<br>');

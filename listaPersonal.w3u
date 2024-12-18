@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 18/12/2024 16:00:22",
+    "author": "Vila - 18/12/2024 20:00:57",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -413,8 +413,20 @@
                     "embed": "false"
                 },
                 {
-                    "name": "PPVP 2",
-                    "url": "acestream://7cf437be950f3525e735be57c63f7824cab822c9",
+                    "name": "PPVP 1",
+                    "url": "acestream://6994af284ecab2996f9b140ef44b8da8bfee0006",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "PPVP 3",
+                    "url": "acestream://ad6f4e8e329d6a97c7e7d7b0b8e5d04d8dd0bb48",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Telecinco 1080",
+                    "url": "acestream://66a7e4727bccce8ccc04e54861b06b62d89452fa",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 }

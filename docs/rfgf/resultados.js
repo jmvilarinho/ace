@@ -1,12 +1,17 @@
-async function load_resultados(cod_grupo, cod_equipo, jornada, addHistory = true) {
+async function load_resultados(cod_grupo, cod_equipo, jornada, cod_competicion, addHistory = true) {
 	displayLoading();
 	setCookie('paginaRFGF', 'resultados', 30)
 	setCookie('cod_equipo', cod_equipo, 30)
 	setCookie('cod_grupo', cod_grupo, 30)
+	setCookie('cod_competicion', cod_competicion, 30)
+
 	if (addHistory)
-		history.pushState(null, "", '#resultados/' + cod_equipo + '/' + cod_grupo);
+		history.pushState(null, "", '#resultados/' + cod_equipo + '/' + cod_grupo+ '/' + cod_competicion);
 
 	var url = remote_url + "?type=getresultados&codgrupo=" + cod_grupo + '&jornada=' + jornada;
+	if (cod_competicion != '')
+		url += "&codcompeticion=" + cod_competicion;
+
 	console.log("GET " + url);
 	await fetch(url)
 		.then(response => {
@@ -20,7 +25,7 @@ async function load_resultados(cod_grupo, cod_equipo, jornada, addHistory = true
 				show_error(data);
 				$('#results').html('');
 				add_back();
-				show_resultados(data.data, cod_grupo, cod_equipo, jornada);
+				show_resultados(data.data, cod_grupo, cod_equipo, jornada,cod_competicion);
 				add_back();
 			} else {
 				throw new Error('No data found in response');
@@ -32,20 +37,20 @@ async function load_resultados(cod_grupo, cod_equipo, jornada, addHistory = true
 	hideLoading();
 }
 
-function show_resultados(data, codgrupo, cod_equipo) {
+function show_resultados(data, codgrupo, cod_equipo,jornada,cod_competicion) {
 	$('#results').append('<br>');
 	$('#results').append(data.nombre_competicion + ' (' + data.nombre_grupo + ')<br>');
 	crea_botons('resultados', cod_equipo, codgrupo, data.codigo_competicion);
 
 	j = parseInt(data.jornada);
 	if ((j - 1) > 0) {
-		back = "<a href=\"javascript:load_resultados('" + codgrupo + "','" + cod_equipo + "','" + (j - 1) + "',false)\"><img class=\"escudo_widget\" src=../img/back.png></a>&nbsp;&nbsp;&nbsp;";
+		back = "<a href=\"javascript:load_resultados('" + codgrupo + "','" + cod_equipo + "','" + (j - 1) + "','" + cod_competicion + "',false)\"><img class=\"escudo_widget\" src=../img/back.png></a>&nbsp;&nbsp;&nbsp;";
 	} else {
 		back = '';
 	}
 
 	if (data.jornada < data.listado_jornadas[0].jornadas.length)
-		forward = "&nbsp;&nbsp;&nbsp;<a href=\"javascript:load_resultados('" + codgrupo + "','" + cod_equipo + "','" + (j + 1) + "',false)\"><img class=\"escudo_widget\" src=../img/forward.png></a>";
+		forward = "&nbsp;&nbsp;&nbsp;<a href=\"javascript:load_resultados('" + codgrupo + "','" + cod_equipo + "','" + (j + 1) + "','" + cod_competicion + "',false)\"><img class=\"escudo_widget\" src=../img/forward.png></a>";
 	else
 		forward = '';
 
@@ -76,7 +81,7 @@ function show_resultados(data, codgrupo, cod_equipo) {
 			casa = '<a href="javascript:load_xornadas(\'' + item.CodEquipo_local + '\')">' + item.Nombre_equipo_local + '</a>';
 		}
 
-		if (item.Nombre_equipo_local != 'Descansa')
+		if (item.Nombre_equipo_local != 'Descansa' && item.url_img_local != '')
 			casa = casa + '&nbsp;<img src="https://www.futgal.es' + item.url_img_local + '" align="absmiddle" class="escudo_widget">';
 
 		if (item.Nombre_equipo_visitante == 'Descansa') {
@@ -85,7 +90,7 @@ function show_resultados(data, codgrupo, cod_equipo) {
 			fuera = '<a href="javascript:load_xornadas(\'' + item.CodEquipo_visitante + '\')">' + item.Nombre_equipo_visitante + '</a>';
 
 		}
-		if (item.Nombre_equipo_visitante != 'Descansa')
+		if (item.Nombre_equipo_visitante != 'Descansa' && item.url_img_visitante != '')
 			fuera = '<img src="https://www.futgal.es' + item.url_img_visitante + '" align="absmiddle" class="escudo_widget">&nbsp;' + fuera;
 
 		if (item.situacion_juego == '2')

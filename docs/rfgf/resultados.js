@@ -26,6 +26,9 @@ async function load_resultados(cod_grupo, cod_equipo, jornada, cod_competicion, 
 				$('#results').html('');
 				add_back();
 				show_resultados(data.data, cod_grupo, cod_equipo, jornada,cod_competicion);
+				if ('src_url' in data['data']) {
+					$('#ref_msg').html('<p style="font-size:12px;"><a href="'+data['data']['src_url']+'" target="copyright" rel="noopener">Información obtida de RFGF</a></p>');
+				}
 				add_back();
 			} else {
 				throw new Error('No data found in response');
@@ -77,8 +80,10 @@ function show_resultados(data, codgrupo, cod_equipo,jornada,cod_competicion) {
 
 		if (item.Nombre_equipo_local == 'Descansa') {
 			casa = item.Nombre_equipo_local;
-		} else {
+		} else if (item.CodEquipo_local != "") {
 			casa = '<a href="javascript:load_xornadas(\'' + item.CodEquipo_local + '\')">' + item.Nombre_equipo_local + '</a>';
+		} else {
+			casa = item.Nombre_equipo_local;
 		}
 
 		if (item.Nombre_equipo_local != 'Descansa' && item.url_img_local != '')
@@ -86,9 +91,10 @@ function show_resultados(data, codgrupo, cod_equipo,jornada,cod_competicion) {
 
 		if (item.Nombre_equipo_visitante == 'Descansa') {
 			fuera = item.Nombre_equipo_visitante;
-		} else {
+		} else if (item.CodEquipo_visitante != "") {
 			fuera = '<a href="javascript:load_xornadas(\'' + item.CodEquipo_visitante + '\')">' + item.Nombre_equipo_visitante + '</a>';
-
+		} else {
+			fuera = item.Nombre_equipo_visitante ;
 		}
 		if (item.Nombre_equipo_visitante != 'Descansa' && item.url_img_visitante != '')
 			fuera = '<img src="https://www.futgal.es' + item.url_img_visitante + '" align="absmiddle" class="escudo_widget">&nbsp;' + fuera;

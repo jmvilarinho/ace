@@ -20,7 +20,7 @@ async function load_portada(cod_equipo, addHistory = true) {
 				show_error(data);
 				$('#results').html('');
 				if ('src_url' in data['data']) {
-					$('#ref_msg').html('<div id="ref_msg"><p style="font-size:12px;"><a href="'+data['data']['src_url']+'" target="copyright" rel="noopener">Información obtida de RFGF</a></p></div>');
+					$('#ref_msg').html('<p style="font-size:12px;"><a href="'+data['data']['src_url']+'" target="copyright" rel="noopener">Información obtida de RFGF</a></p>');
 				}
 				add_back();
 				show_portada_equipo(data.data, cod_equipo);
@@ -247,7 +247,7 @@ function show_portada_data(title, id_tabla, item, codcompeticion, codgrupo, nomb
 async function load_comparativa(codcompeticion, codgrupo, equipo1, equipo2, nombre_equipo) {
 	var url = remote_url + "?type=getcomparativa&codcompeticion=" + codcompeticion + "&codgrupo=" + codgrupo + "&equipo1=" + equipo1 + "&equipo2=" + equipo2;
 
-	//console.log("GET " + url);
+	console.log("GET " + url);
 	await fetch(url)
 		.then(response => {
 			if (!response.ok) {

@@ -1,8 +1,8 @@
 <section style="text-align:center;">
-	<div class="rt-container">
+	<div class="rt-container" id ="#Rodeira">
 		<div class="col-rt-12">
 			<div id="Razo-alternative">
-				<a href='https://www.camaramar.com/webcam/galicia_a-coruna_razo' rel="noreferrer noopener"  target=camaramar>
+				<a href='#Razo'>
 					<p>Razo</p>
 				</a>
 			</div>
@@ -26,10 +26,10 @@
 <center><img width="200" style="width: 100%; height: auto; max-width: 1300px;" src=img/line.png></center>
 
 <section style="text-align:center;">
-	<div class="rt-container">
+	<div class="rt-container" id ="#Rodeira">
 		<div class="col-rt-12">
 			<div id="Lapaman-alternative">
-				<a href='https://www.camaramar.com/webcam/galicia_pontevedra_menduina' rel="noreferrer noopener"  target=camaramar>
+				<a href='#Lapaman'>
 					<p>Aguete (Ría de Pontevedra)</p>
 				</a>
 			</div>
@@ -56,10 +56,10 @@
 <center><img width="200" style="width: 100%; height: auto; max-width: 1300px;" src=img/line.png></center>
 
 <section style="text-align:center;">
-	<div class="rt-container">
+	<div class="rt-container" id ="#Rodeira">
 		<div class="col-rt-12">
 			<div id="Pobra-alternative">
-				<a href='https://www.camaramar.com/webcam/galicia_a-coruna_caraminal' rel="noreferrer noopener"  target=camaramar>
+				<a href='#Pobra'>
 					<p>Pobra do Caramiñal</p>
 				</a>
 			</div>
@@ -84,10 +84,10 @@
 <center><img width="200" style="width: 100%; height: auto; max-width: 1300px;" src=img/line.png></center>
 
 <section style="text-align:center;">
-	<div class="rt-container">
+	<div class="rt-container" id ="#Rodeira">
 		<div class="col-rt-12">
 			<div id="Mino-alternative">
-				<a href='https://www.camaramar.com/webcam/galicia_a-coruna_perbes' rel="noreferrer noopener"  target=camaramar>
+				<a href='#Mino'>
 					<p>Perbes</p>
 				</a>
 			</div>
@@ -112,10 +112,10 @@
 <center><img width="200" style="width: 100%; height: auto; max-width: 1300px;" src=img/line.png></center>
 
 <section style="text-align:center;">
-	<div class="rt-container">
+	<div class="rt-container" id ="#Rodeira">
 		<div class="col-rt-12">
 			<div id="Sabon-alternative">
-				<a href='https://www.camaramar.com/webcam/playa-de-sabon' rel="noreferrer noopener"  target=camaramar>
+				<a href='#Sabon'>
 					<p>Sabón</p>
 				</a>
 			</div>
@@ -140,9 +140,9 @@
 <center><img width="200" style="width: 100%; height: auto; max-width: 1300px;" src=img/line.png></center>
 
 <section style="text-align:center;">
-	<div class="rt-container">
+	<div class="rt-container" id ="#Rodeira">
 		<div class="col-rt-12">
-			<a href='https://www.g24.gal/-/sanxenxo' rel="noreferrer noopener"  target=camaramar>
+			<a href='#Sanxenxo'>
 				<p>Sanxenxo</p>
 			</a>
 			<div style="visibility: hidden" id="Sanxenxo-unavailable"><img width="100" src=img/unavailable.png>
@@ -166,9 +166,9 @@
 <center><img width="200" style="width: 100%; height: auto; max-width: 1300px;" src=img/line.png></center>
 
 <section style="text-align:center;">
-	<div class="rt-container">
+	<div class="rt-container" id ="#Rodeira">
 		<div class="col-rt-12">
-			<a href='https://www.camaramar.com/webcam/galicia_pontevedra_lanzada' rel="noreferrer noopener"  target=camaramar>
+			<a href='#Lanzada'>
 				<p>A Lanzada</p>
 			</a>
 			<div style="visibility: hidden" id="Lanzada-unavailable"><img width="100" src=img/unavailable.png></div>
@@ -191,9 +191,9 @@
 <center><img width="200" style="width: 100%; height: auto; max-width: 1300px;" src=img/line.png></center>
 
 <section style="text-align:center;">
-	<div class="rt-container">
+	<div class="rt-container" id ="#Rodeira">
 		<div class="col-rt-12">
-			<a href='https://www.camaramar.com/webcam/galicia_pontevedra_rodeira' rel="noreferrer noopener"  target=camaramar>
+			<a href='#Rodeira'>
 				<p>Playa de Rodeira (Cangas do Morrazo)</p>
 			</a>
 			<div style="visibility: hidden" id="Rodeira-unavailable"><img width="100" src=img/unavailable.png></div>
@@ -211,4 +211,14 @@
 	showVideo(url, 'Rodeira')
 	getTemperatura('Rodeira-temperatura', 42.261714, -8.770230);
 	getPrevision(3600803, 'Rodeira-prevision', 29);
+
+	url = window.location.href;
+	const myArray = url.split("#");
+	if (myArray.length >= 2) {
+		const id = myArray[1]
+		document.getElementById('#'+id).scrollIntoView();
+		setTimeout( document.getElementById('#'+id).scrollIntoView(), 2000);
+	}
+
+
 </script>

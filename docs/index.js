@@ -116,7 +116,7 @@ async function validURL(url) {
 
 function showAlternative(videoid, alternative, alternativeurl) {
 	var alternativeObj = document.getElementById(videoid + "-alternative");
-	alternativeObj.innerHTML = '<p>' + alternative + '</p>';
+	alternativeObj.innerHTML = '<a href="#' + videoid + '"><p>' + alternative + '</p></a>';
 
 	var ms = new Date().getTime();
 	const keyDiv = document.createElement('div');

@@ -1,8 +1,12 @@
+<script>
+	total_elementos = 8;
+</script>
+
 <section style="text-align:center;">
-	<div class="rt-container" id ="#Rodeira">
+	<div class="rt-container" >
 		<div class="col-rt-12">
 			<div id="Razo-alternative">
-				<a href='#Razo'>
+				<a href='#Razo' id="#Razo">
 					<p>Razo</p>
 				</a>
 			</div>
@@ -26,10 +30,10 @@
 <center><img width="200" style="width: 100%; height: auto; max-width: 1300px;" src=img/line.png></center>
 
 <section style="text-align:center;">
-	<div class="rt-container" id ="#Rodeira">
+	<div class="rt-container" >
 		<div class="col-rt-12">
 			<div id="Lapaman-alternative">
-				<a href='#Lapaman'>
+				<a href='#Lapaman' id="#Lapaman">
 					<p>Aguete (Ría de Pontevedra)</p>
 				</a>
 			</div>
@@ -56,10 +60,10 @@
 <center><img width="200" style="width: 100%; height: auto; max-width: 1300px;" src=img/line.png></center>
 
 <section style="text-align:center;">
-	<div class="rt-container" id ="#Rodeira">
+	<div class="rt-container" >
 		<div class="col-rt-12">
 			<div id="Pobra-alternative">
-				<a href='#Pobra'>
+				<a href='#Pobra' id="#Pobra">
 					<p>Pobra do Caramiñal</p>
 				</a>
 			</div>
@@ -84,10 +88,10 @@
 <center><img width="200" style="width: 100%; height: auto; max-width: 1300px;" src=img/line.png></center>
 
 <section style="text-align:center;">
-	<div class="rt-container" id ="#Rodeira">
+	<div class="rt-container" >
 		<div class="col-rt-12">
 			<div id="Mino-alternative">
-				<a href='#Mino'>
+				<a href='#Mino' id="#Mino">
 					<p>Perbes</p>
 				</a>
 			</div>
@@ -112,10 +116,10 @@
 <center><img width="200" style="width: 100%; height: auto; max-width: 1300px;" src=img/line.png></center>
 
 <section style="text-align:center;">
-	<div class="rt-container" id ="#Rodeira">
+	<div class="rt-container" >
 		<div class="col-rt-12">
 			<div id="Sabon-alternative">
-				<a href='#Sabon'>
+				<a href='#Sabon' id="#Sabon">
 					<p>Sabón</p>
 				</a>
 			</div>
@@ -140,9 +144,9 @@
 <center><img width="200" style="width: 100%; height: auto; max-width: 1300px;" src=img/line.png></center>
 
 <section style="text-align:center;">
-	<div class="rt-container" id ="#Rodeira">
+	<div class="rt-container" >
 		<div class="col-rt-12">
-			<a href='#Sanxenxo'>
+			<a href='#Sanxenxo' id="#Sanxenxo">
 				<p>Sanxenxo</p>
 			</a>
 			<div style="visibility: hidden" id="Sanxenxo-unavailable"><img width="100" src=img/unavailable.png>
@@ -166,9 +170,9 @@
 <center><img width="200" style="width: 100%; height: auto; max-width: 1300px;" src=img/line.png></center>
 
 <section style="text-align:center;">
-	<div class="rt-container" id ="#Rodeira">
+	<div class="rt-container" >
 		<div class="col-rt-12">
-			<a href='#Lanzada'>
+			<a href='#Lanzada' id="#Lanzada">
 				<p>A Lanzada</p>
 			</a>
 			<div style="visibility: hidden" id="Lanzada-unavailable"><img width="100" src=img/unavailable.png></div>
@@ -191,9 +195,9 @@
 <center><img width="200" style="width: 100%; height: auto; max-width: 1300px;" src=img/line.png></center>
 
 <section style="text-align:center;">
-	<div class="rt-container" id ="#Rodeira">
+	<div class="rt-container" >
 		<div class="col-rt-12">
-			<a href='#Rodeira'>
+			<a href='#Rodeira' id="#Rodeira">
 				<p>Playa de Rodeira (Cangas do Morrazo)</p>
 			</a>
 			<div style="visibility: hidden" id="Rodeira-unavailable"><img width="100" src=img/unavailable.png></div>
@@ -212,13 +216,28 @@
 	getTemperatura('Rodeira-temperatura', 42.261714, -8.770230);
 	getPrevision(3600803, 'Rodeira-prevision', 29);
 
+	function sleep(ms) {
+		return new Promise(resolve => setTimeout(resolve, ms));
+	}
+	async function goto(id) {
+		var x = 0;
+		while (x < 60000) {
+			if (total_elementos <= 0)
+				break
+			// sleep 300 ms
+			console.log(id + " -> " + total_elementos);
+			await sleep(300);
+			x += 500;
+		}
+		console.log("Goto " + id);
+		document.getElementById(id).scrollIntoView();
+		location.href = id;
+	}
+
 	url = window.location.href;
 	const myArray = url.split("#");
 	if (myArray.length >= 2) {
-		const id = myArray[1]
-		document.getElementById('#'+id).scrollIntoView();
-		setTimeout( document.getElementById('#'+id).scrollIntoView(), 2000);
+		const id = '#' + myArray[1];
+		goto(id);
 	}
-
-
 </script>

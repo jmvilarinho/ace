@@ -334,7 +334,7 @@ async function noPrevision(element, idmareas = 0) {
 	keyDiv.style.textAlign = "center";
 	const mainDiv = document.getElementById(element);
 	mainDiv.appendChild(keyDiv);
-
+	total_elementos = total_elementos - 1;
 }
 
 function getPrevisionDatos(data, element, idmareas) {
@@ -417,6 +417,7 @@ async function createPrevision(data, element, idmareas) {
 	keyDiv.style.textAlign = "center";
 	const mainDiv = document.getElementById(element);
 	mainDiv.appendChild(keyDiv);
+	total_elementos = total_elementos - 1;
 }
 
 

@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 15/01/2025 20:01:08",
+    "author": "Vila - 16/01/2025 11:00:41",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -359,8 +359,8 @@
                     "embed": "false"
                 },
                 {
-                    "name": "Copa Especial",
-                    "url": "acestream://938a1f2260df6cbc4a3fc2bacea323ab3ecf1788",
+                    "name": "Copa Especial 15-01-2025",
+                    "url": "acestream://f785c45f32379c3b0e332c20bbd05a7fb311e8d1",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },

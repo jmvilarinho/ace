@@ -70,6 +70,9 @@ function show_portada_equipo(data, cod_equipo) {
 			var now = new Date(Date.now());
 			//now = new Date('18-03-2024'.replace(pattern, '$3-$2-$1 12:00'));
 			if (isSameWeek(dt, now)) {
+				if ( mostrado ){
+					$('#results').append('<hr>');
+				}
 				mostrado = true;
 				show_portada_data('Xornada actual (#' + item2.nombre_jornada + ')', 'main_table_1', item2, item.cod_competicion, item.cod_grupo, data.nombre_equipo, cod_equipo);
 
@@ -77,7 +80,7 @@ function show_portada_equipo(data, cod_equipo) {
 					$('#results').append('<br>');
 					show_portada_data('Xornada anterior (#' + previous.nombre_jornada + ')', 'main_table_2', previous, undefined, undefined, undefined, cod_equipo);
 				}
-				return false;
+				//return false;
 			}
 			previous = item2;
 		});

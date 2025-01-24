@@ -147,7 +147,7 @@ function show_portada_equipo_favoritos(data, cod_equipo) {
 						data: date_obj.getTime(),
 						html: show_portada_data_favoritos(title, cod_equipo, item, date_obj.getTime())
 					});
-					return false;
+					//return false;
 				}
 				previous = item;
 			});

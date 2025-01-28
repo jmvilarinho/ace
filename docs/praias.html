@@ -42,17 +42,28 @@
 				<source />
 				<p>Your browser does not support H.264/MP4.</p>
 			</video>
+			<div id="Menduina-alternative">
+				<a href='#Menduina' id="#Menduina">
+					<p>Menduina (Ría de Aldan)</p>
+				</a>
+			</div>
+			<div style="visibility: hidden" id="Menduina-unavailable"><img width="100" src=img/unavailable.png></div>
+			<video controls id="Menduina">
+				<source />
+				<p>Your browser does not support H.264/MP4.</p>
+			</video>
 			<div id='Lapaman-temperatura'></div>
 			<div id='Lapaman-prevision'></div>
 		</div>
 	</div>
 </section>
 <script>
-	var url = 'https://wow.camaramar.com/camaramar/48_menduina.stream/playlist.m3u8';
+	var url = 'https://www.meteogalicia.gal/datosred/infoweb/clima/webcams/Aguete2/ultima.jpg';
 	//var url = 'https://wow.camaramar.com/VODgrabaciones/meteo_Aguete2.mp4/playlist.m3u8';
-	url = 'https://www.meteogalicia.gal/datosred/infoweb/clima/webcams/Aguete2/ultima.jpg';
+	var url2 = 'https://wow.camaramar.com/camaramar/48_menduina.stream/playlist.m3u8';
 	var alternativeuri = 'https://www.meteogalicia.gal/datosred/infoweb/clima/webcams/Aguete2/ultima.jpg';
 	showVideo(url, 'Lapaman', 'Aguete (Ría de Pontevedra)', alternativeuri)
+	showVideo(url2, 'Menduina', 'Menduina (Ría de Aldan)', alternativeuri)
 	getTemperatura('Lapaman-temperatura', 42.342433, -8.752242);
 	getPrevision(3602606, 'Lapaman-prevision', 28);
 </script>

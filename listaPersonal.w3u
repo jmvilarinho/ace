@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 29/01/2025 20:03:39",
+    "author": "Vila - 30/01/2025 11:00:19",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -41,8 +41,20 @@
                     "embed": "false"
                 },
                 {
+                    "name": "M.L. Campeones 720",
+                    "url": "acestream://8edb264520569b2280c5e86b2dc734e120032903",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-01.png",
+                    "embed": "false"
+                },
+                {
                     "name": "M.L. Campeones 2 1080",
                     "url": "acestream://c070cdb701fc46bb79d17568d99fc64620443d63",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-02.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M.L. Campeones 2 1080 Multiaudio Especial 29/01/2025",
+                    "url": "acestream://5e0557c0a486f68b5b108c0d976dcfae922e2947",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-02.png",
                     "embed": "false"
                 },
@@ -409,6 +421,12 @@
                 {
                     "name": "M. Golf2 1080",
                     "url": "acestream://e258e75e0e802afa5fcc53d46b47d8801a254ad5",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M.L. Campeones  1080 Multiaudio Especial 29/01/2025",
+                    "url": "acestream://52cf67f7fccf4d9d4e1c9c31620f1b139be3f5b7",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },

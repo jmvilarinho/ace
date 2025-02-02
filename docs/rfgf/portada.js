@@ -53,6 +53,7 @@ async function load_tv_player(url) {
 					tvUrl = '<a href="' + url + element.id + '" target="_blank"><img class="escudo_widget" src=../img/television-icon-22175.png></a>';
 					try {
 						if (element.configuration.streaming.ssl_hls != undefined) {
+							//console.log(element.configuration.streaming);
 							tvUrl += ' - <a href=\'javascript:showVideo("' + element.configuration.streaming.ssl_hls + '");\'>' + element.title + '</a>';
 						}
 
@@ -76,6 +77,8 @@ async function showVideo(url) {
 
 	document.getElementById('video_div').style.visibility = "visible";
 	document.getElementById('video_div').style.height = "auto";
+
+	video.width = $(document).width();
 
 	if (Hls.isSupported()) {
 		console.log(url);
@@ -116,7 +119,7 @@ function show_portada_equipo(data, cod_equipo) {
 		if (tvUrl != '') {
 			tvdiv = '<div id=tvplayer><a href="' + tvUrl + '" target="_blank"><img class="escudo_widget" src=../img/television-icon-22175.png></a></div>';
 			load_tv_player(tvUrl);
-			video_layer ='<div id="video_div" style="height: 0px;visibility: hidden"><video controls id="video"><source /><p>Your browser does not support H.264/MP4.</p></video></div>';
+			video_layer ='<div id="video_div" style="height: 0px;visibility: hidden"><video controls id="video" width="640"><source /><p>Your browser does not support H.264/MP4.</p></video></div>';
 			tvdiv += video_layer;
 
 		} else {

@@ -1,0 +1,460 @@
+{
+    "estado": "1",
+    "sesion_ok": "1",
+    "nombre_competicion": "INFANTIL - PREFERENTE FUTGAL",
+    "codigo_competicion": "20005968",
+    "nombre_grupo": "GRUPO 1",
+    "codigo_grupo": "22293954",
+    "clasificacion_porteros": "0",
+    "visible_goleadores": "1",
+    "visible_clasificacion": "1",
+    "jornada": "14",
+    "nombre_jornada": "14",
+    "fecha_jornada": "21/12/2024",
+    "grupos_competicion": [
+        {
+            "codigo": "22293954",
+            "nombre": "GRUPO 1",
+            "orden": "0"
+        },
+        {
+            "codigo": "22293975",
+            "nombre": "GRUPO 2",
+            "orden": "2"
+        }
+    ],
+    "listado_jornadas": [
+        {
+            "estado": "1",
+            "sesion_ok": "1",
+            "jornadas": [
+                {
+                    "codjornada": "1",
+                    "nombre": "1 ",
+                    "fecha_jornada": "14-09-2024"
+                },
+                {
+                    "codjornada": "2",
+                    "nombre": "2 ",
+                    "fecha_jornada": "21-09-2024"
+                },
+                {
+                    "codjornada": "3",
+                    "nombre": "3 ",
+                    "fecha_jornada": "28-09-2024"
+                },
+                {
+                    "codjornada": "4",
+                    "nombre": "4 ",
+                    "fecha_jornada": "05-10-2024"
+                },
+                {
+                    "codjornada": "5",
+                    "nombre": "5 ",
+                    "fecha_jornada": "12-10-2024"
+                },
+                {
+                    "codjornada": "6",
+                    "nombre": "6 ",
+                    "fecha_jornada": "19-10-2024"
+                },
+                {
+                    "codjornada": "7",
+                    "nombre": "7 ",
+                    "fecha_jornada": "26-10-2024"
+                },
+                {
+                    "codjornada": "8",
+                    "nombre": "8 ",
+                    "fecha_jornada": "02-11-2024"
+                },
+                {
+                    "codjornada": "9",
+                    "nombre": "9 ",
+                    "fecha_jornada": "09-11-2024"
+                },
+                {
+                    "codjornada": "10",
+                    "nombre": "10 ",
+                    "fecha_jornada": "16-11-2024"
+                },
+                {
+                    "codjornada": "11",
+                    "nombre": "11 ",
+                    "fecha_jornada": "23-11-2024"
+                },
+                {
+                    "codjornada": "12",
+                    "nombre": "12 ",
+                    "fecha_jornada": "30-11-2024"
+                },
+                {
+                    "codjornada": "13",
+                    "nombre": "13 ",
+                    "fecha_jornada": "14-12-2024"
+                },
+                {
+                    "codjornada": "14",
+                    "nombre": "14 ",
+                    "fecha_jornada": "21-12-2024"
+                },
+                {
+                    "codjornada": "15",
+                    "nombre": "15 ",
+                    "fecha_jornada": "11-01-2025"
+                },
+                {
+                    "codjornada": "16",
+                    "nombre": "16 ",
+                    "fecha_jornada": "18-01-2025"
+                },
+                {
+                    "codjornada": "17",
+                    "nombre": "17 ",
+                    "fecha_jornada": "25-01-2025"
+                },
+                {
+                    "codjornada": "18",
+                    "nombre": "18 ",
+                    "fecha_jornada": "01-02-2025"
+                },
+                {
+                    "codjornada": "19",
+                    "nombre": "19 ",
+                    "fecha_jornada": "08-02-2025"
+                },
+                {
+                    "codjornada": "20",
+                    "nombre": "20 ",
+                    "fecha_jornada": "15-02-2025"
+                },
+                {
+                    "codjornada": "21",
+                    "nombre": "21 ",
+                    "fecha_jornada": "22-02-2025"
+                },
+                {
+                    "codjornada": "22",
+                    "nombre": "22 ",
+                    "fecha_jornada": "08-03-2025"
+                },
+                {
+                    "codjornada": "23",
+                    "nombre": "23 ",
+                    "fecha_jornada": "15-03-2025"
+                },
+                {
+                    "codjornada": "24",
+                    "nombre": "24 ",
+                    "fecha_jornada": "22-03-2025"
+                },
+                {
+                    "codjornada": "25",
+                    "nombre": "25 ",
+                    "fecha_jornada": "29-03-2025"
+                },
+                {
+                    "codjornada": "26",
+                    "nombre": "26 ",
+                    "fecha_jornada": "05-04-2025"
+                },
+                {
+                    "codjornada": "27",
+                    "nombre": "27 ",
+                    "fecha_jornada": "12-04-2025"
+                },
+                {
+                    "codjornada": "28",
+                    "nombre": "28 ",
+                    "fecha_jornada": "26-04-2025"
+                },
+                {
+                    "codjornada": "29",
+                    "nombre": "29 ",
+                    "fecha_jornada": "03-05-2025"
+                },
+                {
+                    "codjornada": "30",
+                    "nombre": "30 ",
+                    "fecha_jornada": "10-05-2025"
+                }
+            ],
+            "ttl": "172800000"
+        }
+    ],
+    "partidos": [
+        {
+            "codacta": "1169116",
+            "hay_actas": "1",
+            "acta_cerrada": "1",
+            "situacion_juego": "1",
+            "observaciones": "",
+            "hay_multimedia": "",
+            "codigos_album_videos": "",
+            "codigos_album_fotos": "",
+            "fecha": "21/12/2024",
+            "hora": "09:36",
+            "campojuego": "A Merced - Conxo",
+            "codigo_campo": "561",
+            "estado": "1",
+            "motivo_estado": "",
+            "partido_en_juego": "1",
+            "ResultadoProvisional": "0",
+            "arbitro": "GARCIA IGLESIAS, BRAIS",
+            "penaltis": "",
+            "ganado_et": "",
+            "equipo_ganador_et": "",
+            "CodEquipo_local": "2707",
+            "Nombre_equipo_local": "S.D. COMPOSTELA",
+            "url_img_local": "/pnfg/pimg/Clubes/00100_0001010839_logo___copia.jpg",
+            "Retirado_local": "0",
+            "Goles_casa": "3",
+            "penaltis_casa": "",
+            "CodEquipo_visitante": "469",
+            "Nombre_equipo_visitante": "VICTORIA F.C.",
+            "url_img_visitante": "/pnfg/pimg/Clubes/00100_0000600738_Victoria_FC.jpg",
+            "Retirado_visitante": "0",
+            "Goles_visitante": "0",
+            "penaltis_visitante": ""
+        },
+        {
+            "codacta": "1169117",
+            "hay_actas": "1",
+            "acta_cerrada": "1",
+            "situacion_juego": "1",
+            "observaciones": "",
+            "hay_multimedia": "",
+            "codigos_album_videos": "",
+            "codigos_album_fotos": "",
+            "fecha": "22/12/2024",
+            "hora": "10:00",
+            "campojuego": "Manuel Paz Nogueira-Fátima",
+            "codigo_campo": "628",
+            "estado": "1",
+            "motivo_estado": "",
+            "partido_en_juego": "1",
+            "ResultadoProvisional": "0",
+            "arbitro": "CARRILLO CHEKHOV, IVAN",
+            "penaltis": "",
+            "ganado_et": "",
+            "equipo_ganador_et": "",
+            "CodEquipo_local": "3509119",
+            "Nombre_equipo_local": "ATLETICO FATIMA",
+            "url_img_local": "/pnfg/pimg/Clubes/00100_0000662530_Escudo_ancho_66_pixels.jpg",
+            "Retirado_local": "0",
+            "Goles_casa": "1",
+            "penaltis_casa": "",
+            "CodEquipo_visitante": "3550183",
+            "Nombre_equipo_visitante": "E.F.M CONCELLO DE BOIRO",
+            "url_img_visitante": "/pnfg/pimg/Clubes/00100_0000934497_escudo.jpg",
+            "Retirado_visitante": "0",
+            "Goles_visitante": "2",
+            "penaltis_visitante": ""
+        },
+        {
+            "codacta": "1169118",
+            "hay_actas": "1",
+            "acta_cerrada": "1",
+            "situacion_juego": "1",
+            "observaciones": "",
+            "hay_multimedia": "",
+            "codigos_album_videos": "",
+            "codigos_album_fotos": "",
+            "fecha": "21/12/2024",
+            "hora": "10:30",
+            "campojuego": "Víctor Fernández Alonso - Antigua Leyma",
+            "codigo_campo": "235",
+            "estado": "1",
+            "motivo_estado": "",
+            "partido_en_juego": "1",
+            "ResultadoProvisional": "0",
+            "arbitro": "REY RODRIGUEZ, PABLO",
+            "penaltis": "",
+            "ganado_et": "",
+            "equipo_ganador_et": "",
+            "CodEquipo_local": "2153",
+            "Nombre_equipo_local": "C.D. CALASANZ",
+            "url_img_local": "/pnfg/pimg/Clubes/00100_0001120003_escudo_calasanz.jpg",
+            "Retirado_local": "0",
+            "Goles_casa": "3",
+            "penaltis_casa": "",
+            "CodEquipo_visitante": "294",
+            "Nombre_equipo_visitante": "SAN TIRSO S.D. 'B'",
+            "url_img_visitante": "/pnfg/pimg/Clubes/00100_0000916862_ESCUDO_20_21.jpg",
+            "Retirado_visitante": "0",
+            "Goles_visitante": "2",
+            "penaltis_visitante": ""
+        },
+        {
+            "codacta": "1169119",
+            "hay_actas": "1",
+            "acta_cerrada": "1",
+            "situacion_juego": "1",
+            "observaciones": "",
+            "hay_multimedia": "",
+            "codigos_album_videos": "",
+            "codigos_album_fotos": "",
+            "fecha": "21/12/2024",
+            "hora": "12:30",
+            "campojuego": "Municipal Marcos Gómez (Viveiro)",
+            "codigo_campo": "91",
+            "estado": "1",
+            "motivo_estado": "",
+            "partido_en_juego": "1",
+            "ResultadoProvisional": "0",
+            "arbitro": "LOPEZ MARTINEZ, RAUL",
+            "penaltis": "",
+            "ganado_et": "",
+            "equipo_ganador_et": "",
+            "CodEquipo_local": "5053405",
+            "Nombre_equipo_local": "S.D. VIVEIRO",
+            "url_img_local": "/pnfg/pimg/Clubes/00100_0000916034_ESCUDO_SD.jpg",
+            "Retirado_local": "0",
+            "Goles_casa": "1",
+            "penaltis_casa": "",
+            "CodEquipo_visitante": "2748",
+            "Nombre_equipo_visitante": "E.D. XUVENTUDE OROSO",
+            "url_img_visitante": "/pnfg/pimg/Clubes/00100_0000805018_Escudo_Xuventude_de_Oroso.png",
+            "Retirado_visitante": "0",
+            "Goles_visitante": "0",
+            "penaltis_visitante": ""
+        },
+        {
+            "codacta": "1169120",
+            "hay_actas": "1",
+            "acta_cerrada": "1",
+            "situacion_juego": "1",
+            "observaciones": "",
+            "hay_multimedia": "",
+            "codigos_album_videos": "",
+            "codigos_album_fotos": "",
+            "fecha": "21/12/2024",
+            "hora": "16:00",
+            "campojuego": "Municipal Caranza",
+            "codigo_campo": "370",
+            "estado": "1",
+            "motivo_estado": "",
+            "partido_en_juego": "1",
+            "ResultadoProvisional": "0",
+            "arbitro": "PADIN PITA, MARCOS",
+            "penaltis": "",
+            "ganado_et": "",
+            "equipo_ganador_et": "",
+            "CodEquipo_local": "633",
+            "Nombre_equipo_local": "GALICIA DE CARANZA",
+            "url_img_local": "/pnfg/pimg/Clubes/00100_0001017519_Escudo_Galicia.png",
+            "Retirado_local": "0",
+            "Goles_casa": "5",
+            "penaltis_casa": "",
+            "CodEquipo_visitante": "3541",
+            "Nombre_equipo_visitante": "EF POLVORIN",
+            "url_img_visitante": "/pnfg/pimg/Clubes/00100_0000606112_2.png",
+            "Retirado_visitante": "0",
+            "Goles_visitante": "1",
+            "penaltis_visitante": ""
+        },
+        {
+            "codacta": "1169121",
+            "hay_actas": "1",
+            "acta_cerrada": "1",
+            "situacion_juego": "1",
+            "observaciones": "",
+            "hay_multimedia": "",
+            "codigos_album_videos": "",
+            "codigos_album_fotos": "",
+            "fecha": "21/12/2024",
+            "hora": "12:20",
+            "campojuego": "San Pedro de Visma 1",
+            "codigo_campo": "7111189",
+            "estado": "1",
+            "motivo_estado": "",
+            "partido_en_juego": "1",
+            "ResultadoProvisional": "0",
+            "arbitro": "GARCIA MOSQUERA, ALEJANDRO",
+            "penaltis": "",
+            "ganado_et": "",
+            "equipo_ganador_et": "",
+            "CodEquipo_local": "11292341",
+            "Nombre_equipo_local": "URAL ESPAÑOL C.F.",
+            "url_img_local": "/pnfg/pimg/Clubes/00100_0000891301_ESCUDO_URAL_B.jpg",
+            "Retirado_local": "0",
+            "Goles_casa": "3",
+            "penaltis_casa": "",
+            "CodEquipo_visitante": "1770",
+            "Nombre_equipo_visitante": "BERTAMIRANS F.C.",
+            "url_img_visitante": "/pnfg/pimg/Clubes/00100_0000912389_ESCUDO_BFC.jpeg",
+            "Retirado_visitante": "0",
+            "Goles_visitante": "0",
+            "penaltis_visitante": ""
+        },
+        {
+            "codacta": "1169122",
+            "hay_actas": "1",
+            "acta_cerrada": "1",
+            "situacion_juego": "1",
+            "observaciones": "",
+            "hay_multimedia": "",
+            "codigos_album_videos": "",
+            "codigos_album_fotos": "",
+            "fecha": "22/12/2024",
+            "hora": "11:00",
+            "campojuego": "A Cheda",
+            "codigo_campo": "9",
+            "estado": "1",
+            "motivo_estado": "",
+            "partido_en_juego": "1",
+            "ResultadoProvisional": "0",
+            "arbitro": "CRESPO GAMEZ, FABIO",
+            "penaltis": "",
+            "ganado_et": "",
+            "equipo_ganador_et": "",
+            "CodEquipo_local": "3185",
+            "Nombre_equipo_local": "S.D. RESIDENCIA",
+            "url_img_local": "/pnfg/pimg/Clubes/00100_0000001753_SDC_RESIDENCIA_OFICIAL_mini.jpg",
+            "Retirado_local": "0",
+            "Goles_casa": "2",
+            "penaltis_casa": "",
+            "CodEquipo_visitante": "448",
+            "Nombre_equipo_visitante": "OZA JUVENIL S.D.",
+            "url_img_visitante": "/pnfg/pimg/Clubes/00100_0000734970_00100_0000629374_Untitled_-_1.jpg",
+            "Retirado_visitante": "0",
+            "Goles_visitante": "1",
+            "penaltis_visitante": ""
+        },
+        {
+            "codacta": "1169123",
+            "hay_actas": "1",
+            "acta_cerrada": "1",
+            "situacion_juego": "1",
+            "observaciones": "",
+            "hay_multimedia": "",
+            "codigos_album_videos": "",
+            "codigos_album_fotos": "",
+            "fecha": "21/12/2024",
+            "hora": "11:30",
+            "campojuego": "Mcpal. Manuel Regueiro - Antiguo Figueroa",
+            "codigo_campo": "637",
+            "estado": "1",
+            "motivo_estado": "",
+            "partido_en_juego": "1",
+            "ResultadoProvisional": "0",
+            "arbitro": "CASTRO CASTRO, MIGUEL ANGEL",
+            "penaltis": "",
+            "ganado_et": "",
+            "equipo_ganador_et": "",
+            "CodEquipo_local": "5015126",
+            "Nombre_equipo_local": "ESCOLA ESTRADA FUTBOL BASE",
+            "url_img_local": "/pnfg/pimg/Clubes/00100_0000639247_ESCU_ESCO.jpg",
+            "Retirado_local": "0",
+            "Goles_casa": "1",
+            "penaltis_casa": "",
+            "CodEquipo_visitante": "1808",
+            "Nombre_equipo_visitante": "BERGANTIÑOS C.F.",
+            "url_img_visitante": "/pnfg/pimg/Clubes/00100_0001036938_escudo_bergan_png.png",
+            "Retirado_visitante": "0",
+            "Goles_visitante": "6",
+            "penaltis_visitante": ""
+        }
+    ],
+    "ttl": "300000"
+}

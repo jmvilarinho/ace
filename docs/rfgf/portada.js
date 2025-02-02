@@ -38,7 +38,7 @@ async function load_portada(cod_equipo, addHistory = true) {
 
 async function load_tv_player(url) {
 	var url_search = 'https://streamer-cdn.ott.tiivii.com/v2/sgca/ott_tiivii/search?sort=-created_on&page=1&limit=100&searchin=title,tags&filter[status]=published&filter[value][contains]=Jogafan%20Ordes%20FS';
-	console.log(url_search);
+
 	await fetch(url_search)
 		.then(response => {
 			if (!response.ok) {
@@ -50,10 +50,16 @@ async function load_tv_player(url) {
 			if (data) {
 				if (data.data.length > 0) {
 					element = data.data[0];
-					tvUrl = '<a href="' + url +element.id + '" target="_blank"><img class="escudo_widget" src=../img/television-icon-22175.png></a>';
-					console.log(element)
-					console.log(element.id)
-					console.log(tvUrl)
+					tvUrl = '<a href="' + url + element.id + '" target="_blank"><img class="escudo_widget" src=../img/television-icon-22175.png></a>';
+					try {
+						if (element.configuration.streaming.ssl_hls != undefined) {
+							tvUrl += ' - <a href=\'javascript:showVideo("' + element.configuration.streaming.ssl_hls + '");\'>' + element.title + '</a>';
+						}
+
+
+					} catch (e) {
+						console.log(e);
+					}
 					$('#tvplayer').html(tvUrl);
 				}
 			} else {
@@ -63,6 +69,36 @@ async function load_tv_player(url) {
 		.catch(error => {
 			console.error('Fetch error:', error.message);  // Log the error
 		});
+}
+
+async function showVideo(url) {
+	var video = document.getElementById('video');
+
+	document.getElementById('video_div').style.visibility = "visible";
+	document.getElementById('video_div').style.height = "auto";
+
+	if (Hls.isSupported()) {
+		console.log(url);
+		var hls = new Hls({
+			debug: false,
+		});
+		hls.loadSource(url);
+		hls.attachMedia(video);
+		hls.on(Hls.Events.MEDIA_ATTACHED, function () {
+			video.muted = false;
+			video.play();
+		});
+	}
+	// hls.js is not supported on platforms that do not have Media Source Extensions (MSE) enabled.
+	// When the browser has built-in HLS support (check using `canPlayType`), we can provide an HLS manifest (i.e. .m3u8 URL) directly to the video element through the `src` property.
+	// This is using the built-in support of the plain video element, without using hls.js.
+	else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+		video.src = url;
+		video.addEventListener('canplay', function () {
+			video.play();
+		});
+	}
+
 }
 
 function show_portada_equipo(data, cod_equipo) {
@@ -80,8 +116,11 @@ function show_portada_equipo(data, cod_equipo) {
 		if (tvUrl != '') {
 			tvdiv = '<div id=tvplayer><a href="' + tvUrl + '" target="_blank"><img class="escudo_widget" src=../img/television-icon-22175.png></a></div>';
 			load_tv_player(tvUrl);
-		} else{
-			tvdiv='';
+			video_layer ='<div id="video_div" style="height: 0px;visibility: hidden"><video controls id="video"><source /><p>Your browser does not support H.264/MP4.</p></video></div>';
+			tvdiv += video_layer;
+
+		} else {
+			tvdiv = '';
 		}
 		$('#results').append(data.nombre_equipo + ' - <b>' + item.competicion + '</b> ' + tvdiv + '<br>');
 		if (!version_reducida) {

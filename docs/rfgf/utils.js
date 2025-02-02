@@ -293,6 +293,17 @@ function getClubName(cod_club, defaultName) {
 		return 'undef';
 }
 
+function getEquipoTV(cod_club, defaultName) {
+	var arrayLength = equipos.length;
+	for (var i = 0; i < arrayLength; i++) {
+		if (equipos[i].id == cod_club &&  equipos[i].tv != undefined)
+			return equipos[i].tv;
+	}
+	if (typeof (defaultName) !== "undefined" && defaultName !== null )
+		return defaultName;
+	else
+		return 'undef';
+}
 
 /* Set the width of the side navigation to 250px */
 function openNav() {

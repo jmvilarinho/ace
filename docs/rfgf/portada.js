@@ -20,7 +20,7 @@ async function load_portada(cod_equipo, addHistory = true) {
 				show_error(data);
 				$('#results').html('');
 				if ('src_url' in data['data']) {
-					$('#ref_msg').html('<p style="font-size:12px;"><a href="'+data['data']['src_url']+'" target="copyright" rel="noopener">Información obtida de RFGF</a></p>');
+					$('#ref_msg').html('<p style="font-size:12px;"><a href="' + data['data']['src_url'] + '" target="copyright" rel="noopener">Información obtida de RFGF</a></p>');
 				}
 				add_back();
 				show_portada_equipo(data.data, cod_equipo);
@@ -36,6 +36,35 @@ async function load_portada(cod_equipo, addHistory = true) {
 	hideLoading();
 }
 
+async function load_tv_player(url) {
+	var url_search = 'https://streamer-cdn.ott.tiivii.com/v2/sgca/ott_tiivii/search?sort=-created_on&page=1&limit=100&searchin=title,tags&filter[status]=published&filter[value][contains]=Jogafan%20Ordes%20FS';
+	console.log(url_search);
+	await fetch(url_search)
+		.then(response => {
+			if (!response.ok) {
+				throw new Error('Network response was not ok');  // Handle HTTP errors
+			}
+			return response.json();
+		})
+		.then(data => {
+			if (data) {
+				if (data.data.length > 0) {
+					element = data.data[0];
+					tvUrl = '<a href="' + url +element.id + '" target="_blank"><img class="escudo_widget" src=../img/television-icon-22175.png></a>';
+					console.log(element)
+					console.log(element.id)
+					console.log(tvUrl)
+					$('#tvplayer').html(tvUrl);
+				}
+			} else {
+				throw new Error('No data found in response');
+			}
+		})
+		.catch(error => {
+			console.error('Fetch error:', error.message);  // Log the error
+		});
+}
+
 function show_portada_equipo(data, cod_equipo) {
 	lineas = 0;
 	$('#results').append('<br>');
@@ -47,7 +76,14 @@ function show_portada_equipo(data, cod_equipo) {
 			$('#results').append('<br><hr>');
 
 		setCookie('nombre_equipo', data.nombre_equipo, 30)
-		$('#results').append(data.nombre_equipo + ' - <b>' + item.competicion + '</b><br>');
+		tvUrl = getEquipoTV(cod_equipo, '');
+		if (tvUrl != '') {
+			tvdiv = '<div id=tvplayer><a href="' + tvUrl + '" target="_blank"><img class="escudo_widget" src=../img/television-icon-22175.png></a></div>';
+			load_tv_player(tvUrl);
+		} else{
+			tvdiv='';
+		}
+		$('#results').append(data.nombre_equipo + ' - <b>' + item.competicion + '</b> ' + tvdiv + '<br>');
 		if (!version_reducida) {
 			var boton_plantilla = $('<input/>').attr({
 				type: "button",
@@ -70,7 +106,7 @@ function show_portada_equipo(data, cod_equipo) {
 			var now = new Date(Date.now());
 			//now = new Date('18-03-2024'.replace(pattern, '$3-$2-$1 12:00'));
 			if (isSameWeek(dt, now)) {
-				if ( mostrado ){
+				if (mostrado) {
 					$('#results').append('<hr>');
 				}
 				mostrado = true;

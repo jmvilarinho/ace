@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 11/02/2025 22:31:34",
+    "author": "Vila - 11/02/2025 23:09:42",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -145,6 +145,12 @@
                 {
                     "name": "LaLiga Smartbank 720",
                     "url": "acestream://121f719ebb94193c6086ef92865cf9b197750980",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Liga de Campeones",
+                    "url": "acestream://e572a5178ff72eed7d1d751a18b4b3419699f370",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 }

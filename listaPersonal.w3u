@@ -1,55 +1,151 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 12/02/2025 08:35:38",
+    "author": "Vila - 12/02/2025 08:39:48",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
     "telegram": "vikinko21",
     "groups": [
         {
+            "name": "Eurosport",
+            "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-eurosport.png",
+            "stations": [
+                {
+                    "name": "EuroSport 1 1080",
+                    "url": "acestream://5e4cd48c79f991fcbee2de8b9d30c4b16de3b952",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-es-eurosport-1-615.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "EuroSport 1 1080 - bd7c",
+                    "url": "acestream://f233f3a8e9ddfae2e43d919789073fc17d9bbd7c",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-es-eurosport-1-615.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "EUROSPORT 1 FHD por Tronoss",
+                    "url": "acestream://b16eeeb12d208029eff3dcc9e73613fd8b052737",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-es-eurosport-1-615.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "EuroSport 2 1080",
+                    "url": "acestream://c373da9e901d414b7384e671112e64d5a2310c29",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-es-eurosport-2-616.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "EuroSport 2 1080 - 09fe",
+                    "url": "acestream://3e0df5e0e93cc867022e320afef0aaecda9509fe",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-es-eurosport-2-616.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "EUROSPORT 2 FHD por Tronoss",
+                    "url": "acestream://dfdf5353080a7e3d0f4b4c8e3cf4e0be19731652",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-es-eurosport-2-616.png",
+                    "embed": "false"
+                }
+            ]
+        },
+        {
             "name": "M.L. Campeones",
             "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-00.png",
             "stations": [
                 {
-                    "name": "M.L. Campeones 2 - d3a0",
+                    "name": "M+ LIGA DE CAMPEONES 2 FHD por Tronoss",
                     "url": "acestream://061bda6fe2e50c509afd83f63a601e139d75d3a0",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-02.png",
                     "embed": "false"
                 },
                 {
-                    "name": "M.L. Campeones 3",
+                    "name": "M+ LIGA DE CAMPEONES 2 UHD por Tronoss",
+                    "url": "acestream://8e4ab34c7fe491831734bc677b7bf91555653eb3",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-02.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M+ LIGA DE CAMPEONES 3 FHD por Tronoss",
                     "url": "acestream://e42984ac6529407462f92201af95c01db8988368",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-03.png",
                     "embed": "false"
                 },
                 {
-                    "name": "M.L. Campeones 4",
+                    "name": "M+ LIGA DE CAMPEONES 4 FHD por Tronoss",
                     "url": "acestream://01152274037c5f7155489e0a977cbde71a61290c",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-04.png",
                     "embed": "false"
                 },
                 {
-                    "name": "M.L. Campeones 5",
+                    "name": "M+ LIGA DE CAMPEONES 5 FHD por Tronoss",
                     "url": "acestream://cc910aee690f70190b04920d61e39da5a6d0a057",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-05.png",
                     "embed": "false"
                 },
                 {
-                    "name": "M.L. Campeones 6",
-                    "url": "acestream://7aded197b3e03057d5b27a27db981ef5eefd95fd",
+                    "name": "M+ LIGA DE CAMPEONES 6 FHD por Tronoss",
+                    "url": "acestream://a5fab130ebf491c04d8c0dcd2adce9babcd39e69",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-06.png",
                     "embed": "false"
                 },
                 {
-                    "name": "M.L. Campeones 7",
-                    "url": "acestream://2e2ef8a653d36192d881a438c0578381ff39b5ea",
+                    "name": "M+ LIGA DE CAMPEONES 7 FHD por Tronoss",
+                    "url": "acestream://1987ec4c561f7e47a1d02a8de1665f71934406b3",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-07.png",
                     "embed": "false"
                 },
                 {
-                    "name": "M.L. Campeones 8",
-                    "url": "acestream://7ca2282e0b700429e991152a82427a37583c5f5f",
+                    "name": "M+ LIGA DE CAMPEONES 8 FHD por Tronoss",
+                    "url": "acestream://834ffb208d132aeb78c4b13209af71be7ec578c6",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-08.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M+ LIGA DE CAMPEONES 9 FHD por Tronoss",
+                    "url": "acestream://6d69b67507dda888dadb5ea9df951249b73ca00c",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-09.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M+ LIGA DE CAMPEONES 10 FHD por Tronoss",
+                    "url": "acestream://64954ce664a3f68e271aee5f83094a19fac4416b",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-10.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M+ LIGA DE CAMPEONES 11 FHD por Tronoss",
+                    "url": "acestream://bb5e72b45383cb4d02e6f414f9119bb5d6386b9e",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-11.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M+ LIGA DE CAMPEONES 12 FHD por Tronoss",
+                    "url": "acestream://6739e6aa99e81f0ed1cecb88c5f1ab1dd9dd3fa8",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-12.png",
+                    "embed": "false"
+                }
+            ]
+        },
+        {
+            "name": "Movistar Plus+",
+            "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-plus-1475.png",
+            "stations": [
+                {
+                    "name": "#VAMOS ELLAS  FHD por Tronoss",
+                    "url": "acestream://f317a4fef0b96caabaaad25cadb5f45303544767",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-vamos.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "#VAMOS FHD (SAT) por Tronoss",
+                    "url": "acestream://8c1e181e99425c729cdf12c21fccaf07ea106a49",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-vamos.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "#VAMOS FHD por Tronoss",
+                    "url": "acestream://7ea69506cdde10da9d85a2414310a7e5afcdba19",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-vamos.png",
                     "embed": "false"
                 }
             ]
@@ -63,6 +159,18 @@
                     "url": "acestream://e72d03fb9694164317260f684470be9ab781ed95",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-us-nba-tv.png",
                     "embed": "false"
+                },
+                {
+                    "name": "NBA NETWORK por Tronoss",
+                    "url": "acestream://8aa5c652b7e8e94c45e37eb5b60aef9dcd37839e",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-us-nba-tv.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "NBA TV por Tronoss",
+                    "url": "acestream://7146e467aee3cb0bcdc286b39a3022c992428f01",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-us-nba-tv.png",
+                    "embed": "false"
                 }
             ]
         },
@@ -72,79 +180,121 @@
             "stations": [
                 {
                     "name": "DAZN 1",
-                    "url": "acestream://0908f5dd264ded10b638636cb7479409cfee0813",
+                    "url": "acestream://d5b2c6b940cf3df5e8f9dc6f000f0ea23a10b151",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-0.png",
                     "embed": "false"
                 },
                 {
                     "name": "DAZN 2",
-                    "url": "acestream://b056dfc53c18de02caeff4435ddb6b36bfb7b031",
+                    "url": "acestream://b0eabe0fdd02fdd165896236765a9b753a2ff516",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-0.png",
                     "embed": "false"
                 },
                 {
                     "name": "DAZN 3",
-                    "url": "acestream://b11dd020fc6e89b39b69c1f3bef032be72286e72",
+                    "url": "acestream://d1d9ec2361a6ac8edc0b2841866383768cc28df9",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-0.png",
                     "embed": "false"
                 },
                 {
                     "name": "DAZN 4",
-                    "url": "acestream://ddb1d0ff24955582668c0c6e4d4fb3d58cc4b65e",
+                    "url": "acestream://7e90956539f4e1318a63f3960e4f75c7c7c5a3b8",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-0.png",
                     "embed": "false"
                 },
                 {
-                    "name": "DAZN eventos 1",
+                    "name": "DAZN BUNDESLIGA 1 FHD por Tronoss",
+                    "url": "acestream://4fa5fb9ab4a3213f7ffe2dfa2ca2d3740f8fd61d",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-0.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "DAZN BUNDESLIGA 2 FHD por Tronoss",
+                    "url": "acestream://f67f95bcb185c3d62d532425709908be86bd442c",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-0.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "DAZN BUNDESLIGA 3 FHD por Tronoss",
+                    "url": "acestream://2c3e87e1aed5285c9a06d74cd29132c0f7520c09",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-0.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "DAZN EVENTOS 1 por Tronoss",
                     "url": "acestream://413ee8ca35110147e6644e7c3eed37eff46ba222",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-0.png",
                     "embed": "false"
                 },
                 {
-                    "name": "DAZN eventos 2",
-                    "url": "acestream://120dfcbe17c8c4ea2ae3fb7e50b1dbf9eb4a1ad0",
+                    "name": "DAZN EVENTOS 2 por Tronoss",
+                    "url": "acestream://e58b91034d2b9521de2ad91077f8dc565dcdb97b",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-0.png",
                     "embed": "false"
                 },
                 {
-                    "name": "DAZN eventos 3",
+                    "name": "DAZN EVENTOS 3 por Tronoss",
                     "url": "acestream://ea00d98ceb524da4ef7f2f0733661dbb31e48f7b",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-0.png",
                     "embed": "false"
                 },
                 {
-                    "name": "DAZN 1 - 801d",
-                    "url": "acestream://7f1bfe707b05074dcbc63f49692a637fff88801d",
+                    "name": "DAZN LA LIGA 2 FHD por Tronoss",
+                    "url": "acestream://c79b272e20f31d1be9103f582e87209a06a63927",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-0.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "DAZN LA LIGA FHD (SAT) por Tronoss",
+                    "url": "acestream://28c8115681bf6e4565cb5e987530c2f606cc561f",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-0.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "DAZN LIGA FHD por Tronoss",
+                    "url": "acestream://dad36d37fa74b94e345bb014d82d820e54fb69d8",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-0.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "DAZN 1 BAR FHD por Tronoss",
+                    "url": "acestream://0908f5dd264ded10b638636cb7479409cfee0813",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-1-es-2510.png",
                     "embed": "false"
                 },
                 {
-                    "name": "DAZN 1 - 993d",
+                    "name": "DAZN 1 FHD (SAT) por Tronoss",
+                    "url": "acestream://e253307f495a6beeda976d2363d72501f2dc1fe3",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-1-es-2510.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "DAZN 1 FHD por Tronoss",
                     "url": "acestream://e6121426f7d8007ae9de8e782f05d91e9b27993d",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-1-es-2510.png",
                     "embed": "false"
                 },
                 {
-                    "name": "DAZN 1 - b151",
-                    "url": "acestream://d5b2c6b940cf3df5e8f9dc6f000f0ea23a10b151",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-1-es-2510.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "DAZN 2 - f516",
-                    "url": "acestream://b0eabe0fdd02fdd165896236765a9b753a2ff516",
+                    "name": "DAZN 2 BAR FHD por Tronoss",
+                    "url": "acestream://17dc260a6b6c176183807e659817b647ddca465b",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-2-es-2511.png",
                     "embed": "false"
                 },
                 {
-                    "name": "DAZN 3 - 8df9",
-                    "url": "acestream://d1d9ec2361a6ac8edc0b2841866383768cc28df9",
+                    "name": "DAZN 2 FHD por Tronoss",
+                    "url": "acestream://b056dfc53c18de02caeff4435ddb6b36bfb7b031",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-2-es-2511.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "DAZN 3 FHD por Tronoss",
+                    "url": "acestream://b11dd020fc6e89b39b69c1f3bef032be72286e72",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-3-es-2524.png",
                     "embed": "false"
                 },
                 {
-                    "name": "DAZN 4 - a3b8",
-                    "url": "acestream://7e90956539f4e1318a63f3960e4f75c7c7c5a3b8",
+                    "name": "DAZN 4 FHD por Tronoss",
+                    "url": "acestream://ddb1d0ff24955582668c0c6e4d4fb3d58cc4b65e",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-4-es-2525.png",
                     "embed": "false"
                 }
@@ -156,25 +306,25 @@
             "stations": [
                 {
                     "name": "DAZN F1",
-                    "url": "acestream://0390f35108dd054332097af5fcb53a192d0289bf",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-formula-1-366.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "DAZN F1 - 4be2",
                     "url": "acestream://d65257bb934b73647374224fd62d836815804be2",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-formula-1-366.png",
                     "embed": "false"
                 },
                 {
-                    "name": "DAZN F1 - 660b",
-                    "url": "acestream://e41352c657506cfe6eecc4f17982f69275f1660b",
+                    "name": "DAZN F1 - 89bf",
+                    "url": "acestream://0390f35108dd054332097af5fcb53a192d0289bf",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-formula-1-366.png",
                     "embed": "false"
                 },
                 {
-                    "name": "DAZN F1 - b088",
-                    "url": "acestream://e53cba0be75d9a0f1e58f33af4cd525c5cfdb088",
+                    "name": "DAZN F1 FHD (SAT) por Tronoss",
+                    "url": "acestream://37875b8c4e71b3daca16e03070968e0f6344ba4c",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-formula-1-366.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "DAZN F1 FHD por Tronoss",
+                    "url": "acestream://e41352c657506cfe6eecc4f17982f69275f1660b",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-formula-1-366.png",
                     "embed": "false"
                 }
@@ -187,18 +337,6 @@
                 {
                     "name": "DAZN LaLiga 1 1080",
                     "url": "acestream://6af858dff80a87e247c6ad681aa5adf09f988d1e",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-0.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "DAZN LaLiga 1 1080 - 561f",
-                    "url": "acestream://28c8115681bf6e4565cb5e987530c2f606cc561f",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-0.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "DAZN LaLiga 1 1080 - d6cb",
-                    "url": "acestream://f509888b9c39e8de6e275b19796d6cac5f3fd6cb",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-0.png",
                     "embed": "false"
                 },
@@ -227,12 +365,6 @@
                     "embed": "false"
                 },
                 {
-                    "name": "DAZN LaLiga 2 1080",
-                    "url": "acestream://c79b272e20f31d1be9103f582e87209a06a63927",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-2.png",
-                    "embed": "false"
-                },
-                {
                     "name": "DAZN LaLiga 2 1080 MultiAudio",
                     "url": "acestream://97ba38d47680954be40e48bd8f43e17222fefecb",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-2.png",
@@ -245,15 +377,33 @@
                     "embed": "false"
                 },
                 {
+                    "name": "DAZN LaLiga 3",
+                    "url": "acestream://3d0b2395098452617097896abb38956965b8a396",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-3.png",
+                    "embed": "false"
+                },
+                {
                     "name": "DAZN LaLiga 3 1080",
                     "url": "acestream://8c71f0e0a5476e10950fc827f9d2a507340aba74",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-3.png",
                     "embed": "false"
                 },
                 {
+                    "name": "DAZN LaLiga 4",
+                    "url": "acestream://6e97745e481ee0be3b48720d4bfead7da2f08689",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-4.png",
+                    "embed": "false"
+                },
+                {
                     "name": "DAZN LaLiga 4 1080",
                     "url": "acestream://2792a8a5f4a3f53cd72dec377a2639cd12a6973e",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-4.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "DAZN LaLiga 5",
+                    "url": "acestream://45db6feb1a8da2690a948532efd771992a7ea7c9",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-5.png",
                     "embed": "false"
                 },
                 {
@@ -265,39 +415,9 @@
             ]
         },
         {
-            "name": "L.L. TVBar",
-            "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-la-liga-tv-bar.png",
-            "stations": [
-                {
-                    "name": "LaLiga TV BAR",
-                    "url": "acestream://608b0faf7d3d25f6fe5dba13d5e4b4142949990e",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laligatv-bar-2505.png",
-                    "embed": "false"
-                }
-            ]
-        },
-        {
             "name": "LaLiga Hypermotion",
             "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-hypermotion-0.png",
             "stations": [
-                {
-                    "name": "LaLiga Hypermotion 1080 MultiAudio",
-                    "url": "acestream://b2706a7ffbea236a3b398139a3a606ada664c0eb",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-hypermotion-1.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "LaLiga Hypermotion 2 1080",
-                    "url": "acestream://7f7eaa56f11249f7b92b6287c4cd5d58dc77a61a",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-hypermotion-2.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "LaLiga Hypermotion 3 1080",
-                    "url": "acestream://f93741dc38bac456018fe9906a4689c2c6405716",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-hypermotion-3.png",
-                    "embed": "false"
-                },
                 {
                     "name": "LaLiga Hypermotion 4",
                     "url": "acestream://ef3a9359800bba51018fe00ac84afb8e79a7bbf2",
@@ -335,9 +455,9 @@
             "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-0.png",
             "stations": [
                 {
-                    "name": "M. Deportes 1 - f684",
-                    "url": "acestream://81c467f75aa3e4b02361730bb8973ca2234cf684",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-1.png",
+                    "name": "M+ DEPORTES 2 FHD por Tronoss",
+                    "url": "acestream://43931a2672086891ce4f6d6b4128e005e8038959",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-2.png",
                     "embed": "false"
                 },
                 {
@@ -347,33 +467,27 @@
                     "embed": "false"
                 },
                 {
-                    "name": "M. Deportes 2 - a020",
-                    "url": "acestream://911b6c35f4802fd358b78b328528af4650eca020",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-2.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "M. Deportes 3 1080",
-                    "url": "acestream://dba6e81dab3150e40ca49bef03f931a990bb93ea",
+                    "name": "M+ DEPORTES 3 FHD  por Tronoss",
+                    "url": "acestream://fb27c753c690bf21edcf527f42cd14c5c9e6b53e",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-3.png",
                     "embed": "false"
                 },
                 {
-                    "name": "M. Deportes 4 1080",
-                    "url": "acestream://77b36b785e84efa9a41d2a1ef90dd9652b8d2916",
+                    "name": "M+ DEPORTES 4 FHD por Tronoss",
+                    "url": "acestream://f36a4e0ef1fbd63757130284e9a6c3b7c212a421",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-4.png",
                     "embed": "false"
                 },
                 {
-                    "name": "M. Deportes 5 1080",
-                    "url": "acestream://5ff896ae397b57a68435b25cde2937fac3e6cec1",
+                    "name": "M+ DEPORTES 5 HD por Tronoss",
+                    "url": "acestream://34b38986ac5e6e842f954f0dd25b2798be70b276",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-5.png",
                     "embed": "false"
                 },
                 {
-                    "name": "M. Deportes 6 1080",
-                    "url": "acestream://7ba003da71c2af61e5dd16c75ca025494769aa88",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-6.png",
+                    "name": "M. Deportes 7 1080",
+                    "url": "acestream://070f82d6443a52962d6a2ed9954c979b29404932",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-7.png",
                     "embed": "false"
                 }
             ]
@@ -401,6 +515,12 @@
                     "embed": "false"
                 },
                 {
+                    "name": "M+ LaLiga 2 FHD por Tronoss",
+                    "url": "acestream://aeb4beec9a3639f1bed7bd56a20f3afe7186cae3",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-2.png",
+                    "embed": "false"
+                },
+                {
                     "name": "M. LaLiga 2 1080",
                     "url": "acestream://83c6c4942d69f4aa324aa746c5d7dbfd7d1572b3",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-2.png",
@@ -416,6 +536,12 @@
                     "name": "M. LaLiga 2 720",
                     "url": "acestream://f31a586422c9244196c810c84b6c85da350318a5",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-2.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M+ LaLiga 3 FHD por Tronoss",
+                    "url": "acestream://bfa4d2ce53fd25488828a3a1070cd7d194b265af",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-3.png",
                     "embed": "false"
                 },
                 {
@@ -435,18 +561,6 @@
                     "url": "acestream://68697ea4f261289d97bbc3418ad3cbc4180aa32f",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-4.png",
                     "embed": "false"
-                },
-                {
-                    "name": "M. LaLiga 5 1080",
-                    "url": "acestream://535394f62a810bc5aeb25be75ea5ff7d03e070b2",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-5.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "M. LaLiga 6 1080",
-                    "url": "acestream://c896d37778f9e43549a788fc22206a655895b51b",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-6.png",
-                    "embed": "false"
                 }
             ]
         },
@@ -455,8 +569,14 @@
             "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
             "stations": [
                 {
-                    "name": "Antena 3 1080",
+                    "name": "ANTENA 3 FHD por Tronoss",
                     "url": "acestream://a6cfb25becd96cbe9d1929e0e560016beac40887",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "bb8506403e19f80ab66e431f2a4c74089a909d06",
+                    "url": "acestream://5a412fd44a1f46f3446988ddeed658d861dd6b70",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -479,26 +599,8 @@
                     "embed": "false"
                 },
                 {
-                    "name": "Copa - 99fb",
-                    "url": "acestream://25181134e74e9af67c27d6af8489d08179b599fb",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "Copa - c808",
-                    "url": "acestream://6118cada4cbe7650eeb21d170e184c26a4cdc808",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "Cuatro 1080",
+                    "name": "CUATRO FHD por Tronoss",
                     "url": "acestream://de6527833ce8e62aa0af3e64891e6e1f250726e0",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "Ellas Vamos",
-                    "url": "acestream://e871097e11dc05086e945bd715e854be3c3c4082",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -515,14 +617,68 @@
                     "embed": "false"
                 },
                 {
-                    "name": "EuroSport 1",
-                    "url": "acestream://b16eeeb12d208029eff3dcc9e73613fd8b052737",
+                    "name": "EuroSport 3 1080",
+                    "url": "acestream://a62c010c71bfb76b18188f108c3cc4541c34f45e",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
                 {
-                    "name": "EuroSport 2",
-                    "url": "acestream://dfdf5353080a7e3d0f4b4c8e3cf4e0be19731652",
+                    "name": "EuroSport 4 1080",
+                    "url": "acestream://76a482a4cb53fc28518187c6b814f136b3db3c95",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "EuroSport 4K",
+                    "url": "acestream://63135c171f056d1d6028f9ffb1637ed704b88a20",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "EuroSport 5 1080",
+                    "url": "acestream://914ce366baec9b0fb3523dd7ba762a44b597fc40",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "EuroSport 7 1080",
+                    "url": "acestream://e899a4f1e20f7ce1b39cc529dc237fc29a21855f",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "EuroSport 8 1080",
+                    "url": "acestream://721a78f2076faa584c9c09059ffb4e10159f4665",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "EuroSport 9 1080",
+                    "url": "acestream://dd9c56ef2f09753c59d9c2e2d2af31aeea6451c0",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "EUROSPORT UHD por Tronoss",
+                    "url": "acestream://4b26063cd70fc709d63e0410d7603c515da5baf7",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "F1 TV 14 | Fernando Alonso | Aston Martin por Tronoss",
+                    "url": "acestream://e25d7b28f6858aeda8fdc5928f186ab11f1d6b0c",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "F1 TV 55 | Carlos Sainz | Williams por Tronoss",
+                    "url": "acestream://acf763bf9127ad753fa61227a3565e6557467354",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Gol Play FHD por Tronoss",
+                    "url": "acestream://f5be5fe6063db01a7587c37acf57fcadabea560a",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -533,13 +689,19 @@
                     "embed": "false"
                 },
                 {
-                    "name": "La 1 1080 - 7835",
+                    "name": "LA 1 FHD por Tronoss",
                     "url": "acestream://71abebf150324106df1d9dc25e34dd8840217835",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
                 {
                     "name": "La 2 1080",
+                    "url": "acestream://60106275d34f995e26bb2cc4a21a42f586c6c555",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "LA 2 FHD por Tronoss",
                     "url": "acestream://d27e23deffb2314a9549b00d62fade1e2e38ed60",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
@@ -557,20 +719,20 @@
                     "embed": "false"
                 },
                 {
-                    "name": "La Liga BAR 1080 - e952",
-                    "url": "acestream://954b2cb573313690f2a6d6a2e70102fb49ace952",
+                    "name": "La Liga BAR 1080 - 990e",
+                    "url": "acestream://608b0faf7d3d25f6fe5dba13d5e4b4142949990e",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
                 {
-                    "name": "La Sexta 1080",
+                    "name": "LA SEXTA FHD por Tronoss",
                     "url": "acestream://906191eed84a42d83939fd150ee3c04834bc0533",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
                 {
                     "name": "LaLiga Hypermotion 1 1080",
-                    "url": "acestream://c0f89f060d5134c855b6e3cc707c42ed0bf92498",
+                    "url": "acestream://b2706a7ffbea236a3b398139a3a606ada664c0eb",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -599,6 +761,36 @@
                     "embed": "false"
                 },
                 {
+                    "name": "LALIGA HYPERMOTION TV 3 FHD de Tronoss",
+                    "url": "acestream://f93741dc38bac456018fe9906a4689c2c6405716",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "LALIGA HYPERMOTION TV FHD de Tronoss",
+                    "url": "acestream://c0f89f060d5134c855b6e3cc707c42ed0bf92498",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "LALIGA HYPERMOTION TV2 HD de Tronoss",
+                    "url": "acestream://7f7eaa56f11249f7b92b6287c4cd5d58dc77a61a",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "LALIGA HYPERMOTION TV4 FHD de Tronoss",
+                    "url": "acestream://9bbbaec25775a0c47b07ceb547fe5e017c169729",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "LALIGA HYPERMOTION TV5 FHD de Tronoss",
+                    "url": "acestream://8656b8874dbb8f52911ca0ad6e1e3d177526508f",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
                     "name": "LaLiga Smartbank 2 1080",
                     "url": "acestream://0cfdfde1b70623b8c210b0f7301be2a87456481d",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
@@ -623,26 +815,104 @@
                     "embed": "false"
                 },
                 {
-                    "name": "M+ Plus+",
-                    "url": "acestream://bf270b6486daf3a2aa54bc027fd7cb02401a447a",
+                    "name": "M+ ACCION FHD por Tronoss",
+                    "url": "acestream://2d904318a20e89de0f6540f3e8c210e1376d5e51",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
                 {
-                    "name": "M+ Plus+ 2",
-                    "url": "acestream://0ab6bab2334d442b68671cc86c4243f2b0bf1290",
+                    "name": "M+ DEPORTES FHD por Tronoss",
+                    "url": "acestream://ce65932b1113ec32c270050786d7702897150d74",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
                 {
-                    "name": "M. Acción",
-                    "url": "acestream://a5e21f79ebd21c2562019ceefd9a7e21c8e2f6a5",
+                    "name": "M+ LaLiga FHD (SAT) por Tronoss",
+                    "url": "acestream://b8370220a0338f9eb4728467111a2bce1033b80b",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
                 {
-                    "name": "M. Clásicos",
-                    "url": "acestream://26c63851b7a0de9efed907571b19d342fc8d6765",
+                    "name": "M+ LaLiga FHD por Tronoss",
+                    "url": "acestream://f5fcacb60627d6319b89942391e441d179dbb9d9",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M+ LaLiga UHD por Tronoss",
+                    "url": "acestream://63b976bbf9bbd0c37117880b8b33702b95357ef3",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M+ LIGA DE CAMPEONES 13 FHD por Tronoss",
+                    "url": "acestream://30449c4944faf74a675392b292661dc4988e7798",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M+ LIGA DE CAMPEONES 14 SD por Tronoss",
+                    "url": "acestream://b149283faf12a9e574380c7ad1eb227261eaca85",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M+ LIGA DE CAMPEONES 15 SD por Tronoss",
+                    "url": "acestream://bb8506403e19f80ab66e431f2a4c74089a909d06",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M+ LIGA DE CAMPEONES 17 SD por Tronoss",
+                    "url": "acestream://be4381d1d5203fc0c4879a097277bd7683235650",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M+ LIGA DE CAMPEONES FHD (SAT) por Tronoss",
+                    "url": "acestream://38d0b187d3cf396695bbb2166a09f57736276e2e",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M+ LIGA DE CAMPEONES FHD por Tronoss",
+                    "url": "acestream://4e3302991c482dff2e10de69795fa5aa87a61ae7",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M+ LIGA DE CAMPEONES UHD por Tronoss",
+                    "url": "acestream://be5cf4441685df4540a34938fb3774818fa62310",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M+ PLUS 2 FHD por Tronoss",
+                    "url": "acestream://70c25bf1843b81356d62ebffbba267be60066659",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M+ PLUS FHD por Tronoss",
+                    "url": "acestream://682579275d24fa95964f99f3778bdd22c211c6b9",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M+ Super Copa (SAT) por Tronoss",
+                    "url": "acestream://894afd347da576af7bbfc0b986485581b8df151b",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M+ Super Copa por Tronoss",
+                    "url": "acestream://6118cada4cbe7650eeb21d170e184c26a4cdc808",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M+ SuperCopa del Rey FHD por Tronoss",
+                    "url": "acestream://d282167ec84abdb4f5ed4c4856ea4284ac00991f",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -660,25 +930,7 @@
                 },
                 {
                     "name": "M. Golf",
-                    "url": "acestream://e2a05b5dad62f8dd20822c08fc9fd5dc2245c512",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "M. Golf - 9afb",
                     "url": "acestream://872608e734992db636eb79426802cd08f4029afb",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "M. Golf 2",
-                    "url": "acestream://11078aceacd1be758f4c953a437fc1ecb8eca730",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "M. Hits",
-                    "url": "acestream://14767834db41c572ab83b80f7eadc3ba78a2ced0",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -690,19 +942,13 @@
                 },
                 {
                     "name": "M. LaLiga 1 1080",
-                    "url": "acestream://4f416d74e9feb1812f7d10c637e46d40ebab3e2b",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "M. LaLiga 1 1080 - 6428",
                     "url": "acestream://f5a769b1d4d97673dcaae415bf197706a8056428",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
                 {
-                    "name": "M. LaLiga 1 1080 - 998f",
-                    "url": "acestream://7fc274f1bccb3d755c8e0760459bd81056eb998f",
+                    "name": "M. LaLiga 1 1080 - 3e2b",
+                    "url": "acestream://4f416d74e9feb1812f7d10c637e46d40ebab3e2b",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -719,8 +965,14 @@
                     "embed": "false"
                 },
                 {
-                    "name": "M. LaLiga 1 UHD",
-                    "url": "acestream://7138311a683384297b7ba47020badf454a4376aa",
+                    "name": "M. LaLiga 5",
+                    "url": "acestream://535394f62a810bc5aeb25be75ea5ff7d03e070b2",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M. LaLiga 6",
+                    "url": "acestream://c896d37778f9e43549a788fc22206a655895b51b",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -731,50 +983,86 @@
                     "embed": "false"
                 },
                 {
-                    "name": "M.L. Campeones 1",
-                    "url": "acestream://9796f85036cb987fa21ef70e4b5e608e06f0c29d",
+                    "name": "MGPTV | Camara de a bordo 1 por Tronoss",
+                    "url": "acestream://a5cf46320fe405803a6304c2ea764313351b0158",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
                 {
-                    "name": "M.L. Campeones 1 - 1ae7",
-                    "url": "acestream://4e3302991c482dff2e10de69795fa5aa87a61ae7",
+                    "name": "MGPTV | Camara de a bordo 2 por Tronoss",
+                    "url": "acestream://2adc28203c35993aa9bccd2e1e5b0015ec0c878b",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
                 {
-                    "name": "M.L. Campeones 2",
-                    "url": "acestream://e3f891c3dd120b4b1dab40e5c932ac65873a0465",
+                    "name": "MGPTV | Camara de a bordo 3 por Tronoss",
+                    "url": "acestream://7a8c76faf27e39efd0535de43fb11d18e1ef043b",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
                 {
-                    "name": "Telecinco 1080",
+                    "name": "MGPTV | Camara de a bordo 4 por Tronoss",
+                    "url": "acestream://a98becd43a2e6ec6a643cb12851d31203756bba5",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "MOVISTAR CLASICOS FHD por Tronoss",
+                    "url": "acestream://26c63851b7a0de9efed907571b19d342fc8d6765",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "MOVISTAR GOLF 2 FHD por Tronoss",
+                    "url": "acestream://11078aceacd1be758f4c953a437fc1ecb8eca730",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "MOVISTAR GOLF FHD por Tronoss",
+                    "url": "acestream://e2a05b5dad62f8dd20822c08fc9fd5dc2245c512",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "MOVISTAR SERIES FHD por Tronoss",
+                    "url": "acestream://14767834db41c572ab83b80f7eadc3ba78a2ced0",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "TELECINCO FHD por Tronoss",
                     "url": "acestream://e53c497c3a56968bc11fa3771c813fc740e355e3",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
                 {
-                    "name": "Teledeporte 1080",
-                    "url": "acestream://c5745486f47a7871419a848bca50fd636a743d15",
+                    "name": "Teledeporte FHD por Tronoss",
+                    "url": "acestream://2c5a883ed564be5ff3692705c25556613c395b11",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "UFC 24/7",
+                    "url": "acestream://008722562de872871b879d9d0cab4fb4b79784b2",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "UFC Fight Pass por Tronoss",
+                    "url": "acestream://e3ad553098e0c1e70cba1ea2a906dc27aa3452a2",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "UFC TV",
+                    "url": "acestream://c73e3eefe1f4a90fd7495f8be2d5f772d758713b",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
                 {
                     "name": "Vamos",
                     "url": "acestream://0b7057503d40a24417441484479cfe2d0eceb2fd",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "Vamos - bc4b",
-                    "url": "acestream://6d949579bc230abff933d5ac242961319bbebc4b",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "Vamos - ddbe",
-                    "url": "acestream://b16127ba49c5065b877cb2d4073f2a4bb9a1ddbe",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 }

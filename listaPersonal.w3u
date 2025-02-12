@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 12/02/2025 10:09:07",
+    "author": "Vila - 12/02/2025 11:00:25",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -107,6 +107,12 @@
                     "embed": "false"
                 },
                 {
+                    "name": "M+ LIGA DE CAMPEONES FHD por Adrián",
+                    "url": "acestream://04f9f66c3dd1d9226f2d4a500bec97c55ee3256a",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-01.png",
+                    "embed": "false"
+                },
+                {
                     "name": "M+ LIGA DE CAMPEONES FHD por Tronoss",
                     "url": "acestream://4e3302991c482dff2e10de69795fa5aa87a61ae7",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-01.png",
@@ -128,6 +134,12 @@
                     "name": "M.L. Campeones 1",
                     "url": "acestream://9796f85036cb987fa21ef70e4b5e608e06f0c29d",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-01.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M+ LIGA DE CAMPEONES 2 FHD por Adrián",
+                    "url": "acestream://d1632b993ac2f980f601e1026b3966654a93beee",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-02.png",
                     "embed": "false"
                 },
                 {

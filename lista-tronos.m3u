@@ -86,6 +86,8 @@ acestream://acb510858f34c3c6fd5f79395b031abd6885c2b3
 acestream://e572a5178ff72eed7d1d751a18b4b3419699f370
 #EXTINF:-1 tvg-logo="https://i.ibb.co/2Ndmtbp/f1.png" group-title="F1" tvg-id="DAZN F1 HD", DAZN F1
 acestream://d65257bb934b73647374224fd62d836815804be2
+#EXTINF:-1 tvg-logo="https://i.ibb.co/2Ndmtbp/f1.png" group-title="F1" tvg-id="DAZN F1 HD", DAZN F1 FHD por Adrián
+acestream://1b8069f8c8cb18d565c1c776b6620bbed32b789c
 #EXTINF:-1 tvg-logo="https://i.ibb.co/8bSvSX3/golf.png" group-title="Otros" tvg-id="M+ Golf HD", M. Golf
 acestream://872608e734992db636eb79426802cd08f4029afb
 #EXTINF:-1 tvg-logo="https://i.ibb.co/FVzKq1y/dazn1.png" group-title="Dazn" tvg-id="DAZN 1 HD", DAZN 1
@@ -181,13 +183,13 @@ acestream://be5cf4441685df4540a34938fb3774818fa62310
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/M%2B%20Liga%20de%20Campeones.png" group-title="M Campeones" tvg-id="M+ Liga de Campeones HD", M+ LIGA DE CAMPEONES FHD por Tronoss
 acestream://4e3302991c482dff2e10de69795fa5aa87a61ae7
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/M%2B%20Liga%20de%20Campeones.png" group-title="M Campeones" tvg-id="M+ Liga de Campeones HD", M+ LIGA DE CAMPEONES FHD por Adrián
-acestream://04f9f66c3dd1d9226f2d4a500bec97c55ee3256a
+acestream://c9c6e562d63019f283415540827c7bce5704f54d
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/M%2B%20Liga%20de%20Campeones.png" group-title="M Campeones" tvg-id="M+ Liga de Campeones HD", M+ LIGA DE CAMPEONES FHD (SAT) por Tronoss
 acestream://38d0b187d3cf396695bbb2166a09f57736276e2e
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/M%2B%20Liga%20de%20Campeones%202.png" group-title="M Campeones" tvg-id="M+ Liga de Campeones 2 HD", M+ LIGA DE CAMPEONES 2 FHD por Tronoss
 acestream://061bda6fe2e50c509afd83f63a601e139d75d3a0
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/M%2B%20Liga%20de%20Campeones%202.png" group-title="M Campeones" tvg-id="M+ Liga de Campeones 2 HD", M+ LIGA DE CAMPEONES 2 FHD por Adrián
-acestream://d1632b993ac2f980f601e1026b3966654a93beee
+acestream://1b16e6969c9170273cf7e08abe0b919db3e9351f
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/M%2B%20Liga%20de%20Campeones%202.png" group-title="M Campeones" tvg-id="M+ Liga de Campeones 2 HD", M+ LIGA DE CAMPEONES 2 UHD por Tronoss
 acestream://8e4ab34c7fe491831734bc677b7bf91555653eb3
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/M%2B%20Liga%20de%20Campeones%203.png" group-title="M Campeones" tvg-id="M+ Liga de Campeones 3 HD", M+ LIGA DE CAMPEONES 3 FHD por Tronoss
@@ -249,6 +251,8 @@ acestream://34b38986ac5e6e842f954f0dd25b2798be70b276
 acestream://8c1e181e99425c729cdf12c21fccaf07ea106a49
 #EXTINF:-1 tvg-logo="https://i.ibb.co/gWMRpFB/vamos.png" group-title="Vamos" tvg-id="M+ Vamos HD", #VAMOS FHD por Tronoss
 acestream://7ea69506cdde10da9d85a2414310a7e5afcdba19
+#EXTINF:-1 tvg-logo="https://i.ibb.co/gWMRpFB/vamos.png" group-title="Vamos" tvg-id="M+ Vamos HD", #VAMOS FHD por Adrián
+acestream://472b73d3c63fe53c3a95644f20aab65b31a6e506
 #EXTINF:-1 tvg-logo="https://i.ibb.co/rx9hnHz/ellas.png" group-title="Vamos" tvg-id="M+ Ellas Vamos HD", #VAMOS ELLAS  FHD por Tronoss
 acestream://f317a4fef0b96caabaaad25cadb5f45303544767
 #EXTINF:-1 tvg-logo="https://i.ibb.co/hFYPWbpJ/plus.png" group-title="Otros" tvg-id="Movistar Plus+ HD", M+ PLUS FHD por Tronoss

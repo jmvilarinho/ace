@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 12/02/2025 16:00:27",
+    "author": "Vila - 12/02/2025 20:00:25",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -108,7 +108,7 @@
                 },
                 {
                     "name": "M+ LIGA DE CAMPEONES FHD por Adrián",
-                    "url": "acestream://04f9f66c3dd1d9226f2d4a500bec97c55ee3256a",
+                    "url": "acestream://c9c6e562d63019f283415540827c7bce5704f54d",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-01.png",
                     "embed": "false"
                 },
@@ -138,7 +138,7 @@
                 },
                 {
                     "name": "M+ LIGA DE CAMPEONES 2 FHD por Adrián",
-                    "url": "acestream://d1632b993ac2f980f601e1026b3966654a93beee",
+                    "url": "acestream://1b16e6969c9170273cf7e08abe0b919db3e9351f",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-02.png",
                     "embed": "false"
                 },
@@ -247,6 +247,12 @@
                 {
                     "name": "#VAMOS FHD (SAT) por Tronoss",
                     "url": "acestream://8c1e181e99425c729cdf12c21fccaf07ea106a49",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-vamos.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "#VAMOS FHD por Adrián",
+                    "url": "acestream://472b73d3c63fe53c3a95644f20aab65b31a6e506",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-vamos.png",
                     "embed": "false"
                 },
@@ -445,6 +451,12 @@
                 {
                     "name": "DAZN F1 FHD (SAT) por Tronoss",
                     "url": "acestream://37875b8c4e71b3daca16e03070968e0f6344ba4c",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-formula-1-366.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "DAZN F1 FHD por Adrián",
+                    "url": "acestream://1b8069f8c8cb18d565c1c776b6620bbed32b789c",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-formula-1-366.png",
                     "embed": "false"
                 },

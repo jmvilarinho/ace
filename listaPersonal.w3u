@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 12/02/2025 09:37:43",
+    "author": "Vila - 12/02/2025 09:54:27",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -52,6 +52,18 @@
             "name": "M.L. Campeones",
             "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-00.png",
             "stations": [
+                {
+                    "name": "M+ LIGA DE CAMPEONES FHD (SAT) por Tronoss",
+                    "url": "acestream://38d0b187d3cf396695bbb2166a09f57736276e2e",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-01.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M+ LIGA DE CAMPEONES FHD por Tronoss",
+                    "url": "acestream://4e3302991c482dff2e10de69795fa5aa87a61ae7",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-01.png",
+                    "embed": "false"
+                },
                 {
                     "name": "M+ LIGA DE CAMPEONES 2 FHD por Tronoss",
                     "url": "acestream://061bda6fe2e50c509afd83f63a601e139d75d3a0",
@@ -961,18 +973,6 @@
                 {
                     "name": "M+ LIGA DE CAMPEONES 17 SD por Tronoss",
                     "url": "acestream://be4381d1d5203fc0c4879a097277bd7683235650",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "M+ LIGA DE CAMPEONES FHD (SAT) por Tronoss",
-                    "url": "acestream://38d0b187d3cf396695bbb2166a09f57736276e2e",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "M+ LIGA DE CAMPEONES FHD por Tronoss",
-                    "url": "acestream://4e3302991c482dff2e10de69795fa5aa87a61ae7",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },

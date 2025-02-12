@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 12/02/2025 10:07:27",
+    "author": "Vila - 12/02/2025 10:09:07",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -85,6 +85,12 @@
                 {
                     "name": "EuroSport 9 1080",
                     "url": "acestream://dd9c56ef2f09753c59d9c2e2d2af31aeea6451c0",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-eurosport.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "EUROSPORT UHD por Tronoss",
+                    "url": "acestream://4b26063cd70fc709d63e0410d7603c515da5baf7",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-eurosport.png",
                     "embed": "false"
                 }
@@ -817,12 +823,6 @@
                 {
                     "name": "ETB 2",
                     "url": "acestream://621f7215bb1f5593aa118e8540a1bb3aac11ffe4",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "EUROSPORT UHD por Tronoss",
-                    "url": "acestream://4b26063cd70fc709d63e0410d7603c515da5baf7",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },

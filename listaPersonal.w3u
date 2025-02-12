@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 12/02/2025 09:54:27",
+    "author": "Vila - 12/02/2025 09:58:37",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -61,6 +61,24 @@
                 {
                     "name": "M+ LIGA DE CAMPEONES FHD por Tronoss",
                     "url": "acestream://4e3302991c482dff2e10de69795fa5aa87a61ae7",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-01.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M+ LIGA DE CAMPEONES UHD por Tronoss",
+                    "url": "acestream://be5cf4441685df4540a34938fb3774818fa62310",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-01.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M.L. Campeones",
+                    "url": "acestream://e572a5178ff72eed7d1d751a18b4b3419699f370",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-01.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M.L. Campeones 1",
+                    "url": "acestream://9796f85036cb987fa21ef70e4b5e608e06f0c29d",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-01.png",
                     "embed": "false"
                 },
@@ -977,12 +995,6 @@
                     "embed": "false"
                 },
                 {
-                    "name": "M+ LIGA DE CAMPEONES UHD por Tronoss",
-                    "url": "acestream://be5cf4441685df4540a34938fb3774818fa62310",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
                     "name": "M+ PLUS 2 FHD por Tronoss",
                     "url": "acestream://70c25bf1843b81356d62ebffbba267be60066659",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
@@ -1099,18 +1111,6 @@
                 {
                     "name": "M. LaLiga 6",
                     "url": "acestream://c896d37778f9e43549a788fc22206a655895b51b",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "M.L. Campeones",
-                    "url": "acestream://e572a5178ff72eed7d1d751a18b4b3419699f370",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "M.L. Campeones 1",
-                    "url": "acestream://9796f85036cb987fa21ef70e4b5e608e06f0c29d",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },

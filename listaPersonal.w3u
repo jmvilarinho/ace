@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 13/02/2025 10:40:43",
+    "author": "Vila - 13/02/2025 10:42:18",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -262,6 +262,18 @@
             "name": "Movistar Plus+",
             "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-plus-1475.png",
             "stations": [
+                {
+                    "name": "M+ Plus+",
+                    "url": "acestream://bf270b6486daf3a2aa54bc027fd7cb02401a447a",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-plus-1475.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M+ Plus+ 2",
+                    "url": "acestream://0ab6bab2334d442b68671cc86c4243f2b0bf1290",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-plus-1475.png",
+                    "embed": "false"
+                },
                 {
                     "name": "#VAMOS ELLAS  FHD por Tronoss",
                     "url": "acestream://f317a4fef0b96caabaaad25cadb5f45303544767",
@@ -1087,18 +1099,6 @@
                 {
                     "name": "M+ PLUS FHD por Tronoss",
                     "url": "acestream://682579275d24fa95964f99f3778bdd22c211c6b9",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "M+ Plus+",
-                    "url": "acestream://bf270b6486daf3a2aa54bc027fd7cb02401a447a",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "M+ Plus+ 2",
-                    "url": "acestream://0ab6bab2334d442b68671cc86c4243f2b0bf1290",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },

@@ -20,8 +20,8 @@ http://127.0.0.1:6878/ace/getstream?id=cc910aee690f70190b04920d61e39da5a6d0a057&
 http://127.0.0.1:6878/ace/getstream?id=30449c4944faf74a675392b292661dc4988e7798&.mp4
 #EXTINF:-1 tvg-id="M+ Vamos" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-vamos.png" group-title="Movistar Plus+" tvg-name="#VAMOS FHD (SAT) por Tronoss",#VAMOS FHD (SAT) por Tronoss
 http://127.0.0.1:6878/ace/getstream?id=8c1e181e99425c729cdf12c21fccaf07ea106a49&.mp4
-#EXTINF:-1 tvg-id="Movistar plus+" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-plus-1475.png" group-title="Movistar Plus+" tvg-name="M+ Plus+",M+ Plus+
-http://127.0.0.1:6878/ace/getstream?id=bf270b6486daf3a2aa54bc027fd7cb02401a447a&.mp4
+#EXTINF:-1 tvg-id="Movistar plus+" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-plus-1475.png" group-title="Movistar Plus+" tvg-name="M+ PLUS FHD por Tronoss",M+ PLUS FHD por Tronoss
+http://127.0.0.1:6878/ace/getstream?id=682579275d24fa95964f99f3778bdd22c211c6b9&.mp4
 #EXTINF:-1 tvg-id="I156.32281.schedulesdirect.org" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-us-nba-tv.png" group-title="NBA" tvg-name="NBA TV por Tronoss",NBA TV por Tronoss
 http://127.0.0.1:6878/ace/getstream?id=7146e467aee3cb0bcdc286b39a3022c992428f01&.mp4
 #EXTINF:-1 tvg-id="DAZN 1" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-1-es-2510.png" group-title="DAZN" tvg-name="DAZN 1 BAR FHD por Tronoss",DAZN 1 BAR FHD por Tronoss

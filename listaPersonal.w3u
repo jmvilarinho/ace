@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 13/02/2025 09:28:35",
+    "author": "Vila - 13/02/2025 10:31:17",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -605,6 +605,66 @@
             "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-hypermotion-0.png",
             "stations": [
                 {
+                    "name": "LaLiga Hypermotion 1 1080",
+                    "url": "acestream://b2706a7ffbea236a3b398139a3a606ada664c0eb",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-hypermotion-0.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "LaLiga Hypermotion 10",
+                    "url": "acestream://629222201d6e36cc0f4ab6244362de32bed783b2",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-hypermotion-0.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "LaLiga Hypermotion 11",
+                    "url": "acestream://d6ecda8ad7be7a9a4de3767eb40569b73b738cb4",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-hypermotion-0.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "LaLiga Hypermotion 12",
+                    "url": "acestream://7b975804279b0aa421496538ad21397cc06ddfb8",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-hypermotion-0.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "LaLiga Hypermotion 9",
+                    "url": "acestream://0fd11e74d20919c25d2c5d96ba6f7fc7532394c1",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-hypermotion-0.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "LALIGA HYPERMOTION TV 3 FHD de Tronoss",
+                    "url": "acestream://f93741dc38bac456018fe9906a4689c2c6405716",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-hypermotion-0.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "LALIGA HYPERMOTION TV FHD de Tronoss",
+                    "url": "acestream://c0f89f060d5134c855b6e3cc707c42ed0bf92498",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-hypermotion-0.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "LALIGA HYPERMOTION TV2 HD de Tronoss",
+                    "url": "acestream://7f7eaa56f11249f7b92b6287c4cd5d58dc77a61a",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-hypermotion-0.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "LALIGA HYPERMOTION TV4 FHD de Tronoss",
+                    "url": "acestream://9bbbaec25775a0c47b07ceb547fe5e017c169729",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-hypermotion-0.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "LALIGA HYPERMOTION TV5 FHD de Tronoss",
+                    "url": "acestream://8656b8874dbb8f52911ca0ad6e1e3d177526508f",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-hypermotion-0.png",
+                    "embed": "false"
+                },
+                {
                     "name": "LaLiga Hypermotion 4",
                     "url": "acestream://ef3a9359800bba51018fe00ac84afb8e79a7bbf2",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-hypermotion-4.png",
@@ -925,66 +985,6 @@
                 {
                     "name": "LA SEXTA FHD por Tronoss",
                     "url": "acestream://906191eed84a42d83939fd150ee3c04834bc0533",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "LaLiga Hypermotion 1 1080",
-                    "url": "acestream://b2706a7ffbea236a3b398139a3a606ada664c0eb",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "LaLiga Hypermotion 10",
-                    "url": "acestream://629222201d6e36cc0f4ab6244362de32bed783b2",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "LaLiga Hypermotion 11",
-                    "url": "acestream://d6ecda8ad7be7a9a4de3767eb40569b73b738cb4",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "LaLiga Hypermotion 12",
-                    "url": "acestream://7b975804279b0aa421496538ad21397cc06ddfb8",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "LaLiga Hypermotion 9",
-                    "url": "acestream://0fd11e74d20919c25d2c5d96ba6f7fc7532394c1",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "LALIGA HYPERMOTION TV 3 FHD de Tronoss",
-                    "url": "acestream://f93741dc38bac456018fe9906a4689c2c6405716",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "LALIGA HYPERMOTION TV FHD de Tronoss",
-                    "url": "acestream://c0f89f060d5134c855b6e3cc707c42ed0bf92498",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "LALIGA HYPERMOTION TV2 HD de Tronoss",
-                    "url": "acestream://7f7eaa56f11249f7b92b6287c4cd5d58dc77a61a",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "LALIGA HYPERMOTION TV4 FHD de Tronoss",
-                    "url": "acestream://9bbbaec25775a0c47b07ceb547fe5e017c169729",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "LALIGA HYPERMOTION TV5 FHD de Tronoss",
-                    "url": "acestream://8656b8874dbb8f52911ca0ad6e1e3d177526508f",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },

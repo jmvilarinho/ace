@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 13/02/2025 10:43:04",
+    "author": "Vila - 13/02/2025 10:45:06",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -175,6 +175,12 @@
                 {
                     "name": "M+ LIGA DE CAMPEONES 2 UHD por Tronoss",
                     "url": "acestream://8e4ab34c7fe491831734bc677b7bf91555653eb3",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-02.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M.L. Campeones 2",
+                    "url": "acestream://e3f891c3dd120b4b1dab40e5c932ac65873a0465",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-02.png",
                     "embed": "false"
                 },
@@ -767,6 +773,42 @@
             "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-0.png",
             "stations": [
                 {
+                    "name": "M+ DEPORTES 2 FHD por Tronoss",
+                    "url": "acestream://43931a2672086891ce4f6d6b4128e005e8038959",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-1.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M+ DEPORTES 3 FHD  por Tronoss",
+                    "url": "acestream://fb27c753c690bf21edcf527f42cd14c5c9e6b53e",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-1.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M+ DEPORTES 4 FHD por Tronoss",
+                    "url": "acestream://f36a4e0ef1fbd63757130284e9a6c3b7c212a421",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-1.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M+ DEPORTES 5 HD por Tronoss",
+                    "url": "acestream://34b38986ac5e6e842f954f0dd25b2798be70b276",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-1.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M+ DEPORTES FHD por Tronoss",
+                    "url": "acestream://ce65932b1113ec32c270050786d7702897150d74",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-1.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M. Deportes",
+                    "url": "acestream://acb510858f34c3c6fd5f79395b031abd6885c2b3",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-1.png",
+                    "embed": "false"
+                },
+                {
                     "name": "M. Deportes 1",
                     "url": "acestream://dca9d8b0be1a5d68c929f5cebb61b82a4f62a307",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-1.png",
@@ -779,69 +821,45 @@
                     "embed": "false"
                 },
                 {
-                    "name": "M+ DEPORTES 2 FHD por Tronoss",
-                    "url": "acestream://43931a2672086891ce4f6d6b4128e005e8038959",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-2.png",
-                    "embed": "false"
-                },
-                {
                     "name": "M. Deportes 2",
                     "url": "acestream://a54aed5e91e4a99a3582551db44fd472e1addda6",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-2.png",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-1.png",
                     "embed": "false"
                 },
                 {
                     "name": "M. Deportes 2 - a020",
                     "url": "acestream://911b6c35f4802fd358b78b328528af4650eca020",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-2.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "M+ DEPORTES 3 FHD  por Tronoss",
-                    "url": "acestream://fb27c753c690bf21edcf527f42cd14c5c9e6b53e",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-3.png",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-1.png",
                     "embed": "false"
                 },
                 {
                     "name": "M. Deportes 3 1080",
                     "url": "acestream://dba6e81dab3150e40ca49bef03f931a990bb93ea",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-3.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "M+ DEPORTES 4 FHD por Tronoss",
-                    "url": "acestream://f36a4e0ef1fbd63757130284e9a6c3b7c212a421",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-4.png",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-1.png",
                     "embed": "false"
                 },
                 {
                     "name": "M. Deportes 4 1080",
                     "url": "acestream://77b36b785e84efa9a41d2a1ef90dd9652b8d2916",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-4.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "M+ DEPORTES 5 HD por Tronoss",
-                    "url": "acestream://34b38986ac5e6e842f954f0dd25b2798be70b276",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-5.png",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-1.png",
                     "embed": "false"
                 },
                 {
                     "name": "M. Deportes 5 1080",
                     "url": "acestream://5ff896ae397b57a68435b25cde2937fac3e6cec1",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-5.png",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-1.png",
                     "embed": "false"
                 },
                 {
                     "name": "M. Deportes 6 1080",
                     "url": "acestream://7ba003da71c2af61e5dd16c75ca025494769aa88",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-6.png",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-1.png",
                     "embed": "false"
                 },
                 {
                     "name": "M. Deportes 7 1080",
                     "url": "acestream://070f82d6443a52962d6a2ed9954c979b29404932",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-7.png",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-1.png",
                     "embed": "false"
                 }
             ]
@@ -1097,12 +1115,6 @@
                     "embed": "false"
                 },
                 {
-                    "name": "M+ DEPORTES FHD por Tronoss",
-                    "url": "acestream://ce65932b1113ec32c270050786d7702897150d74",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
                     "name": "M+ Super Copa (SAT) por Tronoss",
                     "url": "acestream://894afd347da576af7bbfc0b986485581b8df151b",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
@@ -1127,20 +1139,8 @@
                     "embed": "false"
                 },
                 {
-                    "name": "M. Deportes",
-                    "url": "acestream://acb510858f34c3c6fd5f79395b031abd6885c2b3",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
                     "name": "M. Golf",
                     "url": "acestream://872608e734992db636eb79426802cd08f4029afb",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "M.L. Campeones 2",
-                    "url": "acestream://e3f891c3dd120b4b1dab40e5c932ac65873a0465",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },

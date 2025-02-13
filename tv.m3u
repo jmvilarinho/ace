@@ -40,12 +40,8 @@ http://127.0.0.1:6878/ace/getstream?id=e25d7b28f6858aeda8fdc5928f186ab11f1d6b0c&
 http://127.0.0.1:6878/ace/getstream?id=110d441ddc9713a7452588770d2bc85504672f47&.mp4
 #EXTINF:-1 tvg-id="DAZN LALIGA 2" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-2.png" group-title="DAZN LaLiga" tvg-name="DAZN LaLiga 2 1080 MultiAudio",DAZN LaLiga 2 1080 MultiAudio
 http://127.0.0.1:6878/ace/getstream?id=97ba38d47680954be40e48bd8f43e17222fefecb&.mp4
-#EXTINF:-1 tvg-id="M+ Deportes 2" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-2.png" group-title="M. Deportes" tvg-name="M+ DEPORTES 2 FHD por Tronoss",M+ DEPORTES 2 FHD por Tronoss
-http://127.0.0.1:6878/ace/getstream?id=43931a2672086891ce4f6d6b4128e005e8038959&.mp4
-#EXTINF:-1 tvg-id="M+ Deportes 3" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-3.png" group-title="M. Deportes" tvg-name="M+ DEPORTES 3 FHD  por Tronoss",M+ DEPORTES 3 FHD  por Tronoss
-http://127.0.0.1:6878/ace/getstream?id=fb27c753c690bf21edcf527f42cd14c5c9e6b53e&.mp4
-#EXTINF:-1 tvg-id="M+ Deportes" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-1.png" group-title="M. Deportes" tvg-name="M. Deportes 1",M. Deportes 1
-http://127.0.0.1:6878/ace/getstream?id=dca9d8b0be1a5d68c929f5cebb61b82a4f62a307&.mp4
+#EXTINF:-1 tvg-id="M+ Deportes 1" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-1.png" group-title="M. Deportes" tvg-name="M. Deportes 7 1080",M. Deportes 7 1080
+http://127.0.0.1:6878/ace/getstream?id=070f82d6443a52962d6a2ed9954c979b29404932&.mp4
 #EXTINF:-1 tvg-id="M+ LALIGA TV 1" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-1.png" group-title="M. La Liga" tvg-name="M. LaLiga 1080 MultiAudio",M. LaLiga 1080 MultiAudio
 http://127.0.0.1:6878/ace/getstream?id=d3de78aebe544611a2347f54d5796bd87f16c92d&.mp4
 #EXTINF:-1 tvg-id="M+ LALIGA TV 2" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-2.png" group-title="M. La Liga" tvg-name="M. LaLiga 2 1080",M. LaLiga 2 1080

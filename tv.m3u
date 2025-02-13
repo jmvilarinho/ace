@@ -30,6 +30,8 @@ http://127.0.0.1:6878/ace/getstream?id=b11dd020fc6e89b39b69c1f3bef032be72286e72&
 http://127.0.0.1:6878/ace/getstream?id=ddb1d0ff24955582668c0c6e4d4fb3d58cc4b65e&.mp4
 #EXTINF:-1 tvg-id="DAZN F1" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-formula-1-366.png" group-title="DAZN F1" tvg-name="DAZN F1",DAZN F1
 http://127.0.0.1:6878/ace/getstream?id=d65257bb934b73647374224fd62d836815804be2&.mp4
+#EXTINF:-1 tvg-id="F1" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-formula-1.png" group-title="DAZN F1" tvg-name="F1 TV 14 | Fernando Alonso | Aston Martin por Tronoss",F1 TV 14 | Fernando Alonso | Aston Martin por Tronoss
+http://127.0.0.1:6878/ace/getstream?id=e25d7b28f6858aeda8fdc5928f186ab11f1d6b0c&.mp4
 #EXTINF:-1 tvg-id="DAZN LALIGA" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-1.png" group-title="DAZN LaLiga" tvg-name="DAZN LaLiga 1080 MultiAudio",DAZN LaLiga 1080 MultiAudio
 http://127.0.0.1:6878/ace/getstream?id=110d441ddc9713a7452588770d2bc85504672f47&.mp4
 #EXTINF:-1 tvg-id="DAZN LALIGA 2" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-2.png" group-title="DAZN LaLiga" tvg-name="DAZN LaLiga 2 1080 MultiAudio",DAZN LaLiga 2 1080 MultiAudio

@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 12/02/2025 20:00:25",
+    "author": "Vila - 13/02/2025 09:28:35",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -465,6 +465,18 @@
                     "url": "acestream://e41352c657506cfe6eecc4f17982f69275f1660b",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-formula-1-366.png",
                     "embed": "false"
+                },
+                {
+                    "name": "F1 TV 14 | Fernando Alonso | Aston Martin por Tronoss",
+                    "url": "acestream://e25d7b28f6858aeda8fdc5928f186ab11f1d6b0c",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-formula-1.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "F1 TV 55 | Carlos Sainz | Williams por Tronoss",
+                    "url": "acestream://acf763bf9127ad753fa61227a3565e6557467354",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-formula-1.png",
+                    "embed": "false"
                 }
             ]
         },
@@ -554,6 +566,36 @@
                     "name": "DAZN LaLiga 5 1080",
                     "url": "acestream://99e544cddbee13798e854c1009ee7d1a93fdedf7",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-5.png",
+                    "embed": "false"
+                }
+            ]
+        },
+        {
+            "name": "L.L. TVBar",
+            "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-la-liga-tv-bar.png",
+            "stations": [
+                {
+                    "name": "La Liga BAR 1080",
+                    "url": "acestream://94d34491106e00394835c8cb68aa94481339b53f",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-la-liga-tv-bar.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "La Liga BAR 1080 - 2d01",
+                    "url": "acestream://5834660ff7ae10f0514dc23c241c054dc0272d01",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-la-liga-tv-bar.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "La Liga BAR 1080 - 990e",
+                    "url": "acestream://608b0faf7d3d25f6fe5dba13d5e4b4142949990e",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-la-liga-tv-bar.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "La Liga BAR 1080 - e952",
+                    "url": "acestream://954b2cb573313690f2a6d6a2e70102fb49ace952",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-la-liga-tv-bar.png",
                     "embed": "false"
                 }
             ]
@@ -851,18 +893,6 @@
                     "embed": "false"
                 },
                 {
-                    "name": "F1 TV 14 | Fernando Alonso | Aston Martin por Tronoss",
-                    "url": "acestream://e25d7b28f6858aeda8fdc5928f186ab11f1d6b0c",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "F1 TV 55 | Carlos Sainz | Williams por Tronoss",
-                    "url": "acestream://acf763bf9127ad753fa61227a3565e6557467354",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
                     "name": "Gol Play FHD por Tronoss",
                     "url": "acestream://f5be5fe6063db01a7587c37acf57fcadabea560a",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
@@ -889,30 +919,6 @@
                 {
                     "name": "LA 2 FHD por Tronoss",
                     "url": "acestream://d27e23deffb2314a9549b00d62fade1e2e38ed60",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "La Liga BAR 1080",
-                    "url": "acestream://94d34491106e00394835c8cb68aa94481339b53f",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "La Liga BAR 1080 - 2d01",
-                    "url": "acestream://5834660ff7ae10f0514dc23c241c054dc0272d01",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "La Liga BAR 1080 - 990e",
-                    "url": "acestream://608b0faf7d3d25f6fe5dba13d5e4b4142949990e",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "La Liga BAR 1080 - e952",
-                    "url": "acestream://954b2cb573313690f2a6d6a2e70102fb49ace952",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },

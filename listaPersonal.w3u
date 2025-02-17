@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 17/02/2025 16:00:22",
+    "author": "Vila - 17/02/2025 20:01:20",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -24,7 +24,7 @@
                 },
                 {
                     "name": "Eurosport 1 HD --> UNKNOWN",
-                    "url": "acestream://fbc82948dd7c19387a702692bc4590157b376459",
+                    "url": "acestream://cfa75ade53810dac64411b22d56c3d4582a221d3",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-es-eurosport-1-615.png",
                     "embed": "false"
                 },
@@ -35,8 +35,8 @@
                     "embed": "false"
                 },
                 {
-                    "name": "Eurosport 1 HD --> UNKNOWN - 21d3",
-                    "url": "acestream://cfa75ade53810dac64411b22d56c3d4582a221d3",
+                    "name": "Eurosport 1 HD --> UNKNOWN - 6459",
+                    "url": "acestream://fbc82948dd7c19387a702692bc4590157b376459",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-es-eurosport-1-615.png",
                     "embed": "false"
                 },
@@ -1351,6 +1351,12 @@
                 {
                     "name": "LA SEXTA FHD --> NEW ERA",
                     "url": "acestream://3d7ba33bd2b6f43550c79c70d9fe3fe3c2a54d5b",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "LIGA TV by CERBERUS",
+                    "url": "acestream://11efea276121f861054d0b1525dda0ff60d5c3d5",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },

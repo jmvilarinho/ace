@@ -18,13 +18,13 @@ http://127.0.0.1:6878/ace/getstream?id=42f8705aecde8d1f4c5b7c4086690b62d78a275e&
 http://127.0.0.1:6878/ace/getstream?id=9373bd982fa6dec7802f7ab2a58d7931638de1a5&.mp4
 #EXTINF:-1 tvg-id="M+ Liga de Campeones" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-00.png" group-title="M.L. Campeones" tvg-name="M+ LIGA DE CAMPEONES 13 FHD --> NEW ERA",M+ LIGA DE CAMPEONES 13 FHD --> NEW ERA
 http://127.0.0.1:6878/ace/getstream?id=bf52fd49623e3424ee22211998f885c413e92d19&.mp4
-#EXTINF:-1 tvg-id="M+ Vamos" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-vamos.png" group-title="Movistar Plus+" tvg-name="#VAMOS FHD por Adrian",#VAMOS FHD por Adrian
+#EXTINF:-1 tvg-id="M+ Vamos" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-vamos.png" group-title="Movistar Plus+" tvg-name="#VAMOS FHD --> NEW ERA",#VAMOS FHD --> NEW ERA
 http://127.0.0.1:6878/ace/getstream?id=1a90eb40257df643aee14cb94a5fb06494dcded1&.mp4
 #EXTINF:-1 tvg-id="Movistar plus+" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-plus-1475.png" group-title="Movistar Plus+" tvg-name="MOVISTAR PLUS",MOVISTAR PLUS
 http://127.0.0.1:6878/ace/getstream?id=56ac8e227d526e722624675ccdd91b0cc850582f&.mp4
 #EXTINF:-1 tvg-id="I156.32281.schedulesdirect.org" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-us-nba-tv.png" group-title="NBA" tvg-name="NBA TV --> NEW ERA",NBA TV --> NEW ERA
 http://127.0.0.1:6878/ace/getstream?id=89679d78397bc1b1b15d7b13044547de9dd39383&.mp4
-#EXTINF:-1 tvg-id="DAZN 1" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-1-es-2510.png" group-title="DAZN" tvg-name="DAZN 1 FHD por Adrian",DAZN 1 FHD por Adrian
+#EXTINF:-1 tvg-id="DAZN 1" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-1-es-2510.png" group-title="DAZN" tvg-name="DAZN 1 FHD --> NEW ERA",DAZN 1 FHD --> NEW ERA
 http://127.0.0.1:6878/ace/getstream?id=6713d3a14ffec0e0db5cf118b857f0db878fbaf5&.mp4
 #EXTINF:-1 tvg-id="DAZN 2" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-2-es-2511.png" group-title="DAZN" tvg-name="DAZN 2 - 8810",DAZN 2 - 8810
 http://127.0.0.1:6878/ace/getstream?id=a929eeec1268d69d1556a2e3ace793b2577d8810&.mp4
@@ -40,7 +40,7 @@ http://127.0.0.1:6878/ace/getstream?id=945dac22fb0e1bb1550dec99c8b8ca496db39c76&
 http://127.0.0.1:6878/ace/getstream?id=110d441ddc9713a7452588770d2bc85504672f47&.mp4
 #EXTINF:-1 tvg-id="DAZN LALIGA 2" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-2.png" group-title="DAZN LaLiga" tvg-name="DAZN LaLiga 2 1080 MultiAudio",DAZN LaLiga 2 1080 MultiAudio
 http://127.0.0.1:6878/ace/getstream?id=51dbbfb42f8091e4ea7a2186b566a40e780953d9&.mp4
-#EXTINF:-1 tvg-id="M+ Deportes 1" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-1.png" group-title="M. Deportes" tvg-name="M+ DEPORTES FHD por Adrian",M+ DEPORTES FHD por Adrian
+#EXTINF:-1 tvg-id="M+ Deportes 1" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-1.png" group-title="M. Deportes" tvg-name="M+ DEPORTES FHD --> NEW ERA",M+ DEPORTES FHD --> NEW ERA
 http://127.0.0.1:6878/ace/getstream?id=f409a32da912cda2a0071397f552c564540fe101&.mp4
 #EXTINF:-1 tvg-id="M+ LALIGA TV 1" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-1.png" group-title="M. La Liga" tvg-name="M. LaLiga 1080 MultiAudio",M. LaLiga 1080 MultiAudio
 http://127.0.0.1:6878/ace/getstream?id=d3de78aebe544611a2347f54d5796bd87f16c92d&.mp4

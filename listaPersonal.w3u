@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 18/02/2025 11:00:56",
+    "author": "Vila - 18/02/2025 16:02:18",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -126,6 +126,12 @@
                 },
                 {
                     "name": "M+ LIGA DE CAMPEONES FHD --> NEW ERA",
+                    "url": "acestream://ee5ffa2c47cad5f00276904722e9d234def6f14a",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-01.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M+ LIGA DE CAMPEONES FHD --> NEW ERA - 8e82",
                     "url": "acestream://10ae32928d1320eb98d4656cd1faa16ad3648e82",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-01.png",
                     "embed": "false"
@@ -1007,12 +1013,6 @@
                     "embed": "false"
                 },
                 {
-                    "name": "M. Deportes",
-                    "url": "acestream://acb510858f34c3c6fd5f79395b031abd6885c2b3",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-1.png",
-                    "embed": "false"
-                },
-                {
                     "name": "M. Deportes 1",
                     "url": "acestream://dca9d8b0be1a5d68c929f5cebb61b82a4f62a307",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-1.png",
@@ -1059,6 +1059,12 @@
                     "url": "acestream://7ba003da71c2af61e5dd16c75ca025494769aa88",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-1.png",
                     "embed": "false"
+                },
+                {
+                    "name": "M. Deportes HD --> UNKNOWN",
+                    "url": "acestream://acb510858f34c3c6fd5f79395b031abd6885c2b3",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-1.png",
+                    "embed": "false"
                 }
             ]
         },
@@ -1085,8 +1091,14 @@
                     "embed": "false"
                 },
                 {
-                    "name": "M. LaLiga",
+                    "name": "M. LaLiga --> UNKNOWN",
                     "url": "acestream://cc9b7f5fe416069a2110da0909b0f915043c468b",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-0.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M. LaLiga --> UNKNOWN - acde",
+                    "url": "acestream://d15a0eaf825b5f8f94259d5209688a7e97e6acde",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-0.png",
                     "embed": "false"
                 },
@@ -1475,14 +1487,14 @@
                     "embed": "false"
                 },
                 {
-                    "name": "M. Golf - 9afb",
-                    "url": "acestream://872608e734992db636eb79426802cd08f4029afb",
+                    "name": "M. Golf 2",
+                    "url": "acestream://11078aceacd1be758f4c953a437fc1ecb8eca730",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
                 {
-                    "name": "M. Golf 2",
-                    "url": "acestream://11078aceacd1be758f4c953a437fc1ecb8eca730",
+                    "name": "M. Golf HD --> UNKNOWN",
+                    "url": "acestream://872608e734992db636eb79426802cd08f4029afb",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -1495,6 +1507,12 @@
                 {
                     "name": "M. Liga de Campeones --> UNKNOWN",
                     "url": "acestream://e572a5178ff72eed7d1d751a18b4b3419699f370",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M. Liga de Campeones --> UNKNOWN - 1f99",
+                    "url": "acestream://bb5a8bf7752e978460ee1710e5e8950a5c9e1f99",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },

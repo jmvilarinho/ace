@@ -32,8 +32,8 @@ http://127.0.0.1:6878/ace/getstream?id=a929eeec1268d69d1556a2e3ace793b2577d8810&
 http://127.0.0.1:6878/ace/getstream?id=9567ed470660b3c41e90a1fa2971d2b325b01abf&.mp4
 #EXTINF:-1 tvg-id="DAZN 4" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-4-es-2525.png" group-title="DAZN" tvg-name="DAZN 4 FHD --> NEW ERA",DAZN 4 FHD --> NEW ERA
 http://127.0.0.1:6878/ace/getstream?id=f1c939e1d19038c32735742ae1e982ff21025ccb&.mp4
-#EXTINF:-1 tvg-id="DAZN F1" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-formula-1-366.png" group-title="DAZN F1" tvg-name="DAZN F1 FHD (SAT) --> NEW ERA",DAZN F1 FHD (SAT) --> NEW ERA
-http://127.0.0.1:6878/ace/getstream?id=ccc6b9007394375abac733093ce8aeabc1c13b71&.mp4
+#EXTINF:-1 tvg-id="DAZN F1" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-formula-1-366.png" group-title="DAZN F1" tvg-name="DAZN F1 1080 (FÃ³rmula 1)",DAZN F1 1080 (FÃ³rmula 1)
+http://127.0.0.1:6878/ace/getstream?id=d6281d4e6310269b416180442a470d23a4a99dc9&.mp4
 #EXTINF:-1 tvg-id="F1" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-formula-1.png" group-title="DAZN F1" tvg-name="F1 TV 14 | Fernando Alonso | Aston Martin --> NEW ERA",F1 TV 14 | Fernando Alonso | Aston Martin --> NEW ERA
 http://127.0.0.1:6878/ace/getstream?id=945dac22fb0e1bb1550dec99c8b8ca496db39c76&.mp4
 #EXTINF:-1 tvg-id="DAZN LALIGA" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-1.png" group-title="DAZN LaLiga" tvg-name="DAZN LaLiga 1080 MultiAudio",DAZN LaLiga 1080 MultiAudio

@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 18/02/2025 16:02:18",
+    "author": "Vila - 18/02/2025 20:03:02",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -697,6 +697,18 @@
                 {
                     "name": "DAZN F1 - b088",
                     "url": "acestream://e53cba0be75d9a0f1e58f33af4cd525c5cfdb088",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-formula-1-366.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "DAZN F1 1080 (FÃ³rmula 1)",
+                    "url": "acestream://d6281d4e6310269b416180442a470d23a4a99dc9",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-formula-1-366.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "DAZN F1 1080 (FÃ³rmula 1) - 2dfa",
+                    "url": "acestream://71eef80158aa8b37f3dc59f6793c6696df9a2dfa",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-formula-1-366.png",
                     "embed": "false"
                 },

@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 19/02/2025 20:02:21",
+    "author": "Vila - 20/02/2025 11:00:53",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -29,14 +29,8 @@
                     "embed": "false"
                 },
                 {
-                    "name": "Eurosport 1 hd --> NEW LOOP",
-                    "url": "acestream://23a4937f1484b435af132dbfb3e8fd3aefc9baad",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-es-eurosport-1-615.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "Eurosport 1 HD --> NEW LOOP - f787",
-                    "url": "acestream://f5a5a5bf9903bde0c865e421f126c42e514ff787",
+                    "name": "Eurosport 1 HD --> NEW LOOP - 21d3",
+                    "url": "acestream://cfa75ade53810dac64411b22d56c3d4582a221d3",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-es-eurosport-1-615.png",
                     "embed": "false"
                 },

@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 21/02/2025 20:00:34",
+    "author": "Vila - 22/02/2025 11:01:11",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -1116,6 +1116,12 @@
                 },
                 {
                     "name": "M. LaLiga --> NEW LOOP",
+                    "url": "acestream://d15a0eaf825b5f8f94259d5209688a7e97e6acde",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-0.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M. LaLiga --> NEW LOOP - 468b",
                     "url": "acestream://cc9b7f5fe416069a2110da0909b0f915043c468b",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-0.png",
                     "embed": "false"
@@ -1524,13 +1530,13 @@
                 },
                 {
                     "name": "M. Liga de Campeones --> NEW LOOP",
-                    "url": "acestream://bb5a8bf7752e978460ee1710e5e8950a5c9e1f99",
+                    "url": "acestream://e572a5178ff72eed7d1d751a18b4b3419699f370",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
                 {
-                    "name": "M. Liga de Campeones --> NEW LOOP - f370",
-                    "url": "acestream://e572a5178ff72eed7d1d751a18b4b3419699f370",
+                    "name": "M. Liga de Campeones --> NEW LOOP - 1f99",
+                    "url": "acestream://bb5a8bf7752e978460ee1710e5e8950a5c9e1f99",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -1627,6 +1633,12 @@
                 {
                     "name": "Sky Sports Main Event [UK] --> NEW LOOP",
                     "url": "acestream://eab7aeef0218ce8b0752e596e4792b69eda4df5e",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "SuperTennis HD --> NEW LOOP",
+                    "url": "acestream://b58dbf92765976b308695f62dea94b00b40730ee",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },

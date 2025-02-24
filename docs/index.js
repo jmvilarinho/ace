@@ -484,7 +484,7 @@ function municipioRow(datos, index) {
 		if (datos["probPrecipitacion"][index]["value"] == '0')
 			precipitacion = '-';
 		else if (datos["probPrecipitacion"][index]["value"] == '100')
-			precipitacion = 'Vai chover';
+			precipitacion = 'Va a llover';
 		else
 			precipitacion = datos["probPrecipitacion"][index]["value"] + '% probab. de lluvia';
 

@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 23/02/2025 11:00:47",
+    "author": "Vila - 23/02/2025 20:00:22",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -12,7 +12,7 @@
             "stations": [
                 {
                     "name": "Eurosport 1 HD --> NEW LOOP",
-                    "url": "acestream://cfa75ade53810dac64411b22d56c3d4582a221d3",
+                    "url": "acestream://f5a5a5bf9903bde0c865e421f126c42e514ff787",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-es-eurosport-1-615.png",
                     "embed": "false"
                 },
@@ -773,6 +773,12 @@
                     "embed": "false"
                 },
                 {
+                    "name": "Canal Motor (720p) --> NEW LOOP",
+                    "url": "acestream://31ef168d43c7cd04e672475f7ec33b99b9fe5a96",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
                     "name": "Copa",
                     "url": "acestream://adb8b91f027336eb5091ca5852561202c35f0b6e",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
@@ -853,12 +859,6 @@
                 {
                     "name": "LALIGA TV HYPERMOTION --> NEW ERA III",
                     "url": "acestream://994c4ab30f6ea98f8199a583fa1049d51ea136af",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "LIGA TV --> NEW ERA III",
-                    "url": "acestream://11efea276121f861054d0b1525dda0ff60d5c3d5",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -1009,12 +1009,6 @@
                 {
                     "name": "Sky Sports Main Event [UK] --> NEW LOOP",
                     "url": "acestream://eab7aeef0218ce8b0752e596e4792b69eda4df5e",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "SuperTennis HD --> NEW LOOP",
-                    "url": "acestream://b58dbf92765976b308695f62dea94b00b40730ee",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },

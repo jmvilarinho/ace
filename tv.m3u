@@ -1,37 +1,47 @@
 #EXTM3U @Vila https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv.m3u
 #EXTM3U url-tvg="https://raw.githubusercontent.com/jmvilarinho/ace/main/all.xml.gz"
-#EXTINF:-1 tvg-id="Eurosport 1" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-es-eurosport-1-615.png" group-title="Eurosport" tvg-name="Eurosport 1 hd --> NEW LOOP",Eurosport 1 hd --> NEW LOOP
-http://127.0.0.1:6878/ace/getstream?id=23a4937f1484b435af132dbfb3e8fd3aefc9baad&.mp4
+#EXTINF:-1 tvg-id="Eurosport 1" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-es-eurosport-1-615.png" group-title="Eurosport" tvg-name="EUROSPORT 1 FHD --> NEW ERA",EUROSPORT 1 FHD --> NEW ERA
+http://127.0.0.1:6878/ace/getstream?id=1d735b29ca242360ffe84c677cc02a3817311960&.mp4
+#EXTINF:-1 tvg-id="Eurosport 2" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-es-eurosport-2-616.png" group-title="Eurosport" tvg-name="EUROSPORT 2 FHD --> NEW ERA",EUROSPORT 2 FHD --> NEW ERA
+http://127.0.0.1:6878/ace/getstream?id=87100f6c8f6ffaf78eeb9b7eef0e9b382ffe61ff&.mp4
 #EXTINF:-1 tvg-id="Eurosport" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-eurosport.png" group-title="Eurosport" tvg-name="EuroSport 1",EuroSport 1
 http://127.0.0.1:6878/ace/getstream?id=b16eeeb12d208029eff3dcc9e73613fd8b052737&.mp4
-#EXTINF:-1 tvg-id="M+ Liga de Campeones 1" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-01.png" group-title="M.L. Campeones" tvg-name="M+ LIGA DE CAMPEONES FHD --> NEW ERA II",M+ LIGA DE CAMPEONES FHD --> NEW ERA II
-http://127.0.0.1:6878/ace/getstream?id=9d0e983a628a79ec63ae599d2abc8b787e43aa68&.mp4
 #EXTINF:-1 tvg-id="M+ Liga de Campeones 2" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-02.png" group-title="M.L. Campeones" tvg-name="M.L. CAMPEONES 2",M.L. CAMPEONES 2
 http://127.0.0.1:6878/ace/getstream?id=abdf9058786a48623d0de51a3adb414ae10b6e72&.mp4
-#EXTINF:-1 tvg-id="M+ Liga de Campeones 3" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-03.png" group-title="M.L. Campeones" tvg-name="M.L. Campeones 3",M.L. Campeones 3
-http://127.0.0.1:6878/ace/getstream?id=e42984ac6529407462f92201af95c01db8988368&.mp4
-#EXTINF:-1 tvg-id="M+ Liga de Campeones 4" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-04.png" group-title="M.L. Campeones" tvg-name="M.L. Campeones 4",M.L. Campeones 4
-http://127.0.0.1:6878/ace/getstream?id=01152274037c5f7155489e0a977cbde71a61290c&.mp4
-#EXTINF:-1 tvg-id="M+ Liga de Campeones 5" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-05.png" group-title="M.L. Campeones" tvg-name="M.L. Campeones 5",M.L. Campeones 5
-http://127.0.0.1:6878/ace/getstream?id=cc910aee690f70190b04920d61e39da5a6d0a057&.mp4
+#EXTINF:-1 tvg-id="M+ Liga de Campeones 1" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-01.png" group-title="M.L. Campeones" tvg-name="M+ LIGA DE CAMPEONES FHD (1 opcion) --> NEW ERA",M+ LIGA DE CAMPEONES FHD (1 opcion) --> NEW ERA
+http://127.0.0.1:6878/ace/getstream?id=94054b2e5e330bfdec93b63db5bbe42d15c3fd88&.mp4
+#EXTINF:-1 tvg-id="M+ Liga de Campeones 3" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-03.png" group-title="M.L. Campeones" tvg-name="M+ LIGA DE CAMPEONES 3 FHD --> NEW ERA",M+ LIGA DE CAMPEONES 3 FHD --> NEW ERA
+http://127.0.0.1:6878/ace/getstream?id=a2737f92238d98040d7c6a1866156bf31c5677dd&.mp4
+#EXTINF:-1 tvg-id="M+ Liga de Campeones 4" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-04.png" group-title="M.L. Campeones" tvg-name="M+ LIGA DE CAMPEONES 4 FHD --> NEW ERA",M+ LIGA DE CAMPEONES 4 FHD --> NEW ERA
+http://127.0.0.1:6878/ace/getstream?id=525c14ea1d5cc446a1c6b6ce3c5d68f2e5060b50&.mp4
+#EXTINF:-1 tvg-id="M+ Liga de Campeones 5" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-05.png" group-title="M.L. Campeones" tvg-name="M+ LIGA DE CAMPEONES 5 FHD --> NEW ERA",M+ LIGA DE CAMPEONES 5 FHD --> NEW ERA
+http://127.0.0.1:6878/ace/getstream?id=29762a55736038653c9de6b5c1ef15c93faf9c6d&.mp4
+#EXTINF:-1 tvg-id="M+ Liga de Campeones" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-00.png" group-title="M.L. Campeones" tvg-name="M+ LIGA DE CAMPEONES 13 FHD --> NEW ERA",M+ LIGA DE CAMPEONES 13 FHD --> NEW ERA
+http://127.0.0.1:6878/ace/getstream?id=548ea66bb8e4663a5bf0d2dede22d353f3994787&.mp4
 #EXTINF:-1 tvg-id="M+ Vamos" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-vamos.png" group-title="Movistar Plus+" tvg-name="#VAMOS FHD --> NEW ERA II",#VAMOS FHD --> NEW ERA II
-http://127.0.0.1:6878/ace/getstream?id=dccac2d35772b46cf61c20c2318d7c2bd0ac3edc&.mp4
+http://127.0.0.1:6878/ace/getstream?id=915d7ba83810a8039b908b1a2855a1db4d79459d&.mp4
 #EXTINF:-1 tvg-id="Movistar plus+" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-plus-1475.png" group-title="Movistar Plus+" tvg-name="MOVISTAR PLUS",MOVISTAR PLUS
 http://127.0.0.1:6878/ace/getstream?id=56ac8e227d526e722624675ccdd91b0cc850582f&.mp4
-#EXTINF:-1 tvg-id="I156.32281.schedulesdirect.org" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-us-nba-tv.png" group-title="NBA" tvg-name="NBA",NBA
-http://127.0.0.1:6878/ace/getstream?id=e72d03fb9694164317260f684470be9ab781ed95&.mp4
-#EXTINF:-1 tvg-id="DAZN 1" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-1-es-2510.png" group-title="DAZN" tvg-name="DAZN 1 FHD --> NEW ERA II",DAZN 1 FHD --> NEW ERA II
-http://127.0.0.1:6878/ace/getstream?id=66a0863d19f7caa2591a36f2bce86b1878a3d0e3&.mp4
+#EXTINF:-1 tvg-id="I156.32281.schedulesdirect.org" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-us-nba-tv.png" group-title="NBA" tvg-name="NBA TV --> NEW ERA",NBA TV --> NEW ERA
+http://127.0.0.1:6878/ace/getstream?id=59377bc73bedf81c5f20a327e09e5fc5f76bdc5f&.mp4
 #EXTINF:-1 tvg-id="DAZN 2" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-2-es-2511.png" group-title="DAZN" tvg-name="DAZN 2 - 8810",DAZN 2 - 8810
 http://127.0.0.1:6878/ace/getstream?id=a929eeec1268d69d1556a2e3ace793b2577d8810&.mp4
+#EXTINF:-1 tvg-id="DAZN 1" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-1-es-2510.png" group-title="DAZN" tvg-name="DAZN 1 FHD (SAT) --> NEW ERA",DAZN 1 FHD (SAT) --> NEW ERA
+http://127.0.0.1:6878/ace/getstream?id=46a672a4dfc910eebcf869d48a2efec2af1b54d7&.mp4
+#EXTINF:-1 tvg-id="DAZN 3" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-3-es-2524.png" group-title="DAZN" tvg-name="DAZN 3 FHD --> NEW ERA",DAZN 3 FHD --> NEW ERA
+http://127.0.0.1:6878/ace/getstream?id=4a917dd906465938400c6968e707fe2a768c5c05&.mp4
+#EXTINF:-1 tvg-id="DAZN 4" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-4-es-2525.png" group-title="DAZN" tvg-name="DAZN 4 FHD --> NEW ERA",DAZN 4 FHD --> NEW ERA
+http://127.0.0.1:6878/ace/getstream?id=1b35844ac5f1ca48cbf760c7ed425078e7138aba&.mp4
 #EXTINF:-1 tvg-id="DAZN F1" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-formula-1-366.png" group-title="DAZN F1" tvg-name="DAZN F1 1080 (FÃ³rmula 1)",DAZN F1 1080 (FÃ³rmula 1)
 http://127.0.0.1:6878/ace/getstream?id=d6281d4e6310269b416180442a470d23a4a99dc9&.mp4
+#EXTINF:-1 tvg-id="F1" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-formula-1.png" group-title="DAZN F1" tvg-name="F1 TV 14 | Fernando Alonso | Aston Martin --> NEW ERA",F1 TV 14 | Fernando Alonso | Aston Martin --> NEW ERA
+http://127.0.0.1:6878/ace/getstream?id=f40baf2e9165ce5dec1d4fa1ecb5e0475ab7b3b0&.mp4
 #EXTINF:-1 tvg-id="DAZN LALIGA" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-1.png" group-title="DAZN LaLiga" tvg-name="DAZN LaLiga 1080 MultiAudio",DAZN LaLiga 1080 MultiAudio
 http://127.0.0.1:6878/ace/getstream?id=110d441ddc9713a7452588770d2bc85504672f47&.mp4
 #EXTINF:-1 tvg-id="DAZN LALIGA 2" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-2.png" group-title="DAZN LaLiga" tvg-name="DAZN LaLiga 2 1080 MultiAudio",DAZN LaLiga 2 1080 MultiAudio
 http://127.0.0.1:6878/ace/getstream?id=51dbbfb42f8091e4ea7a2186b566a40e780953d9&.mp4
 #EXTINF:-1 tvg-id="M+ Deportes 1" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-1.png" group-title="M. Deportes" tvg-name="M+ DEPORTES FHD --> NEW ERA II",M+ DEPORTES FHD --> NEW ERA II
-http://127.0.0.1:6878/ace/getstream?id=092612609be34a8e9ee61311c5dfc8561c009ccc&.mp4
+http://127.0.0.1:6878/ace/getstream?id=d59b3e44af69deb11759f1b4016503ef08d7850f&.mp4
 #EXTINF:-1 tvg-id="M+ LALIGA TV 1" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-1.png" group-title="M. La Liga" tvg-name="M. LaLiga 1080 MultiAudio",M. LaLiga 1080 MultiAudio
 http://127.0.0.1:6878/ace/getstream?id=d3de78aebe544611a2347f54d5796bd87f16c92d&.mp4
 #EXTINF:-1 tvg-id="M+ LALIGA TV 2" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-2.png" group-title="M. La Liga" tvg-name="M. LaLiga 2 1080",M. LaLiga 2 1080
@@ -40,8 +50,8 @@ http://127.0.0.1:6878/ace/getstream?id=83c6c4942d69f4aa324aa746c5d7dbfd7d1572b3&
 http://127.0.0.1:6878/ace/getstream?id=ebe14f1edeb49f2253e3b355a8beeadc9b4f0bc4&.mp4
 #EXTINF:-1 tvg-id="M+ LALIGA TV 4" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-4.png" group-title="M. La Liga" tvg-name="M. LaLiga 4 1080",M. LaLiga 4 1080
 http://127.0.0.1:6878/ace/getstream?id=68697ea4f261289d97bbc3418ad3cbc4180aa32f&.mp4
-#EXTINF:-1 tvg-id="M+ LALIGA TV" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-0.png" group-title="M. La Liga" tvg-name="M+ LALIGA --> NEW ERA III",M+ LALIGA --> NEW ERA III
-http://127.0.0.1:6878/ace/getstream?id=7c70daff87373a903d92490ad3dc811723969e08&.mp4
+#EXTINF:-1 tvg-id="M+ LALIGA TV" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-0.png" group-title="M. La Liga" tvg-name="M+ LaLiga FHD --> NEW ERA",M+ LaLiga FHD --> NEW ERA
+http://127.0.0.1:6878/ace/getstream?id=86541e760681d3f51b4e9f7b4b3997beb38307b0&.mp4
 #EXTINF:-1 channel-id="samsung-ESBC4100004J1" tvg-id="ESBC4100004J1" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC4100004J1_20230614T005926SQUARE.png_20230614005927.png" tvg-chno="4305" group-title="Noticias" , 24H
 https://jmp2.uk/SamsungTVPlus/ESBC4100004J1.m3u8
 #EXTINF:-1 channel-id="samsung-ES4000016U" tvg-id="ES4000016U" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES4000016U_20240813T155926SQUARE.png" tvg-chno="4006" group-title="Drama" , Acacias 38

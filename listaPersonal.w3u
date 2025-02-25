@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 24/02/2025 20:01:08",
+    "author": "Vila - 25/02/2025 11:00:40",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -37,6 +37,12 @@
                 {
                     "name": "EUROSPORT 2 FHD --> NEW ERA",
                     "url": "acestream://87100f6c8f6ffaf78eeb9b7eef0e9b382ffe61ff",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-es-eurosport-2-616.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "EUROSPORT 2 FHD --> NEW ERA II",
+                    "url": "acestream://b1797c899abe3cbf7a075d2814bfbb0375832c7d",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-es-eurosport-2-616.png",
                     "embed": "false"
                 },
@@ -503,6 +509,12 @@
                     "embed": "false"
                 },
                 {
+                    "name": "DAZN FORMULA 1* --> NEW ERA III",
+                    "url": "acestream://073d33a5e5270399154bb251fcc95f99c0741264",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-0.png",
+                    "embed": "false"
+                },
+                {
                     "name": "DAZN LA LIGA 2 FHD (*) --> NEW ERA",
                     "url": "acestream://0a54d530717aa50cb65672a92efa5948286e492c",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-0.png",
@@ -858,7 +870,7 @@
                 },
                 {
                     "name": "LaLiga TV BAR FHD --> NEW ERA II",
-                    "url": "acestream://fb01f81ed1210421def37242d8e1f9cb9cabf5db",
+                    "url": "acestream://edbd01a232af0eff375c6a174e68f28002e7c090",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laligatv-bar-2505.png",
                     "embed": "false"
                 }
@@ -912,7 +924,7 @@
                 },
                 {
                     "name": "LALIGA HYPERMOTION TV FHD --> NEW ERA II",
-                    "url": "acestream://129fee3a36e9a668b6d7ad3404bfbef3e914bdc1",
+                    "url": "acestream://da368e734b639e993b610bcfb779a76e03ad9409",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-hypermotion-0.png",
                     "embed": "false"
                 },
@@ -1122,6 +1134,12 @@
                 },
                 {
                     "name": "M. LaLiga --> NEW LOOP",
+                    "url": "acestream://d15a0eaf825b5f8f94259d5209688a7e97e6acde",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-0.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M. LaLiga --> NEW LOOP - 468b",
                     "url": "acestream://cc9b7f5fe416069a2110da0909b0f915043c468b",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-0.png",
                     "embed": "false"
@@ -1261,6 +1279,12 @@
                 {
                     "name": "AutoMotorSport HD --> NEW LOOP",
                     "url": "acestream://6791a2d1587e8c68eac10815f22aed439b0f6c9f",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "beIN SPORTS XTRA --> NEW LOOP",
+                    "url": "acestream://fd869f34346154ca7cd78d46cbf7a6b8671beab5",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },

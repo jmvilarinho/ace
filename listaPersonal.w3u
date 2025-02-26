@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 26/02/2025 16:00:23",
+    "author": "Vila - 26/02/2025 20:00:26",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -31,12 +31,6 @@
                 {
                     "name": "Eurosport 1 hd --> NEW LOOP",
                     "url": "acestream://23a4937f1484b435af132dbfb3e8fd3aefc9baad",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-es-eurosport-1-615.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "Eurosport 1 HD --> NEW LOOP - f787",
-                    "url": "acestream://f5a5a5bf9903bde0c865e421f126c42e514ff787",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-es-eurosport-1-615.png",
                     "embed": "false"
                 },
@@ -1277,12 +1271,6 @@
                     "embed": "false"
                 },
                 {
-                    "name": "beIN SPORTS XTRA --> NEW LOOP",
-                    "url": "acestream://fd869f34346154ca7cd78d46cbf7a6b8671beab5",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
                     "name": "Canal 1",
                     "url": "acestream://c1ee6e1e0ef5928d8261f855c417de21794f437d",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
@@ -1367,12 +1355,6 @@
                     "embed": "false"
                 },
                 {
-                    "name": "FORMULA 1 ARAMCO PRE-SEASON TESTING 2025 F1TVPro 720p --> NEW LOOP",
-                    "url": "acestream://821eb83594bac4da4f2877f88e56d05400bb5d1b",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
                     "name": "Gol Play FHD --> NEW ERA",
                     "url": "acestream://74398fdfd56c2d440d53206cd1a4d0549a13aa6b",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
@@ -1447,18 +1429,6 @@
                 {
                     "name": "M DEPORTES 2",
                     "url": "acestream://d8c2ed470e847154a88f011137cc206319f6bed5",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "M DEPORTES 3",
-                    "url": "acestream://571bff4d12b1791eb99dbf20bec38e630693a6a3",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "M DEPORTES 4",
-                    "url": "acestream://b4d1308a61e4caf8c06ac3d6ce89d165c015c2fb",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -1589,12 +1559,6 @@
                     "embed": "false"
                 },
                 {
-                    "name": "Motorvision TV --> NEW LOOP",
-                    "url": "acestream://fffaa64d41e500250064181762d510d513137410",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
                     "name": "MOVISTAR CLASICOS FHD --> NEW ERA",
                     "url": "acestream://a6cade7fbdee40e60808ec0e568f7668d390b4e2",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
@@ -1631,26 +1595,20 @@
                     "embed": "false"
                 },
                 {
-                    "name": "Sky Sports Arena [UK] --> NEW LOOP",
-                    "url": "acestream://d317a003e8047da2c36a2a2bb2289578c9a3b79c",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
                     "name": "Sky Sports Cricket [UK] --> NEW LOOP",
                     "url": "acestream://6d95e4b0893e155cc674b84e0763150c445d3ddd",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
                 {
-                    "name": "Sky Sports Main Event [UK] --> NEW LOOP",
-                    "url": "acestream://eab7aeef0218ce8b0752e596e4792b69eda4df5e",
+                    "name": "Sky Sports Football [UK] --> NEW LOOP",
+                    "url": "acestream://8dbe2d515e9131fa311353537736f8c94be9b26d",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
                 {
-                    "name": "SuperTennis HD --> NEW LOOP",
-                    "url": "acestream://b58dbf92765976b308695f62dea94b00b40730ee",
+                    "name": "Sky Sports Main Event [UK] --> NEW LOOP",
+                    "url": "acestream://eab7aeef0218ce8b0752e596e4792b69eda4df5e",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },

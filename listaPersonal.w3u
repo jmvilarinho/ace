@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 25/02/2025 20:00:24",
+    "author": "Vila - 26/02/2025 11:04:39",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -24,13 +24,19 @@
                 },
                 {
                     "name": "Eurosport 1 HD --> NEW LOOP",
-                    "url": "acestream://cfa75ade53810dac64411b22d56c3d4582a221d3",
+                    "url": "acestream://f5a5a5bf9903bde0c865e421f126c42e514ff787",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-es-eurosport-1-615.png",
                     "embed": "false"
                 },
                 {
                     "name": "Eurosport 1 hd --> NEW LOOP",
                     "url": "acestream://23a4937f1484b435af132dbfb3e8fd3aefc9baad",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-es-eurosport-1-615.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Eurosport 1 HD --> NEW LOOP - 21d3",
+                    "url": "acestream://cfa75ade53810dac64411b22d56c3d4582a221d3",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-es-eurosport-1-615.png",
                     "embed": "false"
                 },
@@ -425,6 +431,12 @@
                     "embed": "false"
                 },
                 {
+                    "name": "DAZN 1* --> NEW ERA III",
+                    "url": "acestream://44c12ecb7b00a961f3c3f80f1edea7f8feedec59",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-0.png",
+                    "embed": "false"
+                },
+                {
                     "name": "DAZN 2",
                     "url": "acestream://ca923c9873fd206a41c1e83ff8fc40e3cf323c9a",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-0.png",
@@ -754,12 +766,6 @@
             "name": "DAZN LaLiga",
             "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-0.png",
             "stations": [
-                {
-                    "name": "DAZN LALIGA --> NEW ERA III",
-                    "url": "acestream://a5144874f66a0872fd0b5a484cd426eb7d8eaa26",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-0.png",
-                    "embed": "false"
-                },
                 {
                     "name": "DAZN LaLiga 1 1080",
                     "url": "acestream://6af858dff80a87e247c6ad681aa5adf09f988d1e",
@@ -1109,12 +1115,6 @@
             "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-0.png",
             "stations": [
                 {
-                    "name": "M+ LALIGA --> NEW ERA III",
-                    "url": "acestream://7c70daff87373a903d92490ad3dc811723969e08",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-0.png",
-                    "embed": "false"
-                },
-                {
                     "name": "M+ LaLiga FHD (SAT) --> NEW ERA",
                     "url": "acestream://6e7ac91952e5c8f45d38c4b1669221bed4800813",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-0.png",
@@ -1283,12 +1283,6 @@
                     "embed": "false"
                 },
                 {
-                    "name": "beIN SPORTS XTRA --> NEW LOOP",
-                    "url": "acestream://fd869f34346154ca7cd78d46cbf7a6b8671beab5",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
                     "name": "Canal 1",
                     "url": "acestream://c1ee6e1e0ef5928d8261f855c417de21794f437d",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
@@ -1363,6 +1357,12 @@
                 {
                     "name": "EuroSport",
                     "url": "acestream://16ffa1713f42aa27317ee039a2bd0cdbc89a1580",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "F1 TEST 2 --> NEW ERA",
+                    "url": "acestream://21511645a5f014cb64f85d445482a8a14bba9e62",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -1613,8 +1613,8 @@
                     "embed": "false"
                 },
                 {
-                    "name": "RALLY TV --> NEW ERA III (Solo eventos)",
-                    "url": "acestream://1a9085a7b8aa402f317fb86f7243f3736770b325",
+                    "name": "RALLY TV* --> NEW ERA III",
+                    "url": "acestream://4cdab0a6554b9e5a5864fa20f8534d5ccfa661fa",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -1675,12 +1675,6 @@
                 {
                     "name": "Teledeporte FHD --> NEW ERA",
                     "url": "acestream://3977c21113c3b89d1ee1a2da7ea5d41769b133f9",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "Tennis Channel (UK) (720p) --> NEW LOOP",
-                    "url": "acestream://52a526d748e26ff0827635b3932d9f49aee14a25",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },

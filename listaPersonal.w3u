@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 26/02/2025 11:04:39",
+    "author": "Vila - 26/02/2025 16:00:23",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -24,7 +24,7 @@
                 },
                 {
                     "name": "Eurosport 1 HD --> NEW LOOP",
-                    "url": "acestream://f5a5a5bf9903bde0c865e421f126c42e514ff787",
+                    "url": "acestream://cfa75ade53810dac64411b22d56c3d4582a221d3",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-es-eurosport-1-615.png",
                     "embed": "false"
                 },
@@ -35,8 +35,8 @@
                     "embed": "false"
                 },
                 {
-                    "name": "Eurosport 1 HD --> NEW LOOP - 21d3",
-                    "url": "acestream://cfa75ade53810dac64411b22d56c3d4582a221d3",
+                    "name": "Eurosport 1 HD --> NEW LOOP - f787",
+                    "url": "acestream://f5a5a5bf9903bde0c865e421f126c42e514ff787",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-es-eurosport-1-615.png",
                     "embed": "false"
                 },
@@ -372,7 +372,7 @@
                 },
                 {
                     "name": "#VAMOS FHD --> NEW ERA II",
-                    "url": "acestream://915d7ba83810a8039b908b1a2855a1db4d79459d",
+                    "url": "acestream://2a96482aefa6ce18d2dd05ba0e86008cb637b3bf",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-vamos.png",
                     "embed": "false"
                 },
@@ -744,7 +744,7 @@
                 },
                 {
                     "name": "DAZN F1 FHD --> NEW ERA II",
-                    "url": "acestream://1168fcb4506c60e1281c2443f4f0c4ad4fc494b6",
+                    "url": "acestream://43c07b04b414bfbaaaec1aed58f7157fca277583",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-formula-1-366.png",
                     "embed": "false"
                 },
@@ -876,7 +876,7 @@
                 },
                 {
                     "name": "LaLiga TV BAR FHD --> NEW ERA II",
-                    "url": "acestream://edbd01a232af0eff375c6a174e68f28002e7c090",
+                    "url": "acestream://d4351e74c8466be658a16b84c933d08507a0a9e5",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laligatv-bar-2505.png",
                     "embed": "false"
                 }
@@ -1044,7 +1044,7 @@
                 },
                 {
                     "name": "M+ DEPORTES FHD --> NEW ERA II",
-                    "url": "acestream://d59b3e44af69deb11759f1b4016503ef08d7850f",
+                    "url": "acestream://31371f7ce7526039b74b0a866f25f78d53e63e0a",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-1.png",
                     "embed": "false"
                 },
@@ -1134,12 +1134,6 @@
                 },
                 {
                     "name": "M. LaLiga --> NEW LOOP",
-                    "url": "acestream://d15a0eaf825b5f8f94259d5209688a7e97e6acde",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-0.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "M. LaLiga --> NEW LOOP - 468b",
                     "url": "acestream://cc9b7f5fe416069a2110da0909b0f915043c468b",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-0.png",
                     "embed": "false"
@@ -1283,6 +1277,12 @@
                     "embed": "false"
                 },
                 {
+                    "name": "beIN SPORTS XTRA --> NEW LOOP",
+                    "url": "acestream://fd869f34346154ca7cd78d46cbf7a6b8671beab5",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
                     "name": "Canal 1",
                     "url": "acestream://c1ee6e1e0ef5928d8261f855c417de21794f437d",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
@@ -1363,6 +1363,12 @@
                 {
                     "name": "F1 TEST 2 --> NEW ERA",
                     "url": "acestream://21511645a5f014cb64f85d445482a8a14bba9e62",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "FORMULA 1 ARAMCO PRE-SEASON TESTING 2025 F1TVPro 720p --> NEW LOOP",
+                    "url": "acestream://821eb83594bac4da4f2877f88e56d05400bb5d1b",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -1633,12 +1639,6 @@
                 {
                     "name": "Sky Sports Cricket [UK] --> NEW LOOP",
                     "url": "acestream://6d95e4b0893e155cc674b84e0763150c445d3ddd",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "Sky Sports Football [UK] --> NEW LOOP",
-                    "url": "acestream://8dbe2d515e9131fa311353537736f8c94be9b26d",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },

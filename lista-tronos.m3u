@@ -101,8 +101,6 @@ acestream://fefd45ed6ff415e05f1341b7d9da2988eacd13ea
 acestream://666509475f609a4dec1826bf477e7da84e1af7e4
 #EXTINF:-1 tvg-logo="https://i.ibb.co/2Ndmtbp/f1.png" tvg-id="DAZN F1 HD" group-title="FORMULA 1", DAZN F1 FHD --> NEW ERA
 acestream://83d46a1a62104c72ad1487d81c0e81f92db00d25
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/dazn-laliga-2-es.png" tvg-id="DAZN LaLiga 2 HD" group-title="LA LIGA", DAZN LA LIGA 2 FHD --> NEW ERA
-acestream://5a022eaf3e068b8016bb6175843405f41c521ecd
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/DAZN%201%20BAR.png" tvg-id="DAZN 1 BAR" group-title="DAZN", DAZN 1 BAR FHD --> NEW ERA
 acestream://a51e178bcc789cd644c9b1742723c05aa6419a31
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/DAZN%202%20BAR.png" tvg-id="DAZN 2 BAR" group-title="DAZN", DAZN 2 BAR FHD --> NEW ERA
@@ -193,16 +191,6 @@ acestream://788426457b6eefd4ee4eef2952fc14d66044eccd
 acestream://8c85e8d4c12ecf032e368d06355e22322b5eb711
 #EXTINF:-1 tvg-logo="https://i.ibb.co/m54QH9Gt/copa.png" tvg-id="M+ Copa del Rey" group-title="COPA DEL REY", M+ SuperCopa del Rey FHD --> NEW ERA
 acestream://8c28fef4670a7033694cf0986ba99ba48bfcbb9f
-#EXTINF:-1 tvg-logo="https://i.ibb.co/yfV1Q8n/liga.png" tvg-id="M+ LaLiga TV HD" group-title="LA LIGA", M+ LaLiga FHD --> NEW ERA
-acestream://ce065492cf01b8d6db591064664d636e5ed87332
-#EXTINF:-1 tvg-logo="https://i.ibb.co/yfV1Q8n/liga.png" tvg-id="M+ LaLiga TV HD" group-title="LA LIGA", M+ LaLiga FHD (SAT) --> NEW ERA
-acestream://a8e82dd368fe1473980ad608e699e1c946aed310
-#EXTINF:-1 tvg-logo="https://i.ibb.co/yfV1Q8n/liga.png" tvg-id="M+ LaLiga TV HD" group-title="LA LIGA", M+ LaLiga FHD --> NEW ERA
-acestream://ae39242a70a3ec6657750a032102a1770e3b71dc
-#EXTINF:-1 tvg-logo="https://i.ibb.co/Tc97zSb/liga2.png" tvg-id="M+ LaLiga TV 2 HD" group-title="LA LIGA", M+ LaLiga 2 FHD --> NEW ERA
-acestream://ea02dfdaf4bf770f49d99069f4699b24cde3e1bf
-#EXTINF:-1 tvg-logo="https://i.ibb.co/BZF0xG9/liga3.png" tvg-id="M+ LaLiga TV 3 HD" group-title="LA LIGA", M+ LaLiga 3 FHD --> NEW ERA
-acestream://27625f557d10c517caa39630a34a4f92665752c2
 #EXTINF:-1 tvg-logo="https://i.ibb.co/2Ndmtbp/f1.png" tvg-id="DAZN F1 HD" group-title="FORMULA 1", DAZN F1 FHD --> NEW ERA
 acestream://61c1f3cf1d86a2789e985818fe2bd398048d047f
 #EXTINF:-1 tvg-logo="https://i.ibb.co/FVzKq1y/dazn1.png" tvg-id="DAZN 1 HD" group-title="DAZN", DAZN 1 FHD --> NEW ERA
@@ -259,18 +247,6 @@ acestream://0b424088849ad1e59a2a2162c2cb089877778b13
 acestream://706d6a63f0d721431969f9e2fe1c4abe7c34a8cb
 #EXTINF:-1 tvg-logo="https://i.ibb.co/hFYPWbpJ/plus.png" tvg-id="Movistar Plus+ HD" group-title="MOVISTAR", M+ PLUS FHD --> NEW ERA
 acestream://b3c6ab1c04dd016089c39f17b9ae99ed0d3fccab
-#EXTINF:-1 tvg-logo="https://i.ibb.co/CBdGc9f/hypermotion1.png" tvg-id="LaLiga TV Hypermotion HD" group-title="HYPERMOTION", LALIGA HYPERMOTION TV FHD --> NEW ERA
-acestream://a08e0eb60bf6c3b3e421e19cb89144096b2a8ae4
-#EXTINF:-1 tvg-logo="https://i.ibb.co/8K0VrQV/hypermotion2.png" tvg-id="LaLiga TV Hypermotion 2" group-title="HYPERMOTION", LALIGA HYPERMOTION TV2 HD --> NEW ERA
-acestream://2bd1c39a1448d8ffeb6305f659e0aa89878bb3d2
-#EXTINF:-1 tvg-logo="https://i.ibb.co/CBdGc9f/hypermotion1.png" tvg-id="LaLiga TV Hypermotion HD" group-title="HYPERMOTION", LALIGA HYPERMOTION TV 3 FHD --> NEW ERA
-acestream://a1c03ddb96c772ee0c6cd5204a4192bf7c673acd
-#EXTINF:-1 tvg-logo="https://i.ibb.co/KqGDjxS/hypermotion4.png" tvg-id="LaLiga TV Hypermotion 4" group-title="HYPERMOTION", LALIGA HYPERMOTION TV4 FHD --> NEW ERA
-acestream://2e61e74a312d54898764ab3473ebf2bf52f63757
-#EXTINF:-1 tvg-logo="https://i.ibb.co/XjgsTwd/hypermotion5.png" tvg-id="LaLiga TV Hypermotion 5" group-title="HYPERMOTION", LALIGA HYPERMOTION TV5 FHD --> NEW ERA
-acestream://3bc7377b610a6e16235ebfbfe24f3e6feb4ac3ce
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/dazn-laliga-2-es.png" tvg-id="DAZN LaLiga 2 HD" group-title="LA LIGA", DAZN LA LIGA 2 FHD (*) --> NEW ERA
-acestream://fc6064ce439f5146ca8e8b9238e5f0c009daa980
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/DAZN%201%20BAR.png" tvg-id="DAZN 1 BAR" group-title="DAZN", DAZN 1 BAR FHD (*) --> NEW ERA
 acestream://21c01ef861c93df6ba89e3b222481ab0bcf5d919
 #EXTINF:-1 tvg-logo="https://i.ibb.co/2Ndmtbp/f1.png" tvg-id="DAZN F1 HD" group-title="FORMULA 1", DAZN F1 FHD (*) --> NEW ERA

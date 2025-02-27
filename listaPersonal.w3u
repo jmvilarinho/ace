@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 27/02/2025 11:00:22",
+    "author": "Vila - 27/02/2025 16:00:22",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -515,18 +515,6 @@
                     "embed": "false"
                 },
                 {
-                    "name": "DAZN LA LIGA 2 FHD (*) --> NEW ERA",
-                    "url": "acestream://fc6064ce439f5146ca8e8b9238e5f0c009daa980",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-0.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "DAZN LA LIGA 2 FHD --> NEW ERA",
-                    "url": "acestream://5a022eaf3e068b8016bb6175843405f41c521ecd",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-0.png",
-                    "embed": "false"
-                },
-                {
                     "name": "DAZN1 --> NEW LOOP",
                     "url": "acestream://d5b2c6b940cf3df5e8f9dc6f000f0ea23a10b151",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-0.png",
@@ -911,38 +899,8 @@
                     "embed": "false"
                 },
                 {
-                    "name": "LALIGA HYPERMOTION TV 3 FHD --> NEW ERA",
-                    "url": "acestream://a1c03ddb96c772ee0c6cd5204a4192bf7c673acd",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-hypermotion-0.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "LALIGA HYPERMOTION TV FHD --> NEW ERA",
-                    "url": "acestream://a08e0eb60bf6c3b3e421e19cb89144096b2a8ae4",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-hypermotion-0.png",
-                    "embed": "false"
-                },
-                {
                     "name": "LALIGA HYPERMOTION TV FHD --> NEW ERA II",
                     "url": "acestream://da368e734b639e993b610bcfb779a76e03ad9409",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-hypermotion-0.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "LALIGA HYPERMOTION TV2 HD --> NEW ERA",
-                    "url": "acestream://2bd1c39a1448d8ffeb6305f659e0aa89878bb3d2",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-hypermotion-0.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "LALIGA HYPERMOTION TV4 FHD --> NEW ERA",
-                    "url": "acestream://2e61e74a312d54898764ab3473ebf2bf52f63757",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-hypermotion-0.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "LALIGA HYPERMOTION TV5 FHD --> NEW ERA",
-                    "url": "acestream://3bc7377b610a6e16235ebfbfe24f3e6feb4ac3ce",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-hypermotion-0.png",
                     "embed": "false"
                 },
@@ -1109,24 +1067,6 @@
             "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-0.png",
             "stations": [
                 {
-                    "name": "M+ LaLiga FHD (SAT) --> NEW ERA",
-                    "url": "acestream://a8e82dd368fe1473980ad608e699e1c946aed310",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-0.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "M+ LaLiga FHD --> NEW ERA",
-                    "url": "acestream://ce065492cf01b8d6db591064664d636e5ed87332",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-0.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "M+ LaLiga FHD --> NEW ERA - 71dc",
-                    "url": "acestream://ae39242a70a3ec6657750a032102a1770e3b71dc",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-0.png",
-                    "embed": "false"
-                },
-                {
                     "name": "M. LaLiga --> NEW LOOP",
                     "url": "acestream://cc9b7f5fe416069a2110da0909b0f915043c468b",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-0.png",
@@ -1187,12 +1127,6 @@
                     "embed": "false"
                 },
                 {
-                    "name": "M+ LaLiga 2 FHD --> NEW ERA",
-                    "url": "acestream://ea02dfdaf4bf770f49d99069f4699b24cde3e1bf",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-2.png",
-                    "embed": "false"
-                },
-                {
                     "name": "M. LaLiga 2 1080",
                     "url": "acestream://83c6c4942d69f4aa324aa746c5d7dbfd7d1572b3",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-2.png",
@@ -1208,12 +1142,6 @@
                     "name": "M. LaLiga 2 720",
                     "url": "acestream://f31a586422c9244196c810c84b6c85da350318a5",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-2.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "M+ LaLiga 3 FHD --> NEW ERA",
-                    "url": "acestream://27625f557d10c517caa39630a34a4f92665752c2",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-3.png",
                     "embed": "false"
                 },
                 {

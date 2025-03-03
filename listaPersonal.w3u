@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 03/03/2025 16:04:09",
+    "author": "Vila - 03/03/2025 20:03:36",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -864,7 +864,7 @@
                 },
                 {
                     "name": "LaLiga TV BAR FHD --> NEW ERA II",
-                    "url": "acestream://db9399427ec0dd2a30208fece043c2afcaef55e3",
+                    "url": "acestream://05214e3471c72f22774490996f533617f4db8dc6",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laligatv-bar-2505.png",
                     "embed": "false"
                 }
@@ -1205,6 +1205,12 @@
                     "embed": "false"
                 },
                 {
+                    "name": "beIN SPORTS XTRA --> NEW LOOP",
+                    "url": "acestream://fd869f34346154ca7cd78d46cbf7a6b8671beab5",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
                     "name": "Canal 1",
                     "url": "acestream://c1ee6e1e0ef5928d8261f855c417de21794f437d",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
@@ -1513,12 +1519,6 @@
                 {
                     "name": "MGPTV | Camara de a bordo 4 --> NEW ERA",
                     "url": "acestream://8a0957fa263a3dbb986e75fdcf5fbf6ef111b742",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "Motors TV HD --> NEW LOOP",
-                    "url": "acestream://8d475e2688519f2c602687b71be54cedbaef9e6b",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },

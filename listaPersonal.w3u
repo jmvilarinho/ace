@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 02/03/2025 20:00:23",
+    "author": "Vila - 03/03/2025 11:00:48",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -24,13 +24,19 @@
                 },
                 {
                     "name": "Eurosport 1 HD --> NEW LOOP",
-                    "url": "acestream://fbc82948dd7c19387a702692bc4590157b376459",
+                    "url": "acestream://cfa75ade53810dac64411b22d56c3d4582a221d3",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-es-eurosport-1-615.png",
                     "embed": "false"
                 },
                 {
                     "name": "Eurosport 1 hd --> NEW LOOP",
                     "url": "acestream://23a4937f1484b435af132dbfb3e8fd3aefc9baad",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-es-eurosport-1-615.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Eurosport 1 HD --> NEW LOOP - 6459",
+                    "url": "acestream://fbc82948dd7c19387a702692bc4590157b376459",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-es-eurosport-1-615.png",
                     "embed": "false"
                 },
@@ -1199,6 +1205,18 @@
                     "embed": "false"
                 },
                 {
+                    "name": "AutoMotorSport HD --> NEW LOOP",
+                    "url": "acestream://6791a2d1587e8c68eac10815f22aed439b0f6c9f",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "beIN SPORTS XTRA --> NEW LOOP",
+                    "url": "acestream://fd869f34346154ca7cd78d46cbf7a6b8671beab5",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
                     "name": "Canal 1",
                     "url": "acestream://c1ee6e1e0ef5928d8261f855c417de21794f437d",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
@@ -1273,12 +1291,6 @@
                 {
                     "name": "EVENTO UFC 1 —> NEW ERA",
                     "url": "acestream://916888d956caf960cc8456eb46a12775a858124c",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "FORMULA 1 ARAMCO PRE-SEASON TESTING 2025 F1TVPro 720p --> NEW LOOP",
-                    "url": "acestream://821eb83594bac4da4f2877f88e56d05400bb5d1b",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -1470,13 +1482,13 @@
                 },
                 {
                     "name": "M. Liga de Campeones --> NEW LOOP",
-                    "url": "acestream://bb5a8bf7752e978460ee1710e5e8950a5c9e1f99",
+                    "url": "acestream://e572a5178ff72eed7d1d751a18b4b3419699f370",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
                 {
-                    "name": "M. Liga de Campeones --> NEW LOOP - f370",
-                    "url": "acestream://e572a5178ff72eed7d1d751a18b4b3419699f370",
+                    "name": "M. Liga de Campeones --> NEW LOOP - 1f99",
+                    "url": "acestream://bb5a8bf7752e978460ee1710e5e8950a5c9e1f99",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -1511,6 +1523,18 @@
                     "embed": "false"
                 },
                 {
+                    "name": "Motors TV HD --> NEW LOOP",
+                    "url": "acestream://8d475e2688519f2c602687b71be54cedbaef9e6b",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Motorvision TV --> NEW LOOP",
+                    "url": "acestream://fffaa64d41e500250064181762d510d513137410",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
                     "name": "MOVISTAR CLASICOS FHD --> NEW ERA",
                     "url": "acestream://62b6cdc347e9b5f5aff089055365805e4d20d41e",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
@@ -1537,6 +1561,12 @@
                 {
                     "name": "RALLY TV* --> NEW ERA III",
                     "url": "acestream://4cdab0a6554b9e5a5864fa20f8534d5ccfa661fa",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Retrovision Motor --> NEW LOOP",
+                    "url": "acestream://b8b8c4470d3d27c75302cf49ab6c4b52a660bff3",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },

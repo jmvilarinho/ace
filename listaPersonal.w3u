@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 03/03/2025 11:00:48",
+    "author": "Vila - 03/03/2025 16:04:09",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -31,12 +31,6 @@
                 {
                     "name": "Eurosport 1 hd --> NEW LOOP",
                     "url": "acestream://23a4937f1484b435af132dbfb3e8fd3aefc9baad",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-es-eurosport-1-615.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "Eurosport 1 HD --> NEW LOOP - 6459",
-                    "url": "acestream://fbc82948dd7c19387a702692bc4590157b376459",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-es-eurosport-1-615.png",
                     "embed": "false"
                 },
@@ -1211,12 +1205,6 @@
                     "embed": "false"
                 },
                 {
-                    "name": "beIN SPORTS XTRA --> NEW LOOP",
-                    "url": "acestream://fd869f34346154ca7cd78d46cbf7a6b8671beab5",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
                     "name": "Canal 1",
                     "url": "acestream://c1ee6e1e0ef5928d8261f855c417de21794f437d",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
@@ -1225,6 +1213,12 @@
                 {
                     "name": "Canal 2",
                     "url": "acestream://8677d339ecddd75165c0015025f598b6215974cf",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Canal Motor (720p) --> NEW LOOP",
+                    "url": "acestream://31ef168d43c7cd04e672475f7ec33b99b9fe5a96",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -1621,6 +1615,12 @@
                 {
                     "name": "Teledeporte FHD --> NEW ERA",
                     "url": "acestream://c693df0cbccedec130e2b31453bdbfb3ccb7a648",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Tennis Channel (UK) (720p) --> NEW LOOP",
+                    "url": "acestream://52a526d748e26ff0827635b3932d9f49aee14a25",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },

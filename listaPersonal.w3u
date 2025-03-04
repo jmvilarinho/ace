@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 04/03/2025 11:03:03",
+    "author": "Vila - 04/03/2025 16:00:33",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -121,6 +121,12 @@
                 {
                     "name": "M+ LIGA DE CAMPEONES FHD --> NEW ERA",
                     "url": "acestream://f43a021e8fd63334a4bf3fb11ffe58f89039a1d0",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-01.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M+ LIGA DE CAMPEONES FHD --> NEW ERA II",
+                    "url": "acestream://1b5fdd73ab89ea7198e19a086502fb59c50938f7",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-01.png",
                     "embed": "false"
                 },
@@ -509,6 +515,12 @@
                     "embed": "false"
                 },
                 {
+                    "name": "DAZN LA LIGA 2 FHD --> NEW ERA",
+                    "url": "acestream://fb51ef5294e99767811a3fa95a1933fb864e9ff3",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-0.png",
+                    "embed": "false"
+                },
+                {
                     "name": "DAZN1 --> NEW LOOP",
                     "url": "acestream://d5b2c6b940cf3df5e8f9dc6f000f0ea23a10b151",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-0.png",
@@ -860,12 +872,6 @@
                     "name": "La Liga BAR 1080 - e952",
                     "url": "acestream://954b2cb573313690f2a6d6a2e70102fb49ace952",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-la-liga-tv-bar.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "LaLiga TV BAR FHD --> NEW ERA II",
-                    "url": "acestream://05214e3471c72f22774490996f533617f4db8dc6",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laligatv-bar-2505.png",
                     "embed": "false"
                 }
             ]
@@ -1482,13 +1488,13 @@
                 },
                 {
                     "name": "M. Liga de Campeones --> NEW LOOP",
-                    "url": "acestream://e572a5178ff72eed7d1d751a18b4b3419699f370",
+                    "url": "acestream://bb5a8bf7752e978460ee1710e5e8950a5c9e1f99",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
                 {
-                    "name": "M. Liga de Campeones --> NEW LOOP - 1f99",
-                    "url": "acestream://bb5a8bf7752e978460ee1710e5e8950a5c9e1f99",
+                    "name": "M. Liga de Campeones --> NEW LOOP - f370",
+                    "url": "acestream://e572a5178ff72eed7d1d751a18b4b3419699f370",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -1591,12 +1597,6 @@
                 {
                     "name": "Sky Sports Main Event [UK] --> NEW LOOP",
                     "url": "acestream://eab7aeef0218ce8b0752e596e4792b69eda4df5e",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "SuperTennis HD --> NEW LOOP",
-                    "url": "acestream://b58dbf92765976b308695f62dea94b00b40730ee",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },

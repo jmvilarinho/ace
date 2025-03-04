@@ -6,10 +6,10 @@ http://127.0.0.1:6878/ace/getstream?id=0fc05a1e2da78d44b3b5c1ebf6cbcedb8e92c934&
 http://127.0.0.1:6878/ace/getstream?id=8e8cf5d0da2f30cd3b266344891a18ed6bacaf50&.mp4
 #EXTINF:-1 tvg-id="Eurosport" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-eurosport.png" group-title="Eurosport" tvg-name="EuroSport 1",EuroSport 1
 http://127.0.0.1:6878/ace/getstream?id=b16eeeb12d208029eff3dcc9e73613fd8b052737&.mp4
+#EXTINF:-1 tvg-id="M+ Liga de Campeones 1" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-01.png" group-title="M.L. Campeones" tvg-name="M+ LIGA DE CAMPEONES FHD --> NEW ERA II",M+ LIGA DE CAMPEONES FHD --> NEW ERA II
+http://127.0.0.1:6878/ace/getstream?id=1b5fdd73ab89ea7198e19a086502fb59c50938f7&.mp4
 #EXTINF:-1 tvg-id="M+ Liga de Campeones 2" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-02.png" group-title="M.L. Campeones" tvg-name="M.L. CAMPEONES 2",M.L. CAMPEONES 2
 http://127.0.0.1:6878/ace/getstream?id=abdf9058786a48623d0de51a3adb414ae10b6e72&.mp4
-#EXTINF:-1 tvg-id="M+ Liga de Campeones 1" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-01.png" group-title="M.L. Campeones" tvg-name="M+ LIGA DE CAMPEONES FHD --> NEW ERA",M+ LIGA DE CAMPEONES FHD --> NEW ERA
-http://127.0.0.1:6878/ace/getstream?id=f43a021e8fd63334a4bf3fb11ffe58f89039a1d0&.mp4
 #EXTINF:-1 tvg-id="M+ Liga de Campeones 3" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-03.png" group-title="M.L. Campeones" tvg-name="M+ LIGA DE CAMPEONES 3 FHD --> NEW ERA",M+ LIGA DE CAMPEONES 3 FHD --> NEW ERA
 http://127.0.0.1:6878/ace/getstream?id=8e65f92af1de567f0af83562c5a14a3db6dc8ac8&.mp4
 #EXTINF:-1 tvg-id="M+ Liga de Campeones 4" tvg-logo="https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-04.png" group-title="M.L. Campeones" tvg-name="M+ LIGA DE CAMPEONES 4 FHD --> NEW ERA",M+ LIGA DE CAMPEONES 4 FHD --> NEW ERA

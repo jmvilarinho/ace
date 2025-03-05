@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 05/03/2025 21:44:45",
+    "author": "Vila - 05/03/2025 21:50:56",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -491,12 +491,6 @@
             "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-0.png",
             "stations": [
                 {
-                    "name": "M. Deportes",
-                    "url": "acestream://acb510858f34c3c6fd5f79395b031abd6885c2b3",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-1.png",
-                    "embed": "false"
-                },
-                {
                     "name": "M. Deportes 1",
                     "url": "acestream://dca9d8b0be1a5d68c929f5cebb61b82a4f62a307",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-1.png",
@@ -511,37 +505,37 @@
                 {
                     "name": "M. Deportes 2",
                     "url": "acestream://a54aed5e91e4a99a3582551db44fd472e1addda6",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-1.png",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-2.png",
                     "embed": "false"
                 },
                 {
                     "name": "M. Deportes 2 - a020",
                     "url": "acestream://911b6c35f4802fd358b78b328528af4650eca020",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-1.png",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-2.png",
                     "embed": "false"
                 },
                 {
                     "name": "M. Deportes 3 1080",
                     "url": "acestream://dba6e81dab3150e40ca49bef03f931a990bb93ea",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-1.png",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-3.png",
                     "embed": "false"
                 },
                 {
                     "name": "M. Deportes 4 1080",
                     "url": "acestream://77b36b785e84efa9a41d2a1ef90dd9652b8d2916",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-1.png",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-4.png",
                     "embed": "false"
                 },
                 {
                     "name": "M. Deportes 5 1080",
                     "url": "acestream://5ff896ae397b57a68435b25cde2937fac3e6cec1",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-1.png",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-5.png",
                     "embed": "false"
                 },
                 {
                     "name": "M. Deportes 6 1080",
                     "url": "acestream://7ba003da71c2af61e5dd16c75ca025494769aa88",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-1.png",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-6.png",
                     "embed": "false"
                 }
             ]
@@ -757,6 +751,12 @@
                 {
                     "name": "M. Clásicos",
                     "url": "acestream://26c63851b7a0de9efed907571b19d342fc8d6765",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M. Deportes",
+                    "url": "acestream://acb510858f34c3c6fd5f79395b031abd6885c2b3",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },

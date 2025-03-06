@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 06/03/2025 08:41:05",
+    "author": "Vila - 06/03/2025 08:44:17",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -1253,11 +1253,6 @@
         {
             "name": "Lista elcano",
             "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/lista-elcano.m3u",
-            "embed": "true"
-        },
-        {
-            "name": "Lista electroperra",
-            "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/lista-electroperra.m3u",
             "embed": "true"
         },
         {

@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 06/03/2025 08:44:17",
+    "author": "Vila - 06/03/2025 08:49:51",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -707,6 +707,12 @@
             "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-0.png",
             "stations": [
                 {
+                    "name": "M DEPORTES 2",
+                    "url": "acestream://d8c2ed470e847154a88f011137cc206319f6bed5",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-2.png",
+                    "embed": "false"
+                },
+                {
                     "name": "M+ DEPORTES 2 FHD --> NEW ERA",
                     "url": "acestream://d225087e30f6efe4c6d9b5ae3c2f3829368cd637",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-2.png",
@@ -725,9 +731,27 @@
                     "embed": "false"
                 },
                 {
+                    "name": "M DEPORTES 5",
+                    "url": "acestream://fcc0fd75bf1dba40b108fcf0d3514e0e549bfbac",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-5.png",
+                    "embed": "false"
+                },
+                {
                     "name": "M+ DEPORTES 5 HD --> NEW ERA",
                     "url": "acestream://14aa86be2b451cd4f5ee6d12e7479885373ea9b3",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-5.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M DEPORTES 6",
+                    "url": "acestream://cc5782d37ae6b6e0bab396dd64074982d0879046",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-6.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M DEPORTES 7",
+                    "url": "acestream://070f82d6443a52962d6a2ed9954c979b29404932",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-7.png",
                     "embed": "false"
                 }
             ]
@@ -937,30 +961,6 @@
                 {
                     "name": "M DEPORTES - 9879",
                     "url": "acestream://3a74d9869b13e763476800740c6625e715a39879",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "M DEPORTES 2",
-                    "url": "acestream://d8c2ed470e847154a88f011137cc206319f6bed5",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "M DEPORTES 5",
-                    "url": "acestream://fcc0fd75bf1dba40b108fcf0d3514e0e549bfbac",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "M DEPORTES 6",
-                    "url": "acestream://cc5782d37ae6b6e0bab396dd64074982d0879046",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "M DEPORTES 7",
-                    "url": "acestream://070f82d6443a52962d6a2ed9954c979b29404932",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },

@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 06/03/2025 09:17:33",
+    "author": "Vila - 06/03/2025 09:24:31",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -713,6 +713,12 @@
                     "embed": "false"
                 },
                 {
+                    "name": "M DEPORTES - 9879",
+                    "url": "acestream://3a74d9869b13e763476800740c6625e715a39879",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-1.png",
+                    "embed": "false"
+                },
+                {
                     "name": "M+ DEPORTES FHD (*) --> NEW ERA",
                     "url": "acestream://a8745bd07dc60413a4fc05caf2cabbfb11952232",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-1.png",
@@ -985,12 +991,6 @@
                 {
                     "name": "M #VAMOS - 6adb",
                     "url": "acestream://12ba546d229bc39f01c3c18988a034b215fe6adb",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "M DEPORTES - 9879",
-                    "url": "acestream://3a74d9869b13e763476800740c6625e715a39879",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },

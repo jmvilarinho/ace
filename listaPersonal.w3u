@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 06/03/2025 23:24:33",
+    "author": "Vila - 06/03/2025 23:30:04",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -30,7 +30,7 @@
                 },
                 {
                     "name": "Eurosport 1 HD --> NEW LOOP",
-                    "url": "acestream://f5a5a5bf9903bde0c865e421f126c42e514ff787",
+                    "url": "acestream://cfa75ade53810dac64411b22d56c3d4582a221d3",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-es-eurosport-1-615.png",
                     "embed": "false"
                 },
@@ -41,8 +41,8 @@
                     "embed": "false"
                 },
                 {
-                    "name": "Eurosport 1 HD --> NEW LOOP - 21d3",
-                    "url": "acestream://cfa75ade53810dac64411b22d56c3d4582a221d3",
+                    "name": "Eurosport 1 HD --> NEW LOOP - f787",
+                    "url": "acestream://f5a5a5bf9903bde0c865e421f126c42e514ff787",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-es-eurosport-1-615.png",
                     "embed": "false"
                 },
@@ -809,12 +809,6 @@
                     "embed": "false"
                 },
                 {
-                    "name": "M. LaLiga --> NEW LOOP - acde",
-                    "url": "acestream://d15a0eaf825b5f8f94259d5209688a7e97e6acde",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-0.png",
-                    "embed": "false"
-                },
-                {
                     "name": "M. LaLiga 1080 MultiAudio",
                     "url": "acestream://d3de78aebe544611a2347f54d5796bd87f16c92d",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-1.png",
@@ -1091,6 +1085,12 @@
                     "embed": "false"
                 },
                 {
+                    "name": "Motors TV HD --> NEW LOOP",
+                    "url": "acestream://8d475e2688519f2c602687b71be54cedbaef9e6b",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
                     "name": "Motorvision TV --> NEW LOOP",
                     "url": "acestream://fffaa64d41e500250064181762d510d513137410",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
@@ -1123,6 +1123,12 @@
                 {
                     "name": "RALLY TV* --> NEW ERA III",
                     "url": "acestream://4cdab0a6554b9e5a5864fa20f8534d5ccfa661fa",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Retrovision Motor --> NEW LOOP",
+                    "url": "acestream://b8b8c4470d3d27c75302cf49ab6c4b52a660bff3",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },

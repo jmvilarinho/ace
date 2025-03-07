@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 07/03/2025 08:16:35",
+    "author": "Vila - 07/03/2025 08:21:32",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -1247,18 +1247,13 @@
             "embed": "true"
         },
         {
-            "name": "Lista Af1cionados",
-            "url": "https://af-1-cionados.vercel.app/af1cionados.w3u",
-            "embed": "true"
-        },
-        {
             "name": "Lista Ramses",
             "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/lista-ramses.m3u",
             "embed": "true"
         },
         {
             "name": "Lista elcano",
-            "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/lista-elcano.m3u",
+            "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/lista-elcano.html",
             "embed": "true"
         },
         {
@@ -1274,6 +1269,11 @@
         {
             "name": "Chuky",
             "url": "https://drive.google.com/uc?export=download&id=1Wkta2yu_vp-TehAYmN4iGyh0igktB3dx",
+            "embed": "true"
+        },
+        {
+            "name": "TDT",
+            "url": "https://www.tdtchannels.com/lists/tv.m3u8",
             "embed": "true"
         }
     ]

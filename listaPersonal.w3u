@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 07/03/2025 08:21:32",
+    "author": "Vila - 07/03/2025 11:01:10",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -545,19 +545,19 @@
                     "embed": "false"
                 },
                 {
-                    "name": "DAZN F1 1080 (FÃ³rmula 1)",
+                    "name": "DAZN F1 1080 (Fórmula 1)",
                     "url": "acestream://d6281d4e6310269b416180442a470d23a4a99dc9",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-formula-1-366.png",
                     "embed": "false"
                 },
                 {
-                    "name": "DAZN F1 1080 (FÃ³rmula 1) - 2dfa",
+                    "name": "DAZN F1 1080 (Fórmula 1) - 2dfa",
                     "url": "acestream://71eef80158aa8b37f3dc59f6793c6696df9a2dfa",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-formula-1-366.png",
                     "embed": "false"
                 },
                 {
-                    "name": "DAZN F1 1080 (Fórmula 1)",
+                    "name": "DAZN F1 1080 (Fórmula 1) - 63b6",
                     "url": "acestream://2c6e4c897661e6b0257bfe931b66d20b2ec763b6",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-formula-1-366.png",
                     "embed": "false"
@@ -672,12 +672,6 @@
             "stations": [
                 {
                     "name": "La Liga BAR 1080",
-                    "url": "acestream://94d34491106e00394835c8cb68aa94481339b53f",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-la-liga-tv-bar.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "La Liga BAR 1080 - 990e",
                     "url": "acestream://608b0faf7d3d25f6fe5dba13d5e4b4142949990e",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-la-liga-tv-bar.png",
                     "embed": "false"
@@ -698,6 +692,30 @@
                     "name": "LaLiga HYPERMOTION 1080",
                     "url": "acestream://b2706a7ffbea236a3b398139a3a606ada664c0eb",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-hypermotion-01.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "LaLiga HYPERMOTION 720",
+                    "url": "acestream://121f719ebb94193c6086ef92865cf9b197750980",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-hypermotion-01.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "LaLiga HYPERMOTION 2 1080",
+                    "url": "acestream://0cfdfde1b70623b8c210b0f7301be2a87456481d",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-hypermotion-02.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "LaLiga HYPERMOTION 2 720",
+                    "url": "acestream://0a335406bad0b658aeddb2d38f8c0614b2e5623a",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-hypermotion-02.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "LaLiga HYPERMOTION 3",
+                    "url": "acestream://fefd45ed6ff415e05f1341b7d9da2988eacd13ea",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-hypermotion-03.png",
                     "embed": "false"
                 }
             ]
@@ -817,6 +835,12 @@
                 {
                     "name": "M. LaLiga 1080 MultiAudio - b163",
                     "url": "acestream://6d05b31e5e8fdae312fbd57897363a7b10ddb163",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-1.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M. LaLiga 1080P",
+                    "url": "acestream://94d34491106e00394835c8cb68aa94481339b53f",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-1.png",
                     "embed": "false"
                 },
@@ -1207,36 +1231,6 @@
             ]
         },
         {
-            "name": "L.L. SmartBank",
-            "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-smartbank.png",
-            "stations": [
-                {
-                    "name": "LaLiga Smartbank 2 1080",
-                    "url": "acestream://0cfdfde1b70623b8c210b0f7301be2a87456481d",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-smartbank.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "LaLiga Smartbank 2 720",
-                    "url": "acestream://0a335406bad0b658aeddb2d38f8c0614b2e5623a",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-smartbank.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "LaLiga Smartbank 3",
-                    "url": "acestream://fefd45ed6ff415e05f1341b7d9da2988eacd13ea",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-smartbank.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "LaLiga Smartbank 720",
-                    "url": "acestream://121f719ebb94193c6086ef92865cf9b197750980",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-smartbank.png",
-                    "embed": "false"
-                }
-            ]
-        },
-        {
             "name": "IPTV REFF",
             "url": "https://pastebin.com/tQmvLfLy",
             "embed": "true"
@@ -1249,11 +1243,6 @@
         {
             "name": "Lista Ramses",
             "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/lista-ramses.m3u",
-            "embed": "true"
-        },
-        {
-            "name": "Lista elcano",
-            "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/lista-elcano.html",
             "embed": "true"
         },
         {

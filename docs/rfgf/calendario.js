@@ -104,7 +104,7 @@ async function load_calendario(addHistory = true) {
 		if (last_idx < idxnow)
 			last_idx = idxnow;
 		if (idxnow==0)
-			last_idx=7;
+			last_idx=6;
 
 		for (var x = 1; x < last_idx; x++) {
 			hiddenDays.push(x);

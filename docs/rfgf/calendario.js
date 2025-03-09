@@ -100,9 +100,11 @@ async function load_calendario(addHistory = true) {
 		hiddenDays = [];
 		last_idx = firstEvent.getDay();
 		var date_now_obj = new Date(Date.now())
-		idxnow=date_now_obj.getDay()+1;
+		idxnow=date_now_obj.getDay()
 		if (last_idx < idxnow)
-			last_idx = idxnow);
+			last_idx = idxnow;
+		if (idxnow==0)
+			last_idx=7;
 
 		for (var x = 1; x < last_idx; x++) {
 			hiddenDays.push(x);

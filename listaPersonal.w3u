@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 11/03/2025 11:00:29",
+    "author": "Vila - 11/03/2025 16:00:51",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -109,12 +109,6 @@
                 {
                     "name": "M+ LIGA DE CAMPEONES FHD --> NEW ERA II",
                     "url": "acestream://ec6ce96a4e4eb523108418a84babc9eca4b4c507",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-01.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "M+ LIGA DE CAMPEONES FHD --> NEW ERA II - 21ff",
-                    "url": "acestream://91122954ad2d38568a3c9dd1fbaba1187e8521ff",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-01.png",
                     "embed": "false"
                 },
@@ -371,6 +365,12 @@
                     "embed": "false"
                 },
                 {
+                    "name": "DAZN 1* --> NEW ERA III - 62e8",
+                    "url": "acestream://c263083a829e25a59a125e015112e524664262e8",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-0.png",
+                    "embed": "false"
+                },
+                {
                     "name": "DAZN 2",
                     "url": "acestream://ca923c9873fd206a41c1e83ff8fc40e3cf323c9a",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-0.png",
@@ -415,6 +415,12 @@
                 {
                     "name": "DAZN FORMULA 1* --> NEW ERA III",
                     "url": "acestream://073d33a5e5270399154bb251fcc95f99c0741264",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-0.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "DAZN FORMULA 1* --> NEW ERA III - a811",
+                    "url": "acestream://fcb845950f6dab7ac3f85ea05762faf5caa6a811",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-0.png",
                     "embed": "false"
                 },
@@ -995,6 +1001,12 @@
                     "embed": "false"
                 },
                 {
+                    "name": "M+ Bar FHD --> NEW ERA II",
+                    "url": "acestream://580fa1e7623d514a94e8585f90c42eda09d5e4f1",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
                     "name": "M+ COMEDIA FHD --> NEW ERA II",
                     "url": "acestream://bed9a9fc8e9d07a65591c0e8c31cb558a029f985",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
@@ -1121,6 +1133,12 @@
                     "embed": "false"
                 },
                 {
+                    "name": "ONETORO* --> NEW ERA III",
+                    "url": "acestream://75af1643ef22377d53e1a1faa984c0f9f5374249",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
                     "name": "RALLY TV* --> NEW ERA III",
                     "url": "acestream://4cdab0a6554b9e5a5864fa20f8534d5ccfa661fa",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
@@ -1189,6 +1207,12 @@
                 {
                     "name": "TWITCH HEIKKI360ES --> NEW ERA II",
                     "url": "acestream://e8807c9b9902ef26ca66971680cc0d2f80263a4c",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "TWITCH STRADI PORSCHE ALL-STARS --> NEW ERA II",
+                    "url": "acestream://6dd7ea5bfc23c02afbda1f608e79201854b0e8a5",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },

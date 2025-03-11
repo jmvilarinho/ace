@@ -8,6 +8,18 @@
 acestream://608b0faf7d3d25f6fe5dba13d5e4b4142949990e
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/LaLiga%20TV%20BAR.png" group-title="Elcano" tvg-id="LaLiga TV BAR HD", La Liga BAR 1080 ELCANO
 acestream://94d34491106e00394835c8cb68aa94481339b53f
+
+
+
+
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/LaLiga%20TV%20BAR.png" group-title="New Era" tvg-id="LaLiga TV BAR HD", M+ Bar FHD --> NEW ERA II
+acestream://580fa1e7623d514a94e8585f90c42eda09d5e4f1
+
+
+
+
+
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/DAZN%20F1.png" group-title="Elcano" tvg-id="DAZN F1 HD", DAZN F1 1080 (Fórmula 1) ELCANO
 acestream://d6281d4e6310269b416180442a470d23a4a99dc9
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/DAZN%20F1.png" group-title="Elcano" tvg-id="DAZN F1 HD", DAZN F1 1080 (Fórmula 1) ELCANO
@@ -70,7 +82,7 @@ acestream://af636e7b1747cf868eedf242b96bd98f8fbbed4f
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/DAZN%20F1.png" group-title="New Era" tvg-id="DAZN F1 HD", DAZN F1 FHD --> NEW ERA II
 acestream://c367738691c63896679e523d4c1c7933729acc7b
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/M%2B%20Liga%20de%20Campeones.png" group-title="New Era" tvg-id="M+ Liga de Campeones HD", M+ LIGA DE CAMPEONES FHD --> NEW ERA II
-acestream://91122954ad2d38568a3c9dd1fbaba1187e8521ff
+acestream://ec6ce96a4e4eb523108418a84babc9eca4b4c507
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/LaLiga%20TV%20Hypermotion.png" group-title="New Era" tvg-id="LaLiga TV Hypermotion HD", LALIGA HYPERMOTION TV FHD --> NEW ERA II
 acestream://4e066df67d118f95b41f850869abdc663c515186
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/Eurosport%202.png" group-title="New Era" tvg-id="Eurosport 2", EUROSPORT 2 FHD --> NEW ERA II
@@ -85,48 +97,8 @@ acestream://65b66db65acc04f75701f733cab599c375bff645
 acestream://5bd6122d984a90a930b2dafdedfe249eea3457e0
 #EXTINF:-1 tvg-logo="" group-title="New Era" tvg-id="", WINTER SERIES ARAGON --> NEW ERA II
 acestream://c50d085c6ed12e638913c2b147aecbab71751949
-#EXTINF:-1 tvg-logo="" group-title="New Era" tvg-id="", TWITCH HEIKKI360ES --> NEW ERA II
-acestream://e8807c9b9902ef26ca66971680cc0d2f80263a4c
-
-
-
-
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/M%2B%20Liga%20de%20Campeones%202.png" group-title="Elcano" tvg-id="M+ Liga de Campeones 2 HD", M.L. CAMPEONES 2 Elcano Antiguas
-acestream://abdf9058786a48623d0de51a3adb414ae10b6e72
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/Movistar%20Plus%2B.png" group-title="Elcano" tvg-id="Movistar Plus+ HD", MOVISTAR PLUS Elcano Antiguas
-acestream://56ac8e227d526e722624675ccdd91b0cc850582f
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/M%2B%20Deportes.png" group-title="Elcano" tvg-id="M+ Deportes HD", M DEPORTES Elcano Antiguas
-acestream://55d4602cb22b0d8a33c10c2c2f42dae64a9e8895
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/M%2B%20Deportes.png" group-title="Elcano" tvg-id="M+ Deportes HD", M DEPORTES Elcano Antiguas
-acestream://3a74d9869b13e763476800740c6625e715a39879
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/M%2B%20Deportes%202.png" group-title="Elcano" tvg-id="M+ Deportes 2 HD", M DEPORTES 2 Elcano Antiguas
-acestream://d8c2ed470e847154a88f011137cc206319f6bed5
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/M%2B%20Deportes%205.png" group-title="Elcano" tvg-id="M+ Deportes 5", M DEPORTES 5 Elcano Antiguas
-acestream://fcc0fd75bf1dba40b108fcf0d3514e0e549bfbac
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/M%2B%20Deportes%206.png" group-title="Elcano" tvg-id="M+ Deportes 6", M DEPORTES 6 Elcano Antiguas
-acestream://cc5782d37ae6b6e0bab396dd64074982d0879046
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/M%2B%20Deportes.png" group-title="Elcano" tvg-id="M+ Deportes HD", M DEPORTES 7 Elcano Antiguas
-acestream://070f82d6443a52962d6a2ed9954c979b29404932
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/DAZN%201.png" group-title="Elcano" tvg-id="DAZN 1 HD", DAZN 1 Elcano Antiguas
-acestream://35c7f0c966ecde3390f4510bb4caded40018c07a
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/DAZN%202.png" group-title="Elcano" tvg-id="DAZN 2 HD", DAZN 2 Elcano Antiguas
-acestream://ca923c9873fd206a41c1e83ff8fc40e3cf323c9a
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/DAZN%202.png" group-title="Elcano" tvg-id="DAZN 2 HD", DAZN 2 Elcano Antiguas
-acestream://a929eeec1268d69d1556a2e3ace793b2577d8810
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/M%2B%20Vamos.png" group-title="Elcano" tvg-id="M+ Vamos HD", M #VAMOS Elcano Antiguas
-acestream://d03c13b6723f66155d7a0df3692a3b073fe630f2
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/M%2B%20Vamos.png" group-title="Elcano" tvg-id="M+ Vamos HD", M #VAMOS Elcano Antiguas
-acestream://12ba546d229bc39f01c3c18988a034b215fe6adb
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/Eurosport%201.png" group-title="Elcano" tvg-id="Eurosport 1 HD", EuroSport Elcano Antiguas
-acestream://16ffa1713f42aa27317ee039a2bd0cdbc89a1580
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/M%2B%20Copa%20del%20Rey.png" group-title="Elcano" tvg-id="M+ Copa del Rey", Copa del Rey Elcano Antiguas
-acestream://b51f2d9a15b6956a44385b6be531bcabeb099d9d
-
-
-
-
-
+#EXTINF:-1 tvg-logo="" group-title="New Era" tvg-id="", TWITCH STRADI PORSCHE ALL-STARS --> NEW ERA II
+acestream://6dd7ea5bfc23c02afbda1f608e79201854b0e8a5
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/DAZN%201.png" group-title="New Era" tvg-id="DAZN 1 HD", DAZN 1 FHD --> NEW ERA
 acestream://e6a00cb2912609dceeeee88d3f66a2de9718b421
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/DAZN%20LaLiga%202.png" group-title="New Era" tvg-id="DAZN LaLiga 2 HD", DAZN LA LIGA 2 FHD --> NEW ERA
@@ -301,12 +273,12 @@ acestream://6f1f82c3cf6bf4b4ccb6d63d687271878e0e908d
 acestream://916888d956caf960cc8456eb46a12775a858124c
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/M%2B%20Liga%20de%20Campeones.png" group-title="New Era" tvg-id="M+ Liga de Campeones HD", M+ LIGA DE CAMPEONES FHD (2 opcion) --> NEW ERA
 acestream://ba87f528de030aad56576f7cbb9d8bbd7efd62b9
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/Rally%20TV.png" group-title="New Era" tvg-id="DE | Rally TV", RALLY TV* --> NEW ERA III
-acestream://4cdab0a6554b9e5a5864fa20f8534d5ccfa661fa
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/DAZN%20F1.png" group-title="New Era" tvg-id="DAZN F1 HD", DAZN FORMULA 1* --> NEW ERA III
-acestream://073d33a5e5270399154bb251fcc95f99c0741264
+acestream://fcb845950f6dab7ac3f85ea05762faf5caa6a811
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/DAZN%201.png" group-title="New Era" tvg-id="DAZN 1 HD", DAZN 1* --> NEW ERA III
-acestream://44c12ecb7b00a961f3c3f80f1edea7f8feedec59
+acestream://c263083a829e25a59a125e015112e524664262e8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/Onetoro.png" group-title="New Era" tvg-id="Onetoro", ONETORO* --> NEW ERA III
+acestream://75af1643ef22377d53e1a1faa984c0f9f5374249
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/GOL%20PLAY.png" group-title="New Era" tvg-id="GOL PLAY", GOL PLAY --> NEW ERA IV
 acestream://5fe1d33db9ebe08cea0b27af064f068102b31831
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/Eurosport%201.png" group-title="New Era" tvg-id="Eurosport 1 HD", EUROSPORT 1 --> NEW ERA IV

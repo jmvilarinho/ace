@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 12/03/2025 20:02:02",
+    "author": "Vila - 12/03/2025 20:23:06",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -30,18 +30,6 @@
                 },
                 {
                     "name": "Eurosport 1 HD --> NEW LOOP",
-                    "url": "acestream://cfa75ade53810dac64411b22d56c3d4582a221d3",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-es-eurosport-1-615.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "Eurosport 1 hd --> NEW LOOP",
-                    "url": "acestream://23a4937f1484b435af132dbfb3e8fd3aefc9baad",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-es-eurosport-1-615.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "Eurosport 1 HD --> NEW LOOP - f787",
                     "url": "acestream://f5a5a5bf9903bde0c865e421f126c42e514ff787",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-es-eurosport-1-615.png",
                     "embed": "false"
@@ -113,6 +101,12 @@
                     "embed": "false"
                 },
                 {
+                    "name": "M+ LIGA DE CAMPEONES FHD --> NEW ERA VI",
+                    "url": "acestream://1b430209cb644b962813017f24beef370bba64eb",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-01.png",
+                    "embed": "false"
+                },
+                {
                     "name": "M+ LIGA DE CAMPEONES FHD —> NEW ERA II",
                     "url": "acestream://1b5fdd73ab89ea7198e19a086502fb59c50938f7",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-01.png",
@@ -168,6 +162,12 @@
                 },
                 {
                     "name": "M+ LIGA DE CAMPEONES 4 FHD (*) --> NEW ERA",
+                    "url": "acestream://291ef48025291b7241ef370f657d0e47132c6fb0",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-04.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M+ LIGA DE CAMPEONES 4 FHD (*) --> NEW ERA - 3452",
                     "url": "acestream://7a5512d101742eb418dd0e3ffbd2bf6c43c73452",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-04.png",
                     "embed": "false"
@@ -360,12 +360,6 @@
                 },
                 {
                     "name": "DAZN 1* --> NEW ERA III",
-                    "url": "acestream://44c12ecb7b00a961f3c3f80f1edea7f8feedec59",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-0.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "DAZN 1* --> NEW ERA III - 62e8",
                     "url": "acestream://c263083a829e25a59a125e015112e524664262e8",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-0.png",
                     "embed": "false"
@@ -414,12 +408,6 @@
                 },
                 {
                     "name": "DAZN FORMULA 1* --> NEW ERA III",
-                    "url": "acestream://073d33a5e5270399154bb251fcc95f99c0741264",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-0.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "DAZN FORMULA 1* --> NEW ERA III - a811",
                     "url": "acestream://fcb845950f6dab7ac3f85ea05762faf5caa6a811",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-0.png",
                     "embed": "false"
@@ -588,6 +576,12 @@
                 },
                 {
                     "name": "DAZN F1 FHD --> NEW ERA",
+                    "url": "acestream://9f04b67904bf5ec6782ab34e8105bca264c10b62",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-formula-1-366.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "DAZN F1 FHD --> NEW ERA - bd3c",
                     "url": "acestream://5d8613b5fde87f366bb5e41ac8011007a4c6bd3c",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-formula-1-366.png",
                     "embed": "false"
@@ -658,6 +652,30 @@
             "name": "ESPN",
             "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-us-espn.png",
             "stations": [
+                {
+                    "name": "BT Sport / ESPN [UK] --> NEW LOOP",
+                    "url": "acestream://fc5089d8e1519872fdf951779ccbca913acc9bce",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-us-espn.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "ESPN 2 [BE] --> NEW LOOP",
+                    "url": "acestream://3e0ba6867173f345d482d80c771f1a5dc3b37e63",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-us-espn.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "ESPN 4 [BE] --> NEW LOOP",
+                    "url": "acestream://5f9b19c57195cc28ab81e0ec8cad03b55118687a",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-us-espn.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "ESPN [BE] --> NEW LOOP",
+                    "url": "acestream://79f10c6c6168e42bfc606f3f7b9e5f3ca79dedab",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-us-espn.png",
+                    "embed": "false"
+                },
                 {
                     "name": "ESPN HD [US] --> NEW LOOP",
                     "url": "acestream://4b4907de51ec11087d4bed5876f2a0c68264f442",
@@ -881,13 +899,61 @@
                     "embed": "false"
                 },
                 {
-                    "name": "Canal 1",
+                    "name": "BeIN Sports 1 [BE] --> NEW LOOP",
+                    "url": "acestream://bba1905fcd1c4975aec544047bf8e4cd23ce3fe0",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "BeIN Sports 2 [BE] --> NEW LOOP",
+                    "url": "acestream://edb507e38394d614c9ff55805c9d354ae13210bc",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "BeIN Sports 3 [BE] --> NEW LOOP",
+                    "url": "acestream://731bd3336ec0986ff9100efe40dbaf1473a22cf8",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "beIN SPORTS XTRA --> NEW LOOP",
+                    "url": "acestream://fd869f34346154ca7cd78d46cbf7a6b8671beab5",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "BeinSportsXtraÑ --> NEW LOOP",
+                    "url": "acestream://92a7dcc55392efc6dd5d012c4ff3878891eb6a6e",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "BT Sport 1 [UK] --> NEW LOOP",
+                    "url": "acestream://efc60cfe5e3a349baa02bcc49f6647c21a9c3c5b",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "BT Sport 2 [UK] --> NEW LOOP",
+                    "url": "acestream://d63d8a57cf471394bfa9f619bbd68b01ae27a801",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "BT Sport 3 [UK] --> NEW LOOP",
+                    "url": "acestream://5f966c123759de46dff29c379266b7a403452033",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Canal 1 (1RFEF)  --> NEW ERA V",
                     "url": "acestream://c1ee6e1e0ef5928d8261f855c417de21794f437d",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
                 {
-                    "name": "Canal 2",
+                    "name": "Canal 2 (1RFEF)  --> NEW ERA V",
                     "url": "acestream://8677d339ecddd75165c0015025f598b6215974cf",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
@@ -913,6 +979,42 @@
                 {
                     "name": "Discovery Channel --> NEW ERA IV",
                     "url": "acestream://cd485af78cf86934d77cf867f73fe7f5cd32981a",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Eleven Sports 1 [BE] --> NEW LOOP",
+                    "url": "acestream://36cad67fed5a739757a9db844a551aa845a8d51b",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Eleven Sports 2 [BE] --> NEW LOOP",
+                    "url": "acestream://d08013df6e437a1fdf1e0c34f573fdf6a40c7fce",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Eleven Sports 3 [BE] --> NEW LOOP",
+                    "url": "acestream://dae7d1251f069516cc0a9c8f15f6639d2a17df1e",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Eleven Sports 4 [BE] --> NEW LOOP",
+                    "url": "acestream://0f32c0131a2d9444996410801f4e18b04384db98",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Eleven Sports 5 [BE] --> NEW LOOP",
+                    "url": "acestream://4dbe63b44fc4f439f5b634c0d2aa7e0cccad808a",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Eleven Sports 6 [BE] --> NEW LOOP",
+                    "url": "acestream://50b6d2b5fd59fefb9f4fd2176994d418f2b94a80",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -1103,12 +1205,6 @@
                     "embed": "false"
                 },
                 {
-                    "name": "Motorvision TV --> NEW LOOP",
-                    "url": "acestream://fffaa64d41e500250064181762d510d513137410",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
                     "name": "MOVISTAR CLASICOS FHD --> NEW ERA",
                     "url": "acestream://62b6cdc347e9b5f5aff089055365805e4d20d41e",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
@@ -1134,13 +1230,25 @@
                 },
                 {
                     "name": "ONETORO* --> NEW ERA III",
+                    "url": "acestream://19940643e22199f378edf30e607ed40257fd4c5c",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "ONETORO* --> NEW ERA III - 4249",
                     "url": "acestream://75af1643ef22377d53e1a1faa984c0f9f5374249",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
                 {
+                    "name": "Premier Sports 1 [UK] --> NEW LOOP",
+                    "url": "acestream://75a56863b6fe0407ad4305b4d7ee5643c3923565",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
                     "name": "RALLY TV* --> NEW ERA III",
-                    "url": "acestream://4cdab0a6554b9e5a5864fa20f8534d5ccfa661fa",
+                    "url": "acestream://6e654ee8b7ffde32a507a2ed27086090b68926e8",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -1193,20 +1301,14 @@
                     "embed": "false"
                 },
                 {
-                    "name": "Tennis Channel (UK) (720p) --> NEW LOOP",
-                    "url": "acestream://52a526d748e26ff0827635b3932d9f49aee14a25",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
                     "name": "Tennis Channel HD --> NEW LOOP",
                     "url": "acestream://039fae21c9e7e5214d3d898cba80863e37e623ac",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
                 {
-                    "name": "TWITCH HEIKKI360ES --> NEW ERA II",
-                    "url": "acestream://e8807c9b9902ef26ca66971680cc0d2f80263a4c",
+                    "name": "TWITCH HIKKI360ES --> NEW ERA II",
+                    "url": "acestream://33f0fb5f182a731abe2d13acee8a02cdb618c8d5",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -1225,6 +1327,18 @@
                 {
                     "name": "WINTER SERIES ARAGON --> NEW ERA II",
                     "url": "acestream://c50d085c6ed12e638913c2b147aecbab71751949",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Ziggo Sport --> NEW LOOP",
+                    "url": "acestream://fcd7621df513f600652b4813d5d8fd1daed60058",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Ziggo Sport 6 --> NEW LOOP",
+                    "url": "acestream://9231f38e71a85ad24b4c11a5e360992e30c916ed",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 }

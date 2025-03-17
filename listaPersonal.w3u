@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 17/03/2025 11:04:05",
+    "author": "Vila - 17/03/2025 16:00:24",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -175,6 +175,12 @@
                 {
                     "name": "M+ LIGA DE CAMPEONES 4 FHD (*) --> NEW ERA",
                     "url": "acestream://7a5512d101742eb418dd0e3ffbd2bf6c43c73452",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-04.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M+ LIGA DE CAMPEONES 4 FHD (*) --> NEW ERA - 6fb0",
+                    "url": "acestream://291ef48025291b7241ef370f657d0e47132c6fb0",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-04.png",
                     "embed": "false"
                 },
@@ -371,12 +377,6 @@
                     "embed": "false"
                 },
                 {
-                    "name": "DAZN 1* --> NEW ERA III - 62e8",
-                    "url": "acestream://c263083a829e25a59a125e015112e524664262e8",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-0.png",
-                    "embed": "false"
-                },
-                {
                     "name": "DAZN 2",
                     "url": "acestream://ca923c9873fd206a41c1e83ff8fc40e3cf323c9a",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-0.png",
@@ -421,12 +421,6 @@
                 {
                     "name": "DAZN FORMULA 1* --> NEW ERA III",
                     "url": "acestream://073d33a5e5270399154bb251fcc95f99c0741264",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-0.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "DAZN FORMULA 1* --> NEW ERA III - a811",
-                    "url": "acestream://fcb845950f6dab7ac3f85ea05762faf5caa6a811",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-0.png",
                     "embed": "false"
                 },
@@ -595,6 +589,12 @@
                 {
                     "name": "DAZN F1 FHD --> NEW ERA",
                     "url": "acestream://5d8613b5fde87f366bb5e41ac8011007a4c6bd3c",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-formula-1-366.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "DAZN F1 FHD --> NEW ERA - 0b62",
+                    "url": "acestream://9f04b67904bf5ec6782ab34e8105bca264c10b62",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-formula-1-366.png",
                     "embed": "false"
                 },
@@ -887,13 +887,13 @@
                     "embed": "false"
                 },
                 {
-                    "name": "Canal 1",
+                    "name": "Canal 1 (1RFEF) (solo eventos) --> NEW ERA V",
                     "url": "acestream://c1ee6e1e0ef5928d8261f855c417de21794f437d",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
                 {
-                    "name": "Canal 2",
+                    "name": "Canal 2 (1RFEF) (solo eventos) --> NEW ERA V",
                     "url": "acestream://8677d339ecddd75165c0015025f598b6215974cf",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
@@ -1003,12 +1003,6 @@
                 {
                     "name": "M+ ACCION FHD --> NEW ERA",
                     "url": "acestream://de88ed8716612d9c548df63a168fbdd96843dd20",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "M+ Bar FHD --> NEW ERA II",
-                    "url": "acestream://580fa1e7623d514a94e8585f90c42eda09d5e4f1",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -1139,8 +1133,8 @@
                     "embed": "false"
                 },
                 {
-                    "name": "ONETORO* --> NEW ERA III",
-                    "url": "acestream://75af1643ef22377d53e1a1faa984c0f9f5374249",
+                    "name": "ONETORO* (solo eventos) --> NEW ERA III",
+                    "url": "acestream://4da965302d7ce9e6d4bbd9277dfc023ab6ff0721",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -1217,8 +1211,8 @@
                     "embed": "false"
                 },
                 {
-                    "name": "TWITCH STRADI PORSCHE ALL-STARS --> NEW ERA II",
-                    "url": "acestream://6dd7ea5bfc23c02afbda1f608e79201854b0e8a5",
+                    "name": "TWITCH HIKKI360ES --> NEW ERA II",
+                    "url": "acestream://33f0fb5f182a731abe2d13acee8a02cdb618c8d5",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },

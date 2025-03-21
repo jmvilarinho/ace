@@ -594,7 +594,7 @@ async function createPrevisionPrecipitacionMunicipio(data, element, id_municipio
 	var max = 0;
 	for (var i = 0; i < arrayLength; i++) {
 		labels.push(datos_array[i]['periodo']);
-		data.push(datos_array[i]['value']);
+		data.push(  datos_array[i]['value']);
 		if (Number(datos_array[i]['value']) > max) {
 			max = Number(datos_array[i]['value']);
 		}
@@ -622,7 +622,7 @@ async function createPrevisionPrecipitacionMunicipio(data, element, id_municipio
 				plugins: {
 					title: {
 						display: true,
-						text: 'Precipitación total (mm)'
+						text: 'Precipitación total por hora'
 					},
 					legend: {
 						display: false
@@ -632,7 +632,11 @@ async function createPrevisionPrecipitacionMunicipio(data, element, id_municipio
 					y: {
 					  beginAtZero: true,
 					  suggestedMin: 0,
-					  suggestedMax: 4
+					  suggestedMax: 4,
+					  title: {
+						display: true,
+						text: 'mm'
+					  }
 					}
 				  }
 

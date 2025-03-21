@@ -423,12 +423,12 @@ async function createPrevision(data, element, idmareas) {
 
 function getPrevisionMunicipio(id, element) {
 	const ms = Date.now();
-	const url = 'https://opendata.aemet.es/opendata/api/prediccion/especifica/municipio/diaria/' + id + '/?api_key=' + apikey + "&nocache=" + ms
+	var url = 'https://opendata.aemet.es/opendata/api/prediccion/especifica/municipio/diaria/' + id + '/?api_key=' + apikey + "&nocache=" + ms
 	console.log('Get prevision municipio: ' + url)
 
 	fetch(url)
 		.then(response => response.json())
-		.then(data => getPrevisionDatosMunicipio(data, element))
+		.then(data => getPrevisionDatosMunicipio(data, element, id))
 		.catch(error => {
 			console.error('Error:', error);
 			noPrevision(element);
@@ -436,7 +436,7 @@ function getPrevisionMunicipio(id, element) {
 		});
 }
 
-function getPrevisionDatosMunicipio(data, element) {
+function getPrevisionDatosMunicipio(data, element, id_municipio) {
 	if (data['estado'] == 200) {
 
 		console.log('Get prevision: ' + data['datos'])
@@ -450,7 +450,7 @@ function getPrevisionDatosMunicipio(data, element) {
 			.then(function (buffer) {
 				const decoder = new TextDecoder('iso-8859-1');
 				const text = decoder.decode(buffer);
-				createPrevisionMunicipio(JSON.parse(text), element);
+				createPrevisionMunicipio(JSON.parse(text), element, id_municipio);
 			});
 	}
 }
@@ -484,7 +484,7 @@ function municipioRow(datos, index) {
 		if (datos["probPrecipitacion"][index]["value"] == '0')
 			precipitacion = '-';
 		else if (datos["probPrecipitacion"][index]["value"] == '100')
-			precipitacion = 'Va a llover';
+			precipitacion = 'Seguro que llueve';
 		else
 			precipitacion = datos["probPrecipitacion"][index]["value"] + '% probab. de lluvia';
 
@@ -506,7 +506,7 @@ function municipioRow(datos, index) {
 
 }
 
-async function createPrevisionMunicipio(data, element) {
+async function createPrevisionMunicipio(data, element, id_municipio) {
 	var tabla = '<table class="center">';
 
 	var arrayLength = data[0]["prediccion"]["dia"].length;
@@ -527,6 +527,9 @@ async function createPrevisionMunicipio(data, element) {
 			tabla += municipioRow(datos, 6);
 		}
 	}
+
+	tabla += "<tr  id=\"trmunicipio" + id_municipio + "\"><td colspan=4><div><canvas hidden id=\"municipio" + id_municipio + "\"></canvas></div></td ></tr > ";
+
 	tabla += "</table>";
 
 	const keyDiv = document.createElement('div');
@@ -542,4 +545,100 @@ async function createPrevisionMunicipio(data, element) {
 		+ "Previsión poboacions xerada: "
 		+ dt.toLocaleDateString("es-ES", options)
 		+ "</a></p>";
+
+
+	const ms = Date.now();
+	url = 'https://opendata.aemet.es/opendata/api/prediccion/especifica/municipio/horaria/' + id_municipio + '/?api_key=' + apikey + "&nocache=" + ms
+	console.log('Get precipitacion municipio: ' + url)
+
+	fetch(url)
+		.then(response => response.json())
+		.then(data => getPrevisionPrecipitacionMunicipio(data, element, id_municipio))
+		.catch(error => {
+			console.error('Error:', error);
+			$('#trmunicipio' + id_municipio).remove();
+			return false;
+		});
+}
+
+
+function getPrevisionPrecipitacionMunicipio(data, element, id_municipio) {
+	if (data['estado'] == 200) {
+
+		console.log('Get precipitacion: ' + data['datos'])
+		var myHeaders = new Headers();
+		myHeaders.append('Content-Type', 'text/plain; charset=UTF-8');
+
+		fetch(data['datos'], myHeaders)
+			.then(function (response) {
+				return response.arrayBuffer();
+			})
+			.then(function (buffer) {
+				const decoder = new TextDecoder('iso-8859-1');
+				const text = decoder.decode(buffer);
+				createPrevisionPrecipitacionMunicipio(JSON.parse(text), element, id_municipio);
+			});
+	} else {
+		$('#trmunicipio' + id_municipio).remove();
+	}
+}
+
+async function createPrevisionPrecipitacionMunicipio(data, element, id_municipio) {
+	console.log(data[0]["prediccion"]["dia"][0]['precipitacion']);
+
+	var datos_array = data[0]["prediccion"]["dia"][0]['precipitacion'];
+
+	var arrayLength = datos_array.length;
+	var labels = [];
+	var data = [];
+	var max = 0;
+	for (var i = 0; i < arrayLength; i++) {
+		labels.push(datos_array[i]['periodo']);
+		data.push(datos_array[i]['value']);
+		if (Number(datos_array[i]['value']) > max) {
+			max = Number(datos_array[i]['value']);
+		}
+	}
+
+
+	if (max > 0) {
+		var image = document.getElementById('municipio' + id_municipio);
+		image.style.visibility = "visible";
+
+		// Get the drawing context on the canvas
+		var myContext = document.getElementById('municipio' + id_municipio).getContext('2d');
+		var myChart = new Chart(myContext, {
+			type: 'bar',
+			data: {
+				labels: labels,
+				datasets: [{
+					label: 'mm',
+					backgroundColor: "blue",
+					data: data,
+				}
+				],
+			},
+			options: {
+				plugins: {
+					title: {
+						display: true,
+						text: 'Precipitación total (mm)'
+					},
+					legend: {
+						display: false
+					},
+				},
+				scales: {
+					y: {
+					  beginAtZero: true,
+					  suggestedMin: 0,
+					  suggestedMax: 4
+					}
+				  }
+
+			}
+		});
+	} else {
+		$('#trmunicipio' + id_municipio).remove();
+	}
 }

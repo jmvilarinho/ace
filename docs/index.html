@@ -27,6 +27,9 @@
 		function gtag() { dataLayer.push(arguments); }
 		gtag('js', new Date());
 		gtag('config', 'G-PMCWDDX565');
+
+		meteogalcia_url ='https://www.meteogalicia.gal/web/predicion/galicia/0'
+		meteogalcia_url ='https://www.meteogalicia.gal/web/predicion/portada'
 	</script>
 </head>
 
@@ -46,7 +49,7 @@
 			</td>
 			<td style="text-align: right;border: none;">
 				<input type="button" class="back_button" id="field" value="Meteogalicia"
-					onclick="openInNewTab('https://www.meteogalicia.gal/web/predicion/galicia/0')">
+					onclick="openInNewTab(meteogalcia_url)">
 				<input type="button" class="back_button" id="field2" value="RFGF" onclick="openUrl('rfgf/')">
 			</td>
 		</tr>

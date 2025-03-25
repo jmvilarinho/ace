@@ -59,7 +59,7 @@ async function createPrevisionMunicipio(data, element, id_municipio) {
 	}
 
 	tabla += '<tr  id="trmunicipio' + id_municipio + '"><td colspan=4>';
-	tabla += '<div><canvas hidden id="municipio' + id_municipio + '"></canvas></div>';
+	tabla += '<div id="divmunicipio' + id_municipio + '"><canvas hidden id="municipio' + id_municipio + '"></canvas></div>';
 	tabla += '</td ></tr >';
 	tabla += "</table>";
 
@@ -87,7 +87,7 @@ async function createPrevisionMunicipio(data, element, id_municipio) {
 		.then(data => getPrevisionPrecipitacionMunicipio(data, element, id_municipio))
 		.catch(error => {
 			console.error('Error:', error);
-			$('#trmunicipio' + id_municipio).remove();
+			$('#divmunicipio' + id_municipio).html('Error obtendo precipitacións');
 			return false;
 		});
 }
@@ -108,9 +108,14 @@ function getPrevisionPrecipitacionMunicipio(data, element, id_municipio) {
 				const decoder = new TextDecoder('iso-8859-1');
 				const text = decoder.decode(buffer);
 				createPrevisionPrecipitacionMunicipio(JSON.parse(text), element, id_municipio);
+			})
+			.catch(error => {
+				console.error('Error:', error);
+				$('#divmunicipio' + id_municipio).html('Error obtendo precipitacións');
+				return false;
 			});
 	} else {
-		$('#trmunicipio' + id_municipio).remove();
+		$('#divmunicipio' + id_municipio).html('Error obtendo precipitacións');
 	}
 }
 

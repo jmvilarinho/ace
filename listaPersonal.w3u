@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 27/03/2025 11:00:22",
+    "author": "Vila - 27/03/2025 16:02:52",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -697,6 +697,12 @@
                 {
                     "name": "BEIN SPORTS Ñ --> NEW LOOP",
                     "url": "acestream://4922d8414b6d96bcdd36e99483a7077f484b6f71",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "BEIN SPORTS Ñ --> NEW LOOP - 68f9",
+                    "url": "acestream://e8e459656f964f601ad4bcda8b81a43ba41c68f9",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },

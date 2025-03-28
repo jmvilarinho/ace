@@ -429,58 +429,10 @@ async function createPrevision(data, element, idmareas, id_playa) {
 	total_elementos = total_elementos - 1;
 }
 
-
-
-
-
-
 function isToday(d1) {
 	// 2024-07-25T00:00:00
 	var now = new Date();
 	var todayStr = now.getFullYear() + '-' + padTo2Digits(now.getMonth() + 1) + '-' + padTo2Digits(now.getDate()) + 'T00:00:00';
 
-
 	return (todayStr == d1);
-}
-
-function municipioRow(datos, index) {
-	if (datos["estadoCielo"][index]["value"] == "") {
-		row = "";
-	} else {
-		rowspan = 4;
-		snowLine = '';
-		if (datos["cotaNieveProv"][index]["value"] != "") {
-			rowspan += 1;
-			snowLine += "<tr>"
-				+ "<th>Neve</th><td style='text-align: left;' colspan=2>" + datos["cotaNieveProv"][index]["value"] + " m.</td>"
-		}
-
-		if (datos["viento"][index]["velocidad"] == '0')
-			viento = '-';
-		else
-			viento = datos["viento"][index]["velocidad"] + ' km/h <img style="vertical-align:middle"  height=20px src="img/wind-' + datos["viento"][index]["direccion"] + '.png">';
-
-		if (datos["probPrecipitacion"][index]["value"] == '0')
-			precipitacion = '-';
-		else if (datos["probPrecipitacion"][index]["value"] == '100')
-			precipitacion = 'Seguro que llueve';
-		else
-			precipitacion = datos["probPrecipitacion"][index]["value"] + '% probab. de lluvia';
-
-		row = "<tr>"
-			+ `<th rowspan=${rowspan}>` + datos["estadoCielo"][index]["periodo"] + ' h<br><img src="img/' + datos["estadoCielo"][index]["value"] + '_g.png" height="50px"></th>'
-			+ "<tr>"
-			+ "<th>Ceo</th><td style='text-align: left;' colspan=2>" + datos["estadoCielo"][index]["descripcion"] + "</td>"
-			+ "<tr>"
-			+ "<th>Vento</th><td style='text-align: left;vertical-align:middle;border:0px;' colspan=2><div>" + viento + '</div></td>'
-			+ "<tr>"
-			+ "<th>Precip.</th><td style='text-align: left;' colspan=2>" + precipitacion + "</td>"
-			+ snowLine
-			+ "</tr>";
-
-
-
-	}
-	return row;
-
 }

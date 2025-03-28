@@ -92,6 +92,47 @@ async function createPrevisionMunicipio(data, element, id_municipio) {
 		});
 }
 
+function municipioRow(datos, index) {
+	if (datos["estadoCielo"][index]["value"] == "") {
+		row = "";
+	} else {
+		rowspan = 2;
+		snowLine = '';
+		if (datos["cotaNieveProv"][index]["value"] != "") {
+			rowspan += 1;
+			snowLine += "<tr>"
+				+ "<th>Neve</th><td style='text-align: left;' colspan=2>" + datos["cotaNieveProv"][index]["value"] + " m.</td>"
+		}
+
+		vientoLine='';
+		if (datos["viento"][index]["velocidad"] != '0') {
+			rowspan += 1;
+			viento = datos["viento"][index]["velocidad"] + ' km/h <img style="vertical-align:middle"  height=20px src="img/wind-' + datos["viento"][index]["direccion"] + '.png">';
+			vientoLine="<tr><th>Vento</th><td style='text-align: left;vertical-align:middle;border:0px;' colspan=2><div>" + viento + '</div></td>';
+		}
+
+		precipitacionLine='';
+		if (datos["probPrecipitacion"][index]["value"] != '0') {
+			rowspan += 1;
+			if (datos["probPrecipitacion"][index]["value"] == '100')
+				precipitacion = 'Seguro que llueve';
+			else
+				precipitacion = datos["probPrecipitacion"][index]["value"] + '% probab. de lluvia';
+			precipitacionLine="<tr><th>Precip.</th><td style='text-align: left;' colspan=2>" + precipitacion + "</td>";
+		}
+
+		row = "<tr>"
+			+ '<th rowspan='+rowspan+'>' + datos["estadoCielo"][index]["periodo"] + ' h<br><img src="img/' + datos["estadoCielo"][index]["value"] + '_g.png" height="50px"></th>'
+			+ "<tr>"
+			+ "<th>Ceo</th><td style='text-align: left;' colspan=2>" + datos["estadoCielo"][index]["descripcion"] + "</td>"
+			+ vientoLine
+			+ precipitacionLine
+			+ snowLine
+			+ "</tr>";
+	}
+	return row;
+}
+
 
 function getPrevisionPrecipitacionMunicipio(data, element, id_municipio) {
 	if (data['estado'] == 200) {

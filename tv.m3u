@@ -930,6 +930,8 @@ http://185.189.225.150:85/8madrid/index.m3u8
 https://9laloma.tv/live.m3u8
 #EXTINF:-1 tvg-id="AMC.es",AMC (Spain) (720p)
 http://vegafibratv.com:8085/AMC/index.m3u8
+#EXTINF:-1 tvg-id="AXN.es",AXN (1080p)
+http://181.78.109.48:8000/play/a05u/index.m3u8
 #EXTINF:-1 tvg-id="ActivaTV.es",Activa TV (720p)
 https://streamtv.mediasector.es/hls/activatv/index.m3u8
 #EXTINF:-1 tvg-id="AfortunadasTV.es",Afortunadas TV (720p)
@@ -938,6 +940,8 @@ https://cloudvideo.servers10.com:8081/8108/index.m3u8
 https://streaming01.gestec-video.com/hls/artequatreAlacanti.m3u8
 #EXTINF:-1 tvg-id="AlcarriaTV.es",Alcarria TV (576p) [Not 24/7]
 http://217.182.77.27/live/alcarriatv-livestream.m3u8
+#EXTINF:-1 tvg-id="Antena3.es",Antena 3 (480p)
+http://181.78.109.48:8000/play/a00f/index.m3u8
 #EXTINF:-1 tvg-id="Antena3.es",Antena 3 (720p)
 http://185.189.225.150:85/Antena3HD/index.m3u8
 #EXTINF:-1 tvg-id="AquiNoHayQuienViva.es",Aqui No Hay Quien Viva (720p)
@@ -946,6 +950,8 @@ https://fast-channels.atresmedia.com/648ef3951756b0e425af83cc/648ef3951756b0e425
 https://streamtv2.elitecomunicacion.cloud:3956/live/arabitvlive.m3u8
 #EXTINF:-1 tvg-id="AragonTV.es",Aragón TV (720p) [Not 24/7]
 https://cartv.streaming.aranova.es/hls/live/aragontv_canal1.m3u8
+#EXTINF:-1 tvg-id="Atreseries.es",Atreseries (480p)
+http://181.78.109.48:8000/play/a00l/index.m3u8
 #EXTINF:-1 tvg-id="AtresplayerClasicos.es",Atresplayer Clasicos (1080p)
 https://fast-channels.atresmedia.com/648ef12c2bfab0e4507e0d61/648ef12c2bfab0e4507e0d61.m3u8
 #EXTINF:-1 tvg-id="AtresplayerComedia.es",Atresplayer Comedia (1080p)

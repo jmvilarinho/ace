@@ -932,6 +932,8 @@ https://9laloma.tv/live.m3u8
 http://vegafibratv.com:8085/AMC/index.m3u8
 #EXTINF:-1 tvg-id="AXN.es",AXN (1080p)
 http://181.78.109.48:8000/play/a05u/index.m3u8
+#EXTINF:-1 tvg-id="AXN.es",AXN (480p)
+http://181.78.109.48:8000/play/a023/index.m3u8
 #EXTINF:-1 tvg-id="ActivaTV.es",Activa TV (720p)
 https://streamtv.mediasector.es/hls/activatv/index.m3u8
 #EXTINF:-1 tvg-id="AfortunadasTV.es",Afortunadas TV (720p)
@@ -1252,6 +1254,8 @@ https://shls-live-ak.akamaized.net/out/v1/b06a89a463764d3688cda337d40dc5bf/index
 https://streaming013.gestec-video.com/hls/negociostv.m3u8
 #EXTINF:-1 tvg-id="Neox.es",Neox (576p)
 http://185.189.225.150:85/neox/index.m3u8
+#EXTINF:-1 tvg-id="Nickelodeon.es",Nickelodeon (480p)
+http://181.78.109.48:8000/play/a05a/index.m3u8
 #EXTINF:-1 tvg-id="Nickelodeon.es",Nickelodeon (Spain) (576p)
 http://185.189.225.150:85/nickelodeon/index.m3u8
 #EXTINF:-1 tvg-id="NoroesteTV.es",Noroeste TV (1080p) [Not 24/7]

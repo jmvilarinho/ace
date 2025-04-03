@@ -106,25 +106,25 @@ function municipioRow(datos, index) {
 				+ "<th>Neve</th><td style='text-align: left;' colspan=2>" + datos["cotaNieveProv"][index]["value"] + " m.</td>"
 		}
 
-		vientoLine='';
+		vientoLine = '';
 		if (datos["viento"][index]["velocidad"] != '0') {
 			rowspan += 1;
 			viento = datos["viento"][index]["velocidad"] + ' km/h <img style="vertical-align:middle"  height=20px src="img/wind-' + datos["viento"][index]["direccion"] + '.png">';
-			vientoLine="<tr><th>Vento</th><td style='text-align: left;vertical-align:middle;border:0px;' colspan=2><div>" + viento + '</div></td>';
+			vientoLine = "<tr><th>Vento</th><td style='text-align: left;vertical-align:middle;border:0px;' colspan=2><div>" + viento + '</div></td>';
 		}
 
-		precipitacionLine='';
+		precipitacionLine = '';
 		if (datos["probPrecipitacion"][index]["value"] != '0') {
 			rowspan += 1;
 			if (datos["probPrecipitacion"][index]["value"] == '100')
 				precipitacion = 'Seguro que llueve';
 			else
 				precipitacion = datos["probPrecipitacion"][index]["value"] + '% probab. de lluvia';
-			precipitacionLine="<tr><th>Precip.</th><td style='text-align: left;' colspan=2>" + precipitacion + "</td>";
+			precipitacionLine = "<tr><th>Precip.</th><td style='text-align: left;' colspan=2>" + precipitacion + "</td>";
 		}
 
 		row = "<tr>"
-			+ '<th rowspan='+rowspan+'>' + datos["estadoCielo"][index]["periodo"] + ' h<br><img src="img/' + datos["estadoCielo"][index]["value"] + '_g.png" height="50px"></th>'
+			+ '<th rowspan=' + rowspan + '>' + datos["estadoCielo"][index]["periodo"] + ' h<br><img src="img/' + datos["estadoCielo"][index]["value"] + '_g.png" height="50px"></th>'
 			+ "<tr>"
 			+ "<th>Ceo</th><td style='text-align: left;' colspan=2>" + datos["estadoCielo"][index]["descripcion"] + "</td>"
 			+ vientoLine
@@ -165,17 +165,44 @@ function getPrevisionPrecipitacionMunicipio(data, element, id_municipio) {
 async function createPrevisionPrecipitacionMunicipio(data, element, id_municipio) {
 	//console.log(data[0]["prediccion"]["dia"][0]['precipitacion']);
 	var datos_array = [];
+	const now = new Date();
+	current_hour = now.getHours()
 
 	var datos_array_dia = data[0]["prediccion"]["dia"];
 	var arrayLength = datos_array_dia.length;
+
+	var today_encontrado=false;
 	for (var i = 0; i < arrayLength; i++) {
-		if ( isToday(datos_array_dia[i]['fecha']) ) {
-			datos_array = datos_array_dia[i]['precipitacion'];
+		console.log("procesar dia"+datos_array_dia[i]['fecha']);
+		if(today_encontrado){
+			// dia siguiente
+			today_encontrado=false;
+
+			manana=datos_array_dia[i]['precipitacion'];
+			for (var x = 0; x < manana.length; x++) {
+				hora = Number(manana[x]['periodo']);
+				console.log(hora);
+				if (hora < current_hour) {
+					datos_array.push(manana[x]);
+				}
+			}
+
+		}
+		if (isToday(datos_array_dia[i]['fecha'])) {
+			today_encontrado=true;
+
+			hoy=datos_array_dia[i]['precipitacion'];
+			for (var x = 0; x < hoy.length; x++) {
+				hora = Number(hoy[x]['periodo']);
+				if (hora >= current_hour) {
+					datos_array.push(hoy[x]);
+				}
+			}
 		}
 	}
 
 	var arrayLength = datos_array.length;
-	if (arrayLength == 0){
+	if (arrayLength == 0) {
 		$('#divmunicipio' + id_municipio).html('Non hai datos de precipitacións');
 		return;
 	}
@@ -183,13 +210,11 @@ async function createPrevisionPrecipitacionMunicipio(data, element, id_municipio
 	var data = [];
 	var max = 0;
 
-	const now = new Date();
-	current_hour = now.getHours()
 
 	for (var i = 0; i < arrayLength; i++) {
 		hora = Number(datos_array[i]['periodo']);
 		precipitacion = Number(datos_array[i]['value']);
-		if (hora >= current_hour) {
+		if (hora >= current_hour || true) {
 			labels.push(datos_array[i]['periodo']);
 			data.push(precipitacion);
 			if (precipitacion > max) {

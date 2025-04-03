@@ -1,6 +1,7 @@
 function getPrevisionMunicipio(id, element) {
 	const ms = Date.now();
-	var url = 'https://opendata.aemet.es/opendata/api/prediccion/especifica/municipio/diaria/' + id + '/?api_key=' + apikey + "&nocache=" + ms
+	//var url = 'https://opendata.aemet.es/opendata/api/prediccion/especifica/municipio/diaria/' + id + '/?api_key=' + apikey + "&nocache=" + ms
+	var url = 'https://opendata.aemet.es/opendata/api/prediccion/especifica/municipio/diaria/' + id + '/?api_key=' + apikey;
 	console.log('Get prevision municipio: ' + url)
 
 	fetch(url)
@@ -79,8 +80,9 @@ async function createPrevisionMunicipio(data, element, id_municipio) {
 
 
 	const ms = Date.now();
-	url = 'https://opendata.aemet.es/opendata/api/prediccion/especifica/municipio/horaria/' + id_municipio + '/?api_key=' + apikey + "&nocache=" + ms
-	console.log('Get precipitacion municipio: ' + url)
+	//url = 'https://opendata.aemet.es/opendata/api/prediccion/especifica/municipio/horaria/' + id_municipio + '/?api_key=' + apikey + "&nocache=" + ms
+	url = 'https://opendata.aemet.es/opendata/api/prediccion/especifica/municipio/horaria/' + id_municipio + '/?api_key=' + apikey;
+	console.log('Get precipitacion municipio: ' + url);
 
 	fetch(url)
 		.then(response => response.json())
@@ -162,10 +164,21 @@ function getPrevisionPrecipitacionMunicipio(data, element, id_municipio) {
 
 async function createPrevisionPrecipitacionMunicipio(data, element, id_municipio) {
 	//console.log(data[0]["prediccion"]["dia"][0]['precipitacion']);
+	var datos_array = [];
 
-	var datos_array = data[0]["prediccion"]["dia"][0]['precipitacion'];
+	var datos_array_dia = data[0]["prediccion"]["dia"];
+	var arrayLength = datos_array_dia.length;
+	for (var i = 0; i < arrayLength; i++) {
+		if ( isToday(datos_array_dia[i]['fecha']) ) {
+			datos_array = datos_array_dia[i]['precipitacion'];
+		}
+	}
 
 	var arrayLength = datos_array.length;
+	if (arrayLength == 0){
+		$('#divmunicipio' + id_municipio).html('Non hai datos de precipitacións');
+		return;
+	}
 	var labels = [];
 	var data = [];
 	var max = 0;

@@ -314,8 +314,9 @@ function getPrevision(id, element, idmareas = 0) {
 	// Municipios : https://opendata.aemet.es/opendata/api/prediccion/especifica/municipio/diaria/27045/?api_key=eyJhb...
 
 	const ms = Date.now();
-	const url = 'https://opendata.aemet.es/opendata/api/prediccion/especifica/playa/' + id + '/?api_key=' + apikey + "&nocache=" + ms
-	console.log('Get prevision playa: ' + url)
+	//const url = 'https://opendata.aemet.es/opendata/api/prediccion/especifica/playa/' + id + '/?api_key=' + apikey + "&nocache=" + ms
+	const url = 'https://opendata.aemet.es/opendata/api/prediccion/especifica/playa/' + id + '/?api_key=' + apikey;
+	console.log('Get prevision playa: ' + url);
 
 	fetch(url)
 		.then(response => response.json())

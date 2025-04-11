@@ -247,7 +247,6 @@ function getLocalTime(time) {
 
 // --------------------------------------------------------------------------------------------------
 
-var apikey = 'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqbXZpbGFyaW5ob0BnbWFpbC5jb20iLCJqdGkiOiJhZTdiYTgwOS1iOTQ3LTQxM2YtYmRmYy03ODEzZjMxOGM5ZDkiLCJpc3MiOiJBRU1FVCIsImlhdCI6MTcyMTQ4NDg2MiwidXNlcklkIjoiYWU3YmE4MDktYjk0Ny00MTNmLWJkZmMtNzgxM2YzMThjOWQ5Iiwicm9sZSI6IiJ9.7kqIc3ErJmp9MtGELp9C8SDUkZ-a9bAX2LeRw_aysRg';
 
 function getTemperatura(id, latitude, longitude, texto = "Temperatura actual", waze = true) {
 	const ms = Date.now();
@@ -307,18 +306,18 @@ function geoFindMe(divName) {
 
 // --------------------------------------------------------------------------------------------------
 
-var apikey = 'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqbXZpbGFyaW5ob0BnbWFpbC5jb20iLCJqdGkiOiJhZTdiYTgwOS1iOTQ3LTQxM2YtYmRmYy03ODEzZjMxOGM5ZDkiLCJpc3MiOiJBRU1FVCIsImlhdCI6MTcyMTQ4NDg2MiwidXNlcklkIjoiYWU3YmE4MDktYjk0Ny00MTNmLWJkZmMtNzgxM2YzMThjOWQ5Iiwicm9sZSI6IiJ9.7kqIc3ErJmp9MtGELp9C8SDUkZ-a9bAX2LeRw_aysRg';
+const proxyHost = "https://jl6dcfhxupw4gk4hvy4pxmhjoa0lmhwd.lambda-url.eu-west-1.on.aws/?type=aemet&url=";
 
 function getPrevision(id, element, idmareas = 0) {
-	// Playas : https://opendata.aemet.es/opendata/api/prediccion/especifica/playa/1501902/?api_key=eyJhbGciO
-	// Municipios : https://opendata.aemet.es/opendata/api/prediccion/especifica/municipio/diaria/27045/?api_key=eyJhb...
-
 	const ms = Date.now();
-	//const url = 'https://opendata.aemet.es/opendata/api/prediccion/especifica/playa/' + id + '/?api_key=' + apikey + "&nocache=" + ms
-	const url = 'https://opendata.aemet.es/opendata/api/prediccion/especifica/playa/' + id + '/?api_key=' + apikey;
+	// Playas     : https://opendata.aemet.es/opendata/api/prediccion/especifica/playa/1501902/?api_key=eyJhbGciO
+	// Municipios : https://opendata.aemet.es/opendata/api/prediccion/especifica/municipio/diaria/27045/?api_key=eyJhb...
+	//const url = 'https://opendata.aemet.es/opendata/api/prediccion/especifica/playa/' + id + '/?api_key=' + apiKey + "&nocache=" + ms
+	//const url = 'https://opendata.aemet.es/opendata/api/prediccion/especifica/playa/' + id + '/?api_key=' + apiKey;
+	const url = 'https://opendata.aemet.es/opendata/api/prediccion/especifica/playa/' + id;
 	console.log('Get prevision playa: ' + url);
 
-	fetch(url)
+	fetch(proxyHost + url)
 		.then(response => response.json())
 		.then(data => getPrevisionDatos(data, element, idmareas, id))
 		.catch(error => {
@@ -328,9 +327,9 @@ function getPrevision(id, element, idmareas = 0) {
 		});
 }
 
-async function noPrevision(element, idmareas = 0, error='') {
+async function noPrevision(element, idmareas = 0, error = '') {
 	var tabla = '<table class="center">';
-	tabla += '<tr><td>(Sin datos de previsión meteorolóxica)<br>'+error+'</td></tr>';
+	tabla += '<tr><td>(Sin datos de previsión meteorolóxica)<br>' + error + '</td></tr>';
 	if (idmareas > 0) {
 		mareas = await getMareas(idmareas);
 		tabla += '<tr><td>' + mareas + '</td></tr>';

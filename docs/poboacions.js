@@ -1,10 +1,11 @@
 function getPrevisionMunicipio(id, element) {
 	const ms = Date.now();
-	//var url = 'https://opendata.aemet.es/opendata/api/prediccion/especifica/municipio/diaria/' + id + '/?api_key=' + apikey + "&nocache=" + ms
-	var url = 'https://opendata.aemet.es/opendata/api/prediccion/especifica/municipio/diaria/' + id + '/?api_key=' + apikey;
+	//var url = 'https://opendata.aemet.es/opendata/api/prediccion/especifica/municipio/diaria/' + id + '/?api_key=' + apiKey + "&nocache=" + ms
+	//var url = 'https://opendata.aemet.es/opendata/api/prediccion/especifica/municipio/diaria/' + id + '/?api_key=' + apiKey;
+	var url = 'https://opendata.aemet.es/opendata/api/prediccion/especifica/municipio/diaria/' + id;
 	console.log('Get prevision municipio: ' + url)
 
-	fetch(url)
+	fetch(proxyHost + url)
 		.then(response => response.json())
 		.then(data => getPrevisionDatosMunicipio(data, element, id))
 		.catch(error => {
@@ -80,11 +81,12 @@ async function createPrevisionMunicipio(data, element, id_municipio) {
 
 
 	const ms = Date.now();
-	//url = 'https://opendata.aemet.es/opendata/api/prediccion/especifica/municipio/horaria/' + id_municipio + '/?api_key=' + apikey + "&nocache=" + ms
-	url = 'https://opendata.aemet.es/opendata/api/prediccion/especifica/municipio/horaria/' + id_municipio + '/?api_key=' + apikey;
+	//url = 'https://opendata.aemet.es/opendata/api/prediccion/especifica/municipio/horaria/' + id_municipio + '/?api_key=' + apiKey + "&nocache=" + ms
+	//url = 'https://opendata.aemet.es/opendata/api/prediccion/especifica/municipio/horaria/' + id_municipio + '/?api_key=' + apiKey;
+	url = 'https://opendata.aemet.es/opendata/api/prediccion/especifica/municipio/horaria/' + id_municipio;
 	console.log('Get precipitacion municipio: ' + url);
 
-	fetch(url)
+	fetch(proxyHost + url)
 		.then(response => response.json())
 		.then(data => getPrevisionPrecipitacionMunicipio(data, element, id_municipio))
 		.catch(error => {
@@ -171,14 +173,14 @@ async function createPrevisionPrecipitacionMunicipio(data, element, id_municipio
 	var datos_array_dia = data[0]["prediccion"]["dia"];
 	var arrayLength = datos_array_dia.length;
 
-	var today_encontrado=false;
+	var today_encontrado = false;
 	for (var i = 0; i < arrayLength; i++) {
-		console.log("procesar dia"+datos_array_dia[i]['fecha']);
-		if(today_encontrado){
+		console.log("procesar dia" + datos_array_dia[i]['fecha']);
+		if (today_encontrado) {
 			// dia siguiente
-			today_encontrado=false;
+			today_encontrado = false;
 
-			manana=datos_array_dia[i]['precipitacion'];
+			manana = datos_array_dia[i]['precipitacion'];
 			for (var x = 0; x < manana.length; x++) {
 				hora = Number(manana[x]['periodo']);
 				console.log(hora);
@@ -189,9 +191,9 @@ async function createPrevisionPrecipitacionMunicipio(data, element, id_municipio
 
 		}
 		if (isToday(datos_array_dia[i]['fecha'])) {
-			today_encontrado=true;
+			today_encontrado = true;
 
-			hoy=datos_array_dia[i]['precipitacion'];
+			hoy = datos_array_dia[i]['precipitacion'];
 			for (var x = 0; x < hoy.length; x++) {
 				hora = Number(hoy[x]['periodo']);
 				if (hora >= current_hour) {

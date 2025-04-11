@@ -323,14 +323,14 @@ function getPrevision(id, element, idmareas = 0) {
 		.then(data => getPrevisionDatos(data, element, idmareas, id))
 		.catch(error => {
 			console.error('Error:', error);
-			noPrevision(element, idmareas);
+			noPrevision(element, idmareas, error);
 			return false;
 		});
 }
 
-async function noPrevision(element, idmareas = 0) {
+async function noPrevision(element, idmareas = 0, error='') {
 	var tabla = '<table class="center">';
-	tabla += '<tr><td>(Sin datos de previsión meteorolóxica)</td></tr>';
+	tabla += '<tr><td>(Sin datos de previsión meteorolóxica)<br>'+error+'</td></tr>';
 	if (idmareas > 0) {
 		mareas = await getMareas(idmareas);
 		tabla += '<tr><td>' + mareas + '</td></tr>';

@@ -318,7 +318,7 @@ function getPrevision(id, element, idmareas = 0) {
 	const url = 'https://opendata.aemet.es/opendata/api/prediccion/especifica/playa/' + id + '/?api_key=' + apikey;
 	console.log('Get prevision playa: ' + url);
 
-	fetch(url, mode: 'no-cors')
+	fetch(url)
 		.then(response => response.json())
 		.then(data => getPrevisionDatos(data, element, idmareas, id))
 		.catch(error => {

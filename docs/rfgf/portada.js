@@ -56,10 +56,10 @@ async function load_tv_player(url) {
 						element = data.data[i];
 						tvUrl = '<a href="' + url + element.id + '" target="_blank"><img class="escudo_widget" src=../img/television-icon-22175.png></a>';
 						try {
-							if (element.configuration != null && element.configuration.streaming.ssl_hls != undefined) {
+							if (element.configuration != null && element.configuration.videoresources.nimble_urls.ssl_hls != undefined) {
 								found = true;
 								//console.log(element.configuration.streaming);
-								tvUrl += ' - <a href=\'javascript:showVideo("' + element.configuration.streaming.ssl_hls + '");\'>' + element.title + '</a>';
+								tvUrl += ' - <a href=\'javascript:showVideo("' + element.configuration.videoresources.nimble_urls.ssl_hls + '");\'>' + element.title + '</a>';
 							}
 
 

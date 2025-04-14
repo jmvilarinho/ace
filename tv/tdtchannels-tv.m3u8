@@ -154,6 +154,8 @@ https://ztnr.rtve.es/ztnr/6924117.m3u8
 https://ztnr.rtve.es/ztnr/2472037.m3u8
 #EXTINF:-1 tvg-id="RTVE_Viajes.TV" tvg-logo="https://graph.facebook.com/rtveplay/picture?width=200&height=200" group-title="Eventuales" tvg-name="RTVE Talent",RTVE Talent
 https://ztnr.rtve.es/ztnr/16510071.m3u8
+#EXTINF:-1 tvg-id="RTVE_Crimen.TV" tvg-logo="https://graph.facebook.com/rtveplay/picture?width=200&height=200" group-title="Eventuales" tvg-name="RTVE Procesiones",RTVE Procesiones
+https://ztnr.rtve.es/ztnr/16519534.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/CongresodelosDiputados/picture?width=200&height=200" group-title="Eventuales" tvg-name="Canal Parlamento",Canal Parlamento
 https://congresodirecto.akamaized.net/hls/live/2037973/canalparlamento/master.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/CongresodelosDiputados/picture?width=200&height=200" group-title="Eventuales" tvg-name="Congreso de los Diputados",Congreso de los Diputados
@@ -204,7 +206,7 @@ https://ondacadiztv.es:30443/octv/directo_multi/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/m95tvmarbella/picture?width=200&height=200" group-title="Andalucía" tvg-name="M95 Marbella",M95 Marbella
 https://limited2.todostreaming.es/live/m95-livestream.m3u8
 #EXTINF:-1 tvg-id="HuelvaTV.TV" tvg-logo="https://pbs.twimg.com/profile_images/1861683669838049280/ovQd2ShK_200x200.jpg" group-title="Andalucía" tvg-name="Huelva TV",Huelva TV
-https://5f71743aa95e4.streamlock.net:1936/huelvatv/htvdirecto/playlist.m3u8
+https://eventos.todostreaming.es/live/huelvatv-livestream.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/canalsierradecadiz/picture?width=200&height=200" group-title="Andalucía" tvg-name="Canal Sierra de Cádiz",Canal Sierra de Cádiz
 https://s.emisoras.tv:8081/sierradecadiz/index.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/canal45television/picture?width=200&height=200" group-title="Andalucía" tvg-name="Canal 45 TV",Canal 45 TV
@@ -263,6 +265,10 @@ https://www.streaming101tv.es:19360/antequera/antequera.m3u8
 https://www.streaming101tv.es:19360/axarquia/axarquia.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/101tvAntequera/picture?width=200&height=200" group-title="Andalucía" tvg-name="101TV Cádiz",101TV Cádiz
 https://www.streaming101tv.es:19360/cadiz/cadiz.m3u8
+#EXTINF:-1 tvg-logo="https://graph.facebook.com/101tvgranada/picture?width=200&height=200" group-title="Andalucía" tvg-name="101TV Granada",101TV Granada
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 CrKey/1.44.191160
+#EXTVLCOPT:http-referrer=https://player.instantvideocloud.net/
+https://liveingesta318.cdnmedia.tv/101televisionlive/smil:rtmp03.smil/playlist.m3u8?DVR
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/101tvmalaga/picture?width=200&height=200" group-title="Andalucía" tvg-name="101TV Costa del Sol",101TV Costa del Sol
 https://www.streaming101tv.es:19360/costadelsol/costadelsol.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/101tvmalaga/picture?width=200&height=200" group-title="Andalucía" tvg-name="101TV Ronda",101TV Ronda
@@ -512,8 +518,6 @@ https://ingest1-video.streaming-pro.com/canaltaronja/sabadell/playlist.m3u8
 https://tv.mywifisocial.es/live.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/1397103013646307/picture?width=200&height=200" group-title="Cataluña" tvg-name="TV Gran Vía Radio",TV Gran Vía Radio
 https://streamlov.alsolnet.com/granviaradiofm/live/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://graph.facebook.com/RTVCE/picture?width=200&height=200" group-title="Ceuta" tvg-name="RTVCE",RTVCE
-https://cdnlive.codev8.net/rtvcelive/smil:channel1.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Telemadrid.TV" tvg-logo="https://graph.facebook.com/telemadrid/picture?width=200&height=200" group-title="C. de Madrid" tvg-name="Telemadrid",Telemadrid
 https://telemadrid-23-secure2.akamaized.net/master.m3u8
 #EXTINF:-1 tvg-id="Telemadrid.TV" tvg-logo="https://graph.facebook.com/telemadrid/picture?width=200&height=200" group-title="C. de Madrid" tvg-name="Telemadrid",Telemadrid
@@ -1145,7 +1149,7 @@ https://0ba805a2403b4660bbb05c0a210ebbdc.mediatailor.us-east-1.amazonaws.com/v1/
 #EXTVLCOPT:http-referrer=https://radiou.com/tv/
 https://1826200335.rsc.cdn77.org/1826200335/index.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/retroplustv/picture?width=200&height=200" group-title="Musicales" tvg-name="Retro Plus TV Chile",Retro Plus TV Chile
-https://scl.edge.grupoz.cl/retroplus16@grupoz.cl_retrolive/live/playlist.m3u8
+https://ssh101stream.ssh101.com/akamaissh101/ssh101/retroplustv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/CaliforniaMusicChannel/picture?width=200&height=200" group-title="Musicales" tvg-name="California Music Channel USA",California Music Channel USA EN
 https://cmc-ono.amagi.tv/hls/amagi_hls_data_cmcAAAAAA-cmc-ono/CDN/playlist.m3u8?device=TDTChannels
 #EXTINF:-1 tvg-logo="https://yt3.ggpht.com/ytc/AAUvwnj90kC8kqjZ69oiVT718JUs9iedB5o1w9cKfApo=s200" group-title="Musicales" tvg-name="Portal Foxmix Chile",Portal Foxmix Chile

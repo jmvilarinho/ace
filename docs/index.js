@@ -180,6 +180,21 @@ async function showVideo(url, videoid, alternative = '', alternativeurl = '') {
 	}
 }
 
+function showError(text, element, text2 = '') {
+	console.log('Error: ' + text)
+	const keyDiv = document.createElement('div');
+	html = '<table class="center">';
+	html += '<tr><td><b>Erro obtendo previsión</b><br>' + text + '</td></tr>';
+	if (text2 != '') {
+		html += '<tr><td>' + text2 + '</td></tr>';
+	}
+	html += '</table>';
+	keyDiv.innerHTML = html
+	keyDiv.style.textAlign = "center";
+	const mainDiv = document.getElementById(element);
+	mainDiv.appendChild(keyDiv);
+}
+
 // --------------------------------------------------------------------------------------------------
 
 async function getMareas(id, element = '') {
@@ -344,8 +359,16 @@ async function noPrevision(element, idmareas = 0, error = '') {
 	total_elementos = total_elementos - 1;
 }
 
-function getPrevisionDatos(data, element, idmareas, id_playa) {
+async function getPrevisionDatos(data, element, idmareas, id_playa) {
 	if (data['estado'] == 200) {
+		if ('error' in data && data['error'] != "") {
+			mareas = '';
+			if (idmareas > 0) {
+				mareas = await getMareas(idmareas);
+			}
+			showError(data['error'], element, mareas);
+			return;
+		}
 
 		console.log('Get prevision: ' + data['datos'])
 		var myHeaders = new Headers();

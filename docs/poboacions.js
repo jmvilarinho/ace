@@ -17,6 +17,10 @@ function getPrevisionMunicipio(id, element) {
 
 function getPrevisionDatosMunicipio(data, element, id_municipio) {
 	if (data['estado'] == 200) {
+		if ('error' in data && data['error'] != "") {
+			showError(data['error'], element);
+			return;
+		}
 
 		console.log('Get prevision: ' + data['datos'])
 		var myHeaders = new Headers();
@@ -175,7 +179,7 @@ async function createPrevisionPrecipitacionMunicipio(data, element, id_municipio
 
 	var today_encontrado = false;
 	for (var i = 0; i < arrayLength; i++) {
-		console.log("procesar dia" + datos_array_dia[i]['fecha']);
+		//console.log("procesar dia" + datos_array_dia[i]['fecha']);
 		if (today_encontrado) {
 			// dia siguiente
 			today_encontrado = false;
@@ -183,7 +187,6 @@ async function createPrevisionPrecipitacionMunicipio(data, element, id_municipio
 			manana = datos_array_dia[i]['precipitacion'];
 			for (var x = 0; x < manana.length; x++) {
 				hora = Number(manana[x]['periodo']);
-				console.log(hora);
 				if (hora < current_hour) {
 					datos_array.push(manana[x]);
 				}

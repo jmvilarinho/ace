@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 18/04/2025 20:02:52",
+    "author": "Vila - 19/04/2025 11:00:46",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -82,18 +82,6 @@
             "name": "M.L. Campeones",
             "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-00.png",
             "stations": [
-                {
-                    "name": "M+ LIGA DE CAMPEONES FHD --> NEW ERA VI",
-                    "url": "acestream://1b430209cb644b962813017f24beef370bba64eb",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-01.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "M+ LIGA DE CAMPEONES FHD —> NEW ERA II",
-                    "url": "acestream://1b5fdd73ab89ea7198e19a086502fb59c50938f7",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-01.png",
-                    "embed": "false"
-                },
                 {
                     "name": "M.L. Campeones 1080 MultiAudio Elcano Antiguas",
                     "url": "acestream://0a26e20f39845e928411e09a124374fccb6e1478",

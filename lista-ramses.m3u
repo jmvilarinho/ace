@@ -366,6 +366,8 @@ acestream://7e90956539f4e1318a63f3960e4f75c7c7c5a3b8
 
 
 
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/DAZN%20F1.png" group-title="New Era" tvg-id="DAZN F1 HD", DAZN F1 4K --> NEW ERA
+acestream://7e1523ccfaac00800e67bd0b97c428810104b2b8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/DAZN%20F1.png" group-title="New Era" tvg-id="DAZN F1 HD", DAZN F1 FHD --> NEW ERA
 acestream://6422e8bc34282871634c81947be093c04ad1bb29
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/DAZN%20F1.png" group-title="New Era" tvg-id="DAZN F1 HD", DAZN F1 FHD --> NEW ERA
@@ -399,8 +401,6 @@ acestream://714e14e6d6e27660fd25a75b57b0ac5580fe705d
 
 
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/Eurosport%201.png" group-title="New Loop" tvg-id="Eurosport 1 HD", EUROSPORT 1 --> NEW LOOP
-acestream://1d04e3b27c2ac3ff52dc949e76f36207fbb235c4
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/Eurosport%201.png" group-title="New Loop" tvg-id="Eurosport 1 HD", EUROSPORT 1 HD --> NEW LOOP
 acestream://1b0bc4d4dcd609d3c092712e721392b199f50a62
 
@@ -450,8 +450,6 @@ acestream://ea6dd2fbd792fe4fb5d372f5d8b84d03792e6e7a
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/beIN%20SPORTS%203.png" group-title="New Loop" tvg-id="FR | beIN SPORTS 3", BEIN SPORTS 3 --> NEW LOOP
 acestream://731bd3336ec0986ff9100efe40dbaf1473a22cf8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/beIN%20SPORTS%20en%20espa%C3%B1ol.png" group-title="New Loop" tvg-id="beIN SPORTS en español", BEIN SPORTS Ñ --> NEW LOOP
-acestream://4922d8414b6d96bcdd36e99483a7077f484b6f71
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/beIN%20SPORTS%20en%20espa%C3%B1ol.png" group-title="New Loop" tvg-id="beIN SPORTS en español", BEIN SPORTS Ñ --> NEW LOOP
 acestream://e8e459656f964f601ad4bcda8b81a43ba41c68f9
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/TNT%20Sports%201.png" group-title="New Loop" tvg-id="UK | TNT Sports 1", BT Sport 1 [UK] --> NEW LOOP
 acestream://fc5089d8e1519872fdf951779ccbca913acc9bce
@@ -497,12 +495,10 @@ acestream://fcd7621df513f600652b4813d5d8fd1daed60058
 acestream://868a6187d6aeec65ded84bd777814c9f7b7a9027
 #EXTINF:-1 tvg-logo="https://tvgidsassets.nl/v355/img/channels/120x120/419.png" group-title="New Loop" tvg-id="Ziggo.Sport.6.nl", ZIGGO SPORT 6 --> NEW LOOP
 acestream://9231f38e71a85ad24b4c11a5e360992e30c916ed
-#EXTINF:-1 tvg-logo="" group-title="New Loop" tvg-id="", AUTOMOTORSPORT HD --> NEW LOOP
-acestream://610993aea3a2bfd509594334b7461ce96900f54c
 #EXTINF:-1 tvg-logo="" group-title="New Loop" tvg-id="", CANAL MOTOR --> NEW LOOP
 acestream://35e17cc84abc5e393b5acd688536a9681105f2d5
-#EXTINF:-1 tvg-logo="" group-title="New Loop" tvg-id="", MOTORS TV HD --> NEW LOOP
-acestream://442aeb6643b8836f9d00361c9e48eeb0841ddf98
+#EXTINF:-1 tvg-logo="" group-title="New Loop" tvg-id="", MOTORVISION TV --> NEW LOOP
+acestream://9c75e6ed0671eec6670cb2eabcc7d78267c7f404
 
 
 
@@ -510,18 +506,6 @@ acestream://442aeb6643b8836f9d00361c9e48eeb0841ddf98
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/Rally%20TV.png" group-title="New Era" tvg-id="DE | Rally TV", RALLY TV --> NEW ERA III
 acestream://2f3a139d7a2ca1f305ae8cd67444b961d468a9d4
-
-
-
-
-
-#EXTINF:-1 tvg-logo="" group-title="New Loop" tvg-id="", RETROVISION MOTOR --> NEW LOOP
-acestream://b8b8c4470d3d27c75302cf49ab6c4b52a660bff3
-
-
-
-
-
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/Antena%203.png" group-title="New Era" tvg-id="Antena 3 HD", ANTENA 3 FHD --> NEW ERA
 acestream://390b5b0fc49a811c5c5ebd6d195b08a48b1e8496
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/Cuatro.png" group-title="New Era" tvg-id="Cuatro HD", CUATRO FHD --> NEW ERA

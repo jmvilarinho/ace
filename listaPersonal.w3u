@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 24/04/2025 11:01:30",
+    "author": "Vila - 24/04/2025 16:04:53",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -43,12 +43,6 @@
                 {
                     "name": "EUROSPORT 1 FHD --> NEW ERA - f909",
                     "url": "acestream://bae98f69fbf867550b4f73b4eb176dae84d7f909",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-es-eurosport-1-615.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "EUROSPORT 1 HD --> NEW LOOP",
-                    "url": "acestream://1b0bc4d4dcd609d3c092712e721392b199f50a62",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-es-eurosport-1-615.png",
                     "embed": "false"
                 },
@@ -1253,26 +1247,8 @@
                     "embed": "false"
                 },
                 {
-                    "name": "HYPERMOTION 2 HD --> NEW ERA",
-                    "url": "acestream://f416f36cc1be370e3f9ac29cd6a9acc0d766f7ba",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "HYPERMOTION 3 FHD --> NEW ERA",
-                    "url": "acestream://01445a4b9f0cce21da59408d1a2c3d028b803a81",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
                     "name": "HYPERMOTION FHD --> ELCANO",
                     "url": "acestream://b2706a7ffbea236a3b398139a3a606ada664c0eb",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "HYPERMOTION FHD --> NEW ERA",
-                    "url": "acestream://fe289ab20d8f9dcb426fc6d56ce9dbbddb66e3b3",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -1499,20 +1475,8 @@
                     "embed": "false"
                 },
                 {
-                    "name": "MOVISTAR ACCION FHD --> NEW ERA - 59ce",
-                    "url": "acestream://102bcb79ca391e37ac1fc9ee77dc53440d0a59ce",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
                     "name": "MOVISTAR CLASICOS FHD --> NEW ERA",
                     "url": "acestream://62b6cdc347e9b5f5aff089055365805e4d20d41e",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "MOVISTAR CLASICOS FHD --> NEW ERA - 0c0c",
-                    "url": "acestream://cf6ffdfa3c51268c0bd216da6b275fb866160c0c",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -1835,8 +1799,8 @@
                     "embed": "false"
                 },
                 {
-                    "name": "RALLY TV --> NEW ERA III - a9d4",
-                    "url": "acestream://2f3a139d7a2ca1f305ae8cd67444b961d468a9d4",
+                    "name": "RALLY TV --> NEW ERA III - 308c",
+                    "url": "acestream://6fec9b918864132940850b7773fe3aec7222308c",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -1909,6 +1873,12 @@
                 {
                     "name": "TELEDEPORTE FHD --> NEW ERA - 0230",
                     "url": "acestream://138b30c93e8a780ac490a4f6d2181c41f3670230",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "TENNIS CHANNEL --> NEW LOOP",
+                    "url": "acestream://8091334c82e8720fc6aa05ff0bd6d343c5bfecbf",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },

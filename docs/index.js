@@ -456,6 +456,14 @@ function isToday(d1) {
 	// 2024-07-25T00:00:00
 	var now = new Date();
 	var todayStr = now.getFullYear() + '-' + padTo2Digits(now.getMonth() + 1) + '-' + padTo2Digits(now.getDate()) + 'T00:00:00';
+	return (todayStr == d1);
+}
 
+function isTomorrow(d1) {
+	const today = new Date();
+	const tomorrow = new Date();
+	// change tomorrow to next day
+	tomorrow.setDate(today.getDate() + 1);
+	var todayStr = tomorrow.getFullYear() + '-' + padTo2Digits(tomorrow.getMonth() + 1) + '-' + padTo2Digits(tomorrow.getDate()) + 'T00:00:00';
 	return (todayStr == d1);
 }

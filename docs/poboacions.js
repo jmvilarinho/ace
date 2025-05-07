@@ -42,6 +42,7 @@ async function createPrevisionMunicipio(data, element, id_municipio) {
 	var tabla = '<table class="center">';
 
 	var arrayLength = data[0]["prediccion"]["dia"].length;
+	maxItems = 2;
 	for (var i = 0; i < arrayLength; i++) {
 		var datos = data[0]["prediccion"]["dia"][i];
 		if (isToday(datos["fecha"])) {
@@ -56,8 +57,32 @@ async function createPrevisionMunicipio(data, element, id_municipio) {
 				+ "<th>Temp. Max.</th><td>" + datos["temperatura"]["maxima"] + "&deg;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>"
 				+ "</tr>";
 
-			tabla += municipioRow(datos, 1);
-			tabla += municipioRow(datos, 2);
+			cont = 0;
+			row = municipioRow(datos, 1);
+			if (row != "" ) {
+				tabla += row;
+				cont += 1;
+			}
+			row = municipioRow(datos, 2);
+			if (row != "" ) {
+				tabla += row;
+				cont += 1;
+			}
+			//tabla += municipioRow(datos, 4);
+			//tabla += municipioRow(datos, 5);
+			//tabla += municipioRow(datos, 6);
+		}
+		if (isTomorrow(datos["fecha"])) {
+			row = municipioRow(datos, 1);
+			if (row != "" && cont < maxItems) {
+				tabla += row;
+				cont += 1;
+			}
+			row = municipioRow(datos, 2);
+			if (row != "" && cont < maxItems) {
+				tabla += row;
+				cont += 1;
+			}
 			//tabla += municipioRow(datos, 4);
 			//tabla += municipioRow(datos, 5);
 			//tabla += municipioRow(datos, 6);

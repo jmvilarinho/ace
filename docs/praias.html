@@ -3,7 +3,7 @@
 </script>
 
 <section style="text-align:center;">
-	<div class="rt-container" >
+	<div class="rt-container">
 		<div class="col-rt-12">
 			<div id="Razo-alternative">
 				<a href='#Razo' id="#Razo">
@@ -30,7 +30,7 @@
 <center><img width="200" style="width: 100%; height: auto; max-width: 1300px;" src=img/line.png></center>
 
 <section style="text-align:center;">
-	<div class="rt-container" >
+	<div class="rt-container">
 		<div class="col-rt-12">
 			<div id="Lapaman-alternative">
 				<a href='#Lapaman' id="#Lapaman">
@@ -71,7 +71,7 @@
 <center><img width="200" style="width: 100%; height: auto; max-width: 1300px;" src=img/line.png></center>
 
 <section style="text-align:center;">
-	<div class="rt-container" >
+	<div class="rt-container">
 		<div class="col-rt-12">
 			<div id="Pobra-alternative">
 				<a href='#Pobra' id="#Pobra">
@@ -99,7 +99,32 @@
 <center><img width="200" style="width: 100%; height: auto; max-width: 1300px;" src=img/line.png></center>
 
 <section style="text-align:center;">
-	<div class="rt-container" >
+	<div class="rt-container">
+		<div class="col-rt-12">
+			<a href='#Coroso' id="#Coroso">
+				<p>Playa de Coroso (Ribeira)</p>
+			</a>
+			<div style="visibility: hidden" id="Coroso-unavailable"><img width="100" src=img/unavailable.png></div>
+			<video controls id="Coroso">
+				<source />
+				<p>Your browser does not support H.264/MP4.</p>
+			</video>
+			<div id='Coroso-temperatura'></div>
+			<div id='Coroso-prevision'></div>
+		</div>
+	</div>
+</section>
+<script>
+	var url = 'https://wow.camaramar.com/camaramar/31_coroso.stream/playlist.m3u8';
+	showVideo(url, 'Coroso')
+	getTemperatura('Coroso-temperatura', 42.568542, -8.982126);
+	getPrevision(1507304, 'Coroso-prevision', 25);
+</script>
+
+<center><img width="200" style="width: 100%; height: auto; max-width: 1300px;" src=img/line.png></center>
+
+<section style="text-align:center;">
+	<div class="rt-container">
 		<div class="col-rt-12">
 			<div id="Mino-alternative">
 				<a href='#Mino' id="#Mino">
@@ -127,7 +152,7 @@
 <center><img width="200" style="width: 100%; height: auto; max-width: 1300px;" src=img/line.png></center>
 
 <section style="text-align:center;">
-	<div class="rt-container" >
+	<div class="rt-container">
 		<div class="col-rt-12">
 			<div id="Sabon-alternative">
 				<a href='#Sabon' id="#Sabon">
@@ -155,7 +180,7 @@
 <center><img width="200" style="width: 100%; height: auto; max-width: 1300px;" src=img/line.png></center>
 
 <section style="text-align:center;">
-	<div class="rt-container" >
+	<div class="rt-container">
 		<div class="col-rt-12">
 			<a href='#Sanxenxo' id="#Sanxenxo">
 				<p>Sanxenxo</p>
@@ -181,7 +206,7 @@
 <center><img width="200" style="width: 100%; height: auto; max-width: 1300px;" src=img/line.png></center>
 
 <section style="text-align:center;">
-	<div class="rt-container" >
+	<div class="rt-container">
 		<div class="col-rt-12">
 			<a href='#Lanzada' id="#Lanzada">
 				<p>A Lanzada</p>
@@ -203,10 +228,8 @@
 	getPrevision(3602201, 'Lanzada-prevision', 27);
 </script>
 
-<center><img width="200" style="width: 100%; height: auto; max-width: 1300px;" src=img/line.png></center>
-
-<section style="text-align:center;">
-	<div class="rt-container" >
+<!-- <section style="text-align:center;">
+	<div class="rt-container">
 		<div class="col-rt-12">
 			<a href='#Rodeira' id="#Rodeira">
 				<p>Playa de Rodeira (Cangas do Morrazo)</p>
@@ -226,7 +249,9 @@
 	showVideo(url, 'Rodeira')
 	getTemperatura('Rodeira-temperatura', 42.261714, -8.770230);
 	getPrevision(3600803, 'Rodeira-prevision', 29);
+</script> -->
 
+<script>
 	function sleep(ms) {
 		return new Promise(resolve => setTimeout(resolve, ms));
 	}

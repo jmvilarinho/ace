@@ -153,11 +153,11 @@ https://cdnswitch-mediahub.overon.es/stream/stream.m3u8?key=R6w5wbcxW3dLF9aNOGEs
 #EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/1915674659594420224/qKUnga8L_200x200.jpg" group-title="Eventuales" tvg-name="Senado",Senado
 https://senadolive.akamaized.net/hls/live/2006589/punto7/master.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/radionacionalrne/picture?width=200&height=200" group-title="Eventuales" tvg-name="Radio Nacional",Radio Nacional
-https://ztnr.rtve.es/ztnr/1938076.m3u8
+https://ztnr.rtve.es/ztnr/6982891.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/radio3/picture?width=200&height=200" group-title="Eventuales" tvg-name="Radio 3",Radio 3
-https://ztnr.rtve.es/ztnr/2795617.m3u8
+https://ztnr.rtve.es/ztnr/6982918.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/Radio4RNE/picture?width=200&height=200" group-title="Eventuales" tvg-name="Ràdio 4",Ràdio 4
-https://ztnr.rtve.es/ztnr/6782425.m3u8
+https://ztnr.rtve.es/ztnr/6982935.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/ondacero/picture?width=200&height=200" group-title="Eventuales" tvg-name="Onda Cero",Onda Cero
 https://atres-live.ondacero.es/h264/live/obs/master.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/COPE/picture?width=200&height=200" group-title="Eventuales" tvg-name="COPE",COPE
@@ -250,7 +250,9 @@ https://www.streaming101tv.es:19360/cadiz/cadiz.m3u8
 #EXTVLCOPT:http-referrer=https://player.instantvideocloud.net/
 https://liveingesta318.cdnmedia.tv/101televisionlive/smil:rtmp03.smil/playlist.m3u8?DVR
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/101tvmalaga/picture?width=200&height=200" group-title="Andalucía" tvg-name="101TV Costa del Sol",101TV Costa del Sol
-https://www.streaming101tv.es:19360/costadelsol/costadelsol.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 CrKey/1.44.191160
+#EXTVLCOPT:http-referrer=https://player.instantvideocloud.net/
+https://liveingesta318.cdnmedia.tv/101weblive/smil:sol.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/101tvmalaga/picture?width=200&height=200" group-title="Andalucía" tvg-name="101TV Ronda",101TV Ronda
 https://www.streaming101tv.es:19360/ronda/ronda.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/SalTelevision/picture?width=200&height=200" group-title="Andalucía" tvg-name="Sal TV",Sal TV
@@ -284,7 +286,7 @@ https://canalcoin.garjim.es/hls/directo.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/TVM.Cordoba/picture?width=200&height=200" group-title="Andalucía" tvg-name="TVM Córdoba",TVM Córdoba
 https://5924d3ad0efcf.streamlock.net/cordoba/cordobalive/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_nKBwD3C_DqADS-cD9choTd0NDkCsF_EcNtXWmFd7XDQw=s200" group-title="Andalucía" tvg-name="Cancionero TV",Cancionero TV
-http://89.140.229.5/hls1/cancionero.m3u8
+http://37.130.151.51/hls1/cancionero.m3u8
 #EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/1612490465005142019/AU1R7Q6q_200x200.jpg" group-title="Andalucía" tvg-name="PTV Almería",PTV Almería
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 CrKey/1.44.191160
 https://streamer.zapitv.com/ptv_almeria/index.m3u8
@@ -326,7 +328,7 @@ http://synclosdragos1.syncsolutions.es:8008/live3/emision/index.m3u8
 https://5c0956165db0b.streamlock.net/ftv/directo/.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/noroestetvladesiempre/picture?width=200&height=200" group-title="Canarias" tvg-name="Noroeste TV",Noroeste TV
 #EXTVLCOPT:http-referrer=https://player.castr.com/
-https://stream.castr.com/5bb7e892db124541361db9b3/live_f8528bd0556211efa3e68502d1474422/index.fmp4.m3u8
+https://stream.castr.com/5d1f649bed75c92e40481734/live_19364d50fbcd11ed91bd012c3488eabc/index.fmp4.m3u8
 #EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/1498617906560737281/iOri7Ujk_200x200.jpg" group-title="Canarias" tvg-name="Factoría de Carnaval",Factoría de Carnaval
 https://eu1.servers10.com:8081/8116/index.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/afortunadastv/picture?width=200&height=200" group-title="Canarias" tvg-name="Afortunadas TV",Afortunadas TV
@@ -572,7 +574,7 @@ https://stream.maestrat.tv/hls/stream.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/UniversValenciaDigital/picture?width=200&height=200" group-title="C. Valenciana" tvg-name="Univers TV",Univers TV
 https://cloud2.streaminglivehd.com:1936/universfaller/universfaller/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://yt3.ggpht.com/IYhYKEgINXNgQGLhReOrma2Pcl151M7Ray9SYDWissgAAZQJUhrRPEe7tLBT9XlsjwChuTNW=s200" group-title="C. Valenciana" tvg-name="TV Almassora",TV Almassora
-https://rumble.com/live-hls-dvr/6qj1cv/playlist.m3u8
+https://rumble.com/live-hls-dvr/6r066n/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/Onda15Radio/picture?width=200&height=200" group-title="C. Valenciana" tvg-name="Onda 15 TV",Onda 15 TV
 https://cloudvideo.servers10.com:8081/8034/index.m3u8
 #EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_nQt5rluj5KRX0HGcMvHLxSUJuhjZe4Y1GfuA0NjpHf5Q=s200" group-title="C. Valenciana" tvg-name="Canal 3 Biar",Canal 3 Biar
@@ -846,10 +848,14 @@ https://cdns.livewave.co:19360/canalcapital/canalcapital.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/TelepacificoTV/picture?width=200&height=200" group-title="Int. América" tvg-name="Telepacifico Colombia",Telepacifico Colombia
 #EXTVLCOPT:http-referrer=https://telepacifico.com/envivo/
 https://play.cdn.enetres.net/6E5C615AA5FF4123ACAF0DAB57B7B8DC021/022/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/1850052710403342336/m-om6omY_200x200.jpg" group-title="Int. América" tvg-name="Canal Telecaribe Colombia",Canal Telecaribe Colombia
+#EXTINF:-1 tvg-logo="https://graph.facebook.com/telecaribeEnvivo/picture?width=200&height=200" group-title="Int. América" tvg-name="Canal Telecaribe Colombia",Canal Telecaribe Colombia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 CrKey/1.44.191160
 #EXTVLCOPT:http-referrer=https://player.instantvideocloud.net/
 https://liveingesta118.cdnmedia.tv/telecaribetvlive/smil:rtmp01.smil/playlist.m3u8?DVR
+#EXTINF:-1 tvg-logo="https://graph.facebook.com/telecaribeEnvivo/picture?width=200&height=200" group-title="Int. América" tvg-name="Canal Telecaribe Colombia",Canal Telecaribe Colombia
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 CrKey/1.44.191160
+#EXTVLCOPT:http-referrer=https://player.instantvideocloud.net/
+https://liveingesta118.cdnmedia.tv/telecaribetvlive/smil:rtmp02.smil/playlist.m3u8?DVR
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/canaltro/picture?width=200&height=200" group-title="Int. América" tvg-name="Canal TRO Colombia",Canal TRO Colombia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 CrKey/1.44.191160
 #EXTVLCOPT:http-referrer=https://player.instantvideocloud.net/
@@ -888,17 +894,13 @@ https://ssh101stream.ssh101.com/akamaissh101/ssh101/patscz/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://teveo.cu/live/video/AKDdWvMTYzfsfnNJ/embed?auto=true
 https://cdn.teveo.cu/live/video/A36pWmuWvZBQskuZ/ngrp:gppfydfzpSUn9Udy.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/ABCTVpy/picture?width=200&height=200" group-title="Int. América" tvg-name="ABC TV Paraguay",ABC TV Paraguay
-https://d2e809bgs49c6y.cloudfront.net/live/d87c2b7b-9ecf-4e6e-b63b-b32772bd7851/live.isml/d87c2b7b-9ecf-4e6e-b63b-b32772bd7851.m3u8
+https://livecdn.use1-0004.jwplive.com/live/sites/rmOO40BU/media/N4AiIwBJ/live.isml/.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/trecepy/picture?width=200&height=200" group-title="Int. América" tvg-name="Trece Paraguay",Trece Paraguay
 https://rds3gen.desdeparaguay.net/trecetv/trecetv_alta/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/WTVNicaraguacanal20/picture?width=200&height=200" group-title="Int. América" tvg-name="WTV Nicaragua",WTV Nicaragua
 https://cloudvideo.servers10.com:8081/8130/index.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/MultimediosCR/picture?width=200&height=200" group-title="Int. América" tvg-name="TeleDiario Costa Rica",TeleDiario Costa Rica
 https://mdstrm.com/live-stream-playlist/5a7b1e63a8da282c34d65445.m3u8
-#EXTINF:-1 tvg-logo="https://graph.facebook.com/RedeMassa/picture?width=200&height=200" group-title="Int. América" tvg-name="Rede Massa Brasil",Rede Massa Brasil
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 CrKey/1.44.191160
-#EXTVLCOPT:http-referrer=https://www.redemassa.com.br/aovivo/
-https://watchbrdlv.s.llnwi.net/live/tviguacu/master.m3u8
 #EXTINF:-1 tvg-id="CGTN.TV" tvg-logo="https://graph.facebook.com/cgtnenespanol/picture?width=200&height=200" group-title="Int. Asia" tvg-name="CGTN",CGTN
 https://espanol-livews.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd/playlist.m3u8
 #EXTINF:-1 tvg-id="CGTN.TV" tvg-logo="https://graph.facebook.com/cgtnenespanol/picture?width=200&height=200" group-title="Int. Asia" tvg-name="CGTN",CGTN
@@ -1172,7 +1174,7 @@ https://1601580044.rsc.cdn77.org/live/_jcn_/amlst:Mariavision/master.m3u8
 #EXTVLCOPT:http-referrer=https://www.enlace.org/envivo/
 https://livecdn.enlace.plus/enlace/smil:enlace-hd.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/redevida/picture?width=200&height=200" group-title="Religiosos" tvg-name="Redevida Brasil",Redevida Brasil PT
-https://cvd1.cds.ebtcvd.net/live-redevida/smil:redevida.smil/playlist.m3u8
+https://d12e4o88jd8gex.cloudfront.net/out/v1/cea3de0b76ac4e82ab8ee0fd3f17ce12/index.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/3abn.org/picture?width=200&height=200" group-title="Religiosos" tvg-name="3ABN USA",3ABN USA
 https://3abn.bozztv.com/3abn2/Lat_live/smil:Lat_live.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/3abn.org/picture?width=200&height=200" group-title="Religiosos" tvg-name="3ABN USA",3ABN USA EN

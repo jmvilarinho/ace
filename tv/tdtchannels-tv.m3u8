@@ -275,6 +275,8 @@ https://streamer.zapitv.com/PTV_sevilla/index.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/PTVGranada/picture?width=200&height=200" group-title="Andalucía" tvg-name="PTV Granada",PTV Granada
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 CrKey/1.44.191160
 https://streamer.zapitv.com/PTV-granada/index.m3u8
+#EXTINF:-1 tvg-id="DiezTV.TV" tvg-logo="https://graph.facebook.com/dieztv/picture?width=200&height=200" group-title="Andalucía" tvg-name="Diez TV Andújar",Diez TV Andújar
+https://streaming.cloud.innovasur.es/mmj_andujar/index.m3u8
 #EXTINF:-1 tvg-id="DiezTV.TV" tvg-logo="https://graph.facebook.com/dieztv/picture?width=200&height=200" group-title="Andalucía" tvg-name="Diez TV Las Villas",Diez TV Las Villas
 https://streaming.cloud.innovasur.es/mmj2/index.m3u8
 #EXTINF:-1 tvg-id="DiezTV.TV" tvg-logo="https://graph.facebook.com/dieztv/picture?width=200&height=200" group-title="Andalucía" tvg-name="Diez TV Úbeda",Diez TV Úbeda

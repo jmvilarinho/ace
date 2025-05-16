@@ -577,6 +577,8 @@ https://stream.maestrat.tv/hls/stream.m3u8
 https://cloud2.streaminglivehd.com:1936/universfaller/universfaller/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://yt3.ggpht.com/IYhYKEgINXNgQGLhReOrma2Pcl151M7Ray9SYDWissgAAZQJUhrRPEe7tLBT9XlsjwChuTNW=s200" group-title="C. Valenciana" tvg-name="TV Almassora",TV Almassora
 https://rumble.com/live-hls-dvr/6r066n/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://graph.facebook.com/radiobunyol/picture?width=200&height=200" group-title="C. Valenciana" tvg-name="Radio Buñol TV",Radio Buñol TV
+https://castor.streamthatvideo.co:8081/radiobunyol/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/Onda15Radio/picture?width=200&height=200" group-title="C. Valenciana" tvg-name="Onda 15 TV",Onda 15 TV
 https://cloudvideo.servers10.com:8081/8034/index.m3u8
 #EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_nQt5rluj5KRX0HGcMvHLxSUJuhjZe4Y1GfuA0NjpHf5Q=s200" group-title="C. Valenciana" tvg-name="Canal 3 Biar",Canal 3 Biar

@@ -23,7 +23,7 @@ function getPrevisionDatosMunicipio(data, element, id_municipio) {
 		}
 
 		if ("datos_json" in data) {
-			console.log("Datos completos para "+id_municipio);
+			console.log("Datos completos para " + id_municipio);
 			createPrevisionMunicipio(data['datos_json'], element, id_municipio);
 		} else {
 
@@ -176,24 +176,30 @@ function municipioRow(datos, index) {
 function getPrevisionPrecipitacionMunicipio(data, element, id_municipio) {
 	if (data['estado'] == 200) {
 
-		console.log('Get precipitacion: ' + data['datos'])
-		var myHeaders = new Headers();
-		myHeaders.append('Content-Type', 'text/plain; charset=UTF-8');
+		if ("datos_json" in data) {
+			console.log("Datos completos precipitacion para " + id_municipio);
+			createPrevisionPrecipitacionMunicipio(data['datos_json'], element, id_municipio);
+		} else {
 
-		fetch(data['datos'], myHeaders)
-			.then(function (response) {
-				return response.arrayBuffer();
-			})
-			.then(function (buffer) {
-				const decoder = new TextDecoder('iso-8859-1');
-				const text = decoder.decode(buffer);
-				createPrevisionPrecipitacionMunicipio(JSON.parse(text), element, id_municipio);
-			})
-			.catch(error => {
-				console.error('Error:', error);
-				$('#divmunicipio' + id_municipio).html('Error obtendo precipitacións');
-				return false;
-			});
+			console.log('Get precipitacion: ' + data['datos'])
+			var myHeaders = new Headers();
+			myHeaders.append('Content-Type', 'text/plain; charset=UTF-8');
+
+			fetch(data['datos'], myHeaders)
+				.then(function (response) {
+					return response.arrayBuffer();
+				})
+				.then(function (buffer) {
+					const decoder = new TextDecoder('iso-8859-1');
+					const text = decoder.decode(buffer);
+					createPrevisionPrecipitacionMunicipio(JSON.parse(text), element, id_municipio);
+				})
+				.catch(error => {
+					console.error('Error:', error);
+					$('#divmunicipio' + id_municipio).html('Error obtendo precipitacións');
+					return false;
+				});
+		}
 	} else {
 		$('#divmunicipio' + id_municipio).html('Error obtendo precipitacións');
 	}

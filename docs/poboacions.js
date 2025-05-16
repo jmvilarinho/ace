@@ -22,19 +22,25 @@ function getPrevisionDatosMunicipio(data, element, id_municipio) {
 			return;
 		}
 
-		console.log('Get prevision: ' + data['datos'])
-		var myHeaders = new Headers();
-		myHeaders.append('Content-Type', 'text/plain; charset=UTF-8');
+		if ("datos_json" in data) {
+			console.log("Datos completos para "+id_municipio);
+			createPrevisionMunicipio(data['datos_json'], element, id_municipio);
+		} else {
 
-		fetch(data['datos'], myHeaders)
-			.then(function (response) {
-				return response.arrayBuffer();
-			})
-			.then(function (buffer) {
-				const decoder = new TextDecoder('iso-8859-1');
-				const text = decoder.decode(buffer);
-				createPrevisionMunicipio(JSON.parse(text), element, id_municipio);
-			});
+			console.log('Get prevision: ' + data['datos'])
+			var myHeaders = new Headers();
+			myHeaders.append('Content-Type', 'text/plain; charset=UTF-8');
+
+			fetch(data['datos'], myHeaders)
+				.then(function (response) {
+					return response.arrayBuffer();
+				})
+				.then(function (buffer) {
+					const decoder = new TextDecoder('iso-8859-1');
+					const text = decoder.decode(buffer);
+					createPrevisionMunicipio(JSON.parse(text), element, id_municipio);
+				});
+		}
 	}
 }
 
@@ -59,12 +65,12 @@ async function createPrevisionMunicipio(data, element, id_municipio) {
 
 			cont = 0;
 			row = municipioRow(datos, 1);
-			if (row != "" ) {
+			if (row != "") {
 				tabla += row;
 				cont += 1;
 			}
 			row = municipioRow(datos, 2);
-			if (row != "" ) {
+			if (row != "") {
 				tabla += row;
 				cont += 1;
 			}

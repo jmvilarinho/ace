@@ -370,19 +370,25 @@ async function getPrevisionDatos(data, element, idmareas, id_playa) {
 			return;
 		}
 
-		console.log('Get prevision: ' + data['datos'])
-		var myHeaders = new Headers();
-		myHeaders.append('Content-Type', 'text/plain; charset=UTF-8');
+		if ("datos_json" in data) {
+			console.log("Datos completos para " + id_playa);
+			createPrevision(data['datos_json'],element, idmareas, id_playa);
+		} else {
 
-		fetch(data['datos'], myHeaders)
-			.then(function (response) {
-				return response.arrayBuffer();
-			})
-			.then(function (buffer) {
-				const decoder = new TextDecoder('iso-8859-1');
-				const text = decoder.decode(buffer);
-				createPrevision(JSON.parse(text), element, idmareas, id_playa);
-			});
+			console.log('Get prevision: ' + data['datos'])
+			var myHeaders = new Headers();
+			myHeaders.append('Content-Type', 'text/plain; charset=UTF-8');
+
+			fetch(data['datos'], myHeaders)
+				.then(function (response) {
+					return response.arrayBuffer();
+				})
+				.then(function (buffer) {
+					const decoder = new TextDecoder('iso-8859-1');
+					const text = decoder.decode(buffer);
+					createPrevision(JSON.parse(text), element, idmareas, id_playa);
+				});
+		}
 	}
 }
 

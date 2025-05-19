@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 18/05/2025 16:00:48",
+    "author": "Vila - 19/05/2025 11:01:01",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -633,6 +633,24 @@
                     "url": "acestream://97ba38d47680954be40e48bd8f43e17222fefecb",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-2.png",
                     "embed": "false"
+                },
+                {
+                    "name": "DAZN LaLiga 3 1080 MultiAudio",
+                    "url": "acestream://3c72639799f5471b213a073f4c1c6bf28bd08035",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-3.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "DAZN LaLiga 4 1080 MultiAudio",
+                    "url": "acestream://3fc9d954b818522ff07dfe70051b6ea7a5ebbc61",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-4.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "DAZN LaLiga 5 1080 MultiAudio",
+                    "url": "acestream://922edf7e1c015026082b7f8061cf8159cb4afafd",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-5.png",
+                    "embed": "false"
                 }
             ]
         },
@@ -678,6 +696,12 @@
             "stations": [
                 {
                     "name": "La Liga BAR 1080",
+                    "url": "acestream://608b0faf7d3d25f6fe5dba13d5e4b4142949990e",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-la-liga-tv-bar.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "La Liga BAR 1080 - b53f",
                     "url": "acestream://94d34491106e00394835c8cb68aa94481339b53f",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-la-liga-tv-bar.png",
                     "embed": "false"
@@ -758,6 +782,18 @@
                     "name": "M. LaLiga 4 1080",
                     "url": "acestream://68697ea4f261289d97bbc3418ad3cbc4180aa32f",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-4.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M. LaLiga 5 1080",
+                    "url": "acestream://c4bb3a84628b4e00fcca7f71279d05e1ce34b59b",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-5.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M. LaLiga 6 1080",
+                    "url": "acestream://a0c7f911f35d72c1abc86c89604e1d4171bf664f",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-6.png",
                     "embed": "false"
                 }
             ]
@@ -997,12 +1033,6 @@
                 {
                     "name": "La1 UHD Elcano Antiguas",
                     "url": "acestream://4a714c436cb67d53cf197f9038239fddab2d8b20",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "LALIGA BAR FHD --> ELCANO",
-                    "url": "acestream://608b0faf7d3d25f6fe5dba13d5e4b4142949990e",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },

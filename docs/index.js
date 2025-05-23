@@ -218,8 +218,6 @@ function noMareas() {
 }
 
 function createList(data, element) {
-	const mainDiv = document.getElementById(element);
-
 	var ubicacion = data["mareas"]["puerto"];
 	var fecha = getFechaES(data["mareas"]["fecha"]);
 	var datos = data['mareas']['datos']['marea'];
@@ -238,6 +236,7 @@ function createList(data, element) {
 	if (element != '') {
 		const keyDiv = document.createElement('div');
 		keyDiv.innerHTML = `Mareas en ${ubicacion} (${fecha})<br> ${mareas}`;
+		const mainDiv = document.getElementById(element);
 		mainDiv.appendChild(keyDiv);
 	}
 
@@ -370,6 +369,9 @@ async function getPrevisionDatos(data, element, idmareas, id_playa) {
 			return;
 		}
 
+		if ("source" in data) {
+			console.log("Datos de '"+id_playa+"' from '" + data['source']+"'");
+		}
 		if ("datos_json" in data) {
 			console.log("Datos completos para " + id_playa);
 			createPrevision(data['datos_json'],element, idmareas, id_playa);

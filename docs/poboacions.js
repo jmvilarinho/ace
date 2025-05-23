@@ -21,7 +21,9 @@ function getPrevisionDatosMunicipio(data, element, id_municipio) {
 			showError(data['error'], element);
 			return;
 		}
-
+		if ("source" in data) {
+			console.log("Datos de '"+id_municipio+"' from '" + data['source']+"'");
+		}
 		if ("datos_json" in data) {
 			console.log("Datos completos para " + id_municipio);
 			createPrevisionMunicipio(data['datos_json'], element, id_municipio);
@@ -176,6 +178,9 @@ function municipioRow(datos, index) {
 function getPrevisionPrecipitacionMunicipio(data, element, id_municipio) {
 	if (data['estado'] == 200) {
 
+		if ("source" in data) {
+			console.log("Datos precipitacion de '"+id_municipio+"' from '" + data['source']+"'");
+		}
 		if ("datos_json" in data) {
 			console.log("Datos completos precipitacion para " + id_municipio);
 			createPrevisionPrecipitacionMunicipio(data['datos_json'], element, id_municipio);

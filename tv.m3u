@@ -1080,6 +1080,8 @@ https://limited31.todostreaming.es/live/noroestetv-livestream.m3u8
 https://limited11.todostreaming.es/live/benalmadena-livestream.m3u8
 #EXTINF:-1 tvg-id="CristianaTV.es",Cristiana TV (576p)
 https://cristianos2.todostreaming.es/live/malaga-livestream.m3u8
+#EXTINF:-1 tvg-id="Cuatro.es@SD",Cuatro
+https://live20.bozztv.com/dvrfl05/gin-cuatro/index.m3u8
 #EXTINF:-1 tvg-id="Cuatro.es",Cuatro (1080p)
 http://185.189.225.150:85/CuatroHD/index.m3u8
 #EXTINF:-1 tvg-id="CugatTV.es" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160",Cugat TV (1080p)
@@ -1388,14 +1390,10 @@ https://directes-tv-cat.3catdirectes.cat/live-origin/tvi-hls/master.m3u8
 https://limited09.todostreaming.es/live/tarson-livestream.m3u8
 #EXTINF:-1 tvg-id="TVCentroAndalucia.es",TVCentro Andalucía (720p) [Not 24/7]
 https://5fa5de1a545ae.streamlock.net/8052/8052/playlist.m3u8
-#EXTINF:-1 tvg-id="TVEInternacionalAmerica.es",TVE Internacional America (1080p)
-https://rtvelivestream.akamaized.net/rtvesec/int/tvei_ame_main.m3u8
 #EXTINF:-1 tvg-id="TVEInternacionalAsiaOceania.es",TVE Internacional Asia-Oceania [Geo-blocked]
 https://rtvelivestream.akamaized.net/rtvesec/int/tvei_asia_main.m3u8
 #EXTINF:-1 tvg-id="TVEInternacionalEuropeAsia.es",TVE Internacional Europe-Asia [Geo-blocked]
 https://rtvelivestream.akamaized.net/rtvesec/int/tvei_eu_main.m3u8
-#EXTINF:-1 tvg-id="TVEStarHD.es",TVE Star HD (1080p)
-https://rtvelivestream.akamaized.net/rtvesec/int/star_main.m3u8
 #EXTINF:-1 tvg-id="TelevisiondeGalicia.es",TVG (720p)
 https://europa-crtvg.flumotion.com/crtvg/europa_high/playlist.m3u8
 #EXTINF:-1 tvg-id="TVGCativos.es",TVG Cativ@s (720p)

@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 27/05/2025 20:15:21",
+    "author": "Vila - 28/05/2025 11:01:07",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -157,12 +157,6 @@
                 {
                     "name": "LIGA DE CAMPEONES 4 FHD --> NEW ERA - 4356",
                     "url": "acestream://f1219582a3059e7fff2db22e69475c45cbc84356",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-04.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "LIGA DE CAMPEONES 4K --> NEW ERA",
-                    "url": "acestream://7b8d9d280e8a3a9ccbdf560a63b3652b4f0d6f13",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-04.png",
                     "embed": "false"
                 },
@@ -355,12 +349,6 @@
                 {
                     "name": "ELEVEN DAZN 1 --> NEW LOOP",
                     "url": "acestream://36cad67fed5a739757a9db844a551aa845a8d51b",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-0.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "ELEVEN DAZN 2 --> NEW LOOP",
-                    "url": "acestream://d08013df6e437a1fdf1e0c34f573fdf6a40c7fce",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-0.png",
                     "embed": "false"
                 },
@@ -1337,6 +1325,12 @@
                     "embed": "false"
                 },
                 {
+                    "name": "ONETORO (solo eventos)--> NEW ERA III",
+                    "url": "acestream://877eceeaf9f3bd9b392359323d03d0ac3bb27312",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
                     "name": "PPVP 1 Elcano Antiguas",
                     "url": "acestream://6994af284ecab2996f9b140ef44b8da8bfee0006",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
@@ -1373,8 +1367,8 @@
                     "embed": "false"
                 },
                 {
-                    "name": "RALLY TV --> NEW ERA III - 308c",
-                    "url": "acestream://6fec9b918864132940850b7773fe3aec7222308c",
+                    "name": "RALLY TV --> NEW ERA III - b2ea",
+                    "url": "acestream://8e96e35afd910d1a056dc7bf25139b8e2849b2ea",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -1435,12 +1429,6 @@
                 {
                     "name": "TELEDEPORTE FHD --> NEW ERA",
                     "url": "acestream://138b30c93e8a780ac490a4f6d2181c41f3670230",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "TENNIS CHANNEL --> NEW LOOP",
-                    "url": "acestream://8091334c82e8720fc6aa05ff0bd6d343c5bfecbf",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },

@@ -962,6 +962,8 @@ https://fast-channels.atresmedia.com/648ef18c1756b0e41daf83cc/648ef18c1756b0e41d
 http://185.189.225.150:85/BabyTV/index.m3u8
 #EXTINF:-1 tvg-id="BailenTV.es",Bailén TV (720p) [Not 24/7]
 http://cpd.bailen.tv:8080/Playlist_CANAL_24H/playlist.m3u8
+#EXTINF:-1 tvg-id="BarcaTV.es@SD",Barca TV
+https://live20.bozztv.com/dvrfl06/astv/astv-barca/index.m3u8
 #EXTINF:-1 tvg-id="Beteve.es",Betevé (1080p)
 https://cdnapisec.kaltura.com/p/2346171/sp/234617100/playManifest/entryId/1_n6442jz0/format/applehttp/.m3u8?referrer=aHR0cHM6Ly9iZXRldmUuY2F0
 #EXTINF:-1 tvg-id="BiosferaTV.es",Biosfera TV (720p) [Not 24/7]

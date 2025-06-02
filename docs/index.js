@@ -412,9 +412,6 @@ async function createPrevision(data, element, idmareas, id_playa) {
 	var date = new Date;
 	var hour = date.getHours();
 
-	hour=13;
-
-
 	tabla += "<tr><th colspan=4>"
 		+ '<a href="https://www.aemet.es/es/eltiempo/prediccion/playas/' + aplanaTexto(data[0]["nombre"]) + '-' + id_playa + '" target="_new" rel="noopener" >'
 		+ "Prevision para " + data[0]["nombre"]

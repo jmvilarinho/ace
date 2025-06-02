@@ -329,7 +329,7 @@ function getPrevision(id, element, idmareas = 0) {
 	//const url = 'https://opendata.aemet.es/opendata/api/prediccion/especifica/playa/' + id + '/?api_key=' + apiKey + "&nocache=" + ms
 	//const url = 'https://opendata.aemet.es/opendata/api/prediccion/especifica/playa/' + id + '/?api_key=' + apiKey;
 	const url = 'https://opendata.aemet.es/opendata/api/prediccion/especifica/playa/' + id;
-	console.log('Get prevision playa: ' + url);
+	console.log('Get prevision playa: ' + proxyHost + url);
 
 	fetch(proxyHost + url)
 		.then(response => response.json())
@@ -446,6 +446,18 @@ async function createPrevision(data, element, idmareas, id_playa) {
 		+ "<th>Oleaxe</th><td style='text-align: left;' colspan=2>" + datos["oleaje"]["descripcion2"] + "</td>"
 		+ "</tr>";
 	if (hour > 12) {
+			if (idmareas > 0) {
+		mareas = await getMareas(idmareas);
+		tabla += '<tr><td colspan=4>' + mareas + '</td></tr>';
+	}
+
+		tabla += "<tr><th colspan=4>"
+			+ getPrintDate(datos2["fecha"])
+			+ "</th></tr>";
+		tabla += "<tr>"
+			+ "<th>Temp. Auga</th><td>" + datos2["tAgua"]["valor1"] + "&deg;</td>"
+			+ "<th>Temp. Max.</th><td>" + datos2["tMaxima"]["valor1"] + "&deg;</td>"
+			+ "</tr>";
 		tabla += "<tr>"
 			+ '<th rowspan=4>Mañá<br><img src="img/' + datos2["estadoCielo"]["f1"] + '.png" height="50px"></th>'
 			+ "<tr>"
@@ -455,12 +467,14 @@ async function createPrevision(data, element, idmareas, id_playa) {
 			+ "<tr>"
 			+ "<th>Oleaxe</th><td style='text-align: left;' colspan=2>" + datos2["oleaje"]["descripcion1"] + "</td>"
 			+ "</tr>";
-	}
-
-	if (idmareas > 0) {
+	} else {
+			if (idmareas > 0) {
 		mareas = await getMareas(idmareas);
 		tabla += '<tr><td colspan=4>' + mareas + '</td></tr>';
 	}
+
+	}
+
 
 	tabla += "</table>";
 
@@ -495,3 +509,20 @@ function isTomorrow(d1) {
 	var todayStr = tomorrow.getFullYear() + '-' + padTo2Digits(tomorrow.getMonth() + 1) + '-' + padTo2Digits(tomorrow.getDate()) + 'T00:00:00';
 	return (todayStr == d1);
 }
+
+function getPrintDate(dateInput) {
+	const dateStr = String(dateInput);
+	const match = dateStr.match(/^(\d{4})(\d{2})(\d{2})$/);
+
+	if (match) {
+		const [, year, month, day] = match;
+		const dt = new Date(parseInt(year), parseInt(month) - 1, parseInt(day));
+		var daySTR = padTo2Digits(dt.getDate()) + "/" + + padTo2Digits(dt.getMonth() + 1) + '/' + dt.getFullYear();
+		return daySTR
+	} else {
+		console.error("Invalid date format, "+dateStr);
+	}
+
+	return "null"
+}
+

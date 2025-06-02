@@ -22,7 +22,7 @@ function getPrevisionDatosMunicipio(data, element, id_municipio) {
 			return;
 		}
 		if ("source" in data) {
-			console.log("Datos de '"+id_municipio+"' from '" + data['source']+"'");
+			console.log("Datos de '" + id_municipio + "' from '" + data['source'] + "'");
 		}
 		if ("datos_json" in data) {
 			console.log("Datos completos para " + id_municipio);
@@ -81,6 +81,17 @@ async function createPrevisionMunicipio(data, element, id_municipio) {
 			//tabla += municipioRow(datos, 6);
 		}
 		if (isTomorrow(datos["fecha"])) {
+			var datos2 = data[0]["prediccion"]["dia"][i];
+
+			tabla += "<tr><th colspan=4>"
+				+ getPrintDateHour(datos2["fecha"])
+				+ "</th></tr>";
+
+			tabla += "<tr>"
+				+ "<th>Temp. Min.</th><td>" + datos2["temperatura"]["minima"] + "&deg;</td>"
+				+ "<th>Temp. Max.</th><td>" + datos2["temperatura"]["maxima"] + "&deg;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>"
+				+ "</tr>";
+
 			row = municipioRow(datos, 1);
 			if (row != "" && cont < maxItems) {
 				tabla += row;
@@ -121,7 +132,7 @@ async function createPrevisionMunicipio(data, element, id_municipio) {
 	//url = 'https://opendata.aemet.es/opendata/api/prediccion/especifica/municipio/horaria/' + id_municipio + '/?api_key=' + apiKey + "&nocache=" + ms
 	//url = 'https://opendata.aemet.es/opendata/api/prediccion/especifica/municipio/horaria/' + id_municipio + '/?api_key=' + apiKey;
 	url = 'https://opendata.aemet.es/opendata/api/prediccion/especifica/municipio/horaria/' + id_municipio;
-	console.log('Get precipitacion municipio: ' + url);
+	console.log('Get precipitacion municipio: ' + proxyHost + url);
 
 	fetch(proxyHost + url)
 		.then(response => response.json())
@@ -179,7 +190,7 @@ function getPrevisionPrecipitacionMunicipio(data, element, id_municipio) {
 	if (data['estado'] == 200) {
 
 		if ("source" in data) {
-			console.log("Datos precipitacion de '"+id_municipio+"' from '" + data['source']+"'");
+			console.log("Datos precipitacion de '" + id_municipio + "' from '" + data['source'] + "'");
 		}
 		if ("datos_json" in data) {
 			console.log("Datos completos precipitacion para " + id_municipio);
@@ -315,4 +326,20 @@ async function createPrevisionPrecipitacionMunicipio(data, element, id_municipio
 	} else {
 		$('#trmunicipio' + id_municipio).remove();
 	}
+}
+
+function getPrintDateHour(dateInput) {
+	const dateStr = String(dateInput);
+	const match = dateStr.match(/^(\d{4})-(\d{2})-(\d{2}).*$/);
+
+	if (match) {
+		const [, year, month, day] = match;
+		const dt = new Date(parseInt(year), parseInt(month) - 1, parseInt(day));
+		var daySTR = padTo2Digits(dt.getDate()) + "/" + + padTo2Digits(dt.getMonth() + 1) + '/' + dt.getFullYear();
+		return daySTR
+	} else {
+		console.error("Invalid date format, "+dateStr);
+	}
+
+	return "null"
 }

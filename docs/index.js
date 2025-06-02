@@ -370,11 +370,11 @@ async function getPrevisionDatos(data, element, idmareas, id_playa) {
 		}
 
 		if ("source" in data) {
-			console.log("Datos de '"+id_playa+"' from '" + data['source']+"'");
+			console.log("Datos de '" + id_playa + "' from '" + data['source'] + "'");
 		}
 		if ("datos_json" in data) {
 			console.log("Datos completos para " + id_playa);
-			createPrevision(data['datos_json'],element, idmareas, id_playa);
+			createPrevision(data['datos_json'], element, idmareas, id_playa);
 		} else {
 
 			console.log('Get prevision: ' + data['datos'])
@@ -407,6 +407,13 @@ function getFechaES(fecha) {
 async function createPrevision(data, element, idmareas, id_playa) {
 	var tabla = '<table class="center">';
 	var datos = data[0]["prediccion"]["dia"][0];
+	var datos2 = data[0]["prediccion"]["dia"][1];
+
+	var date = new Date;
+	var hour = date.getHours();
+
+	hour=13;
+
 
 	tabla += "<tr><th colspan=4>"
 		+ '<a href="https://www.aemet.es/es/eltiempo/prediccion/playas/' + aplanaTexto(data[0]["nombre"]) + '-' + id_playa + '" target="_new" rel="noopener" >'
@@ -419,15 +426,20 @@ async function createPrevision(data, element, idmareas, id_playa) {
 		+ "<th>Temp. Max.</th><td>" + datos["tMaxima"]["valor1"] + "&deg;</td>"
 		+ "</tr><tr>"
 		+ "<th colspan=2>Sensacion térmica</th><td colspan=2>" + datos["sTermica"]["descripcion1"] + "</td>"
-		+ "</tr><tr>"
-		+ '<th rowspan=4>Mañá<br><img src="img/' + datos["estadoCielo"]["f1"] + '.png" height="50px"></th>'
-		+ "<tr>"
-		+ "<th>Ceo</th><td style='text-align: left;' colspan=2>" + datos["estadoCielo"]["descripcion1"] + "</td>"
-		+ "<tr>"
-		+ "<th>Vento</th><td style='text-align: left;' colspan=2>" + datos["viento"]["descripcion1"] + "</td>"
-		+ "<tr>"
-		+ "<th>Oleaxe</th><td style='text-align: left;' colspan=2>" + datos["oleaje"]["descripcion1"] + "</td>"
-		+ "</tr><tr>"
+		+ "</tr>";
+
+	if (hour <= 12) {
+		tabla += "<tr>"
+			+ '<th rowspan=4>Mañá<br><img src="img/' + datos["estadoCielo"]["f1"] + '.png" height="50px"></th>'
+			+ "<tr>"
+			+ "<th>Ceo</th><td style='text-align: left;' colspan=2>" + datos["estadoCielo"]["descripcion1"] + "</td>"
+			+ "<tr>"
+			+ "<th>Vento</th><td style='text-align: left;' colspan=2>" + datos["viento"]["descripcion1"] + "</td>"
+			+ "<tr>"
+			+ "<th>Oleaxe</th><td style='text-align: left;' colspan=2>" + datos["oleaje"]["descripcion1"] + "</td>"
+			+ "</tr>";
+	}
+	tabla += "<tr>"
 		+ '<th rowspan=4>Tarde<br><img src="img/' + datos["estadoCielo"]["f2"] + '.png" height="50px"></th>'
 		+ "<tr>"
 		+ "<th>Ceo</th><td style='text-align: left;' colspan=2>" + datos["estadoCielo"]["descripcion2"] + "</td>"
@@ -436,6 +448,17 @@ async function createPrevision(data, element, idmareas, id_playa) {
 		+ "<tr>"
 		+ "<th>Oleaxe</th><td style='text-align: left;' colspan=2>" + datos["oleaje"]["descripcion2"] + "</td>"
 		+ "</tr>";
+	if (hour > 12) {
+		tabla += "<tr>"
+			+ '<th rowspan=4>Mañá<br><img src="img/' + datos2["estadoCielo"]["f1"] + '.png" height="50px"></th>'
+			+ "<tr>"
+			+ "<th>Ceo</th><td style='text-align: left;' colspan=2>" + datos2["estadoCielo"]["descripcion1"] + "</td>"
+			+ "<tr>"
+			+ "<th>Vento</th><td style='text-align: left;' colspan=2>" + datos2["viento"]["descripcion1"] + "</td>"
+			+ "<tr>"
+			+ "<th>Oleaxe</th><td style='text-align: left;' colspan=2>" + datos2["oleaje"]["descripcion1"] + "</td>"
+			+ "</tr>";
+	}
 
 	if (idmareas > 0) {
 		mareas = await getMareas(idmareas);

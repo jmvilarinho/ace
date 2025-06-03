@@ -81,6 +81,7 @@ async function createPrevisionMunicipio(data, element, id_municipio) {
 			//tabla += municipioRow(datos, 6);
 		}
 		if (isTomorrow(datos["fecha"])) {
+			if (cont < maxItems) {
 			var datos2 = data[0]["prediccion"]["dia"][i];
 
 			tabla += "<tr><th colspan=4>"
@@ -91,7 +92,7 @@ async function createPrevisionMunicipio(data, element, id_municipio) {
 				+ "<th>Temp. Min.</th><td>" + datos2["temperatura"]["minima"] + "&deg;</td>"
 				+ "<th>Temp. Max.</th><td>" + datos2["temperatura"]["maxima"] + "&deg;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>"
 				+ "</tr>";
-
+}
 			row = municipioRow(datos, 1);
 			if (row != "" && cont < maxItems) {
 				tabla += row;

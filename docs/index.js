@@ -406,8 +406,15 @@ function getFechaES(fecha) {
 
 async function createPrevision(data, element, idmareas, id_playa) {
 	var tabla = '<table class="center">';
-	var datos = data[0]["prediccion"]["dia"][0];
-	var datos2 = data[0]["prediccion"]["dia"][1];
+	var datos;
+	var datos2;
+
+	for (var i = 0; i < data[0]["prediccion"]["dia"].length; i++) {
+		if (isTodayStr(data[0]["prediccion"]["dia"][i]["fecha"])) {
+			var datos = data[0]["prediccion"]["dia"][i];
+			var datos2 = data[0]["prediccion"]["dia"][i + 1];
+		}
+	}
 
 	var date = new Date;
 	var hour = date.getHours();
@@ -498,6 +505,13 @@ function isToday(d1) {
 	// 2024-07-25T00:00:00
 	var now = new Date();
 	var todayStr = now.getFullYear() + '-' + padTo2Digits(now.getMonth() + 1) + '-' + padTo2Digits(now.getDate()) + 'T00:00:00';
+	return (todayStr == d1);
+}
+
+function isTodayStr(d1) {
+	// 20240725
+	var now = new Date();
+	var todayStr = now.getFullYear() + padTo2Digits(now.getMonth() + 1) + padTo2Digits(now.getDate());
 	return (todayStr == d1);
 }
 

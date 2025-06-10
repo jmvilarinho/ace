@@ -443,24 +443,24 @@ async function createPrevision(data, element, idmareas, id_playa) {
 			+ "<th>Oleaxe</th><td style='text-align: left;' colspan=2>" + datos["oleaje"]["descripcion1"] + "</td>"
 			+ "</tr>";
 	}
-	tabla += "<tr>"
-		+ '<th rowspan=4>Tarde<br><img src="img/' + datos["estadoCielo"]["f2"] + '.png" height="50px"></th>'
-		+ "<tr>"
-		+ "<th>Ceo</th><td style='text-align: left;' colspan=2>" + datos["estadoCielo"]["descripcion2"] + "</td>"
-		+ "<tr>"
-		+ "<th>Vento</th><td style='text-align: left;' colspan=2>" + datos["viento"]["descripcion2"] + "</td>"
-		+ "<tr>"
-		+ "<th>Oleaxe</th><td style='text-align: left;' colspan=2>" + datos["oleaje"]["descripcion2"] + "</td>"
-		+ "</tr>";
-	if (hour > 12) {
-		if (idmareas > 0) {
-			mareas = await getMareas(idmareas);
-			tabla += '<tr><td colspan=4>' + mareas + '</td></tr>';
-		}
+	if (hour <= 20) {
+		tabla += "<tr>"
+			+ '<th rowspan=4>Tarde<br><img src="img/' + datos["estadoCielo"]["f2"] + '.png" height="50px"></th>'
+			+ "<tr>"
+			+ "<th>Ceo</th><td style='text-align: left;' colspan=2>" + datos["estadoCielo"]["descripcion2"] + "</td>"
+			+ "<tr>"
+			+ "<th>Vento</th><td style='text-align: left;' colspan=2>" + datos["viento"]["descripcion2"] + "</td>"
+			+ "<tr>"
+			+ "<th>Oleaxe</th><td style='text-align: left;' colspan=2>" + datos["oleaje"]["descripcion2"] + "</td>"
+			+ "</tr>";
+	}
+	if (idmareas > 0) {
+		mareas = await getMareas(idmareas);
+		tabla += '<tr><td colspan=4>' + mareas + '</td></tr>';
+	}
 
-		tabla += "<tr><th colspan=4>"
-			+ getPrintDate(datos2["fecha"])
-			+ "</th></tr>";
+	if (hour > 12) {
+		tabla += "<tr><th colspan=4>" + getPrintDate(datos2["fecha"]) + "</th></tr>";
 		tabla += "<tr>"
 			+ "<th>Temp. Auga</th><td>" + datos2["tAgua"]["valor1"] + "&deg;</td>"
 			+ "<th>Temp. Max.</th><td>" + datos2["tMaxima"]["valor1"] + "&deg;</td>"
@@ -474,14 +474,18 @@ async function createPrevision(data, element, idmareas, id_playa) {
 			+ "<tr>"
 			+ "<th>Oleaxe</th><td style='text-align: left;' colspan=2>" + datos2["oleaje"]["descripcion1"] + "</td>"
 			+ "</tr>";
-	} else {
-		if (idmareas > 0) {
-			mareas = await getMareas(idmareas);
-			tabla += '<tr><td colspan=4>' + mareas + '</td></tr>';
-		}
-
 	}
-
+	if (hour > 20) {
+		tabla += "<tr>"
+			+ '<th rowspan=4>Tarde<br><img src="img/' + datos2["estadoCielo"]["f2"] + '.png" height="50px"></th>'
+			+ "<tr>"
+			+ "<th>Ceo</th><td style='text-align: left;' colspan=2>" + datos2["estadoCielo"]["descripcion2"] + "</td>"
+			+ "<tr>"
+			+ "<th>Vento</th><td style='text-align: left;' colspan=2>" + datos2["viento"]["descripcion2"] + "</td>"
+			+ "<tr>"
+			+ "<th>Oleaxe</th><td style='text-align: left;' colspan=2>" + datos2["oleaje"]["descripcion2"] + "</td>"
+			+ "</tr>";
+	}
 
 	tabla += "</table>";
 

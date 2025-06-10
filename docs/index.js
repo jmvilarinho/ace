@@ -443,7 +443,7 @@ async function createPrevision(data, element, idmareas, id_playa) {
 			+ "<th>Oleaxe</th><td style='text-align: left;' colspan=2>" + datos["oleaje"]["descripcion1"] + "</td>"
 			+ "</tr>";
 	}
-	if (hour <= 20) {
+	if (hour <= 19) {
 		tabla += "<tr>"
 			+ '<th rowspan=4>Tarde<br><img src="img/' + datos["estadoCielo"]["f2"] + '.png" height="50px"></th>'
 			+ "<tr>"
@@ -475,7 +475,7 @@ async function createPrevision(data, element, idmareas, id_playa) {
 			+ "<th>Oleaxe</th><td style='text-align: left;' colspan=2>" + datos2["oleaje"]["descripcion1"] + "</td>"
 			+ "</tr>";
 	}
-	if (hour > 20) {
+	if (hour > 19) {
 		tabla += "<tr>"
 			+ '<th rowspan=4>Tarde<br><img src="img/' + datos2["estadoCielo"]["f2"] + '.png" height="50px"></th>'
 			+ "<tr>"

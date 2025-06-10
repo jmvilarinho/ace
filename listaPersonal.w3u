@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 10/06/2025 11:04:14",
+    "author": "Vila - 10/06/2025 16:00:33",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -41,8 +41,20 @@
                     "embed": "false"
                 },
                 {
+                    "name": "Eurosport 2 1080",
+                    "url": "acestream://0585e09bb8ac9720e4c11934f1b184e309291551",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-es-eurosport-2-616.png",
+                    "embed": "false"
+                },
+                {
                     "name": "EuroSport 2 1080 Elcano Antiguas",
                     "url": "acestream://98784fa0714190de289f42eb5b84e405df7e685a",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-es-eurosport-2-616.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Eurosport 2 720",
+                    "url": "acestream://5c910d614894635153a7d42de98cc2e4a958a53f",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-es-eurosport-2-616.png",
                     "embed": "false"
                 },
@@ -56,6 +68,12 @@
                     "name": "EUROSPORT 2 FHD --> NEW ERA II",
                     "url": "acestream://4b87a5b67f39dfc151a163ec8c08039520f0a372",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-es-eurosport-2-616.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Eurosport 720",
+                    "url": "acestream://d830c1dc3b74e74f79cbb823804cf2037857e78a",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-eurosport.png",
                     "embed": "false"
                 }
             ]
@@ -297,6 +315,18 @@
                     "url": "acestream://b2a4d1eba9b46df5f52a87105df779f9d39abeb4",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-plus-1475.png",
                     "embed": "false"
+                },
+                {
+                    "name": "Vamos 1080",
+                    "url": "acestream://c7c81acdd1a03ecc418c94c2f28e2adb0556c40b",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-vamos.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Vamos 720",
+                    "url": "acestream://0e5d8c9724fa9163f49096b70484e315251eb785",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-vamos.png",
+                    "embed": "false"
                 }
             ]
         },
@@ -328,6 +358,18 @@
             "name": "DAZN",
             "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-0.png",
             "stations": [
+                {
+                    "name": "Dazn 1",
+                    "url": "acestream://eb6ffec065b26259ad3d1811e0bbb0a5332ed276",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-0.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Dazn 2",
+                    "url": "acestream://ae68a0835039fab28fd2314108fabd4fab33b8ab",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-0.png",
+                    "embed": "false"
+                },
                 {
                     "name": "DAZN EVENTOS 1 --> NEW ERA",
                     "url": "acestream://176f0b8565a161f87c81a4a250463e3eaf678fb5",
@@ -557,6 +599,18 @@
             "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-formula-1.png",
             "stations": [
                 {
+                    "name": "DAZN F1 1080  (FÃ³rmula 1)",
+                    "url": "acestream://b08e158ea3f5c72084f5ff8e3c30ca2e4d1ff6d1",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-formula-1-366.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "DAZN F1 1080 (FÃ³rmula 1)",
+                    "url": "acestream://fd53cfa7055fe458d4f5c0ff59a06cd43723be55",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-formula-1-366.png",
+                    "embed": "false"
+                },
+                {
                     "name": "DAZN F1 4K --> NEW ERA",
                     "url": "acestream://7e1523ccfaac00800e67bd0b97c428810104b2b8",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-formula-1-366.png",
@@ -622,6 +676,24 @@
             "name": "DAZN LaLiga",
             "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-0.png",
             "stations": [
+                {
+                    "name": "DAZN LaLiga 720",
+                    "url": "acestream://4e6d9cf7d177366045d33cd8311d8b1d7f4bed1f",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-1.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "DAZN LaLiga 2 1080 MultiAudio",
+                    "url": "acestream://a231b2fa1f7754433efeb8bb8d69d7b9096dcba8",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-2.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "DAZN LaLiga 2 720 MultiAudio",
+                    "url": "acestream://c976c7b37964322752db562b4ad65515509c8d36",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-laliga-2.png",
+                    "embed": "false"
+                },
                 {
                     "name": "DAZN LaLiga 3",
                     "url": "acestream://3c72639799f5471b213a073f4c1c6bf28bd08035",
@@ -737,6 +809,24 @@
                     "embed": "false"
                 },
                 {
+                    "name": "M. LaLiga 1080 MultiAudio",
+                    "url": "acestream://c9321006921967d6258df6945f1d598a5c0cbf1e",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-1.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M. LaLiga 1080 MultiAudio - 9f74",
+                    "url": "acestream://4b528d10eaad747ddf52251206177573ee3e9f74",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-1.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M. LaLiga 720",
+                    "url": "acestream://14b6cd8769cd485f2cffdca64be9698d9bfeac58",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-1.png",
+                    "embed": "false"
+                },
+                {
                     "name": "M+ LALIGA 2 FHD --> ELCANO",
                     "url": "acestream://83c6c4942d69f4aa324aa746c5d7dbfd7d1572b3",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-2.png",
@@ -749,6 +839,18 @@
                     "embed": "false"
                 },
                 {
+                    "name": "M. LaLiga 2 1080",
+                    "url": "acestream://51b363b1c4d42724e05240ad068ad219df8042ec",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-2.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M. LaLiga 2 720",
+                    "url": "acestream://ad42faa399df66dcd62a1cbc9d1c99ed4512d3b8",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-2.png",
+                    "embed": "false"
+                },
+                {
                     "name": "M+ LALIGA 3 FHD --> ELCANO",
                     "url": "acestream://ebe14f1edeb49f2253e3b355a8beeadc9b4f0bc4",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-3.png",
@@ -757,6 +859,18 @@
                 {
                     "name": "M+ LALIGA 3 SD --> ELCANO",
                     "url": "acestream://835639b89db00cc0d94660da3c10b6e38bfbcdc1",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-3.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M. LaLiga 3 1080",
+                    "url": "acestream://7ad14386deef2f45ffe17d30a631dbf79b6a1a87",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-3.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M. LaLiga 3 720",
+                    "url": "acestream://382b14499e3d76e557d449d2e5bbc4e4bd63bd39",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-3.png",
                     "embed": "false"
                 },
@@ -925,6 +1039,30 @@
                 {
                     "name": "CUATRO FHD --> NEW ERA",
                     "url": "acestream://18f63b299de66029e17dc35e12f6c244e1979a91",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Dedporte 2 1080",
+                    "url": "acestream://f0ee7a2b43c1df5ea9e4fac5bf876d5bef4372b0",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Deporte 2 720",
+                    "url": "acestream://bfa01c11c5c6b7a616a516de4f2c769a89d26b25",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Deporte 3 1080",
+                    "url": "acestream://799c6b5ee1cf41af077d14e3f9c45a32697eb903",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Deporte 3 720",
+                    "url": "acestream://2fd410c5d89e7a627cd3785685b7915b8e4bd534",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -1331,6 +1469,12 @@
                     "embed": "false"
                 },
                 {
+                    "name": "MovistarPlus 1080",
+                    "url": "acestream://1ab443f5b4beb6d586f19e8b25b9f9646cf2ab78",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
                     "name": "ONBOARD CARLOS SAINZ --> NEW ERA",
                     "url": "acestream://ddc3b1c8297d57d8096ba20edc1da41eb149a167",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
@@ -1523,6 +1667,18 @@
                     "embed": "false"
                 },
                 {
+                    "name": "LaLiga Smartbank 1080",
+                    "url": "acestream://87bb542f974b6b9e89d0f2e20ed6dc93426f4be0",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-smartbank.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "LaLiga Smartbank 2 1080",
+                    "url": "acestream://709075831bf5c41ed0a20dfbd640aab6c28971f8",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-smartbank.png",
+                    "embed": "false"
+                },
+                {
                     "name": "LaLiga Smartbank 4 ELCANO",
                     "url": "acestream://1c25bdd6be50b69d4da12cbbc25a50be169414e4",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-smartbank.png",
@@ -1543,6 +1699,12 @@
                 {
                     "name": "LaLiga Smartbank 7 ELCANO",
                     "url": "acestream://a4ea8b888b5b11a3d08498d7bc858c564b5be423",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-smartbank.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "LaLiga Smartbank 720",
+                    "url": "acestream://a4f072c9b614323ac1258a175f868a909ea3c8cd",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-smartbank.png",
                     "embed": "false"
                 },

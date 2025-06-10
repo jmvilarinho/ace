@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 10/06/2025 16:00:33",
+    "author": "Vila - 10/06/2025 20:01:41",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -1049,6 +1049,12 @@
                     "embed": "false"
                 },
                 {
+                    "name": "Deporte 1080",
+                    "url": "acestream://ebca4a63ce3bfda7b272964a1acc5227218184a4",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
                     "name": "Deporte 2 720",
                     "url": "acestream://bfa01c11c5c6b7a616a516de4f2c769a89d26b25",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
@@ -1063,6 +1069,12 @@
                 {
                     "name": "Deporte 3 720",
                     "url": "acestream://2fd410c5d89e7a627cd3785685b7915b8e4bd534",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Deporte 720",
+                    "url": "acestream://2f3cfd199a49819cbd129689a840dc3d23ab93aa",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },

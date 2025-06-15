@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 14/06/2025 20:05:10",
+    "author": "Vila - 15/06/2025 11:05:11",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -791,6 +791,48 @@
             "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
             "stations": [
                 {
+                    "name": "2b51710cee513e8939785fa3e7980f32d4e0415f",
+                    "url": "acestream://9db029dff6a9c637d1f670e78dbc1a479b9b406e",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "38f7b2044e549df2039ff26cefa6f9a60c854d5e",
+                    "url": "acestream://4416843c96b7f7a1bc55c476091a60fff0922bc7",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "4416843c96b7f7a1bc55c476091a60fff0922bc7",
+                    "url": "acestream://cfc371890bfb502737a26de5215e50929c52d0f9",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "74ab4e4ec7e2da001f473ca40893b7307b8029c5",
+                    "url": "acestream://38f7b2044e549df2039ff26cefa6f9a60c854d5e",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "7b361369a40046ad3011086f9d4ae2982fb4d5aa",
+                    "url": "acestream://97df5b7824948972d041d8ca2a4d29c90b641bc9",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "97df5b7824948972d041d8ca2a4d29c90b641bc9",
+                    "url": "acestream://2b51710cee513e8939785fa3e7980f32d4e0415f",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "9db029dff6a9c637d1f670e78dbc1a479b9b406e",
+                    "url": "acestream://b028202ff335911db3118bceac027df3e8ef6c32",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
                     "name": "ANTENA 3 FHD --> NEW ERA",
                     "url": "acestream://390b5b0fc49a811c5c5ebd6d195b08a48b1e8496",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
@@ -799,6 +841,12 @@
                 {
                     "name": "AUTOMOTORSPORT HD --> NEW LOOP",
                     "url": "acestream://610993aea3a2bfd509594334b7461ce96900f54c",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "b028202ff335911db3118bceac027df3e8ef6c32",
+                    "url": "acestream://74ab4e4ec7e2da001f473ca40893b7307b8029c5",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -893,54 +941,6 @@
                     "embed": "false"
                 },
                 {
-                    "name": "Campeones 1080 2 ELCANO",
-                    "url": "acestream://2b51710cee513e8939785fa3e7980f32d4e0415f",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "Campeones 1080 2 ELCANO - 406e",
-                    "url": "acestream://9db029dff6a9c637d1f670e78dbc1a479b9b406e",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "Campeones 1080 ELCANO",
-                    "url": "acestream://97df5b7824948972d041d8ca2a4d29c90b641bc9",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "Campeones 2 1080 ELCANO",
-                    "url": "acestream://74ab4e4ec7e2da001f473ca40893b7307b8029c5",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "Campeones 2 720 ELCANO",
-                    "url": "acestream://38f7b2044e549df2039ff26cefa6f9a60c854d5e",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "Campeones 3 1080 ELCANO",
-                    "url": "acestream://4416843c96b7f7a1bc55c476091a60fff0922bc7",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "Campeones 3 720 ELCANO",
-                    "url": "acestream://cfc371890bfb502737a26de5215e50929c52d0f9",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "Campeones 720 ELCANO",
-                    "url": "acestream://b028202ff335911db3118bceac027df3e8ef6c32",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
                     "name": "Canal 1 (1RFEF) (SOLO EVENTOS) --> NEW ERA V",
                     "url": "acestream://c1ee6e1e0ef5928d8261f855c417de21794f437d",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
@@ -955,6 +955,12 @@
                 {
                     "name": "CANAL MOTOR --> NEW LOOP",
                     "url": "acestream://35e17cc84abc5e393b5acd688536a9681105f2d5",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "cfc371890bfb502737a26de5215e50929c52d0f9",
+                    "url": "acestream://3d376333ee90d6db3d413fc5764ef635882076f5",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -1015,6 +1021,18 @@
                 {
                     "name": "Deporte 3 720",
                     "url": "acestream://2fd410c5d89e7a627cd3785685b7915b8e4bd534",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Deporte 4 1080",
+                    "url": "acestream://b40e1de2dcbd7c665f54877b14c830ed67b32a96",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Deporte 5 1080",
+                    "url": "acestream://7b361369a40046ad3011086f9d4ae2982fb4d5aa",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },

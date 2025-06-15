@@ -924,8 +924,6 @@ http://185.189.225.150:85/8madrid/index.m3u8
 https://9laloma.tv/live.m3u8
 #EXTINF:-1 tvg-id="APunt.es@SD",A Punt
 https://bcovlive-a.akamaihd.net/8499d938ef904e39b58a4adec2ddeada/eu-west-1/6057955885001/playlist_dvr.m3u8
-#EXTINF:-1 tvg-id="AMC.us@Spain",AMC (Spain) (720p)
-http://vegafibratv.com:8085/AMC/index.m3u8
 #EXTINF:-1 tvg-id="ActivaTV.es",Activa TV (720p)
 https://streamtv.mediasector.es/hls/activatv/index.m3u8
 #EXTINF:-1 tvg-id="AlacantiTV.es",Alacantí TV (576p) [Not 24/7]
@@ -954,8 +952,6 @@ https://tvdatta.com:3021/live/biosferatvlive.m3u8
 http://185.189.225.150:85/boing/index.m3u8
 #EXTINF:-1 tvg-id="BomCine.es",Bom Cine (576p)
 http://185.189.225.150:85/BOM/index.m3u8
-#EXTINF:-1 tvg-id="BomCine.es",Bom Cine (720p)
-https://tsw.streamingwebtv24.it:1936/inteccdn3/inteccdn3/playlist.m3u8
 #EXTINF:-1 tvg-id="BonDiaTV.es",Bon Dia TV (1080p)
 https://directes-tv-int.3catdirectes.cat/live-origin/bondia-hls/master.m3u8
 #EXTINF:-1 tvg-id="BurrianaTeVe.es",Burriana TV (720p)
@@ -1326,8 +1322,6 @@ https://d2glyu450vvghm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 https://canadaremar2.todostreaming.es/live/solidariatv-webhd.m3u8
 #EXTINF:-1 tvg-id="SpektraTV.es",SpektraTV (720p)
 https://cloudvideo.servers10.com:8081/8136/index.m3u8
-#EXTINF:-1 tvg-id="Squirrel.es",Squirrel (1080p)
-https://tsw.streamingwebtv24.it:1936/inteccdn1/inteccdn1/playlist.m3u8
 #EXTINF:-1 tvg-id="TBNEspana.es",TBN España (576p)
 https://edge.xn--tbnespaa-j3a.es/LiveApp/streams/tbnlive.m3u8
 #EXTINF:-1 tvg-id="TEF.es",TEF (540p)

@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 17/06/2025 16:09:53",
+    "author": "Vila - 17/06/2025 20:02:25",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -799,6 +799,12 @@
                 {
                     "name": "38f7b2044e549df2039ff26cefa6f9a60c854d5e",
                     "url": "acestream://4416843c96b7f7a1bc55c476091a60fff0922bc7",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "3d376333ee90d6db3d413fc5764ef635882076f5",
+                    "url": "acestream://8670df538a11c6ec97b3f634981ddc4409ca0333",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },

@@ -28,8 +28,8 @@
 		gtag('js', new Date());
 		gtag('config', 'G-PMCWDDX565');
 
-		meteogalcia_url ='https://www.meteogalicia.gal/web/predicion/galicia/0'
-		meteogalcia_url ='https://www.meteogalicia.gal/web/predicion/portada'
+		meteogalcia_url = 'https://www.meteogalicia.gal/web/predicion/galicia/0'
+		meteogalcia_url = 'https://www.meteogalicia.gal/web/predicion/portada'
 	</script>
 </head>
 
@@ -75,7 +75,7 @@
 		<div id='data_prevision'></div>
 		<div id='data_prevision_municipio'></div>
 		<div id='data_mareas'></div>
-		<div class="right-aligned">
+		<div class="right-aligned" id="visitor_counter">
 			<!-- img width="100px" src="https://www.cutercounter.com/hits.php?id=hxpqdon&nd=6&style=103" border="0"
 				alt="counter for page"-->
 			<img src="https://www.easycounter.com/counter.php?jmvilarinho" border="0" alt="Website Hit Counter"></a>
@@ -87,6 +87,17 @@
 		geoFindMe("yourTemperature");
 		var pagina = getCookie('pagina');
 		CambiaVistaUpdate(pagina);
+	</script>
+
+	<script>
+		$.post(
+			'https://4sdj5h9oej.execute-api.us-east-1.amazonaws.com/',
+			function (data) {
+				var response = jQuery.parseJSON(data);
+				document.getElementById("visitor_counter").innerHTML = response["visitCount"]+"&nbsp;&nbsp;";
+				document.getElementById("visitor_counter").style.font = "italic bold 20px arial,serif";
+			}
+		);
 	</script>
 
 </body>

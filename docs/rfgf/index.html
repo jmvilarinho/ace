@@ -113,10 +113,21 @@
     <div id="error_msg"></div>
     </p>
   </div>
-  <div class="right-aligned">
+  <div class="right-aligned" id="visitor_counter">
     <img src="https://www.easycounter.com/counter.php?jmvilarinho" border="0" alt="Website Hit Counter"></a>
   </div>
   <p id="copyright" class="copyright">&copy; 2024</p>
 </footer>
+
+	<script>
+		$.post(
+			'https://4sdj5h9oej.execute-api.us-east-1.amazonaws.com/',
+			function (data) {
+				var response = jQuery.parseJSON(data);
+				document.getElementById("visitor_counter").innerHTML = response["visitCount"]+"&nbsp;&nbsp;";
+				document.getElementById("visitor_counter").style.font = "italic bold 20px arial,serif";
+			}
+		);
+	</script>
 
 </html>

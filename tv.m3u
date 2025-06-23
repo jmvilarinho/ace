@@ -898,6 +898,8 @@ https://streaming101tv.es/hls/webronda.m3u8
 #EXTVLCOPT:http-referrer=https://player.streamingconnect.com/
 #EXTINF:-1 tvg-id="12tv.es" http-referrer="https://www.12tv.es/",12tv
 #EXTVLCOPT:http-referrer=https://www.12tv.es/
+#EXTINF:-1 tvg-id="24Horas.es@HEVC",24 Horas HEVC
+https://d3pfmk89wc0vm9.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-nlow3qkp9tmdm/24H_ES.m3u8
 #EXTINF:-1 tvg-id="24HorasInternacional.es",24 Horas Internacional [Geo-blocked]
 https://rtvelivestream.akamaized.net/rtvesec/24h/24h_main_dvr.m3u8
 #EXTINF:-1 tvg-id="28kanala.es@SD",28 kanala
@@ -1007,6 +1009,8 @@ https://cdnlivevlc.codev8.net/aytosanroquelive/smil:channel1.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="CanalSierradeCadiz.es",Canal Sierra de Cádiz (1080p) [Not 24/7]
 https://s.emisoras.tv:8081/sierradecadiz/index.m3u8
 #EXTINF:-1 tvg-id="CanalSurAndalucia.es@SD",Canal Sur Andalucia
+https://live-24-canalsur.interactvty.pro/9bb0f4edcb8946e79f5017ddca6c02b0/26af5488cda642ed2eddd27a6328c93b9c03e9181b9d0a825147a7d978e69202.m3u8
+#EXTINF:-1 tvg-id="CanalSurAndalucia.es@HEVC",Canal Sur Andalucia HEVC
 https://d35x6iaiw8f75z.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-kbwsl0jk1bvoo/canal_sur_andalucia_es.m3u8
 #EXTINF:-1 tvg-id="CanalSur2.es",Canal Sur Andalucía 2 (720p)
 https://cdnlive.codev8.net/rtvalive/smil:channel22.smil/playlist.m3u8
@@ -1030,6 +1034,8 @@ http://89.140.229.5/hls1/cancionero.m3u8
 http://player.cetelmon.tv/protecteddfd43c2f3a8b41f3f28582bf8993aca6/992_high.m3u8
 #EXTINF:-1 tvg-id="CiudadesdelOcioTV.es",Ciudades Del Ocio TV (720p)
 https://cloudvideo.servers10.com:8081/8024/index.m3u8
+#EXTINF:-1 tvg-id="Clan.es@HEVC",Clan HEVC
+https://d3nnqrdb77sy13.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-eimbp20cszixb/Clan_ES.m3u8
 #EXTINF:-1 tvg-id="Clan.es",Clan TVE (1080p) [Geo-blocked]
 https://rtvelivestream.akamaized.net/rtvesec/clan/clan_main_dvr.m3u8
 #EXTINF:-1 tvg-id="ClanInternacional.es",Clan TVE Internacional (1080p)
@@ -1164,6 +1170,8 @@ https://rtvelivestream.akamaized.net/rtvesec/can/la2_can_main_dvr.m3u8
 https://ztnr.rtve.es/ztnr/3987218.m3u8
 #EXTINF:-1 tvg-id="La2Catalunya.es",La 2 Catalunya (720p) [Not 24/7]
 https://rtvelivestream.akamaized.net/rtvesec/cat/la2_cat_main_dvr.m3u8
+#EXTINF:-1 tvg-id="La2.es@HEVC",La 2 HEVC
+https://di2qeq48iv8ps.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-o8u23e6v7vptv/La_2_ES.m3u8
 #EXTINF:-1 tvg-id="La8Mediterraneo.es",La 8 Mediterráneo (1080p) [Not 24/7]
 https://streaming004.gestec-video.com/hls/8TV.m3u8
 #EXTINF:-1 tvg-id="LaFabricaTV.es",La Fábrica TV (720p) [Not 24/7]
@@ -1402,10 +1410,10 @@ https://video1.lhdserver.es/teleribera/live.m3u8
 #EXTVLCOPT:http-referrer=http://www.televigo.com
 #EXTINF:-1 tvg-id="Telecinco.es",Telecinco (720p)
 http://185.189.225.150:85/TeleCincoHD/index.m3u8
-#EXTINF:-1 tvg-id="Teledeporte.es@SD",Teledeporte
-https://d2a02gfcid1k4a.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-clihr3vf54f9j/Teledeporte_ES.m3u8
 #EXTINF:-1 tvg-id="Teledeporte.es",Teledeporte (1080p) [Geo-blocked]
 https://rtvelivestream.akamaized.net/rtvesec/tdp/tdp_main.m3u8
+#EXTINF:-1 tvg-id="Teledeporte.es@HEVC",Teledeporte HEVC
+https://d2a02gfcid1k4a.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-clihr3vf54f9j/Teledeporte_ES.m3u8
 #EXTINF:-1 tvg-id="Teleganes.es",Teleganés (720p)
 https://nlb2-live.emitstream.com/hls/5z6oj7ziwxzfnj78vg2m/master.m3u8
 #EXTINF:-1 tvg-id="Telemadrid.es",Telemadrid (720p)

@@ -202,7 +202,7 @@ https://cartv-streaming.aranova.es/hls/live/anoticias_canal3.m3u8
 https://limited49.todostreaming.es/live/tvbarbastro-livestream.m3u8
 #EXTINF:-1 tvg-id="La1_CAN.TV" tvg-logo="https://pbs.twimg.com/profile_images/1921959108862709760/fe5Tqhlh_200x200.jpg" group-title="Canarias" tvg-name="La 1 Canarias",La 1 Canarias
 https://ztnr.rtve.es/ztnr/5190066.m3u8
-#EXTINF:-1 tvg-id="La2_CAN.TV" tvg-logo="https://graph.facebook.com/la2detve/picture?width=200&height=200" group-title="Canarias" tvg-name="La 2 Canarias",La 2 Canarias
+#EXTINF:-1 tvg-id="La2_CAN.TV" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_kqgHWySi5xprs1VFCNCX0IKNT8yXBLZC43JMoB8j0JUto=s200" group-title="Canarias" tvg-name="La 2 Canarias",La 2 Canarias
 https://ztnr.rtve.es/ztnr/5468585.m3u8
 #EXTINF:-1 tvg-id="24H_CAN.TV" tvg-logo="https://pbs.twimg.com/profile_images/1634293543987453954/mb1Rzmso_200x200.jpg" group-title="Canarias" tvg-name="24h Canarias",24h Canarias
 https://ztnr.rtve.es/ztnr/5473142.m3u8
@@ -278,7 +278,7 @@ https://fast-tailor.3catdirectes.cat/v1/channel/ccma-channel1/hls.m3u8
 https://fast-tailor.3catdirectes.cat/v1/channel/ccma-channel2/hls.m3u8
 #EXTINF:-1 tvg-id="La1_CAT.TV" tvg-logo="https://pbs.twimg.com/profile_images/1921959108862709760/fe5Tqhlh_200x200.jpg" group-title="Cataluña" tvg-name="La 1 Catalunya",La 1 Catalunya
 https://ztnr.rtve.es/ztnr/3293681.m3u8
-#EXTINF:-1 tvg-id="La2_CAT.TV" tvg-logo="https://graph.facebook.com/la2detve/picture?width=200&height=200" group-title="Cataluña" tvg-name="La 2 Catalunya",La 2 Catalunya
+#EXTINF:-1 tvg-id="La2_CAT.TV" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_kqgHWySi5xprs1VFCNCX0IKNT8yXBLZC43JMoB8j0JUto=s200" group-title="Cataluña" tvg-name="La 2 Catalunya",La 2 Catalunya
 https://ztnr.rtve.es/ztnr/3987218.m3u8
 #EXTINF:-1 tvg-id="24H_CAT" tvg-logo="https://pbs.twimg.com/profile_images/1634293543987453954/mb1Rzmso_200x200.jpg" group-title="Cataluña" tvg-name="24h Catalunya",24h Catalunya
 https://ztnr.rtve.es/ztnr/4952053.m3u8

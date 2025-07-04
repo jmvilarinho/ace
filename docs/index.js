@@ -1,3 +1,20 @@
+function setAncho(video) {
+  const params = new URLSearchParams(window.location.search);
+  const width = params.get('w');
+  if (width) {
+	video.style.width = `${width}px`;
+  }
+}
+function getAncho() {
+  const params = new URLSearchParams(window.location.search);
+  const width = params.get('w');
+  if (width) {
+	return `${width}px`;
+  } else {
+	return '100%';
+  }
+}
+
 function CambiaVista(e) {
 	if (pagina == 'praias') {
 		pagina = 'poboacions'
@@ -127,7 +144,8 @@ function showAlternative(videoid, alternative, alternativeurl) {
 
 	var ms = new Date().getTime();
 	const keyDiv = document.createElement('div');
-	keyDiv.innerHTML = '<img  id="' + videoid + '-alternative" width="680px" style="width: 100%; height: auto; max-width: 1300px;" src="' + alternativeurl + '?nocache=' + ms + '">';
+	width = getAncho();
+	keyDiv.innerHTML = '<img  id="' + videoid + '-alternative" width="680px" style="width: ' + width + '; height: auto; max-width: 1300px;" src="' + alternativeurl + '?nocache=' + ms + '">';
 
 	var imageObj = document.getElementById(videoid + "-unavailable");
 	imageObj.innerHTML = '';
@@ -154,6 +172,7 @@ async function showVideo(url, videoid, alternative = '', alternativeurl = '') {
 		if (alternative != '') {
 			showAlternative(videoid, alternative, alternativeurl);
 		}
+
 	} else {
 		video.style.visibility = "visible";
 		image.remove();
@@ -177,6 +196,7 @@ async function showVideo(url, videoid, alternative = '', alternativeurl = '') {
 				video.play();
 			});
 		}
+		setAncho(video);
 	}
 }
 

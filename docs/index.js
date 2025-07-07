@@ -1,18 +1,25 @@
+function isValidColor(strColor) {
+	const s = new Option().style;
+	s.color = strColor;
+	return s.color !== '';
+}
+
+
 function setAncho(video) {
-  const params = new URLSearchParams(window.location.search);
-  const width = params.get('w');
-  if (width) {
-	video.style.width = `${width}px`;
-  }
+	const params = new URLSearchParams(window.location.search);
+	const width = params.get('w');
+	if (width) {
+		video.style.width = `${width}px`;
+	}
 }
 function getAncho() {
-  const params = new URLSearchParams(window.location.search);
-  const width = params.get('w');
-  if (width) {
-	return `${width}px`;
-  } else {
-	return '100%';
-  }
+	const params = new URLSearchParams(window.location.search);
+	const width = params.get('w');
+	if (width) {
+		return `${width}px`;
+	} else {
+		return '100%';
+	}
 }
 
 function CambiaVista(e) {

@@ -11,8 +11,8 @@
 	<script src="jquery-3.7.1.min.js"></script>
 	<script src="hls.light.min.js"></script>
 	<script src="chart.umd.min.js"></script>
-	<script src="index.js?nocache=30"></script>
-	<script src="poboacions.js?nocache=30"></script>
+	<script src="index.js?nocache=31"></script>
+	<script src="poboacions.js?nocache=31"></script>
 	<title>Webcam Galicia</title>
 	<meta name="author" content="JM Vilariño" />
 	<link rel="icon" href="/ace/favicon.ico" type="image/x-icon">
@@ -34,6 +34,19 @@
 </head>
 
 <body>
+	<script>
+		const params = new URLSearchParams(window.location.search);
+		const width = params.get('b');
+		if (width) {
+			document.body.style.background = "none";
+			newcolor = "#" + params.get('b');
+			if (newcolor.length == 7 && isValidColor(newcolor)) {
+				document.body.style.backgroundColor = newcolor;
+			} else {
+				document.body.style.backgroundColor = "#fad7a0"; // Dark blue-gray
+			}
+		}
+	</script>
 
 	<table style="width:100%; border: none; border-collapse:collapse;" cellspacing="0" cellpadding="0">
 		<tr>
@@ -94,7 +107,7 @@
 			'https://4sdj5h9oej.execute-api.us-east-1.amazonaws.com/',
 			function (data) {
 				var response = jQuery.parseJSON(data);
-				document.getElementById("visitor_counter").innerHTML = response["visitCount"]+"&nbsp;&nbsp;";
+				document.getElementById("visitor_counter").innerHTML = response["visitCount"] + "&nbsp;&nbsp;";
 				document.getElementById("visitor_counter").style.font = "italic bold 16px arial,serif";
 			}
 		);

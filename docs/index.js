@@ -151,7 +151,7 @@ function showAlternative(videoid, alternative, alternativeurl) {
 
 	var ms = new Date().getTime();
 	const keyDiv = document.createElement('div');
-	width = getAncho();
+	var width = getAncho();
 	keyDiv.innerHTML = '<img  id="' + videoid + '-alternative" width="680px" style="width: ' + width + '; height: auto; max-width: 1300px;" src="' + alternativeurl + '?nocache=' + ms + '">';
 
 	var imageObj = document.getElementById(videoid + "-unavailable");

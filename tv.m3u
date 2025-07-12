@@ -117,7 +117,7 @@ https://5f71743aa95e4.streamlock.net:1936/Condavision/endirecto/playlist.m3u8
 #EXTINF:-1 tvg-id="CanalCosta.TV" tvg-logo="https://graph.facebook.com/canalcosta/picture?width=200&height=200" group-title="Andalucía" tvg-name="CanalCosta",CanalCosta
 https://5f71743aa95e4.streamlock.net:1936/CanalcostaTV/endirecto/playlist.m3u8
 #EXTINF:-1 tvg-id="InterAlmeria.TV" tvg-logo="https://graph.facebook.com/Interalmeriatv/picture?width=200&height=200" group-title="Andalucía" tvg-name="Interalmería TV",Interalmería TV
-https://tv.interalmeria.tv/directo/live.m3u8
+https://interalmeria.tv/directo/live.m3u8
 #EXTINF:-1 tvg-id="TuyaLaJanda.TV" tvg-logo="https://graph.facebook.com/tuyalajandatv/picture?width=200&height=200" group-title="Andalucía" tvg-name="Tuya La Janda TV",Tuya La Janda TV
 https://play.agenciastreaming.com:8081/tuyaespana/index.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/TVCentroAndalucia/picture?width=200&height=200" group-title="Andalucía" tvg-name="TV Centro Andalucía",TV Centro Andalucía
@@ -311,8 +311,6 @@ https://ingest2-video.streaming-pro.com/canalterrassa/stream/playlist.m3u8
 #EXTINF:-1 tvg-id="Xarxa_Canal_Taronja_Central.TV" tvg-logo="https://graph.facebook.com/taronja.cat/picture?width=200&height=200" group-title="Cataluña" tvg-name="Canal Taronja Central",Canal Taronja Central
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 CrKey/1.44.191160
 #EXTINF:-1 tvg-id="Xarxa_Televisio_Hospitalet.TV" tvg-logo="https://graph.facebook.com/lhdigital/picture?width=200&height=200" group-title="Cataluña" tvg-name="TV L'Hospitalet",TV L'Hospitalet
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 CrKey/1.44.191160
-#EXTINF:-1 tvg-id="Xarxa_TV_Bergueda.TV" tvg-logo="https://graph.facebook.com/televisiodelbergueda/picture?width=200&height=200" group-title="Cataluña" tvg-name="TV del Berguedà",TV del Berguedà
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 CrKey/1.44.191160
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/rtvelvendrell/picture?width=200&height=200" group-title="Cataluña" tvg-name="RTV El Vendrell",RTV El Vendrell
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 CrKey/1.44.191160
@@ -527,7 +525,7 @@ https://new-international-23-secure2.akamaized.net/index.m3u8
 #EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/1752299087402041344/eAHH3L02_200x200.jpg" group-title="Int. Europa" tvg-name="GCM Internacional",GCM Internacional
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=12128&live=1
 #EXTINF:-1 tvg-id="ATVHD.TV" tvg-logo="https://graph.facebook.com/rtva.andorra/picture?width=200&height=200" group-title="Int. Europa" tvg-name="ATV Andorra",ATV Andorra
-https://livesg.rtva.hiway.media/restreamer/rtva_client/gpu-c-c0-7/restreamer/outgest/d0fc8c3b-706a-48ff-904d-255339cd104e/manifest.m3u8
+https://livesg1.rtva.hiway.media/a53c4146-f16b-4a42-9dde-70ba70a8103f/manifest.m3u8
 #EXTINF:-1 tvg-id="CNNInt.TV" tvg-logo="https://graph.facebook.com/cnninternational/picture?width=320&height=320" group-title="Int. Europa" tvg-name="CNN Internacional",CNN Internacional
 https://d3696l48vwq25d.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-0g2918mubifjw/index.m3u8
 #EXTINF:-1 tvg-id="Bloom.TV" tvg-logo="https://pbs.twimg.com/profile_images/991792042094354432/DG1Ruupb_200x200.jpg" group-title="Int. Europa" tvg-name="Bloomberg Europe",Bloomberg Europe EN
@@ -571,7 +569,7 @@ https://d2hrvno5bw6tg2.cloudfront.net/smrtv-ch01/_definst_/smil:ch-01.smil/maste
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/N1Hrvatska/picture?width=200&height=200" group-title="Int. Europa" tvg-name="N1 Croacia",N1 Croacia
 https://best-str.umn.cdn.united.cloud/stream?stream=sp1400&sp=n1info&channel=n1hrv&u=n1info&p=n1Sh4redSecre7iNf0&player=m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/vizionplustv/picture?width=200&height=200" group-title="Int. Europa" tvg-name="VizionPlus Albania",VizionPlus Albania
-https://mfe01.tring.al/delta/105/out/u/rdghfhsfhfshs.m3u8
+https://tringliveviz.akamaized.net/delta/105/out/u/qwaszxerdfcvrtryuy.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/news24ukraine/picture?width=200&height=200" group-title="Int. Europa" tvg-name="Channel 24 Ucrania",Channel 24 Ucrania
 http://streamvideol1.luxnet.ua/news24/news24.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/kanalfreedom/picture?width=200&height=200" group-title="Int. Europa" tvg-name="UATV Ucrania",UATV Ucrania
@@ -844,20 +842,20 @@ https://cmc-ono.amagi.tv/hls/amagi_hls_data_cmcAAAAAA-cmc-ono/CDN/playlist.m3u8?
 https://panel.tvstream.cl:1936/8040/8040/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/MySpirittv/picture?width=200&height=200" group-title="Musicales" tvg-name="Spirit TV USA",Spirit TV USA EN
 https://cdnlive.myspirit.tv/LS-ATL-43240-2/index.m3u8
-#EXTINF:-1 tvg-id="EWTN.TV" tvg-logo="https://graph.facebook.com/ewtnespanol/picture?width=200&height=200" group-title="Religiosos" tvg-name="EWTN España",EWTN España
-https://cdn3.wowza.com/1/SmVrQmZCUXZhVDgz/b3J3MFJv/hls/live/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/1730156030795939840/NtRBSxdr_200x200.jpg" group-title="Religiosos" tvg-name="RTV Diocesana Toledo España",RTV Diocesana Toledo España
-https://live.emitstream.com/hls/5i3pxfuz4az356yu22ij/master.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/ecclesiacope/picture?width=200&height=200" group-title="Religiosos" tvg-name="Ecclesia COPE España",Ecclesia COPE España
 https://cope-religion-video.flumotion.com/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/1359486927406321664/WZXLfd2h_200x200.jpg" group-title="Religiosos" tvg-name="RTV Vida España",RTV Vida España
-https://vidartv2.todostreaming.es/live/radiovida-emisiontvhd.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/solidariatv/picture?width=200&height=200" group-title="Religiosos" tvg-name="Solidaria TV España",Solidaria TV España
 https://canadaremar2.todostreaming.es/live/solidariatv-webhd.m3u8
+#EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/1359486927406321664/WZXLfd2h_200x200.jpg" group-title="Religiosos" tvg-name="RTV Vida España",RTV Vida España
+https://vidartv2.todostreaming.es/live/radiovida-emisiontvhd.m3u8
+#EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/1730156030795939840/NtRBSxdr_200x200.jpg" group-title="Religiosos" tvg-name="RTV Diocesana Toledo España",RTV Diocesana Toledo España
+https://live.emitstream.com/hls/5i3pxfuz4az356yu22ij/master.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/TBNEspana/picture?width=200&height=200" group-title="Religiosos" tvg-name="TBN España",TBN España
 https://edge.xn--tbnespaa-j3a.es/LiveApp/streams/tbnlive.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/cetelmon.television/picture?width=200&height=200" group-title="Religiosos" tvg-name="Cetelmon TV España",Cetelmon TV España
 http://player.cetelmon.tv/protecteddfd43c2f3a8b41f3f28582bf8993aca6/992_high.m3u8
+#EXTINF:-1 tvg-id="EWTN.TV" tvg-logo="https://graph.facebook.com/ewtnespanol/picture?width=200&height=200" group-title="Religiosos" tvg-name="EWTN",EWTN
+https://cdn3.wowza.com/1/SmVrQmZCUXZhVDgz/b3J3MFJv/hls/live/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/cbnonline/picture?width=200&height=200" group-title="Religiosos" tvg-name="CBN USA",CBN USA
 https://bcovlive-a.akamaihd.net/r21fb8503a4a74d098b798f16922b2a36/us-east-1/734546207001/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/mariavision/picture?width=200&height=200" group-title="Religiosos" tvg-name="María Visión Mexico",María Visión Mexico

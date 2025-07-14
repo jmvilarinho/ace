@@ -6,11 +6,19 @@ function getPrevisionMunicipio(id, element) {
 	console.log('Get prevision municipio: ' + url)
 
 	fetch(proxyHost + url)
-		.then(response => response.json())
+		.then(async  response => {
+			const body =  await response.text();
+			//console.log('Response status: ' + body);
+			if ( body == "Internal Server Error"){
+				noPrevision(element, 0, 'Timeout obtendo previsión, inténtao máis tarde');
+				return false;
+			}
+			return JSON.parse(body);
+		})
 		.then(data => getPrevisionDatosMunicipio(data, element, id))
 		.catch(error => {
-			console.error('Error:', error);
-			noPrevision(element);
+			console.error('Error:',  error.message);
+			noPrevision(element,0,error.message);
 			return false;
 		});
 }

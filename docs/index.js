@@ -359,11 +359,19 @@ function getPrevision(id, element, idmareas = 0) {
 	console.log('Get prevision playa: ' + proxyHost + url);
 
 	fetch(proxyHost + url)
-		.then(response => response.json())
+		.then(async  response => {
+			const body =  await response.text();
+			//console.log('Response status: ' + body);
+			if ( body == "Internal Server Error"){
+				noPrevision(element, idmareas, 'Timeout obtendo previsión, inténtao máis tarde');
+				return false;
+			}
+			return JSON.parse(body);
+		})
 		.then(data => getPrevisionDatos(data, element, idmareas, id))
 		.catch(error => {
 			console.error('Error:', error);
-			noPrevision(element, idmareas, error);
+			noPrevision(element, idmareas, error.message);
 			return false;
 		});
 }

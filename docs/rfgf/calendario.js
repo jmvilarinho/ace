@@ -20,7 +20,7 @@ async function load_calendario(addHistory = true) {
 
 	calendario = getCookieArray('calendarioItems');
 	if (calendario.length <= 0) {
-		calendario = ["13810265", "10293316"];
+		calendario = calendario_default;
 	}
 	setCookie('calendarioItems', JSON.stringify(calendario), 365);
 	var arrayLength = calendario.length;

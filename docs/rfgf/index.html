@@ -32,12 +32,17 @@
       { id: 1779, name: 'Oroso' },
       { id: 1373, name: 'Abellá' },
     ]
-
+    favoritos_default = ["13810265", "10293316"];
+    calendario_default = ["13810265", "10293316"];
 
     equipos = [
     ]
     favoritos = [];
+    favoritos_default = [];
+    calendario = [];
+    calendario_default = [];
     setCookie('favoritosItems', JSON.stringify(favoritos), 365);
+    setCookie('calendarioItems', JSON.stringify(calendario), 365);
 
     // https://tutorialehtml.com/es/tabla-de-colores-html/
     // https://www.w3schools.com/colors/colors_picker.asp
@@ -57,6 +62,10 @@
   <script type="text/javascript" src="jquery-3.7.1.min.js"></script>
   <script type="text/javascript" src="jquery.base64.js"></script>
   <script type="text/javascript" src="utils.js?nocache=15"></script>
+  <script>
+    setCookie('favoritosItems', JSON.stringify(favoritos), 365);
+    setCookie('calendarioItems', JSON.stringify(calendario), 365);
+  </script>
   <script type="text/javascript" src="index.js?nocache=15"></script>
   <script type="text/javascript" src="acta.js?nocache=15"></script>
   <script type="text/javascript" src="portada.js?nocache=15"></script>

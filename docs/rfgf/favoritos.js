@@ -8,10 +8,10 @@ async function load_favoritos(addHistory = true) {
 
 	favoritos = getCookieArray('favoritosItems');
 	if (favoritos.length <= 0) {
-		favoritos = ["13810265", "10293316"];
+		favoritos = favoritos_default;
 	}
 	setCookie('favoritosItems', JSON.stringify(favoritos), 365);
-	var arrayLength = favoritos_default;
+	var arrayLength = favoritos.length;;
 
 	$('#results').html('');
 	var arr = [];

@@ -47,7 +47,7 @@ function update_vista(url = '') {
 				load_clasificacion(cod_grupo, cod_equipo, cod_competicion, false);
 				break;
 			case 'resultados':
-				load_resultados(cod_grupo, cod_equipo, '',cod_competicion, false);
+				load_resultados(cod_grupo, cod_equipo, '', cod_competicion, false);
 				break;
 			case 'goleadores':
 				load_goleadores(cod_competicion, cod_grupo, cod_equipo, false);
@@ -68,7 +68,8 @@ function update_vista(url = '') {
 				load_favoritos(false);
 		}
 	} else {
-		load_favoritos(false);
+		//load_favoritos(false);
+		load_calendario(false);
 	}
 
 }
@@ -296,10 +297,10 @@ function getClubName(cod_club, defaultName) {
 function getEquipoTV(cod_club, defaultName) {
 	var arrayLength = equipos.length;
 	for (var i = 0; i < arrayLength; i++) {
-		if (equipos[i].id == cod_club &&  equipos[i].tv != undefined)
+		if (equipos[i].id == cod_club && equipos[i].tv != undefined)
 			return equipos[i].tv;
 	}
-	if (typeof (defaultName) !== "undefined" && defaultName !== null )
+	if (typeof (defaultName) !== "undefined" && defaultName !== null)
 		return defaultName;
 	else
 		return 'undef';
@@ -412,13 +413,13 @@ function show_error(data) {
 	$('#other_msg').html('');
 	try {
 		var msg = '<small>'
-		if ( 'src_origin' in data['data']) {
+		if ('src_origin' in data['data']) {
 			msg += data['data']['src_origin'];
 			if ('src_date' in data['data']) {
 				msg += ', ' + data['data']['src_date'];
 			}
 		}
-		if ( 'source' in data) {
+		if ('source' in data) {
 			msg += ' (' + data['source'] + ')';
 		}
 		msg += '</small>';

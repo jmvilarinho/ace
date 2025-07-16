@@ -25,8 +25,6 @@
       { id: 172, name: 'Victoria Infantil', color: '#247475', duracion_min: 90 },
       { id: 11292338, name: 'Ural Juvenil B', color: '#32288a', duracion_min: 95 },
       { id: 366543, name: 'Abellá Senior Fem', color: '#ff6600', duracion_min: 105 },
-
-
     ]
     clubs = [
       { id: 5240062, name: 'Jogafan FS' },
@@ -34,6 +32,13 @@
       { id: 1779, name: 'Oroso' },
       { id: 1373, name: 'Abellá' },
     ]
+
+
+    equipos = [
+      { id: 13810265, name: 'Jogafan Juvenil', color: '#e53734', duracion_min: 90 },
+      { id: 10293316, name: 'Jogafan Infantil', color: '#e2211d', duracion_min: 50 }
+    ]
+
     // https://tutorialehtml.com/es/tabla-de-colores-html/
     // https://www.w3schools.com/colors/colors_picker.asp
 
@@ -119,15 +124,15 @@
   <p id="copyright" class="copyright">&copy; 2024</p>
 </footer>
 
-	<script>
-		$.post(
-			'https://4sdj5h9oej.execute-api.us-east-1.amazonaws.com/',
-			function (data) {
-				var response = jQuery.parseJSON(data);
-				document.getElementById("visitor_counter").innerHTML = response["visitCount"]+"&nbsp;&nbsp;";
-				document.getElementById("visitor_counter").style.font = "italic bold 16px arial,serif";
-			}
-		);
-	</script>
+<script>
+  $.post(
+    'https://4sdj5h9oej.execute-api.us-east-1.amazonaws.com/',
+    function (data) {
+      var response = jQuery.parseJSON(data);
+      document.getElementById("visitor_counter").innerHTML = response["visitCount"] + "&nbsp;&nbsp;";
+      document.getElementById("visitor_counter").style.font = "italic bold 16px arial,serif";
+    }
+  );
+</script>
 
 </html>

@@ -105,7 +105,7 @@ https://s.emisoras.tv:8081/chiclana/index.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/canal45television/picture?width=200&height=200" group-title="Andalucía" tvg-name="Canal 45 TV",Canal 45 TV
 https://nlb1-live.emitstream.com/hls/625csn5et2iszm9oze65/master.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/PTVMalaga/picture?width=200&height=200" group-title="Andalucía" tvg-name="PTV Málaga",PTV Málaga
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 CrKey/1.44.191160
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/101TVSevilla/picture?width=200&height=200" group-title="Andalucía" tvg-name="101TV Sevilla",101TV Sevilla
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 CrKey/1.44.191160
 #EXTINF:-1 tvg-id="CostaNO.TV" tvg-logo="https://graph.facebook.com/Costanoroestetv/picture?width=200&height=200" group-title="Andalucía" tvg-name="Costa Noroeste TV",Costa Noroeste TV
@@ -141,7 +141,7 @@ https://broadcast.radioponiente.org:9443/live/smil:almeria24h.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/cadenajovendigital/picture?width=200&height=200" group-title="Andalucía" tvg-name="Cadena Joven TV",Cadena Joven TV
 https://streamtv2.elitecomunicacion.cloud:3738/live/cadenajoventvlive.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/tvlinares/picture?width=200&height=200" group-title="Andalucía" tvg-name="PTV Linares",PTV Linares
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 CrKey/1.44.191160
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-id="Torrevision.TV" tvg-logo="https://graph.facebook.com/torremolinostv/picture?width=200&height=200" group-title="Andalucía" tvg-name="Torrevisión",Torrevisión
 https://cdnlivevlc.codev8.net/canaltorremolinoslive/smil:channel1.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Telemotril.TV" tvg-logo="https://graph.facebook.com/telemotriltv/picture?width=200&height=200" group-title="Andalucía" tvg-name="Telemotril",Telemotril
@@ -169,11 +169,11 @@ https://canalmalaga-tv-live.flumotion.com/playlist.m3u8
 #EXTINF:-1 tvg-id="FuengirolaTV.TV" tvg-logo="https://graph.facebook.com/fuengirolatvoficial/picture?width=200&height=200" group-title="Andalucía" tvg-name="Fuengirola TV",Fuengirola TV
 https://streaming004.gestec-video.com/hls/FTV.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/PTVCOR/picture?width=200&height=200" group-title="Andalucía" tvg-name="PTV Córdoba",PTV Córdoba
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 CrKey/1.44.191160
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/SevillaPTV/picture?width=200&height=200" group-title="Andalucía" tvg-name="PTV Sevilla",PTV Sevilla
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 CrKey/1.44.191160
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/PTVGranada/picture?width=200&height=200" group-title="Andalucía" tvg-name="PTV Granada",PTV Granada
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 CrKey/1.44.191160
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-id="DiezTV.TV" tvg-logo="https://graph.facebook.com/dieztv/picture?width=200&height=200" group-title="Andalucía" tvg-name="Diez TV Andújar",Diez TV Andújar
 https://streaming.cloud.innovasur.es/mmj_andujar/index.m3u8
 #EXTINF:-1 tvg-id="DiezTV.TV" tvg-logo="https://graph.facebook.com/dieztv/picture?width=200&height=200" group-title="Andalucía" tvg-name="Diez TV Las Villas",Diez TV Las Villas
@@ -189,7 +189,7 @@ https://5924d3ad0efcf.streamlock.net/cordoba/cordobalive/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_nKBwD3C_DqADS-cD9choTd0NDkCsF_EcNtXWmFd7XDQw=s200" group-title="Andalucía" tvg-name="Cancionero TV",Cancionero TV
 http://37.130.151.51/hls1/cancionero.m3u8
 #EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/1612490465005142019/AU1R7Q6q_200x200.jpg" group-title="Andalucía" tvg-name="PTV Almería",PTV Almería
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 CrKey/1.44.191160
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/ondacadiz/picture?width=200&height=200" group-title="Andalucía" tvg-name="Onda Cádiz 24h",Onda Cádiz 24h
 https://ondacadiztv.es:30443/octv/24h/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/parlamentodeandalucia.es/picture?width=200&height=200" group-title="Andalucía" tvg-name="Parlamento de Andalucía",Parlamento de Andalucía
@@ -249,7 +249,7 @@ https://secure3.todostreaming.es/live/imastv-livestream.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/AlcarriaTV/picture?width=200&height=200" group-title="Castilla-La Mancha" tvg-name="Alcarria TV",Alcarria TV
 https://cls.alcarria.tv/live/alcarriatv-livestream.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/canal4villarrobledo/picture?width=200&height=200" group-title="Castilla-La Mancha" tvg-name="Canal 4 Mancha Centro",Canal 4 Mancha Centro
-https://5924d3ad0efcf.streamlock.net/canal4/canal4live/playlist.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 CrKey/1.44.191160
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/Teletoledo/picture?width=200&height=200" group-title="Castilla-La Mancha" tvg-name="TeleToledo",TeleToledo
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=12688&live=1
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/canal2000/picture?width=200&height=200" group-title="Castilla-La Mancha" tvg-name="Canal 2000",Canal 2000
@@ -696,16 +696,6 @@ https://www.rthk.hk/feeds/dtt/rthktv31_https.m3u8
 https://live5.tdm.com.mo/ch2/ch2.live/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/Medi1TV/picture?width=200&height=200" group-title="Int. África" tvg-name="Medi1 TV Marruecos",Medi1 TV Marruecos
 https://streaming1.medi1tv.com/live/smil:medi1tv.smil/playlist.m3u8?DVR
-#EXTINF:-1 tvg-logo="https://graph.facebook.com/AlAoulaTVMaroc/picture?width=200&height=200" group-title="Int. África" tvg-name="SNRT Al Aoula Marruecos",SNRT Al Aoula Marruecos
-#EXTVLCOPT:http-referrer=https://snrtlive.ma/
-#EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_lmtJVOIgmbIZIBq75f-RE14vGPXH6I5Ldx68nUeGioig=s200" group-title="Int. África" tvg-name="SNRT Laayoune El Aaiún Marruecos",SNRT Laayoune El Aaiún Marruecos
-#EXTVLCOPT:http-referrer=https://snrtlive.ma/
-#EXTINF:-1 tvg-logo="https://graph.facebook.com/ArryadiaTVMaroc/picture?width=200&height=200" group-title="Int. África" tvg-name="SNRT Arryadia Marruecos",SNRT Arryadia Marruecos
-#EXTVLCOPT:http-referrer=https://snrtlive.ma/
-#EXTINF:-1 tvg-logo="https://yt3.ggpht.com/Sc4Au03kwE6G7HTqUswWbB11CofXBg0Fk-ztHkpBE-VNjsGNOSFrgEwB3eIWBJ8Vhs4goP1z=s200" group-title="Int. África" tvg-name="SNRT Athaqafia Marruecos",SNRT Athaqafia Marruecos
-#EXTVLCOPT:http-referrer=https://snrtlive.ma/
-#EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/1387335238947414017/CVzIRZfG_200x200.png" group-title="Int. África" tvg-name="SNRT Al Maghribia Marruecos",SNRT Al Maghribia Marruecos
-#EXTVLCOPT:http-referrer=https://snrtlive.ma/
 #EXTINF:-1 tvg-logo="https://www.tvgelive.gq/images/logo-dark.png" group-title="Int. África" tvg-name="TVGE 1 Guinea Ecuatorial",TVGE 1 Guinea Ecuatorial
 https://rrsatrtmp.tulix.tv/tvge1/tvge1multi.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/televisionsaharaui/picture?width=200&height=200" group-title="Int. África" tvg-name="RASD TV",RASD TV

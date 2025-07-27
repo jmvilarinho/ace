@@ -272,8 +272,8 @@ https://directes-tv-cat.3catdirectes.cat/live-content/oca1-hls/master.m3u8
 https://directes-tv-cat.3catdirectes.cat/live-content/oca2-hls/master.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/som3Cat/picture?width=200&height=200" group-title="Cataluña" tvg-name="3CAT Exclusiu 3",3CAT Exclusiu 3 GEO CAT
 https://directes-tv-cat.3catdirectes.cat/live-content/oca3-hls/master.m3u8
-#EXTINF:-1 tvg-logo="https://graph.facebook.com/som3Cat/picture?width=200&height=200" group-title="Cataluña" tvg-name="3CAT Joc de Cartes",3CAT Joc de Cartes
-https://fast-tailor.3catdirectes.cat/v1/channel/ccma-channel1/hls.m3u8
+#EXTINF:-1 tvg-logo="https://graph.facebook.com/som3Cat/picture?width=200&height=200" group-title="Cataluña" tvg-name="3CAT El búnquer",3CAT El búnquer
+https://fast-tailor.3catdirectes.cat/v1/channel/bunquer/hls.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/som3Cat/picture?width=200&height=200" group-title="Cataluña" tvg-name="3CAT Plats bruts",3CAT Plats bruts
 https://fast-tailor.3catdirectes.cat/v1/channel/ccma-channel2/hls.m3u8
 #EXTINF:-1 tvg-id="La1_CAT.TV" tvg-logo="https://pbs.twimg.com/profile_images/1921959108862709760/fe5Tqhlh_200x200.jpg" group-title="Cataluña" tvg-name="La 1 Catalunya",La 1 Catalunya
@@ -411,7 +411,7 @@ https://cloud2.streaminglivehd.com:1936/universfaller/universfaller/playlist.m3u
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/radiobunyol/picture?width=200&height=200" group-title="C. Valenciana" tvg-name="Radio Buñol TV",Radio Buñol TV
 https://castor.streamthatvideo.co:8081/radiobunyol/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://yt3.ggpht.com/IYhYKEgINXNgQGLhReOrma2Pcl151M7Ray9SYDWissgAAZQJUhrRPEe7tLBT9XlsjwChuTNW=s200" group-title="C. Valenciana" tvg-name="TV Almassora",TV Almassora
-https://rumble.com/live-hls-dvr/6r066n/playlist.m3u8
+https://live.fullsport.es/hls/tvalmassora.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/Punt3Television/picture?width=200&height=200" group-title="C. Valenciana" tvg-name="Punt 3 Vall Uixó",Punt 3 Vall Uixó
 https://bit.controlstreams.com:5443/LiveApp/streams/punt3.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/Onda15Radio/picture?width=200&height=200" group-title="C. Valenciana" tvg-name="Onda 15 TV",Onda 15 TV
@@ -446,6 +446,8 @@ https://crtvg-xabarinr3-schlive.flumotion.cloud/crtvglive/smil:channel8PRG.smil/
 https://crtvg-events1.flumotion.cloud/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/CRTVG/picture?width=200&height=200" group-title="Galicia" tvg-name="TVG Mira Radio Galega",TVG Mira Radio Galega
 https://crtvg-mirarg-schlive.flumotion.cloud/crtvglive/smil:channel1PRG.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://graph.facebook.com/CRTVG/picture?width=200&height=200" group-title="Galicia" tvg-name="Corenta anos da TVG",Corenta anos da TVG
+https://crtvg-40-anos-crtvg-schlive.flumotion.cloud/crtvglive/smil:channel9PRG.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/tvferrol/picture?width=200&height=200" group-title="Galicia" tvg-name="TV Ferrol",TV Ferrol
 https://directo.tvferrol.es/tv.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/televigo/picture?width=200&height=200" group-title="Galicia" tvg-name="TeleVigo",TeleVigo
@@ -656,8 +658,6 @@ https://ssh101stream.ssh101.com/akamaissh101/ssh101/patscz/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://teveo.cu/live/video/AKDdWvMTYzfsfnNJ/embed?auto=true
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/ABCTVpy/picture?width=200&height=200" group-title="Int. América" tvg-name="ABC TV Paraguay",ABC TV Paraguay
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 CrKey/1.44.191160
-#EXTINF:-1 tvg-logo="https://graph.facebook.com/trecepy/picture?width=200&height=200" group-title="Int. América" tvg-name="Trece Paraguay",Trece Paraguay
-https://rds3gen.desdeparaguay.net/trecetv/trecetv_alta/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/WTVNicaraguacanal20/picture?width=200&height=200" group-title="Int. América" tvg-name="WTV Nicaragua",WTV Nicaragua
 https://cloudvideo.servers10.com:8081/8130/index.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/MultimediosCR/picture?width=200&height=200" group-title="Int. América" tvg-name="TeleDiario Costa Rica",TeleDiario Costa Rica
@@ -1344,6 +1344,8 @@ https://directes-tv-cat.3catdirectes.cat/live-origin/tvi-hls/master.m3u8
 https://limited09.todostreaming.es/live/tarson-livestream.m3u8
 #EXTINF:-1 tvg-id="TVCentroAndalucia.es",TVCentro Andalucía (720p) [Not 24/7]
 https://5fa5de1a545ae.streamlock.net/8052/8052/playlist.m3u8
+#EXTINF:-1 tvg-id="TVEInternacionalAmerica.es@SD",TVE Internacional America (720p)
+http://190.11.225.124:5000/live/tve_hd/playlist.m3u8
 #EXTINF:-1 tvg-id="TelevisiondeGalicia.es",TVG (720p)
 https://europa-crtvg.flumotion.com/crtvg/europa_high/playlist.m3u8
 #EXTINF:-1 tvg-id="TVGCativos.es",TVG Cativ@s (720p)

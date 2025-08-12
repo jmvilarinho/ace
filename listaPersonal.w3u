@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 12/08/2025 16:00:27",
+    "author": "Vila - 12/08/2025 20:01:01",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -36,7 +36,7 @@
                 },
                 {
                     "name": "EUROSPORT 1 FHD --> NEW ERA VI",
-                    "url": "acestream://0ac6524dd3c35ae5fc76e0cfa4faeed4d6ef6df4",
+                    "url": "acestream://704e51760a644bc90aa22269bf84139947a0414a",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-es-eurosport-1-615.png",
                     "embed": "false"
                 },
@@ -269,8 +269,20 @@
                     "embed": "false"
                 },
                 {
+                    "name": "MOVISTAR PLUS FHD --> NEW ERA - 0f70",
+                    "url": "acestream://8c67cdb5ba81976662c3a67984a9545d9cfb0f70",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-plus-1475.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "MOVISTAR PLUS FHD --> NEW ERA - 933b",
+                    "url": "acestream://b6ffbbc72a5b6b579faf79ebac229af7a25b933b",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-plus-1475.png",
+                    "embed": "false"
+                },
+                {
                     "name": "MOVISTAR PLUS FHD --> NEW ERA VI",
-                    "url": "acestream://38287ff99db3590da7a2e077da1777d150167577",
+                    "url": "acestream://5d9a26e0a5f3e5f2ae027bd05635ab9a4fd4b51a",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-plus-1475.png",
                     "embed": "false"
                 },
@@ -313,6 +325,12 @@
                 {
                     "name": "NBA TV --> NEW ERA",
                     "url": "acestream://7acefb808a6c67d95e977b452d53070947bd072b",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-us-nba-tv.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "NBA TV --> NEW ERA - 8073",
+                    "url": "acestream://b0f64a40f333ef5cc02c2b6d4a8c3f4b73dd8073",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-us-nba-tv.png",
                     "embed": "false"
                 }
@@ -372,13 +390,13 @@
                 },
                 {
                     "name": "DAZN LA LIGA 1 FHD --> NEW ERA VI",
-                    "url": "acestream://4fa168d5401e4b2673100b237a976961b52cf621",
+                    "url": "acestream://f8d5e39a49b9da0215bbd3d9efb8fb3d06b76892",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-0.png",
                     "embed": "false"
                 },
                 {
-                    "name": "DAZN LA LIGA 1 FHD --> NEW ERA VI - 23de",
-                    "url": "acestream://96a8a772f150d9e57ca71a9765d2278c0c5423de",
+                    "name": "DAZN LA LIGA 1 FHD --> NEW ERA VI - 14ec",
+                    "url": "acestream://520950d296c952e1864a08e15af9f89f1ab514ec",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-0.png",
                     "embed": "false"
                 },
@@ -395,8 +413,14 @@
                     "embed": "false"
                 },
                 {
+                    "name": "DAZN LA LIGA 2 FHD --> NEW ERA",
+                    "url": "acestream://635b61c1f240449163260cd914d10d886a54fee3",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-0.png",
+                    "embed": "false"
+                },
+                {
                     "name": "DAZN LA LIGA 2 FHD --> NEW ERA VI",
-                    "url": "acestream://5b41b5e0f7fb0c2c420158a83a12e8ceed4a7420",
+                    "url": "acestream://ae16a8f004b1287ee1f53263ab265f72bba0daf5",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-0.png",
                     "embed": "false"
                 },
@@ -467,12 +491,6 @@
                     "embed": "false"
                 },
                 {
-                    "name": "DAZN 1 BAR HD --> NEW ERA",
-                    "url": "acestream://97d663cba59ddd8aca032267169019b544dcb8f7",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-1-es-2510.png",
-                    "embed": "false"
-                },
-                {
                     "name": "DAZN 1 FHD --> NEW ERA",
                     "url": "acestream://6538b79ce0da657d8455d1da6a5f342398899a0e",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-1-es-2510.png",
@@ -498,7 +516,7 @@
                 },
                 {
                     "name": "DAZN 1 FHD --> NEW ERA VI",
-                    "url": "acestream://17c5ec4fd10a186893f9f3d545dfcff95034f972",
+                    "url": "acestream://ee4dc45720d3ec283f61189fbfc120c91d5141bf",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-1-es-2510.png",
                     "embed": "false"
                 },
@@ -533,6 +551,12 @@
                     "embed": "false"
                 },
                 {
+                    "name": "DAZN 2 FHD --> NEW ERA - a97d",
+                    "url": "acestream://fb2dd566824658eeab27aae19a01c09430f1a97d",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-2-es-2511.png",
+                    "embed": "false"
+                },
+                {
                     "name": "DAZN 2 FHD --> NEW ERA - e6d2",
                     "url": "acestream://0f5402f75107112d59d924a5f381cfed33dbe6d2",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-2-es-2511.png",
@@ -551,14 +575,32 @@
                     "embed": "false"
                 },
                 {
+                    "name": "DAZN 3 FHD --> NEW ERA - 3b28",
+                    "url": "acestream://8a86cd6152154a25ad4b76523160552a40313b28",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-3-es-2524.png",
+                    "embed": "false"
+                },
+                {
                     "name": "DAZN 3 FHD --> NEW ERA - a4ea",
                     "url": "acestream://3785f04aa15a5e6ef1484f0bea7f4664f2c1a4ea",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-3-es-2524.png",
                     "embed": "false"
                 },
                 {
+                    "name": "DAZN 4 --> NEW LOOP",
+                    "url": "acestream://7e90956539f4e1318a63f3960e4f75c7c7c5a3b8",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-4-es-2525.png",
+                    "embed": "false"
+                },
+                {
                     "name": "DAZN 4 FHD --> NEW ERA",
                     "url": "acestream://7e27e46c25d4308d16098d9dc67fcd8736e8c1f0",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-4-es-2525.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "DAZN 4 FHD --> NEW ERA - 0af5",
+                    "url": "acestream://c015d37d1ead8155b1e7b97e743a1fe9850f0af5",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-4-es-2525.png",
                     "embed": "false"
                 },
@@ -589,12 +631,6 @@
                 {
                     "name": "DAZN F1 1080 (Fórmula 1) ELCANO",
                     "url": "acestream://bcf9dc38f92e90a71b87bd54b3bac91b76d09a69",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-formula-1-366.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "DAZN F1 4K --> NEW ERA",
-                    "url": "acestream://7e1523ccfaac00800e67bd0b97c428810104b2b8",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-formula-1-366.png",
                     "embed": "false"
                 },
@@ -635,6 +671,12 @@
                     "embed": "false"
                 },
                 {
+                    "name": "DAZN F1 FHD --> NEW ERA - 7711",
+                    "url": "acestream://d5cf2dfa4fb4165ce58bf9db815088c28fec7711",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-formula-1-366.png",
+                    "embed": "false"
+                },
+                {
                     "name": "DAZN F1 FHD --> NEW ERA - a553",
                     "url": "acestream://c9c18ae7a9dafba1caae5beb22060f9c92bba553",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-formula-1-366.png",
@@ -647,6 +689,12 @@
                     "embed": "false"
                 },
                 {
+                    "name": "DAZN F1 FHD --> NEW ERA - b8cc",
+                    "url": "acestream://82b4f249788f93b8f9ce968803662d7cd4f1b8cc",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-formula-1-366.png",
+                    "embed": "false"
+                },
+                {
                     "name": "DAZN F1 FHD --> NEW ERA II",
                     "url": "acestream://d8068894248c1f21eea31e538917276a8c49ec06",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-formula-1-366.png",
@@ -654,13 +702,13 @@
                 },
                 {
                     "name": "DAZN F1 FHD --> NEW ERA VI",
-                    "url": "acestream://8b55a528c5cf9f1acd11d942472bdd60926db8ae",
+                    "url": "acestream://8c1155cdfae76eb582290c04904c98da066657c9",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-formula-1-366.png",
                     "embed": "false"
                 },
                 {
-                    "name": "DAZN F1 FHD --> NEW ERA VI - a924",
-                    "url": "acestream://eb3e12408fb7463b4fafe354380f2adf483ea924",
+                    "name": "DAZN F1 FHD --> NEW ERA VI - 0cd0",
+                    "url": "acestream://ba6e1bdc8e03da60ff572557645eb04370af0cd0",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-formula-1-366.png",
                     "embed": "false"
                 },
@@ -762,13 +810,13 @@
                 },
                 {
                     "name": "M+ LALIGA FHD --> NEW ERA VI",
-                    "url": "acestream://7e2f5e27994a90700e6c5b938d5face45577cc45",
+                    "url": "acestream://07f2b92762cfff99bba785c2f5260c7934ca6034",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-0.png",
                     "embed": "false"
                 },
                 {
-                    "name": "M+ LALIGA FHD --> NEW ERA VI - 46b0",
-                    "url": "acestream://10e451cb5bef2e34bf52cc48de811893528146b0",
+                    "name": "M+ LALIGA FHD --> NEW ERA VI - d85c",
+                    "url": "acestream://c32a2cf4631bad4bc40a15ee0f245ed30ad4d85c",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-0.png",
                     "embed": "false"
                 },
@@ -863,6 +911,12 @@
             "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
             "stations": [
                 {
+                    "name": "24 HORAS HD --> NEW ERA",
+                    "url": "acestream://cc5ed178702605513cd18b4899c4be954d306cca",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
                     "name": "2b51710cee513e8939785fa3e7980f32d4e0415f",
                     "url": "acestream://9db029dff6a9c637d1f670e78dbc1a479b9b406e",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
@@ -913,6 +967,18 @@
                 {
                     "name": "ANTENA 3 FHD --> NEW ERA",
                     "url": "acestream://390b5b0fc49a811c5c5ebd6d195b08a48b1e8496",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "ANTENA 3 FHD --> NEW ERA - 40e9",
+                    "url": "acestream://f9d2a6d5da8d1f2423a0b6ed0047636a728040e9",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "ARAGON TV HD --> NEW ERA",
+                    "url": "acestream://ba4597903f099695e7d6bcc5938f91cb0798006b",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -1031,20 +1097,20 @@
                     "embed": "false"
                 },
                 {
-                    "name": "CANAL COCINA FHD --> NEW ERA VI",
-                    "url": "acestream://db81615f1b2eebaf584edc252ddd73883123fbb3",
+                    "name": "CANAL COCINA FHD --> NEW ERA",
+                    "url": "acestream://96f092e1fa99062f6da14cae230b877ad3ed849b",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "CANAL EVENTOS UFC - FOXSPORTS PREMIUNMX --> NEW ERA",
+                    "url": "acestream://04d8f9a91f551adb9cccbcdd478cffa5b24a6772",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
                 {
                     "name": "CANAL MOTOR --> NEW LOOP",
                     "url": "acestream://35e17cc84abc5e393b5acd688536a9681105f2d5",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "CAZA Y PESCA FHD --> NEW ERA VI",
-                    "url": "acestream://6f28b1b9eb9f4047a6179b300e65b03c8316e10f",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -1085,8 +1151,8 @@
                     "embed": "false"
                 },
                 {
-                    "name": "DECASA FHD --> NEW ERA VI",
-                    "url": "acestream://4869e4c131cb3478cc375944c7cc68d1bb8e9dc4",
+                    "name": "CUATRO FHD --> NEW ERA - 4ef0",
+                    "url": "acestream://8d66979e705a8b532b9243bbc0862c0f1c734ef0",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -1151,14 +1217,44 @@
                     "embed": "false"
                 },
                 {
+                    "name": "ESPORT 3 FHD --> NEW ERA - 7425",
+                    "url": "acestream://ca20f93ea5d9c15744e48a21b52598b9fce87425",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
                     "name": "FOX FHD --> NEW ERA II",
                     "url": "acestream://7a9b22bee11d26b3f5bbd52e0230e19706f593eb",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
                 {
+                    "name": "FOX SPORT MX --> NEW ERA",
+                    "url": "acestream://a0464d3642e054f6122e7c309017d1e8d23f4da9",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
                     "name": "GOL PLAY FHD --> NEW ERA",
                     "url": "acestream://b2d560741c006fc5e4a42412bb52dbd25a6a4a3a",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "GOL PLAY FHD --> NEW ERA - 0612",
+                    "url": "acestream://9fb99c40a2c45d5c5342b30626eb56140f980612",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "GOL PLAY FHD --> NEW ERA - 4f93",
+                    "url": "acestream://73094658f0a3ed523c0e188de67a7a690c0d4f93",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "GOL PLAY FHD --> NEW ERA - a30b",
+                    "url": "acestream://472d1f3a658a51bcab0ffa9138e1e28a05fba30b",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -1218,7 +1314,7 @@
                 },
                 {
                     "name": "HYPERMOTION FHD --> NEW ERA VI",
-                    "url": "acestream://762b4a6ed2e70441b0374a64f25d8d6571b9fd1f",
+                    "url": "acestream://f15f997f457e49ad9697e65cf2d78db26ee875b9",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -1235,8 +1331,8 @@
                     "embed": "false"
                 },
                 {
-                    "name": "LA 1 FHD --> NEW ERA VI",
-                    "url": "acestream://14d3d8570a11cbc27ba2c94499df6014b462cb2d",
+                    "name": "LA 1 FHD --> NEW ERA - 740c",
+                    "url": "acestream://dad5e0e0825cb3e410008f1c4252387b868e740c",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -1247,8 +1343,20 @@
                     "embed": "false"
                 },
                 {
+                    "name": "LA 2 FHD --> NEW ERA - c2ed",
+                    "url": "acestream://9934906503661142f97a044ae1509a294057c2ed",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
                     "name": "LA SEXTA FHD --> NEW ERA",
                     "url": "acestream://1c6486082949172d1ffd318db8fb965dd5af7e31",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "LA SEXTA FHD --> NEW ERA - 457f",
+                    "url": "acestream://44828a7580cd99fcb36245c327889c47f34b457f",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -1308,13 +1416,13 @@
                 },
                 {
                     "name": "LIGA DE CAMPEONES FHD --> NEW ERA VI",
-                    "url": "acestream://6a6bcf5aa7c9481a74222b89244697b4078d9fda",
+                    "url": "acestream://680187938f9305cce3ae240298f10e8695bf77c2",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
                 {
-                    "name": "LIGA DE CAMPEONES FHD --> NEW ERA VI - 64a2",
-                    "url": "acestream://e84ee527e76e12507449b6c92bbeb6b8f01664a2",
+                    "name": "LIGA DE CAMPEONES FHD --> NEW ERA VI - 01d6",
+                    "url": "acestream://5c15c639207a080183b12fa63282b409c07401d6",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -1374,13 +1482,13 @@
                 },
                 {
                     "name": "MOVISTAR ACCION FHD --> NEW ERA VI",
-                    "url": "acestream://93b2f5ede5cf2fa0cdb50419258c4f651aabfc42",
+                    "url": "acestream://b125325f52e057b8e5ea17a8b60d512d13d44e53",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
                 {
                     "name": "MOVISTAR CINE ESPAÑOL FHD --> NEW ERA VI",
-                    "url": "acestream://168ad4a958aa6daa26adeee9700ed0312618bd07",
+                    "url": "acestream://e47cdeba9d919d6a9b4fa3c72c8094178985f668",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -1392,7 +1500,7 @@
                 },
                 {
                     "name": "MOVISTAR CLASICOS FHD --> NEW ERA VI",
-                    "url": "acestream://095134586cd06e1488139842f1183b50b75f5fd1",
+                    "url": "acestream://f9d431a6839e7f9964a0884dc1f18d298d990f39",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -1404,7 +1512,7 @@
                 },
                 {
                     "name": "MOVISTAR COMEDIA FHD --> NEW ERA VI",
-                    "url": "acestream://124aa6d58fd72a763ed0349c874551bd2504798f",
+                    "url": "acestream://90a3ad526f67f987f662eaf7d52e88004c796914",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -1434,13 +1542,31 @@
                 },
                 {
                     "name": "MOVISTAR DEPORTES 2 FHD --> NEW ERA VI",
-                    "url": "acestream://9f03eb300b630a8e88d6c22728696ca4e96859ff",
+                    "url": "acestream://438991226c3bc6a06e7bfda9bea9f769957dc366",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Movistar Deportes 3 --> NEW ERA VI",
+                    "url": "acestream://d5271a967767f761c8812c4b6195dd40f20126f7",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
                 {
                     "name": "MOVISTAR DEPORTES 3 FHD --> NEW ERA",
                     "url": "acestream://753d4b1f7c4ef43238b5cf23b05572b550a44eee",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "MOVISTAR DEPORTES 3 FHD --> NEW ERA - c639",
+                    "url": "acestream://81e100e3fee4def126eb37280327cf43ce48c639",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Movistar Deportes 4 --> NEW ERA VI",
+                    "url": "acestream://ebf3f251c1e119aefc6a1efc95c9b5d1909249e2",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -1457,6 +1583,18 @@
                     "embed": "false"
                 },
                 {
+                    "name": "Movistar Deportes 5 --> NEW ERA VI",
+                    "url": "acestream://0b708083541a46dc15216c8003d7bcf39c458b2a",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "MOVISTAR DEPORTES 5 FHD --> NEW ERA",
+                    "url": "acestream://2d19e39c92f7d8ce90b271d8aaf6f42e733eedc2",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
                     "name": "MOVISTAR DEPORTES 5 HD --> NEW ERA",
                     "url": "acestream://f6961e0dbf9b6ede4f5be93b72dc15533b4063d4",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
@@ -1469,6 +1607,18 @@
                     "embed": "false"
                 },
                 {
+                    "name": "MOVISTAR DEPORTES 6 FHD --> NEW ERA",
+                    "url": "acestream://e4124b2143ed75e5ce902bed61be08cc5e5c3c03",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "MOVISTAR DEPORTES 6 FHD --> NEW ERA - c28a",
+                    "url": "acestream://190a81938c2ddc6fe97758271f8c48f4db31c28a",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
                     "name": "MOVISTAR DEPORTES 7 --> ELCANO",
                     "url": "acestream://070f82d6443a52962d6a2ed9954c979b29404932",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
@@ -1477,6 +1627,18 @@
                 {
                     "name": "MOVISTAR DEPORTES FHD --> NEW ERA",
                     "url": "acestream://ef9dcc4eaac36a0f608b52a31f8ab237859e071a",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "MOVISTAR DEPORTES FHD --> NEW ERA - 0415",
+                    "url": "acestream://9099f519dd9b6b6f74f105477ff545829a110415",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "MOVISTAR DEPORTES FHD --> NEW ERA - 355d",
+                    "url": "acestream://332d8fdeb9c51385230b8c9448e047ccc4a6355d",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -1500,7 +1662,7 @@
                 },
                 {
                     "name": "MOVISTAR DEPORTES FHD --> NEW ERA VI",
-                    "url": "acestream://465cb8c0ce3f72be4ed114628dcd5c2ed6e3293c",
+                    "url": "acestream://751b9cb03d188ce70e6aac22c1bfb16a5d0b2237",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -1512,13 +1674,13 @@
                 },
                 {
                     "name": "MOVISTAR DOCUMENTALES FHD --> NEW ERA VI",
-                    "url": "acestream://0ba40acc350bc1493cf576a125806bda86abe38b",
+                    "url": "acestream://6cda7d2622bcafd6aef486016238936855927d7d",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
                 {
                     "name": "MOVISTAR DRAMA FHD --> NEW ERA VI",
-                    "url": "acestream://aff9d7e45c4fc0f97ec8ec2b6d80cd3feb87c983",
+                    "url": "acestream://edee311dc307e1638eeac880b11bb6f4759b0d83",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -1542,7 +1704,7 @@
                 },
                 {
                     "name": "MOVISTAR ESTRENOS FHD --> NEW ERA VI",
-                    "url": "acestream://b71478c824f787a6a696139db0d053de6fdd1d38",
+                    "url": "acestream://6341392460596e63edf38b013bd137c015e44007",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -1559,8 +1721,14 @@
                     "embed": "false"
                 },
                 {
+                    "name": "MOVISTAR GOLF FHD --> NEW ERA - 5174",
+                    "url": "acestream://9be118a64eb603b5eb62be6cf27631d3891b5174",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
                     "name": "MOVISTAR GOLF FHD --> NEW ERA VI",
-                    "url": "acestream://0f5550c9842eac2c295bece78968f77d84159b48",
+                    "url": "acestream://76a69812c66bfc4899e89df498220588a56e6064",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -1572,25 +1740,19 @@
                 },
                 {
                     "name": "MOVISTAR HITS FHD --> NEW ERA VI",
-                    "url": "acestream://28b9b7ba12c0f5c7e097f4b07a547f6eda9a0695",
+                    "url": "acestream://2b8e5c7438d56541df3467cc5986cf1e66014101",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
                 {
                     "name": "MOVISTAR INDIE FHD --> NEW ERA VI",
-                    "url": "acestream://4f35f115971f0b156baabb8efa9926b1eb8ba5af",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "MOVISTAR LA RESISTENCIA FHD --> NEW ERA VI",
-                    "url": "acestream://09b8bed9be1feadb4ef83e46d50dc51f763947a7",
+                    "url": "acestream://508ffdbab097339adb4f3d922070b5df2c114d01",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
                 {
                     "name": "MOVISTAR ORIGINALES FHD --> NEW ERA VI",
-                    "url": "acestream://60fcd59471ac4268e6cd6448f068a2b518841c88",
+                    "url": "acestream://1f092144252939810fd302cbd00d46de760b5dd7",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -1602,7 +1764,7 @@
                 },
                 {
                     "name": "MOVISTAR VACACIONES FHD --> NEW ERA VI",
-                    "url": "acestream://a0f71ac4897b2ccdf0114b5b3b7877902376a343",
+                    "url": "acestream://15123ab3458c59bf548fbf6e5503799e81da4de6",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -1637,6 +1799,12 @@
                     "embed": "false"
                 },
                 {
+                    "name": "MOVISTAR VAMOS FHD --> NEW ERA - b548",
+                    "url": "acestream://651d6be899d1fafa107a265a9dc00ff914c1b548",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
                     "name": "MOVISTAR VAMOS FHD --> NEW ERA II",
                     "url": "acestream://1205151f6fa5d95c0eeb543cbce43ccfa6a1b216",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
@@ -1644,31 +1812,19 @@
                 },
                 {
                     "name": "MOVISTAR VAMOS FHD --> NEW ERA VI",
-                    "url": "acestream://cd783ac5f4d902ec6a4f261a4849633df69c951f",
+                    "url": "acestream://1444a976d2cf6e7fdcee833ed36ee5e55632253f",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
                 {
                     "name": "MOVISTAR WESTERN FHD --> NEW ERA VI",
-                    "url": "acestream://860dd021db341dbd02979eb8ea650d3f9d846765",
+                    "url": "acestream://e740a34497c3ba5943613a06999e805e6bbfa159",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
                 {
                     "name": "MovistarPlus 1080",
                     "url": "acestream://1ab443f5b4beb6d586f19e8b25b9f9646cf2ab78",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "NATIONAL GEOGRAPHIC FHD --> NEW ERA VI",
-                    "url": "acestream://55230a7a3cc4e8dfd3cecbfb2d68266aa4e5dfff",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "NATIONAL GEOGRAPHIC WILD FHD --> NEW ERA VI",
-                    "url": "acestream://51d0b5249e229a07ecc52286f56a67c3d9df6d00",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -1691,8 +1847,14 @@
                     "embed": "false"
                 },
                 {
-                    "name": "ONETORO FHD --> NEW ERA VI",
-                    "url": "acestream://1fd3dbb7d39de875ac70059d70c8768d4a2e43c0",
+                    "name": "ONETORO FHD --> NEW ERA",
+                    "url": "acestream://cd0188292b6b3876ff66c99bd3d25eab88b41079",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Orange TV --> NEW LOOP",
+                    "url": "acestream://abdbfccdfd73bb5b1dcad598d539058040fb24fa",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -1763,6 +1925,12 @@
                     "embed": "false"
                 },
                 {
+                    "name": "TELECINCO FHD --> NEW ERA - 9ca7",
+                    "url": "acestream://3e7b1911a1f83fd869b6995650a3057778259ca7",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
                     "name": "TELECINCO FHD --> NEW ERA - f7bf",
                     "url": "acestream://5133d1e8f45095f0b7dabbd78db0ce19a496f7bf",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
@@ -1781,20 +1949,20 @@
                     "embed": "false"
                 },
                 {
-                    "name": "TELEDEPORTE FHD --> NEW ERA VI",
-                    "url": "acestream://cd6ee713e2702d67287a3d0c20c5594cacfe4676",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "TENNIS CHANNEL --> NEW LOOP",
-                    "url": "acestream://8091334c82e8720fc6aa05ff0bd6d343c5bfecbf",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
                     "name": "TENNIS CHANNEL HD --> NEW LOOP",
                     "url": "acestream://039fae21c9e7e5214d3d898cba80863e37e623ac",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "TNT SPORTS HD --> NEW ERA",
+                    "url": "acestream://5ccaf1da1ab3972502f2b35e581d7ab2f9b4965e",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "TOROLE TV FHD --> NEW ERA",
+                    "url": "acestream://56457cde219abe22cdc3f6c2083a37b0324b3b0c",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -1817,6 +1985,12 @@
                     "embed": "false"
                 },
                 {
+                    "name": "TVG EUROPA HD --> NEW ERA",
+                    "url": "acestream://d48b299bbcd811cfd14159224bf5012a305021c1",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
                     "name": "UFC EVENTOS 1",
                     "url": "acestream://9efe41de7f5dcafc9395591feb959832e09683ff",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
@@ -1825,6 +1999,12 @@
                 {
                     "name": "UFC Fight Pass --> NEW ERA",
                     "url": "acestream://0ce88d9e7273fddbc9b49f578b6b255513697139",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "UFC Fight Pass --> NEW ERA - 89ad",
+                    "url": "acestream://108aebe20efc826e56f3a1cb01117a124a6b89ad",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },

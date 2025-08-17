@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 16/08/2025 16:00:51",
+    "author": "Vila - 17/08/2025 11:02:31",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -464,6 +464,12 @@
                     "name": "ELEVEN DAZN 6 --> NEW LOOP",
                     "url": "acestream://50b6d2b5fd59fefb9f4fd2176994d418f2b94a80",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-0.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "Dazn 1 - e784",
+                    "url": "acestream://7ba1f321f4d0791b7ebd42f41a07c1cd1479e784",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-dazn-1-es-2510.png",
                     "embed": "false"
                 },
                 {

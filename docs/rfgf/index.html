@@ -22,7 +22,7 @@
   <script type="text/javascript" src="jquery-3.7.1.min.js"></script>
   <script type="text/javascript" src="jquery.base64.js"></script>
 
-  <script type="text/javascript" src="utils.js?nocache=16"></script>
+  <script type="text/javascript" src="utils.js?nocache=17"></script>
   <script>
     version_reducida = true;
 
@@ -54,19 +54,17 @@
     favoritos_default = ["13810265", "10293316"];
     calendario_default = ["13810265", "10293316"];
 
-    equipos = [
-      { id: 23326838, name: 'Jogafan Juvenil', color: '#e53734', duracion_min: 90, rfef: 1 },
-    ]
-
     clubs = [
       { id: 301962, name: 'Jogafan Ordes FS', rfef: 1 },
     ]
+    equipos = [
+      { id: 23326838, name: 'Jogafan Juvenil', color: '#e53734', duracion_min: 90, rfef: 1 },
+    ]
+    favoritos = ["23326838"];
+    favoritos_default = favoritos
+    calendario = favoritos;
+    calendario_default = favoritos;
 
-
-    favoritos = [];
-    favoritos_default = [];
-    calendario = [];
-    calendario_default = [];
     setCookie('favoritosItems', JSON.stringify(favoritos), 365);
     setCookie('calendarioItems', JSON.stringify(calendario), 365);
 
@@ -75,15 +73,15 @@
 
     remote_url = 'https://yjnqlran63v4nhsh5qznvoshgu0ptptz.lambda-url.eu-west-1.on.aws/';
   </script>
-  <script type="text/javascript" src="index.js?nocache=16"></script>
-  <script type="text/javascript" src="acta.js?nocache=16"></script>
-  <script type="text/javascript" src="portada.js?nocache=16"></script>
-  <script type="text/javascript" src="club.js?nocache=16"></script>
-  <script type="text/javascript" src="campo.js?nocache=16"></script>
-  <script type="text/javascript" src="favoritos.js?nocache=16"></script>
-  <script type="text/javascript" src="calendario.js?nocache=16"></script>
-  <script type="text/javascript" src="resultados.js?nocache=16"></script>
-  <script type="text/javascript" src="plantilla.js?nocache=16"></script>
+  <script type="text/javascript" src="index.js?nocache=17"></script>
+  <script type="text/javascript" src="acta.js?nocache=17"></script>
+  <script type="text/javascript" src="portada.js?nocache=17"></script>
+  <script type="text/javascript" src="club.js?nocache=17"></script>
+  <script type="text/javascript" src="campo.js?nocache=17"></script>
+  <script type="text/javascript" src="favoritos.js?nocache=17"></script>
+  <script type="text/javascript" src="calendario.js?nocache=17"></script>
+  <script type="text/javascript" src="resultados.js?nocache=17"></script>
+  <script type="text/javascript" src="plantilla.js?nocache=17"></script>
 </head>
 
 <body style="background-color:#598381; margin:4px; padding:4px">

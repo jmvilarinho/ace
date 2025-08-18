@@ -23,7 +23,7 @@ async function load_xornadas(cod_equipo, addHistory = true) {
 				add_back();
 				show_xornadas(data.data, cod_equipo);
 				if ('src_url' in data['data']) {
-					$('#ref_msg').html('<p style="font-size:12px;"><a href="'+data['data']['src_url']+'" target="copyright" rel="noopener">Información obtida de RFGF</a></p>');
+					$('#ref_msg').html('<p style="font-size:12px;"><a href="'+data['data']['src_url']+'" target="copyright" rel="noopener">Información obtida de fontes oficiais</a></p>');
 				}
 				add_back();
 			} else {

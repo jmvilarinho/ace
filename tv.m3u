@@ -902,8 +902,6 @@ http://217.182.77.27/live/alcarriatv-livestream.m3u8
 https://d1ujfw1zyymzyd.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-a6fukwkbxmex8/live/fast-channel-animevision-64527ec0/fast-channel-animevision-64527ec0.m3u8
 #EXTINF:-1 tvg-id="AnimeVisionClassics.es",Anime Vision Classics (1080p)
 https://d82pyvmcw2kdc.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-swfivzrzwamaq/live/fast-channel-animevisionclassics-efc8dc6d/fast-channel-animevisionclassics-efc8dc6d.m3u8
-#EXTINF:-1 tvg-id="Antena3.es",Antena 3 (720p)
-http://185.189.225.150:85/Antena3HD/index.m3u8
 #EXTINF:-1 tvg-id="ArabiTV.es",Arabí TV (1080p)
 https://streamtv2.elitecomunicacion.cloud:3628/live/arabitv2025live.m3u8
 #EXTINF:-1 tvg-id="AragonTV.es",Aragón TV (720p) [Not 24/7]
@@ -922,8 +920,6 @@ https://live20.bozztv.com/dvrfl06/astv/astv-barca/index.m3u8
 https://cdnapisec.kaltura.com/p/2346171/sp/234617100/playManifest/entryId/1_n6442jz0/format/applehttp/.m3u8?referrer=aHR0cHM6Ly9iZXRldmUuY2F0
 #EXTINF:-1 tvg-id="BiosferaTV.es",Biosfera TV (720p) [Not 24/7]
 https://tvdatta.com:3021/live/biosferatvlive.m3u8
-#EXTINF:-1 tvg-id="Boing.es",Boing
-http://185.189.225.150:85/boing/index.m3u8
 #EXTINF:-1 tvg-id="BomCine.es",Bom Cine (576p)
 http://185.189.225.150:85/BOM/index.m3u8
 #EXTINF:-1 tvg-id="BonDiaTV.es",Bon Dia TV (1080p)
@@ -1042,8 +1038,6 @@ https://limited31.todostreaming.es/live/noroestetv-livestream.m3u8
 https://limited11.todostreaming.es/live/benalmadena-livestream.m3u8
 #EXTINF:-1 tvg-id="CristianaTV.es",Cristiana TV (576p)
 https://cristianos2.todostreaming.es/live/malaga-livestream.m3u8
-#EXTINF:-1 tvg-id="Cuatro.es",Cuatro (1080p)
-http://185.189.225.150:85/CuatroHD/index.m3u8
 #EXTINF:-1 tvg-id="CugatTV.es" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160",Cugat TV (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 #EXTINF:-1 tvg-id="CordobaTV.es",Córdoba TV [Not 24/7]
@@ -1090,8 +1084,6 @@ http://synclosdragos1.syncsolutions.es:8008/live3/emision/index.m3u8
 https://cloudvideo.servers10.com:8081/8022/index.m3u8
 #EXTINF:-1 tvg-id="EurolatinaTV.es",Eurolatina TV (720p) [Not 24/7]
 https://media2.streambrothers.com:1936/8150/8150/playlist.m3u8
-#EXTINF:-1 tvg-id="FactoriadeFiccion.es",Factoria de Ficcion (1080p)
-http://185.189.225.150:85/fdf/index.m3u8
 #EXTINF:-1 tvg-id="Fibwi.es",Fibwi (1080p) [Not 24/7]
 https://hostcdn3.fibwi.com/fibwi_diario/index.fmp4.m3u8
 #EXTINF:-1 tvg-id="FitelTV.es",Fitel TV (1080p)
@@ -1156,8 +1148,6 @@ https://rtvelivestream.akamaized.net/rtvesec/cat/la2_cat_main_dvr.m3u8
 https://streaming004.gestec-video.com/hls/8TV.m3u8
 #EXTINF:-1 tvg-id="LaFabricaTV.es",La Fábrica TV (720p) [Not 24/7]
 https://mejorestrucos.com:5443/LiveApp/streams/854077030689510682594068.m3u8
-#EXTINF:-1 tvg-id="LaSexta.es",La Sexta (720p)
-http://185.189.225.150:85/LaSexta/index.m3u8
 #EXTINF:-1 tvg-id="LaUrbanTV.es",La Urban TV (1080p) [Not 24/7]
 https://urbanrevolution.es:8443/live/TV/playlist.m3u8
 #EXTINF:-1 tvg-id="LaOtra.es",LaOtra (720p)
@@ -1182,8 +1172,6 @@ https://stream.maestrat.tv/hls/stream.m3u8
 http://iptv.services.everywan.net:8080/martv-web/video.m3u8
 #EXTINF:-1 tvg-id="MataroTelevisio.es" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160",Mataró Televisió (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
-#EXTINF:-1 tvg-id="Mega.es",Mega (Spain) (576p)
-http://185.189.225.150:85/mega/index.m3u8
 #EXTINF:-1 tvg-id="Mijas340TV.es",Mijas 3.40TV (720p)
 https://streaming004.gestec-video.com/hls/MIJAS.m3u8
 #EXTINF:-1 tvg-id="MolahitsTV.es",Molahits TV (720p)
@@ -1196,14 +1184,10 @@ http://amaru.dyndns.org:8870/0.m3u8
 https://shls-live-ak.akamaized.net/out/v1/b06a89a463764d3688cda337d40dc5bf/index.m3u8
 #EXTINF:-1 tvg-id="NegociosTV.es",Negocios TV (1080p)
 https://streaming013.gestec-video.com/hls/negociostv.m3u8
-#EXTINF:-1 tvg-id="Neox.es",Neox (576p)
-http://185.189.225.150:85/neox/index.m3u8
 #EXTINF:-1 tvg-id="Nickelodeon.es",Nickelodeon (Spain) (576p)
 http://185.189.225.150:85/nickelodeon/index.m3u8
 #EXTINF:-1 tvg-id="NoroesteTV.es",Noroeste TV (1080p) [Not 24/7]
 https://cloudvideo.servers10.com:8081/8032/index.m3u8
-#EXTINF:-1 tvg-id="Nova.es",Nova (Spain) (576p)
-http://185.189.225.150:85/nova/index.m3u8
 #EXTINF:-1 tvg-id="OizmendiTelebista.es",Oizmendi Telebista (404p) [Not 24/7]
 https://5940924978228.streamlock.net/8161/8161/master.m3u8
 #EXTINF:-1 tvg-id="OlotTV.es" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160",Olot TV (1080p)
@@ -1232,8 +1216,6 @@ https://streamer.zapitv.com/ptv-linarez/index.m3u8
 https://streamer.zapitv.com/PTV-malaga/index.m3u8
 #EXTINF:-1 tvg-id="PTVSevilla.es",PTV Sevilla (1080p)
 https://streamer.zapitv.com/PTV_sevilla/index.m3u8
-#EXTINF:-1 tvg-id="ParamountNetwork.es",Paramount Network (Spain) (720p)
-http://185.189.225.150:85/Paramount/index.m3u8
 #EXTINF:-1 tvg-id="ParlamentodeAndalucia.es",Parlamento de Andalucía (576p) [Not 24/7]
 http://193.147.254.64:1935/realizacion1/realizacion1/playlist.m3u8
 #EXTINF:-1 tvg-id="ParlamentodeNavarra.es",Parlamento de Navarra (368p) [Not 24/7]
@@ -1298,8 +1280,6 @@ https://d2glyu450vvghm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 https://canadaremar2.todostreaming.es/live/solidariatv-webhd.m3u8
 #EXTINF:-1 tvg-id="SpektraTV.es",SpektraTV (720p)
 https://cloudvideo.servers10.com:8081/8136/index.m3u8
-#EXTINF:-1 tvg-id="Syfy.es@SD",Syfy
-http://185.189.225.150:85/syfy/index.m3u8
 #EXTINF:-1 tvg-id="TBNEspana.es",TBN España (576p)
 https://edge.xn--tbnespaa-j3a.es/LiveApp/streams/tbnlive.m3u8
 #EXTINF:-1 tvg-id="TEF.es",TEF (540p)

@@ -246,7 +246,7 @@ https://5940924978228.streamlock.net/directohellin/directohellin/playlist.m3u8
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=12689&live=1
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/104927246235553/picture?width=200&height=200" group-title="Castilla-La Mancha" tvg-name="Visión 6 TV",Visión 6 TV
 https://streaming.proceso.info:8888/vision6-web/stream.m3u8
-#EXTINF:-1 tvg-logo="https://graph.facebook.com/television.imas/picture?width=200&height=200" group-title="Castilla-La Mancha" tvg-name="Imás TV",Imás TV
+#EXTINF:-1 tvg-id="Imas.TV" tvg-logo="https://graph.facebook.com/television.imas/picture?width=200&height=200" group-title="Castilla-La Mancha" tvg-name="Imás TV",Imás TV
 https://secure3.todostreaming.es/live/imastv-livestream.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/AlcarriaTV/picture?width=200&height=200" group-title="Castilla-La Mancha" tvg-name="Alcarria TV",Alcarria TV
 https://cls.alcarria.tv/live/alcarriatv-livestream.m3u8
@@ -527,7 +527,7 @@ https://new-international-23-secure2.akamaized.net/index.m3u8
 #EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/1752299087402041344/eAHH3L02_200x200.jpg" group-title="Int. Europa" tvg-name="GCM Internacional",GCM Internacional
 https://stream-us-east-1.getpublica.com/playlist.m3u8?cb=[CACHEBUSTER]&network_id=16149&live=1&avod=0&hls_marker=1&pod_duration=120&app_bundle=com.streamingconnect.viva&app_category=linear_tv&app_domain=mirametv.live&content_cat=IAB1&content_genre=tv_broadcaster&content_network=streamingconnect&content_rating=TV-G&content_channel=GCMI&content_id=mirametv_live&us_privacy=[US_PRIVACY]&gdpr=[GDPR]&ifa_type=[IFA_TYPE]&position=[POSITION]&min_ad_duration=6&max_ad_duration=120&ssai_enabled=1
 #EXTINF:-1 tvg-id="ATVHD.TV" tvg-logo="https://graph.facebook.com/rtva.andorra/picture?width=200&height=200" group-title="Int. Europa" tvg-name="ATV Andorra",ATV Andorra
-https://livesg1.rtva.hiway.media/424b27f3-a9c7-4b01-9f79-59997561a62c/manifest.m3u8
+https://livesg1.rtva.hiway.media/aa2d69af-76a0-4077-a57e-0445c4061f86/manifest.m3u8
 #EXTINF:-1 tvg-id="CNNInt.TV" tvg-logo="https://graph.facebook.com/cnninternational/picture?width=320&height=320" group-title="Int. Europa" tvg-name="CNN Internacional",CNN Internacional
 https://d3696l48vwq25d.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-0g2918mubifjw/index.m3u8
 #EXTINF:-1 tvg-id="Bloom.TV" tvg-logo="https://pbs.twimg.com/profile_images/991792042094354432/DG1Ruupb_200x200.jpg" group-title="Int. Europa" tvg-name="Bloomberg Europe",Bloomberg Europe EN
@@ -537,21 +537,27 @@ https://live-cdn-stream-euw1.bfmtv.bct.nextradiotv.com/master.m3u8
 #EXTINF:-1 tvg-id="TV5Monde.TV" tvg-logo="https://graph.facebook.com/tv5mondeofficiel/picture?width=200&height=200" group-title="Int. Europa" tvg-name="TV5Monde Francia",TV5Monde Francia FR
 https://ott.tv5monde.com/Content/HLS/Live/channel(europe)/variant.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/sportitaliatv/picture?width=200&height=200" group-title="Int. Europa" tvg-name="Sport Italia",Sport Italia IT
-https://di-kzbhv8pw.vo.lswcdn.net/sportitalia/sihd/playlist.m3u8
+https://di-f1hy8rov.vo.lswcdn.net/sportitalia/sihd/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/tgla7/picture?width=200&height=200" group-title="Int. Europa" tvg-name="La7 Italia",La7 Italia IT
 https://d3749synfikwkv.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-74ylxpgd78bpb/Live.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/la7fb/picture?width=200&height=200" group-title="Int. Europa" tvg-name="La7d Italia",La7d Italia IT
 https://d15umi5iaezxgx.cloudfront.net/LA7D/CLN/HLS-B/Live.m3u8
 #EXTINF:-1 tvg-id="DW.TV" tvg-logo="https://graph.facebook.com/dw.espanol/picture?width=200&height=200" group-title="Int. Europa" tvg-name="DW Alemania",DW Alemania
 https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8
-#EXTINF:-1 tvg-logo="https://graph.facebook.com/DasErste/picture?width=200&height=200" group-title="Int. Europa" tvg-name="Das Erste Alemania",Das Erste Alemania DE
+#EXTINF:-1 tvg-logo="https://graph.facebook.com/tagesschau/picture?width=200&height=200" group-title="Int. Europa" tvg-name="Tagesschau24 Alemania",Tagesschau24 Alemania DE
+https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8
+#EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/1605959306435756038/_EiuBjQ8_200x200.png" group-title="Int. Europa" tvg-name="ARD Das Erste Alemania",ARD Das Erste Alemania DE
 https://daserste-live.ard-mcdn.de/daserste/live/hls/int/master.m3u8
-#EXTINF:-1 tvg-logo="https://graph.facebook.com/WDR/picture?width=200&height=200" group-title="Int. Europa" tvg-name="WDR Alemania",WDR Alemania DE
+#EXTINF:-1 tvg-logo="https://graph.facebook.com/WDR/picture?width=200&height=200" group-title="Int. Europa" tvg-name="WDR Westdeutschen Alemania",WDR Westdeutschen Alemania DE
 https://wdrfsww247.akamaized.net/hls/live/2009628/wdr_msl4_fs247ww/master.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/ndrniedersachsen/picture?width=200&height=200" group-title="Int. Europa" tvg-name="NDR Niedersachsen Alemania",NDR Niedersachsen Alemania DE
 https://ndrint.akamaized.net/hls/live/2020766/ndr_int/master.m3u8
-#EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/2178044567/TS24-LOGO-Twitter_500_500_200x200.jpg" group-title="Int. Europa" tvg-name="Tagesschau24",Tagesschau24 DE
-https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8
+#EXTINF:-1 tvg-logo="https://graph.facebook.com/BR24/picture?width=200&height=200" group-title="Int. Europa" tvg-name="BR Bayerischer Alemania",BR Bayerischer Alemania DE
+https://mcdn.br.de/br/fs/bfs_sued/hls/int/master.m3u8
+#EXTINF:-1 tvg-logo="https://graph.facebook.com/Hessenschau/picture?width=200&height=200" group-title="Int. Europa" tvg-name="HR Hessenschau Alemania",HR Hessenschau Alemania DE
+https://hr-live.ard-mcdn.de/hr/live/hls/de/master.m3u8
+#EXTINF:-1 tvg-logo="https://graph.facebook.com/SRinfo.sr/picture?width=200&height=200" group-title="Int. Europa" tvg-name="SR Saarland Alemania",SR Saarland Alemania DE
+https://srfs.akamaized.net/hls/live/689649/srfsgeo/index.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/skynews/picture?width=200&height=200" group-title="Int. Europa" tvg-name="Sky News UK",Sky News UK EN
 https://linear417-gb-hls1-prd-ak.cdn.skycdp.com/100e/Content/HLS_001_1080_30/Live/channel(skynews)/index_1080-30.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/GBNewsOnline/picture?width=200&height=200" group-title="Int. Europa" tvg-name="GB News UK",GB News UK EN
@@ -671,7 +677,7 @@ https://live-hls-web-aje.getaj.net/AJE/index.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/nhkworld/picture?width=200&height=200" group-title="Int. Asia" tvg-name="NHK World Japan",NHK World Japan EN
 https://master.nhkworld.jp/nhkworld-tv/playlist/live.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/ntvnews24/picture?width=200&height=200" group-title="Int. Asia" tvg-name="Nippon News TV Japan",Nippon News TV Japan
-https://n24-cdn-live.ntv.co.jp/ch01/index.m3u8
+https://n24-cdn-live-x.ntv.co.jp/ch01/index.m3u8?
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/arirangtv/picture?width=200&height=200" group-title="Int. Asia" tvg-name="Arirang TV Korea",Arirang TV Korea EN
 https://amdlive-ch01-g-ctnd-com.akamaized.net/arirang_1gch/smil:arirang_1gch.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/AlArabiya/picture?width=200&height=200" group-title="Int. Asia" tvg-name="Al Arabiya Emiratos Árabes",Al Arabiya Emiratos Árabes AR
@@ -726,6 +732,8 @@ https://stream1.sersat.com/hls/garagetv.m3u8
 https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/ITSF.tablesoccer/picture?width=200&height=200" group-title="Deportivos Int." tvg-name="Int. Table Soccer Federation",Int. Table Soccer Federation
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=7333
+#EXTINF:-1 tvg-logo="https://graph.facebook.com/bikechannelofficial/picture?width=200&height=200" group-title="Deportivos Int." tvg-name="Bike Channel",Bike Channel IT
+https://stream.prod-01.milano.nxmedge.net/argocdn/bikechannel/video.m3u8
 #EXTINF:-1 tvg-id="SolMusica.TV" tvg-logo="https://graph.facebook.com/solmusica/picture?width=200&height=200" group-title="Musicales" tvg-name="Sol Música España",Sol Música España
 https://d2glyu450vvghm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-21u4g5cjglv02/sm.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/activafm.radiomusical/picture?width=200&height=200" group-title="Musicales" tvg-name="Activa TV España",Activa TV España
@@ -754,7 +762,7 @@ https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17
 https://bitcdn-kronehit.bitmovin.com/v2/hls/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/4FUN.TV/picture?width=200&height=200" group-title="Musicales" tvg-name="4FUN TV Polonia",4FUN TV Polonia PL
 https://stream.4fun.tv:8888/hls/4f_high/index.m3u8
-#EXTINF:-1 tvg-logo="https://graph.facebook.com/QmusicNL/picture?width=200&height=200" group-title="Musicales" tvg-name="QMusic Holanda",QMusic Holanda NL
+#EXTINF:-1 tvg-logo="https://graph.facebook.com/QmusicNL/picture?width=200&height=200" group-title="Musicales" tvg-name="QMusic Países Bajos",QMusic Países Bajos NL
 https://dpp-qmusicnl-live.akamaized.net/streamx/QmusicNL.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/tvocko/picture?width=200&height=200" group-title="Musicales" tvg-name="Ocko Chequia",Ocko Chequia CZ
 https://ocko-live.ssl.cdn.cra.cz/channels/ocko/playlist/cze/live_hq.m3u8
@@ -810,8 +818,6 @@ https://hls-03-video.webcaramba.com/rutv/live.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 CrKey/1.44.191160
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/vtwobeat/picture?width=200&height=200" group-title="Musicales" tvg-name="5k V2Beat TV",5k V2Beat TV EN
 https://abr.de1se01.v2beat.live/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://graph.facebook.com/sonusfmpage/picture?width=200&height=200" group-title="Musicales" tvg-name="Sonus FM Alemania",Sonus FM Alemania
-#EXTVLCOPT:http-referrer=https://www.sonus.fm
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/DancestarTV/picture?width=200&height=200" group-title="Musicales" tvg-name="DanceStar TV",DanceStar TV EN
 https://d3pyjh3ffabib0.cloudfront.net/scheduler/scheduleMaster/388.m3u8
 #EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/1268129322730127364/OJlQBZpS_200x200.jpg" group-title="Musicales" tvg-name="Dance TV Estonia",Dance TV Estonia
@@ -878,6 +884,8 @@ https://streaming101tv.es/hls/webronda.m3u8
 #EXTVLCOPT:http-referrer=https://www.12tv.es/
 #EXTINF:-1 tvg-id="24Horas.es",24 Horas (1080p)
 https://d32rw80ytx9uxs.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-vlldndmow4yre/24HES.m3u8
+#EXTINF:-1 tvg-id="24HorasInternacional.es@SD",24 Horas Internacional
+https://viamotionhsi.netplus.ch/live/eds/canal24horas/browser-HLS8/canal24horas.m3u8
 #EXTINF:-1 tvg-id="28kanala.es@SD",28 kanala
 https://streaming.28kanala.eus/hls/z.m3u8
 #EXTINF:-1 tvg-id="324.es",3/24 (1080p)
@@ -904,6 +912,8 @@ https://d82pyvmcw2kdc.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a
 http://38.180.133.31:8000/play/a0ki/index.m3u8
 #EXTINF:-1 tvg-id="ArabiTV.es",Arabí TV (1080p)
 https://streamtv2.elitecomunicacion.cloud:3628/live/arabitv2025live.m3u8
+#EXTINF:-1 tvg-id="AragonTVInternacional.es@SD",Aragon TV Internacional
+https://viamotionhsi.netplus.ch/live/eds/aragontv/browser-HLS8/aragontv.m3u8
 #EXTINF:-1 tvg-id="AragonTV.es",Aragón TV (720p) [Not 24/7]
 https://cartv.streaming.aranova.es/hls/live/aragontv_canal1.m3u8
 #EXTINF:-1 tvg-id="AtreseriesInternacional.es@SD",Atreseries Internacional (480p)
@@ -1260,6 +1270,8 @@ https://directes-tv-cat.3catdirectes.cat/live-origin/tvi-hls/master.m3u8
 https://5fa5de1a545ae.streamlock.net/8052/8052/playlist.m3u8
 #EXTINF:-1 tvg-id="TVEInternacionalAmerica.es@SD",TVE Internacional America (720p)
 http://190.11.225.124:5000/live/tve_hd/playlist.m3u8
+#EXTINF:-1 tvg-id="TVEInternacionalEuropeAsia.es@SD",TVE Internacional Europe-Asia
+https://viamotionhsi.netplus.ch/live/eds/tveinternacional/browser-HLS8/tveinternacional.m3u8
 #EXTINF:-1 tvg-id="TVMCordoba.es",TVM Córdoba (1080p) [Not 24/7]
 http://teledifusion.tv/cordoba/cordobalive/playlist.m3u8
 #EXTINF:-1 tvg-id="TVReus.es",TVReus (720p) [Not 24/7]

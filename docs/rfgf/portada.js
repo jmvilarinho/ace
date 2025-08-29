@@ -6,6 +6,14 @@ async function load_portada(cod_equipo, addHistory = true) {
 		history.pushState(null, "", '#portada/' + cod_equipo);
 
 	var url = remote_url + "?type=getequipo&codequipo=" + cod_equipo;
+	codgrupo = getEquipoGrupo(cod_equipo)
+	if (codgrupo) {
+		url += "&codgrupo=" + codgrupo;
+	}
+	codcompeticion = getEquipoCompeticion(cod_equipo)
+	if (codcompeticion) {
+		url += "&codcompeticion=" + codcompeticion;
+	}
 
 	console.log("GET " + url);
 	await fetch(url)
@@ -66,7 +74,7 @@ async function load_tv_player(url) {
 						} catch (e) {
 							console.log(e);
 						}
-						i+=1;
+						i += 1;
 					}
 					$('#tvplayer').html(tvUrl);
 				}

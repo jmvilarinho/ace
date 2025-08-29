@@ -7,6 +7,14 @@ async function load_xornadas(cod_equipo, addHistory = true) {
 		history.pushState(null, "", '#xornadas/' + cod_equipo);
 
 	var url = remote_url + "?type=getequipo&codequipo=" + cod_equipo;
+	codgrupo = getEquipoGrupo(cod_equipo)
+	if (codgrupo) {
+		url += "&codgrupo=" + codgrupo;
+	}
+	codcompeticion = getEquipoCompeticion(cod_equipo)
+	if (codcompeticion) {
+		url += "&codcompeticion=" + codcompeticion;
+	}
 
 	console.log("GET " + url);
 	await fetch(url)
@@ -160,7 +168,7 @@ async function load_clasificacion(cod_grupo, cod_equipo, cod_competicion, addHis
 	if (addHistory)
 		history.pushState(null, "", '#clasificacion/' + cod_equipo + '/' + cod_grupo + '/' + cod_competicion);
 
-	var url = remote_url + "?type=getclasificacion&codgrupo=" + cod_grupo;
+	var url = remote_url + '?type=getclasificacion&codequipo=' + cod_equipo + '&codgrupo=' + cod_grupo;
 	if (cod_competicion != '')
 		url += "&codcompeticion=" + cod_competicion;
 

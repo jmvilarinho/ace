@@ -8,7 +8,7 @@ async function load_resultados(cod_grupo, cod_equipo, jornada, cod_competicion, 
 	if (addHistory)
 		history.pushState(null, "", '#resultados/' + cod_equipo + '/' + cod_grupo+ '/' + cod_competicion);
 
-	var url = remote_url + "?type=getresultados&codgrupo=" + cod_grupo + '&jornada=' + jornada;
+	var url = remote_url + '?type=getresultados&codequipo=' + cod_equipo + '&codgrupo=' + cod_grupo + '&jornada=' + jornada;
 	if (cod_competicion != '')
 		url += "&codcompeticion=" + cod_competicion;
 

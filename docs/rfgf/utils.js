@@ -281,6 +281,22 @@ function getEquipoDuracion(cod_equipo) {
 	}
 	return 90;
 }
+function getEquipoGrupo(cod_equipo) {
+	var arrayLength = equipos.length;
+	for (var i = 0; i < arrayLength; i++) {
+		if (equipos[i].id == cod_equipo && typeof (equipos[i].codgrupo) !== "undefined" )
+			return equipos[i].codgrupo;
+	}
+	return undefined;
+}
+function getEquipoCompeticion(cod_equipo) {
+	var arrayLength = equipos.length;
+	for (var i = 0; i < arrayLength; i++) {
+		if (equipos[i].id == cod_equipo && typeof (equipos[i].codcompeticion) !== "undefined" )
+			return equipos[i].codcompeticion;
+	}
+	return undefined;
+}
 
 function getClubName(cod_club, defaultName) {
 	var arrayLength = clubs.length;

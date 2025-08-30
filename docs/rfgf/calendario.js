@@ -155,6 +155,14 @@ function creaCalendario() {
 
 async function get_data_equipo_async_calendario(cod_equipo) {
 	var url = remote_url + "?type=getequipo&codequipo=" + cod_equipo;
+	codgrupo = getEquipoGrupo(cod_equipo)
+	if (codgrupo) {
+		url += "&codgrupo=" + codgrupo;
+	}
+	codcompeticion = getEquipoCompeticion(cod_equipo)
+	if (codcompeticion) {
+		url += "&codcompeticion=" + codcompeticion;
+	}
 	//console.log("GET " + url);
 
 	fetch(url)

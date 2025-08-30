@@ -4,6 +4,14 @@ async function load_equipo_home(cod_equipo) {
 	setCookie('paginaRFGF', 'favoritos', 30)
 
 	var url = remote_url + "?type=getequipo&codequipo=" + cod_equipo;
+	codgrupo = getEquipoGrupo(cod_equipo)
+	if (codgrupo) {
+		url += "&codgrupo=" + codgrupo;
+	}
+	codcompeticion = getEquipoCompeticion(cod_equipo)
+	if (codcompeticion) {
+		url += "&codcompeticion=" + codcompeticion;
+	}
 
 	//console.log("GET " + url);
 	await fetch(url)

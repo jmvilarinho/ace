@@ -22,7 +22,7 @@
   <script type="text/javascript" src="jquery-3.7.1.min.js"></script>
   <script type="text/javascript" src="jquery.base64.js"></script>
 
-  <script type="text/javascript" src="utils.js?nocache=17"></script>
+  <script type="text/javascript" src="utils.js?nocache=18"></script>
   <script>
     version_reducida = true;
 
@@ -52,8 +52,6 @@
       { id: 1373, name: 'Abellá' },
       { id: 301962, name: 'Jogafan Ordes FS', rfef: 1 },
     ]
-    favoritos_default = ["13810265", "10293316"];
-    calendario_default = ["13810265", "10293316"];
 
     equipos = [
       { id: 5514262, codcompeticion: 24123382, codgrupo: 24699265, name: 'Jogafan Senior', color: '#c01b19', duracion_min: 95, tv: 'https://tiivii.gal/player/' },
@@ -66,34 +64,32 @@
       { id: 2746, codcompeticion: 24123261, codgrupo: 24123263, name: 'Oroso Juvenil', color: '#6fbffe', duracion_min: 95 },
       { id: 11292337, name: 'Ural Juvenil', color: '#32288a', duracion_min: 95 },
 
-      { id: 205729, codcompeticion: 23289361, codgrupo: 23289362, name: 'O Parrulo F.S.', color: '#142987', duracion_min: 95 },
-      { id: 205934, codcompeticion: 23289291, codgrupo: 23289292, name: 'Celta de Vigo', color: '#80c8fe', duracion_min: 105 },
+      { id: 205729, codcompeticion: 23289361, codgrupo: 23289362, name: 'O Parrulo F.S.', color: '#142987', duracion_min: 95 , rfef: 1 },
+      { id: 205934, codcompeticion: 23289291, codgrupo: 23289292, name: 'Celta de Vigo', color: '#80c8fe', duracion_min: 105 , rfef: 1 },
     ]
 
+    favoritos_default = ["23326838", "10293316"];
+    calendario_default = favoritos_default;
 
-
-    favoritos = ["23326838", "10293316"];
-    favoritos_default = favoritos
-    calendario = favoritos;
-    calendario_default = favoritos;
-
-    setCookie('favoritosItems', JSON.stringify(favoritos), 365);
-    setCookie('calendarioItems', JSON.stringify(calendario), 365);
+    //favoritos = ["23326838", "10293316"];
+    //calendario = favoritos;
+    //setCookie('favoritosItems', JSON.stringify(favoritos), 365);
+    //setCookie('calendarioItems', JSON.stringify(calendario), 365);
 
     // https://tutorialehtml.com/es/tabla-de-colores-html/
     // https://www.w3schools.com/colors/colors_picker.asp
 
     remote_url = 'https://yjnqlran63v4nhsh5qznvoshgu0ptptz.lambda-url.eu-west-1.on.aws/';
   </script>
-  <script type="text/javascript" src="index.js?nocache=17"></script>
-  <script type="text/javascript" src="acta.js?nocache=17"></script>
-  <script type="text/javascript" src="portada.js?nocache=17"></script>
-  <script type="text/javascript" src="club.js?nocache=17"></script>
-  <script type="text/javascript" src="campo.js?nocache=17"></script>
-  <script type="text/javascript" src="favoritos.js?nocache=17"></script>
-  <script type="text/javascript" src="calendario.js?nocache=17"></script>
-  <script type="text/javascript" src="resultados.js?nocache=17"></script>
-  <script type="text/javascript" src="plantilla.js?nocache=17"></script>
+  <script type="text/javascript" src="index.js?nocache=18"></script>
+  <script type="text/javascript" src="acta.js?nocache=18"></script>
+  <script type="text/javascript" src="portada.js?nocache=18"></script>
+  <script type="text/javascript" src="club.js?nocache=18"></script>
+  <script type="text/javascript" src="campo.js?nocache=18"></script>
+  <script type="text/javascript" src="favoritos.js?nocache=18"></script>
+  <script type="text/javascript" src="calendario.js?nocache=18"></script>
+  <script type="text/javascript" src="resultados.js?nocache=18"></script>
+  <script type="text/javascript" src="plantilla.js?nocache=18"></script>
 </head>
 
 <body style="background-color:#598381; margin:4px; padding:4px">

@@ -163,6 +163,9 @@ async function get_data_equipo_async_calendario(cod_equipo) {
 	if (codcompeticion) {
 		url += "&codcompeticion=" + codcompeticion;
 	}
+	if ( isRFEF(cod_equipo) ) {
+		url += "&rfef=1";
+	}
 	//console.log("GET " + url);
 
 	fetch(url)

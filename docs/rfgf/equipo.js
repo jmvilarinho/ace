@@ -12,6 +12,9 @@ async function load_equipo_home(cod_equipo) {
 	if (codcompeticion) {
 		url += "&codcompeticion=" + codcompeticion;
 	}
+	if ( isRFEF(cod_equipo) ) {
+		url += "&rfef=1";
+	}
 
 	//console.log("GET " + url);
 	await fetch(url)

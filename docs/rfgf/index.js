@@ -1,5 +1,5 @@
 // #####################################################################################################################################################
-async function load_xornadas(cod_equipo, addHistory = true) {
+async function load_xornadas(cod_equipo, addHistory = true, rfef = false, codgrupo = '', codcompeticion = '') {
 	displayLoading();
 	setCookie('paginaRFGF', 'xornadas', 30)
 	setCookie('cod_equipo', cod_equipo, 30)
@@ -7,13 +7,17 @@ async function load_xornadas(cod_equipo, addHistory = true) {
 		history.pushState(null, "", '#xornadas/' + cod_equipo);
 
 	var url = remote_url + "?type=getequipo&codequipo=" + cod_equipo;
-	codgrupo = getEquipoGrupo(cod_equipo)
+	codgrupo = getEquipoGrupo(cod_equipo, codgrupo)
 	if (codgrupo) {
 		url += "&codgrupo=" + codgrupo;
 	}
-	codcompeticion = getEquipoCompeticion(cod_equipo)
+	codcompeticion = getEquipoCompeticion(cod_equipo, codcompeticion)
 	if (codcompeticion) {
 		url += "&codcompeticion=" + codcompeticion;
+	}
+	if (isRFEF(cod_equipo) || rfef) {
+		url += "&rfef=1";
+		rfef = true;
 	}
 
 	console.log("GET " + url);
@@ -29,9 +33,9 @@ async function load_xornadas(cod_equipo, addHistory = true) {
 				show_error(data);
 				$('#results').html('');
 				add_back();
-				show_xornadas(data.data, cod_equipo);
+				show_xornadas(data.data, cod_equipo, rfef);
 				if ('src_url' in data['data']) {
-					$('#ref_msg').html('<p style="font-size:12px;"><a href="'+data['data']['src_url']+'" target="copyright" rel="noopener">Información obtida de fontes oficiais</a></p>');
+					$('#ref_msg').html('<p style="font-size:12px;"><a href="' + data['data']['src_url'] + '" target="copyright" rel="noopener">Información obtida de fontes oficiais</a></p>');
 				}
 				add_back();
 			} else {
@@ -44,17 +48,17 @@ async function load_xornadas(cod_equipo, addHistory = true) {
 	hideLoading();
 }
 
-function show_xornadas(data, cod_equipo) {
+function show_xornadas(data, cod_equipo, rfef = false) {
 	lineas = 0;
 	$('#results').append('<br>');
-	jQuery.each(data.competiciones_equipo, function (index, item) {
+	jQuery.each(data.competiciones_equipo, function (index, itemCompeticion) {
 		lineas += 1;
 		if (lineas > 1)
 			$('#results').append('<br><hr>');
 
 		setCookie('nombre_equipo', data.nombre_equipo, 30)
-		$('#results').append(data.nombre_equipo + ' - <b>' + item.competicion + '</b><br>');
-		crea_botons('xornadas', cod_equipo, item.cod_grupo, item.cod_competicion);
+		$('#results').append(data.nombre_equipo + ' - <b>' + itemCompeticion.competicion + '</b><br>');
+		crea_botons('xornadas', cod_equipo, itemCompeticion.cod_grupo, itemCompeticion.cod_competicion);
 
 		$('#results').append('<table class="partidos" >');
 		$('#results').append('<tr>'
@@ -67,7 +71,7 @@ function show_xornadas(data, cod_equipo) {
 			+ '</tr>');
 
 		cont = 0;
-		jQuery.each(item.partidos, function (index, item) {
+		jQuery.each(itemCompeticion.partidos, function (index, item) {
 			var pattern = /(\d{2})\-(\d{2})\-(\d{4})/;
 			var dt = new Date(item.fecha.replace(pattern, '$3-$2-$1 12:00'));
 			background = getBackgroundColor(cont, (isSameWeek(dt, new Date(Date.now()))));
@@ -89,7 +93,7 @@ function show_xornadas(data, cod_equipo) {
 				campo = item.campo;
 			} else {
 				if (item.codequipo_casa != '')
-					casa = '<a href="javascript:load_xornadas(\'' + item.codequipo_casa + '\')">' + item.equipo_casa + '</a>';
+					casa = '<a href="javascript:load_xornadas(\'' + item.codequipo_casa + '\',false,' + rfef + ',\'' + itemCompeticion.cod_grupo + '\',\'' + itemCompeticion.cod_competicion + '\')">' + item.equipo_casa + '</a>';
 				else
 					casa = item.equipo_casa;
 				if (item.codequipo_casa != cod_equipo && item.posicion_equipo_casa != '')
@@ -111,7 +115,7 @@ function show_xornadas(data, cod_equipo) {
 				if (item.equipo_fuera != cod_equipo && item.posicion_equipo_fuera != '')
 					fuera += '(' + item.posicion_equipo_fuera + 'º)&nbsp;';
 				if (item.codequipo_fuera != '')
-					fuera += '<a href="javascript:load_xornadas(\'' + item.codequipo_fuera + '\')">' + item.equipo_fuera + '</a>';
+					fuera += '<a href="javascript:load_xornadas(\'' + item.codequipo_fuera + '\',false,' + rfef + ',\'' + itemCompeticion.cod_grupo + '\',\'' + itemCompeticion.cod_competicion + '\')">' + item.equipo_fuera + '</a>';
 				else
 					fuera += item.equipo_fuera;
 			}

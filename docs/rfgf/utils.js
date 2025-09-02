@@ -281,7 +281,9 @@ function getEquipoDuracion(cod_equipo) {
 	}
 	return 90;
 }
-function getEquipoGrupo(cod_equipo) {
+function getEquipoGrupo(cod_equipo,codgrupo) {
+	if ( codgrupo != '' && codgrupo != 'undefined')
+		return codgrupo;
 	var arrayLength = equipos.length;
 	for (var i = 0; i < arrayLength; i++) {
 		if (equipos[i].id == cod_equipo && typeof (equipos[i].codgrupo) !== "undefined" )
@@ -289,13 +291,28 @@ function getEquipoGrupo(cod_equipo) {
 	}
 	return undefined;
 }
-function getEquipoCompeticion(cod_equipo) {
+function getEquipoCompeticion(cod_equipo,codcompeticion) {
+	if ( codcompeticion != '' && codcompeticion != 'undefined')
+		return codcompeticion;
 	var arrayLength = equipos.length;
 	for (var i = 0; i < arrayLength; i++) {
 		if (equipos[i].id == cod_equipo && typeof (equipos[i].codcompeticion) !== "undefined" )
 			return equipos[i].codcompeticion;
 	}
 	return undefined;
+}
+function isRFEF(cod_equipo) {
+	var arrayLength = equipos.length;
+	for (var i = 0; i < arrayLength; i++) {
+		if (equipos[i].id == cod_equipo){
+			if ( equipos[i].rfef == '1' || equipos[i].rfef == 1) {
+				return true
+			} else {
+				return false
+			}
+		}
+	}
+	return false;
 }
 
 function getClubName(cod_club, defaultName) {

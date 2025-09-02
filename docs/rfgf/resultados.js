@@ -1,4 +1,4 @@
-async function load_resultados(cod_grupo, cod_equipo, jornada, cod_competicion, addHistory = true) {
+async function load_resultados(cod_grupo, cod_equipo, jornada, cod_competicion, addHistory = true, rfef = false) {
 	displayLoading();
 	setCookie('paginaRFGF', 'resultados', 30)
 	setCookie('cod_equipo', cod_equipo, 30)
@@ -6,11 +6,15 @@ async function load_resultados(cod_grupo, cod_equipo, jornada, cod_competicion, 
 	setCookie('cod_competicion', cod_competicion, 30)
 
 	if (addHistory)
-		history.pushState(null, "", '#resultados/' + cod_equipo + '/' + cod_grupo+ '/' + cod_competicion);
+		history.pushState(null, "", '#resultados/' + cod_equipo + '/' + cod_grupo + '/' + cod_competicion);
 
 	var url = remote_url + '?type=getresultados&codequipo=' + cod_equipo + '&codgrupo=' + cod_grupo + '&jornada=' + jornada;
 	if (cod_competicion != '')
 		url += "&codcompeticion=" + cod_competicion;
+	if (isRFEF(cod_equipo) || rfef) {
+		url += "&rfef=1";
+		rfef = true;
+	}
 
 	console.log("GET " + url);
 	await fetch(url)
@@ -25,9 +29,9 @@ async function load_resultados(cod_grupo, cod_equipo, jornada, cod_competicion, 
 				show_error(data);
 				$('#results').html('');
 				add_back();
-				show_resultados(data.data, cod_grupo, cod_equipo, jornada,cod_competicion);
+				show_resultados(data.data, cod_grupo, cod_equipo, jornada, cod_competicion,rfef);
 				if ('src_url' in data['data']) {
-					$('#ref_msg').html('<p style="font-size:12px;"><a href="'+data['data']['src_url']+'" target="copyright" rel="noopener">Información obtida de fontes oficiais</a></p>');
+					$('#ref_msg').html('<p style="font-size:12px;"><a href="' + data['data']['src_url'] + '" target="copyright" rel="noopener">Información obtida de fontes oficiais</a></p>');
 				}
 				add_back();
 			} else {
@@ -40,7 +44,7 @@ async function load_resultados(cod_grupo, cod_equipo, jornada, cod_competicion, 
 	hideLoading();
 }
 
-function show_resultados(data, codgrupo, cod_equipo,jornada,cod_competicion) {
+function show_resultados(data, codgrupo, cod_equipo, jornada, cod_competicion, rfef = false) {
 	$('#results').append('<br>');
 	$('#results').append(data.nombre_competicion + ' (' + data.nombre_grupo + ')<br>');
 	crea_botons('resultados', cod_equipo, codgrupo, data.codigo_competicion);
@@ -56,8 +60,6 @@ function show_resultados(data, codgrupo, cod_equipo,jornada,cod_competicion) {
 		forward = "&nbsp;&nbsp;&nbsp;<a href=\"javascript:load_resultados('" + codgrupo + "','" + cod_equipo + "','" + (j + 1) + "','" + cod_competicion + "',false)\"><img class=\"escudo_widget\" src=../img/forward.png></a>";
 	else
 		forward = '';
-
-
 
 	$('#results').append('<table border >');
 	$('#results').append(
@@ -81,7 +83,7 @@ function show_resultados(data, codgrupo, cod_equipo,jornada,cod_competicion) {
 		if (item.Nombre_equipo_local == 'Descansa') {
 			casa = item.Nombre_equipo_local;
 		} else if (item.CodEquipo_local != "") {
-			casa = '<a href="javascript:load_xornadas(\'' + item.CodEquipo_local + '\')">' + item.Nombre_equipo_local + '</a>';
+			casa = '<a href="javascript:load_xornadas(\'' + item.CodEquipo_local + '\',false,' + rfef + ',\'' + codgrupo + '\',\'' + cod_competicion + '\')">' + item.Nombre_equipo_local + '</a>';
 		} else {
 			casa = item.Nombre_equipo_local;
 		}
@@ -92,9 +94,9 @@ function show_resultados(data, codgrupo, cod_equipo,jornada,cod_competicion) {
 		if (item.Nombre_equipo_visitante == 'Descansa') {
 			fuera = item.Nombre_equipo_visitante;
 		} else if (item.CodEquipo_visitante != "") {
-			fuera = '<a href="javascript:load_xornadas(\'' + item.CodEquipo_visitante + '\')">' + item.Nombre_equipo_visitante + '</a>';
+			fuera = '<a href="javascript:load_xornadas(\'' + item.CodEquipo_visitante + '\',false,' + rfef + ',\'' + codgrupo + '\',\'' + cod_competicion + '\')">' + item.Nombre_equipo_visitante + '</a>';
 		} else {
-			fuera = item.Nombre_equipo_visitante ;
+			fuera = item.Nombre_equipo_visitante;
 		}
 		if (item.Nombre_equipo_visitante != 'Descansa' && item.url_img_visitante != '')
 			fuera = '<img src="https://www.futgal.es' + item.url_img_visitante + '" align="absmiddle" class="escudo_widget">&nbsp;' + fuera;

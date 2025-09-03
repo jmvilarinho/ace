@@ -359,10 +359,10 @@ function getPrevision(id, element, idmareas = 0) {
 	console.log('Get prevision playa: ' + proxyHost + url);
 
 	fetch(proxyHost + url)
-		.then(async  response => {
-			const body =  await response.text();
+		.then(async response => {
+			const body = await response.text();
 			//console.log('Response status: ' + body);
-			if ( body == "Internal Server Error"){
+			if (body == "Internal Server Error") {
 				noPrevision(element, idmareas, 'Timeout obtendo previsión, inténtao máis tarde');
 				return false;
 			}
@@ -441,85 +441,92 @@ function getFechaES(fecha) {
 
 async function createPrevision(data, element, idmareas, id_playa) {
 	var tabla = '<table class="center">';
-	var datos;
-	var datos2;
 
-	for (var i = 0; i < data[0]["prediccion"]["dia"].length; i++) {
-		if (isTodayStr(data[0]["prediccion"]["dia"][i]["fecha"])) {
-			var datos = data[0]["prediccion"]["dia"][i];
-			var datos2 = data[0]["prediccion"]["dia"][i + 1];
+	try {
+		var datos;
+		var datos2;
+
+		for (var i = 0; i < data[0]["prediccion"]["dia"].length; i++) {
+			if (isTodayStr(data[0]["prediccion"]["dia"][i]["fecha"])) {
+				var datos = data[0]["prediccion"]["dia"][i];
+				var datos2 = data[0]["prediccion"]["dia"][i + 1];
+			}
 		}
-	}
 
-	var date = new Date;
-	var hour = date.getHours();
+		var date = new Date;
+		var hour = date.getHours();
 
-	tabla += "<tr><th colspan=4>"
-		+ '<a href="https://www.aemet.es/es/eltiempo/prediccion/playas/' + aplanaTexto(data[0]["nombre"]) + '-' + id_playa + '" target="_new" rel="noopener" >'
-		+ "Prevision para " + data[0]["nombre"]
-		+ '</a>'
-		+ "</th></tr>";
+		tabla += "<tr><th colspan=4>"
+			+ '<a href="https://www.aemet.es/es/eltiempo/prediccion/playas/' + aplanaTexto(data[0]["nombre"]) + '-' + id_playa + '" target="_new" rel="noopener" >'
+			+ "Prevision para " + data[0]["nombre"]
+			+ '</a>'
+			+ "</th></tr>";
 
-	tabla += "<tr>"
-		+ "<th>Temp. Auga</th><td>" + datos["tAgua"]["valor1"] + "&deg;</td>"
-		+ "<th>Temp. Max.</th><td>" + datos["tMaxima"]["valor1"] + "&deg;</td>"
-		+ "</tr><tr>"
-		+ "<th colspan=2>Sensacion térmica</th><td colspan=2>" + datos["sTermica"]["descripcion1"] + "</td>"
-		+ "</tr>";
+		tabla += "<tr>"
+			+ "<th>Temp. Auga</th><td>" + datos["tAgua"]["valor1"] + "&deg;</td>"
+			+ "<th>Temp. Max.</th><td>" + datos["tMaxima"]["valor1"] + "&deg;</td>"
+			+ "</tr><tr>"
+			+ "<th colspan=2>Sensacion térmica</th><td colspan=2>" + datos["sTermica"]["descripcion1"] + "</td>"
+			+ "</tr>";
 
-	if (hour <= 12) {
-		tabla += "<tr>"
-			+ '<th rowspan=4>Mañá<br><img src="img/' + datos["estadoCielo"]["f1"] + '.png" height="50px"></th>'
-			+ "<tr>"
-			+ "<th>Ceo</th><td style='text-align: left;' colspan=2>" + datos["estadoCielo"]["descripcion1"] + "</td>"
-			+ "<tr>"
-			+ "<th>Vento</th><td style='text-align: left;' colspan=2>" + datos["viento"]["descripcion1"] + "</td>"
-			+ "<tr>"
-			+ "<th>Oleaxe</th><td style='text-align: left;' colspan=2>" + datos["oleaje"]["descripcion1"] + "</td>"
-			+ "</tr>";
-	}
-	if (hour <= 19) {
-		tabla += "<tr>"
-			+ '<th rowspan=4>Tarde<br><img src="img/' + datos["estadoCielo"]["f2"] + '.png" height="50px"></th>'
-			+ "<tr>"
-			+ "<th>Ceo</th><td style='text-align: left;' colspan=2>" + datos["estadoCielo"]["descripcion2"] + "</td>"
-			+ "<tr>"
-			+ "<th>Vento</th><td style='text-align: left;' colspan=2>" + datos["viento"]["descripcion2"] + "</td>"
-			+ "<tr>"
-			+ "<th>Oleaxe</th><td style='text-align: left;' colspan=2>" + datos["oleaje"]["descripcion2"] + "</td>"
-			+ "</tr>";
-	}
-	if (idmareas > 0) {
-		mareas = await getMareas(idmareas);
-		tabla += '<tr><td colspan=4>' + mareas + '</td></tr>';
-	}
+		if (hour <= 12) {
+			tabla += "<tr>"
+				+ '<th rowspan=4>Mañá<br><img src="img/' + datos["estadoCielo"]["f1"] + '.png" height="50px"></th>'
+				+ "<tr>"
+				+ "<th>Ceo</th><td style='text-align: left;' colspan=2>" + datos["estadoCielo"]["descripcion1"] + "</td>"
+				+ "<tr>"
+				+ "<th>Vento</th><td style='text-align: left;' colspan=2>" + datos["viento"]["descripcion1"] + "</td>"
+				+ "<tr>"
+				+ "<th>Oleaxe</th><td style='text-align: left;' colspan=2>" + datos["oleaje"]["descripcion1"] + "</td>"
+				+ "</tr>";
+		}
+		if (hour <= 19) {
+			tabla += "<tr>"
+				+ '<th rowspan=4>Tarde<br><img src="img/' + datos["estadoCielo"]["f2"] + '.png" height="50px"></th>'
+				+ "<tr>"
+				+ "<th>Ceo</th><td style='text-align: left;' colspan=2>" + datos["estadoCielo"]["descripcion2"] + "</td>"
+				+ "<tr>"
+				+ "<th>Vento</th><td style='text-align: left;' colspan=2>" + datos["viento"]["descripcion2"] + "</td>"
+				+ "<tr>"
+				+ "<th>Oleaxe</th><td style='text-align: left;' colspan=2>" + datos["oleaje"]["descripcion2"] + "</td>"
+				+ "</tr>";
+		}
+		if (idmareas > 0) {
+			mareas = await getMareas(idmareas);
+			tabla += '<tr><td colspan=4>' + mareas + '</td></tr>';
+		}
 
-	if (hour > 12) {
-		tabla += "<tr><th colspan=4>" + getPrintDate(datos2["fecha"]) + "</th></tr>";
-		tabla += "<tr>"
-			+ "<th>Temp. Auga</th><td>" + datos2["tAgua"]["valor1"] + "&deg;</td>"
-			+ "<th>Temp. Max.</th><td>" + datos2["tMaxima"]["valor1"] + "&deg;</td>"
-			+ "</tr>";
-		tabla += "<tr>"
-			+ '<th rowspan=4>Mañá<br><img src="img/' + datos2["estadoCielo"]["f1"] + '.png" height="50px"></th>'
-			+ "<tr>"
-			+ "<th>Ceo</th><td style='text-align: left;' colspan=2>" + datos2["estadoCielo"]["descripcion1"] + "</td>"
-			+ "<tr>"
-			+ "<th>Vento</th><td style='text-align: left;' colspan=2>" + datos2["viento"]["descripcion1"] + "</td>"
-			+ "<tr>"
-			+ "<th>Oleaxe</th><td style='text-align: left;' colspan=2>" + datos2["oleaje"]["descripcion1"] + "</td>"
-			+ "</tr>";
-	}
-	if (hour > 19) {
-		tabla += "<tr>"
-			+ '<th rowspan=4>Tarde<br><img src="img/' + datos2["estadoCielo"]["f2"] + '.png" height="50px"></th>'
-			+ "<tr>"
-			+ "<th>Ceo</th><td style='text-align: left;' colspan=2>" + datos2["estadoCielo"]["descripcion2"] + "</td>"
-			+ "<tr>"
-			+ "<th>Vento</th><td style='text-align: left;' colspan=2>" + datos2["viento"]["descripcion2"] + "</td>"
-			+ "<tr>"
-			+ "<th>Oleaxe</th><td style='text-align: left;' colspan=2>" + datos2["oleaje"]["descripcion2"] + "</td>"
-			+ "</tr>";
+		if (hour > 12) {
+			tabla += "<tr><th colspan=4>" + getPrintDate(datos2["fecha"]) + "</th></tr>";
+			tabla += "<tr>"
+				+ "<th>Temp. Auga</th><td>" + datos2["tAgua"]["valor1"] + "&deg;</td>"
+				+ "<th>Temp. Max.</th><td>" + datos2["tMaxima"]["valor1"] + "&deg;</td>"
+				+ "</tr>";
+			tabla += "<tr>"
+				+ '<th rowspan=4>Mañá<br><img src="img/' + datos2["estadoCielo"]["f1"] + '.png" height="50px"></th>'
+				+ "<tr>"
+				+ "<th>Ceo</th><td style='text-align: left;' colspan=2>" + datos2["estadoCielo"]["descripcion1"] + "</td>"
+				+ "<tr>"
+				+ "<th>Vento</th><td style='text-align: left;' colspan=2>" + datos2["viento"]["descripcion1"] + "</td>"
+				+ "<tr>"
+				+ "<th>Oleaxe</th><td style='text-align: left;' colspan=2>" + datos2["oleaje"]["descripcion1"] + "</td>"
+				+ "</tr>";
+		}
+		if (hour > 19) {
+			tabla += "<tr>"
+				+ '<th rowspan=4>Tarde<br><img src="img/' + datos2["estadoCielo"]["f2"] + '.png" height="50px"></th>'
+				+ "<tr>"
+				+ "<th>Ceo</th><td style='text-align: left;' colspan=2>" + datos2["estadoCielo"]["descripcion2"] + "</td>"
+				+ "<tr>"
+				+ "<th>Vento</th><td style='text-align: left;' colspan=2>" + datos2["viento"]["descripcion2"] + "</td>"
+				+ "<tr>"
+				+ "<th>Oleaxe</th><td style='text-align: left;' colspan=2>" + datos2["oleaje"]["descripcion2"] + "</td>"
+				+ "</tr>";
+		}
+	} catch (error) {
+		// Code to handle the error
+		console.error("Something went wrong:", error.message);
+		tabla += "<tr><td>Erro obtendo datos " + error.message + "</td></tr>";
 	}
 
 	tabla += "</table>";

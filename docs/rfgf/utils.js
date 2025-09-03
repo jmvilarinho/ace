@@ -281,22 +281,22 @@ function getEquipoDuracion(cod_equipo) {
 	}
 	return 90;
 }
-function getEquipoGrupo(cod_equipo,codgrupo) {
-	if ( codgrupo != '' && codgrupo != 'undefined')
+function getEquipoGrupo(cod_equipo, codgrupo = '') {
+	if (codgrupo != '' && codgrupo != 'undefined')
 		return codgrupo;
 	var arrayLength = equipos.length;
 	for (var i = 0; i < arrayLength; i++) {
-		if (equipos[i].id == cod_equipo && typeof (equipos[i].codgrupo) !== "undefined" )
+		if (equipos[i].id == cod_equipo && typeof (equipos[i].codgrupo) !== "undefined")
 			return equipos[i].codgrupo;
 	}
 	return undefined;
 }
-function getEquipoCompeticion(cod_equipo,codcompeticion) {
-	if ( codcompeticion != '' && codcompeticion != 'undefined')
+function getEquipoCompeticion(cod_equipo, codcompeticion = '') {
+	if (codcompeticion != '' && codcompeticion != 'undefined')
 		return codcompeticion;
 	var arrayLength = equipos.length;
 	for (var i = 0; i < arrayLength; i++) {
-		if (equipos[i].id == cod_equipo && typeof (equipos[i].codcompeticion) !== "undefined" )
+		if (equipos[i].id == cod_equipo && typeof (equipos[i].codcompeticion) !== "undefined")
 			return equipos[i].codcompeticion;
 	}
 	return undefined;
@@ -304,8 +304,8 @@ function getEquipoCompeticion(cod_equipo,codcompeticion) {
 function isRFEF(cod_equipo) {
 	var arrayLength = equipos.length;
 	for (var i = 0; i < arrayLength; i++) {
-		if (equipos[i].id == cod_equipo){
-			if ( equipos[i].rfef == '1' || equipos[i].rfef == 1) {
+		if (equipos[i].id == cod_equipo) {
+			if (equipos[i].rfef == '1' || equipos[i].rfef == 1) {
 				return true
 			} else {
 				return false

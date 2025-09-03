@@ -171,11 +171,11 @@ function show_portada_equipo(data, cod_equipo, rfef = false) {
 					$('#results').append('<hr>');
 				}
 				mostrado = true;
-				show_portada_data('Xornada actual (#' + item2.nombre_jornada + ')', 'main_table_1', item2, item.cod_competicion, item.cod_grupo, data.nombre_equipo, cod_equipo);
+				show_portada_data('Xornada actual (#' + item2.nombre_jornada + ')', 'main_table_1', item2, item.cod_competicion, item.cod_grupo, data.nombre_equipo, cod_equipo, rfef);
 
 				if (previous) {
 					$('#results').append('<br>');
-					show_portada_data('Xornada anterior (#' + previous.nombre_jornada + ')', 'main_table_2', previous, undefined, undefined, undefined, cod_equipo);
+					show_portada_data('Xornada anterior (#' + previous.nombre_jornada + ')', 'main_table_2', previous, undefined, undefined, undefined, cod_equipo, rfef);
 				}
 				//return false;
 			}
@@ -219,7 +219,7 @@ function dia_semana_sp(fecha) {
 }
 
 
-function show_portada_data(title, id_tabla, item, codcompeticion, codgrupo, nombre_equipo, cod_equipo) {
+function show_portada_data(title, id_tabla, item, codcompeticion, codgrupo, nombre_equipo, cod_equipo, rfef = false) {
 	if (codcompeticion) {
 		br = '<br><br>';
 		align = 'center';

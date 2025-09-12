@@ -163,7 +163,7 @@ function show_xornadas(data, cod_equipo, rfef = false) {
 }
 
 // #####################################################################################################################################################
-async function load_clasificacion(cod_grupo, cod_equipo, cod_competicion, addHistory = true) {
+async function load_clasificacion(cod_grupo, cod_equipo, cod_competicion, addHistory = true,rfef = false) {
 	displayLoading();
 	setCookie('paginaRFGF', 'clasificacion', 30)
 	setCookie('cod_equipo', cod_equipo, 30)

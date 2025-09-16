@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 16/09/2025 16:00:51",
+    "author": "Vila - 16/09/2025 20:04:49",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -1170,7 +1170,7 @@
                 },
                 {
                     "name": "cfc371890bfb502737a26de5215e50929c52d0f9",
-                    "url": "acestream://3d376333ee90d6db3d413fc5764ef635882076f5",
+                    "url": "acestream://e9f4493d2d851f4636720f639113e05b4a21a74c",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -1267,6 +1267,12 @@
                 {
                     "name": "DISCOVERY CHANNEL HD --> NEW ERA",
                     "url": "acestream://670519ffe8db1e20d0c753d4f756c009e71173d8",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "e9f4493d2d851f4636720f639113e05b4a21a74c",
+                    "url": "acestream://3d376333ee90d6db3d413fc5764ef635882076f5",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },

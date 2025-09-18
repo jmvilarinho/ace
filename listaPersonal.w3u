@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 18/09/2025 10:07:09",
+    "author": "Vila - 18/09/2025 10:08:43",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -893,6 +893,42 @@
             "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-hypermotion-0.png",
             "stations": [
                 {
+                    "name": "HYPERMOTION FHD --> ELCANO",
+                    "url": "acestream://b2706a7ffbea236a3b398139a3a606ada664c0eb",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-hypermotion-01.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "HYPERMOTION FHD --> NEW ERA",
+                    "url": "acestream://fe289ab20d8f9dcb426fc6d56ce9dbbddb66e3b3",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-hypermotion-01.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "HYPERMOTION FHD --> NEW ERA II",
+                    "url": "acestream://83e8a605ffebe2062f15dad76b6ffe9486a28eb3",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-hypermotion-01.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "HYPERMOTION FHD --> NEW ERA VI",
+                    "url": "acestream://8ee52f6208e33706171856f99d2ed2dabd317f3a",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-hypermotion-01.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "HYPERMOTION FHD --> NEW ERA VI - cda4",
+                    "url": "acestream://70f22be1286ef224b5e4e9451d9a42468152cda4",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-hypermotion-01.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "HYPERMOTION SD --> ELCANO",
+                    "url": "acestream://121f719ebb94193c6086ef92865cf9b197750980",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-hypermotion-01.png",
+                    "embed": "false"
+                },
+                {
                     "name": "HYPERMOTION 2 FHD --> ELCANO",
                     "url": "acestream://0cfdfde1b70623b8c210b0f7301be2a87456481d",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laliga-hypermotion-02.png",
@@ -1447,42 +1483,6 @@
                 {
                     "name": "HOLLYWOOD FHD --> NEW ERA II",
                     "url": "acestream://ebc2e767633cf272abf749a8884751f1f177c8b3",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "HYPERMOTION FHD --> ELCANO",
-                    "url": "acestream://b2706a7ffbea236a3b398139a3a606ada664c0eb",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "HYPERMOTION FHD --> NEW ERA",
-                    "url": "acestream://fe289ab20d8f9dcb426fc6d56ce9dbbddb66e3b3",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "HYPERMOTION FHD --> NEW ERA II",
-                    "url": "acestream://83e8a605ffebe2062f15dad76b6ffe9486a28eb3",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "HYPERMOTION FHD --> NEW ERA VI",
-                    "url": "acestream://8ee52f6208e33706171856f99d2ed2dabd317f3a",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "HYPERMOTION FHD --> NEW ERA VI - cda4",
-                    "url": "acestream://70f22be1286ef224b5e4e9451d9a42468152cda4",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "HYPERMOTION SD --> ELCANO",
-                    "url": "acestream://121f719ebb94193c6086ef92865cf9b197750980",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },

@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 18/09/2025 10:12:24",
+    "author": "Vila - 18/09/2025 10:20:58",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -377,6 +377,54 @@
                     "embed": "false"
                 },
                 {
+                    "name": "MOVISTAR VAMOS --> ELCANO",
+                    "url": "acestream://d03c13b6723f66155d7a0df3692a3b073fe630f2",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-vamos.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "MOVISTAR VAMOS --> ELCANO - 6adb",
+                    "url": "acestream://12ba546d229bc39f01c3c18988a034b215fe6adb",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-vamos.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "MOVISTAR VAMOS FHD --> NEW ERA",
+                    "url": "acestream://3b2a8b41e7097c16b0468b42d7de0320886fa933",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-vamos.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "MOVISTAR VAMOS FHD --> NEW ERA - 2eae",
+                    "url": "acestream://2940120bf034db79a7f5849846ccea0255172eae",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-vamos.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "MOVISTAR VAMOS FHD --> NEW ERA - 6b6a",
+                    "url": "acestream://57313e1ef438538df4feb5a6028dc78ee4f66b6a",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-vamos.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "MOVISTAR VAMOS FHD --> NEW ERA - b548",
+                    "url": "acestream://651d6be899d1fafa107a265a9dc00ff914c1b548",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-vamos.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "MOVISTAR VAMOS FHD --> NEW ERA II",
+                    "url": "acestream://1205151f6fa5d95c0eeb543cbce43ccfa6a1b216",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-vamos.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "MOVISTAR VAMOS FHD --> NEW ERA VI",
+                    "url": "acestream://4e99e755aa32c4bc043a4bb1cd1de35f9bd94dde",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-vamos.png",
+                    "embed": "false"
+                },
+                {
                     "name": "Vamos 1080",
                     "url": "acestream://c7c81acdd1a03ecc418c94c2f28e2adb0556c40b",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-vamos.png",
@@ -416,6 +464,30 @@
                     "name": "NBA TV --> NEW ERA - 8073",
                     "url": "acestream://b0f64a40f333ef5cc02c2b6d4a8c3f4b73dd8073",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-us-nba-tv.png",
+                    "embed": "false"
+                }
+            ]
+        },
+        {
+            "name": "UFC",
+            "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/league-ufc-1156.png",
+            "stations": [
+                {
+                    "name": "UFC EVENTOS 1",
+                    "url": "acestream://9efe41de7f5dcafc9395591feb959832e09683ff",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/league-ufc-1156.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "UFC Fight Pass --> NEW ERA",
+                    "url": "acestream://0ce88d9e7273fddbc9b49f578b6b255513697139",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/league-ufc-1156.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "UFC Fight Pass --> NEW ERA - 89ad",
+                    "url": "acestream://108aebe20efc826e56f3a1cb01117a124a6b89ad",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/league-ufc-1156.png",
                     "embed": "false"
                 }
             ]
@@ -884,6 +956,36 @@
                     "name": "ESPN2 [US] --> NEW LOOP",
                     "url": "acestream://664eb5fe460b96941aed633959a845b185cd8394",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-us-espn.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "ESSPN ARGENTINA --> NEW ERA",
+                    "url": "acestream://4bf4431b4815f07c1b3749f5a10f905ba566cd47",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-us-espn.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "ESSPN LAT DEPORT --> NEW ERA",
+                    "url": "acestream://ab9bf0a75f1135137e65c0bc7639cb7f8ae28af8",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-us-espn.png",
+                    "embed": "false"
+                }
+            ]
+        },
+        {
+            "name": "L.L. TVBar",
+            "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-la-liga-tv-bar.png",
+            "stations": [
+                {
+                    "name": "LALIGA BAR FHD --> ELCANO",
+                    "url": "acestream://608b0faf7d3d25f6fe5dba13d5e4b4142949990e",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laligatv-bar-2505.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "LALIGA BAR FHD --> ELCANO - b53f",
+                    "url": "acestream://94d34491106e00394835c8cb68aa94481339b53f",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-laligatv-bar-2505.png",
                     "embed": "false"
                 }
             ]
@@ -1583,18 +1685,6 @@
                     "embed": "false"
                 },
                 {
-                    "name": "ESSPN ARGENTINA --> NEW ERA",
-                    "url": "acestream://4bf4431b4815f07c1b3749f5a10f905ba566cd47",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "ESSPN LAT DEPORT --> NEW ERA",
-                    "url": "acestream://ab9bf0a75f1135137e65c0bc7639cb7f8ae28af8",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
                     "name": "FOX FHD --> NEW ERA II",
                     "url": "acestream://7a9b22bee11d26b3f5bbd52e0230e19706f593eb",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
@@ -1675,18 +1765,6 @@
                 {
                     "name": "LA SEXTA FHD --> NEW ERA - 457f",
                     "url": "acestream://44828a7580cd99fcb36245c327889c47f34b457f",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "LALIGA BAR FHD --> ELCANO",
-                    "url": "acestream://608b0faf7d3d25f6fe5dba13d5e4b4142949990e",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "LALIGA BAR FHD --> ELCANO - b53f",
-                    "url": "acestream://94d34491106e00394835c8cb68aa94481339b53f",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -1891,54 +1969,6 @@
                 {
                     "name": "MOVISTAR VACACIONES FHD --> NEW ERA VI",
                     "url": "acestream://cf99e99c105162410ec6d1f68cc6f4811560fee7",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "MOVISTAR VAMOS --> ELCANO",
-                    "url": "acestream://d03c13b6723f66155d7a0df3692a3b073fe630f2",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "MOVISTAR VAMOS --> ELCANO - 6adb",
-                    "url": "acestream://12ba546d229bc39f01c3c18988a034b215fe6adb",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "MOVISTAR VAMOS FHD --> NEW ERA",
-                    "url": "acestream://3b2a8b41e7097c16b0468b42d7de0320886fa933",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "MOVISTAR VAMOS FHD --> NEW ERA - 2eae",
-                    "url": "acestream://2940120bf034db79a7f5849846ccea0255172eae",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "MOVISTAR VAMOS FHD --> NEW ERA - 6b6a",
-                    "url": "acestream://57313e1ef438538df4feb5a6028dc78ee4f66b6a",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "MOVISTAR VAMOS FHD --> NEW ERA - b548",
-                    "url": "acestream://651d6be899d1fafa107a265a9dc00ff914c1b548",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "MOVISTAR VAMOS FHD --> NEW ERA II",
-                    "url": "acestream://1205151f6fa5d95c0eeb543cbce43ccfa6a1b216",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "MOVISTAR VAMOS FHD --> NEW ERA VI",
-                    "url": "acestream://4e99e755aa32c4bc043a4bb1cd1de35f9bd94dde",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },
@@ -2161,24 +2191,6 @@
                 {
                     "name": "TVG EUROPA HD --> NEW ERA",
                     "url": "acestream://d48b299bbcd811cfd14159224bf5012a305021c1",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "UFC EVENTOS 1",
-                    "url": "acestream://9efe41de7f5dcafc9395591feb959832e09683ff",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "UFC Fight Pass --> NEW ERA",
-                    "url": "acestream://0ce88d9e7273fddbc9b49f578b6b255513697139",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "UFC Fight Pass --> NEW ERA - 89ad",
-                    "url": "acestream://108aebe20efc826e56f3a1cb01117a124a6b89ad",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },

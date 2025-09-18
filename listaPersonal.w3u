@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 18/09/2025 10:08:43",
+    "author": "Vila - 18/09/2025 10:12:24",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -973,6 +973,156 @@
             ]
         },
         {
+            "name": "M. Deportes",
+            "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-0.png",
+            "stations": [
+                {
+                    "name": "MOVISTAR DEPORTES FHD --> NEW ERA",
+                    "url": "acestream://ef9dcc4eaac36a0f608b52a31f8ab237859e071a",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-1.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "MOVISTAR DEPORTES FHD --> NEW ERA - 355d",
+                    "url": "acestream://332d8fdeb9c51385230b8c9448e047ccc4a6355d",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-1.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "MOVISTAR DEPORTES FHD --> NEW ERA - 617e",
+                    "url": "acestream://b5842718859345a596107ab8e6b24d7bfa2d617e",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-1.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "MOVISTAR DEPORTES FHD --> NEW ERA - b1b8",
+                    "url": "acestream://be02b9918b8fe7224cfa9af1e37856760f95b1b8",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-1.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "MOVISTAR DEPORTES FHD --> NEW ERA - c7e5",
+                    "url": "acestream://f828a32d8ea03a3cabd3ce3ebecb249ec111c7e5",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-1.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "MOVISTAR DEPORTES FHD --> NEW ERA II",
+                    "url": "acestream://67a33c3f74956eed14b9b400523462fe362e0e66",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-1.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "MOVISTAR DEPORTES FHD --> NEW ERA VI",
+                    "url": "acestream://5d3f582738467aaf213e408601aca5cc13fa9359",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-1.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "MOVISTAR DEPORTES FHD --> NEW ERA VI - bd0b",
+                    "url": "acestream://3692ea4cdda97eb0062ed5d656ebd61f149ebd0b",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-1.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "MOVISTAR DEPORTES HD --> NEW LOOP",
+                    "url": "acestream://acb510858f34c3c6fd5f79395b031abd6885c2b3",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-1.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "MOVISTAR DEPORTES 2 --> ELCANO",
+                    "url": "acestream://639c561dd57fa3fc91fde715caeb696c5efb7ce7",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-2.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "MOVISTAR DEPORTES 2 FHD --> NEW ERA",
+                    "url": "acestream://edd06f11e1cef292a1d795e15207ef2f580e298c",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-2.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "MOVISTAR DEPORTES 2 FHD --> NEW ERA - 25a3",
+                    "url": "acestream://6e212a916c83638268047dd2757c95b14f7d25a3",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-2.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "MOVISTAR DEPORTES 2 FHD --> NEW ERA VI",
+                    "url": "acestream://73d38feaa770d788848ec098470e32670fe55a61",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-2.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "MOVISTAR DEPORTES 3 FHD --> NEW ERA",
+                    "url": "acestream://753d4b1f7c4ef43238b5cf23b05572b550a44eee",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-3.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "MOVISTAR DEPORTES 3 FHD --> NEW ERA VI",
+                    "url": "acestream://29d786d72d4b53dbc333af3a50f8fb021aa0296f",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-3.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "MOVISTAR DEPORTES 4 FHD --> NEW ERA",
+                    "url": "acestream://58a4c880ab18486d914751db32a12760e74b75a4",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-4.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "MOVISTAR DEPORTES 4 FHD --> NEW ERA - 6a53",
+                    "url": "acestream://3f97bafa133b10cfe5c62311e11501326d886a53",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-4.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "MOVISTAR DEPORTES 4 FHD --> NEW ERA VI",
+                    "url": "acestream://37825883ed185365e3194a79207347f6c7bd5ba5",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-4.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "MOVISTAR DEPORTES 5 --> ELCANO",
+                    "url": "acestream://fcc0fd75bf1dba40b108fcf0d3514e0e549bfbac",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-5.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "MOVISTAR DEPORTES 5 FHD --> NEW ERA",
+                    "url": "acestream://5913205fb6d6d162a50222709aab6129eb7cf916",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-5.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "MOVISTAR DEPORTES 5 FHD --> NEW ERA VI",
+                    "url": "acestream://6dc4ac4eeae18e9daec433b01db82435cf84c57c",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-5.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "MOVISTAR DEPORTES 5 HD --> NEW ERA",
+                    "url": "acestream://f6961e0dbf9b6ede4f5be93b72dc15533b4063d4",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-5.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "MOVISTAR DEPORTES 6 --> ELCANO",
+                    "url": "acestream://cc5782d37ae6b6e0bab396dd64074982d0879046",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-6.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "MOVISTAR DEPORTES 7 --> ELCANO",
+                    "url": "acestream://070f82d6443a52962d6a2ed9954c979b29404932",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-deportes-7.png",
+                    "embed": "false"
+                }
+            ]
+        },
+        {
             "name": "M. La Liga",
             "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-0.png",
             "stations": [
@@ -1639,150 +1789,6 @@
                 {
                     "name": "MOVISTAR DEPORTES --> ELCANO - 9879",
                     "url": "acestream://3a74d9869b13e763476800740c6625e715a39879",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "MOVISTAR DEPORTES 2 --> ELCANO",
-                    "url": "acestream://639c561dd57fa3fc91fde715caeb696c5efb7ce7",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "MOVISTAR DEPORTES 2 FHD --> NEW ERA",
-                    "url": "acestream://edd06f11e1cef292a1d795e15207ef2f580e298c",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "MOVISTAR DEPORTES 2 FHD --> NEW ERA - 25a3",
-                    "url": "acestream://6e212a916c83638268047dd2757c95b14f7d25a3",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "MOVISTAR DEPORTES 2 FHD --> NEW ERA VI",
-                    "url": "acestream://73d38feaa770d788848ec098470e32670fe55a61",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "MOVISTAR DEPORTES 3 FHD --> NEW ERA",
-                    "url": "acestream://753d4b1f7c4ef43238b5cf23b05572b550a44eee",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "MOVISTAR DEPORTES 3 FHD --> NEW ERA VI",
-                    "url": "acestream://29d786d72d4b53dbc333af3a50f8fb021aa0296f",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "MOVISTAR DEPORTES 4 FHD --> NEW ERA",
-                    "url": "acestream://58a4c880ab18486d914751db32a12760e74b75a4",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "MOVISTAR DEPORTES 4 FHD --> NEW ERA - 6a53",
-                    "url": "acestream://3f97bafa133b10cfe5c62311e11501326d886a53",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "MOVISTAR DEPORTES 4 FHD --> NEW ERA VI",
-                    "url": "acestream://37825883ed185365e3194a79207347f6c7bd5ba5",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "MOVISTAR DEPORTES 5 --> ELCANO",
-                    "url": "acestream://fcc0fd75bf1dba40b108fcf0d3514e0e549bfbac",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "MOVISTAR DEPORTES 5 FHD --> NEW ERA",
-                    "url": "acestream://5913205fb6d6d162a50222709aab6129eb7cf916",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "MOVISTAR DEPORTES 5 FHD --> NEW ERA VI",
-                    "url": "acestream://6dc4ac4eeae18e9daec433b01db82435cf84c57c",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "MOVISTAR DEPORTES 5 HD --> NEW ERA",
-                    "url": "acestream://f6961e0dbf9b6ede4f5be93b72dc15533b4063d4",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "MOVISTAR DEPORTES 6 --> ELCANO",
-                    "url": "acestream://cc5782d37ae6b6e0bab396dd64074982d0879046",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "MOVISTAR DEPORTES 7 --> ELCANO",
-                    "url": "acestream://070f82d6443a52962d6a2ed9954c979b29404932",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "MOVISTAR DEPORTES FHD --> NEW ERA",
-                    "url": "acestream://ef9dcc4eaac36a0f608b52a31f8ab237859e071a",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "MOVISTAR DEPORTES FHD --> NEW ERA - 355d",
-                    "url": "acestream://332d8fdeb9c51385230b8c9448e047ccc4a6355d",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "MOVISTAR DEPORTES FHD --> NEW ERA - 617e",
-                    "url": "acestream://b5842718859345a596107ab8e6b24d7bfa2d617e",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "MOVISTAR DEPORTES FHD --> NEW ERA - b1b8",
-                    "url": "acestream://be02b9918b8fe7224cfa9af1e37856760f95b1b8",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "MOVISTAR DEPORTES FHD --> NEW ERA - c7e5",
-                    "url": "acestream://f828a32d8ea03a3cabd3ce3ebecb249ec111c7e5",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "MOVISTAR DEPORTES FHD --> NEW ERA II",
-                    "url": "acestream://67a33c3f74956eed14b9b400523462fe362e0e66",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "MOVISTAR DEPORTES FHD --> NEW ERA VI",
-                    "url": "acestream://5d3f582738467aaf213e408601aca5cc13fa9359",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "MOVISTAR DEPORTES FHD --> NEW ERA VI - bd0b",
-                    "url": "acestream://3692ea4cdda97eb0062ed5d656ebd61f149ebd0b",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "MOVISTAR DEPORTES HD --> NEW LOOP",
-                    "url": "acestream://acb510858f34c3c6fd5f79395b031abd6885c2b3",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },

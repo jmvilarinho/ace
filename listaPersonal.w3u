@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 18/09/2025 09:58:47",
+    "author": "Vila - 18/09/2025 10:02:20",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -106,6 +106,66 @@
             "name": "M.L. Campeones",
             "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-00.png",
             "stations": [
+                {
+                    "name": "LIGA DE CAMPEONES --> NEW LOOP",
+                    "url": "acestream://e572a5178ff72eed7d1d751a18b4b3419699f370",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-01.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "LIGA DE CAMPEONES FHD --> NEW ERA",
+                    "url": "acestream://c16b4fab1f724c94cad92081cbb7fc7c6fe8a2cc",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-01.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "LIGA DE CAMPEONES FHD --> NEW ERA - 4c6a",
+                    "url": "acestream://778f08cbae9596ed9e8b2ae0af33ee7a6fe24c6a",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-01.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "LIGA DE CAMPEONES FHD --> NEW ERA - 6c63",
+                    "url": "acestream://6d88c66c89f3dbe1e6dacb5a8f7c9a98b12e6c63",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-01.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "LIGA DE CAMPEONES FHD --> NEW ERA - 9bd0",
+                    "url": "acestream://afbf2a479c5a5072698139f0f556ef3e77a99bd0",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-01.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "LIGA DE CAMPEONES FHD --> NEW ERA - e1c2",
+                    "url": "acestream://a9025d4e168764248d33129c30940502cea0e1c2",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-01.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "LIGA DE CAMPEONES FHD --> NEW ERA - fba5",
+                    "url": "acestream://47223e64a576c21bd61e818a42397a753d34fba5",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-01.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "LIGA DE CAMPEONES FHD --> NEW ERA VI",
+                    "url": "acestream://0f7842f8b6c26571e5a974407b61623e56e6a052",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-01.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "LIGA DE CAMPEONES FHD --> NEW ERA VI - f4ba",
+                    "url": "acestream://f3eea003e23f94dc2d527306de9dd386e3ebf4ba",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-01.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "LIGA DE CAMPEONES UHD --> NEW ERA",
+                    "url": "acestream://152169ce99e1fd27f2249c18384a121079cdef29",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-liga-de-campeones-01.png",
+                    "embed": "false"
+                },
                 {
                     "name": "LIGA DE CAMPEONES 2 --> ELCANO",
                     "url": "acestream://abdf9058786a48623d0de51a3adb414ae10b6e72",
@@ -1471,66 +1531,6 @@
                 {
                     "name": "LALIGA BAR FHD --> ELCANO - b53f",
                     "url": "acestream://94d34491106e00394835c8cb68aa94481339b53f",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "LIGA DE CAMPEONES --> NEW LOOP",
-                    "url": "acestream://e572a5178ff72eed7d1d751a18b4b3419699f370",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "LIGA DE CAMPEONES FHD --> NEW ERA",
-                    "url": "acestream://c16b4fab1f724c94cad92081cbb7fc7c6fe8a2cc",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "LIGA DE CAMPEONES FHD --> NEW ERA - 4c6a",
-                    "url": "acestream://778f08cbae9596ed9e8b2ae0af33ee7a6fe24c6a",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "LIGA DE CAMPEONES FHD --> NEW ERA - 6c63",
-                    "url": "acestream://6d88c66c89f3dbe1e6dacb5a8f7c9a98b12e6c63",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "LIGA DE CAMPEONES FHD --> NEW ERA - 9bd0",
-                    "url": "acestream://afbf2a479c5a5072698139f0f556ef3e77a99bd0",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "LIGA DE CAMPEONES FHD --> NEW ERA - e1c2",
-                    "url": "acestream://a9025d4e168764248d33129c30940502cea0e1c2",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "LIGA DE CAMPEONES FHD --> NEW ERA - fba5",
-                    "url": "acestream://47223e64a576c21bd61e818a42397a753d34fba5",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "LIGA DE CAMPEONES FHD --> NEW ERA VI",
-                    "url": "acestream://0f7842f8b6c26571e5a974407b61623e56e6a052",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "LIGA DE CAMPEONES FHD --> NEW ERA VI - f4ba",
-                    "url": "acestream://f3eea003e23f94dc2d527306de9dd386e3ebf4ba",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
-                    "embed": "false"
-                },
-                {
-                    "name": "LIGA DE CAMPEONES UHD --> NEW ERA",
-                    "url": "acestream://152169ce99e1fd27f2249c18384a121079cdef29",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-aceplayer.png",
                     "embed": "false"
                 },

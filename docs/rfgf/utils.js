@@ -74,7 +74,7 @@ function update_vista(url = '') {
 
 }
 
-function crea_botons(pagina, codigo_equipo, cod_grupo, cod_competicion) {
+function crea_botons(pagina, codigo_equipo, cod_grupo, cod_competicion,rfef=false) {
 	if (pagina == 'back') {
 		var boton_back = $('<input/>').attr({
 			type: "button",
@@ -92,7 +92,7 @@ function crea_botons(pagina, codigo_equipo, cod_grupo, cod_competicion) {
 		class: (pagina == 'portada') ? 'none' : "back_button",
 		id: "field",
 		value: 'Portada',
-		onclick: "load_portada('" + codigo_equipo + "')"
+		onclick: "load_portada('" + codigo_equipo + "',true,"+rfef +")"
 	});
 	$('#results').append(boton_portada);
 
@@ -101,7 +101,7 @@ function crea_botons(pagina, codigo_equipo, cod_grupo, cod_competicion) {
 		class: (pagina == 'xornadas') ? 'none' : "back_button",
 		id: "field",
 		value: 'Xornadas',
-		onclick: "load_xornadas('" + codigo_equipo + "')"
+		onclick: "load_xornadas('" + codigo_equipo + "',true,"+rfef + ")"
 	});
 	$('#results').append(boton_xornadas);
 
@@ -139,7 +139,7 @@ function crea_botons(pagina, codigo_equipo, cod_grupo, cod_competicion) {
 				class: (pagina == 'resultados') ? 'none' : "back_button",
 				id: "field",
 				value: 'Resultados',
-				onclick: "load_resultados('" + cod_grupo + "','" + codigo_equipo + "','','" + cod_competicion + "')"
+				onclick: "load_resultados('" + cod_grupo + "','" + codigo_equipo + "','','" + cod_competicion + "',true,"+rfef + ")"
 			});
 			$('#results').append(boton_resultados);
 
@@ -148,7 +148,7 @@ function crea_botons(pagina, codigo_equipo, cod_grupo, cod_competicion) {
 				class: (pagina == 'clasificacion') ? 'none' : "back_button",
 				id: "field",
 				value: 'Clasificación',
-				onclick: "load_clasificacion('" + cod_grupo + "','" + codigo_equipo + "','" + cod_competicion + "')"
+				onclick: "load_clasificacion('" + cod_grupo + "','" + codigo_equipo + "','" + cod_competicion + "',true,"+rfef + ")"
 			});
 			$('#results').append(boton_clasificacion);
 

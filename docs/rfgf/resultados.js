@@ -29,7 +29,7 @@ async function load_resultados(cod_grupo, cod_equipo, jornada, cod_competicion, 
 				show_error(data);
 				$('#results').html('');
 				add_back();
-				show_resultados(data.data, cod_grupo, cod_equipo, jornada, cod_competicion,rfef);
+				show_resultados(data.data, cod_grupo, cod_equipo, jornada, cod_competicion, rfef);
 				if ('src_url' in data['data']) {
 					$('#ref_msg').html('<p style="font-size:12px;"><a href="' + data['data']['src_url'] + '" target="copyright" rel="noopener">Información obtida de fontes oficiais</a></p>');
 				}

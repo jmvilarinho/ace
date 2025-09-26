@@ -978,6 +978,8 @@ https://nlb2-live.emitstream.com/hls/5i3pxfuz4az356yu22ij/master.m3u8
 https://secure5.todostreaming.es/live/division-alm.m3u8
 #EXTINF:-1 tvg-id="CanalExtremadura.es",Canal Extremadura (576p) [Not 24/7]
 https://cdnlive.codev8.net/canalextremaduralive/smil:channel1DVR.smil/playlist.m3u8?DVR=
+#EXTINF:-1 tvg-id="CanalExtremaduraSatelite.es@SD",Canal Extremadura Satelite (1080p)
+https://canalextremadura-live.flumotion.cloud/canalextremadura/live_all/playlist.m3u8
 #EXTINF:-1 tvg-id="CanalLuzTelevision.es",Canal Luz Televisión (1080p)
 https://5d8d85cf2c308.streamlock.net:1936/CanalLuz/enDirecto/playlist.m3u8
 #EXTINF:-1 tvg-id="CanalMalagaRTV.es",Canal Málaga RTV (720p) [Not 24/7]
@@ -1016,6 +1018,8 @@ http://player.cetelmon.tv/protecteddfd43c2f3a8b41f3f28582bf8993aca6/992_high.m3u
 https://cloudvideo.servers10.com:8081/8024/index.m3u8
 #EXTINF:-1 tvg-id="Clan.es",Clan (1280p)
 https://dum8zv1rbdjj2.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-x6uutpgph4tpt/ClanES.m3u8
+#EXTINF:-1 tvg-id="ClanInternacional.es@SD",Clan Internacional (1080p) [Geo-blocked]
+https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/clan_int_main_1080.m3u8
 #EXTINF:-1 tvg-id="Clan.es",Clan TVE (1080p) [Geo-blocked]
 https://ztnr.rtve.es/ztnr/5466990.m3u8
 #EXTINF:-1 tvg-id="Condavision.es",Condavisión (1080p) [Not 24/7]

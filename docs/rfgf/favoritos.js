@@ -204,23 +204,23 @@ function show_portada_data_favoritos(title, cod_equipo, item, id, rfef = false,c
 	}
 
 	if (item.equipo_casa != 'Descansa' && item.escudo_equipo_casa != '') {
-		casa = '<a href="javascript:load_portada(\'' + item.codequipo_casa + '\',true,' + rfef + ',\'' + cod_competicion + '\',\'' + cod_grupo + '\')">' + item.equipo_casa + '</a>';
+		casa = '<a href="javascript:load_portada(\'' + item.codequipo_casa + '\',true,' + rfef + ',\'' + cod_grupo + '\',\'' + cod_competicion + '\')">' + item.equipo_casa + '</a>';
 		casa = '<a href="javascript:load_plantilla(\'' + item.codequipo_casa + '\')" title="Plantilla">'
 			+ '<img src="https://www.futgal.es' + item.escudo_equipo_casa + '" align="absmiddle" class="escudo_logo_medio"></a>&nbsp;&nbsp;' + casa + '&nbsp;';
 	} else {
 		if (item.codequipo_casa != '')
-			casa = '<a href="javascript:load_portada(\'' + item.codequipo_casa + '\',true,' + rfef + ',\'' + cod_competicion + '\',\'' + cod_grupo + '\')">' + item.equipo_casa + '</a>';
+			casa = '<a href="javascript:load_portada(\'' + item.codequipo_casa + '\',true,' + rfef + ',\'' + cod_grupo + '\',\'' + cod_competicion + '\')">' + item.equipo_casa + '</a>';
 		else
 			casa = '&nbsp;' + item.equipo_casa + '&nbsp;';
 	}
 
 	if (item.equipo_fuera != 'Descansa' && item.escudo_equipo_fuera != '') {
-		fuera = '<a href="javascript:load_portada(\'' + item.codequipo_fuera + '\',true,' + rfef + ',\'' + cod_competicion + '\',\'' + cod_grupo + '\')">' + item.equipo_fuera + '</a>';
+		fuera = '<a href="javascript:load_portada(\'' + item.codequipo_fuera + '\',true,' + rfef + ',\'' + cod_grupo + '\',\'' + cod_competicion + '\')">' + item.equipo_fuera + '</a>';
 		fuera = '<a href="javascript:load_plantilla(\'' + item.codequipo_fuera + '\')" title="Plantilla">'
 			+ '<img src="https://www.futgal.es' + item.escudo_equipo_fuera + '" align="absmiddle" class="escudo_logo_medio"></a>&nbsp;&nbsp;' + fuera + '&nbsp;';
 	} else {
 		if (item.codequipo_fuera != '')
-			fuera = '<a href="javascript:load_portada(\'' + item.codequipo_fuera + '\',true,' + rfef + ',\'' + cod_competicion + '\',\'' + cod_grupo + '\')">' + item.equipo_fuera + '</a>';
+			fuera = '<a href="javascript:load_portada(\'' + item.codequipo_fuera + '\',true,' + rfef + ',\'' + cod_grupo + '\',\'' + cod_competicion + '\')">' + item.equipo_fuera + '</a>';
 		else
 			fuera = '&nbsp;' + item.equipo_fuera + '&nbsp;';
 	}

@@ -47,7 +47,7 @@ async function load_resultados(cod_grupo, cod_equipo, jornada, cod_competicion, 
 function show_resultados(data, codgrupo, cod_equipo, jornada, cod_competicion, rfef = false) {
 	$('#results').append('<br>');
 	$('#results').append(data.nombre_competicion + ' (' + data.nombre_grupo + ')<br>');
-	crea_botons('resultados', cod_equipo, codgrupo, data.codigo_competicion, rfef);
+	crea_botons('resultados', cod_equipo, codgrupo, cod_competicion, rfef);
 
 	j = parseInt(data.jornada);
 	if ((j - 1) > 0) {

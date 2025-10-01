@@ -30,7 +30,7 @@ function update_vista(url = '') {
 		cod_acta = getCookie('cod_acta');
 
 	if (pagina) {
-		console.log("Loading page: " + pagina + " - " + cod_equipo + " - " + cod_grupo + " - " + cod_competicion + " - " + cod_club + " - " + cod_campo + " - " + cod_acta);
+		console.log("Loading page; pagina: " + pagina + " - cod_equipo: " + cod_equipo + " - cod_grupo: " + cod_grupo + " - cod_competicion: " + cod_competicion + " - cod_club: " + cod_club + " - cod_campo: " + cod_campo + " - cod_acta: " + cod_acta);
 		switch (pagina) {
 			case 'favoritos':
 				load_favoritos(false);
@@ -76,6 +76,8 @@ function update_vista(url = '') {
 }
 
 function crea_botons(pagina, codigo_equipo, cod_grupo, cod_competicion, rfef = false) {
+	console.log('crea_botons; pagina: '+pagina+', codigo_equipo: '+codigo_equipo+', cod_grupo: '+cod_grupo+', cod_competicion: '+cod_competicion+', rfef: '+rfef);
+
 	if (pagina == 'back') {
 		var boton_back = $('<input/>').attr({
 			type: "button",
@@ -93,17 +95,16 @@ function crea_botons(pagina, codigo_equipo, cod_grupo, cod_competicion, rfef = f
 		class: (pagina == 'portada') ? 'none' : "back_button",
 		id: "field",
 		value: 'Portada',
-		onclick: "load_portada('" + codigo_equipo + "',true," + rfef + ")"
+		onclick: "load_portada('" + codigo_equipo + "',true," + rfef + ",'" + cod_grupo + "','" + cod_competicion + "')"
 	});
 	$('#results').append(boton_portada);
-	console.log(pagina, codigo_equipo, cod_grupo, cod_competicion, rfef);
 
 	var boton_xornadas = $('<input/>').attr({
 		type: "button",
 		class: (pagina == 'xornadas') ? 'none' : "back_button",
 		id: "field",
 		value: 'Xornadas',
-		onclick: "load_xornadas('" + codigo_equipo + "',true," + rfef + ")"
+		onclick: "load_xornadas('" + codigo_equipo + "',true," + rfef + ",'" + cod_grupo + "','" + cod_competicion + "')"
 	});
 	$('#results').append(boton_xornadas);
 

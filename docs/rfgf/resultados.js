@@ -11,7 +11,7 @@ async function load_resultados(cod_grupo, cod_equipo, jornada, cod_competicion, 
 	var url = remote_url + '?type=getresultados&codequipo=' + cod_equipo + '&codgrupo=' + cod_grupo + '&jornada=' + jornada;
 	if (cod_competicion != '')
 		url += "&codcompeticion=" + cod_competicion;
-	if (isRFEF(cod_equipo) || rfef) {
+	if (rfef || isRFEF(cod_equipo)) {
 		url += "&rfef=1";
 		rfef = true;
 	}
@@ -47,17 +47,17 @@ async function load_resultados(cod_grupo, cod_equipo, jornada, cod_competicion, 
 function show_resultados(data, codgrupo, cod_equipo, jornada, cod_competicion, rfef = false) {
 	$('#results').append('<br>');
 	$('#results').append(data.nombre_competicion + ' (' + data.nombre_grupo + ')<br>');
-	crea_botons('resultados', cod_equipo, codgrupo, data.codigo_competicion);
+	crea_botons('resultados', cod_equipo, codgrupo, data.codigo_competicion, rfef);
 
 	j = parseInt(data.jornada);
 	if ((j - 1) > 0) {
-		back = "<a href=\"javascript:load_resultados('" + codgrupo + "','" + cod_equipo + "','" + (j - 1) + "','" + cod_competicion + "',false)\"><img class=\"escudo_widget\" src=../img/back.png></a>&nbsp;&nbsp;&nbsp;";
+		back = "<a href=\"javascript:load_resultados('" + codgrupo + "','" + cod_equipo + "','" + (j - 1) + "','" + cod_competicion + "',false," + rfef + ")\"><img class=\"escudo_widget\" src=../img/back.png></a>&nbsp;&nbsp;&nbsp;";
 	} else {
 		back = '';
 	}
 
 	if (data.jornada < data.listado_jornadas[0].jornadas.length)
-		forward = "&nbsp;&nbsp;&nbsp;<a href=\"javascript:load_resultados('" + codgrupo + "','" + cod_equipo + "','" + (j + 1) + "','" + cod_competicion + "',false)\"><img class=\"escudo_widget\" src=../img/forward.png></a>";
+		forward = "&nbsp;&nbsp;&nbsp;<a href=\"javascript:load_resultados('" + codgrupo + "','" + cod_equipo + "','" + (j + 1) + "','" + cod_competicion + "',false," + rfef + ")\"><img class=\"escudo_widget\" src=../img/forward.png></a>";
 	else
 		forward = '';
 

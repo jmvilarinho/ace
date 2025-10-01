@@ -15,7 +15,7 @@ async function load_xornadas(cod_equipo, addHistory = true, rfef = false, codgru
 	if (codcompeticion) {
 		url += "&codcompeticion=" + codcompeticion;
 	}
-	if (isRFEF(cod_equipo) || rfef) {
+	if (rfef || isRFEF(cod_equipo)) {
 		url += "&rfef=1";
 		rfef = true;
 	}
@@ -33,7 +33,7 @@ async function load_xornadas(cod_equipo, addHistory = true, rfef = false, codgru
 				show_error(data);
 				$('#results').html('');
 				add_back();
-				show_xornadas(data.data, cod_equipo, rfef);
+				show_xornadas(data.data, cod_equipo, codgrupo, rfef);
 				if ('src_url' in data['data']) {
 					$('#ref_msg').html('<p style="font-size:12px;"><a href="' + data['data']['src_url'] + '" target="copyright" rel="noopener">Información obtida de fontes oficiais</a></p>');
 				}
@@ -48,7 +48,7 @@ async function load_xornadas(cod_equipo, addHistory = true, rfef = false, codgru
 	hideLoading();
 }
 
-function show_xornadas(data, cod_equipo, rfef = false) {
+function show_xornadas(data, cod_equipo, codgrupo, rfef = false) {
 	lineas = 0;
 	$('#results').append('<br>');
 	jQuery.each(data.competiciones_equipo, function (index, itemCompeticion) {
@@ -58,7 +58,7 @@ function show_xornadas(data, cod_equipo, rfef = false) {
 
 		setCookie('nombre_equipo', data.nombre_equipo, 30)
 		$('#results').append(data.nombre_equipo + ' - <b>' + itemCompeticion.competicion + '</b><br>');
-		crea_botons('xornadas', cod_equipo, itemCompeticion.cod_grupo, itemCompeticion.cod_competicion);
+		crea_botons('xornadas', cod_equipo, itemCompeticion.cod_grupo, itemCompeticion.cod_competicion, rfef);
 
 		$('#results').append('<table class="partidos" >');
 		$('#results').append('<tr>'
@@ -163,7 +163,7 @@ function show_xornadas(data, cod_equipo, rfef = false) {
 }
 
 // #####################################################################################################################################################
-async function load_clasificacion(cod_grupo, cod_equipo, cod_competicion, addHistory = true,rfef = false) {
+async function load_clasificacion(cod_grupo, cod_equipo, cod_competicion, addHistory = true, rfef = false) {
 	displayLoading();
 	setCookie('paginaRFGF', 'clasificacion', 30)
 	setCookie('cod_equipo', cod_equipo, 30)
@@ -175,6 +175,10 @@ async function load_clasificacion(cod_grupo, cod_equipo, cod_competicion, addHis
 	var url = remote_url + '?type=getclasificacion&codequipo=' + cod_equipo + '&codgrupo=' + cod_grupo;
 	if (cod_competicion != '')
 		url += "&codcompeticion=" + cod_competicion;
+	if (rfef || isRFEF(cod_equipo)) {
+		url += "&rfef=1";
+		rfef = true;
+	}
 
 	console.log("GET " + url);
 	await fetch(url)
@@ -189,7 +193,7 @@ async function load_clasificacion(cod_grupo, cod_equipo, cod_competicion, addHis
 				show_error(data);
 				$('#results').html('');
 				add_back();
-				show_clasificacion(data.data, cod_grupo, cod_equipo);
+				show_clasificacion(data.data, cod_grupo, cod_equipo, rfef);
 				add_back();
 			} else {
 				throw new Error('No data found in response');
@@ -207,16 +211,14 @@ function base64_decode(s) {
 	return decodeURIComponent(escape(atob(s)));
 }
 
-function show_clasificacion(data, cod_grupo, cod_equipo) {
+function show_clasificacion(data, cod_grupo, cod_equipo, rfef = false) {
 	$('#results').append('<br>');
 	$('#results').append(data.competicion + ' ( ' + data.grupo + ')<br>');
-	crea_botons('clasificacion', cod_equipo, cod_grupo, data.codigo_competicion);
-
+	crea_botons('clasificacion', cod_equipo, cod_grupo, data.codigo_competicion, rfef);
 	if (data.html != '') {
 		html = '<link href="css/all.css" rel=stylesheet>'
 			+ '<link href="css/bootstrap.min.css" rel=stylesheet type="text/css" /> '
 			+ '<link href="css/novaweb.css" rel=stylesheet type="text/css" /> ';
-
 
 		html += base64_decode(data.html);
 		//console.log(html)

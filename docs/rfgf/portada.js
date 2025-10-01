@@ -155,7 +155,7 @@ function show_portada_equipo(data, cod_equipo, rfef = false) {
 			});
 			$('#results').append(boton_plantilla);
 		}
-		crea_botons('portada', cod_equipo, item.cod_grupo, item.cod_competicion);
+		crea_botons('portada', cod_equipo, item.cod_grupo, item.cod_competicion,rfef);
 
 		ultima = item.ultima_jornada_jugada;
 		cont = 0;

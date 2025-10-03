@@ -58,7 +58,7 @@ async function createPrevisionMunicipio(data, element, id_municipio) {
 	var tabla = '<table class="center">';
 
 	var arrayLength = data[0]["prediccion"]["dia"].length;
-	maxItems = 2;
+	maxItems = 3;
 	for (var i = 0; i < arrayLength; i++) {
 		var datos = data[0]["prediccion"]["dia"][i];
 		if (isToday(datos["fecha"])) {

@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 04/10/2025 16:00:26",
+    "author": "Vila - 05/10/2025 10:53:06",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -671,12 +671,6 @@
             "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/league-ufc-1156.png",
             "stations": [
                 {
-                    "name": "FOX PREMIUM UFC -->NEW ERA",
-                    "url": "acestream://ade70f2c51cca519a4d8de1bb181af6e8532e1e1",
-                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/league-ufc-1156.png",
-                    "embed": "false"
-                },
-                {
                     "name": "UFC EVENTOS 1",
                     "url": "acestream://9efe41de7f5dcafc9395591feb959832e09683ff",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/league-ufc-1156.png",
@@ -692,6 +686,12 @@
                     "name": "UFC Fight Pass --> NEW ERA - 89ad",
                     "url": "acestream://108aebe20efc826e56f3a1cb01117a124a6b89ad",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/league-ufc-1156.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "FOX PREMIUM UFC -->NEW ERA",
+                    "url": "acestream://ade70f2c51cca519a4d8de1bb181af6e8532e1e1",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-fox-sports-1762.png",
                     "embed": "false"
                 }
             ]

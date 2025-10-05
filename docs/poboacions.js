@@ -55,13 +55,18 @@ function getPrevisionDatosMunicipio(data, element, id_municipio) {
 }
 
 async function createPrevisionMunicipio(data, element, id_municipio) {
+
+
+const now = new Date();                                    current_hour = now.getHours();
+
+
 	var tabla = '<table class="center">';
 
 	var arrayLength = data[0]["prediccion"]["dia"].length;
 	maxItems = 3;
 	for (var i = 0; i < arrayLength; i++) {
 		var datos = data[0]["prediccion"]["dia"][i];
-		if (isToday(datos["fecha"])) {
+		if (isToday(datos["fecha"])  && current_hour < 20  ) {
 			tabla += "<tr><th colspan=4>"
 				+ '<a href="https://www.aemet.es/es/eltiempo/prediccion/municipios/' + aplanaTexto(data[0]["nombre"]) + '-id' + id_municipio + '#detallada" target="_new" rel="noopener" >'
 				+ "Prevision para " + data[0]["nombre"]

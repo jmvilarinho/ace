@@ -6,10 +6,10 @@ function getPrevisionMunicipio(id, element) {
 	console.log('Get prevision municipio: ' + url)
 
 	fetch(proxyHost + url)
-		.then(async  response => {
-			const body =  await response.text();
+		.then(async response => {
+			const body = await response.text();
 			//console.log('Response status: ' + body);
-			if ( body == "Internal Server Error"){
+			if (body == "Internal Server Error") {
 				noPrevision(element, 0, 'Timeout obtendo previsión, inténtao máis tarde');
 				return false;
 			}
@@ -17,8 +17,8 @@ function getPrevisionMunicipio(id, element) {
 		})
 		.then(data => getPrevisionDatosMunicipio(data, element, id))
 		.catch(error => {
-			console.error('Error:',  error.message);
-			noPrevision(element,0,error.message);
+			console.error('Error:', error.message);
+			noPrevision(element, 0, error.message);
 			return false;
 		});
 }
@@ -55,10 +55,8 @@ function getPrevisionDatosMunicipio(data, element, id_municipio) {
 }
 
 async function createPrevisionMunicipio(data, element, id_municipio) {
-
-
-const now = new Date();                                    current_hour = now.getHours();
-
+	const now = new Date();
+	current_hour = now.getHours();
 
 	var tabla = '<table class="center">';
 
@@ -66,7 +64,7 @@ const now = new Date();                                    current_hour = now.ge
 	maxItems = 3;
 	for (var i = 0; i < arrayLength; i++) {
 		var datos = data[0]["prediccion"]["dia"][i];
-		if (isToday(datos["fecha"])  && current_hour < 20  ) {
+		if (isToday(datos["fecha"]) && current_hour < 19) {
 			tabla += "<tr><th colspan=4>"
 				+ '<a href="https://www.aemet.es/es/eltiempo/prediccion/municipios/' + aplanaTexto(data[0]["nombre"]) + '-id' + id_municipio + '#detallada" target="_new" rel="noopener" >'
 				+ "Prevision para " + data[0]["nombre"]
@@ -93,7 +91,7 @@ const now = new Date();                                    current_hour = now.ge
 			//tabla += municipioRow(datos, 5);
 			//tabla += municipioRow(datos, 6);
 		}
-		if (isTomorrow(datos["fecha"]) && cont < maxItems) {
+		if (isTomorrow(datos["fecha"]) && cont < maxItems && current_hour >= 19) {
 			var datos2 = data[0]["prediccion"]["dia"][i];
 
 			tabla += "<tr><th colspan=4>"

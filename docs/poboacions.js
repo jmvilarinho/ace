@@ -78,7 +78,8 @@ async function createPrevisionMunicipio(data, element, id_municipio) {
 
 			cont = 0;
 			row = municipioRow(datos, 1);
-			if (row != "") {
+			console.log("Row 1: " + row);
+			if (row != "" && current_hour <= 12) {
 				tabla += row;
 				cont += 1;
 			}
@@ -91,7 +92,7 @@ async function createPrevisionMunicipio(data, element, id_municipio) {
 			//tabla += municipioRow(datos, 5);
 			//tabla += municipioRow(datos, 6);
 		}
-		if (isTomorrow(datos["fecha"]) && cont < maxItems && current_hour >= 19) {
+		if (isTomorrow(datos["fecha"]) && cont < maxItems && current_hour >= 12) {
 			var datos2 = data[0]["prediccion"]["dia"][i];
 
 			tabla += "<tr><th colspan=4>"

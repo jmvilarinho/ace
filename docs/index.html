@@ -11,8 +11,8 @@
 	<script src="jquery-3.7.1.min.js"></script>
 	<script src="hls.light.min.js"></script>
 	<script src="chart.umd.min.js"></script>
-	<script src="index.js?nocache=2"></script>
-	<script src="poboacions.js?nocache=2"></script>
+	<script src="index.js?nocache=3"></script>
+	<script src="poboacions.js?nocache=3"></script>
 	<title>Webcam Galicia</title>
 	<meta name="author" content="JM Vilariño" />
 	<link rel="icon" href="/ace/favicon.ico" type="image/x-icon">
@@ -104,7 +104,7 @@
 
 	<script>
 		$.post(
-			'https://4sdj5h9oej.execute-api.us-east-1.amazonaws.com/',
+			'https://z8efejrgz8.execute-api.eu-west-1.amazonaws.com//',
 			function (data) {
 				var response = jQuery.parseJSON(data);
 				document.getElementById("visitor_counter").innerHTML = response["visitCount"] + "&nbsp;&nbsp;";

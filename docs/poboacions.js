@@ -62,9 +62,10 @@ async function createPrevisionMunicipio(data, element, id_municipio) {
 
 	var arrayLength = data[0]["prediccion"]["dia"].length;
 	maxItems = 3;
+	cont = 0;
 	for (var i = 0; i < arrayLength; i++) {
 		var datos = data[0]["prediccion"]["dia"][i];
-		if (isToday(datos["fecha"]) && current_hour < 19) {
+		if (isToday(datos["fecha"]) ) {
 			tabla += "<tr><th colspan=4>"
 				+ '<a href="https://www.aemet.es/es/eltiempo/prediccion/municipios/' + aplanaTexto(data[0]["nombre"]) + '-id' + id_municipio + '#detallada" target="_new" rel="noopener" >'
 				+ "Prevision para " + data[0]["nombre"]
@@ -76,7 +77,6 @@ async function createPrevisionMunicipio(data, element, id_municipio) {
 				+ "<th>Temp. Max.</th><td>" + datos["temperatura"]["maxima"] + "&deg;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>"
 				+ "</tr>";
 
-			cont = 0;
 			row = municipioRow(datos, 1);
 			console.log("Row 1: " + row);
 			if (row != "" && current_hour <= 12) {
@@ -84,7 +84,7 @@ async function createPrevisionMunicipio(data, element, id_municipio) {
 				cont += 1;
 			}
 			row = municipioRow(datos, 2);
-			if (row != "") {
+			if (row != "" && current_hour <= 19) {
 				tabla += row;
 				cont += 1;
 			}

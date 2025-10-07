@@ -45,7 +45,7 @@ async function load_favoritos(addHistory = true) {
 			+ '&nbsp;</label></td>' + end;
 
 	}
-	if (arrayLength % 2)
+	if (arrayLength % 3)
 		html_fav += '</tr>'
 	$('#results').append(html_fav + '</table><hr>');
 

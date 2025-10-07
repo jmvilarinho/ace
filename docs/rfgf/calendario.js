@@ -62,7 +62,7 @@ async function load_calendario(addHistory = true) {
 			+ '<input type="checkbox" ' + checked + ' value="' + equipos[i].id + '" onclick="setArrayCookie(\'calendarioItems\',this)">&nbsp;' + equipos[i].name + '&nbsp;'
 			+ '</div></td>' + end;
 	}
-	if (arrayLength % 2)
+	if (arrayLength % 3)
 		html_fav += '</tr>'
 	$('#results').append(html_fav + '<tr><td class="table_noborder" colspan=2 align="center">(Resaltado si hai datos)</td></tr></table><hr>');
 

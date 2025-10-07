@@ -31,10 +31,10 @@ async function load_favoritos(addHistory = true) {
 	for (var i = 0; i < arrayLength; i++) {
 		var start = '';
 		var end = '';
-		if (i % 3 == 0){
-			start = '<tr>';}
-		if (i % 3 == 2){
-			end = '</tr>';}
+		if (i % 3 == 0)
+			start = '<tr>';
+		if (i % 3 == 2)
+			end = '</tr>';
 		
 
 		var checked = '';
@@ -46,8 +46,8 @@ async function load_favoritos(addHistory = true) {
 			+ '&nbsp;</label></td>' + end;
 
 	}
-	if (arrayLength % 3)
-		html_fav += '</tr>'
+	if (arrayLength % 3 != 0)
+		html_fav += '</tr>';
 	$('#results').append(html_fav + '</table><hr>');
 
 

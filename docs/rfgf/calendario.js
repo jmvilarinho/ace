@@ -48,9 +48,9 @@ async function load_calendario(addHistory = true) {
 	for (var i = 0; i < arrayLength; i++) {
 		var start = '';
 		var end = '';
-		if (!i % 2)
+		if (!i % 3)
 			start = '<tr>';
-		if (i % 2)
+		if (i % 3)
 			end = '</tr>'
 
 		var checked = '';

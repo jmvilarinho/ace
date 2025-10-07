@@ -31,7 +31,7 @@ async function load_favoritos(addHistory = true) {
 	for (var i = 0; i < arrayLength; i++) {
 		var start = '';
 		var end = '';
-		if (i % 3)
+		if (i % 3 === 0)
 			start = '<tr>';
 			end = '</tr>'
 

@@ -27,7 +27,7 @@ async function load_favoritos(addHistory = true) {
 	}
 
 	var arrayLength = equipos.length;
-	var html_fav = '<hr><table class="table_noborder"><tr><th colspan=2 class="table_noborder">Lista Favoritos</th></tr>';
+	var html_fav = '<hr><table class="table_noborder"><tr><th colspan=3 class="table_noborder">Lista Favoritos</th></tr>';
 	for (var i = 0; i < arrayLength; i++) {
 		var start = '';
 		var end = '';

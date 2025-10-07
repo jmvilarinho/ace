@@ -33,7 +33,6 @@ async function load_favoritos(addHistory = true) {
 		var end = '';
 		if (!i % 3)
 			start = '<tr>';
-		if (i % 3)
 			end = '</tr>'
 
 		var checked = '';

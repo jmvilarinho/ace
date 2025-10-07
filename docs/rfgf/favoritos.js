@@ -31,10 +31,10 @@ async function load_favoritos(addHistory = true) {
 	for (var i = 0; i < arrayLength; i++) {
 		var start = '';
 		var end = '';
-		if (i % 3 === 0)
-			start = '<tr>';
-		if (i % 3 === 2)
-			end = '</tr>';
+		if (i % 3 == 0){
+			start = '<tr>';}
+		if (i % 3 == 2){
+			end = '</tr>';}
 		
 
 		var checked = '';

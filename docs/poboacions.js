@@ -59,26 +59,24 @@ async function createPrevisionMunicipio(data, element, id_municipio) {
 	current_hour = now.getHours();
 
 	var tabla = '<table class="center">';
+	tabla += "<tr><th colspan=4>"
+		+ '<a href="https://www.aemet.es/es/eltiempo/prediccion/municipios/' + aplanaTexto(data[0]["nombre"]) + '-id' + id_municipio + '#detallada" target="_new" rel="noopener" >'
+		+ "Prevision para " + data[0]["nombre"]
+		+ "</a>"
+		+ "</th></tr>";
 
 	var arrayLength = data[0]["prediccion"]["dia"].length;
 	maxItems = 3;
 	cont = 0;
 	for (var i = 0; i < arrayLength; i++) {
 		var datos = data[0]["prediccion"]["dia"][i];
-		if (isToday(datos["fecha"]) ) {
-			tabla += "<tr><th colspan=4>"
-				+ '<a href="https://www.aemet.es/es/eltiempo/prediccion/municipios/' + aplanaTexto(data[0]["nombre"]) + '-id' + id_municipio + '#detallada" target="_new" rel="noopener" >'
-				+ "Prevision para " + data[0]["nombre"]
-				+ "</a>"
-				+ "</th></tr>";
-
+		if (isToday(datos["fecha"])) {
 			tabla += "<tr>"
 				+ "<th>Temp. Min.</th><td>" + datos["temperatura"]["minima"] + "&deg;</td>"
 				+ "<th>Temp. Max.</th><td>" + datos["temperatura"]["maxima"] + "&deg;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>"
 				+ "</tr>";
 
 			row = municipioRow(datos, 1);
-			console.log("Row 1: " + row);
 			if (row != "" && current_hour <= 12) {
 				tabla += row;
 				cont += 1;
@@ -92,7 +90,7 @@ async function createPrevisionMunicipio(data, element, id_municipio) {
 			//tabla += municipioRow(datos, 5);
 			//tabla += municipioRow(datos, 6);
 		}
-		if (isTomorrow(datos["fecha"]) && cont < maxItems && current_hour >= 12) {
+		if (isTomorrow(datos["fecha"]) && cont < maxItems && (current_hour >= 12 || cont==1)) {
 			var datos2 = data[0]["prediccion"]["dia"][i];
 
 			tabla += "<tr><th colspan=4>"
@@ -118,6 +116,7 @@ async function createPrevisionMunicipio(data, element, id_municipio) {
 			//tabla += municipioRow(datos, 5);
 			//tabla += municipioRow(datos, 6);
 		}
+		//console.log(datos["fecha"],cont,maxItems,current_hour)
 	}
 
 	tabla += '<tr  id="trmunicipio' + id_municipio + '"><td colspan=4>';

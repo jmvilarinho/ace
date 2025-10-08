@@ -35,7 +35,6 @@ async function load_favoritos(addHistory = true) {
 			start = '<tr>';
 		if (i % 3 == 2)
 			end = '</tr>';
-		
 
 		var checked = '';
 		if (favoritos.indexOf('' + equipos[i].id) >= 0) {
@@ -44,12 +43,10 @@ async function load_favoritos(addHistory = true) {
 		html_fav += start + '<td class="table_noborder"><label>'
 			+ '<input type="checkbox" ' + checked + ' value="' + equipos[i].id + '" onclick="setArrayCookie(\'favoritosItems\',this)">' + equipos[i].name
 			+ '&nbsp;</label></td>' + end;
-
 	}
 	if (arrayLength % 3 != 0)
 		html_fav += '</tr>';
 	$('#results').append(html_fav + '</table><hr>');
-
 
 	add_back('favoritos');
 	end_page();
@@ -85,8 +82,6 @@ async function load_favoritos(addHistory = true) {
 		toSort.forEach(function (item) {
 			$(item).css("width", maxWitdh + "px");
 		});
-
-
 	} catch (e) {
 		console.log(e);
 	}
@@ -157,7 +152,7 @@ function show_portada_equipo_favoritos(data, cod_equipo, rfef = false) {
 					lineas += 1;
 					arr.push({
 						data: date_obj.getTime(),
-						html: show_portada_data_favoritos(title, cod_equipo, item, date_obj.getTime(), rfef,item_competiciones.cod_competicion,item_competiciones.cod_grupo)
+						html: show_portada_data_favoritos(title, cod_equipo, item, date_obj.getTime(), rfef, item_competiciones.cod_competicion, item_competiciones.cod_grupo)
 					});
 					//return false;
 				}
@@ -184,7 +179,7 @@ function show_portada_equipo_favoritos(data, cod_equipo, rfef = false) {
 	return arr;
 }
 
-function show_portada_data_favoritos(title, cod_equipo, item, id, rfef = false,cod_competicion='',cod_grupo='') {
+function show_portada_data_favoritos(title, cod_equipo, item, id, rfef = false, cod_competicion = '', cod_grupo = '') {
 
 	campo = '';
 	if (item.equipo_casa == 'Descansa' || item.equipo_fuera == 'Descansa') {

@@ -29,7 +29,7 @@ async function load_portada(cod_equipo, addHistory = true, rfef = false, codgrup
 		})
 		.then(data => {
 			if (data) {
-				console.log(data);
+				//console.log(data);
 				show_error(data);
 				$('#results').html('');
 				if ('src_url' in data['data']) {

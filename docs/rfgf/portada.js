@@ -50,7 +50,7 @@ async function load_portada(cod_equipo, addHistory = true, rfef = false, codgrup
 }
 
 async function load_tv_player(url) {
-	var url_search = 'https://streamer-cdn.ott.tiivii.com/v2/sgca/ott_tiivii/search?sort=-created_on&page=1&limit=100&searchin=title,tags&filter[status]=published&filter[value][contains]=Jogafan%20Ordes%20FS';
+	var url_search = 'https://streamer-cdn.ott.tiivii.com/v2/sgca/ott_tiivii/search?sort=-created_on&page=1&limit=100&searchin=title,tags&filter[status]=published&filter[value][contains]=Jogafan';
 
 	await fetch(url_search)
 		.then(response => {

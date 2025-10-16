@@ -423,7 +423,7 @@ https://ztnr.rtve.es/ztnr/6982935.m3u8
 #EXTINF:-1 tvg-id="BonDiaTV_CAT.TV" tvg-logo="https://i2.wp.com/blocs.mesvilaweb.cat/wp-content/uploads/sites/1858/2018/11/BONDIA.png" group-title="Cataluña" tvg-name="Bon Dia TV",Bon Dia TV
 https://directes-tv-int.3catdirectes.cat/live-content/bondia-hls/master.m3u8
 #EXTINF:-1 tvg-id="BTV.TV" tvg-logo="https://graph.facebook.com/betevecat/picture?width=200&height=200" group-title="Cataluña" tvg-name="betevé",betevé
-https://cdnapisec.kaltura.com/p/2346171/sp/234617100/playManifest/entryId/1_n6442jz0/protocol/https/format/applehttp/a.m3u8?referrer=aHR0cHM6Ly9iZXRldmUuY2F0
+https://cdnapisec.kaltura.com/p/2346171/sp/234617100/playManifest/entryId/1_vfibi2fe/protocol/https/format/applehttp/a.m3u8?referrer=aHR0cHM6Ly9iZXRldmUuY2F0
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/GRUP4COM/picture?width=200&height=200" group-title="Cataluña" tvg-name="Canal 4 TV Cataluña",Canal 4 TV Cataluña
 https://limited35.todostreaming.es/live/mitjans-livestream.m3u8
 #EXTINF:-1 tvg-id="Xarxa_Canal_Terres_Ebre.TV" tvg-logo="https://graph.facebook.com/canal.terresdelebre/picture?width=200&height=200" group-title="Cataluña" tvg-name="Canal Terres de l'Ebre",Canal Terres de l'Ebre
@@ -1111,7 +1111,7 @@ https://mbit1.worldcast.tv/dancetelevisioneight/multibit.m3u8
 https://mbit1.worldcast.tv/dancetelevisionnine/multibit.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/vmlatinocr/picture?width=200&height=200" group-title="Musicales" tvg-name="VM Latino Costa Rica",VM Latino Costa Rica
 https://59ef525c24caa.streamlock.net/vmtv/vmlatino/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/1966112431907688448/baEVDeYo_200x200.jpg" group-title="Musicales" tvg-name="Venus Media Paraguay",Venus Media Paraguay
+#EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/1973360901953589248/QoyrDURv_200x200.jpg" group-title="Musicales" tvg-name="Venus Media Paraguay",Venus Media Paraguay
 https://tigocloud.desdeparaguay.net/venusmedia/venusmedia/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/lamegaworldwide/picture?width=200&height=200" group-title="Musicales" tvg-name="La Mega Mundial USA",La Mega Mundial USA
 https://server40.servistreaming.com:3477/stream/play.m3u8

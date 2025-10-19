@@ -76,7 +76,7 @@ function update_vista(url = '') {
 }
 
 function crea_botons(pagina, codigo_equipo, cod_grupo, cod_competicion, rfef = false) {
-	console.log('crea_botons; pagina: '+pagina+', codigo_equipo: '+codigo_equipo+', cod_grupo: '+cod_grupo+', cod_competicion: '+cod_competicion+', rfef: '+rfef);
+	console.log('crea_botons; pagina: ' + pagina + ', codigo_equipo: ' + codigo_equipo + ', cod_grupo: ' + cod_grupo + ', cod_competicion: ' + cod_competicion + ', rfef: ' + rfef);
 
 	if (pagina == 'back') {
 		var boton_back = $('<input/>').attr({
@@ -449,15 +449,24 @@ function show_error(data) {
 	$('#other_msg').html('');
 	try {
 		var msg = '<small>'
-		if ('src_origin' in data['data']) {
-			msg += data['data']['src_origin'];
-			if ('src_date' in data['data']) {
-				msg += ', ' + data['data']['src_date'];
-			}
-		}
 		if ('source' in data) {
-			msg += ' (' + data['source'] + ')';
+			msg += data['source'];
+			if ('src_date' in data['data']) {
+				const date = new Date(data['data']['src_date'] * 1000);
+				const humanDate = date.toLocaleString('es-ES');
+				msg += ', ' + humanDate;
+			} else if ('timestamp' in data) {
+				const date = new Date(data['timestamp'] * 1000);
+				const humanDate = date.toLocaleString('es-ES');
+				msg += ', ' + humanDate;
+			}
+			if (data['source'] == 'cache' && 'cached_time' in data) {
+				msg += ' (' + data['cached_time'] + " min cache)";
+			}
+		} else if ('src_origin' in data['data']) {
+			msg += data['data']['src_origin'];
 		}
+
 		msg += '</small>';
 		$('#other_msg').html(msg);
 	} catch (ex) {

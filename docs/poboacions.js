@@ -134,7 +134,7 @@ async function createPrevisionMunicipio(data, element, id_municipio) {
 	var options = { year: 'numeric', month: 'numeric', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: false };
 	document.getElementById("data_prevision_municipio").innerHTML = "<p style='font-size:12px;'>"
 		+ "<a href='http://www.aemet.es' target='copyright'>"
-		+ "Previsión poboacions xerada: "
+		+ "Previsión poboacions AEMET: "
 		+ dt.toLocaleDateString("es-ES", options)
 		+ "</a></p>";
 

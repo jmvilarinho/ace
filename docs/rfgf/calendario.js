@@ -44,14 +44,14 @@ async function load_calendario(addHistory = true) {
 	}
 
 	var arrayLength = equipos.length;
-	var html_fav = '<table class="table_noborder"><tr><th colspan=2 class="table_noborder">Equipos</th></tr>';
+	var html_fav = '<table class="table_noborder"><tr><th colspan=3 class="table_noborder">Equipos</th></tr>';
 	for (var i = 0; i < arrayLength; i++) {
 		var start = '';
 		var end = '';
-		if (!i % 2)
+		if (i % 3 == 0)
 			start = '<tr>';
-		if (i % 2)
-			end = '</tr>'
+		if (i % 3 == 2)
+			end = '</tr>';
 
 		var checked = '';
 		if (calendario.indexOf('' + equipos[i].id) >= 0) {
@@ -62,8 +62,8 @@ async function load_calendario(addHistory = true) {
 			+ '<input type="checkbox" ' + checked + ' value="' + equipos[i].id + '" onclick="setArrayCookie(\'calendarioItems\',this)">&nbsp;' + equipos[i].name + '&nbsp;'
 			+ '</div></td>' + end;
 	}
-	if (arrayLength % 2)
-		html_fav += '</tr>'
+	if (arrayLength % 3 != 0)
+		html_fav += '</tr>';
 	$('#results').append(html_fav + '<tr><td class="table_noborder" colspan=2 align="center">(Resaltado si hai datos)</td></tr></table><hr>');
 
 	add_back('calendario');

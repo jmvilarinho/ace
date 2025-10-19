@@ -30,6 +30,7 @@ function update_vista(url = '') {
 		cod_acta = getCookie('cod_acta');
 
 	if (pagina) {
+		console.log("Loading page; pagina: " + pagina + " - cod_equipo: " + cod_equipo + " - cod_grupo: " + cod_grupo + " - cod_competicion: " + cod_competicion + " - cod_club: " + cod_club + " - cod_campo: " + cod_campo + " - cod_acta: " + cod_acta);
 		switch (pagina) {
 			case 'favoritos':
 				load_favoritos(false);
@@ -74,7 +75,9 @@ function update_vista(url = '') {
 
 }
 
-function crea_botons(pagina, codigo_equipo, cod_grupo, cod_competicion,rfef=false) {
+function crea_botons(pagina, codigo_equipo, cod_grupo, cod_competicion, rfef = false) {
+	console.log('crea_botons; pagina: ' + pagina + ', codigo_equipo: ' + codigo_equipo + ', cod_grupo: ' + cod_grupo + ', cod_competicion: ' + cod_competicion + ', rfef: ' + rfef);
+
 	if (pagina == 'back') {
 		var boton_back = $('<input/>').attr({
 			type: "button",
@@ -92,7 +95,7 @@ function crea_botons(pagina, codigo_equipo, cod_grupo, cod_competicion,rfef=fals
 		class: (pagina == 'portada') ? 'none' : "back_button",
 		id: "field",
 		value: 'Portada',
-		onclick: "load_portada('" + codigo_equipo + "',true,"+rfef +")"
+		onclick: "load_portada('" + codigo_equipo + "',true," + rfef + ",'" + cod_grupo + "','" + cod_competicion + "')"
 	});
 	$('#results').append(boton_portada);
 
@@ -101,7 +104,7 @@ function crea_botons(pagina, codigo_equipo, cod_grupo, cod_competicion,rfef=fals
 		class: (pagina == 'xornadas') ? 'none' : "back_button",
 		id: "field",
 		value: 'Xornadas',
-		onclick: "load_xornadas('" + codigo_equipo + "',true,"+rfef + ")"
+		onclick: "load_xornadas('" + codigo_equipo + "',true," + rfef + ",'" + cod_grupo + "','" + cod_competicion + "')"
 	});
 	$('#results').append(boton_xornadas);
 
@@ -111,7 +114,7 @@ function crea_botons(pagina, codigo_equipo, cod_grupo, cod_competicion,rfef=fals
 			class: (pagina == 'resultados') ? 'none' : "back_button",
 			id: "field",
 			value: 'Resultados',
-			onclick: "load_resultados('" + cod_grupo + "','" + codigo_equipo + "','')"
+			onclick: "load_resultados('" + cod_grupo + "','" + codigo_equipo + "','','" + cod_competicion + "',true," + rfef + ")"
 		});
 		$('#results').append(boton_resultados);
 
@@ -120,7 +123,7 @@ function crea_botons(pagina, codigo_equipo, cod_grupo, cod_competicion,rfef=fals
 			class: (pagina == 'clasificacion') ? 'none' : "back_button",
 			id: "field",
 			value: 'Clasificación',
-			onclick: "load_clasificacion('" + cod_grupo + "','" + codigo_equipo + "')"
+			onclick: "load_clasificacion('" + cod_grupo + "','" + codigo_equipo + "','" + cod_competicion + "',true," + rfef + ")"
 		});
 		$('#results').append(boton_clasificacion);
 
@@ -139,7 +142,7 @@ function crea_botons(pagina, codigo_equipo, cod_grupo, cod_competicion,rfef=fals
 				class: (pagina == 'resultados') ? 'none' : "back_button",
 				id: "field",
 				value: 'Resultados',
-				onclick: "load_resultados('" + cod_grupo + "','" + codigo_equipo + "','','" + cod_competicion + "',true,"+rfef + ")"
+				onclick: "load_resultados('" + cod_grupo + "','" + codigo_equipo + "','','" + cod_competicion + "',true," + rfef + ")"
 			});
 			$('#results').append(boton_resultados);
 
@@ -148,7 +151,7 @@ function crea_botons(pagina, codigo_equipo, cod_grupo, cod_competicion,rfef=fals
 				class: (pagina == 'clasificacion') ? 'none' : "back_button",
 				id: "field",
 				value: 'Clasificación',
-				onclick: "load_clasificacion('" + cod_grupo + "','" + codigo_equipo + "','" + cod_competicion + "',true,"+rfef + ")"
+				onclick: "load_clasificacion('" + cod_grupo + "','" + codigo_equipo + "','" + cod_competicion + "',true," + rfef + ")"
 			});
 			$('#results').append(boton_clasificacion);
 
@@ -446,15 +449,24 @@ function show_error(data) {
 	$('#other_msg').html('');
 	try {
 		var msg = '<small>'
-		if ('src_origin' in data['data']) {
-			msg += data['data']['src_origin'];
-			if ('src_date' in data['data']) {
-				msg += ', ' + data['data']['src_date'];
-			}
-		}
 		if ('source' in data) {
-			msg += ' (' + data['source'] + ')';
+			msg += data['source'];
+			if ('src_date' in data['data']) {
+				const date = new Date(data['data']['src_date'] * 1000);
+				const humanDate = date.toLocaleString('es-ES');
+				msg += ', ' + humanDate;
+			} else if ('timestamp' in data) {
+				const date = new Date(data['timestamp'] * 1000);
+				const humanDate = date.toLocaleString('es-ES');
+				msg += ', ' + humanDate;
+			}
+			if (data['source'] == 'cache' && 'cached_time' in data) {
+				msg += ' (' + data['cached_time'] + " min cache)";
+			}
+		} else if ('src_origin' in data['data']) {
+			msg += data['data']['src_origin'];
 		}
+
 		msg += '</small>';
 		$('#other_msg').html(msg);
 	} catch (ex) {

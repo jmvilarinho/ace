@@ -42,7 +42,7 @@ async function load_equipo_home(cod_equipo) {
 	hideLoading();
 }
 
-function show_equipo(data, cod_equipo) {
+function show_equipo(data, cod_equipo,rfef=false) {
 	lineas = 0;
 	$('#results').append('<br>');
 	jQuery.each(data.competiciones_equipo, function (index, item) {
@@ -61,6 +61,8 @@ function show_equipo(data, cod_equipo) {
 			onclick: "load_clasificacion('" + item.cod_grupo + "','" + data.codigo_equipo + "')"
 		});
 		$('#results').append(boton_clasificacion);
+		console.log("load_clasificacion('" + item.cod_grupo + "','" + data.codigo_equipo + "')");
+
 
 		var boton_goleadores = $('<input/>').attr({
 			type: "button",
@@ -70,6 +72,7 @@ function show_equipo(data, cod_equipo) {
 			onclick: "load_goleadores('" + item.cod_competicion + "','" + item.cod_grupo + "','" + data.codigo_equipo + "')"
 		});
 		$('#results').append(boton_goleadores);
+
 
 
 		$('#results').append('<table border >');

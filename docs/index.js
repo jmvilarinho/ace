@@ -55,6 +55,11 @@ function CambiaVistaUpdate(pagina) {
 	});
 	$("#OtherPage").html('');
 
+	document.getElementById("data_prevision").innerHTML = ""
+	document.getElementById("data_prevision_municipio").innerHTML = ""
+	document.getElementById("data_mareas").innerHTML = ""
+
+
 	var boton_favoritos = $('<input/>').attr({
 		type: "button",
 		class: (pagina == 'praias') ? 'none' : "back_button",
@@ -359,10 +364,10 @@ function getPrevision(id, element, idmareas = 0) {
 	console.log('Get prevision playa: ' + proxyHost + url);
 
 	fetch(proxyHost + url)
-		.then(async  response => {
-			const body =  await response.text();
+		.then(async response => {
+			const body = await response.text();
 			//console.log('Response status: ' + body);
-			if ( body == "Internal Server Error"){
+			if (body == "Internal Server Error") {
 				noPrevision(element, idmareas, 'Timeout obtendo previsión, inténtao máis tarde');
 				return false;
 			}

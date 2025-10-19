@@ -29,6 +29,7 @@ async function load_portada(cod_equipo, addHistory = true, rfef = false, codgrup
 		})
 		.then(data => {
 			if (data) {
+				//console.log(data);
 				show_error(data);
 				$('#results').html('');
 				if ('src_url' in data['data']) {
@@ -49,7 +50,7 @@ async function load_portada(cod_equipo, addHistory = true, rfef = false, codgrup
 }
 
 async function load_tv_player(url) {
-	var url_search = 'https://streamer-cdn.ott.tiivii.com/v2/sgca/ott_tiivii/search?sort=-created_on&page=1&limit=100&searchin=title,tags&filter[status]=published&filter[value][contains]=Jogafan%20Ordes%20FS';
+	var url_search = 'https://streamer-cdn.ott.tiivii.com/v2/sgca/ott_tiivii/search?sort=-created_on&page=1&limit=100&searchin=title,tags&filter[status]=published&filter[value][contains]=Jogafan';
 
 	await fetch(url_search)
 		.then(response => {
@@ -155,7 +156,7 @@ function show_portada_equipo(data, cod_equipo, rfef = false) {
 			});
 			$('#results').append(boton_plantilla);
 		}
-		crea_botons('portada', cod_equipo, item.cod_grupo, item.cod_competicion);
+		crea_botons('portada', cod_equipo, item.cod_grupo, item.cod_competicion,rfef);
 
 		ultima = item.ultima_jornada_jugada;
 		cont = 0;

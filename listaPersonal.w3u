@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 22/10/2025 20:01:10",
+    "author": "Vila - 22/10/2025 20:20:11",
     "info": "Canales extraidos de Telegram",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -2480,6 +2480,11 @@
         {
             "name": "Lista Ramses",
             "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/lista-ramses.m3u",
+            "embed": "true"
+        },
+        {
+            "name": "Lista iptv",
+            "url": "https://ipfs.io/ipns/k2k4r8oqlcjxsritt5mczkcn4mmvcmymbqw7113fz2flkrerfwfps004/data/listas/lista_iptv.m3u",
             "embed": "true"
         },
         {

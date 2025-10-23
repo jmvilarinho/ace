@@ -739,8 +739,6 @@ https://origin.streamup.eu/sportitaliain/sisolocalcio/playlist.m3u8
 https://origin.streamup.eu/sportitaliain/silive24/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/tgla7/picture?width=200&height=200" group-title="Int. Europa" tvg-name="La7 Italia",La7 Italia IT
 https://d1chghleocc9sm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-evfku205gqrtf/Live.m3u8
-#EXTINF:-1 tvg-logo="https://graph.facebook.com/la7fb/picture?width=200&height=200" group-title="Int. Europa" tvg-name="La7d Italia",La7d Italia IT
-https://d15umi5iaezxgx.cloudfront.net/LA7D/CLN/HLS-B/Live.m3u8
 #EXTINF:-1 tvg-id="DW.TV" tvg-logo="https://graph.facebook.com/dw.espanol/picture?width=200&height=200" group-title="Int. Europa" tvg-name="DW Alemania",DW Alemania
 https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8
 #EXTINF:-1 tvg-id="DW.TV" tvg-logo="https://graph.facebook.com/dw.espanol/picture?width=200&height=200" group-title="Int. Europa" tvg-name="DW Alemania",DW Alemania EN

@@ -1,7 +1,7 @@
 {
     "name": "Canales Acestream - PC",
-    "author": "Vila - 23/10/2025 13:32:34",
-    "info": "Canales preparados para ver co PC encendido",
+    "author": "Vila - 23/10/2025 13:41:05",
+    "info": "Canales para ver co PC encendido",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPC.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
     "telegram": "vikinko21",
@@ -2471,36 +2471,6 @@
                     "embed": "false"
                 }
             ]
-        },
-        {
-            "name": "Listas IPTV",
-            "url": "https://iptv-org.github.io/iptv/index.m3u",
-            "embed": "true"
-        },
-        {
-            "name": "Lista Ramses",
-            "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/lista-ramses.m3u",
-            "embed": "true"
-        },
-        {
-            "name": "Lista iptv",
-            "url": "https://ipfs.io/ipns/k2k4r8oqlcjxsritt5mczkcn4mmvcmymbqw7113fz2flkrerfwfps004/data/listas/lista_iptv.m3u",
-            "embed": "true"
-        },
-        {
-            "name": "Mega Lista Zeronet",
-            "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/lista-megalista.m3u",
-            "embed": "true"
-        },
-        {
-            "name": "Chuky",
-            "url": "https://drive.google.com/uc?export=download&id=1Wkta2yu_vp-TehAYmN4iGyh0igktB3dx",
-            "embed": "true"
-        },
-        {
-            "name": "TDT",
-            "url": "https://www.tdtchannels.com/lists/tv.m3u8",
-            "embed": "true"
         }
     ]
 }

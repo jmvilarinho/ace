@@ -69,8 +69,8 @@ function update_vista(url = '') {
 				load_favoritos(false);
 		}
 	} else {
-		//load_favoritos(false);
-		load_calendario(false);
+		load_favoritos(false);
+		//load_calendario(false);
 	}
 
 }

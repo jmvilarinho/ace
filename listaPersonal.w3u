@@ -1,6 +1,6 @@
 {
     "name": "Canales Acestream",
-    "author": "Vila - 28/10/2025 20:02:56",
+    "author": "Vila - 29/10/2025 11:02:52",
     "info": "Canales extraidos de Telegram por Vila",
     "url": "https://raw.githubusercontent.com/jmvilarinho/ace/main/listaPersonal.w3u",
     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/vila.png",
@@ -1663,6 +1663,18 @@
                 {
                     "name": "M+ LALIGA 4 FHD --> ELCANO",
                     "url": "acestream://68697ea4f261289d97bbc3418ad3cbc4180aa32f",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-4.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M. LaLiga 4 1080",
+                    "url": "acestream://2a6b1fd8a24b23747db1ea534a51457708523602",
+                    "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-4.png",
+                    "embed": "false"
+                },
+                {
+                    "name": "M. LaLiga 4 720",
+                    "url": "acestream://1bcee22d5476f2eae9dc2cb24e3685152cf285cb",
                     "image": "https://raw.githubusercontent.com/jmvilarinho/ace/main/images/tv-station-movistar-laliga-4.png",
                     "embed": "false"
                 }

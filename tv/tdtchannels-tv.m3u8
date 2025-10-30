@@ -33,11 +33,11 @@ https://euronews-live-spa-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b74
 #EXTINF:-1 tvg-id="324.TV" tvg-logo="https://pbs.twimg.com/profile_images/1968163923477098496/blka6O_j_200x200.jpg" group-title="Informativos" tvg-name="3Cat Info",3Cat Info
 https://directes-tv-int.3catdirectes.cat/live-content/canal324-hls/master.m3u8
 #EXTINF:-1 tvg-id="ElPais.TV" tvg-logo="https://graph.facebook.com/elpais/picture?width=200&height=200" group-title="Informativos" tvg-name="El País",El País
-https://d2xqbi89ghm9hh.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-79fx3huimw4xc-ssai-prd/fast-channel-el-pais.m3u8
+https://d2uerfl96fh0y6.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-98b4w85lugvp4/fast-channel-el-pais/fast-channel-el-pais.m3u8
 #EXTINF:-1 tvg-id="Negocios.TV" tvg-logo="https://pbs.twimg.com/profile_images/1321367703731523584/bNMmbetI_200x200.jpg" group-title="Informativos" tvg-name="Negocios TV",Negocios TV
 https://streaming013.gestec-video.com/hls/negociostv.m3u8
 #EXTINF:-1 tvg-id="ElConfidencial.TV" tvg-logo="https://graph.facebook.com/elconfidencial/picture?width=200&height=200" group-title="Informativos" tvg-name="El Confidencial",El Confidencial
-https://daqnsnf5phf17.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-sde7fypd1420w-prod/fast-channel-elconfidencial/fast-channel-elconfidencial.m3u8
+https://dgrfwaj8stp69.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-hmbd9k13g6zsa/live/fast-channel-elconfidencial/fast-channel-elconfidencial.m3u8
 #EXTINF:-1 tvg-id="TDP.TV" tvg-logo="https://graph.facebook.com/teledeporteRTVE/picture?width=200&height=200" group-title="Deportivos" tvg-name="Teledeporte",Teledeporte GEO
 https://ztnr.rtve.es/ztnr/1712295.m3u8
 #EXTINF:-1 tvg-id="TDP.TV" tvg-logo="https://graph.facebook.com/teledeporteRTVE/picture?width=200&height=200" group-title="Deportivos" tvg-name="Teledeporte",Teledeporte GEO
@@ -332,8 +332,6 @@ http://amaru.dyndns.org:8870/0.m3u8
 https://cloudvideo.servers10.com:8081/8028/index.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/estecanaltv/picture?width=200&height=200" group-title="Canarias" tvg-name="Este Canal TV",Este Canal TV
 http://synclosdragos1.syncsolutions.es:8008/live3/emision/index.m3u8
-#EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/PtKUt1kIMJH8aq1AWMN82QlG6do2DUsysnHNaGRydld9v2FD8GysnhJTE7Vl_bKe84e2Urol=s200" group-title="Canarias" tvg-name="Radio Televisión Sur Fuerteventura",Radio Televisión Sur Fuerteventura
-https://tvonline.rtsfuerteventura.es
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/noroestetvladesiempre/picture?width=200&height=200" group-title="Canarias" tvg-name="Noroeste TV",Noroeste TV
 #EXTVLCOPT:http-referrer=https://player.castr.com/
 https://stream.castr.com/5d1f649bed75c92e40481734/live_19364d50fbcd11ed91bd012c3488eabc/index.fmp4.m3u8
@@ -761,9 +759,9 @@ https://mcdn.br.de/br/fs/bfs_sued/hls/int/master.m3u8
 https://hr-live.ard-mcdn.de/hr/live/hls/de/master.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/SRinfo.sr/picture?width=200&height=200" group-title="Int. Europa" tvg-name="SR Saarland Alemania",SR Saarland Alemania DE
 https://srfs.akamaized.net/hls/live/689649/srfsgeo/index.m3u8
-#EXTINF:-1 tvg-logo="https://graph.facebook.com/skynews/picture?width=200&height=200" group-title="Int. Europa" tvg-name="Sky News UK",Sky News UK EN
+#EXTINF:-1 tvg-logo="https://graph.facebook.com/skynews/picture?width=200&height=200" group-title="Int. Europa" tvg-name="Sky News Reino Unido",Sky News Reino Unido EN
 https://linear417-gb-hls1-prd-ak.cdn.skycdp.com/100e/Content/HLS_001_1080_30/Live/channel(skynews)/index_1080-30.m3u8
-#EXTINF:-1 tvg-logo="https://graph.facebook.com/GBNewsOnline/picture?width=200&height=200" group-title="Int. Europa" tvg-name="GB News UK",GB News UK EN
+#EXTINF:-1 tvg-logo="https://graph.facebook.com/GBNewsOnline/picture?width=200&height=200" group-title="Int. Europa" tvg-name="GB News Reino Unido",GB News Reino Unido EN
 https://amg01076-lightningintern-gbnews-samsunguk-0lu52.amagi.tv/playlist/amg01076-lightningintern-gbnews-samsunguk/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/LN24LesNews24/picture?width=200&height=200" group-title="Int. Europa" tvg-name="LN24 Bélgica",LN24 Bélgica FR
 https://live-ln24.digiteka.com/1911668011/index.m3u8
@@ -879,7 +877,7 @@ https://d39cdj6x0ssnqk.cloudfront.net/out/v1/ae3f5ad3ac9d4bcfbedc1894a62782b4/in
 https://ott.streann.com/loadbalancer/services/public/channels-secure/5d23d5882cdce61dae029fd8/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/oromartv/picture?width=200&height=200" group-title="Int. América" tvg-name="Oromar TV Ecuador",Oromar TV Ecuador
 https://stream.oromar.tv/hls/oromartv_hi/index.m3u8
-#EXTINF:-1 tvg-logo="https://graph.facebook.com/patboliviahd/picture?width=200&height=200" group-title="Int. América" tvg-name="Red Pat Bolivia",Red Pat Bolivia
+#EXTINF:-1 tvg-logo="https://graph.facebook.com/patboliviahd/picture?width=200&height=200" group-title="Int. América" tvg-name="Pat Bolivia",Pat Bolivia
 https://www.redpat.tv/proxy/index.m3u8
 #EXTINF:-1 tvg-id="Cubavision.TV" tvg-logo="https://graph.facebook.com/CubavisionInternacional/picture?width=200&height=200" group-title="Int. América" tvg-name="Cubavisión TV",Cubavisión TV
 #EXTVLCOPT:http-referrer=https://teveo.cu/live/video/AKDdWvMTYzfsfnNJ/embed?auto=true
@@ -893,23 +891,23 @@ https://cloudvideo.servers10.com:8081/8130/index.m3u8
 https://mdstrm.com/live-stream-playlist/5a7b1e63a8da282c34d65445.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/wiprtv/picture?width=200&height=200" group-title="Int. América" tvg-name="WIPR Puerto Rico",WIPR Puerto Rico
 https://streamwipr.pr/hls/stream/index.m3u8
-#EXTINF:-1 tvg-id="CGTN.TV" tvg-logo="https://graph.facebook.com/cgtnenespanol/picture?width=200&height=200" group-title="Int. Asia" tvg-name="CGTN",CGTN
+#EXTINF:-1 tvg-id="CGTN.TV" tvg-logo="https://graph.facebook.com/cgtnenespanol/picture?width=200&height=200" group-title="Int. Asia" tvg-name="CGTN China",CGTN China
 https://espanol-livews.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd/playlist.m3u8
-#EXTINF:-1 tvg-id="CGTN.TV" tvg-logo="https://graph.facebook.com/cgtnenespanol/picture?width=200&height=200" group-title="Int. Asia" tvg-name="CGTN",CGTN
+#EXTINF:-1 tvg-id="CGTN.TV" tvg-logo="https://graph.facebook.com/cgtnenespanol/picture?width=200&height=200" group-title="Int. Asia" tvg-name="CGTN China",CGTN China
 https://news.cgtn.com/resource/live/espanol/cgtn-e.m3u8
-#EXTINF:-1 tvg-logo="https://graph.facebook.com/ChinaGlobalTVNetwork/picture?width=200&height=200" group-title="Int. Asia" tvg-name="CGTN News",CGTN News EN
+#EXTINF:-1 tvg-logo="https://graph.facebook.com/ChinaGlobalTVNetwork/picture?width=200&height=200" group-title="Int. Asia" tvg-name="CGTN News China",CGTN News China EN
 https://english-livebkali.cgtn.com/live/encgtn.m3u8
-#EXTINF:-1 tvg-logo="https://graph.facebook.com/ChinaGlobalTVNetwork/picture?width=200&height=200" group-title="Int. Asia" tvg-name="CGTN Documentary",CGTN Documentary EN
+#EXTINF:-1 tvg-logo="https://graph.facebook.com/ChinaGlobalTVNetwork/picture?width=200&height=200" group-title="Int. Asia" tvg-name="CGTN Documentary China",CGTN Documentary China EN
 https://english-livebkali.cgtn.com/live/doccgtn.m3u8
-#EXTINF:-1 tvg-id="AlJQ.TV" tvg-logo="https://graph.facebook.com/aljazeera/picture?width=200&height=200" group-title="Int. Asia" tvg-name="Al Jazeera Qatar",Al Jazeera Qatar EN
+#EXTINF:-1 tvg-id="AlJQ.TV" tvg-logo="https://graph.facebook.com/aljazeera/picture?width=200&height=200" group-title="Int. Asia" tvg-name="Al Jazeera Catar",Al Jazeera Catar EN
 https://live-hls-web-aje.getaj.net/AJE/index.m3u8
-#EXTINF:-1 tvg-id="AlJQ.TV" tvg-logo="https://graph.facebook.com/aljazeera/picture?width=200&height=200" group-title="Int. Asia" tvg-name="Al Jazeera Qatar",Al Jazeera Qatar AR
+#EXTINF:-1 tvg-id="AlJQ.TV" tvg-logo="https://graph.facebook.com/aljazeera/picture?width=200&height=200" group-title="Int. Asia" tvg-name="Al Jazeera Catar",Al Jazeera Catar AR
 https://live-hls-web-aja.getaj.net/AJA/index.m3u8
-#EXTINF:-1 tvg-logo="https://graph.facebook.com/nhkworld/picture?width=200&height=200" group-title="Int. Asia" tvg-name="NHK World Japan",NHK World Japan EN
+#EXTINF:-1 tvg-logo="https://graph.facebook.com/nhkworld/picture?width=200&height=200" group-title="Int. Asia" tvg-name="NHK World Japón",NHK World Japón EN
 https://media-tyo.hls.nhkworld.jp/hls/w/live/master.m3u8
-#EXTINF:-1 tvg-logo="https://graph.facebook.com/ntvnews24/picture?width=200&height=200" group-title="Int. Asia" tvg-name="Nippon News TV Japan",Nippon News TV Japan
+#EXTINF:-1 tvg-logo="https://graph.facebook.com/ntvnews24/picture?width=200&height=200" group-title="Int. Asia" tvg-name="Nippon News TV Japón",Nippon News TV Japón
 https://n24-cdn-live-x.ntv.co.jp/ch01/index.m3u8?
-#EXTINF:-1 tvg-logo="https://graph.facebook.com/arirangtv/picture?width=200&height=200" group-title="Int. Asia" tvg-name="Arirang TV Korea",Arirang TV Korea EN
+#EXTINF:-1 tvg-logo="https://graph.facebook.com/arirangtv/picture?width=200&height=200" group-title="Int. Asia" tvg-name="Arirang TV Corea del Sur",Arirang TV Corea del Sur EN
 https://amdlive-ch01-g-ctnd-com.akamaized.net/arirang_1gch/smil:arirang_1gch.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/AlArabiya/picture?width=200&height=200" group-title="Int. Asia" tvg-name="Al Arabiya Emiratos Árabes",Al Arabiya Emiratos Árabes AR
 https://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8
@@ -977,6 +975,8 @@ https://classicarts.akamaized.net/hls/live/1024257/CAS/master.m3u8
 https://install.akctvcontrol.com/speed/broadcast/138/desktop-playlist.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/WatchAKCTV/picture?width=200&height=200" group-title="Int. Otros" tvg-name="AKC TV Dogs",AKC TV Dogs EN
 https://install.akctvcontrol.com/speed/broadcast/141/desktop-playlist.m3u8
+#EXTINF:-1 tvg-logo="https://graph.facebook.com/ServusTV/picture?width=200&height=200" group-title="Int. Otros" tvg-name="ServusTV WetterPanorama",ServusTV WetterPanorama
+https://rbmn-live.akamaized.net/hls/live/665268/Wetterpanorama/master.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/RedBull/picture?width=200&height=200" group-title="Deportivos Int." tvg-name="Red Bull TV",Red Bull TV EN
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
 #EXTINF:-1 tvg-logo="https://graph.facebook.com/Motorsport.tvUK/picture?width=200&height=200" group-title="Deportivos Int." tvg-name="Motorsport.tv",Motorsport.tv
